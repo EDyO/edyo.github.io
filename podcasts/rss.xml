@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podcasts on Entre Dev Y Ops</title>
+    <link>http://www.entredevyops.es/podcasts.html</link>
+    <description>Recent content in Podcasts on Entre Dev Y Ops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 17 Jan 2018 19:40:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Podcast 35: Git y GitHub, to commit or not to commit</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-35.html</link>
+      <pubDate>Wed, 17 Jan 2018 19:40:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-35.html</guid>
+      <description>&lt;p&gt;En el podcast de hoy hemos hablado sobre sistemas de control de versiones,
+Git, GitHub, algunos conceptos básicos, sus flujos de trabajo, algunos consejos
+y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;En fin, esperamos que os guste!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 34: Blockchain, no sólo criptomonedas</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-34.html</link>
+      <pubDate>Wed, 20 Dec 2017 13:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-34.html</guid>
+      <description>&lt;p&gt;En el &lt;a href=&#34;http://podcast.edyo.es/podcast/edyo-34.mp3&#34; target=&#34;_blank&#34;&gt;episodio de hoy&lt;/a&gt; vamos a hablar de Blockchain, sus orígenes, aplicaciones, cómo funciona, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 33: Hablamos sobre CI/CD</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-33.html</link>
+      <pubDate>Thu, 07 Dec 2017 21:15:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-33.html</guid>
+      <description>&lt;p&gt;En el podcast de hoy hemos hablado sobre CI/CD: intentando explicar que es, requisitos para implementarlo y posibles herramientas a utilizar.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 32: Infraestructura como código (IaC)</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-32.html</link>
+      <pubDate>Sat, 25 Nov 2017 20:20:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-32.html</guid>
+      <description>&lt;p&gt;En el episodio de hoy vamos a hablar de Infraestructura como código (también conocida como IaC).&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 31: La tecnología detrás del CERN</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-31.html</link>
+      <pubDate>Tue, 31 Oct 2017 01:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-31.html</guid>
+      <description>&lt;p&gt;Hoy tenemos con nosotros a un par de invitados que trabajan en un lugar único en el mundo, donde se dedican a acelerar partículas a velocidades lumínicas y luego a colisionarlas para ver qué pasa. No hay que dar muchas más pistas para que sepáis de qué hablamos, no? Sobretodo cuando en el propio título tenéis el spoiler… estamos hablando del Consejo Europeo para la Investigación Nuclear, más conocido como CERN.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 30: Cómo nos mantenemos al día</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-30.html</link>
+      <pubDate>Mon, 23 Oct 2017 17:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-30.html</guid>
+      <description>&lt;p&gt;Hoy os presentamos el episodio 30 de nuestro podcast, analizando cómo nos mantenemos al día en este mundo tan cambiante.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Píldora 1: Analizando la seguridad del web del referendum catalán</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-pildora-1.html</link>
+      <pubDate>Mon, 25 Sep 2017 12:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-pildora-1.html</guid>
+      <description>&lt;p&gt;Hoy os presentamos la píldora 1 de nuestro podcast, analizando el artículo sobre la seguridad de la web del referendum catalán.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 29: Herramientas del día a día</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-29.html</link>
+      <pubDate>Tue, 19 Sep 2017 09:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-29.html</guid>
+      <description>&lt;p&gt;En el episodio 29 del podcast hemos dado respuesta a la petición de un oyente, y os explicamos las herramientas que utilizamos en nuestro día a día: equipos, sistemas operativos, editores, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 28: la tecnología detrás de Entredevyops</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-28.html</link>
+      <pubDate>Sun, 20 Aug 2017 09:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-28.html</guid>
+      <description>&lt;p&gt;Hemos hecho un paréntesis en nuestras vacaciones de verano para ponernos detrás de los micrófonos una vez más y traeros &lt;a href=&#34;http://podcast.edyo.es/podcast/edyo-28.mp3&#34; target=&#34;_blank&#34;&gt;nuestro episodio número 28.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;En esta ocasión os explicamos todas las herramientas (algunas desarrolladas por nosotros) y servicios de terceros que utilizamos.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 27: Comparando AWS y Azure con Javi Moreno</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-27.html</link>
+      <pubDate>Tue, 01 Aug 2017 13:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-27.html</guid>
+      <description>&lt;p&gt;Antes de irnos de vacaciones hemos querido dejaros una pequeña joya, &lt;a href=&#34;http://podcast.edyo.es/podcast/edyo-27.mp3&#34; target=&#34;_blank&#34;&gt;el episodio 27 de nuestro podcast&lt;/a&gt; donde comparamos AWS y Azure con &lt;a href=&#34;https://twitter.com/ciberado&#34; target=&#34;_blank&#34;&gt;Javi Moreno&lt;/a&gt;, Resident Futurist &amp;amp; Evangelist en &lt;a href=&#34;https://www.capside.com/&#34; target=&#34;_blank&#34;&gt;CAPSiDE&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 26: Big Data con José Mena</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-26.html</link>
+      <pubDate>Wed, 14 Jun 2017 13:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-26.html</guid>
+      <description>&lt;p&gt;Ya tenéis disponible &lt;a href=&#34;http://podcast.edyo.es/podcast/edyo-26.mp3&#34; target=&#34;_blank&#34;&gt;el episodio 26 de nuestro podcast&lt;/a&gt; donde hablamos de Big Data con José Mena.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 25: Cómo organizar con éxito un evento como PyData Barcelona 2017</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-25.html</link>
+      <pubDate>Thu, 01 Jun 2017 01:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-25.html</guid>
+      <description>&lt;p&gt;Ya tenéis disponible &lt;a href=&#34;http://podcast.edyo.es/podcast/edyo-25.mp3&#34; target=&#34;_blank&#34;&gt;el episodio 25 de nuestro podcast&lt;/a&gt; donde hablamos sobre la organización del PyData Barcelona 2017.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 24: Especial WannaCry</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-24.html</link>
+      <pubDate>Tue, 23 May 2017 13:30:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-24.html</guid>
+      <description>&lt;p&gt;Ya tenéis disponible &lt;a href=&#34;http://podcast.edyo.es/podcast/edyo-24.mp3&#34; target=&#34;_blank&#34;&gt;el episodio 24 de nuestro podcast&lt;/a&gt; donde hablamos sobre el virus WannaCry.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 23: Vulnerabilidad de Wordpress, generadores de contenido estáticos y Amazon Drive.</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-23.html</link>
+      <pubDate>Thu, 18 May 2017 11:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-23.html</guid>
+      <description>&lt;p&gt;Ya tenéis disponible &lt;a href=&#34;http://podcast.edyo.es/podcast/edyo-23.mp3&#34; target=&#34;_blank&#34;&gt;el episodio 23 de nuestro podcast&lt;/a&gt; donde hablamos de una Vulnerabilidad de Wordpress, comentamos qué son los generadores de contenido estáticos y hacemos una pequeña comparativa entre servicios para almacenar ficheros, destacando a Amazon Drive.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 22: Orchestrate 2017, PyData 2017, Caída s3, Vulnerabilidad de CloudFlare y Vault7</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-22.html</link>
+      <pubDate>Tue, 28 Mar 2017 23:35:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-22.html</guid>
+      <description>&lt;p&gt;En este podcast hablamos de la Orchestrate 2017 y PyData 2017. Por otro lado comentamos la caída S3, la Vulnerabilidad de CloudFlare y el impacto de Vault7.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 21: Debate sobre el incidente en Gitlab</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-21.html</link>
+      <pubDate>Fri, 24 Feb 2017 08:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-21.html</guid>
+      <description>&lt;p&gt;En este podcast debatimos sobre el incidente que el pasado 31 de Enero del 2017 dejó a &lt;a href=&#34;https://gitlab.com&#34; target=&#34;_blank&#34;&gt;Gitlab&lt;/a&gt; sin servicio unos 18 horas.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 20: Entrevista a David Monreal</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-20.html</link>
+      <pubDate>Tue, 29 Nov 2016 10:15:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-20.html</guid>
+      <description>&lt;p&gt;En este episodio entrevistamos a David Monreal, fundador de Skylab Coders Academy, para hablar un poco de formación y aprendizaje.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 19: Serverless</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-19.html</link>
+      <pubDate>Tue, 18 Oct 2016 10:15:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-19.html</guid>
+      <description>&lt;p&gt;En este episodio debatimos sobre serverless: qué es, para qué sirve y diferentes casos de usos. También presentamos dos secciones nuevas: preguntas y recomendaciones.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 18: Entrevista a Xavi Soler</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-18.html</link>
+      <pubDate>Fri, 30 Sep 2016 21:15:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-18.html</guid>
+      <description>&lt;p&gt;Otro episodio listo para descargar de nuestro podcast, en esta ocasión entrevistamos a &lt;a href=&#34;http://xavisb.com&#34; target=&#34;_blank&#34;&gt;Xavier Soler&lt;/a&gt;, Ingeniero de Sistemas en &lt;a href=&#34;https://www.typeform.com&#34; target=&#34;_blank&#34;&gt;Typeform&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 17: ChatOps</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-17.html</link>
+      <pubDate>Wed, 22 Jun 2016 23:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-17.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;Nuevo episodio listo para escuhar de nuestro podcast en el que hemos debatido sobre ChatOps.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 15: Noticias, Bluemix y Github</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-15.html</link>
+      <pubDate>Thu, 24 Mar 2016 23:30:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-15.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;Ya está disponible para escuchar en vuestro reproductor favorito un nuevo episodio de nuestro &lt;a class=&#34;reference external&#34; href=&#34;http://www.entredevyops.es/podcast.html&#34;&gt;podcast&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;En esta ocasión, hablamos sobre novedades en Spotify y Microsoft, y sobre el cloud de IBM, Bluemix, además de otros temas.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 14: Python San Sebastian 2015</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-14.html</link>
+      <pubDate>Thu, 08 Oct 2015 08:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-14.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;En este podcast repasaremos próximos eventos y hablaremos con Alexandre Savio co-organizador de la &lt;a class=&#34;reference external&#34; href=&#34;http://europython.eu&#34;&gt;EuroPython 2015&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://pyss15.pyss.org/en/&#34;&gt;Python San Sebastian 2015&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Como siempre podréis encontrar este, y el resto de episodios, en nuestra sección de &lt;a class=&#34;reference external&#34; href=&#34;http://feedpress.me/edyo&#34;&gt;podcast&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Esperamos que os guste.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 13: EuroPython 2015</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-13.html</link>
+      <pubDate>Fri, 18 Sep 2015 15:14:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-13.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;En este podcast repasaremos próximos eventos, las noticias relevantes de los últimos dos meses y discutiremos sobre temas diversos: grupo de &lt;a class=&#34;reference external&#34; href=&#34;http://www.meetup.com/es/devops-bcn-group/&#34;&gt;DevOps BCN&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://europython.eu&#34;&gt;EuroPython 2015&lt;/a&gt; y &amp;quot;Se busca DevOps&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Esperamos que os guste.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 12: EuroPython 2015</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-12.html</link>
+      <pubDate>Mon, 13 Apr 2015 02:14:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-12.html</guid>
+      <description>En este podcast entrevistamos a los organizadores de la EuroPython 2015. Ésta entrevista fue gravada el día 15 de Marzo, pero por razones técnicas no hemos podido publicarla hasta ahora. En la entrevista también se habla de la enseñanza a investigadores, concretamente de la Software Carpentry.
+Esperamos que os guste.</description>
+    </item>
+    
+    <item>
+      <title>Podcast 11: Cursos Scrum, GHOST y FOSDEM</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-11.html</link>
+      <pubDate>Mon, 16 Feb 2015 22:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-11.html</guid>
+      <description>En este podcast hablamos del Curso Scrum, DevOps y Lean IT en la UPC 17 Marzo y del Curso oficial Scrum.org en itnove 26 Marzo, pero también de la nueva vulnerabilidad GHOST, y de cómo fue la FOSDEM.
+Esperamos que os guste.</description>
+    </item>
+    
+    <item>
+      <title>Podcast 10: Eventos, EuroPython y FOSDEM</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-10.html</link>
+      <pubDate>Tue, 27 Jan 2015 20:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-10.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;En este podcast tratamos sobre eventos. Explicamos los Conding Dojos que organiza pyBCN de manera regular en Barcelona, la EuroPython 2015 que será en Bilbao el próximo Julio y el Fosdem 2015 que se celebrará el día 30/01 y 01/02 en Bruselas.&lt;/p&gt;
+&lt;p&gt;Sobre este último aprovechamos para daros unos consejos que, si estáis pensado en acudir, os pueden ser útiles.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 9: Conferencias y Microservicios</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-9.html</link>
+      <pubDate>Wed, 31 Dec 2014 18:46:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-9.html</guid>
+      <description>Acabamos de publicar el noveno episodio de nuestro podcast, el último del año, por los pelos!!!!
+En él, encontraréis algunos comentarios sobre las conferencias que tuvieron lugar durante Noviembre, en Barcelona, como la VelocityConf, y hablaremos un poco sobre los microservicios.</description>
+    </item>
+    
+    <item>
+      <title>Podcast 8: Shellshock y Poodle</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-8.html</link>
+      <pubDate>Sun, 23 Nov 2014 21:04:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-8.html</guid>
+      <description>Aunque con algo de retraso, os anunciamos la disponibilidad del octavo episodio de nuestro podcast, que publicamos hace unos días.
+Tras la publicación de las vulnerabilidades Shellshock y Poodle, grabamos un debate sobre las vulnerabilidades y la reacción a ellas, que os ofrecemos en este episodio.</description>
+    </item>
+    
+    <item>
+      <title>Podcast 7: Entrevista a Josep Pla</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-7.html</link>
+      <pubDate>Thu, 16 Oct 2014 01:14:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-7.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;Hoy hemos publicado el episodio número 7 de nuestro podcast. Esta vez nos hemos pasado un poco y el episodio es un poco largo, prometemos no repetirlo en el futuro, o partirlo en dos.&lt;/p&gt;
+&lt;p&gt;En esta ocasión hemos entrevistado a Josep Pla, administrador de sistemas en &lt;a class=&#34;reference external&#34; href=&#34;http://www.upptalk.com/&#34;&gt;Upptalk&lt;/a&gt;, sobre algunas herramientas que usan, entre otros temas.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Podcast 6: Entrevista a David Poblador</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-episodio-6.html</link>
+      <pubDate>Sun, 28 Sep 2014 19:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-episodio-6.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;El pasado 25 de Agosto publicamos el episodio número 6 de nuestro podcast.&lt;/p&gt;
+&lt;p&gt;En esta última entrada tenemos el placer de realizar una entrevista a &lt;a class=&#34;reference external&#34; href=&#34;https://davidpoblador.com/&#34;&gt;David Poblador&lt;/a&gt;, jefe de SRE de &lt;a class=&#34;reference external&#34; href=&#34;https://www.spotify.com&#34;&gt;Spotify&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

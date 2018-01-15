@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crónica on Entre Dev Y Ops</title>
+    <link>http://www.entredevyops.es/tags/cr%C3%B3nica.html</link>
+    <description>Recent content in Crónica on Entre Dev Y Ops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Fri, 17 Feb 2017 10:35:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.entredevyops.es/tags/cr%C3%B3nica/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>#TrueStories que no me contó ningún amigo</title>
+      <link>http://www.entredevyops.es/posts/true-stories.html</link>
+      <pubDate>Fri, 17 Feb 2017 10:35:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/true-stories.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/669fab80-f108-11e6-8519-f9af43643c67.jpg&#39; alt=&#39;Mitsakes&#39; class=&#39;align-left height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
+
+&lt;p&gt;Son muchas las citas y reflexiones que se han dicho y escrito sobre los errores y sus consecuencias.
+Nadie está exento de equivocarse, pero aprender de esos mismos errores es aquello que permite mejorar y avanzar.&lt;/p&gt;
+
+&lt;p&gt;Reflexionar partiendo de errores que se han cometido, por nosotros mismos o otros; Identificar causas, medidas, incluso otros errores cometidos en su resolución, es una tarea difícil y, a veces, dura.
+Pero resistirse a hacerlo por &lt;s&gt;el orgullo de algunos&lt;/s&gt; cualquier motivo, es un error mucho mayor que cualquier otro.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Viaje a la FOSDEM 2015</title>
+      <link>http://www.entredevyops.es/posts/fosdem-2015.html</link>
+      <pubDate>Wed, 11 Feb 2015 12:05:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/fosdem-2015.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;Logo del FOSDEM&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/fosdem.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;
+&lt;p&gt;Como muchos ya sabréis, solemos ir cada año a la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt;, que tiene lugar el primer fin de semana de Febrero en Bruselas. No vamos a ponernos a explicar qué es la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt;, hemos hablado mucho describiéndola, tanto en nuestros podcasts, como en nuestros posts, como en muchos otros lugares... Tampoco vamos a explicaros que hizo mucho frío, que hubo mucha gente, o que bebimos mucha cerv..., digooooo, que hizo mucho frío, que hubo mucha gente, ...&lt;/p&gt;
+&lt;p&gt;Podríamos contaros que apareció por ahí &lt;a class=&#34;reference external&#34; href=&#34;https://stallman.org/&#34;&gt;Richard Stallman&lt;/a&gt; repartiendo &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/images/octavilla_Stallman_FOSDEM_2015.jpg&#34;&gt;octavillas&lt;/a&gt; destacando que la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; había dejado de definirse como un evento de software libre, o que hubo bastante barullo sobre el establecimiento de un &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/fosdem/status/561885201383821312&#34;&gt;código de conducta&lt;/a&gt; para la siguiente edición... No obstante, como sabemos lo que os importa, os detallamos, en este artículo, algunas de las charlas que más nos gustaron.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>512000 es el número que se contará...</title>
+      <link>http://www.entredevyops.es/posts/512000-numero-contara.html</link>
+      <pubDate>Wed, 13 Aug 2014 20:30:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/512000-numero-contara.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;...y el número de la cuenta será 512000.&lt;/p&gt;
+&lt;p&gt;Hecho el obligatorio homenaje a la &lt;a class=&#34;reference external&#34; href=&#34;https://www.youtube.com/watch?v=MPzWtI6uaJk&amp;amp;t=2m16s&#34;&gt;Santa Granada de Antioquía&lt;/a&gt; de los Monty Python, pongámonos serios y veamos por qué dedicamos un artículo a este número.&lt;/p&gt;
+&lt;p&gt;¿Os iba mal Internet ayer? No estabais solos. En algún momento de la mañana empezaron a haber problemas graves en la mayoría de los ISPs de todo el mundo, que afectaron tanto a empresas como a particulares.&lt;/p&gt;
+&lt;p&gt;El mundo de la tecnología está lleno de ejemplos de diseños que, o bien por limitaciones del momento, o bien por no imaginar crecimientos exponenciales, provocan problemas de escalabilidad en el futuro; algunos de los más conocidos son el &lt;strong&gt;efecto 2000&lt;/strong&gt; o el &lt;strong&gt;agotamiento de direcciones IPv4&lt;/strong&gt;. A esta lista de umbrales superados ya podemos añadir uno nuevo: ayer, por primera vez en la historia, se superaron las &lt;strong&gt;512000 entradas en la tabla de rutas de Internet&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;No obstante, antes de seguir hablando de dicha tabla necesitamos hablar de cómo está organizado Internet.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>FOSDEM 2014 - Crónica de un viaje al Open Source</title>
+      <link>http://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html</link>
+      <pubDate>Wed, 19 Feb 2014 20:22:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;Logo del FOSDEM&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/fosdem.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;
+&lt;p&gt;Como ya viene siendo tradición, el equipo completo de EDyO tiene una cita obligada con el más importante evento de Software Libre que se produce en Europa: el Free Open source Software Developers European Meeting (FOSDEM).&lt;/p&gt;
+&lt;p&gt;En este post no me voy a centrar en las conferencias en si (que seguro que mis compañeros de blog nos regalarán más de un articulo sobre las charlas más destacadas), sino sobre los pormenores del viaje y de lo que pasa más allá de dicho evento.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

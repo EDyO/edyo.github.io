@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Viaje on Entre Dev Y Ops</title>
+    <link>http://www.entredevyops.es/tags/viaje.html</link>
+    <description>Recent content in Viaje on Entre Dev Y Ops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 11 Feb 2015 12:05:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.entredevyops.es/tags/viaje/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Viaje a la FOSDEM 2015</title>
+      <link>http://www.entredevyops.es/posts/fosdem-2015.html</link>
+      <pubDate>Wed, 11 Feb 2015 12:05:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/fosdem-2015.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;Logo del FOSDEM&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/fosdem.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;
+&lt;p&gt;Como muchos ya sabréis, solemos ir cada año a la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt;, que tiene lugar el primer fin de semana de Febrero en Bruselas. No vamos a ponernos a explicar qué es la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt;, hemos hablado mucho describiéndola, tanto en nuestros podcasts, como en nuestros posts, como en muchos otros lugares... Tampoco vamos a explicaros que hizo mucho frío, que hubo mucha gente, o que bebimos mucha cerv..., digooooo, que hizo mucho frío, que hubo mucha gente, ...&lt;/p&gt;
+&lt;p&gt;Podríamos contaros que apareció por ahí &lt;a class=&#34;reference external&#34; href=&#34;https://stallman.org/&#34;&gt;Richard Stallman&lt;/a&gt; repartiendo &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/images/octavilla_Stallman_FOSDEM_2015.jpg&#34;&gt;octavillas&lt;/a&gt; destacando que la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; había dejado de definirse como un evento de software libre, o que hubo bastante barullo sobre el establecimiento de un &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/fosdem/status/561885201383821312&#34;&gt;código de conducta&lt;/a&gt; para la siguiente edición... No obstante, como sabemos lo que os importa, os detallamos, en este artículo, algunas de las charlas que más nos gustaron.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>FOSDEM 2014 - Crónica de un viaje al Open Source</title>
+      <link>http://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html</link>
+      <pubDate>Wed, 19 Feb 2014 20:22:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;Logo del FOSDEM&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/fosdem.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;
+&lt;p&gt;Como ya viene siendo tradición, el equipo completo de EDyO tiene una cita obligada con el más importante evento de Software Libre que se produce en Europa: el Free Open source Software Developers European Meeting (FOSDEM).&lt;/p&gt;
+&lt;p&gt;En este post no me voy a centrar en las conferencias en si (que seguro que mis compañeros de blog nos regalarán más de un articulo sobre las charlas más destacadas), sino sobre los pormenores del viaje y de lo que pasa más allá de dicho evento.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

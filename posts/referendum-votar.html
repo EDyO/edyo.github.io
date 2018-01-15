@@ -1,0 +1,561 @@
+
+<!DOCTYPE html>
+<html lang="es-es">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <meta property="og:title" content=" Referendum 1-O: ¿Dónde votar? &middot;  Entre Dev Y Ops" />
+        <meta property="og:site_name" content="Entre Dev Y Ops" />
+        <meta property="og:url" content="http://www.entredevyops.es/posts/referendum-votar.html" />
+
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2017-09-22T22:00:00Z" />
+        <meta property="og:article:tag" content="Seguridad" />
+        <meta property="og:article:tag" content="JavaScript" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@EntreDevYOps" />
+        <meta name="twitter:creator" content="@EntreDevYOps" />
+        <meta name="twitter:title" content="Referendum 1-O: ¿Dónde votar?" />
+        
+        <meta name="twitter:description" content="" />
+        <meta name="twitter:url" content="http://www.entredevyops.es/posts/referendum-votar.html" />
+    
+
+        <title> Referendum 1-O: ¿Dónde votar? &middot;  Entre Dev Y Ops</title>
+
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="preload" href="/js/main.js" as="script" />
+        <link rel="preload" href="/css/main.css" as="style" />
+        
+        
+            <link rel="shortcut icon" href="/images/edyo-icon.png" />
+        
+
+
+    
+        <meta name="description" content="El podcast en el que hablamos sobre desarrollo de aplicaciones, operaciones de sistemas informáticos y todo lo relacionado con la filosofía DevOps" />
+    
+
+    
+        <meta name="p:domain_verify" content=""/>
+    
+
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+    
+        <link href="http://www.entredevyops.es/index.xml" rel="alternate" type="application/rss+xml" title="Entre Dev Y Ops" />
+    
+
+    
+        <link rel="canonical" href="http://www.entredevyops.es/posts/referendum-votar.html" />
+
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "http://www.entredevyops.es/posts/referendum-votar.html"
+        },
+        "headline": "Referendum 1-O: ¿Dónde votar?",
+        "description": "",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "http://www.entredevyops.es/",
+          "name": "Entre Dev Y Ops",
+          "url": "http://www.entredevyops.es/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        
+        "image": {
+          "@type": "ImageObject",
+          "url": "",
+          "height": 80,
+          "width": 80
+        },
+        "datePublished": "2017-09-22",
+        "dateModified": "2017-09-22",
+        "wordCount": 1787,
+        "keywords": ["Seguridad","JavaScript"] 
+    }
+    </script>
+
+
+    
+    <script type="text/javascript">
+    
+    
+      var disqus_shortname = 'edyo';
+      var disqus_identifier = 'http:\/\/www.entredevyops.es\/posts\/referendum-votar.html';
+      var disqus_title = 'Referendum 1-O: ¿Dónde votar?';
+      var disqus_url = 'http:\/\/www.entredevyops.es\/posts\/referendum-votar.html';
+    
+    </script>
+    
+
+    <script type="text/javascript">
+      var config = {
+        baseUrl: "http:\/\/www.entredevyops.es\/"
+      };
+    </script>
+
+    <style>
+html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,figure,footer,header,main,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figure{margin:1em 40px}a{background-color:transparent;-webkit-text-decoration-skip:objects}img{border-style:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:300;src:local("Merriweather Sans Light"),local(MerriweatherSans-Light),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowY_zIojJi0m4a5Z6tRh6itY.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:400;src:local("Merriweather Sans Regular"),local(MerriweatherSans-Regular),url(//fonts.gstatic.com/s/merriweathersans/v5/AKu1CjQ4qnV8MUltkAX3sL2aU247V0zTzydO4RoO9Ok.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:700;src:local("Merriweather Sans Bold"),local(MerriweatherSans-Bold),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowQfd-b-I5PxxcmB4_-MNcqw.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:800;src:local("Merriweather Sans ExtraBold"),local(MerriweatherSans-ExtraBold),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowWT7sFQ1Iz1BbpcuCPlgc9Q.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:300;src:local("Merriweather Sans Light Italic"),local(MerriweatherSans-LightItalic),url(//fonts.gstatic.com/s/merriweathersans/v5/nAqt4hiqwq3tzCecpgPmVX9UU5BmOJGkLxUCVv5VXdc.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:400;src:local("Merriweather Sans Italic"),local(MerriweatherSans-Italic),url(//fonts.gstatic.com/s/merriweathersans/v5/3Mz4hOHzs2npRMG3B1ascf0KIgDhPIHb_R-SWdtqte8.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:700;src:local("Merriweather Sans Bold Italic"),local(MerriweatherSans-BoldItalic),url(//fonts.gstatic.com/s/merriweathersans/v5/nAqt4hiqwq3tzCecpgPmVYM8pfYvjMoOxygpzLVILAs.woff) format("woff")}@font-face {font-family: 'Aldrich';font-style: normal;font-weight: 400;src: local('Aldrich Regular'), local('Aldrich-Regular'), url('//fonts.gstatic.com/s/aldrich/v8/j-NnyokbAnhXANS2iZ6Jew.woff2') format('woff2');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;font-style:normal}[class^="icon-"]:before{font-family:"icons";font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-arrow-right:before{content:'\e807'}.icon-rss:before{content:'\e808'}body{font:300 1em / 1.5em 'Merriweather Sans',sans-serif;color:#595B66}a{color:inherit;text-decoration:none;font-weight:400}h1,h2{text-rendering:optimizeLegibility;color:#1F2026}h2 a{font-weight:inherit}h1{font-size:2em;line-height:1em;margin:2em 0 -.5em}h2{font-size:1.75em;line-height:1.143em;margin:2.286em 0 -.571em}p{margin:2em auto}i{font-weight:400;font-style:italic;color:#363740}img{display:block;max-width:100%;height:auto;margin:2.5em auto}body{background:#fff}.inner{max-width:48em;margin:0 auto;padding:0 1em}#wrapper{position:relative;box-sizing:border-box;width:100%;min-height:100vh;padding-bottom:6em;background:#F2F3F5}#push{transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#nav{position:relative;background:#fff;z-index:70;transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#nav:after{clear:both;content:'';display:table}#nav .nav-logo{float:left;height:2em;padding:1em;max-width:50%}#nav .nav-logo img{width:auto;max-width:none;height:2em;margin:0;border-radius:5px}#nav .nav-menu{float:right}#nav .nav-menu:after{clear:both;content:'';display:table}#nav .nav-menu a{display:block;width:1em;height:1em;line-height:1em;padding:1.5em;text-align:center;float:left}#nav .nav-menu a i:before{margin:auto}.overlay{display:none;position:fixed;left:0;top:0;width:100%;height:100%;z-index:80;display:none}.overlay:before{content:'';position:absolute;left:0;top:0;width:100%;height:100%;background:#1F2026;opacity:0;transform-style:preserve-3d}#header{position:relative;padding:4em 0}#header .inner{position:relative;z-index:2}#header .header-title{display:block;text-align:center}#header .header-name{font-family: Aldrich, sans-serif;font-weight:700;letter-spacing:-1px;display:block;line-height:1em;font-size:2em;text-decoration:none;color:#1F2026;padding:0;margin:0}#header.has-cover .header-name{color:#fff}#header .header-description{display:block;margin:1em auto 0;color:#9D9FA6;position:relative;font-weight:300}#header .header-description:after{content:'';position:absolute;height:1px;width:100px;margin-left:-50px;left:50%;top:-.5em;background:#D4D5D9}#header.has-cover .header-description{color:#fff}#header.has-cover .header-description:after{background:#fff}#header .header-cover{position:absolute;width:100%;height:100%;top:0;left:0;margin-top:-4em;padding:4em 0;background:no-repeat fixed center 100% / cover;z-index:1}#header .header-cover:before{content:'';position:absolute;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,0.2)}#header .header-cover:after{content:'';position:absolute;width:100%;left:0;bottom:0;border-bottom:4px solid #19A0D7}#footer{position:absolute;width:100%;left:0;bottom:0;font-size:.75em;line-height:1.334em;background:#1F2026;color:#737580;z-index:20;transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#footer a{color:#9D9FA6;font-weight:400}#footer .credits{text-align:center;font-size:.75em;line-height:1.334em;padding:2.667em;overflow:auto}#footer .credits span{display:block}#footer .credits .credits-theme{float:left}#footer .credits .credits-software{float:right}.post{position:relative;z-index:20}.post .post-image{display:block;margin:0;padding:0}.post .post-image img{display:block;width:100%;height:auto;margin:0;padding:0}.post .post-meta{display:block;font-size:.75em;line-height:1.334em;font-weight:400;margin-bottom:1.334em}.post .post-title{position:relative;color:#000;font-size:2em;line-height:1.375em;font-weight:800;text-indent:-1px;margin:.25em 0 .75em}.post .post-title:before{content:'';position:absolute;left:0;bottom:-.334em;width:1em;margin-bottom:-2px;border-bottom:4px solid #19A0D7}.post .post-title a{text-decoration:none;color:inherit;font-weight:inherit}#post-index{position:relative;max-width:1200px;margin:0 auto 4em;padding:.5em;z-index:10}@keyframes fade{0%{transform:translate3d(0,3em,0);opacity:0}100%{transform:translate3d(0,0,0);opacity:1}}.post-list{position:relative}.post-list .post{float:left;width:33.3%;transform:translate3d(0,3em,0);transform-style:preserve-3d;opacity:0;animation:fade ease-out .5s forwards;animation-delay:1.4s}@media only screen and (max-width: 50em){.post-list .post{width:49.9%}}@media only screen and (max-width: 30em){.post-list .post{width:100%;float:none}}.post-list .post:nth-child(1){animation-delay:.1s}.post-list .post:nth-child(2){animation-delay:.2s}.post-list .post:nth-child(3){animation-delay:.3s}.post-list .post:nth-child(4){animation-delay:.4s}.post-list .post:nth-child(5){animation-delay:.5s}.post-list .post:nth-child(6){animation-delay:.6s}.post-list .post:nth-child(7){animation-delay:.7s}.post-list .post:nth-child(8){animation-delay:.8s}.post-list .post:nth-child(9){animation-delay:.9s}.post-list .post .inner{padding:2em;margin:.5em;max-width:none;background:#fff;box-sizing:border-box;transform:scale(1);transform-style:preserve-3d}@media only screen and (max-width: 50em){.post-list .post .inner{padding:1em}}.post-list .post .post-link{position:absolute;left:0;top:0;width:100%;height:100%;z-index:10}.post-list .post .post-image{position:relative;margin:-2em -2em 0;overflow:hidden;background:#19A0D7}@media only screen and (max-width: 50em){.post-list .post .post-image{margin:-1em -1em 0}}.post-list .post .post-image img{transform:scale(1);transform-style:preserve-3d;opacity:1}.post-list .post .post-image:after{content:'';position:absolute;left:-5%;bottom:-2.5em;width:110%;height:4em;background:#fff;border-top:4px solid #19A0D7;box-shadow:0 0 2em rgba(0,0,0,0.2);transform:rotate(5deg)}.post-list .post .post-title{font-size:1.5em;line-height:1.167em}.post-list .post .post-excerpt{margin:0}.post-list .post .post-more{display:block;margin-top:1.5em}.post-list .post .post-more a{display:inline-block;font-size:.875em;line-height:1.143em;font-weight:400;color:#363740}.post-list .post .post-more a i{color:#0e77a0}.pagination{min-height:3em;margin:4em auto 2em;padding:0;position:relative}.pagination .pagination-item{position:relative;display:block;height:3em;line-height:3em;padding:0 1em;text-align:center;text-decoration:none;font-weight:700;color:#363740;border:1px solid #19A0D7;border-radius:4em;z-index:60}.pagination .pagination-item i{position:relative}@media only screen and (max-width: 30em){.pagination .pagination-item{width:4em;height:4em;line-height:4em;margin-top:-.5em;padding:0!important}.pagination .pagination-item i{font-size:1.5em}.pagination .pagination-item>span{display:none}}.pagination .pagination-prev{float:right}.pagination .pagination-prev i{right:-.05em}.pagination .pagination-info{display:block;left:0;top:0;height:3em;line-height:3em;position:absolute;text-align:center;width:100%;z-index:50;color:#9D9FA6}#loader-wrapper{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000}#loader{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:3px solid transparent;border-top-color:#19A0D7;animation:spin 2s linear infinite}#loader:before{content:"";position:absolute;top:5px;left:5px;right:5px;bottom:5px;border-radius:50%;border:3px solid transparent;border-top-color:#0e77a0;animation:spin 3s linear infinite}#loader:after{content:"";position:absolute;top:15px;left:15px;right:15px;bottom:15px;border-radius:50%;border:3px solid transparent;border-top-color:#D4D5D9;animation:spin 1.5s linear infinite}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+</style>
+
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+    "palette": {
+        "popup": {
+        "background": "#222222"
+        },
+        "button": {
+        "background": "#19a0d7"
+        }
+    },
+    "content": {
+        "message": "Esta web utiliza cookies de terceros para mejorar la experiencia de la web y recopilar datos de uso. Si continúas navegando, consideramos que aceptas su uso.",
+        "dismiss": "Entendido",
+        "link": "Política de cookies",
+        "href": "politica-cookies.html"
+    }
+    })});
+    </script>
+
+    </head>
+    <body class="home-template">
+      <div id="loader-wrapper">
+        <div id="loader"></div>
+      </div>
+      <section id="wrapper" style="display: none;">
+        <div id="ajax-container">
+          <nav id="nav" class="nav">
+            <div class="nav-logo">
+               <a href="http://www.entredevyops.es/">
+                  
+                    <img src="/images/edyo-logo.png" alt="Logo"/>
+                  
+              </a>
+            </div>
+            <div id="main-menu" class="nav-menu">
+              
+                <a class="menu subscription" data-action="subscription"
+                    data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
+              
+              <a class="nav-social" target="_blank" href="https://twitter.com/EntreDevYOps" title="Entre Dev Y Ops en Twitter"><i class="fa fa-twitter"></i></a>
+              <a class="nav-social" target="_blank" href="https://github.com/edyo" title="Entre Dev Y Ops en GitHub"><i class="fa fa-github"></i></a>
+              <a id="search-button" onclick="$('#search-form').toggle();" title="Buscar"><i class="fa fa-search"></i></a>
+              <form id="search-form" method="get" role="search" action="https://google.es/search">
+                <input type="hidden" name="as_sitesearch" value="http://www.entredevyops.es/">
+                <input type="text" name="q" maxlength="255" placeholder="Buscar..." class="form-control">
+                <input type="submit" value="Buscar">
+              </form>
+              
+                
+              
+              
+                <a id="main-menu-button" class="menu" data-action="menu" data-target="menu"
+                    title="Menú"><i class="fa fa-navicon"></i></a>
+              
+            </div>
+          </nav>
+
+
+<main class="content" role="main">
+    <article class="post">
+        <div class="inner">
+
+            <div id="push">
+
+                <header class="post-header">
+                
+                    <span class="post-meta">
+                        <span class="post-date">22 Sep 2017</span> <span class="reading-time">| <span class="estimated-reading-time">9 min.</span> (<span class="word-count">1787</span> palabras)</span></span>
+                    </span>
+                <div class="clear"></div>
+                
+                <h1 class="post-title">Referendum 1-O: ¿Dónde votar?</h1>
+              </header>
+
+              <section class="post-content">
+                
+                  <p><img src='/images/30765928-56c56350-9ff2-11e7-85a8-cc8fad0d7947.jpg' alt='yes-no' class='align-left height='200' width='200'/></p>
+
+<p>No, no nos hemos vuelto locos, en Edyo seguimos hablando de tecnología. Sabemos también que últimamente no publicamos más que podcasts; a pesar de ello, mantenemos el blog para cosas que se cuentan mejor escritas que narradas. Hoy os traemos un análisis técnico que no puede ser más de actualidad: la web de consulta del censo para el referendum del 1-O. Os prometo que vale la pena.</p>
+
+<p></p>
+
+<p>Hace apenas un par de días que ha empezado a circular, sobre todo por redes sociales y de mensajería, la URL para que los ciudadanos consulten el colegio electoral que tienen asignado en el referendum del día 1 de Octubre:</p>
+
+<p><a href="https://onvotar.garantiespelreferendum.com/on-votar/index.html" target="_blank">https://onvotar.garantiespelreferendum.com/on-votar/index.html</a></p>
+
+<p>En la página encontraréis un formulario donde, introduciendo DNI, fecha de nacimiento y código postal, podemos consultar la mesa electoral que nos corresponde. Hay ciertas cosas que no puedo evitar en esta vida: pedir tiramisú de postre si lo veo en la carta, llevar la contraria, y esnifar tráfico de red cuando hago submit en un formulario.</p>
+
+<p>En este caso, un primer vistazo nos indica que las cosas parecen estar haciéndose bien: la web dispone de un certificado SSL emitido por Comodo, y SSLlabs le otorga la máxima nota (grado A) en todos sus tests:</p>
+
+<p><a href="https://www.ssllabs.com/ssltest/analyze.html?d=onvotar.garantiespelreferendum.com" target="_blank">https://www.ssllabs.com/ssltest/analyze.html?d=onvotar.garantiespelreferendum.com</a></p>
+
+<p>¡Bien por los admins! Podemos estar tranquilos, los datos personales que mandemos van a circular por un canal seguro. No obstante, sigo queriendo ver dónde y cómo se mandan mis datos al hacer click en el botón de buscar. Preparo el escenario: abro las <a href="https://developer.chrome.com/devtools" target="_blank">Chrome Developer Tools</a>, relleno mis datos, pulso el botón de buscar. Bien, la web me responde con los datos del colegio electoral donde siempre me toca ir. No obstante, al echarle un ojo al tráfico http capturado llegan las primeras sorpresas&hellip;</p>
+
+<h2 id="dónde-están-mis-datos">¿Dónde están mis datos?</h2>
+
+<p>Estoy muy acostumbrado a ver un <code>POST</code> como forma estándar de subir datos hacia un servidor. En este caso, no obstante, no veo aparecer más que un solitario <code>GET</code> en mi pantalla al hacer submit del formulario&hellip; No es tan habitual, pero subir información a través de una petición <code>GET</code> incorporando los datos en variables en la propia URL, o quizás en cookies, también es una práctica común. Echémosle un ojo a esa petición:</p>
+
+<pre><code>Request URL:https://onvotar.garantiespelreferendum.com/db/c3/a1.db
+Request Method:GET
+Status Code:200
+Remote Address:104.18.36.145:443
+Referrer Policy:no-referrer-when-downgrade
+Origin:null
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+</code></pre>
+
+<p>Un momento. ¿Y mis datos? No están en la URL. No hay ninguna cookie en la petición. No hay ninguna cabecera http fuera de lo normal. Y además, esa URI tan extraña&hellip;. <code>/db/c3/a1.db</code>. Pruebo a cargarla y obtengo lo siguiente:</p>
+
+<pre><code>1febc7fc1f60ae314b424303ea516a290f305a36c0bab4f3dbc98d810f2ee162e59878057968a22bbaa69a9dc066414f1506a8d10dfa1d73130b3ee2f4bf9037c7ab8642528c9b0c5c157b4ea0dd9bbb1815c5b2bd4519852e59c4bac040599db36127f0f52530b7f45455f9d4fa55798a9918a65391c49a0181c677da360346da22e7b0c33b05bfcbb55a4ee75820fe1f9fbdd532b40ccac4c6ba85d610679b66bad2a43fbb2a418eec58c4772a42113b3fa25052c2435c5c4a5ffe8bcaf2896d220eaa4c446f19c62b26ccefd3
+e4d353eeb673c351f84276fb8c159381ff641775b9e0a17925245f39bedd33661212588b3ca926ee31a49859055f901382279a24c291076660b3e80e65de8ec66e948bc64b5120ae09dd56f955302e1323ef8afdd29143269f2b7c3a8e6c02ebc70d0c9d949092ca19246d5cba3b0c69c314bf7d7a4222326fd7b78c8768e029e4e5ef1175ed5dd457ce3fc88840f9ce941eeb2bd28521ac5eb8be1be9faf1b40ee3f2f81683be3c3a93f1b806aaa5ff7761b873a725ff470a67983d3d827bbbdfcb228c4ec505b4347945c39ab9
+2fd03efea47e19d24331a4b6b0ffa9988efda433d5ad5a31c10d2b0b849ee2013e7be6ccb75336147a600c7f542b702289d843d683156797e32e360a5e96f499c0350ba3de76fbe91694463381b9ff1fbf4820ab215b03da5cf604b5523530c9d21ca7f84e150e8ad3cd08d06f05c6cf81c9e87ee49ee60d709496a1ca35a5a742992cb9736bcbf64295a0103b44c3cb7ea0e923a0a1bd3540abb6a0ec78bf56f94967b2ec92ab8000bec75d4dddcb12f0651d062693c068714cd449e45692eb3ef3821db6c1302ff5e57d572d1d
+...
+</code></pre>
+
+<p>Decenas de líneas con strings de lo que parece ser hexadecimal, y de ancho fijo (412 caracteres exactamente). Sr. Puigdemont, definitivamente ha captado usted mi atención.</p>
+
+<h2 id="el-referendum-serverless">El referendum serverless</h2>
+
+<p>Ya lo dijo Mahoma: si mis datos no viajan al servidor, tiene que ser el &lsquo;servidor&rsquo; el que viaja hacia mis datos. Efectivamente, parece que estamos ante un caso de contenido estático en servidor y proceso de datos en local. ¿Alguien ha dicho Javascript?</p>
+
+<p>¡Bingo! En <code>index.html</code> tenemos a la madre del cordero:</p>
+
+<pre><code>&lt;script type=&quot;text/javascript&quot; src=&quot;../js/bundleV9.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+function calcula() {
+  document.querySelector(&quot;#stepLoad&quot;).style.display=&quot;inline&quot;
+  var dni = document.querySelector(&quot;#dni&quot;).value
+  dni = dni.replace(/ /g,'').replace(/-/g,'').replace(/\./g,'');
+  var dn_dia = document.querySelector(&quot;#dn_dia&quot;).value
+  var dn_mes = document.querySelector(&quot;#dn_mes&quot;).value
+  var dn_any = document.querySelector(&quot;#dn_any&quot;).value
+  var cp = document.querySelector(&quot;#cp&quot;).value
+  if (dn_dia.length == 1)
+     dn_dia = &quot;0&quot;+ dn_dia
+  if (dn_mes.length == 1)
+     dn_mes = &quot;0&quot;+ dn_mes
+  if (dn_any.length == 2)
+     dn_any = &quot;19&quot; + dn_any
+  onvoto.calcular(dni.slice(-6),dn_any+dn_mes+dn_dia,cp, function(i) {
+    document.querySelector(&quot;#stepLoad&quot;).style.display=&quot;none&quot;
+    if (( typeof i === 'string' ) &amp;&amp; ( i == 'not-found' ))  {
+        document.querySelector(&quot;#response&quot;).innerHTML = &quot;No s'ha trobat cap registre corresponent a les dades introduïdes.&quot;
+    } else {
+       document.querySelector(&quot;#stepOne&quot;).style.display=&quot;none&quot;;
+       document.querySelector(&quot;#response&quot;).innerHTML = i[0] + &quot;\n&quot; + i[1] + &quot;\n&quot; + i[2] + &quot;\n\n&quot;
+                                                     + &quot;Districte:&quot; + i[3] + &quot;\n&quot; + &quot;Secció:&quot; + i[4] + &quot;\n&quot;
+                                                     + 'Mesa: ' + i[5];
+    }
+   })
+}
+&lt;/script&gt;
+</code></pre>
+
+<p>Esencialmente, esta pieza de código recoge nuestros datos (DNI, fecha de nacimiento y código postal), los normaliza (reescribe la fecha en formato AAAAMMDD, por ejemplo) y los pasa a la función <code>onvoto.calcular</code>. Esta función devuelve la información de la mesa electoral lista para mostrar o, en su defecto, el string &lsquo;not-found&rsquo; que aparentemente indicaría que no se han encontrado coincidencias.</p>
+
+<p>Nuestro siguiente paso debe ser analizar lo que ocurre en <code>onvoto.calcular</code>, cuyo código podremos encontrar en el fichero <code>/js/bundleV9.js</code>.</p>
+
+<h2 id="los-ficheros-del-censo">Los ficheros del censo</h2>
+
+<p>Nuestra misteriosa función empieza en la línea 69058 del mencionado fichero, y enseguida empezamos a entender de qué va todo esto (puntos suspensivos indican partes no relevantes omitidas):</p>
+
+<pre><code>var calcular = function (d, dn, cp, cb){
+    ...
+    var key = dni + data_naixement + codi_postal;
+    var firstSha256 = hash(bucleHash(key,BUCLE));
+    var secondSha256 = hash(firstSha256);
+    var dir = secondSha256.substring(0,DIRSHA);
+    var file = secondSha256.substring(DIRSHA,DIRSHA+FILESHA);
+    var url = window.location.href.replace('/index.html','/');
+    ...
+    url += '../db/' +dir + &quot;/&quot; + file + FILEEXTENSION;
+
+    request( url, function (error, response, body) {
+    ...
+</code></pre>
+
+<p>La función toma nuestros datos y los concatena en la variable <code>key</code>. A partir de ese valor, crea dos hashes SHA256 (si seguís las funciones a las que se llaman, veréis que el primero se calcula realizando un bucle de hashes de ¡1714 iteraciones! - guiño guiño) y los almacena en <code>firstSha256</code> y <code>secondSha256</code> en formato hexadecimal. Y aquí empezamos a entender ciertas cosas: las siguientes líneas construyen la misteriosa URI <code>/db/xy/zw.db</code> a partir de los cuatro primeros caracteres de <code>secondSha256</code> (dos para la carpeta y dos para el nombre del fichero). Una vez construida la URI, la función <code>request</code> se encarga de hacer la petición http correspondiente para descargarla.</p>
+
+<p>Resumiendo lo anterior, estamos ante una especie de database sharding: a partir de nuestro dni, fecha de nacimiento y código postal se construye una URI única a través de la cual se descarga un fichero que supuestamente contiene la información que solicitamos.</p>
+
+<p>Aquí se me activa de inmediato mi sentido arácnido. Ese fichero debe contener no solo mis datos censales sino los de muchas otras personas. El hecho de que haya decenas de líneas hace pensar en un registro/censo por línea, y por otro lado el hecho de truncar el mapeo a cuatro caracteres hexadecimales hace inevitable que se produzcan colisiones.</p>
+
+<p>De hecho, unos cálculos rápidos nos revelan que efectivamente estamos en el caso de un registro censal por línea. Cuatro caracteres hexadecimales nos ofrecen 16^4 combinaciones, o ficheros existentes. Empíricamente he observado unos 70 registros por fichero de media, así que podemos estimar un total de
+algo más de 4.5 millones de registros (que bien podría ser el número de catalanes en edad de votar en Catalunya).</p>
+
+<p>De hecho, no es difícil construir un script que recorra el espacio muestral que va de <code>/db/00/00.db</code> a <code>/db/ff/ff.db</code> y descargar los cuatro millones y medio de registros en no demasiado tiempo. Esto debería ponernos inmediatamente en alerta: ¿acabamos de descargar datos del censo de todos los catalanes en edad de voto? ¿Qué datos contienen exactamente esos ficheros y en qué formato? ¿Va la Guardia Civil a llamar a mi puerta en breve?</p>
+
+<p>Para responder a las preguntas anteriores, sigamos investigando qué es lo que la función <code>onvoto.calcular</code> hace con ese fichero una vez descargado.</p>
+
+<h2 id="gracias-criptografía">Gracias, criptografía</h2>
+
+<p>El cuerpo de la función <code>request</code> es el siguiente:</p>
+
+<pre><code>      var found = false;
+      if (error){
+        console.log(&quot;Error: &quot; + error);
+        return;
+      }
+      var info = body.split(&quot;\n&quot;);
+      info.forEach(function(line){
+        if (line.substring(0,60) == secondSha256.substring(4)){
+          var info = decrypt(line.substring(60),firstSha256).split('#');
+          found = true;
+          cb(info);
+        }
+      })
+      if (!found) {
+        cb(&quot;not-found&quot;);
+      }
+</code></pre>
+
+<p>La función es básicamente un bucle donde se analiza cada línea del fichero. Si los 60 primeros caracteres hexadecimales coinciden con los 60 últimos caracteres de <code>secondSha256</code> (recordad que son 64 en total y los 4 primeros se usaban para construir la URI), aplicamos la función <code>decrypt</code> al resto de la línea, y el resultado lo devolvemos por callback en forma de array. Si no hay coincidencia, pasamos a la siguiente línea, y si se acaban las líneas contestamos con un &lsquo;not-found&rsquo;.</p>
+
+<p>Por lo que parece, cada línea de registro no es más que un mapa clave - valor: la clave es un hash de nuestros datos personales, y el valor sería una cadena encriptada con los datos censales. Si seguimos la implementación de la función <code>decrypt</code>, veremos que la cadena está cifrada con criptografía de clave simétrica, concretamente <code>aes-256-cbc</code>. Cifrado de grado militar.</p>
+
+<p>¿Y cuál es la clave? Pues lo vemos en los parámetros de la llamada: <code>firstSha256</code>. Recordemos que esta cadena es el resultado de aplicar sha256 1714 veces recursivamente a la cadena dni+fechanacimiento+codigopostal, algo realmente imposible de revertir. Nuestros datos personales están en los ficheros, pero en forma de hashes irreversibles.</p>
+
+<h2 id="datos-censales">Datos censales</h2>
+
+<p>Prestad de nuevo atención a la línea donde desencriptamos:</p>
+
+<pre><code>var info = decrypt(line.substring(60),firstSha256).split('#');
+</code></pre>
+
+<p>Y refresquemos ahora la sección que recoge esos datos y los pinta en el html original:</p>
+
+<pre><code>document.querySelector(&quot;#response&quot;).innerHTML = i[0] + &quot;\n&quot; + i[1] + &quot;\n&quot; + i[2] + &quot;\n\n&quot;
+                                              + &quot;Districte:&quot; + i[3] + &quot;\n&quot; + &quot;Secció:&quot; + i[4] + &quot;\n&quot;
+                                              + 'Mesa: ' + i[5];
+</code></pre>
+
+<p>La cadena desencriptada contiene varios campos (al menos seis, numerados del cero al cinco), donde la almohadilla actúa de separador. Se puede comprobar fácilmente que los campos, en orden, son los siguientes: nombre del colegio electoral, dirección, población, distrito, sección y mesa. Aún así, quise echarle un vistazo al string original. Descargué el fichero js original, añadí un <code>console.log</code> para que me mostrara la cadena desencriptada, hice unas llamadas en local y&hellip;</p>
+
+<p>&hellip; otra sorpresa. Hay un séptimo campo que no se muestra en el html de resultado. Esto es lo que me muestra mi consola javascript de Chrome:</p>
+
+<pre><code>0:&quot;ESCOLA PUBLICA xxxxxxxxx&quot;
+1:&quot;[Direccion postal]&quot;
+2:&quot;[Poblacion]&quot;
+3:&quot;1&quot;
+4:&quot;1&quot;
+5:&quot;0A&quot;
+6:&quot;cb6e1fbbb81e69d9d213e80bebaf946fe3b2520a2c9eb4a0f4cbb72de1a5d0a530556d98d91ee63ac6ddca456388856f7bf01s03&quot;
+length:7
+</code></pre>
+
+<p>El campo número 6 es una cadena hexadecimal de 105 caracteres. No se repite en el resto del fichero. He intentado infructuosamente desencriptarla usando la misma clave simétrica que desencripta los campos anteriores, pero no muestra nada con sentido. Y aquí me rindo, amigos lectores; si habéis llegado hasta aquí os animo a que continuéis la investigación y desveléis qué puede significar este séptimo campo.</p>
+
+<h2 id="conclusiones">Conclusiones</h2>
+
+<p>El diseño de la web del referendum es francamente ingenioso, y merece mi más sincero aplauso. El creador ha logrado una arquitectura con contenido estático que no depende de backends para funcionar, ya que traslada toda la lógica al lado cliente con javascript. A la vez, ha logrado almacenar datos sensibles de una forma criptográficamente segura y sin penalizar eficiencia gracias a una ingeniosa técnica de sharding. La arquitectura claramente responde a la necesidad de replicar la web de una forma rápida y funcional ante las más que previsibles órdenes judiciales de bloqueo de hostings que irán llegando.</p>
+
+<p>Y por último, si por casualidad eres uno de los diseñadores y este post ha llegado a ti, por favor cuéntanos: ¿Qué leches es el campo número seis?</p>
+              </section>
+
+              <footer class="post-footer">
+                  <div class="post-tags">
+            
+            
+                <a href="http://www.entredevyops.es/tags/seguridad.html">Seguridad</a>
+            
+                <a href="http://www.entredevyops.es/tags/javascript.html">JavaScript</a>
+            
+            
+                  </div>
+                
+                    <div class="post-share">
+                        <a class="fa fa-twitter" href="https://twitter.com/share?text=Referendum%201-O%3a%20%c2%bfD%c3%b3nde%20votar%3f&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2freferendum-votar.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <span>Twitter</span>
+                        </a>
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2freferendum-votar.html&title=Referendum%201-O%3a%20%c2%bfD%c3%b3nde%20votar%3f&summary=%3cp%3e%3cimg%20src%3d%27%2fimages%2f30765928-56c56350-9ff2-11e7-85a8-cc8fad0d7947.jpg%27%20alt%3d%27yes-no%27%20class%3d%27align-left%20height%3d%27200%27%20width%3d%27200%27%2f%3e%3c%2fp%3e%0a%0a%3cp%3eNo%2c%20no%20nos%20hemos%20vuelto%20locos%2c%20en%20Edyo%20seguimos%20hablando%20de%20tecnolog%c3%ada.%20Sabemos%20tambi%c3%a9n%20que%20%c3%baltimamente%20no%20publicamos%20m%c3%a1s%20que%20podcasts%3b%20a%20pesar%20de%20ello%2c%20mantenemos%20el%20blog%20para%20cosas%20que%20se%20cuentan%20mejor%20escritas%20que%20narradas.%20Hoy%20os%20traemos%20un%20an%c3%a1lisis%20t%c3%a9cnico%20que%20no%20puede%20ser%20m%c3%a1s%20de%20actualidad%3a%20la%20web%20de%20consulta%20del%20censo%20para%20el%20referendum%20del%201-O.%20Os%20prometo%20que%20vale%20la%20pena.%3c%2fp%3e%0a%0a%3cp%3e%3c%2fp%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+            
+              </footer>
+
+            
+                <aside class="post-comments">
+    
+    
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+</aside>
+
+            
+            </div>
+
+            <nav class="post-nav">
+                
+                
+                    <a class="post-nav-item post-nav-prev" href="http://www.entredevyops.es/posts/sla-cloud-aws-azure.html">
+                        <section class="post-nav-teaser">
+                            <span class="post-nav-icon"><i class="fa fa-chevron-right"></i></span>
+                            <span class="post-nav-info">
+                                <h4 class="post-nav-title">El SLA del Cloud</h4>
+                            </span>
+                        </section>
+                    </a>
+                
+                <div class="clear"></div>
+            </nav>
+
+        </div>
+    </article>
+</main>
+
+                <div id="body-class" style="display: none;"></div>
+                <footer id="footer">
+                    <section class="credits">
+                        
+                        <span class="credits-license"><i class="fa
+                                fa-copyright"></i> 2013-2018 Entre Dev Y Ops, licencia <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_ES"><i class="fa fa-creative-commons"></i> BY-NC-SA 3.0</a>
+                        
+                        
+                        — <a href="politica-cookies.html">Política de cookies</a>
+                        
+                    </span>
+                    <span class="credits-software">Publicado con
+                        <a href="http://gohugo.io" target="_blank" rel="nofollow">Hugo</a>,
+                        tema basado en <a href="https://github.com/zenithar/hugo-theme-bleak" target="_blank" rel="nofollow">Bleak</a>
+                        por <a href="http://zutrinken.com" target="_blank" rel="nofollow">zutrinken</a></span>
+                    </section>
+                </footer>
+                
+<div id="subscription" data-target="subscription">
+    <div class="menu-header">
+        <span class="menu-label">Suscríbete</span>
+        <a class="menu-close" data-action="subscription" data-target="subscription"></a>
+    </div>
+
+    <div class="menu-list">
+        
+        
+        <li class="menu-list-item">
+            <i class='fa fa-rss'></i>
+            <a target="_blank" href="http://feedpress.me/edyo">Podcast RSS</a>
+        </li>
+        
+        
+        <li class="menu-list-item">
+            <i class='fa fa-podcast'></i>
+            <a target="_blank" href="https://www.ivoox.com/podcast-entre-dev-y-ops-podcast_sq_f1112910_1.html">Podcast en iVoox</a>
+        </li>
+        
+        
+        <li class="menu-list-item">
+            <i class='fa fa-apple'></i>
+            <a target="_blank" href="https://itunes.apple.com/es/podcast/entredevyops-podcast/id866788492">Podcast en iTunes</a>
+        </li>
+        
+        
+        <li class="menu-list-item">
+            <i class='fa fa-rss'></i>
+            <a target="_blank" href="/index.xml">Web RSS</a>
+        </li>
+        
+    </div>
+
+</div>
+
+
+                
+<div id="menu" data-target="menu">
+    <div class="menu-header">
+        <span class="menu-label">Menú</span>
+        <a class="menu-close" data-action="menu" data-target="menu"></a>
+    </div>
+
+    <div class="menu-list">
+        
+        
+        <li class="menu-list-item">
+            
+            <a class="home current js-ajax-link" href="/podcasts.html">Episodios podcast</a>
+        </li>
+        
+        
+        <li class="menu-list-item">
+            
+            <a class="home current js-ajax-link" href="/posts.html">Artículos</a>
+        </li>
+        
+        
+        <li class="menu-list-item">
+            
+            <a class="home current js-ajax-link" href="/equipo.html">Equipo</a>
+        </li>
+        
+        <li class="menu-list-item menu-list-social">
+            <a href="https://twitter.com/EntreDevYOps" title="Entre Dev Y Ops en Twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://github.com/edyo" title="Entre Dev Y Ops en GitHub"><i class="fa fa-github"></i></a>
+        </li>
+    </div>
+
+</div>
+
+
+                
+                <div class="overlay"></div>
+            </div>
+        </section>
+
+    <script async src="/js/main.js"></script>
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-25613214-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    
+
+
+
+  <noscript><link rel="stylesheet" href="/css/main.css"></noscript>
+</body>
+</html>
+

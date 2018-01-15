@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sistemas Operativos on Entre Dev Y Ops</title>
+    <link>http://www.entredevyops.es/tags/sistemas-operativos.html</link>
+    <description>Recent content in Sistemas Operativos on Entre Dev Y Ops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 23 Aug 2016 19:55:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.entredevyops.es/tags/sistemas-operativos/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Amazon Linux, ¿sí o no?</title>
+      <link>http://www.entredevyops.es/posts/amazon-linux-si-o-no.html</link>
+      <pubDate>Tue, 23 Aug 2016 19:55:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/amazon-linux-si-o-no.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/AmazonWebservices.png&#39; alt=&#39;Amazon Web Services&#39; class=&#39;align-left&#39; height=&#39;80&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
+
+&lt;p&gt;Seguro que todos los que usáis o habéis usado Amazon Web Services (AWS para abreviar) alguna vez habréis probado, o usado de forma productiva &lt;a href=&#34;https://aws.amazon.com/es/amazon-linux-ami/&#34; target=&#34;_blank&#34;&gt;Amazon Linux&lt;/a&gt;, la versión de Linux basada en RedHat/CentOS preparada por ellos y &amp;ldquo;equipada&amp;rdquo; para funcionar perfectamente en su servicio EC2.&lt;/p&gt;
+
+&lt;p&gt;Personalmente, mi predilección en cuanto a distribuciones tiende a las de la familia Debian, como la propia Debian o Ubuntu; es algo personal, quizás romántico, llevo muchos años con ellas y me siento más cómodo, no hay motivos técnicos que me liguen a ellas especialmente. A lo largo de mi carrera he trabajado con muchas distribuciones, y todas tienen cosas buenas y malas, no creo que exista la &lt;em&gt;silver bullet&lt;/em&gt; de las distribucciones de Linux, nada más lejos de la realidad. Quede claro que el objetivo de este artículo no es entrar en guerras o discusiones en si es mejor usar Debian, Ubuntu, RedHat o CentOS, el quid de la cuestión aquí es la existencia de Amazon Linux, con sus ventajes e inconvenientes. Así que vamos al lío.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Análisis de rendimiento de Linux</title>
+      <link>http://www.entredevyops.es/posts/analisis-rendimiento-linux.html</link>
+      <pubDate>Mon, 23 Jun 2014 03:14:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/analisis-rendimiento-linux.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;resumen de herramientas de Brendan Gregg&#34; class=&#34;border align-center&#34; src=&#34;http://www.entredevyops.es/images/linuxperftools_1000.png&#34; style=&#34;width: 650px; height: 376px;&#34; /&gt;
+&lt;p&gt;Brendan Gregg ha escrito una serie de artículos y documentos agrupados en &lt;a class=&#34;reference external&#34; href=&#34;http://www.brendangregg.com/linuxperf.html&#34;&gt;Linux Performance&lt;/a&gt; donde se investigan los cuellos de botella de los sistemas Unix y Linux.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Curso de Introducción a Linux gratuito en edX</title>
+      <link>http://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</link>
+      <pubDate>Tue, 11 Mar 2014 00:20:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;Vía &lt;a class=&#34;reference external&#34; href=&#34;http://barrapunto.com/articles/14/03/09/1255225.shtml&#34;&gt;Barrapunto&lt;/a&gt; me entero que la &lt;a class=&#34;reference external&#34; href=&#34;http://www.linuxfoundation.org/&#34;&gt;Linux Foundation&lt;/a&gt; ofrecerá su &lt;a class=&#34;reference external&#34; href=&#34;http://training.linuxfoundation.org/linux-courses/introduction-to-linux/outline&#34;&gt;curso de Introducción a Linux&lt;/a&gt; de forma gratuita en la plataforma &lt;a class=&#34;reference external&#34; href=&#34;https://www.edx.org/&#34;&gt;edX&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

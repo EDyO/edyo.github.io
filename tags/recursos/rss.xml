@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recursos on Entre Dev Y Ops</title>
+    <link>http://www.entredevyops.es/tags/recursos.html</link>
+    <description>Recent content in Recursos on Entre Dev Y Ops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 07 Jan 2014 21:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.entredevyops.es/tags/recursos/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Noticias semanales (Ene I)</title>
+      <link>http://www.entredevyops.es/posts/noticias-semanales-enero-2014-1.html</link>
+      <pubDate>Tue, 07 Jan 2014 21:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/noticias-semanales-enero-2014-1.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
+&lt;p&gt;En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, los encuentros familiares y los regalos, aquí están las primeras noticias de 2014. Podréis encontrar herramientas, como una especie de &lt;a class=&#34;reference external&#34; href=&#34;http://vagrantup.com&#34;&gt;Vagrant&lt;/a&gt; para &lt;a class=&#34;reference external&#34; href=&#34;https://docker.io&#34;&gt;Docker&lt;/a&gt;, un servicio complementario para vuestro &lt;a class=&#34;reference external&#34; href=&#34;http://www.nagios.org/&#34;&gt;Nagios&lt;/a&gt; y vuestra cuenta de &lt;a class=&#34;reference external&#34; href=&#34;http://www.pagerduty.com/&#34;&gt;Pagerduty&lt;/a&gt;, o un nuevo panel para &lt;a class=&#34;reference external&#34; href=&#34;http://graphite.wikidot.com/&#34;&gt;Graphite&lt;/a&gt;, así como explicaciones sobre cobertura de testeo de código para &lt;a class=&#34;reference external&#34; href=&#34;http://www.getchef.com/chef/&#34;&gt;Chef&lt;/a&gt; o un interesante blog sobre lo último de &lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com/&#34;&gt;Puppet&lt;/a&gt;, junto con artículos sobre &lt;a class=&#34;reference external&#34; href=&#34;http://en.wikipedia.org/wiki/Software-defined_networking&#34;&gt;SDN&lt;/a&gt;, el despliegue contínuo agresivo o la importancia de la infraestructura como código para la automatización. Disfrutad del commienzo de año.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Noticias semanales (Dic IV)</title>
+      <link>http://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-4.html</link>
+      <pubDate>Mon, 30 Dec 2013 20:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-4.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
+&lt;p&gt;El parón navideño se está haciendo notar, pero pese a todo, aún hay algunos asuntos que tratar de cara al fin de año: Los horarios de la &lt;a class=&#34;reference external&#34; href=&#34;https://fosdem.org/2014/&#34;&gt;FOSDEM&lt;/a&gt;, el calendario de adviento del administrador de sistemas y descuentos en libros electrónicos.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Semanarios DevOps y NoSQL</title>
+      <link>http://www.entredevyops.es/posts/semanarios-devops-nosql.html</link>
+      <pubDate>Mon, 21 Oct 2013 16:45:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/semanarios-devops-nosql.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
+&lt;p&gt;En muchas comunidades, sobretodo las tecnológicas, tarde o temprano, acaban por aparecer medios informativos muy útiles para propagar las novedades. Dentro de las comunidades DevOps y NoSQL esto ya hace tiempo que está ocurriendo. En este artículo veremos dos semanarios que pueden resultar interesantes.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

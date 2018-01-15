@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nosql on Entre Dev Y Ops</title>
+    <link>http://www.entredevyops.es/tags/nosql.html</link>
+    <description>Recent content in Nosql on Entre Dev Y Ops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Sun, 20 Sep 2015 12:05:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.entredevyops.es/tags/nosql/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Novedades sobre la Distributed Matters BCN 2015</title>
+      <link>http://www.entredevyops.es/posts/novedades-distributed-matters-bcn-2015.html</link>
+      <pubDate>Sun, 20 Sep 2015 12:05:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/novedades-distributed-matters-bcn-2015.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;Distributed matters&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/0e706560-5f89-11e5-835e-fbea9e75fec5.png&#34; /&gt;
+&lt;p&gt;Como ya comentamos en el último episodio del podcast, para su 4o evento, la &lt;a class=&#34;reference external&#34; href=&#34;http://www.nosql-matters.org/&#34;&gt;NoSQL matters&lt;/a&gt; ha cambiado su nombre a &lt;a class=&#34;reference external&#34; href=&#34;https://www.distributed-matters.org/&#34;&gt;Distributed matters&lt;/a&gt;.
+De ese modo, se amplía el ámbito de temas tratados en sus conferencias a asuntos tan interesantes y relacionados con los sistemas NoSQL.
+Con ello, los temas de los que se hablará serán, principalmente, sistemas distribuidos, microservicios, gestión y administración del &lt;em&gt;Cloud&lt;/em&gt;, soluciones de bases de datos, NoSQL, Big Data y DevOps.&lt;/p&gt;
+&lt;p&gt;Además, aunque ya se ha acabado el plazo para conseguir las entradas al precio más reducido, hasta el 30 de septiembre se venden las entradas &lt;em&gt;Early Bird&lt;/em&gt;, pero la cantidad es limitada.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Anuncio de la NoSQL matters BCN 2015</title>
+      <link>http://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2015.html</link>
+      <pubDate>Mon, 11 May 2015 21:25:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2015.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
+&lt;p&gt;Ya se ha anunciado la cuarta edición de la &lt;a class=&#34;reference external&#34; href=&#34;http://2015.nosql-matters.org/bcn/&#34;&gt;NoSQL matters Barcelona&lt;/a&gt;.
+El evento se celebrará durante los días 20 y 21 de noviembre y, como las anteriores ediciones, tendrá lugar en la bonita &lt;a class=&#34;reference external&#34; href=&#34;http://www.uab-casaconvalescencia.org/en/index.php&#34;&gt;Casa de la Convalescència&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;El pasado día 27 de abril se anunció el inicio del período para presentar propuestas de charlas.
+Hemos estado en contacto con la organización y nos han contado algunas cosas.
+En este artículo podréis encontrar todo lo que sabemos por ahora.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>NoSQL Matters BCN 2014</title>
+      <link>http://www.entredevyops.es/posts/nosql-matters-bcn-2014.html</link>
+      <pubDate>Sun, 30 Nov 2014 22:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/nosql-matters-bcn-2014.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
+&lt;p&gt;Los pasados 20 y 21 de Noviembre tuvo lugar la tercera edición de la &lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/bcn/homepage/&#34;&gt;NoSQL matters Barcelona 2014&lt;/a&gt; a la que tuvimos la oportunidad de asistir, y que este artículo trata de resumir. Recordad que estas conferencias comprenden un día de talleres, y otro de charlas, celebrándose ambos en las instalaciones del Hospital de Sant Pau, conocidas como &lt;a class=&#34;reference external&#34; href=&#34;http://www.uab-casaconvalescencia.org/en/index.php&#34;&gt;Casa de la Convalescència&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Como cada año, ha sido una oportunidad espléndida de encontrarse con gran parte de la comunidad NoSQL, y hablar de los últimos cambios y novedades. En cuanto a los talleres, este año ha habido más afluencia. Además, se podría decir que la coincidencia con la &lt;a class=&#34;reference external&#34; href=&#34;http://strataconf.com/strataeu2014&#34;&gt;Strata&lt;/a&gt; de &lt;a class=&#34;reference external&#34; href=&#34;http://oreilly.com&#34;&gt;O&#39;Reilly&lt;/a&gt; podría haber provocado que mucha gente se decidiera a asistir también al evento sobre NoSQL.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Todo listo para la NoSQL matters BCN 2014</title>
+      <link>http://www.entredevyops.es/posts/todo-listo-nosql-matters-bcn-2014.html</link>
+      <pubDate>Sun, 05 Oct 2014 22:30:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/todo-listo-nosql-matters-bcn-2014.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
+&lt;p&gt;Poco más de un mes es el tiempo que queda para el inicio de la conferencia &lt;a class=&#34;reference external&#34; href=&#34;https://2014.nosql-matters.org/bcn/&#34;&gt;NoSQL matters Barcelona&lt;/a&gt; y tanto los descuentos &lt;em&gt;Early Bird&lt;/em&gt; como los &lt;em&gt;Summer Bird&lt;/em&gt; están agotados, pero no os preocupéis, en &lt;strong&gt;Entre Dev y Ops&lt;/strong&gt; pensamos en vosotros y os dejamos un código promocional (agradecer a la organización el hecho de habernos facilitado dicho código) para que podáis adquirir vuestra entrada a un mejor precio.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Descuentos, talleres y más conferenciantes en la NoSQL matters BCN</title>
+      <link>http://www.entredevyops.es/posts/descuentos-talleres-conferenciantes-nosql-matters-bcn-2014.html</link>
+      <pubDate>Tue, 23 Sep 2014 00:16:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/descuentos-talleres-conferenciantes-nosql-matters-bcn-2014.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
+&lt;p&gt;Continuando con los artículos sobre la &lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/bcn/&#34;&gt;NoSQL matters Barcelona&lt;/a&gt;, os traemos las últimas novedades sobre la conferencia.&lt;/p&gt;
+&lt;p&gt;Para los que se perdieron los anteriores artículos, se trata de unas conferencias sobre NoSQL, en general, con charlas de ponentes de primera línea, tanto desarrolladores de los motores como desarrolladores que los utilizan para sus aplicaciones.&lt;/p&gt;
+&lt;p&gt;La próxima &lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/bcn/&#34;&gt;NoSQL matters Barcelona&lt;/a&gt; tendrá lugar el 21 y 22 de noviembre en la &lt;a class=&#34;reference external&#34; href=&#34;http://www.uab-casaconvalescencia.org/en/index.php&#34;&gt;Casa de la Convalescència&lt;/a&gt;. Recordad que siempre podéis contactar con ellos vía Twitter en &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/nosqlmatters&#34;&gt;&amp;#64;nosqlmatters&lt;/a&gt; y que podréis seguir el evento con el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/hashtag/nosql14&#34;&gt;#nosql14&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tiquets y primeros ponentes de la NoSQL matters BCN 2014 ya disponibles</title>
+      <link>http://www.entredevyops.es/posts/tiquets-primeros-ponentes-nosql-matters-bcn-2014.html</link>
+      <pubDate>Tue, 26 Aug 2014 22:16:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/tiquets-primeros-ponentes-nosql-matters-bcn-2014.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
+&lt;p&gt;Hace más de un mes publicamos un mensaje del equipo de &lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/cgn/&#34;&gt;NoSQL matters&lt;/a&gt; anunciando la próxima &lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/bcn/&#34;&gt;NoSQL matters Barcelona&lt;/a&gt;, que tendrá lugar el 21 y 22 de noviembre en la &lt;a class=&#34;reference external&#34; href=&#34;http://www.uab-casaconvalescencia.org/en/index.php&#34;&gt;Casa de la Convalescència&lt;/a&gt;. La &lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/cgn/&#34;&gt;NoSQL matters&lt;/a&gt; es una de las mejores conferencias para enterarse y aprender sobre NoSQL y los distintos motores que existen y que se están desarrollando. Sus organizadores ponen un gran esfuerzo en tener a los mejores ponentes, que suelen ser grandes expertos en los diferentes motores en los que trabajan. Recordad que siempre podéis contactar con ellos vía Twitter en &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/nosqlmatters&#34;&gt;&amp;#64;nosqlmatters&lt;/a&gt; y que podréis seguir el evento con el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/hashtag/nosql14&#34;&gt;#nosql14&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hoy traemos algunas novedades sobre las entradas y los conferenciantes para aquellos interesados.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Anuncio de la NoSQL matters BCN 2014</title>
+      <link>http://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2014.html</link>
+      <pubDate>Sat, 05 Jul 2014 01:35:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2014.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
+&lt;p&gt;¡&lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/cgn/&#34;&gt;NoSQL matters&lt;/a&gt; te da la bienvenida a la tercera edición de nuestra conferencia en Barcelona! El 21 y 22 de noviembre la hermosa &lt;a class=&#34;reference external&#34; href=&#34;http://www.uab-casaconvalescencia.org/en/index.php&#34;&gt;Casa de la Convalescència&lt;/a&gt; abrirá sus puertas a nuestros participantes hambrientos de aventura. ¡Acércate y disfruta de este gran evento con nosotros! Como conferencia consistente en un día de formación interactiva y otro día de charlas informativas, &lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/bcn/&#34;&gt;NoSQL matters Barcelona&lt;/a&gt; es el evento ideal para desarrolladores, arquitectos y &lt;em&gt;geeks&lt;/em&gt;. Tendrás la oportunidad de contactar con los expertos líderes en NoSQL de todo el mundo, disfrutar de excitantes conversaciones o simplemente pasártelo en grande hackeando con otros participantes.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Evento de MongoDB en Barcelona</title>
+      <link>http://www.entredevyops.es/posts/evento-mongodb-barcelona.html</link>
+      <pubDate>Wed, 19 Mar 2014 22:20:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/evento-mongodb-barcelona.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.mongodb.com/&#34;&gt;MongoDB, Inc.&lt;/a&gt;, la empresa detrás de la popular Base de Datos NoSQL y con la que comparte nombre, organiza un evento en Barcelona.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Certificaciones oficiales en MongoDB</title>
+      <link>http://www.entredevyops.es/posts/certificaciones-oficiales-mongodb.html</link>
+      <pubDate>Wed, 06 Nov 2013 01:10:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/certificaciones-oficiales-mongodb.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.mongodb.com/&#34;&gt;MongoDB, Inc.&lt;/a&gt;, (antes conocida como 10gen), acaba de lanzar su programa oficial de &lt;a class=&#34;reference external&#34; href=&#34;https://www.mongodb.com/products/training/certification&#34;&gt;certificaciones&lt;/a&gt; para su Base de Datos NoSQL conocida por el mismo nombre, &lt;a class=&#34;reference external&#34; href=&#34;http://www.mongodb.org/&#34;&gt;MongoDB&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Semanarios DevOps y NoSQL</title>
+      <link>http://www.entredevyops.es/posts/semanarios-devops-nosql.html</link>
+      <pubDate>Mon, 21 Oct 2013 16:45:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/semanarios-devops-nosql.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
+&lt;p&gt;En muchas comunidades, sobretodo las tecnológicas, tarde o temprano, acaban por aparecer medios informativos muy útiles para propagar las novedades. Dentro de las comunidades DevOps y NoSQL esto ya hace tiempo que está ocurriendo. En este artículo veremos dos semanarios que pueden resultar interesantes.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fechas para la NoSQL matters Cologne 2014</title>
+      <link>http://www.entredevyops.es/posts/nosql-matters-cologne-2014.html</link>
+      <pubDate>Tue, 15 Oct 2013 21:13:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/nosql-matters-cologne-2014.html</guid>
+      <description>NoSQL matters La NoSQL matters es una conferencia sobre bases de datos NoSQL, que se celebra con carácter semestral, hasta ahora en Colonia y Barcelona, en ediciones alternativas, siendo la primera de cada año en Colonia. Las sesiones se celebran en dos jornadas, una primera opcional con sesiones de formación, y la segunda en la que se celebra la conferencia en sí misma. La próxima edición será en Barcelona, los días 29 y 30 de Noviembre, pero ya se han hecho oficales las fechas para la siguiente edición en Colonia, el año que viene: 22 y 23 de Mayo.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft on Entre Dev Y Ops</title>
+    <link>http://www.entredevyops.es/tags/microsoft.html</link>
+    <description>Recent content in Microsoft on Entre Dev Y Ops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 17 May 2017 13:35:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.entredevyops.es/tags/microsoft/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El SLA del Cloud</title>
+      <link>http://www.entredevyops.es/posts/sla-cloud-aws-azure.html</link>
+      <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/sla-cloud-aws-azure.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/743e78a4-370b-11e7-9d3d-e8321c7d49c9.jpg&#39; alt=&#39;SLA&#39; class=&#39;align-left&#39;/&gt;&lt;/p&gt;
+
+&lt;p&gt;A raíz del incidente de &lt;a href=&#34;https://aws.amazon.com/es/message/41926/&#34; target=&#34;_blank&#34;&gt;AWS S3 del pasado 28 de Febrero&lt;/a&gt;  he oído, y no en pocas ocasiones, frases del estilo “pero esto del cloud no se caía, no?”, “hasta el cloud tiene caídas de servicio” y similares.
+Si hablamos con personas que conozcan que es el cloud seguramente tendrán una opinión similar: una de las ventajas de migrar hacia el cloud es que nunca tendrás caídas de servicio.&lt;/p&gt;
+
+&lt;p&gt;Lamentablemente eso no es del todo verdad y las empresas que ofrecen servicios de cloud lo saben.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

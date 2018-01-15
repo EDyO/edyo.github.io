@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Estándares on Entre Dev Y Ops</title>
+    <link>http://www.entredevyops.es/tags/est%C3%A1ndares.html</link>
+    <description>Recent content in Estándares on Entre Dev Y Ops</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Fri, 07 Oct 2016 23:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.entredevyops.es/tags/est%C3%A1ndares/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TLS: de estándares y lobbies</title>
+      <link>http://www.entredevyops.es/posts/tls-estandares-lobbies.html</link>
+      <pubDate>Fri, 07 Oct 2016 23:00:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/tls-estandares-lobbies.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/b782e002-8ceb-11e6-8121-7860d9049fab.png&#39; alt=&#39;TLS&#39; class=&#39;align-right&#39; height=&#39;100&#39; width=&#39;150&#39;/&gt;&lt;/p&gt;
+
+&lt;p&gt;El grupo de trabajo de IETF encargado de crear la versión 1.3 de TLS lleva trabajando en él desde abril de 2014.
+Llevan ya &lt;a href=&#34;https://tools.ietf.org/html/draft-ietf-tls-tls13-16&#34; target=&#34;_blank&#34;&gt;16 borradores&lt;/a&gt;, el último de este mismo septiembre, así que la publicación del estándar definitivo
+es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HTML5 finalizado</title>
+      <link>http://www.entredevyops.es/posts/html5-finalizado.html</link>
+      <pubDate>Thu, 30 Oct 2014 18:50:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/posts/html5-finalizado.html</guid>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;HTML5&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/html5.png&#34; /&gt;
+&lt;p&gt;A pesar de llevar años entre nosotros, sobretodo, gracias al empuje de Google con su &amp;quot;joven&amp;quot; navegador Chrome, a la fundación Mozilla con Firefox, y al rápido crecimiento y cada vez uso más generalizado de &lt;em&gt;smartphones&lt;/em&gt;, el &lt;a class=&#34;reference external&#34; href=&#34;http://www.w3.org/blog/news/archives/4167&#34;&gt;pasado día 28 de Octubre&lt;/a&gt;, el &lt;a class=&#34;reference external&#34; href=&#34;http://www.w3.org/&#34;&gt;W3C&lt;/a&gt; dio por finalizado el estándar &lt;a class=&#34;reference external&#34; href=&#34;http://www.w3.org/TR/2014/REC-html5-20141028/&#34;&gt;HTML5&lt;/a&gt; pasándolo al estado de recomendación.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

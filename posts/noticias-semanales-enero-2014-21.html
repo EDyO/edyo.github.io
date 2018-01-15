@@ -1,0 +1,455 @@
+
+<!DOCTYPE html>
+<html lang="es-es">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <meta property="og:title" content=" Noticias semanales (Ene II y III) &middot;  Entre Dev Y Ops" />
+        <meta property="og:site_name" content="Entre Dev Y Ops" />
+        <meta property="og:url" content="http://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html" />
+
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2014-01-19T19:45:00Z" />
+        <meta property="og:article:tag" content="Eventos" />
+        <meta property="og:article:tag" content="Python" />
+        <meta property="og:article:tag" content="Chef" />
+        <meta property="og:article:tag" content="Amazon WS" />
+        <meta property="og:article:tag" content="DevOps" />
+        <meta property="og:article:tag" content="Pruebas" />
+        <meta property="og:article:tag" content="Monitorización" />
+        <meta property="og:article:tag" content="TDD" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@EntreDevYOps" />
+        <meta name="twitter:creator" content="@EntreDevYOps" />
+        <meta name="twitter:title" content="Noticias semanales (Ene II y III)" />
+        
+        <meta name="twitter:description" content="
+
+
+
+Como la semana pasada no se publicaron noticias, las hemos unido, por lo que en esta entrega, tenemos bastantes noticias: La publicación del manual del administrador de Debian, una nueva librería para gestionar recursos en EC2 desde Python, una presentación sobre Flapjack, otra para hacer pruebas sobre navegadores con JavaScript, otra plataforma de monitorización que se integra con Graphite y Jenkins, otra más que permite exponer un directorio con guiones de bash como API REST, y la adición de nuevas localizaciones a los servicios de CloudFront y Route 53.
+" />
+        <meta name="twitter:url" content="http://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html" />
+    
+
+        <title> Noticias semanales (Ene II y III) &middot;  Entre Dev Y Ops</title>
+
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="preload" href="/js/main.js" as="script" />
+        <link rel="preload" href="/css/main.css" as="style" />
+        
+        
+            <link rel="shortcut icon" href="/images/edyo-icon.png" />
+        
+
+
+    
+        <meta name="description" content="El podcast en el que hablamos sobre desarrollo de aplicaciones, operaciones de sistemas informáticos y todo lo relacionado con la filosofía DevOps" />
+    
+
+    
+        <meta name="p:domain_verify" content=""/>
+    
+
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+    
+        <link href="http://www.entredevyops.es/index.xml" rel="alternate" type="application/rss+xml" title="Entre Dev Y Ops" />
+    
+
+    
+        <link rel="canonical" href="http://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html" />
+
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "http://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html"
+        },
+        "headline": "Noticias semanales (Ene II y III)",
+        "description": "",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "http://www.entredevyops.es/",
+          "name": "Entre Dev Y Ops",
+          "url": "http://www.entredevyops.es/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        
+        "image": {
+          "@type": "ImageObject",
+          "url": "",
+          "height": 80,
+          "width": 80
+        },
+        "datePublished": "2014-01-19",
+        "dateModified": "2014-01-19",
+        "wordCount": 430,
+        "keywords": ["Eventos","Python","Chef","Amazon WS","DevOps","Pruebas","Monitorización","TDD"] 
+    }
+    </script>
+
+
+    
+    <script type="text/javascript">
+    
+    
+      var disqus_shortname = 'edyo';
+      var disqus_identifier = 'http:\/\/www.entredevyops.es\/posts\/noticias-semanales-enero-2014-21.html';
+      var disqus_title = 'Noticias semanales (Ene II y III)';
+      var disqus_url = 'http:\/\/www.entredevyops.es\/posts\/noticias-semanales-enero-2014-21.html';
+    
+    </script>
+    
+
+    <script type="text/javascript">
+      var config = {
+        baseUrl: "http:\/\/www.entredevyops.es\/"
+      };
+    </script>
+
+    <style>
+html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,figure,footer,header,main,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figure{margin:1em 40px}a{background-color:transparent;-webkit-text-decoration-skip:objects}img{border-style:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:300;src:local("Merriweather Sans Light"),local(MerriweatherSans-Light),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowY_zIojJi0m4a5Z6tRh6itY.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:400;src:local("Merriweather Sans Regular"),local(MerriweatherSans-Regular),url(//fonts.gstatic.com/s/merriweathersans/v5/AKu1CjQ4qnV8MUltkAX3sL2aU247V0zTzydO4RoO9Ok.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:700;src:local("Merriweather Sans Bold"),local(MerriweatherSans-Bold),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowQfd-b-I5PxxcmB4_-MNcqw.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:800;src:local("Merriweather Sans ExtraBold"),local(MerriweatherSans-ExtraBold),url(//fonts.gstatic.com/s/merriweathersans/v5/6LmGj5dOJopQKEkt88GowWT7sFQ1Iz1BbpcuCPlgc9Q.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:300;src:local("Merriweather Sans Light Italic"),local(MerriweatherSans-LightItalic),url(//fonts.gstatic.com/s/merriweathersans/v5/nAqt4hiqwq3tzCecpgPmVX9UU5BmOJGkLxUCVv5VXdc.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:400;src:local("Merriweather Sans Italic"),local(MerriweatherSans-Italic),url(//fonts.gstatic.com/s/merriweathersans/v5/3Mz4hOHzs2npRMG3B1ascf0KIgDhPIHb_R-SWdtqte8.woff) format("woff")}@font-face{font-family:'Merriweather Sans';font-style:italic;font-weight:700;src:local("Merriweather Sans Bold Italic"),local(MerriweatherSans-BoldItalic),url(//fonts.gstatic.com/s/merriweathersans/v5/nAqt4hiqwq3tzCecpgPmVYM8pfYvjMoOxygpzLVILAs.woff) format("woff")}@font-face {font-family: 'Aldrich';font-style: normal;font-weight: 400;src: local('Aldrich Regular'), local('Aldrich-Regular'), url('//fonts.gstatic.com/s/aldrich/v8/j-NnyokbAnhXANS2iZ6Jew.woff2') format('woff2');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;font-style:normal}[class^="icon-"]:before{font-family:"icons";font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-arrow-right:before{content:'\e807'}.icon-rss:before{content:'\e808'}body{font:300 1em / 1.5em 'Merriweather Sans',sans-serif;color:#595B66}a{color:inherit;text-decoration:none;font-weight:400}h1,h2{text-rendering:optimizeLegibility;color:#1F2026}h2 a{font-weight:inherit}h1{font-size:2em;line-height:1em;margin:2em 0 -.5em}h2{font-size:1.75em;line-height:1.143em;margin:2.286em 0 -.571em}p{margin:2em auto}i{font-weight:400;font-style:italic;color:#363740}img{display:block;max-width:100%;height:auto;margin:2.5em auto}body{background:#fff}.inner{max-width:48em;margin:0 auto;padding:0 1em}#wrapper{position:relative;box-sizing:border-box;width:100%;min-height:100vh;padding-bottom:6em;background:#F2F3F5}#push{transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#nav{position:relative;background:#fff;z-index:70;transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#nav:after{clear:both;content:'';display:table}#nav .nav-logo{float:left;height:2em;padding:1em;max-width:50%}#nav .nav-logo img{width:auto;max-width:none;height:2em;margin:0;border-radius:5px}#nav .nav-menu{float:right}#nav .nav-menu:after{clear:both;content:'';display:table}#nav .nav-menu a{display:block;width:1em;height:1em;line-height:1em;padding:1.5em;text-align:center;float:left}#nav .nav-menu a i:before{margin:auto}.overlay{display:none;position:fixed;left:0;top:0;width:100%;height:100%;z-index:80;display:none}.overlay:before{content:'';position:absolute;left:0;top:0;width:100%;height:100%;background:#1F2026;opacity:0;transform-style:preserve-3d}#header{position:relative;padding:4em 0}#header .inner{position:relative;z-index:2}#header .header-title{display:block;text-align:center}#header .header-name{font-family: Aldrich, sans-serif;font-weight:700;letter-spacing:-1px;display:block;line-height:1em;font-size:2em;text-decoration:none;color:#1F2026;padding:0;margin:0}#header.has-cover .header-name{color:#fff}#header .header-description{display:block;margin:1em auto 0;color:#9D9FA6;position:relative;font-weight:300}#header .header-description:after{content:'';position:absolute;height:1px;width:100px;margin-left:-50px;left:50%;top:-.5em;background:#D4D5D9}#header.has-cover .header-description{color:#fff}#header.has-cover .header-description:after{background:#fff}#header .header-cover{position:absolute;width:100%;height:100%;top:0;left:0;margin-top:-4em;padding:4em 0;background:no-repeat fixed center 100% / cover;z-index:1}#header .header-cover:before{content:'';position:absolute;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,0.2)}#header .header-cover:after{content:'';position:absolute;width:100%;left:0;bottom:0;border-bottom:4px solid #19A0D7}#footer{position:absolute;width:100%;left:0;bottom:0;font-size:.75em;line-height:1.334em;background:#1F2026;color:#737580;z-index:20;transform:translate3d(0,0,0);transform-style:preserve-3d;opacity:1}#footer a{color:#9D9FA6;font-weight:400}#footer .credits{text-align:center;font-size:.75em;line-height:1.334em;padding:2.667em;overflow:auto}#footer .credits span{display:block}#footer .credits .credits-theme{float:left}#footer .credits .credits-software{float:right}.post{position:relative;z-index:20}.post .post-image{display:block;margin:0;padding:0}.post .post-image img{display:block;width:100%;height:auto;margin:0;padding:0}.post .post-meta{display:block;font-size:.75em;line-height:1.334em;font-weight:400;margin-bottom:1.334em}.post .post-title{position:relative;color:#000;font-size:2em;line-height:1.375em;font-weight:800;text-indent:-1px;margin:.25em 0 .75em}.post .post-title:before{content:'';position:absolute;left:0;bottom:-.334em;width:1em;margin-bottom:-2px;border-bottom:4px solid #19A0D7}.post .post-title a{text-decoration:none;color:inherit;font-weight:inherit}#post-index{position:relative;max-width:1200px;margin:0 auto 4em;padding:.5em;z-index:10}@keyframes fade{0%{transform:translate3d(0,3em,0);opacity:0}100%{transform:translate3d(0,0,0);opacity:1}}.post-list{position:relative}.post-list .post{float:left;width:33.3%;transform:translate3d(0,3em,0);transform-style:preserve-3d;opacity:0;animation:fade ease-out .5s forwards;animation-delay:1.4s}@media only screen and (max-width: 50em){.post-list .post{width:49.9%}}@media only screen and (max-width: 30em){.post-list .post{width:100%;float:none}}.post-list .post:nth-child(1){animation-delay:.1s}.post-list .post:nth-child(2){animation-delay:.2s}.post-list .post:nth-child(3){animation-delay:.3s}.post-list .post:nth-child(4){animation-delay:.4s}.post-list .post:nth-child(5){animation-delay:.5s}.post-list .post:nth-child(6){animation-delay:.6s}.post-list .post:nth-child(7){animation-delay:.7s}.post-list .post:nth-child(8){animation-delay:.8s}.post-list .post:nth-child(9){animation-delay:.9s}.post-list .post .inner{padding:2em;margin:.5em;max-width:none;background:#fff;box-sizing:border-box;transform:scale(1);transform-style:preserve-3d}@media only screen and (max-width: 50em){.post-list .post .inner{padding:1em}}.post-list .post .post-link{position:absolute;left:0;top:0;width:100%;height:100%;z-index:10}.post-list .post .post-image{position:relative;margin:-2em -2em 0;overflow:hidden;background:#19A0D7}@media only screen and (max-width: 50em){.post-list .post .post-image{margin:-1em -1em 0}}.post-list .post .post-image img{transform:scale(1);transform-style:preserve-3d;opacity:1}.post-list .post .post-image:after{content:'';position:absolute;left:-5%;bottom:-2.5em;width:110%;height:4em;background:#fff;border-top:4px solid #19A0D7;box-shadow:0 0 2em rgba(0,0,0,0.2);transform:rotate(5deg)}.post-list .post .post-title{font-size:1.5em;line-height:1.167em}.post-list .post .post-excerpt{margin:0}.post-list .post .post-more{display:block;margin-top:1.5em}.post-list .post .post-more a{display:inline-block;font-size:.875em;line-height:1.143em;font-weight:400;color:#363740}.post-list .post .post-more a i{color:#0e77a0}.pagination{min-height:3em;margin:4em auto 2em;padding:0;position:relative}.pagination .pagination-item{position:relative;display:block;height:3em;line-height:3em;padding:0 1em;text-align:center;text-decoration:none;font-weight:700;color:#363740;border:1px solid #19A0D7;border-radius:4em;z-index:60}.pagination .pagination-item i{position:relative}@media only screen and (max-width: 30em){.pagination .pagination-item{width:4em;height:4em;line-height:4em;margin-top:-.5em;padding:0!important}.pagination .pagination-item i{font-size:1.5em}.pagination .pagination-item>span{display:none}}.pagination .pagination-prev{float:right}.pagination .pagination-prev i{right:-.05em}.pagination .pagination-info{display:block;left:0;top:0;height:3em;line-height:3em;position:absolute;text-align:center;width:100%;z-index:50;color:#9D9FA6}#loader-wrapper{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000}#loader{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:3px solid transparent;border-top-color:#19A0D7;animation:spin 2s linear infinite}#loader:before{content:"";position:absolute;top:5px;left:5px;right:5px;bottom:5px;border-radius:50%;border:3px solid transparent;border-top-color:#0e77a0;animation:spin 3s linear infinite}#loader:after{content:"";position:absolute;top:15px;left:15px;right:15px;bottom:15px;border-radius:50%;border:3px solid transparent;border-top-color:#D4D5D9;animation:spin 1.5s linear infinite}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+</style>
+
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+    "palette": {
+        "popup": {
+        "background": "#222222"
+        },
+        "button": {
+        "background": "#19a0d7"
+        }
+    },
+    "content": {
+        "message": "Esta web utiliza cookies de terceros para mejorar la experiencia de la web y recopilar datos de uso. Si continúas navegando, consideramos que aceptas su uso.",
+        "dismiss": "Entendido",
+        "link": "Política de cookies",
+        "href": "politica-cookies.html"
+    }
+    })});
+    </script>
+
+    </head>
+    <body class="home-template">
+      <div id="loader-wrapper">
+        <div id="loader"></div>
+      </div>
+      <section id="wrapper" style="display: none;">
+        <div id="ajax-container">
+          <nav id="nav" class="nav">
+            <div class="nav-logo">
+               <a href="http://www.entredevyops.es/">
+                  
+                    <img src="/images/edyo-logo.png" alt="Logo"/>
+                  
+              </a>
+            </div>
+            <div id="main-menu" class="nav-menu">
+              
+                <a class="menu subscription" data-action="subscription"
+                    data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
+              
+              <a class="nav-social" target="_blank" href="https://twitter.com/EntreDevYOps" title="Entre Dev Y Ops en Twitter"><i class="fa fa-twitter"></i></a>
+              <a class="nav-social" target="_blank" href="https://github.com/edyo" title="Entre Dev Y Ops en GitHub"><i class="fa fa-github"></i></a>
+              <a id="search-button" onclick="$('#search-form').toggle();" title="Buscar"><i class="fa fa-search"></i></a>
+              <form id="search-form" method="get" role="search" action="https://google.es/search">
+                <input type="hidden" name="as_sitesearch" value="http://www.entredevyops.es/">
+                <input type="text" name="q" maxlength="255" placeholder="Buscar..." class="form-control">
+                <input type="submit" value="Buscar">
+              </form>
+              
+                
+              
+              
+                <a id="main-menu-button" class="menu" data-action="menu" data-target="menu"
+                    title="Menú"><i class="fa fa-navicon"></i></a>
+              
+            </div>
+          </nav>
+
+
+<main class="content" role="main">
+    <article class="post">
+        <div class="inner">
+
+            <div id="push">
+
+                <header class="post-header">
+                
+                    <span class="post-meta">
+                        <span class="post-date">19 Jan 2014</span> <span class="reading-time">| <span class="estimated-reading-time">3 min.</span> (<span class="word-count">430</span> palabras)</span></span>
+                    </span>
+                <div class="clear"></div>
+                
+                <h1 class="post-title">Noticias semanales (Ene II y III)</h1>
+              </header>
+
+              <section class="post-content">
+                
+                  <div class="document">
+
+
+<img alt="La información semanal sobre lo que te interesa" class="border align-left" src="/images/Weekly-Newspaper.jpg" style="width: 213px; height: 141px;" />
+<p>Como la semana pasada no se publicaron noticias, las hemos unido, por lo que en esta entrega, tenemos bastantes noticias: La publicación del manual del administrador de <a class="reference external" href="http://debian.org">Debian</a>, una nueva librería para gestionar recursos en <a class="reference external" href="http://aws.amazon.com/es/ec2/">EC2</a> desde Python, una presentación sobre <a class="reference external" href="http://flapjack.io/">Flapjack</a>, otra para hacer pruebas sobre navegadores con JavaScript, otra plataforma de monitorización que se integra con <a class="reference external" href="http://graphite.wikidot.com/">Graphite</a> y <a class="reference external" href="http://jenkins-ci.org">Jenkins</a>, otra más que permite exponer un directorio con guiones de <em>bash</em> como API REST, y la adición de nuevas localizaciones a los servicios de <a class="reference external" href="http://aws.amazon.com/es/cloudfront/">CloudFront</a> y <a class="reference external" href="http://aws.amazon.com/es/route53/">Route 53</a>.</p>
+<p></p>
+<div class="section" id="el-manual-de-administrador-de-debian-disponible">
+<h2>El manual de administrador de Debian disponible</h2>
+<p>Aunque es una noticia un poco anterior, tiene una importancia considerable: Se ha publicado el <a class="reference external" href="http://debian-handbook.info/">manual del administrador de Debian</a>. Este manual, escrito por dos desarrolladores de Debian, Raphaël Hertzog y Roland Mas, está disponible para <a class="reference external" href="http://debian-handbook.info/browse/stable/">leer en línea</a> o <a class="reference external" href="http://debian-handbook.info/get/">descargarlo</a>, aunque también se puede bajar el fuente y <a class="reference external" href="http://debian-handbook.info/get/">contribuir</a>.</p>
+</div>
+<div class="section" id="la-libreria-ec2-la-guinda-del-pastel-sobre-boto">
+<h2>La librería ec2: la guinda del pastel sobre boto</h2>
+<p>La <a class="reference external" href="https://github.com/mattrobenolt/ec2">librería ec2</a> es un añadido a la librería <a class="reference external" href="https://github.com/boto/boto">boto</a> para facilitar la gestión de instancias en EC2 y de los grupos de seguridad. Su principal aportación es que facilita la interacción con las instancias ofreciendo APIs un poco más sencillas que <a class="reference external" href="https://github.com/boto/boto">boto</a>.</p>
+</div>
+<div class="section" id="conoce-flapjack-un-poco-mas">
+<h2>Conoce Flapjack un poco más</h2>
+<p>Aunque ya habíamos hablado de <a class="reference external" href="http://flapjack.io/">Flapjack</a> en las noticias anteriores, se publicó esta <a class="reference external" href="https://speakerdeck.com/auxesis/finding-signal-in-the-monitoring-noise-with-flapjack">presentación</a> que introduce un poco más las funcionalidades del producto.</p>
+</div>
+<div class="section" id="dalekjs-una-libreria-para-testear-sobre-todos-los-navegadores">
+<h2>DalekJS, una librería para testear sobre todos los navegadores</h2>
+<p><a class="reference external" href="http://dalekjs.com">DalekJS</a> es una librería JavaScript que permite ejecutar pruebas de interfaz que permite lanzar y automatizar el navegador, rellenar y enviar formularios, actuar sobre botones y enlaces, obtener capturas de pantalla y ejecutar tests funcionales. Funciona para Windows, Linux y Mac.</p>
+</div>
+<div class="section" id="cabot-otra-herramienta-de-monitorizacion-pero-un-poco-distinta">
+<h2>Cabot, otra herramienta de monitorización, pero un poco distinta</h2>
+<p><a class="reference external" href="https://github.com/arachnys/cabot">Cabot</a> es otra plataforma de monitorización, pero que suma algunas de las mejores funcionalidades de <a class="reference external" href="http://pagerduty.com">PagerDuty</a>, <a class="reference external" href="http://serverdensity.com">Server Density</a>, <a class="reference external" href="http://pingdom.com">Pingdom</a> y <a class="reference external" href="http://nagios.org">Nagios</a>. Una de sus funcionalidades es que se puede integrar con otras herramientas de monitorización, como <a class="reference external" href="http://graphite.wikidot.com/">Graphite</a> o <a class="reference external" href="https://github.com/etsy/statsd/">statsd</a>.</p>
+</div>
+<div class="section" id="pyjojo-pon-tus-mejores-herramientas-accesibles">
+<h2>Pyjojo, pon tus mejores herramientas accesibles</h2>
+<p>Para aquellos que recopilen guiones en <em>shell</em> que les permiten hacer un buen lote de tareas sólo con ejecutarlos, le puede parecer interesante utilizar <a class="reference external" href="https://github.com/atarola/pyjojo">pyjojo</a> para ponerlos accesibles como API HTTP.</p>
+</div>
+<div class="section" id="nuevas-localizaciones-para-cloudfront-y-route-53">
+<h2>Nuevas localizaciones para CloudFront y Route 53</h2>
+<p>Amazon <a class="reference external" href="http://aws.amazon.com/es/cloudfront/">CloudFront</a> y <a class="reference external" href="http://aws.amazon.com/es/route53/">Route 53</a> inauguran nuevas localizaciones en Taipei y Rio de Janeiro.</p>
+</div>
+<div class="section" id="webinar-sobre-la-transformacion-en-adobe-con-enterprise-chef">
+<h2>Webinar sobre la transformación en Adobe con Enterprise Chef</h2>
+<p>Aquellos que estén interesados en la versión <em>enterprise</em> de <a class="reference external" href="http://www.getchef.com/chef/">Chef</a> podrían tener interés en asistir al <a class="reference external" href="http://pages.getchef.com/adobe_enterprisechef_webinar.html?mkt_tok=3RkMMJWWfF9wsRonuq%2FKZKXonjHpfsX87esrX7Hr08Yy0EZ5VunJEUWy2YQJSNQ%2FcOedCQkZHblFnV4NT62jWqINqKMF">webinar</a> que se celebrará el próximo día 23 de enero, sobre cómo <em>Enterprise Chef</em> ha cambiado la presencia de Adobe en la nube.</p>
+</div>
+</div>
+              </section>
+
+              <footer class="post-footer">
+                  <div class="post-tags">
+            
+            
+                <a href="http://www.entredevyops.es/tags/eventos.html">Eventos</a>
+            
+                <a href="http://www.entredevyops.es/tags/python.html">Python</a>
+            
+                <a href="http://www.entredevyops.es/tags/chef.html">Chef</a>
+            
+                <a href="http://www.entredevyops.es/tags/amazon-ws.html">Amazon WS</a>
+            
+                <a href="http://www.entredevyops.es/tags/devops.html">DevOps</a>
+            
+                <a href="http://www.entredevyops.es/tags/pruebas.html">Pruebas</a>
+            
+                <a href="http://www.entredevyops.es/tags/monitorizaci%C3%B3n.html">Monitorización</a>
+            
+                <a href="http://www.entredevyops.es/tags/tdd.html">TDD</a>
+            
+            
+                  </div>
+                
+                    <div class="post-share">
+                        <a class="fa fa-twitter" href="https://twitter.com/share?text=Noticias%20semanales%20%28Ene%20II%20y%20III%29&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2fnoticias-semanales-enero-2014-21.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <span>Twitter</span>
+                        </a>
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2fnoticias-semanales-enero-2014-21.html&title=Noticias%20semanales%20%28Ene%20II%20y%20III%29&summary=%3cdiv%20class%3d%22document%22%3e%0a%0a%0a%3cimg%20alt%3d%22La%20informaci%c3%b3n%20semanal%20sobre%20lo%20que%20te%20interesa%22%20class%3d%22border%20align-left%22%20src%3d%22%2fimages%2fWeekly-Newspaper.jpg%22%20style%3d%22width%3a%20213px%3b%20height%3a%20141px%3b%22%20%2f%3e%0a%3cp%3eComo%20la%20semana%20pasada%20no%20se%20publicaron%20noticias%2c%20las%20hemos%20unido%2c%20por%20lo%20que%20en%20esta%20entrega%2c%20tenemos%20bastantes%20noticias%3a%20La%20publicaci%c3%b3n%20del%20manual%20del%20administrador%20de%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fdebian.org%22%3eDebian%3c%2fa%3e%2c%20una%20nueva%20librer%c3%ada%20para%20gestionar%20recursos%20en%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2faws.amazon.com%2fes%2fec2%2f%22%3eEC2%3c%2fa%3e%20desde%20Python%2c%20una%20presentaci%c3%b3n%20sobre%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fflapjack.io%2f%22%3eFlapjack%3c%2fa%3e%2c%20otra%20para%20hacer%20pruebas%20sobre%20navegadores%20con%20JavaScript%2c%20otra%20plataforma%20de%20monitorizaci%c3%b3n%20que%20se%20integra%20con%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fgraphite.wikidot.com%2f%22%3eGraphite%3c%2fa%3e%20y%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fjenkins-ci.org%22%3eJenkins%3c%2fa%3e%2c%20otra%20m%c3%a1s%20que%20permite%20exponer%20un%20directorio%20con%20guiones%20de%20%3cem%3ebash%3c%2fem%3e%20como%20API%20REST%2c%20y%20la%20adici%c3%b3n%20de%20nuevas%20localizaciones%20a%20los%20servicios%20de%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2faws.amazon.com%2fes%2fcloudfront%2f%22%3eCloudFront%3c%2fa%3e%20y%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2faws.amazon.com%2fes%2froute53%2f%22%3eRoute%2053%3c%2fa%3e.%3c%2fp%3e%0a%3cp%3e%3c%2fp%3e%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+            
+              </footer>
+
+            
+                <aside class="post-comments">
+    
+    
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+</aside>
+
+            
+            </div>
+
+            <nav class="post-nav">
+                
+                    <a class="post-nav-item post-nav-next" href="http://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html">
+                        <section class="post-nav-teaser">
+                            <span class="post-nav-icon"><i class="fa fa-chevron-left"></i></span>
+                            <span class="post-nav-info">
+                                <h4 class="post-nav-title">FOSDEM 2014 - Crónica de un viaje al Open Source</h4>
+                            </span>
+                        </section>
+                    </a>
+                
+                
+                    <a class="post-nav-item post-nav-prev" href="http://www.entredevyops.es/posts/disponibles-videos-pycones-2013.html">
+                        <section class="post-nav-teaser">
+                            <span class="post-nav-icon"><i class="fa fa-chevron-right"></i></span>
+                            <span class="post-nav-info">
+                                <h4 class="post-nav-title">Disponibles los vídeos de las charlas de la PyConES 2013</h4>
+                            </span>
+                        </section>
+                    </a>
+                
+                <div class="clear"></div>
+            </nav>
+
+        </div>
+    </article>
+</main>
+
+                <div id="body-class" style="display: none;"></div>
+                <footer id="footer">
+                    <section class="credits">
+                        
+                        <span class="credits-license"><i class="fa
+                                fa-copyright"></i> 2013-2018 Entre Dev Y Ops, licencia <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_ES"><i class="fa fa-creative-commons"></i> BY-NC-SA 3.0</a>
+                        
+                        
+                        — <a href="politica-cookies.html">Política de cookies</a>
+                        
+                    </span>
+                    <span class="credits-software">Publicado con
+                        <a href="http://gohugo.io" target="_blank" rel="nofollow">Hugo</a>,
+                        tema basado en <a href="https://github.com/zenithar/hugo-theme-bleak" target="_blank" rel="nofollow">Bleak</a>
+                        por <a href="http://zutrinken.com" target="_blank" rel="nofollow">zutrinken</a></span>
+                    </section>
+                </footer>
+                
+<div id="subscription" data-target="subscription">
+    <div class="menu-header">
+        <span class="menu-label">Suscríbete</span>
+        <a class="menu-close" data-action="subscription" data-target="subscription"></a>
+    </div>
+
+    <div class="menu-list">
+        
+        
+        <li class="menu-list-item">
+            <i class='fa fa-rss'></i>
+            <a target="_blank" href="http://feedpress.me/edyo">Podcast RSS</a>
+        </li>
+        
+        
+        <li class="menu-list-item">
+            <i class='fa fa-podcast'></i>
+            <a target="_blank" href="https://www.ivoox.com/podcast-entre-dev-y-ops-podcast_sq_f1112910_1.html">Podcast en iVoox</a>
+        </li>
+        
+        
+        <li class="menu-list-item">
+            <i class='fa fa-apple'></i>
+            <a target="_blank" href="https://itunes.apple.com/es/podcast/entredevyops-podcast/id866788492">Podcast en iTunes</a>
+        </li>
+        
+        
+        <li class="menu-list-item">
+            <i class='fa fa-rss'></i>
+            <a target="_blank" href="/index.xml">Web RSS</a>
+        </li>
+        
+    </div>
+
+</div>
+
+
+                
+<div id="menu" data-target="menu">
+    <div class="menu-header">
+        <span class="menu-label">Menú</span>
+        <a class="menu-close" data-action="menu" data-target="menu"></a>
+    </div>
+
+    <div class="menu-list">
+        
+        
+        <li class="menu-list-item">
+            
+            <a class="home current js-ajax-link" href="/podcasts.html">Episodios podcast</a>
+        </li>
+        
+        
+        <li class="menu-list-item">
+            
+            <a class="home current js-ajax-link" href="/posts.html">Artículos</a>
+        </li>
+        
+        
+        <li class="menu-list-item">
+            
+            <a class="home current js-ajax-link" href="/equipo.html">Equipo</a>
+        </li>
+        
+        <li class="menu-list-item menu-list-social">
+            <a href="https://twitter.com/EntreDevYOps" title="Entre Dev Y Ops en Twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://github.com/edyo" title="Entre Dev Y Ops en GitHub"><i class="fa fa-github"></i></a>
+        </li>
+    </div>
+
+</div>
+
+
+                
+                <div class="overlay"></div>
+            </div>
+        </section>
+
+    <script async src="/js/main.js"></script>
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-25613214-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    
+
+
+
+  <noscript><link rel="stylesheet" href="/css/main.css"></noscript>
+</body>
+</html>
+
