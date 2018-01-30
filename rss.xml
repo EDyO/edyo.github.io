@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev Y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 17 Jan 2018 19:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jan 2018 20:45:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Píldora 2: Migrando la web a Hugo</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-pildora-2.html</link>
+      <pubDate>Tue, 30 Jan 2018 20:45:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-pildora-2.html</guid>
+      <description>&lt;p&gt;En esta segunda píldora del &lt;a href=&#34;http://www.entredevyops.es/&#34; target=&#34;_blank&#34;&gt;podcast&lt;/a&gt; hablamos sobre nuestra experiencia al migrar nuestra web a Hugo.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 35: Git y GitHub, to commit or not to commit</title>
