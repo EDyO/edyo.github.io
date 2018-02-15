@@ -6,10 +6,21 @@
     <description>Recent content in Podcasts on Entre Dev Y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 30 Jan 2018 20:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Feb 2018 23:45:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 36: FOSDEM Recap</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-36.html</link>
+      <pubDate>Wed, 14 Feb 2018 23:45:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-36.html</guid>
+      <description>&lt;p&gt;En el podcast de hoy os contamos lo que hemos visto y vivido en la FOSDEM 2018&amp;hellip; Si no lo conocéis, debéis; y si no habéis ido, es muy recomendable! Disfrutad!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Píldora 2: Migrando la web a Hugo</title>
