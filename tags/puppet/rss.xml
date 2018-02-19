@@ -17,14 +17,12 @@
       <pubDate>Tue, 07 Jan 2014 21:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/noticias-semanales-enero-2014-1.html</guid>
-      <description>.. image:: /images/Weekly-Newspaper.jpg
-   :width: 213px
-   :height: 141px
-   :alt: La información semanal sobre lo que te interesa
-   :align: right
-   :class: border
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, los encuentros familiares y los regalos, aquí están las primeras noticias de 2014. Podréis encontrar herramientas, como una especie de Vagrant_ para Docker_, un servicio complementario para vuestro Nagios_ y vuestra cuenta de Pagerduty_, o un nuevo panel para Graphite_, así como explicaciones sobre cobertura de testeo de código para Chef_ o un interesante blog sobre lo último de Puppet_, junto con artículos sobre SDN_, el despliegue contínuo agresivo o la importancia de la infraestructura como código para la automatización. Disfrutad del commienzo de año.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
+&lt;p&gt;En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, los encuentros familiares y los regalos, aquí están las primeras noticias de 2014. Podréis encontrar herramientas, como una especie de &lt;a class=&#34;reference external&#34; href=&#34;http://vagrantup.com&#34;&gt;Vagrant&lt;/a&gt; para &lt;a class=&#34;reference external&#34; href=&#34;https://docker.io&#34;&gt;Docker&lt;/a&gt;, un servicio complementario para vuestro &lt;a class=&#34;reference external&#34; href=&#34;http://www.nagios.org/&#34;&gt;Nagios&lt;/a&gt; y vuestra cuenta de &lt;a class=&#34;reference external&#34; href=&#34;http://www.pagerduty.com/&#34;&gt;Pagerduty&lt;/a&gt;, o un nuevo panel para &lt;a class=&#34;reference external&#34; href=&#34;http://graphite.wikidot.com/&#34;&gt;Graphite&lt;/a&gt;, así como explicaciones sobre cobertura de testeo de código para &lt;a class=&#34;reference external&#34; href=&#34;http://www.getchef.com/chef/&#34;&gt;Chef&lt;/a&gt; o un interesante blog sobre lo último de &lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com/&#34;&gt;Puppet&lt;/a&gt;, junto con artículos sobre &lt;a class=&#34;reference external&#34; href=&#34;http://en.wikipedia.org/wiki/Software-defined_networking&#34;&gt;SDN&lt;/a&gt;, el despliegue contínuo agresivo o la importancia de la infraestructura como código para la automatización. Disfrutad del commienzo de año.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -33,16 +31,13 @@ En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, lo
       <pubDate>Thu, 14 Nov 2013 07:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/puppet-labs-libro-ebook-entrega-continua-continuous-delivery.html</guid>
-      <description>.. image:: /images/cdebook-puppet.png
-   :width: 93px
-   :height: 125px
-   :alt: Ebook de Puppet Labs sobre entrega contínua
-   :align: left
-   :class: border
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-El concepto de entrega de software contínua no es nuevo. Ofrece al negocio la capacidad de añadir nuevas funcionalidades y capacidades al producto permitiendo alcanzar el mercado rápido y con confianza. Pero quedan algunas dudas pendientes de resolver como: ¿De qué se trata exactamente? ¿Qué es necesario para empezar?
 
-`Puppet Labs`_ ha publicado un libro_ gratuito sobre ello. No dudéis en descargarlo. Próximamente, haremos una reseña sobre este documento.&lt;/div&gt;</description>
+&lt;img alt=&#34;Ebook de Puppet Labs sobre entrega contínua&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/cdebook-puppet.png&#34; style=&#34;width: 93px; height: 125px;&#34; /&gt;
+&lt;p&gt;El concepto de entrega de software contínua no es nuevo. Ofrece al negocio la capacidad de añadir nuevas funcionalidades y capacidades al producto permitiendo alcanzar el mercado rápido y con confianza. Pero quedan algunas dudas pendientes de resolver como: ¿De qué se trata exactamente? ¿Qué es necesario para empezar?&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com&#34;&gt;Puppet Labs&lt;/a&gt; ha publicado un &lt;a class=&#34;reference external&#34; href=&#34;http://info.puppetlabs.com/download-free-continuous-delivery-ebook.html&#34;&gt;libro&lt;/a&gt; gratuito sobre ello. No dudéis en descargarlo. Próximamente, haremos una reseña sobre este documento.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -51,7 +46,11 @@ El concepto de entrega de software contínua no es nuevo. Ofrece al negocio la c
       <pubDate>Sun, 10 Nov 2013 07:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/curso-puppet-fundamentals-bcn-2013.html</guid>
-      <description>El próximo 27 de noviembre, en Barcelona, empezará el curso de formación sobre Puppet_, `Puppet Fundamentals`_, que se realizará en las instalaciones de `OlinData BV`_. El curso está orientado a enseñar las mejores prácticas en cuanto a gestionar infraestructura utilizando las herramientas de automatización de Puppet.&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;El próximo 27 de noviembre, en Barcelona, empezará el curso de formación sobre &lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com&#34;&gt;Puppet&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.amiando.com/puppet-training-barcelona-nov-2013.html?mkt_tok=3RkMMJWWfF9wsRolu6vLZKXonjHpfsX%252B6uguW6eg38431UFwdcjKPmjr1YAJTcJ0aPyQAgobGp5I5FELSrfYTaxht6wEWg%253D%253D&#34;&gt;Puppet Fundamentals&lt;/a&gt;, que se realizará en las instalaciones de &lt;a class=&#34;reference external&#34; href=&#34;http://olindata.com/&#34;&gt;OlinData BV&lt;/a&gt;. El curso está orientado a enseñar las mejores prácticas en cuanto a gestionar infraestructura utilizando las herramientas de automatización de Puppet.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

@@ -17,13 +17,12 @@
       <pubDate>Tue, 15 Jul 2014 23:40:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/digitalocean-nueva-region-londres.html</guid>
-      <description>.. image:: /images/digitalocean_logo.png
-   :width: 200px
-   :height: 122px
-   :alt: Digital Ocean
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-`DigitalOcean`_ ha anunciado hoy `en su blog`_ la disponibilidad de una nueva región para la creación de `droplets`_ (denominación de este servicio para instancias de servidores), esta nueva región ubicada en Londres es la tercera que este servicio dispone ya en Europa, junto a las dos existentes en Amsterdam.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Digital Ocean&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/digitalocean_logo.png&#34; style=&#34;width: 200px; height: 122px;&#34; /&gt;
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.digitalocean.com&#34;&gt;DigitalOcean&lt;/a&gt; ha anunciado hoy &lt;a class=&#34;reference external&#34; href=&#34;https://www.digitalocean.com/company/blog/introducing-our-london-region/&#34;&gt;en su blog&lt;/a&gt; la disponibilidad de una nueva región para la creación de &lt;a class=&#34;reference external&#34; href=&#34;https://www.digitalocean.com/help/technical/general/&#34;&gt;droplets&lt;/a&gt; (denominación de este servicio para instancias de servidores), esta nueva región ubicada en Londres es la tercera que este servicio dispone ya en Europa, junto a las dos existentes en Amsterdam.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

@@ -24,13 +24,13 @@
         <meta name="twitter:creator" content="@EntreDevYOps" />
         <meta name="twitter:title" content="OpenFlow, democratizando SDN" />
         
-        <meta name="twitter:description" content=".. image:: /images/OpenFlow-Logo-Small.jpg
-   :alt: OpenFlow
-   :align: right
+        <meta name="twitter:description" content="
 
-Más vale tarde que nunca: si hace ya un tiempo nos arrancamos con una `introducción teórica`_ a las diferentes filosofías de virtualización de red, hoy retomamos el tema para ahondar en conceptos más específicos. 
 
-Hablemos de OpenFlow, probablemente la tecnología SDN más popular hoy en día." />
+
+Más vale tarde que nunca: si hace ya un tiempo nos arrancamos con una introducción teórica a las diferentes filosofías de virtualización de red, hoy retomamos el tema para ahondar en conceptos más específicos.
+Hablemos de OpenFlow, probablemente la tecnología SDN más popular hoy en día.
+" />
         <meta name="twitter:url" content="http://www.entredevyops.es/posts/openflow-sdn.html" />
     
 
@@ -110,7 +110,7 @@ Hablemos de OpenFlow, probablemente la tecnología SDN más popular hoy en día.
         },
         "datePublished": "2015-02-18",
         "dateModified": "2015-02-18",
-        "wordCount": 1109,
+        "wordCount": 1053,
         "keywords": ["Redes","Virtualización","SDN"] 
     }
     </script>
@@ -209,7 +209,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">18 Feb 2015</span> <span class="reading-time">| <span class="estimated-reading-time">6 min.</span> (<span class="word-count">1109</span> palabras)</span></span>
+                        <span class="post-date">18 Feb 2015</span> <span class="reading-time">| <span class="estimated-reading-time">5 min.</span> (<span class="word-count">1053</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -218,89 +218,63 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  .. image:: /images/OpenFlow-Logo-Small.jpg
-   :alt: OpenFlow
-   :align: right
-
-Más vale tarde que nunca: si hace ya un tiempo nos arrancamos con una `introducción teórica`_ a las diferentes filosofías de virtualización de red, hoy retomamos el tema para ahondar en conceptos más específicos. 
-
-Hablemos de OpenFlow, probablemente la tecnología SDN más popular hoy en día.
+                  <div class="document">
 
 
-
-
-Breve historia
-==============
-
-Universidad de Stanford, 2007. Un estudiante de doctorado llamado Martín Casado publica un `paper`_ llamado *Ethane: Taking Control of the Enterprise*, en el que partiendo de la pregunta "¿Cómo podemos cambiar la arquitectura de red de una empresa para poderla hacer más gestionable?" desarrolla un diseño bajo una serie de principios básicos:
-
-1. Abstracción: La red debe ser gobernada por políticas de alto nivel.
-2. Automatización: Dichas políticas determinarán el camino que siguen los paquetes.
-3. Trazabilidad: La red debe garantizar el vínculo entre el tráfico y los usuarios.
-
-Suena bastante “DevOps”, ¿no creéis? ;)
-
-En este paper, Casado ya presenta dos de los principales elementos característicos de OpenFlow: el concepto de Controller (elemento central que aloja la inteligencia de la red) y el concepto de Flow (la entidad formada por un nodo origen, un nodo destino y el tráfico que intercambian). Unos meses después, el grupo de Redes de Alto Rendimiento de Stanford (entre los que se encontraba Casado) crea el proyecto `OpenFlow`_ e incluso libera una implementación pre-alpha en Noviembre del mismo año.
-
-Ocho años después, la `Open Networking Foundation`_ es la organización dedicada a impulsar el estándar OpenFlow (que ya va por su release 1.4.0) y tiene tras de sí a `cientos`_ de miembros incluyendo la práctica totalidad de los gigantes tecnológicos actuales (un gallifante para el primero que escriba en los comentarios a quién de los grandes echa en falta... Y dos gallifantes si lo adivinó antes de ver la lista... :)
-
-Arquitectura
-============
-
-Empecemos a describir OpenFlow con un ejemplo. Imaginad que al administrador de red de Acme, Inc le piden dar acceso a los invitados a Internet, pero sólo a través de proxy. Lo que cruzará por su mente será algo así:
-
-  *"Mmm... déjame pensar... mejor creo un segmento nuevo para invitados. Tendré que crear una VLAN nueva y asignarla a los puertos de las salas de reuniones... a ver que no me deje ninguno... uy, y luego tendré que crear un servicio DHCP con un rango IP nuevo... y con alguna opción de autoprovisión de proxy, claro. Ah, espera, tendré que ir al router a crear las rutas para el nuevo rango IP, o si no no llegarán al proxy... Uf, y además tengo el firewall entre medias, así que me toca crear reglas de acceso... Ehm... el proxy lo tengo escuchando en el 8080 o en el 6128? Y tenía que hacer NAT o no? Nunca me acuerdo..."*
-
-De tener OpenFlow, la experiencia de nuestro pobre administrador de red hubiera sido muy distinta (dramatización):
-
-  *"Luego me conecto al OpenFlow Controller y defino el grupo de puertos de invitados. Lo crearé como grupo dinámico, que contenga los puertos con 'Sala Reuniones' en su descripción. Al grupo le marcaré la opción de ‘Solo Proxy’ en el desplegable de ‘Acceso Internet’, instalo la política y listos..."*
-
-¿Brujería? No, una combinación de software y algo llamado Flow Tables. 
-
-Empecemos por el principio. En el estándar OpenFlow ya no existe distinción física entre switch, router, firewall o balanceador de carga. Cualquier dispositivo que manipule tráfico de red a nivel 2, 3 o 4 de la capa OSI recibe el nombre de OpenFlow Switch, y está controlado de forma centralizada por el OpenFlow Controller. Permitidme hablar de Switches y de Controllers de ahora en adelante.
-
-El comportamiento de los Switches a la hora de manipular el tráfico vendrá dictado por su Flow Table local, que es una base de reglas condición-acción construida a partir de las primitivas que OpenFlow define en su estándar. Cuando una nueva trama Ethernet entre en el dispositivo, el Switch revisará su Flow Table para decidir qué hacer con ese tráfico. Algunos ejemplos de primitivas serían:
-
-* *Leer/modificar dirección MAC origen/destino*
-* *Leer/Modificar dirección IP origen/destino*
-* *Leer/Modificar puerto tcp/udp origen/destino*
-* *Leer/Modificar campo VLAN*
-* *Egresar por puerto(s) X*
-* *Enviar copia del tráfico al Controller*
-
-Por ejemplo, el equivalente a un *hub* sería un Switch con una única primitiva instalada: "para cualquier trama Ethernet entrante, egresar por todos los puertos". Modelar el comportamiento de un switch tradicional con primitivas OpenFlow es algo más complejo y que veremos en el próximo post... aunque os espera el golden gallifante si me dáis la solución en los comentarios... :)
-
-It's the software, stupid!
-==========================
-
-Pero vamos a ver... si tengo que andar enredando con primitivas que hablan de puertos, IP's o VLANes, ¿dónde quedan los principios de Casado sobre las políticas de alto nivel que controlan la red?
-
-La clave está en que es el Controller, y no el administrador, el responsable del mantenimiento de las Flow Tables de los Switches. El Controller es el 'cerebro' de la red y el 'intérprete' del administrador, y traducirá sus diseños de alto nivel a aburridas, largas y complejas Flow Tables que instalará a lo largo de los diferentes Switches de nuestra red.
-
-Es importante entender que el estándar OpenFlow define sólo *una parte* de cómo es el Controller - lo que llamamos el Southbound API, que define la comunicación entre Controller y Switches y la manipulación de las Flow Tables y sus primitivas. Pero las capas de abstracción adicionales (`Northbound API`_) que van a permitir a nuestro querido administrador en Acme configurar la red a golpe de menú NO se incluyen en el estándar. Aquí es donde está surgiendo la verdadera innovación, con distintas propuestas Open Source y privativas de las que iremos hablando en próximos posts.
-
-¿Es esto realmente el futuro?
-=============================
-
-Decididlo vosotros:
-
-* Buscad en Google "[aquí_su_fabricante_tecnológico_favorito] + openflow" y contemplad cómo todo el mundo se está apresurando en tener versiones de sus productos que 'hablen' OpenFlow.
-* Por cierto, Google *usa* OpenFlow. Después de dos años de rediseño, en 2011 se completó la migración de su red interna a una arquitectura OpenFlow. `Aquí`_ tenéis el vídeo (47min) del Open Networking Summit de 2012 donde Urs Hoelzle presentó el proyecto.
-* Martín Casado y sus compañeros de Stanford crearon `Nicira Networks`_, compañía dedicada a OpenFlow, SDN y virtualización de red. La `vendieron`_ a VMWare en 2012 por un gritón de dólares.
-
-
-Nos vemos en el próximo post con un laboratorio de OpenFlow. ¡Hasta entonces!
-
-
-.. _`introducción teórica`: http ://www.entredevyops.es/posts/sdn-nfv-wtf.html
-.. _`paper`: http://yuba.stanford.edu/~casado/ethane-sigcomm07.pdf
-.. _`OpenFlow`: http://www.openflowswitch.com/
-.. _`Open Networking Foundation`: https://www.opennetworking.org/
-.. _`cientos`: https://www.opennetworking.org/our-members
-.. _`Aquí`: https://www.youtube.com/watch?v=VLHJUfgxEO4
-.. _`Northbound API`: http://en.wikipedia.org/wiki/Northbound_interface
-.. _`Nicira Networks`: http://en.wikipedia.org/wiki/Nicira
-.. _`vendieron`: http://www.vmware.com/company/news/releases/vmw-nicira-07-23-12
+<img alt="OpenFlow" class="align-right" src="/images/OpenFlow-Logo-Small.jpg" />
+<p>Más vale tarde que nunca: si hace ya un tiempo nos arrancamos con una <a class="reference external" href="http://www.entredevyops.es/posts/sdn-nfv-wtf.html">introducción teórica</a> a las diferentes filosofías de virtualización de red, hoy retomamos el tema para ahondar en conceptos más específicos.</p>
+<p>Hablemos de OpenFlow, probablemente la tecnología SDN más popular hoy en día.</p>
+<p></p>
+<div class="section" id="breve-historia">
+<h2>Breve historia</h2>
+<p>Universidad de Stanford, 2007. Un estudiante de doctorado llamado Martín Casado publica un <a class="reference external" href="http://yuba.stanford.edu/~casado/ethane-sigcomm07.pdf">paper</a> llamado <em>Ethane: Taking Control of the Enterprise</em>, en el que partiendo de la pregunta &quot;¿Cómo podemos cambiar la arquitectura de red de una empresa para poderla hacer más gestionable?&quot; desarrolla un diseño bajo una serie de principios básicos:</p>
+<ol class="arabic simple">
+<li>Abstracción: La red debe ser gobernada por políticas de alto nivel.</li>
+<li>Automatización: Dichas políticas determinarán el camino que siguen los paquetes.</li>
+<li>Trazabilidad: La red debe garantizar el vínculo entre el tráfico y los usuarios.</li>
+</ol>
+<p>Suena bastante “DevOps”, ¿no creéis? ;)</p>
+<p>En este paper, Casado ya presenta dos de los principales elementos característicos de OpenFlow: el concepto de Controller (elemento central que aloja la inteligencia de la red) y el concepto de Flow (la entidad formada por un nodo origen, un nodo destino y el tráfico que intercambian). Unos meses después, el grupo de Redes de Alto Rendimiento de Stanford (entre los que se encontraba Casado) crea el proyecto <a class="reference external" href="http://www.openflowswitch.com/">OpenFlow</a> e incluso libera una implementación pre-alpha en Noviembre del mismo año.</p>
+<p>Ocho años después, la <a class="reference external" href="https://www.opennetworking.org/">Open Networking Foundation</a> es la organización dedicada a impulsar el estándar OpenFlow (que ya va por su release 1.4.0) y tiene tras de sí a <a class="reference external" href="https://www.opennetworking.org/our-members">cientos</a> de miembros incluyendo la práctica totalidad de los gigantes tecnológicos actuales (un gallifante para el primero que escriba en los comentarios a quién de los grandes echa en falta... Y dos gallifantes si lo adivinó antes de ver la lista... :)</p>
+</div>
+<div class="section" id="arquitectura">
+<h2>Arquitectura</h2>
+<p>Empecemos a describir OpenFlow con un ejemplo. Imaginad que al administrador de red de Acme, Inc le piden dar acceso a los invitados a Internet, pero sólo a través de proxy. Lo que cruzará por su mente será algo así:</p>
+<blockquote>
+<em>&quot;Mmm... déjame pensar... mejor creo un segmento nuevo para invitados. Tendré que crear una VLAN nueva y asignarla a los puertos de las salas de reuniones... a ver que no me deje ninguno... uy, y luego tendré que crear un servicio DHCP con un rango IP nuevo... y con alguna opción de autoprovisión de proxy, claro. Ah, espera, tendré que ir al router a crear las rutas para el nuevo rango IP, o si no no llegarán al proxy... Uf, y además tengo el firewall entre medias, así que me toca crear reglas de acceso... Ehm... el proxy lo tengo escuchando en el 8080 o en el 6128? Y tenía que hacer NAT o no? Nunca me acuerdo...&quot;</em></blockquote>
+<p>De tener OpenFlow, la experiencia de nuestro pobre administrador de red hubiera sido muy distinta (dramatización):</p>
+<blockquote>
+<em>&quot;Luego me conecto al OpenFlow Controller y defino el grupo de puertos de invitados. Lo crearé como grupo dinámico, que contenga los puertos con 'Sala Reuniones' en su descripción. Al grupo le marcaré la opción de ‘Solo Proxy’ en el desplegable de ‘Acceso Internet’, instalo la política y listos...&quot;</em></blockquote>
+<p>¿Brujería? No, una combinación de software y algo llamado Flow Tables.</p>
+<p>Empecemos por el principio. En el estándar OpenFlow ya no existe distinción física entre switch, router, firewall o balanceador de carga. Cualquier dispositivo que manipule tráfico de red a nivel 2, 3 o 4 de la capa OSI recibe el nombre de OpenFlow Switch, y está controlado de forma centralizada por el OpenFlow Controller. Permitidme hablar de Switches y de Controllers de ahora en adelante.</p>
+<p>El comportamiento de los Switches a la hora de manipular el tráfico vendrá dictado por su Flow Table local, que es una base de reglas condición-acción construida a partir de las primitivas que OpenFlow define en su estándar. Cuando una nueva trama Ethernet entre en el dispositivo, el Switch revisará su Flow Table para decidir qué hacer con ese tráfico. Algunos ejemplos de primitivas serían:</p>
+<ul class="simple">
+<li><em>Leer/modificar dirección MAC origen/destino</em></li>
+<li><em>Leer/Modificar dirección IP origen/destino</em></li>
+<li><em>Leer/Modificar puerto tcp/udp origen/destino</em></li>
+<li><em>Leer/Modificar campo VLAN</em></li>
+<li><em>Egresar por puerto(s) X</em></li>
+<li><em>Enviar copia del tráfico al Controller</em></li>
+</ul>
+<p>Por ejemplo, el equivalente a un <em>hub</em> sería un Switch con una única primitiva instalada: &quot;para cualquier trama Ethernet entrante, egresar por todos los puertos&quot;. Modelar el comportamiento de un switch tradicional con primitivas OpenFlow es algo más complejo y que veremos en el próximo post... aunque os espera el golden gallifante si me dáis la solución en los comentarios... :)</p>
+</div>
+<div class="section" id="it-s-the-software-stupid">
+<h2>It's the software, stupid!</h2>
+<p>Pero vamos a ver... si tengo que andar enredando con primitivas que hablan de puertos, IP's o VLANes, ¿dónde quedan los principios de Casado sobre las políticas de alto nivel que controlan la red?</p>
+<p>La clave está en que es el Controller, y no el administrador, el responsable del mantenimiento de las Flow Tables de los Switches. El Controller es el 'cerebro' de la red y el 'intérprete' del administrador, y traducirá sus diseños de alto nivel a aburridas, largas y complejas Flow Tables que instalará a lo largo de los diferentes Switches de nuestra red.</p>
+<p>Es importante entender que el estándar OpenFlow define sólo <em>una parte</em> de cómo es el Controller - lo que llamamos el Southbound API, que define la comunicación entre Controller y Switches y la manipulación de las Flow Tables y sus primitivas. Pero las capas de abstracción adicionales (<a class="reference external" href="http://en.wikipedia.org/wiki/Northbound_interface">Northbound API</a>) que van a permitir a nuestro querido administrador en Acme configurar la red a golpe de menú NO se incluyen en el estándar. Aquí es donde está surgiendo la verdadera innovación, con distintas propuestas Open Source y privativas de las que iremos hablando en próximos posts.</p>
+</div>
+<div class="section" id="es-esto-realmente-el-futuro">
+<h2>¿Es esto realmente el futuro?</h2>
+<p>Decididlo vosotros:</p>
+<ul class="simple">
+<li>Buscad en Google &quot;[aquí_su_fabricante_tecnológico_favorito] + openflow&quot; y contemplad cómo todo el mundo se está apresurando en tener versiones de sus productos que 'hablen' OpenFlow.</li>
+<li>Por cierto, Google <em>usa</em> OpenFlow. Después de dos años de rediseño, en 2011 se completó la migración de su red interna a una arquitectura OpenFlow. <a class="reference external" href="https://www.youtube.com/watch?v=VLHJUfgxEO4">Aquí</a> tenéis el vídeo (47min) del Open Networking Summit de 2012 donde Urs Hoelzle presentó el proyecto.</li>
+<li>Martín Casado y sus compañeros de Stanford crearon <a class="reference external" href="http://en.wikipedia.org/wiki/Nicira">Nicira Networks</a>, compañía dedicada a OpenFlow, SDN y virtualización de red. La <a class="reference external" href="http://www.vmware.com/company/news/releases/vmw-nicira-07-23-12">vendieron</a> a VMWare en 2012 por un gritón de dólares.</li>
+</ul>
+<p>Nos vemos en el próximo post con un laboratorio de OpenFlow. ¡Hasta entonces!</p>
+</div>
+</div>
               </section>
 
               <footer class="post-footer">
@@ -320,7 +294,7 @@ Nos vemos en el próximo post con un laboratorio de OpenFlow. ¡Hasta entonces!
                         <a class="fa fa-twitter" href="https://twitter.com/share?text=OpenFlow%2c%20democratizando%20SDN&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2fopenflow-sdn.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <span>Twitter</span>
                         </a>
-                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2fopenflow-sdn.html&title=OpenFlow%2c%20democratizando%20SDN&summary=..%20image%3a%3a%20%2fimages%2fOpenFlow-Logo-Small.jpg%0a%20%20%20%3aalt%3a%20OpenFlow%0a%20%20%20%3aalign%3a%20right%0a%0aM%c3%a1s%20vale%20tarde%20que%20nunca%3a%20si%20hace%20ya%20un%20tiempo%20nos%20arrancamos%20con%20una%20%60introducci%c3%b3n%20te%c3%b3rica%60_%20a%20las%20diferentes%20filosof%c3%adas%20de%20virtualizaci%c3%b3n%20de%20red%2c%20hoy%20retomamos%20el%20tema%20para%20ahondar%20en%20conceptos%20m%c3%a1s%20espec%c3%adficos.%20%0a%0aHablemos%20de%20OpenFlow%2c%20probablemente%20la%20tecnolog%c3%ada%20SDN%20m%c3%a1s%20popular%20hoy%20en%20d%c3%ada.%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2fopenflow-sdn.html&title=OpenFlow%2c%20democratizando%20SDN&summary=%3cdiv%20class%3d%22document%22%3e%0a%0a%0a%3cimg%20alt%3d%22OpenFlow%22%20class%3d%22align-right%22%20src%3d%22%2fimages%2fOpenFlow-Logo-Small.jpg%22%20%2f%3e%0a%3cp%3eM%c3%a1s%20vale%20tarde%20que%20nunca%3a%20si%20hace%20ya%20un%20tiempo%20nos%20arrancamos%20con%20una%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fwww.entredevyops.es%2fposts%2fsdn-nfv-wtf.html%22%3eintroducci%c3%b3n%20te%c3%b3rica%3c%2fa%3e%20a%20las%20diferentes%20filosof%c3%adas%20de%20virtualizaci%c3%b3n%20de%20red%2c%20hoy%20retomamos%20el%20tema%20para%20ahondar%20en%20conceptos%20m%c3%a1s%20espec%c3%adficos.%3c%2fp%3e%0a%3cp%3eHablemos%20de%20OpenFlow%2c%20probablemente%20la%20tecnolog%c3%ada%20SDN%20m%c3%a1s%20popular%20hoy%20en%20d%c3%ada.%3c%2fp%3e%0a%3cp%3e%3c%2fp%3e%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <span>LinkedIn</span>
                         </a>
                     </div>

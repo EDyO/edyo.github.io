@@ -30,17 +30,13 @@
       <pubDate>Sat, 09 Nov 2013 12:40:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</guid>
-      <description>.. image:: /images/bcndevcon13.jpeg
-   :width: 125px
-   :height: 125px
-   :alt: BcnDevCon13
-   :align: right
-   :class: border
+      <description>&lt;div class=&#34;document&#34;&gt;
 
 
-Ayer, día 8 de noviembre, ha tenido su inicio el BcnDevCon13_. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en *cloud*, móvil, robótica y *open source*.
-
-En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.&lt;/div&gt;</description>
+&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
+&lt;p&gt;Ayer, día 8 de noviembre, ha tenido su inicio el &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon13&lt;/a&gt;. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en &lt;em&gt;cloud&lt;/em&gt;, móvil, robótica y &lt;em&gt;open source&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>
