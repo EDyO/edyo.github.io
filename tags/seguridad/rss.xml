@@ -62,12 +62,12 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;
       <pubDate>Sun, 26 Oct 2014 21:30:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/2014-vulnerabilidades.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/security.jpg
+   :alt: Securidad
+   :align: left
+   :class: border
 
-
-&lt;img alt=&#34;Securidad&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/security.jpg&#34; /&gt;
-&lt;p&gt;Este año 2014 se ha convertido en un verdadero calvario para los administradores de sistemas y los responsables de seguridad de muchas empresas, sobretodo las que proporcionan servicios en Internet. A falta de dos meses para que finalice el año, ya son tres las vulnerabilidades graves detectadas que nos han puesto en jaque. Hablamos de &lt;a class=&#34;reference external&#34; href=&#34;https://en.wikipedia.org/wiki/Heartbleed&#34;&gt;Heartbleed&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://en.wikipedia.org/wiki/Shellshock_(software_bug)&#34;&gt;Shellshock&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;https://en.wikipedia.org/wiki/Transport_Layer_Security#POODLE_attack&#34;&gt;Poodle&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Este año 2014 se ha convertido en un verdadero calvario para los administradores de sistemas y los responsables de seguridad de muchas empresas, sobretodo las que proporcionan servicios en Internet. A falta de dos meses para que finalice el año, ya son tres las vulnerabilidades graves detectadas que nos han puesto en jaque. Hablamos de Heartbleed_, Shellshock_ y Poodle_.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -76,12 +76,12 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;
       <pubDate>Mon, 08 Sep 2014 08:30:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-11.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/estandarizacion.jpg
+   :alt: Bucle de retroalimentación
+   :align: left
+   :class: border
 
-
-&lt;img alt=&#34;Bucle de retroalimentación&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/estandarizacion.jpg&#34; /&gt;
-&lt;p&gt;Para finalizar esta serie de &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim&#34;&gt;Gene Kim&lt;/a&gt;, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Para finalizar esta serie de `Gene Kim`_, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -90,12 +90,11 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;
       <pubDate>Sun, 27 Jul 2014 00:35:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-10.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/Feedback_Loop.png
+   :alt: Bucle de retroalimentación
+   :align: right
 
-
-&lt;img alt=&#34;Bucle de retroalimentación&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/Feedback_Loop.png&#34; /&gt;
-&lt;p&gt;La penúltima entrega de &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim&#34;&gt;Gene Kim&lt;/a&gt;, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+La penúltima entrega de `Gene Kim`_, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -104,12 +103,11 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;
       <pubDate>Sun, 29 Jun 2014 03:35:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-9.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/automation.jpeg
+   :alt: Automatización
+   :align: right
 
-
-&lt;img alt=&#34;Automatización&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/automation.jpeg&#34; /&gt;
-&lt;p&gt;En el noveno punto, &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+En el noveno punto, `Gene Kim`_ inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -118,12 +116,11 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;
       <pubDate>Sun, 08 Jun 2014 03:35:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-8.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/chaos-monkey.png
+   :alt: Chaos Monkey
+   :align: right
 
-
-&lt;img alt=&#34;Chaos Monkey&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/chaos-monkey.png&#34; /&gt;
-&lt;p&gt;El octavo punto de &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; sobre DevOps trata sobre cómo se integran las áreas de Seguridad informática y calidad en los flujos de trabajo de DevOps. Aunque parezca algo muy complejo de hacer, es también algo que conviene comprender correctamente para poder realizar de la forma más adecuada. Es decir, sin perder el sentido de tener procesos de calidad y seguridad, ni afectar al esfuerzo realizado para disponer de las funcionalidades en el tiempo requerido para mantener la competitividad de la organización.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+El octavo punto de `Gene Kim`_ sobre DevOps trata sobre cómo se integran las áreas de Seguridad informática y calidad en los flujos de trabajo de DevOps. Aunque parezca algo muy complejo de hacer, es también algo que conviene comprender correctamente para poder realizar de la forma más adecuada. Es decir, sin perder el sentido de tener procesos de calidad y seguridad, ni afectar al esfuerzo realizado para disponer de las funcionalidades en el tiempo requerido para mantener la competitividad de la organización.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -132,12 +129,14 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;
       <pubDate>Wed, 06 Nov 2013 23:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/amazon-ws-presenta-iam-policy-simulator.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/iam.jpg
+   :width: 183px
+   :height: 123px
+   :alt: Seguridad mejorada en Amazon WS IAM
+   :class: border
+   :align: left
 
-
-&lt;img alt=&#34;Seguridad mejorada en Amazon WS IAM&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/iam.jpg&#34; style=&#34;width: 183px; height: 123px;&#34; /&gt;
-&lt;p&gt;Esta semana &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt; ha publicado una nueva funcionalidad para su servicio &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/iam/&#34;&gt;IAM&lt;/a&gt;, con el que intenta mejorar el despliegue de configuraciones de seguridad algo más complejas, asegurando que no afecten al funcionamiento de la infraestructura. El servicio &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/iam/&#34;&gt;IAM&lt;/a&gt; es el que permite administrar el modo en que los usuarios se autentican y acceden a los servicios que se hayan contratado con &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt;. La aplicación de políticas complejas pueden poner en peligro el funcionamiento del sistema desplegado.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Esta semana `Amazon WS`_ ha publicado una nueva funcionalidad para su servicio IAM_, con el que intenta mejorar el despliegue de configuraciones de seguridad algo más complejas, asegurando que no afecten al funcionamiento de la infraestructura. El servicio IAM_ es el que permite administrar el modo en que los usuarios se autentican y acceden a los servicios que se hayan contratado con `Amazon WS`_. La aplicación de políticas complejas pueden poner en peligro el funcionamiento del sistema desplegado.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -146,12 +145,14 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;
       <pubDate>Sat, 19 Oct 2013 10:45:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/amazon-ws-aws-soporte-mfa-autenticacion-multifactor.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/Simple-Mobile-based.jpg
+   :width: 206px
+   :height: 97px
+   :alt: Algo que el usuario posea, en el móvil, por ejemplo.
+   :align: left
+   :class: border
 
-
-&lt;img alt=&#34;Algo que el usuario posea, en el móvil, por ejemplo.&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/Simple-Mobile-based.jpg&#34; style=&#34;width: 206px; height: 97px;&#34; /&gt;
-&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com&#34;&gt;Amazon Web Services&lt;/a&gt; anunció ayer, viernes día 18, el &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/mfa&#34;&gt;soporte&lt;/a&gt; para la autenticación multifactor, o &lt;a class=&#34;reference external&#34; href=&#34;http://en.wikipedia.org/wiki/Multi-factor_authentication&#34;&gt;MFA&lt;/a&gt;, de sus siglas en inglés.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+`Amazon Web Services`_ anunció ayer, viernes día 18, el soporte_ para la autenticación multifactor, o MFA_, de sus siglas en inglés.&lt;/div&gt;</description>
     </item>
     
   </channel>

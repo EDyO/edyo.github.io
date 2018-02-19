@@ -30,11 +30,7 @@
       <pubDate>Sun, 13 Nov 2016 12:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/que-sabes-del-cloud.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
-
-
-&lt;p&gt;El &lt;em&gt;cloud&lt;/em&gt;, es la denominación de un conjunto de servicios, productos e infraestructuras que se ofrecen habitualmente en internet. ¿Pero qué sabemos de ello? ¿cómo podemos demostrar que tenemos conocimiento sobre la materia?. Podemos realizar muchos cursos o tener muchas horas de uso en determinadas tecnologías. Una de las formas para poder acreditar un conocimiento es superar unas pruebas estándar. En este punto es donde intervienen las certificaciones.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <description>El *cloud*, es la denominación de un conjunto de servicios, productos e infraestructuras que se ofrecen habitualmente en internet. ¿Pero qué sabemos de ello? ¿cómo podemos demostrar que tenemos conocimiento sobre la materia?. Podemos realizar muchos cursos o tener muchas horas de uso en determinadas tecnologías. Una de las formas para poder acreditar un conocimiento es superar unas pruebas estándar. En este punto es donde intervienen las certificaciones.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -83,14 +79,15 @@ listado muy extenso de este tipo de software.&lt;/p&gt;
       <pubDate>Thu, 14 May 2015 00:30:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/webinarios-aws-septiembre.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/AmazonWebservices.png
+   :width: 200 
+   :height: 80
+   :alt: AWS
+   :align: right
 
-
-&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/AmazonWebservices.png&#34; style=&#34;width: 200px; height: 80px;&#34; /&gt;
-&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.hp.com/es/es&#34;&gt;AWS&lt;/a&gt; está poniéndose las pilas en cuanto a formación se refiere.
+AWS_ está poniéndose las pilas en cuanto a formación se refiere.
 Este mes de septiembre propone una serie de webinarios sobre diferentes servicios, entre ellos, algunos de los más nuevos.
-Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34;reference external&#34; href=&#34;http://www.hp.com/es/es&#34;&gt;AWS&lt;/a&gt; ofrece como &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/redshift/&#34;&gt;Redshift&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/lambda/&#34;&gt;Lambda&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/dynamodb/&#34;&gt;DynamoDB&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/glacier/&#34;&gt;Glacier&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/ecs/details/&#34;&gt;EC2 Container Service&lt;/a&gt; y otros.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Muy recomendables si os interesa trabajar con los servicios que AWS_ ofrece como Redshift_, Lambda_, DynamoDB_, Glacier_, `EC2 Container Service`_ y otros.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -99,12 +96,13 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
       <pubDate>Mon, 03 Nov 2014 01:14:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/noticias-sobre-aws-interact-redis-frankfurt.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/AmazonWebservices.png
+   :width: 200 
+   :height: 80
+   :alt: AWS
+   :align: left
 
-
-&lt;img alt=&#34;AWS&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/AmazonWebservices.png&#34; style=&#34;width: 200px; height: 80px;&#34; /&gt;
-&lt;p&gt;Recientemente, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/&#34;&gt;Amazon WebServices&lt;/a&gt; ha publicado tres noticias bastante relevantes. En este artículo las comentamos un poco.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Recientemente, `Amazon WebServices`_ ha publicado tres noticias bastante relevantes. En este artículo las comentamos un poco.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -113,12 +111,14 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
       <pubDate>Sun, 19 Jan 2014 19:45:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/Weekly-Newspaper.jpg
+   :width: 213px
+   :height: 141px
+   :alt: La información semanal sobre lo que te interesa
+   :align: left
+   :class: border
 
-
-&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
-&lt;p&gt;Como la semana pasada no se publicaron noticias, las hemos unido, por lo que en esta entrega, tenemos bastantes noticias: La publicación del manual del administrador de &lt;a class=&#34;reference external&#34; href=&#34;http://debian.org&#34;&gt;Debian&lt;/a&gt;, una nueva librería para gestionar recursos en &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/ec2/&#34;&gt;EC2&lt;/a&gt; desde Python, una presentación sobre &lt;a class=&#34;reference external&#34; href=&#34;http://flapjack.io/&#34;&gt;Flapjack&lt;/a&gt;, otra para hacer pruebas sobre navegadores con JavaScript, otra plataforma de monitorización que se integra con &lt;a class=&#34;reference external&#34; href=&#34;http://graphite.wikidot.com/&#34;&gt;Graphite&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://jenkins-ci.org&#34;&gt;Jenkins&lt;/a&gt;, otra más que permite exponer un directorio con guiones de &lt;em&gt;bash&lt;/em&gt; como API REST, y la adición de nuevas localizaciones a los servicios de &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/cloudfront/&#34;&gt;CloudFront&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/route53/&#34;&gt;Route 53&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Como la semana pasada no se publicaron noticias, las hemos unido, por lo que en esta entrega, tenemos bastantes noticias: La publicación del manual del administrador de `Debian`_, una nueva librería para gestionar recursos en EC2_ desde Python, una presentación sobre Flapjack_, otra para hacer pruebas sobre navegadores con JavaScript, otra plataforma de monitorización que se integra con Graphite_ y Jenkins_, otra más que permite exponer un directorio con guiones de *bash* como API REST, y la adición de nuevas localizaciones a los servicios de CloudFront_ y `Route 53`_.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -127,12 +127,14 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
       <pubDate>Tue, 24 Dec 2013 12:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-3.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/Weekly-Newspaper.jpg
+   :width: 213px
+   :height: 141px
+   :alt: La información semanal sobre lo que te interesa
+   :align: right
+   :class: border
 
-
-&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
-&lt;p&gt;Debido a que el ritmo de publicación de noticias se había incrementado hasta el punto de casi no tener tiempo para escribir nada más, en Entre Dev Y Ops vamos a probar publicar un sólo post semanal con las noticias más interesantes de cada semana.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Debido a que el ritmo de publicación de noticias se había incrementado hasta el punto de casi no tener tiempo para escribir nada más, en Entre Dev Y Ops vamos a probar publicar un sólo post semanal con las noticias más interesantes de cada semana.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -141,11 +143,7 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
       <pubDate>Thu, 28 Nov 2013 12:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/amazon-ws-iam-soporta-federacion-saml.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
-
-
-&lt;p&gt;Últimamente, &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;AWS&lt;/a&gt; está en una escalada de anuncios relacionados con nuevas funcionalidades de &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/iam/&#34;&gt;IAM&lt;/a&gt;. Esta vez anuncia el soporte de federación de identidades basada en &lt;a class=&#34;reference external&#34; href=&#34;https://www.oasis-open.org/committees/download.php/13525/?sc_ichannel=EM&amp;amp;sc_icountry=Global&amp;amp;sc_icampaign_type=Launch&amp;amp;sc_icampaign=EM_67989430&amp;amp;ref_=7&#34;&gt;SAML&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <description>Últimamente, AWS_ está en una escalada de anuncios relacionados con nuevas funcionalidades de IAM_. Esta vez anuncia el soporte de federación de identidades basada en SAML_.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -154,12 +152,11 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
       <pubDate>Mon, 25 Nov 2013 21:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/reinvent-2013-amazon-ws.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/AmazonWebservices.png
+   :alt: AWS
+   :align: right
 
-
-&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/AmazonWebservices.png&#34; /&gt;
-&lt;p&gt;Del día 12 al 15 de noviembre, tuvo lugar, en Las Vegas, el &lt;a class=&#34;reference external&#34; href=&#34;http://reinvent.awsevents.com/index.html&#34;&gt;re:Invent&lt;/a&gt;, de &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt;. Siendo el mayor evento sobre el &lt;em&gt;cloud&lt;/em&gt; de &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;AWS&lt;/a&gt;, esta edición contempló sesiones técnicas, sesiones formativas de entrenamiento, laboratorios de práctica y consultas técnicas con ingenieros y clientes expertos. Aunque nuestra asistencia fue imposible, este artículo contiene un resumen de las novedades que anunciaron.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Del día 12 al 15 de noviembre, tuvo lugar, en Las Vegas, el `re:Invent`_, de `Amazon WS`_. Siendo el mayor evento sobre el *cloud* de AWS_, esta edición contempló sesiones técnicas, sesiones formativas de entrenamiento, laboratorios de práctica y consultas técnicas con ingenieros y clientes expertos. Aunque nuestra asistencia fue imposible, este artículo contiene un resumen de las novedades que anunciaron.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -168,11 +165,7 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
       <pubDate>Sat, 23 Nov 2013 12:15:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/amazon-ws-ec2-runinstances-permisos-nivel-recursos.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
-
-
-&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt; ha anunciado que ha añadido, a la &lt;em&gt;API&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-RunInstances.html&#34;&gt;RunInstances&lt;/a&gt; de &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/ec2/&#34;&gt;EC2&lt;/a&gt;, la posibilidad de gestionar permisos a nivel de recursos. &lt;a class=&#34;reference external&#34; href=&#34;http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-RunInstances.html&#34;&gt;RunInstances&lt;/a&gt; es la &lt;em&gt;API&lt;/em&gt; principal y más común para crear nuevas instancias en &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/ec2/&#34;&gt;EC2&lt;/a&gt;, y ahora permite limitar ciertos aspectos de la creación por usuario.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <description>`Amazon WS`_ ha anunciado que ha añadido, a la *API* RunInstances_ de EC2_, la posibilidad de gestionar permisos a nivel de recursos. RunInstances_ es la *API* principal y más común para crear nuevas instancias en EC2_, y ahora permite limitar ciertos aspectos de la creación por usuario.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -181,12 +174,11 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
       <pubDate>Sun, 10 Nov 2013 08:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/amazon-ws-elb-balancea-entre-zonas.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/AmazonWebservices.png
+   :alt: AWS
+   :align: left
 
-
-&lt;img alt=&#34;AWS&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/AmazonWebservices.png&#34; /&gt;
-&lt;p&gt;El pasado jueves, día 7 de noviembre, &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt; anunció que su servicio &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/elb/&#34;&gt;ELB&lt;/a&gt; pasaría a permitir balancear entre instancias que se encontraran en zonas de disponibilidad distintas, mejorando el mantenimiento y rendimiento de las aplicaciones, que ya no requerirán esfuerzos adicionales por parte de los clientes. También hará el despliegue de las aplicaciones más sencillo.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+El pasado jueves, día 7 de noviembre, `Amazon WS`_ anunció que su servicio ELB_ pasaría a permitir balancear entre instancias que se encontraran en zonas de disponibilidad distintas, mejorando el mantenimiento y rendimiento de las aplicaciones, que ya no requerirán esfuerzos adicionales por parte de los clientes. También hará el despliegue de las aplicaciones más sencillo.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -195,12 +187,14 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
       <pubDate>Wed, 06 Nov 2013 23:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/amazon-ws-presenta-iam-policy-simulator.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/iam.jpg
+   :width: 183px
+   :height: 123px
+   :alt: Seguridad mejorada en Amazon WS IAM
+   :class: border
+   :align: left
 
-
-&lt;img alt=&#34;Seguridad mejorada en Amazon WS IAM&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/iam.jpg&#34; style=&#34;width: 183px; height: 123px;&#34; /&gt;
-&lt;p&gt;Esta semana &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt; ha publicado una nueva funcionalidad para su servicio &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/iam/&#34;&gt;IAM&lt;/a&gt;, con el que intenta mejorar el despliegue de configuraciones de seguridad algo más complejas, asegurando que no afecten al funcionamiento de la infraestructura. El servicio &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/iam/&#34;&gt;IAM&lt;/a&gt; es el que permite administrar el modo en que los usuarios se autentican y acceden a los servicios que se hayan contratado con &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt;. La aplicación de políticas complejas pueden poner en peligro el funcionamiento del sistema desplegado.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Esta semana `Amazon WS`_ ha publicado una nueva funcionalidad para su servicio IAM_, con el que intenta mejorar el despliegue de configuraciones de seguridad algo más complejas, asegurando que no afecten al funcionamiento de la infraestructura. El servicio IAM_ es el que permite administrar el modo en que los usuarios se autentican y acceden a los servicios que se hayan contratado con `Amazon WS`_. La aplicación de políticas complejas pueden poner en peligro el funcionamiento del sistema desplegado.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -209,12 +203,11 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
       <pubDate>Tue, 05 Nov 2013 00:15:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/nuevas-funcionalidades-amazon-ws.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/AmazonWebservices.png
+   :alt: AWS
+   :align: right
 
-
-&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/AmazonWebservices.png&#34; /&gt;
-&lt;p&gt;Entre el jueves de la semana pasada y este lunes, &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt; publicó algunas noticias sobre nuevas funcionalidades en sus productos &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/rds/&#34;&gt;RDS&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/cloudfront/&#34;&gt;Cloudfront&lt;/a&gt;, y &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/cloudwatch/&#34;&gt;CloudWatch&lt;/a&gt;. También reconocieron ciertos problemas en su actualización de versión menor de &lt;a class=&#34;reference external&#34; href=&#34;http://mysql.com/&#34;&gt;MySQL&lt;/a&gt; en &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/rds/&#34;&gt;RDS&lt;/a&gt;, por lo que han detenido su calendario de aplicación de dicha actualización, aunque ofrecen a los usuarios que lo deseen, poderse actualizar.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Entre el jueves de la semana pasada y este lunes, `Amazon WS`_ publicó algunas noticias sobre nuevas funcionalidades en sus productos RDS_, Cloudfront_, y CloudWatch_. También reconocieron ciertos problemas en su actualización de versión menor de MySQL_ en RDS_, por lo que han detenido su calendario de aplicación de dicha actualización, aunque ofrecen a los usuarios que lo deseen, poderse actualizar.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -223,12 +216,11 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
       <pubDate>Sun, 27 Oct 2013 20:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/aws-summit-barcelona-2013.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/AmazonWebservices.png
+   :alt: AWS
+   :align: right
 
-
-&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/AmazonWebservices.png&#34; /&gt;
-&lt;p&gt;Este pasado jueves &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt; celebró en Barcelona un &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/aws-summit-2013/barcelona/&#34;&gt;Summit&lt;/a&gt; para ofrecer una visión de sus tecnologías &lt;em&gt;cloud&lt;/em&gt;, casos prácticos de empresas, su aplicación para escenarios de &lt;em&gt;Big Data&lt;/em&gt;, copias de seguridad y &lt;em&gt;Disaster Recovery&lt;/em&gt;, así como aspectos de seguridad. El evento pudo seguirse en Twitter con el hashtag &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%23awssummit&#34;&gt;#awssummit&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Este pasado jueves `Amazon WS`_ celebró en Barcelona un Summit_ para ofrecer una visión de sus tecnologías *cloud*, casos prácticos de empresas, su aplicación para escenarios de *Big Data*, copias de seguridad y *Disaster Recovery*, así como aspectos de seguridad. El evento pudo seguirse en Twitter con el hashtag `#awssummit`_.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -237,12 +229,14 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
       <pubDate>Sat, 19 Oct 2013 10:45:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/amazon-ws-aws-soporte-mfa-autenticacion-multifactor.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/Simple-Mobile-based.jpg
+   :width: 206px
+   :height: 97px
+   :alt: Algo que el usuario posea, en el móvil, por ejemplo.
+   :align: left
+   :class: border
 
-
-&lt;img alt=&#34;Algo que el usuario posea, en el móvil, por ejemplo.&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/Simple-Mobile-based.jpg&#34; style=&#34;width: 206px; height: 97px;&#34; /&gt;
-&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com&#34;&gt;Amazon Web Services&lt;/a&gt; anunció ayer, viernes día 18, el &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/mfa&#34;&gt;soporte&lt;/a&gt; para la autenticación multifactor, o &lt;a class=&#34;reference external&#34; href=&#34;http://en.wikipedia.org/wiki/Multi-factor_authentication&#34;&gt;MFA&lt;/a&gt;, de sus siglas en inglés.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+`Amazon Web Services`_ anunció ayer, viernes día 18, el soporte_ para la autenticación multifactor, o MFA_, de sus siglas en inglés.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -251,11 +245,7 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
       <pubDate>Wed, 16 Oct 2013 00:55:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/introduccion-amazon-ws-barcelona-jug.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
-
-
-&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/alfonsnic&#34;&gt;Alfons Nonell&lt;/a&gt;, Dr. en Química Computacional y CEO de &lt;a class=&#34;reference external&#34; href=&#34;https://www.mindthebyte.com/&#34;&gt;Mind the Byte&lt;/a&gt;, nos brindó ayer en un evento organizado por el &lt;a class=&#34;reference external&#34; href=&#34;http://www.barcelonajug.org/&#34;&gt;Barcelona JUG&lt;/a&gt; con una &lt;a class=&#34;reference external&#34; href=&#34;http://www.barcelonajug.org/2013/10/introduccion-amazon-aws.html&#34;&gt;presentación sobre Amazon WS&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <description>`Alfons Nonell`_, Dr. en Química Computacional y CEO de `Mind the Byte`_, nos brindó ayer en un evento organizado por el `Barcelona JUG`_ con una `presentación sobre Amazon WS`_.&lt;/div&gt;</description>
     </item>
     
   </channel>

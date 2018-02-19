@@ -252,11 +252,7 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Wed, 22 Jun 2016 23:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/podcasts/podcast-episodio-17.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
-
-
-&lt;p&gt;Nuevo episodio listo para escuhar de nuestro podcast en el que hemos debatido sobre ChatOps.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <description>Nuevo episodio listo para escuhar de nuestro podcast en el que hemos debatido sobre ChatOps.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -265,12 +261,9 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Thu, 24 Mar 2016 23:30:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/podcasts/podcast-episodio-15.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>Ya está disponible para escuchar en vuestro reproductor favorito un nuevo episodio de nuestro `podcast`_.
 
-
-&lt;p&gt;Ya está disponible para escuchar en vuestro reproductor favorito un nuevo episodio de nuestro &lt;a class=&#34;reference external&#34; href=&#34;http://www.entredevyops.es/podcast.html&#34;&gt;podcast&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;En esta ocasión, hablamos sobre novedades en Spotify y Microsoft, y sobre el cloud de IBM, Bluemix, además de otros temas.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+En esta ocasión, hablamos sobre novedades en Spotify y Microsoft, y sobre el cloud de IBM, Bluemix, además de otros temas.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -279,13 +272,11 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Thu, 08 Oct 2015 08:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/podcasts/podcast-episodio-14.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>En este podcast repasaremos próximos eventos y hablaremos con Alexandre Savio co-organizador de la `EuroPython 2015`_ y `Python San Sebastian 2015`_.
 
+Como siempre podréis encontrar este, y el resto de episodios, en nuestra sección de `podcast`_.
 
-&lt;p&gt;En este podcast repasaremos próximos eventos y hablaremos con Alexandre Savio co-organizador de la &lt;a class=&#34;reference external&#34; href=&#34;http://europython.eu&#34;&gt;EuroPython 2015&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://pyss15.pyss.org/en/&#34;&gt;Python San Sebastian 2015&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Como siempre podréis encontrar este, y el resto de episodios, en nuestra sección de &lt;a class=&#34;reference external&#34; href=&#34;http://feedpress.me/edyo&#34;&gt;podcast&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Esperamos que os guste.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Esperamos que os guste.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -294,12 +285,9 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Fri, 18 Sep 2015 15:14:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/podcasts/podcast-episodio-13.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>En este podcast repasaremos próximos eventos, las noticias relevantes de los últimos dos meses y discutiremos sobre temas diversos: grupo de `DevOps BCN`_, `EuroPython 2015`_ y &#34;Se busca DevOps&#34;.
 
-
-&lt;p&gt;En este podcast repasaremos próximos eventos, las noticias relevantes de los últimos dos meses y discutiremos sobre temas diversos: grupo de &lt;a class=&#34;reference external&#34; href=&#34;http://www.meetup.com/es/devops-bcn-group/&#34;&gt;DevOps BCN&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://europython.eu&#34;&gt;EuroPython 2015&lt;/a&gt; y &amp;quot;Se busca DevOps&amp;quot;.&lt;/p&gt;
-&lt;p&gt;Esperamos que os guste.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Esperamos que os guste.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -308,8 +296,12 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Mon, 13 Apr 2015 02:14:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/podcasts/podcast-episodio-12.html</guid>
-      <description>En este podcast entrevistamos a los organizadores de la EuroPython 2015. Ésta entrevista fue gravada el día 15 de Marzo, pero por razones técnicas no hemos podido publicarla hasta ahora. En la entrevista también se habla de la enseñanza a investigadores, concretamente de la Software Carpentry.
-Esperamos que os guste.</description>
+      <description>En este podcast entrevistamos a los organizadores de la `EuroPython 2015`_. Ésta entrevista fue gravada el día 15 de Marzo, pero por razones técnicas no hemos podido publicarla hasta ahora. En la entrevista también se habla de la enseñanza a investigadores, concretamente de la `Software Carpentry`_.
+
+Esperamos que os guste.
+
+.. _`EuroPython 2015`: http://europython.eu
+.. _`Software Carpentry`: http://software-carpentry.org</description>
     </item>
     
     <item>
@@ -318,8 +310,14 @@ Esperamos que os guste.</description>
       <pubDate>Mon, 16 Feb 2015 22:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/podcasts/podcast-episodio-11.html</guid>
-      <description>En este podcast hablamos del Curso Scrum, DevOps y Lean IT en la UPC 17 Marzo y del Curso oficial Scrum.org en itnove 26 Marzo, pero también de la nueva vulnerabilidad GHOST, y de cómo fue la FOSDEM.
-Esperamos que os guste.</description>
+      <description>En este podcast hablamos del `Curso Scrum, DevOps y Lean IT en la UPC 17 Marzo`_ y del `Curso oficial Scrum.org en itnove 26 Marzo`_, pero también de la nueva vulnerabilidad `GHOST`_, y de cómo fue la `FOSDEM`_.
+
+Esperamos que os guste.
+
+.. _`Curso Scrum, DevOps y Lean IT en la UPC 17 Marzo`: http://www.talent.upc.edu/cat/professionals/presentacio/codi/527700/agile-management-scrum-devops-lean
+.. _`Curso oficial Scrum.org en itnove 26 Marzo`: http://itnove.com/es/servicios/formacion-scrum
+.. _`GHOST`: http://www.symantec.com/connect/blogs/linux-ghost-vulnerability-cve-2015-0235-not-scary-it-looks
+.. _`FOSDEM`: https://fosdem.</description>
     </item>
     
     <item>
@@ -328,12 +326,9 @@ Esperamos que os guste.</description>
       <pubDate>Tue, 27 Jan 2015 20:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/podcasts/podcast-episodio-10.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>En este podcast tratamos sobre eventos. Explicamos los Conding Dojos que organiza pyBCN de manera regular en Barcelona, la EuroPython 2015 que será en Bilbao el próximo Julio y el Fosdem 2015 que se celebrará el día 30/01 y 01/02 en Bruselas. 
 
-
-&lt;p&gt;En este podcast tratamos sobre eventos. Explicamos los Conding Dojos que organiza pyBCN de manera regular en Barcelona, la EuroPython 2015 que será en Bilbao el próximo Julio y el Fosdem 2015 que se celebrará el día 30/01 y 01/02 en Bruselas.&lt;/p&gt;
-&lt;p&gt;Sobre este último aprovechamos para daros unos consejos que, si estáis pensado en acudir, os pueden ser útiles.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Sobre este último aprovechamos para daros unos consejos que, si estáis pensado en acudir, os pueden ser útiles.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -342,8 +337,11 @@ Esperamos que os guste.</description>
       <pubDate>Wed, 31 Dec 2014 18:46:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/podcasts/podcast-episodio-9.html</guid>
-      <description>Acabamos de publicar el noveno episodio de nuestro podcast, el último del año, por los pelos!!!!
-En él, encontraréis algunos comentarios sobre las conferencias que tuvieron lugar durante Noviembre, en Barcelona, como la VelocityConf, y hablaremos un poco sobre los microservicios.</description>
+      <description>Acabamos de publicar el noveno episodio de nuestro podcast_, el último del año, por los pelos!!!!
+
+En él, encontraréis algunos comentarios sobre las conferencias que tuvieron lugar durante Noviembre, en Barcelona, como la VelocityConf, y hablaremos un poco sobre los microservicios.
+
+.. _podcast: http://www.entredevyops.es/podcast.html</description>
     </item>
     
     <item>
@@ -352,8 +350,11 @@ En él, encontraréis algunos comentarios sobre las conferencias que tuvieron lu
       <pubDate>Sun, 23 Nov 2014 21:04:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/podcasts/podcast-episodio-8.html</guid>
-      <description>Aunque con algo de retraso, os anunciamos la disponibilidad del octavo episodio de nuestro podcast, que publicamos hace unos días.
-Tras la publicación de las vulnerabilidades Shellshock y Poodle, grabamos un debate sobre las vulnerabilidades y la reacción a ellas, que os ofrecemos en este episodio.</description>
+      <description>Aunque con algo de retraso, os anunciamos la disponibilidad del octavo episodio de nuestro podcast_, que publicamos hace unos días.
+
+Tras la publicación de las vulnerabilidades *Shellshock* y *Poodle*, grabamos un debate sobre las vulnerabilidades y la reacción a ellas, que os ofrecemos en este episodio.
+
+.. _podcast: http://www.entredevyops.es/podcast.html</description>
     </item>
     
     <item>
@@ -362,12 +363,9 @@ Tras la publicación de las vulnerabilidades Shellshock y Poodle, grabamos un de
       <pubDate>Thu, 16 Oct 2014 01:14:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/podcasts/podcast-episodio-7.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>Hoy hemos publicado el episodio número 7 de nuestro podcast. Esta vez nos hemos pasado un poco y el episodio es un poco largo, prometemos no repetirlo en el futuro, o partirlo en dos.
 
-
-&lt;p&gt;Hoy hemos publicado el episodio número 7 de nuestro podcast. Esta vez nos hemos pasado un poco y el episodio es un poco largo, prometemos no repetirlo en el futuro, o partirlo en dos.&lt;/p&gt;
-&lt;p&gt;En esta ocasión hemos entrevistado a Josep Pla, administrador de sistemas en &lt;a class=&#34;reference external&#34; href=&#34;http://www.upptalk.com/&#34;&gt;Upptalk&lt;/a&gt;, sobre algunas herramientas que usan, entre otros temas.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+En esta ocasión hemos entrevistado a Josep Pla, administrador de sistemas en Upptalk_, sobre algunas herramientas que usan, entre otros temas.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -376,12 +374,9 @@ Tras la publicación de las vulnerabilidades Shellshock y Poodle, grabamos un de
       <pubDate>Sun, 28 Sep 2014 19:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/podcasts/podcast-episodio-6.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>El pasado 25 de Agosto publicamos el episodio número 6 de nuestro podcast.
 
-
-&lt;p&gt;El pasado 25 de Agosto publicamos el episodio número 6 de nuestro podcast.&lt;/p&gt;
-&lt;p&gt;En esta última entrada tenemos el placer de realizar una entrevista a &lt;a class=&#34;reference external&#34; href=&#34;https://davidpoblador.com/&#34;&gt;David Poblador&lt;/a&gt;, jefe de SRE de &lt;a class=&#34;reference external&#34; href=&#34;https://www.spotify.com&#34;&gt;Spotify&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+En esta última entrada tenemos el placer de realizar una entrevista a `David Poblador`_, jefe de SRE de `Spotify`_.&lt;/div&gt;</description>
     </item>
     
   </channel>

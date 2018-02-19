@@ -24,11 +24,11 @@
         <meta name="twitter:creator" content="@EntreDevYOps" />
         <meta name="twitter:title" content="Empaquetado Contínuo" />
         
-        <meta name="twitter:description" content="
+        <meta name="twitter:description" content="====================
 Empaquetado contínuo
+====================
 
-Maciej Pasternacki contó cómo, con componentes ya existentes y otros que ha creado él, se puede construir una cadena de empaquetamiento contínuo.
-" />
+Maciej Pasternacki contó_ cómo, con componentes ya existentes y otros que ha creado él, se puede construir una cadena de empaquetamiento contínuo." />
         <meta name="twitter:url" content="http://www.entredevyops.es/posts/empaquetado-continuo.html" />
     
 
@@ -108,7 +108,7 @@ Maciej Pasternacki contó cómo, con componentes ya existentes y otros que ha cr
         },
         "datePublished": "2013-02-02",
         "dateModified": "2013-02-02",
-        "wordCount": 218,
+        "wordCount": 251,
         "keywords": ["FOSDEM","Eventos","Integración Contínua"] 
     }
     </script>
@@ -207,7 +207,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">2 Feb 2013</span> <span class="reading-time">| <span class="estimated-reading-time">2 min.</span> (<span class="word-count">218</span> palabras)</span></span>
+                        <span class="post-date">2 Feb 2013</span> <span class="reading-time">| <span class="estimated-reading-time">2 min.</span> (<span class="word-count">251</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -216,20 +216,31 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <div class="document" id="empaquetado-continuo">
-<h1 class="title">Empaquetado contínuo</h1>
+                  ====================
+Empaquetado contínuo
+====================
 
-<p>Maciej Pasternacki <a class="reference external" href="https://fosdem.org/2013/schedule/event/continuous_packaging_pipeline/">contó</a> cómo, con componentes ya existentes y otros que ha creado él, se puede construir una cadena de empaquetamiento contínuo.</p>
-<p></p>
-<p>El principal problema al que se enfrenta, es que necesita crear paquetes de instalación para distintos sistemas con todas las dependencias necesarias. Como hacerlo siguiendo las normas de cada distribución y método de empaquetamiento es altamente costoso, se ha creado un proceso utilizando las siguientes herramientas:</p>
-<ul class="simple">
-<li><a class="reference external" href="https://github.com/3ofcoins/vendorificator">Vendorificator</a>: Es una herramienta, creada por el mismo Maciej, para tener las dependencias de cada proyecto junto al mismo. Utiliza definiciones de los paquetes que se pueden compartir entre los proyectos.</li>
-<li><a class="reference external" href="https://github.com/3ofcoins/metarake">MetaRake</a>: Es una extensión de Rake que permite a éste encontrar módulos que necesitan ser compilados en el mismo repositorio del proyecto en el que está trabajando, compilándolos, incluyéndolos y vinculándolos al proyecto. También está creado por Maciej.</li>
-<li><a class="reference external" href="https://github.com/3ofcoins/evoker">Evoker</a>: La última herramienta que Maciej ha incluido, es otro complemento de Rake que permite descargar y gestionar dependencias externas de cada proyecto, parcheándolo o modificándolo como más convenga.</li>
-<li><a class="reference external" href="https://github.com/jordansissel/fpm">FPM</a>: La siguiente herramienta, obra de <a class="reference external" href="http://www.semicomplete.com/">Jordan Sissel</a>, es una utilidad bastante conocida que permite crear y convertir paquetes entre diferentes formatos y tipos, como por ejemplo, una gema de Ruby en un .deb instalable.</li>
-<li><a class="reference external" href="https://github.com/rcrowley/freight">Freight</a>: Ésta herramienta, creación de <a class="reference external" href="http://rcrowley.org/">Richard Crowley</a>, sirve para mantener un repositorio de tipo Debian/Ubuntu.</li>
-</ul>
-</div>
+Maciej Pasternacki contó_ cómo, con componentes ya existentes y otros que ha creado él, se puede construir una cadena de empaquetamiento contínuo.
+
+
+
+
+El principal problema al que se enfrenta, es que necesita crear paquetes de instalación para distintos sistemas con todas las dependencias necesarias. Como hacerlo siguiendo las normas de cada distribución y método de empaquetamiento es altamente costoso, se ha creado un proceso utilizando las siguientes herramientas:
+
+* Vendorificator_: Es una herramienta, creada por el mismo Maciej, para tener las dependencias de cada proyecto junto al mismo. Utiliza definiciones de los paquetes que se pueden compartir entre los proyectos.
+* MetaRake_: Es una extensión de Rake que permite a éste encontrar módulos que necesitan ser compilados en el mismo repositorio del proyecto en el que está trabajando, compilándolos, incluyéndolos y vinculándolos al proyecto. También está creado por Maciej.
+* Evoker_: La última herramienta que Maciej ha incluido, es otro complemento de Rake que permite descargar y gestionar dependencias externas de cada proyecto, parcheándolo o modificándolo como más convenga.
+* FPM_: La siguiente herramienta, obra de `Jordan Sissel`_, es una utilidad bastante conocida que permite crear y convertir paquetes entre diferentes formatos y tipos, como por ejemplo, una gema de Ruby en un .deb instalable.
+* Freight_: Ésta herramienta, creación de `Richard Crowley`_, sirve para mantener un repositorio de tipo Debian/Ubuntu.
+
+.. _contó: https://fosdem.org/2013/schedule/event/continuous_packaging_pipeline/
+.. _Vendorificator: https://github.com/3ofcoins/vendorificator
+.. _MetaRake: https://github.com/3ofcoins/metarake
+.. _Evoker: https://github.com/3ofcoins/evoker
+.. _FPM: https://github.com/jordansissel/fpm
+.. _`Jordan Sissel`: http://www.semicomplete.com/
+.. _Freight: https://github.com/rcrowley/freight
+.. _`Richard Crowley`: http://rcrowley.org/
               </section>
 
               <footer class="post-footer">
@@ -249,7 +260,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                         <a class="fa fa-twitter" href="https://twitter.com/share?text=Empaquetado%20Cont%c3%adnuo&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2fempaquetado-continuo.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <span>Twitter</span>
                         </a>
-                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2fempaquetado-continuo.html&title=Empaquetado%20Cont%c3%adnuo&summary=%3cdiv%20class%3d%22document%22%20id%3d%22empaquetado-continuo%22%3e%0a%3ch1%20class%3d%22title%22%3eEmpaquetado%20cont%c3%adnuo%3c%2fh1%3e%0a%0a%3cp%3eMaciej%20Pasternacki%20%3ca%20class%3d%22reference%20external%22%20href%3d%22https%3a%2f%2ffosdem.org%2f2013%2fschedule%2fevent%2fcontinuous_packaging_pipeline%2f%22%3econt%c3%b3%3c%2fa%3e%20c%c3%b3mo%2c%20con%20componentes%20ya%20existentes%20y%20otros%20que%20ha%20creado%20%c3%a9l%2c%20se%20puede%20construir%20una%20cadena%20de%20empaquetamiento%20cont%c3%adnuo.%3c%2fp%3e%0a%3cp%3e%3c%2fp%3e%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2fempaquetado-continuo.html&title=Empaquetado%20Cont%c3%adnuo&summary=%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%0aEmpaquetado%20cont%c3%adnuo%0a%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%3d%0a%0aMaciej%20Pasternacki%20cont%c3%b3_%20c%c3%b3mo%2c%20con%20componentes%20ya%20existentes%20y%20otros%20que%20ha%20creado%20%c3%a9l%2c%20se%20puede%20construir%20una%20cadena%20de%20empaquetamiento%20cont%c3%adnuo.%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <span>LinkedIn</span>
                         </a>
                     </div>
