@@ -246,9 +246,9 @@ packstack --allinone --provision-demo<span class="operator">=</span>n --provisio
 
 Additional information:
  * A new answerfile was created in: /root/packstack-answers-20140528-194405.txt
- * Time synchronization installation was skipped. Please note that unsynchronized <span class="name builtin">time</span> on server instances might be problem <span class="keyword">for</span> some OpenStack components.
+ * Time synchronization installation was skipped. Please note that unsynchronized <span class="name builtin">time </span>on server instances might be problem <span class="keyword">for </span>some OpenStack components.
  * Did not create a cinder volume group, one already existed
- * File /root/keystonerc_admin has been created on OpenStack client host <span class="literal number">192</span>.168.0.120. To use the <span class="name builtin">command</span> line tools you need to <span class="name builtin">source</span> the file.
+ * File /root/keystonerc_admin has been created on OpenStack client host 192.168.0.120. To use the <span class="name builtin">command </span>line tools you need to <span class="name builtin">source </span>the file.
  * To access the OpenStack Dashboard browse to http://192.168.0.120/dashboard .
 Please, find your login credentials stored in the keystonerc_admin in your home directory.
  * To use Nagios, browse to http://192.168.0.120/nagios username : nagiosadmin, password : fbf**********608
@@ -265,16 +265,16 @@ Please, find your login credentials stored in the keystonerc_admin in your home 
 <span class="name variable">DEVICETYPE</span><span class="operator">=</span>ovs
 <span class="name variable">TYPE</span><span class="operator">=</span>OVSBridge
 <span class="name variable">BOOTPROTO</span><span class="operator">=</span>static
-<span class="name variable">IPADDR</span><span class="operator">=</span><span class="literal number">192</span>.168.122.212 <span class="comment single"># La IP de la máquina
-</span><span class="name variable">NETMASK</span><span class="operator">=</span><span class="literal number">255</span>.255.255.0  <span class="comment single"># La red
-</span><span class="name variable">GATEWAY</span><span class="operator">=</span><span class="literal number">192</span>.168.122.1  <span class="comment single"># La puerta de enlace
-</span><span class="name variable">DNS1</span><span class="operator">=</span><span class="literal number">192</span>.168.122.1     <span class="comment single"># El DNS de la red
+<span class="name variable">IPADDR</span><span class="operator">=</span>192.168.122.212 <span class="comment"># La IP de la máquina
+</span><span class="name variable">NETMASK</span><span class="operator">=</span>255.255.255.0  <span class="comment"># La red
+</span><span class="name variable">GATEWAY</span><span class="operator">=</span>192.168.122.1  <span class="comment"># La puerta de enlace
+</span><span class="name variable">DNS1</span><span class="operator">=</span>192.168.122.1     <span class="comment"># El DNS de la red
 </span><span class="name variable">ONBOOT</span><span class="operator">=</span>yes
 </pre>
 <p>y cambiar el fichero <em>/etc/sysconfig/network-scripts/ifcfg-eth0</em> por:</p>
 <pre class="code bash literal-block">
 <span class="name variable">DEVICE</span><span class="operator">=</span>eth0
-<span class="name variable">HWADDR</span><span class="operator">=</span><span class="literal number">42</span>:42:42:42:42:EE  <span class="comment single"># aquí va la MAC de vuestra tarjeta
+<span class="name variable">HWADDR</span><span class="operator">=</span>42:42:42:42:42:EE  <span class="comment"># aquí va la MAC de vuestra tarjeta
 </span><span class="name variable">TYPE</span><span class="operator">=</span>OVSPort
 <span class="name variable">DEVICETYPE</span><span class="operator">=</span>ovs
 <span class="name variable">OVS_BRIDGE</span><span class="operator">=</span>br-ex
