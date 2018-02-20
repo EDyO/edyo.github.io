@@ -24,11 +24,7 @@
         <meta name="twitter:creator" content="@EntreDevYOps" />
         <meta name="twitter:title" content="SSH: Acceso remoto a servidores" />
         
-        <meta name="twitter:description" content="
-
-
-Este artículo es el primero de una serie dedicada al protocolo SSH o Secure Shell, un protocolo de acceso remoto a servidores altamente extendido en sistemas UN*X como GNU/Linux o FreeBSD. En los artículos trataremos de explicar el uso básico de este protocolo e iremos profundizando más en las capacidades avanzadas disponibles.
-" />
+        <meta name="twitter:description" content="Este artículo es el primero de una serie dedicada al protocolo `SSH o Secure Shell`_, un protocolo de acceso remoto a servidores altamente extendido en sistemas UN*X como GNU/Linux o FreeBSD. En los artículos trataremos de explicar el uso básico de este protocolo e iremos profundizando más en las capacidades avanzadas disponibles." />
         <meta name="twitter:url" content="http://www.entredevyops.es/posts/ssh-acceso-remoto-servidores.html" />
     
 
@@ -108,7 +104,7 @@ Este artículo es el primero de una serie dedicada al protocolo SSH o Secure She
         },
         "datePublished": "2014-07-05",
         "dateModified": "2014-07-05",
-        "wordCount": 1245,
+        "wordCount": 1331,
         "keywords": ["SSH","Guías","Herramientas"] 
     }
     </script>
@@ -207,7 +203,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">5 Jul 2014</span> <span class="reading-time">| <span class="estimated-reading-time">6 min.</span> (<span class="word-count">1245</span> palabras)</span></span>
+                        <span class="post-date">5 Jul 2014</span> <span class="reading-time">| <span class="estimated-reading-time">7 min.</span> (<span class="word-count">1331</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -216,132 +212,182 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <div class="document">
+                  Este artículo es el primero de una serie dedicada al protocolo `SSH o Secure Shell`_, un protocolo de acceso remoto a servidores altamente extendido en sistemas UN*X como GNU/Linux o FreeBSD. En los artículos trataremos de explicar el uso básico de este protocolo e iremos profundizando más en las capacidades avanzadas disponibles.
 
 
-<p>Este artículo es el primero de una serie dedicada al protocolo <a class="reference external" href="https://es.wikipedia.org/wiki/Secure_Shell">SSH o Secure Shell</a>, un protocolo de acceso remoto a servidores altamente extendido en sistemas UN*X como GNU/Linux o FreeBSD. En los artículos trataremos de explicar el uso básico de este protocolo e iremos profundizando más en las capacidades avanzadas disponibles.</p>
-<p></p>
-<p>Existen muchas implementaciones de clientes SSH, como <a class="reference external" href="http://www.chiark.greenend.org.uk/~sgtatham/putty/">PuTTY</a> (utilizado principalmente en entornos Windows), <a class="reference external" href="http://www.9bis.net/kitty/">KiTTY</a> (un <em>fork</em> del anterior) ambos <em>Software Libre</em>, también existen herramientas comerciales como <a class="reference external" href="http://www.vandyke.com/products/securecrt/">SecureCRT</a>, pero para estos artículos nos centraremos en <a class="reference external" href="http://www.openssh.com/">OpenSSH</a>, el cliente libre por excelencia para sistemas UN*X.</p>
-<div class="section" id="conectando">
-<h2>Conectando</h2>
-<p>Empecemos por el principio, y para el caso, nos conectaremos a un servidor, para hacerlo, usaremos el comando:</p>
-<pre class="code text literal-block">
-$ ssh example.com
-</pre>
-<p>en el caso que queramos conectar con un usuario distinto al local del equipo en el que nos encontremos, tenemos dos alternativas, mediante el <em>flag</em> <tt class="docutils literal"><span class="pre">-l</span></tt>:</p>
-<pre class="code text literal-block">
-$ ssh -l usuario example.com
-</pre>
-<p>o usando la notación <em>usuario&#64;servidor</em>:</p>
-<pre class="code text literal-block">
-$ ssh usuario&#64;example.com
-</pre>
-<p>el uso de una u otra forma es indiferente.</p>
-<p>Si es la primera vez que conectamos al servidor, SSH nos mostrará un mensaje como el siguiente:</p>
-<pre class="code text literal-block">
-The authenticity of host '192.168.1.151 (192.168.1.151)' can't be established.
-ECDSA key fingerprint is aa:ef:f9:b9:54:bb:d1:a0:f0:08:4e:a7:b2:68:71:bd.
-Are you sure you want to continue connecting (yes/no)?
-</pre>
-<p>advirtiéndonos que no podremos conectar hasta que aceptemos la clave de identificación del servidor, posteriormente esto ya no será necesario.</p>
-</div>
-<div class="section" id="usando-claves-de-autenticacion">
-<h2>Usando claves de autenticación</h2>
-<p>Yendo un paso más allá en lo que a autenticación se refiere, el protocolo SSH nos brinda la posibilidad de utilizar un juego de claves de autenticación, que mediante un algoritmo de <a class="reference external" href="https://es.wikipedia.org/wiki/Criptograf%C3%ADa_asim%C3%A9tric">cifrado asimétrico</a> (dispondremos de una clave privada y de otra pública) podremos autenticarnos de forma fácil y segura, siempre y cuando hayamos habilitado la clave pública en cada una de las máquinas a las que queramos acceder.</p>
-<div class="section" id="generacion-de-las-claves">
-<h3>Generación de las claves</h3>
-<p>Para generar las claves, el comando a utilizar es <tt class="docutils literal"><span class="pre">ssh-keygen</span></tt> de la siguiente forma:</p>
-<pre class="code text literal-block">
-$ ssh-keygen -t rsa -b 2048 -f .ssh/mi_clave -C &quot;Mi clave SSH&quot;
-Generating public/private rsa key pair.
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:
-Your identification has been saved in mi_clave.
-Your public key has been saved in mi_clave.pub.
-The key fingerprint is:
-d2:d1:8c:eb:22:75:b7:2f:12:07:e9:e1:6b:79:d8:35 Mi clave SSH
-The key's randomart image is:
-+--[ RSA 2048]----+
-|                 |
-|         +       |
-|        o.o      |
-|       .+o       |
-|      ooSo.      |
-|     . ++...E    |
-|    . . .B.. .   |
-|     . .* +.     |
-|       . o ..    |
-+-----------------+
-</pre>
-<p>Algunos <em>flags</em> son opcionales, como por ejemplo el <tt class="docutils literal"><span class="pre">-t</span></tt> para indicar el tipo de clave que queremos generar, en este caso hemos elegido <a class="reference external" href="https://es.wikipedia.org/wiki/RSA">RSA</a>, el <tt class="docutils literal"><span class="pre">-b</span></tt> para indicar de cuantos bits queremos que sea la clave (en la actualidad el mínimo recomendado para claves RSA es 2048), el <em>flag</em> <tt class="docutils literal"><span class="pre">-f</span></tt> nos permite indicar la ruta destino de las claves y su nombre, que por defecto es <tt class="docutils literal"><span class="pre">~/.ssh/id_rsa</span></tt> para el tipo RSA (la clave pública tendrá el mismo nombre pero con la extensión <em>.pub</em>), y nos queda el <em>flag</em> <tt class="docutils literal"><span class="pre">-C</span></tt> que nos permite añadir un comentario a la clave, que puede sernos útil para identificarla más fácilmente.</p>
-<p>En este caso, la clave privada ha sido generada sin contraseña (hemos pulsado la tecla <tt class="docutils literal">intro</tt> sin introducir ninguna), esto, en cierto modo, puede ser &quot;arriesgado&quot;, ya que si por algún motivo alguien se hace con nuestra clave, podrá acceder sin restricciones a todos los servidores en los que hayamos habilitado dicha clave. Es por esto que una buena práctica es <strong>proteger siempre nuestras claves con contraseña</strong>, la cual será solicitada cada vez que accedamos a un servidor al que podamos acceder con clave. Esto también nos permite tener una única contraseña, la de nuestra clave, y no tener que recordar cada una de las claves de los usuarios remotos, en el caso que sean distintas.</p>
-</div>
-<div class="section" id="transferencia-de-las-claves-a-maquinas-remotas">
-<h3>Transferencia de las claves a máquinas remotas</h3>
-<p>Una vez tengamos las claves generadas para poder utilizaras en la autenticación es necesario añadir la clave pública en el servidor remoto, para hacerlo, un procedimiento podría ser el siguiente:</p>
-<pre class="code text literal-block">
-$ ssh -l usuario servidor
-</pre>
-<p>Ahora, ya dentro del servidor:</p>
-<pre class="code text literal-block">
-$ mkdir .ssh
-$ cat &gt;&gt; .ssh/authorized_keys
-</pre>
-<p>ahora debemos copiar el contenido del fichero que contiene la clave pública (<tt class="docutils literal"><span class="pre">~/.ssh/mi_clave.pub</span></tt>) y pegar el contenido en el terminal, luego, pulsar la combinación de teclas <tt class="docutils literal">Control+D</tt> para guardar el fichero. Por último, estableceremos los permisos adecuados para aumentar el nivel de seguridad:</p>
-<pre class="code text literal-block">
-$ chmod 0700 .ssh
-$ chmod 0600 .ssh/authorized_keys
-</pre>
-<p>Un detalle a tener en cuenta es que si el directorio <tt class="docutils literal">.ssh</tt> tiene unos permisos distintos a los anteriores, el servidor SSH no utilizará nuestras claves y nos solicitará nuestra contraseña hasta que lo hayamos corregido.</p>
-<p>Estos pasos pueden ser un tanto &quot;tediosos&quot; de realizar, sobretodo si es necesario crear el directorio y el fichero con las claves autorizadas, y más aún si queremos hacerlo en un número considerable de servidores, por eso, dentro del paquete de herramientas que vienen con el ciente OpenSSH tenemos uno que nos simplificará enormemente esta tarea, el comando <tt class="docutils literal"><span class="pre">ssh-copy-id</span></tt>:</p>
-<pre class="code text literal-block">
-$ ssh-copy-id -i .ssh/mi_clave.pub 192.168.1.151
-/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
-/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
-user&#64;192.168.1.151's password:
 
-Number of key(s) added: 1
 
-Now try logging into the machine, with:   &quot;ssh '192.168.1.151'&quot;
-and check to make sure that only the key(s) you wanted were added.
-</pre>
-<p>la ventaja de este método es que además de ser más rápido, dejará el directorio y el fichero creados con los permisos adecuados.</p>
-<p>En el caso que dispongamos de varias claves y no indiquemos una explícitamente con el <em>flag</em> <tt class="docutils literal"><span class="pre">-i</span></tt>, todas nuestras claves serán transferidas.</p>
-</div>
-<div class="section" id="simplificando-la-gestion-de-claves">
-<h3>Simplificando la gestión de claves</h3>
-<p>Dado que es una buena práctica proteger nuestra clave privada con una contraseña, el hecho de tener que introducirla cada vez que abrimos una sesión SSH no dista mucho de entrar directamente utilizando la contraseña de nuestra cuenta de usuario del servidor al que vayamos a acceder. Comprobémoslo:</p>
-<pre class="code text literal-block">
-$ ssh example.com -i .ssh/mi_clave
-Enter passphrase for key '.ssh/mi_clave':
-</pre>
-<p>Como no, esto también está solucionado, entrando ahora en juego el <em>ssh-agent</em>, que es un demonio que podemos ejecutar en cualquier momento con nuestro usuario (no se trata de un demonio de sistema), y que se encargará de &quot;cachear&quot; nuestras claves privadas para poder usarlas directamente sin necesidad de ir desbloqueándolas mediante contraseña, únicamente cuando hayamos instanciado el demonio y añadido la claves necesitaremos introducir las contraseñas para desbloquearlas, de modo que no será necesario hacerlo cada vez que hagamos una conexión a un servidor.</p>
-<p>Procedamos a usar el <em>ssh-agent</em>, primero, lo arrancamos:</p>
-<pre class="code text literal-block">
-$ ssh-agent
-SSH_AUTH_SOCK=/tmp/ssh-mj8Jg9EEtxCH/agent.9843; export SSH_AUTH_SOCK;
-SSH_AGENT_PID=9844; export SSH_AGENT_PID
-</pre>
-<p>añadimos nuestra clave:</p>
-<pre class="code text literal-block">
-$ ssh-add .ssh/mi_clave
-Enter passphrase for .ssh/mi_clave:
-Identity added: .ssh/mi_clave (.ssh/mi_clave)
-</pre>
-<p>opcionalmente podemos comprobar que la clave está añadida correctamente:</p>
-<pre class="code text literal-block">
-$ ssh-add -l
-d2:d1:8c:eb:22:75:b7:2f:12:07:e9:e1:6b:79:d8:35 .ssh/mi_clave (RSA)
-</pre>
-<p>realizado todo esto, ya podremos acceder fácilmente sin contraseñas a los servidores que queramos.</p>
-<p>Cabe comentar que, tanto Mac OS X en la aplicación <a class="reference external" href="https://en.wikipedia.org/wiki/Keychain_(Mac_OS)">Keychain</a>, como por ejemplo con el entorno de escritorio GNOME en la aplicación <a class="reference external" href="https://help.gnome.org/users/seahorse/stable/">Contraseñas y claves</a>, existe soporte de <em>ssh-agent</em>, simplificándonos la gestión de nuestras claves mediante interfaz gráfica, con lo que no necesitaremos del demonio que tiene con el cliente OpenSSH.</p>
-</div>
-</div>
-<div class="section" id="conclusion">
-<h2>Conclusión</h2>
-<p>Con esto finalizamos esta entrega. Para los que quieran ir un paso por delante y no puedan esperar al siguiente artículo, siempre pueden acudir a la <a class="reference external" href="http://www.openssh.com/manual.html">documentación oficial de OpenSSH</a> o mirar las <em>man pages</em> correspondientes.</p>
-</div>
-</div>
+Existen muchas implementaciones de clientes SSH, como `PuTTY`_ (utilizado principalmente en entornos Windows), `KiTTY`_ (un *fork* del anterior) ambos *Software Libre*, también existen herramientas comerciales como `SecureCRT`_, pero para estos artículos nos centraremos en `OpenSSH`_, el cliente libre por excelencia para sistemas UN*X.
+
+Conectando
+==========
+
+Empecemos por el principio, y para el caso, nos conectaremos a un servidor, para hacerlo, usaremos el comando:
+
+.. code:: text
+
+    $ ssh example.com
+
+en el caso que queramos conectar con un usuario distinto al local del equipo en el que nos encontremos, tenemos dos alternativas, mediante el *flag* ``-l``:
+
+.. code:: text
+
+    $ ssh -l usuario example.com
+
+o usando la notación *usuario@servidor*:
+
+.. code:: text
+
+    $ ssh usuario@example.com
+
+el uso de una u otra forma es indiferente.
+
+Si es la primera vez que conectamos al servidor, SSH nos mostrará un mensaje como el siguiente:
+
+.. code:: text
+
+    The authenticity of host '192.168.1.151 (192.168.1.151)' can't be established.
+    ECDSA key fingerprint is aa:ef:f9:b9:54:bb:d1:a0:f0:08:4e:a7:b2:68:71:bd.
+    Are you sure you want to continue connecting (yes/no)?
+
+advirtiéndonos que no podremos conectar hasta que aceptemos la clave de identificación del servidor, posteriormente esto ya no será necesario.
+
+Usando claves de autenticación
+==============================
+
+Yendo un paso más allá en lo que a autenticación se refiere, el protocolo SSH nos brinda la posibilidad de utilizar un juego de claves de autenticación, que mediante un algoritmo de `cifrado asimétrico`_ (dispondremos de una clave privada y de otra pública) podremos autenticarnos de forma fácil y segura, siempre y cuando hayamos habilitado la clave pública en cada una de las máquinas a las que queramos acceder.
+
+Generación de las claves
+------------------------
+
+Para generar las claves, el comando a utilizar es ``ssh-keygen`` de la siguiente forma:
+
+.. code:: text
+
+    $ ssh-keygen -t rsa -b 2048 -f .ssh/mi_clave -C "Mi clave SSH"
+    Generating public/private rsa key pair.
+    Enter passphrase (empty for no passphrase): 
+    Enter same passphrase again: 
+    Your identification has been saved in mi_clave.
+    Your public key has been saved in mi_clave.pub.
+    The key fingerprint is:
+    d2:d1:8c:eb:22:75:b7:2f:12:07:e9:e1:6b:79:d8:35 Mi clave SSH
+    The key's randomart image is:
+    +--[ RSA 2048]----+
+    |                 |
+    |         +       |
+    |        o.o      |
+    |       .+o       |
+    |      ooSo.      |
+    |     . ++...E    |
+    |    . . .B.. .   |
+    |     . .* +.     |
+    |       . o ..    |
+    +-----------------+
+
+Algunos *flags* son opcionales, como por ejemplo el ``-t`` para indicar el tipo de clave que queremos generar, en este caso hemos elegido RSA_, el ``-b`` para indicar de cuantos bits queremos que sea la clave (en la actualidad el mínimo recomendado para claves RSA es 2048), el *flag* ``-f`` nos permite indicar la ruta destino de las claves y su nombre, que por defecto es ``~/.ssh/id_rsa`` para el tipo RSA (la clave pública tendrá el mismo nombre pero con la extensión *.pub*), y nos queda el *flag* ``-C`` que nos permite añadir un comentario a la clave, que puede sernos útil para identificarla más fácilmente.
+
+En este caso, la clave privada ha sido generada sin contraseña (hemos pulsado la tecla ``intro`` sin introducir ninguna), esto, en cierto modo, puede ser "arriesgado", ya que si por algún motivo alguien se hace con nuestra clave, podrá acceder sin restricciones a todos los servidores en los que hayamos habilitado dicha clave. Es por esto que una buena práctica es **proteger siempre nuestras claves con contraseña**, la cual será solicitada cada vez que accedamos a un servidor al que podamos acceder con clave. Esto también nos permite tener una única contraseña, la de nuestra clave, y no tener que recordar cada una de las claves de los usuarios remotos, en el caso que sean distintas.
+
+Transferencia de las claves a máquinas remotas
+----------------------------------------------
+
+Una vez tengamos las claves generadas para poder utilizaras en la autenticación es necesario añadir la clave pública en el servidor remoto, para hacerlo, un procedimiento podría ser el siguiente:
+
+.. code:: text
+
+    $ ssh -l usuario servidor
+
+Ahora, ya dentro del servidor:
+
+.. code:: text
+
+    $ mkdir .ssh
+    $ cat >> .ssh/authorized_keys
+
+ahora debemos copiar el contenido del fichero que contiene la clave pública (``~/.ssh/mi_clave.pub``) y pegar el contenido en el terminal, luego, pulsar la combinación de teclas ``Control+D`` para guardar el fichero. Por último, estableceremos los permisos adecuados para aumentar el nivel de seguridad:
+
+.. code:: text
+
+    $ chmod 0700 .ssh
+    $ chmod 0600 .ssh/authorized_keys
+
+Un detalle a tener en cuenta es que si el directorio ``.ssh`` tiene unos permisos distintos a los anteriores, el servidor SSH no utilizará nuestras claves y nos solicitará nuestra contraseña hasta que lo hayamos corregido.
+
+Estos pasos pueden ser un tanto "tediosos" de realizar, sobretodo si es necesario crear el directorio y el fichero con las claves autorizadas, y más aún si queremos hacerlo en un número considerable de servidores, por eso, dentro del paquete de herramientas que vienen con el ciente OpenSSH tenemos uno que nos simplificará enormemente esta tarea, el comando ``ssh-copy-id``:
+
+.. code:: text
+   
+   $ ssh-copy-id -i .ssh/mi_clave.pub 192.168.1.151
+   /usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+   /usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+   user@192.168.1.151's password: 
+
+   Number of key(s) added: 1
+
+   Now try logging into the machine, with:   "ssh '192.168.1.151'"
+   and check to make sure that only the key(s) you wanted were added.
+
+la ventaja de este método es que además de ser más rápido, dejará el directorio y el fichero creados con los permisos adecuados.
+
+En el caso que dispongamos de varias claves y no indiquemos una explícitamente con el *flag* ``-i``, todas nuestras claves serán transferidas.
+
+Simplificando la gestión de claves
+----------------------------------
+
+Dado que es una buena práctica proteger nuestra clave privada con una contraseña, el hecho de tener que introducirla cada vez que abrimos una sesión SSH no dista mucho de entrar directamente utilizando la contraseña de nuestra cuenta de usuario del servidor al que vayamos a acceder. Comprobémoslo:
+
+.. code:: text
+
+    $ ssh example.com -i .ssh/mi_clave
+    Enter passphrase for key '.ssh/mi_clave':
+
+Como no, esto también está solucionado, entrando ahora en juego el *ssh-agent*, que es un demonio que podemos ejecutar en cualquier momento con nuestro usuario (no se trata de un demonio de sistema), y que se encargará de "cachear" nuestras claves privadas para poder usarlas directamente sin necesidad de ir desbloqueándolas mediante contraseña, únicamente cuando hayamos instanciado el demonio y añadido la claves necesitaremos introducir las contraseñas para desbloquearlas, de modo que no será necesario hacerlo cada vez que hagamos una conexión a un servidor.
+
+Procedamos a usar el *ssh-agent*, primero, lo arrancamos:
+
+.. code:: text
+
+    $ ssh-agent
+    SSH_AUTH_SOCK=/tmp/ssh-mj8Jg9EEtxCH/agent.9843; export SSH_AUTH_SOCK;
+    SSH_AGENT_PID=9844; export SSH_AGENT_PID
+
+añadimos nuestra clave:
+
+.. code:: text
+
+    $ ssh-add .ssh/mi_clave
+    Enter passphrase for .ssh/mi_clave:
+    Identity added: .ssh/mi_clave (.ssh/mi_clave)
+    
+opcionalmente podemos comprobar que la clave está añadida correctamente:
+
+.. code:: text
+
+    $ ssh-add -l
+    d2:d1:8c:eb:22:75:b7:2f:12:07:e9:e1:6b:79:d8:35 .ssh/mi_clave (RSA)
+
+realizado todo esto, ya podremos acceder fácilmente sin contraseñas a los servidores que queramos.
+
+Cabe comentar que, tanto Mac OS X en la aplicación `Keychain`_, como por ejemplo con el entorno de escritorio GNOME en la aplicación `Contraseñas y claves`_, existe soporte de *ssh-agent*, simplificándonos la gestión de nuestras claves mediante interfaz gráfica, con lo que no necesitaremos del demonio que tiene con el cliente OpenSSH.
+
+Conclusión
+==========
+
+Con esto finalizamos esta entrega. Para los que quieran ir un paso por delante y no puedan esperar al siguiente artículo, siempre pueden acudir a la `documentación oficial de OpenSSH`_ o mirar las *man pages* correspondientes.
+
+
+.. _`SSH o Secure Shell`: https://es.wikipedia.org/wiki/Secure_Shell
+.. _OpenSSH: http://www.openssh.com/
+.. _PuTTY: http://www.chiark.greenend.org.uk/~sgtatham/putty/
+.. _KiTTY: http://www.9bis.net/kitty/
+.. _SecureCRT: http://www.vandyke.com/products/securecrt/
+.. _SSH: https://es.wikipedia.org/wiki/Secure_Shell
+.. _`cifrado asimétrico`: https://es.wikipedia.org/wiki/Criptograf%C3%ADa_asim%C3%A9tric
+.. _`documentación oficial de OpenSSH`: http://www.openssh.com/manual.html
+.. _RSA: https://es.wikipedia.org/wiki/RSA
+.. _Keychain: https://en.wikipedia.org/wiki/Keychain_(Mac_OS)
+.. _`Contraseñas y claves`: https://help.gnome.org/users/seahorse/stable/
               </section>
 
               <footer class="post-footer">
@@ -361,7 +407,7 @@ d2:d1:8c:eb:22:75:b7:2f:12:07:e9:e1:6b:79:d8:35 .ssh/mi_clave (RSA)
                         <a class="fa fa-twitter" href="https://twitter.com/share?text=SSH%3a%20Acceso%20remoto%20a%20servidores&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2fssh-acceso-remoto-servidores.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <span>Twitter</span>
                         </a>
-                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2fssh-acceso-remoto-servidores.html&title=SSH%3a%20Acceso%20remoto%20a%20servidores&summary=%3cdiv%20class%3d%22document%22%3e%0a%0a%0a%3cp%3eEste%20art%c3%adculo%20es%20el%20primero%20de%20una%20serie%20dedicada%20al%20protocolo%20%3ca%20class%3d%22reference%20external%22%20href%3d%22https%3a%2f%2fes.wikipedia.org%2fwiki%2fSecure_Shell%22%3eSSH%20o%20Secure%20Shell%3c%2fa%3e%2c%20un%20protocolo%20de%20acceso%20remoto%20a%20servidores%20altamente%20extendido%20en%20sistemas%20UN%2aX%20como%20GNU%2fLinux%20o%20FreeBSD.%20En%20los%20art%c3%adculos%20trataremos%20de%20explicar%20el%20uso%20b%c3%a1sico%20de%20este%20protocolo%20e%20iremos%20profundizando%20m%c3%a1s%20en%20las%20capacidades%20avanzadas%20disponibles.%3c%2fp%3e%0a%3cp%3e%3c%2fp%3e%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2fssh-acceso-remoto-servidores.html&title=SSH%3a%20Acceso%20remoto%20a%20servidores&summary=Este%20art%c3%adculo%20es%20el%20primero%20de%20una%20serie%20dedicada%20al%20protocolo%20%60SSH%20o%20Secure%20Shell%60_%2c%20un%20protocolo%20de%20acceso%20remoto%20a%20servidores%20altamente%20extendido%20en%20sistemas%20UN%2aX%20como%20GNU%2fLinux%20o%20FreeBSD.%20En%20los%20art%c3%adculos%20trataremos%20de%20explicar%20el%20uso%20b%c3%a1sico%20de%20este%20protocolo%20e%20iremos%20profundizando%20m%c3%a1s%20en%20las%20capacidades%20avanzadas%20disponibles.%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <span>LinkedIn</span>
                         </a>
                     </div>

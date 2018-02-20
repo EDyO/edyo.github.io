@@ -22,12 +22,11 @@
         <meta name="twitter:creator" content="@EntreDevYOps" />
         <meta name="twitter:title" content="ELB de Amazon WS balancea entre zonas de disponibilidad" />
         
-        <meta name="twitter:description" content="
+        <meta name="twitter:description" content=".. image:: /images/AmazonWebservices.png
+   :alt: AWS
+   :align: left
 
-
-
-El pasado jueves, día 7 de noviembre, Amazon WS anunció que su servicio ELB pasaría a permitir balancear entre instancias que se encontraran en zonas de disponibilidad distintas, mejorando el mantenimiento y rendimiento de las aplicaciones, que ya no requerirán esfuerzos adicionales por parte de los clientes. También hará el despliegue de las aplicaciones más sencillo.
-" />
+El pasado jueves, día 7 de noviembre, `Amazon WS`_ anunció que su servicio ELB_ pasaría a permitir balancear entre instancias que se encontraran en zonas de disponibilidad distintas, mejorando el mantenimiento y rendimiento de las aplicaciones, que ya no requerirán esfuerzos adicionales por parte de los clientes. También hará el despliegue de las aplicaciones más sencillo." />
         <meta name="twitter:url" content="http://www.entredevyops.es/posts/amazon-ws-elb-balancea-entre-zonas.html" />
     
 
@@ -107,7 +106,7 @@ El pasado jueves, día 7 de noviembre, Amazon WS anunció que su servicio ELB pa
         },
         "datePublished": "2013-11-10",
         "dateModified": "2013-11-10",
-        "wordCount": 153,
+        "wordCount": 184,
         "keywords": ["Amazon WS"] 
     }
     </script>
@@ -206,7 +205,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">10 Nov 2013</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">153</span> palabras)</span></span>
+                        <span class="post-date">10 Nov 2013</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">184</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -215,15 +214,25 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <div class="document">
+                  .. image:: /images/AmazonWebservices.png
+   :alt: AWS
+   :align: left
+
+El pasado jueves, día 7 de noviembre, `Amazon WS`_ anunció que su servicio ELB_ pasaría a permitir balancear entre instancias que se encontraran en zonas de disponibilidad distintas, mejorando el mantenimiento y rendimiento de las aplicaciones, que ya no requerirán esfuerzos adicionales por parte de los clientes. También hará el despliegue de las aplicaciones más sencillo.
 
 
-<img alt="AWS" class="align-left" src="/images/AmazonWebservices.png" />
-<p>El pasado jueves, día 7 de noviembre, <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a> anunció que su servicio <a class="reference external" href="http://aws.amazon.com/es/elb/">ELB</a> pasaría a permitir balancear entre instancias que se encontraran en zonas de disponibilidad distintas, mejorando el mantenimiento y rendimiento de las aplicaciones, que ya no requerirán esfuerzos adicionales por parte de los clientes. También hará el despliegue de las aplicaciones más sencillo.</p>
-<p></p>
-<p>Hasta ahora, el servicio <a class="reference external" href="http://aws.amazon.com/es/elb/">ELB</a> balanceaba a los clientes sólo entre las instancias de una misma zona de disponibilidad, dejando al servicio <a class="reference external" href="http://es.wikipedia.org/wiki/Domain_Name_System">DNS</a> la tarea de repartir las peticiones de los usuarios entre las zonas. Éste comportamiento podía causar diferencias de carga entre las instancias de distintas zonas. Además, si no se disponía del mismo número de instancias funcionando en cada una de las zonas, las peticiones podían distribuirse entre un número menor de servidores.</p>
-<p>La nueva funcionalidad <a class="reference external" href="http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/TerminologyandKeyConcepts.html?channel=EM&amp;Campaign_Type=Launch&amp;Campaign_id=47667000&amp;ref_=pe_411040_47667000_7&amp;#request-routing">requiere ser activada manualmente</a>, pero una vez hecho, el balanceador repartirá equitativamente las peticiones entre todas las instancias configuradas.</p>
-</div>
+
+
+Hasta ahora, el servicio ELB_ balanceaba a los clientes sólo entre las instancias de una misma zona de disponibilidad, dejando al servicio DNS_ la tarea de repartir las peticiones de los usuarios entre las zonas. Éste comportamiento podía causar diferencias de carga entre las instancias de distintas zonas. Además, si no se disponía del mismo número de instancias funcionando en cada una de las zonas, las peticiones podían distribuirse entre un número menor de servidores.
+
+La nueva funcionalidad `requiere ser activada manualmente`_, pero una vez hecho, el balanceador repartirá equitativamente las peticiones entre todas las instancias configuradas.
+
+.. _`requiere ser activada manualmente`: http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/TerminologyandKeyConcepts.html?channel=EM&Campaign_Type=Launch&Campaign_id=47667000&ref_=pe_411040_47667000_7&#request-routing
+.. _DNS: http://es.wikipedia.org/wiki/Domain_Name_System
+.. _`Amazon WS`: http://aws.amazon.com/es/
+.. _Amazon: `Amazon WS`_
+.. _AWS: `Amazon WS`_
+.. _ELB: http://aws.amazon.com/es/elb/
               </section>
 
               <footer class="post-footer">
@@ -239,7 +248,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                         <a class="fa fa-twitter" href="https://twitter.com/share?text=ELB%20de%20Amazon%20WS%20balancea%20entre%20zonas%20de%20disponibilidad&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2famazon-ws-elb-balancea-entre-zonas.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <span>Twitter</span>
                         </a>
-                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2famazon-ws-elb-balancea-entre-zonas.html&title=ELB%20de%20Amazon%20WS%20balancea%20entre%20zonas%20de%20disponibilidad&summary=%3cdiv%20class%3d%22document%22%3e%0a%0a%0a%3cimg%20alt%3d%22AWS%22%20class%3d%22align-left%22%20src%3d%22%2fimages%2fAmazonWebservices.png%22%20%2f%3e%0a%3cp%3eEl%20pasado%20jueves%2c%20d%c3%ada%207%20de%20noviembre%2c%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2faws.amazon.com%2fes%2f%22%3eAmazon%20WS%3c%2fa%3e%20anunci%c3%b3%20que%20su%20servicio%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2faws.amazon.com%2fes%2felb%2f%22%3eELB%3c%2fa%3e%20pasar%c3%ada%20a%20permitir%20balancear%20entre%20instancias%20que%20se%20encontraran%20en%20zonas%20de%20disponibilidad%20distintas%2c%20mejorando%20el%20mantenimiento%20y%20rendimiento%20de%20las%20aplicaciones%2c%20que%20ya%20no%20requerir%c3%a1n%20esfuerzos%20adicionales%20por%20parte%20de%20los%20clientes.%20Tambi%c3%a9n%20har%c3%a1%20el%20despliegue%20de%20las%20aplicaciones%20m%c3%a1s%20sencillo.%3c%2fp%3e%0a%3cp%3e%3c%2fp%3e%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2famazon-ws-elb-balancea-entre-zonas.html&title=ELB%20de%20Amazon%20WS%20balancea%20entre%20zonas%20de%20disponibilidad&summary=..%20image%3a%3a%20%2fimages%2fAmazonWebservices.png%0a%20%20%20%3aalt%3a%20AWS%0a%20%20%20%3aalign%3a%20left%0a%0aEl%20pasado%20jueves%2c%20d%c3%ada%207%20de%20noviembre%2c%20%60Amazon%20WS%60_%20anunci%c3%b3%20que%20su%20servicio%20ELB_%20pasar%c3%ada%20a%20permitir%20balancear%20entre%20instancias%20que%20se%20encontraran%20en%20zonas%20de%20disponibilidad%20distintas%2c%20mejorando%20el%20mantenimiento%20y%20rendimiento%20de%20las%20aplicaciones%2c%20que%20ya%20no%20requerir%c3%a1n%20esfuerzos%20adicionales%20por%20parte%20de%20los%20clientes.%20Tambi%c3%a9n%20har%c3%a1%20el%20despliegue%20de%20las%20aplicaciones%20m%c3%a1s%20sencillo.%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <span>LinkedIn</span>
                         </a>
                     </div>

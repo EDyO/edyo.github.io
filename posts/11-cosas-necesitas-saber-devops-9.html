@@ -29,12 +29,11 @@
         <meta name="twitter:creator" content="@EntreDevYOps" />
         <meta name="twitter:title" content="11 cosas sobre DevOps (9): Mi primer patrón DevOps favorito" />
         
-        <meta name="twitter:description" content="
+        <meta name="twitter:description" content=".. image:: /images/automation.jpeg
+   :alt: Automatización
+   :align: right
 
-
-
-En el noveno punto, Gene Kim inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto.
-" />
+En el noveno punto, `Gene Kim`_ inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto." />
         <meta name="twitter:url" content="http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-9.html" />
     
 
@@ -114,7 +113,7 @@ En el noveno punto, Gene Kim inicia el tramo final de los once puntos, en el que
         },
         "datePublished": "2014-06-29",
         "dateModified": "2014-06-29",
-        "wordCount": 406,
+        "wordCount": 421,
         "keywords": ["Agile","DevOps","Empresa","Entrega Contínua","Integración Contínua","Pruebas","Seguridad","QA"] 
     }
     </script>
@@ -213,7 +212,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">29 Jun 2014</span> <span class="reading-time">| <span class="estimated-reading-time">2 min.</span> (<span class="word-count">406</span> palabras)</span></span>
+                        <span class="post-date">29 Jun 2014</span> <span class="reading-time">| <span class="estimated-reading-time">2 min.</span> (<span class="word-count">421</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -222,24 +221,29 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <div class="document">
+                  .. image:: /images/automation.jpeg
+   :alt: Automatización
+   :align: right
+
+En el noveno punto, `Gene Kim`_ inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto.
 
 
-<img alt="Automatización" class="align-right" src="/images/automation.jpeg" />
-<p>En el noveno punto, <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto.</p>
-<p></p>
-<div class="section" id="mi-primer-patron-devops-favorito">
-<h2>9. Mi primer patrón DevOps favorito</h2>
-<p>Demasiado a menudo en los proyectos de desarrollo de software, el equipo de desarrollo acaba empleando todo el tiempo de la planificación en el desarrollo de funcionalidades. Esto no deja tiempo suficiente para tratar los asuntos de Operaciones. Lo que lleva a tomar atajos de forma sucesiva en la definición, creación y comprobación de todo en lo que el código se basa, incluyendo las bases de datos, los sistemas operativos, la red, la virtualización y demás. Ésta es, sin duda, una de las principales causas de la tensión perpetua entre Desarrollo y Operaciones, y sus correspondientes resultados subóptimos. Las consecuencias de esto son bien conocidas:</p>
-<ul class="simple">
-<li>Entornos con definiciones y especificaciones inadecuadas.</li>
-<li>Procedimientos de despliegue irrepetibles.</li>
-<li>Incompatibilidades entre el código desplegado y el entorno.</li>
-</ul>
-<p>En este patrón, crearemos los entornos al principio del proceso de desarrollo y aplicaremos un política que fuerce probar el código y el entorno juntos. Cuando el equipo de desarrollo utiliza un proceso ágil se puede hacer algo muy sencillo y elegante. De acuerdo con <em>Agile</em>, se supone que, al final de cada iteración disponemos de código entregable y funcional. Modificaremos este objetivo para incluir que al final de la iteración no sólo tengamos el código listo, sinó también el entorno en el que se desplegará, desde el primer sprint. En lugar de responsabilizar a Operaciones de crear un entorno productivo que se ajuste a las especificacions, se construirá un proceso de creación del entorno automatizado. Este mecanismo creará el entorno de producción, pero también los entorno para desarrollo y QA.</p>
-<p>Haciendo que los entornos, y las herramientas para crearlos, estén disponibles pronto, quizás antes de que el proyecto empiezo, los desarrolladores y QA pueden ejecutar y testear su código en entornos consistentes y estables, con una desviación controlada del entorno de producción. Además, manteniendo esta desviación entre los distintos entornos lo más reducida posible, encontraremos y resolveremos temas de interoperatibilidad entre el código y el entorno mucho antes del despliegue en producción. Idealmente, el mecanismo de despliegue que hemos construido estará completamente automatizado. Las herramientas que se pueden utilizar incluyen <em>shell scripts</em>, Puppet, Chef, Solaris Jumpstart, Redhat Kickstart, Debian Preseed, etc.</p>
-</div>
-</div>
+
+
+9. Mi primer patrón DevOps favorito
+-----------------------------------
+
+Demasiado a menudo en los proyectos de desarrollo de software, el equipo de desarrollo acaba empleando todo el tiempo de la planificación en el desarrollo de funcionalidades. Esto no deja tiempo suficiente para tratar los asuntos de Operaciones. Lo que lleva a tomar atajos de forma sucesiva en la definición, creación y comprobación de todo en lo que el código se basa, incluyendo las bases de datos, los sistemas operativos, la red, la virtualización y demás. Ésta es, sin duda, una de las principales causas de la tensión perpetua entre Desarrollo y Operaciones, y sus correspondientes resultados subóptimos. Las consecuencias de esto son bien conocidas:
+
+* Entornos con definiciones y especificaciones inadecuadas.
+* Procedimientos de despliegue irrepetibles.
+* Incompatibilidades entre el código desplegado y el entorno.
+
+En este patrón, crearemos los entornos al principio del proceso de desarrollo y aplicaremos un política que fuerce probar el código y el entorno juntos. Cuando el equipo de desarrollo utiliza un proceso ágil se puede hacer algo muy sencillo y elegante. De acuerdo con *Agile*, se supone que, al final de cada iteración disponemos de código entregable y funcional. Modificaremos este objetivo para incluir que al final de la iteración no sólo tengamos el código listo, sinó también el entorno en el que se desplegará, desde el primer sprint. En lugar de responsabilizar a Operaciones de crear un entorno productivo que se ajuste a las especificacions, se construirá un proceso de creación del entorno automatizado. Este mecanismo creará el entorno de producción, pero también los entorno para desarrollo y QA.
+
+Haciendo que los entornos, y las herramientas para crearlos, estén disponibles pronto, quizás antes de que el proyecto empiezo, los desarrolladores y QA pueden ejecutar y testear su código en entornos consistentes y estables, con una desviación controlada del entorno de producción. Además, manteniendo esta desviación entre los distintos entornos lo más reducida posible, encontraremos y resolveremos temas de interoperatibilidad entre el código y el entorno mucho antes del despliegue en producción. Idealmente, el mecanismo de despliegue que hemos construido estará completamente automatizado. Las herramientas que se pueden utilizar incluyen *shell scripts*, Puppet, Chef, Solaris Jumpstart, Redhat Kickstart, Debian Preseed, etc.
+
+.. _`Gene Kim`: http://itrevolution.com/authors/gene-kim/
               </section>
 
               <footer class="post-footer">
@@ -269,7 +273,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                         <a class="fa fa-twitter" href="https://twitter.com/share?text=11%20cosas%20sobre%20DevOps%20%289%29%3a%20Mi%20primer%20patr%c3%b3n%20DevOps%20favorito&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2f11-cosas-necesitas-saber-devops-9.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <span>Twitter</span>
                         </a>
-                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2f11-cosas-necesitas-saber-devops-9.html&title=11%20cosas%20sobre%20DevOps%20%289%29%3a%20Mi%20primer%20patr%c3%b3n%20DevOps%20favorito&summary=%3cdiv%20class%3d%22document%22%3e%0a%0a%0a%3cimg%20alt%3d%22Automatizaci%c3%b3n%22%20class%3d%22align-right%22%20src%3d%22%2fimages%2fautomation.jpeg%22%20%2f%3e%0a%3cp%3eEn%20el%20noveno%20punto%2c%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fitrevolution.com%2fauthors%2fgene-kim%2f%22%3eGene%20Kim%3c%2fa%3e%20inicia%20el%20tramo%20final%20de%20los%20once%20puntos%2c%20en%20el%20que%20presentar%c3%a1%20los%20patrones%20de%20DevOps%20que%20m%c3%a1s%20le%20gustan.%20En%20este%20caso%2c%20destaca%20la%20importancia%20de%20la%20automatizaci%c3%b3n%20y%20de%20su%20implantaci%c3%b3n%20en%20las%20primeras%20etapas%20del%20proyecto.%3c%2fp%3e%0a%3cp%3e%3c%2fp%3e%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2f11-cosas-necesitas-saber-devops-9.html&title=11%20cosas%20sobre%20DevOps%20%289%29%3a%20Mi%20primer%20patr%c3%b3n%20DevOps%20favorito&summary=..%20image%3a%3a%20%2fimages%2fautomation.jpeg%0a%20%20%20%3aalt%3a%20Automatizaci%c3%b3n%0a%20%20%20%3aalign%3a%20right%0a%0aEn%20el%20noveno%20punto%2c%20%60Gene%20Kim%60_%20inicia%20el%20tramo%20final%20de%20los%20once%20puntos%2c%20en%20el%20que%20presentar%c3%a1%20los%20patrones%20de%20DevOps%20que%20m%c3%a1s%20le%20gustan.%20En%20este%20caso%2c%20destaca%20la%20importancia%20de%20la%20automatizaci%c3%b3n%20y%20de%20su%20implantaci%c3%b3n%20en%20las%20primeras%20etapas%20del%20proyecto.%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <span>LinkedIn</span>
                         </a>
                     </div>

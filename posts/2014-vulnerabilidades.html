@@ -22,12 +22,12 @@
         <meta name="twitter:creator" content="@EntreDevYOps" />
         <meta name="twitter:title" content="2014, el año de las vulnerabilidades" />
         
-        <meta name="twitter:description" content="
+        <meta name="twitter:description" content=".. image:: /images/security.jpg
+   :alt: Securidad
+   :align: left
+   :class: border
 
-
-
-Este año 2014 se ha convertido en un verdadero calvario para los administradores de sistemas y los responsables de seguridad de muchas empresas, sobretodo las que proporcionan servicios en Internet. A falta de dos meses para que finalice el año, ya son tres las vulnerabilidades graves detectadas que nos han puesto en jaque. Hablamos de Heartbleed, Shellshock y Poodle.
-" />
+Este año 2014 se ha convertido en un verdadero calvario para los administradores de sistemas y los responsables de seguridad de muchas empresas, sobretodo las que proporcionan servicios en Internet. A falta de dos meses para que finalice el año, ya son tres las vulnerabilidades graves detectadas que nos han puesto en jaque. Hablamos de Heartbleed_, Shellshock_ y Poodle_." />
         <meta name="twitter:url" content="http://www.entredevyops.es/posts/2014-vulnerabilidades.html" />
     
 
@@ -107,7 +107,7 @@ Este año 2014 se ha convertido en un verdadero calvario para los administradore
         },
         "datePublished": "2014-10-26",
         "dateModified": "2014-10-26",
-        "wordCount": 272,
+        "wordCount": 313,
         "keywords": ["Seguridad"] 
     }
     </script>
@@ -206,7 +206,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">26 Oct 2014</span> <span class="reading-time">| <span class="estimated-reading-time">2 min.</span> (<span class="word-count">272</span> palabras)</span></span>
+                        <span class="post-date">26 Oct 2014</span> <span class="reading-time">| <span class="estimated-reading-time">2 min.</span> (<span class="word-count">313</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -215,17 +215,33 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <div class="document">
+                  .. image:: /images/security.jpg
+   :alt: Securidad
+   :align: left
+   :class: border
+
+Este año 2014 se ha convertido en un verdadero calvario para los administradores de sistemas y los responsables de seguridad de muchas empresas, sobretodo las que proporcionan servicios en Internet. A falta de dos meses para que finalice el año, ya son tres las vulnerabilidades graves detectadas que nos han puesto en jaque. Hablamos de Heartbleed_, Shellshock_ y Poodle_.
 
 
-<img alt="Securidad" class="border align-left" src="/images/security.jpg" />
-<p>Este año 2014 se ha convertido en un verdadero calvario para los administradores de sistemas y los responsables de seguridad de muchas empresas, sobretodo las que proporcionan servicios en Internet. A falta de dos meses para que finalice el año, ya son tres las vulnerabilidades graves detectadas que nos han puesto en jaque. Hablamos de <a class="reference external" href="https://en.wikipedia.org/wiki/Heartbleed">Heartbleed</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Shellshock_(software_bug)">Shellshock</a> y <a class="reference external" href="https://en.wikipedia.org/wiki/Transport_Layer_Security#POODLE_attack">Poodle</a>.</p>
-<p></p>
-<p>Si bien es cierto que tanto <strong>Heartbleed</strong> como <strong>Shellshock</strong> son fallos de implementación o de código, en la librería <a class="reference external" href="https://www.openssl.org">OpenSSL</a> y en el intérprete de comandos <a class="reference external" href="http://www.gnu.org/software/bash/bash.html">Bash</a>, respectivamente, no es así con <strong>Poodle</strong>, que es un fallo del propio diseño del protocolo (que ya tiene 18 años de antigüedad).</p>
-<p>Hay que tener en cuenta, que gracias a que ambos proyectos son <em>Software Libre/Open Source</em>, es posible que cualquier especialista, voluntario, o cualquier que se precie, tenga la posibilidad de auditar el código fuente y detectar futuros incidentes como los vividos en los últimos meses.</p>
-<p>Recordemos también el nacimiento de la <a class="reference external" href="http://www.linuxfoundation.org/programs/core-infrastructure-initiative">Core Infrastructure Initiative</a>, proyecto creado por grandes empresas relacionadas con Internet (Google, IBM o Intel, por citar algunas) con el beneplácito de la <a class="reference external" href="http://www.linuxfoundation.org/">Linux Foundation</a>, con el fin de proporcionar fondos para garantizar que este tipo de <em>software</em> tan crítico quede libre, en la manera de posible, de este tipo de fallos tan graves.</p>
-<p>Para acabar, dado el creciente aumento en proporcionar cifrado en las conexiones HTTP, recomendar la <a class="reference external" href="https://www.ssllabs.com/ssltest/">herramienta</a> que proporcionan en <a class="reference external" href="https://www.ssllabs.com">Qualys SSL Labs</a> para verificar el grado de seguridad en cuanto a la implementación de SSL/TLS, así como verificar que hemos corregido estas vulnerabilidades citadas además de muchas otras. Un enlace que conviene tener siempre a mano en nuestros marcadores.</p>
-</div>
+
+
+Si bien es cierto que tanto **Heartbleed** como **Shellshock** son fallos de implementación o de código, en la librería OpenSSL_ y en el intérprete de comandos Bash_, respectivamente, no es así con **Poodle**, que es un fallo del propio diseño del protocolo (que ya tiene 18 años de antigüedad).
+
+Hay que tener en cuenta, que gracias a que ambos proyectos son *Software Libre/Open Source*, es posible que cualquier especialista, voluntario, o cualquier que se precie, tenga la posibilidad de auditar el código fuente y detectar futuros incidentes como los vividos en los últimos meses.
+
+Recordemos también el nacimiento de la `Core Infrastructure Initiative`_, proyecto creado por grandes empresas relacionadas con Internet (Google, IBM o Intel, por citar algunas) con el beneplácito de la `Linux Foundation`_, con el fin de proporcionar fondos para garantizar que este tipo de *software* tan crítico quede libre, en la manera de posible, de este tipo de fallos tan graves.
+
+Para acabar, dado el creciente aumento en proporcionar cifrado en las conexiones HTTP, recomendar la herramienta_ que proporcionan en `Qualys SSL Labs`_ para verificar el grado de seguridad en cuanto a la implementación de SSL/TLS, así como verificar que hemos corregido estas vulnerabilidades citadas además de muchas otras. Un enlace que conviene tener siempre a mano en nuestros marcadores.
+
+.. _Heartbleed: https://en.wikipedia.org/wiki/Heartbleed
+.. _Shellshock: https://en.wikipedia.org/wiki/Shellshock_(software_bug)
+.. _Poodle: https://en.wikipedia.org/wiki/Transport_Layer_Security#POODLE_attack
+.. _OpenSSL: https://www.openssl.org
+.. _Bash:  http://www.gnu.org/software/bash/bash.html
+.. _Linux Foundation: http://www.linuxfoundation.org/
+.. _Core Infrastructure Initiative: http://www.linuxfoundation.org/programs/core-infrastructure-initiative
+.. _Qualys SSL Labs: https://www.ssllabs.com
+.. _herramienta: https://www.ssllabs.com/ssltest/
               </section>
 
               <footer class="post-footer">
@@ -241,7 +257,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                         <a class="fa fa-twitter" href="https://twitter.com/share?text=2014%2c%20el%20a%c3%b1o%20de%20las%20vulnerabilidades&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2f2014-vulnerabilidades.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <span>Twitter</span>
                         </a>
-                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2f2014-vulnerabilidades.html&title=2014%2c%20el%20a%c3%b1o%20de%20las%20vulnerabilidades&summary=%3cdiv%20class%3d%22document%22%3e%0a%0a%0a%3cimg%20alt%3d%22Securidad%22%20class%3d%22border%20align-left%22%20src%3d%22%2fimages%2fsecurity.jpg%22%20%2f%3e%0a%3cp%3eEste%20a%c3%b1o%202014%20se%20ha%20convertido%20en%20un%20verdadero%20calvario%20para%20los%20administradores%20de%20sistemas%20y%20los%20responsables%20de%20seguridad%20de%20muchas%20empresas%2c%20sobretodo%20las%20que%20proporcionan%20servicios%20en%20Internet.%20A%20falta%20de%20dos%20meses%20para%20que%20finalice%20el%20a%c3%b1o%2c%20ya%20son%20tres%20las%20vulnerabilidades%20graves%20detectadas%20que%20nos%20han%20puesto%20en%20jaque.%20Hablamos%20de%20%3ca%20class%3d%22reference%20external%22%20href%3d%22https%3a%2f%2fen.wikipedia.org%2fwiki%2fHeartbleed%22%3eHeartbleed%3c%2fa%3e%2c%20%3ca%20class%3d%22reference%20external%22%20href%3d%22https%3a%2f%2fen.wikipedia.org%2fwiki%2fShellshock_%28software_bug%29%22%3eShellshock%3c%2fa%3e%20y%20%3ca%20class%3d%22reference%20external%22%20href%3d%22https%3a%2f%2fen.wikipedia.org%2fwiki%2fTransport_Layer_Security%23POODLE_attack%22%3ePoodle%3c%2fa%3e.%3c%2fp%3e%0a%3cp%3e%3c%2fp%3e%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2f2014-vulnerabilidades.html&title=2014%2c%20el%20a%c3%b1o%20de%20las%20vulnerabilidades&summary=..%20image%3a%3a%20%2fimages%2fsecurity.jpg%0a%20%20%20%3aalt%3a%20Securidad%0a%20%20%20%3aalign%3a%20left%0a%20%20%20%3aclass%3a%20border%0a%0aEste%20a%c3%b1o%202014%20se%20ha%20convertido%20en%20un%20verdadero%20calvario%20para%20los%20administradores%20de%20sistemas%20y%20los%20responsables%20de%20seguridad%20de%20muchas%20empresas%2c%20sobretodo%20las%20que%20proporcionan%20servicios%20en%20Internet.%20A%20falta%20de%20dos%20meses%20para%20que%20finalice%20el%20a%c3%b1o%2c%20ya%20son%20tres%20las%20vulnerabilidades%20graves%20detectadas%20que%20nos%20han%20puesto%20en%20jaque.%20Hablamos%20de%20Heartbleed_%2c%20Shellshock_%20y%20Poodle_.%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <span>LinkedIn</span>
                         </a>
                     </div>

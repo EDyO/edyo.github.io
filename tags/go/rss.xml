@@ -17,15 +17,14 @@
       <pubDate>Sat, 26 Sep 2015 15:40:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/vuelve-dotgo-2015.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/dotGo-logo.png
+   :alt: dotGo
+   :align: left
 
-
-&lt;img alt=&#34;dotGo&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/dotGo-logo.png&#34; /&gt;
-&lt;p&gt;Muchos ya conoceréis el lenguaje &lt;a class=&#34;reference external&#34; href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;, incluso algunos conocerán la &lt;a class=&#34;reference external&#34; href=&#34;http://dotgo.eu/&#34;&gt;dotGo&lt;/a&gt;, la primera conferencia europea sobre &lt;a class=&#34;reference external&#34; href=&#34;http://golang.org/&#34;&gt;Golang&lt;/a&gt;.
-Este año &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/intent/user?original_referer=http%3A%2F%2Fwww.dotconferences.eu%2F&amp;amp;region=following&amp;amp;screen_name=dotConferences&amp;amp;tw_p=followbutton&amp;amp;variant=2.0&#34;&gt;&amp;#64;dotConferences&lt;/a&gt; celebra la segunda edición de este evento, con una expectación de asistencia aún mayor.
-Como ya es costumbre de &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu/&#34;&gt;dotConferences&lt;/a&gt;, la &lt;a class=&#34;reference external&#34; href=&#34;http://dotgo.eu/&#34;&gt;dotGo&lt;/a&gt; se celebrará en un teatro parisino, marco digno del evento.
-El evento, además, seguirá las costumbres de los eventos de &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu/&#34;&gt;dotConferences&lt;/a&gt;, es decir,&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Muchos ya conoceréis el lenguaje Go_, incluso algunos conocerán la dotGo_, la primera conferencia europea sobre Golang_.
+Este año `@dotConferences`_ celebra la segunda edición de este evento, con una expectación de asistencia aún mayor.
+Como ya es costumbre de dotConferences_, la dotGo_ se celebrará en un teatro parisino, marco digno del evento.
+El evento, además, seguirá las costumbres de los eventos de dotConferences_, es decir,&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -34,12 +33,15 @@ El evento, además, seguirá las costumbres de los eventos de &lt;a class=&#34;r
       <pubDate>Sat, 26 Jul 2014 02:40:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/anuncio-dotgo-2014.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/dotGo-logo.png
+   :alt: dotGo
+   :align: left
 
+.. |br| raw:: html
 
-&lt;img alt=&#34;dotGo&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/dotGo-logo.png&#34; /&gt;
-&lt;p&gt;Basado en la filosofía de Python y una sintaxis derivada de C, el lenguaje Go ya conocido por muchos, es una herramienta que se tercia bastante útil en este mundo de escala cada vez mayor. Siendo lo que más destacan sus adeptos su facilidad en la implementación de concurrencia y su portabilidad, cada vez más se va acercando al paisaje de lenguajes mayoritarios. Tanto es así que la gente de &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu/&#34;&gt;dotConferences&lt;/a&gt; ha decidido este año organizar una de sus conferencias sobre Go... y, como son así de majos, os pasamos un descuento del 20%. &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/intent/user?original_referer=http%3A%2F%2Fwww.dotconferences.eu%2F&amp;amp;region=following&amp;amp;screen_name=dotConferences&amp;amp;tw_p=followbutton&amp;amp;variant=2.0&#34;&gt;&amp;#64;dotConferences&lt;/a&gt;, gracias!&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+    &lt;br /&gt;
+
+Basado en la filosofía de Python y una sintaxis derivada de C, el lenguaje Go ya conocido por muchos, es una herramienta que se tercia bastante útil en este mundo de escala cada vez mayor. Siendo lo que más destacan sus adeptos su facilidad en la implementación de concurrencia y su portabilidad, cada vez más se va acercando al paisaje de lenguajes mayoritarios. Tanto es así que la gente de dotConferences_ ha decidido este año organizar una de sus conferencias sobre Go... y, como son así de majos, os pasamos un descuento del 20%. `@dotConferences`_, gracias!&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -48,13 +50,10 @@ El evento, además, seguirá las costumbres de los eventos de &lt;a class=&#34;r
       <pubDate>Tue, 04 Jun 2013 20:37:37 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/reunion-de-junio-de-sudoers-bcn.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>`Sudoers BCN`_
+--------------
 
-
-&lt;div class=&#34;section&#34; id=&#34;sudoers-bcn&#34;&gt;
-&lt;h2&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://sudoers-barcelona.wikia.com/wiki/Sudoers_Barcelona_Wiki&#34;&gt;Sudoers BCN&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;De nuevo, como cada mes, se realizó la reunión del grupo de Sudoers BCN, en la que Jordi Soucheiron habló sobre MongoDB, y Ignacio Torres hizo lo propio sobre Go.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+De nuevo, como cada mes, se realizó la reunión del grupo de Sudoers BCN, en la que Jordi Soucheiron habló sobre MongoDB, y Ignacio Torres hizo lo propio sobre Go.&lt;/div&gt;</description>
     </item>
     
   </channel>

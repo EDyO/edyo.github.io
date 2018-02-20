@@ -17,13 +17,16 @@
       <pubDate>Mon, 07 Apr 2014 20:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/resena-articulo-5-unsung-tools-of-devops.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/5-unsung-tools.jpg
+   :width: 93
+   :height: 125
+   :alt: 5 Unsung Tools of DevOps
+   :class: border
+   :align: right
 
+A través de un boletín de Amazon me llegó la noticia de un libro gratuito en formato de EBook con un título que me llamó la atención: `5 Unsung Tools of DevOps`_. Dicho libro no deja de ser un artículo de `Jonathan Thurman`_ sobre una serie de herramientas que él aconseja utilizar en el ámbito de la infraestructura para poder aplicar DeVOps.
 
-&lt;img alt=&#34;5 Unsung Tools of DevOps&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/5-unsung-tools.jpg&#34; style=&#34;width: 93px; height: 125px;&#34; /&gt;
-&lt;p&gt;A través de un boletín de Amazon me llegó la noticia de un libro gratuito en formato de EBook con un título que me llamó la atención: &lt;a class=&#34;reference external&#34; href=&#34;http://newrelic.com/devops/unsung-devops-tools&#34;&gt;5 Unsung Tools of DevOps&lt;/a&gt;. Dicho libro no deja de ser un artículo de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/jthurman42&#34;&gt;Jonathan Thurman&lt;/a&gt; sobre una serie de herramientas que él aconseja utilizar en el ámbito de la infraestructura para poder aplicar DeVOps.&lt;/p&gt;
-&lt;p&gt;El autor hace un repaso del uso que él hace sobre dichas herramientas e incluso entra en algunos aspectos de configuración.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+El autor hace un repaso del uso que él hace sobre dichas herramientas e incluso entra en algunos aspectos de configuración.&lt;/div&gt;</description>
     </item>
     
   </channel>

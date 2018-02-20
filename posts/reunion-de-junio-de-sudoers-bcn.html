@@ -25,13 +25,10 @@
         <meta name="twitter:creator" content="@EntreDevYOps" />
         <meta name="twitter:title" content="Reunión de Junio de Sudoers BCN" />
         
-        <meta name="twitter:description" content="
+        <meta name="twitter:description" content="`Sudoers BCN`_
+--------------
 
-
-
-Sudoers BCN
-De nuevo, como cada mes, se realizó la reunión del grupo de Sudoers BCN, en la que Jordi Soucheiron habló sobre MongoDB, y Ignacio Torres hizo lo propio sobre Go.
-" />
+De nuevo, como cada mes, se realizó la reunión del grupo de Sudoers BCN, en la que Jordi Soucheiron habló sobre MongoDB, y Ignacio Torres hizo lo propio sobre Go." />
         <meta name="twitter:url" content="http://www.entredevyops.es/posts/reunion-de-junio-de-sudoers-bcn.html" />
     
 
@@ -111,7 +108,7 @@ De nuevo, como cada mes, se realizó la reunión del grupo de Sudoers BCN, en la
         },
         "datePublished": "2013-06-04",
         "dateModified": "2013-06-04",
-        "wordCount": 903,
+        "wordCount": 961,
         "keywords": ["Eventos","Sudoers BCN","MongoDB","Go"] 
     }
     </script>
@@ -210,7 +207,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">4 Jun 2013</span> <span class="reading-time">| <span class="estimated-reading-time">5 min.</span> (<span class="word-count">903</span> palabras)</span></span>
+                        <span class="post-date">4 Jun 2013</span> <span class="reading-time">| <span class="estimated-reading-time">5 min.</span> (<span class="word-count">961</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -219,54 +216,67 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <div class="document">
+                  `Sudoers BCN`_
+--------------
+
+De nuevo, como cada mes, se realizó la reunión del grupo de Sudoers BCN, en la que Jordi Soucheiron habló sobre MongoDB, y Ignacio Torres hizo lo propio sobre Go.
 
 
-<div class="section" id="sudoers-bcn">
-<h2><a class="reference external" href="http://sudoers-barcelona.wikia.com/wiki/Sudoers_Barcelona_Wiki">Sudoers BCN</a></h2>
-<p>De nuevo, como cada mes, se realizó la reunión del grupo de Sudoers BCN, en la que Jordi Soucheiron habló sobre MongoDB, y Ignacio Torres hizo lo propio sobre Go.</p>
-<p></p>
-</div>
-<div class="section" id="mongodb-para-sysadmins">
-<h2><a class="reference external" href="http://www.slideshare.net/jordixou/mongo-db-22441879">MongoDB para sysadmins</a></h2>
-<p><a class="reference external" href="https://twitter.com/jordixou">Jordi Soucheiron</a> explicó que <a class="reference external" href="http://www.mongodb.org/">MongoDB</a> es una base de datos NoSQL, de <a class="reference external" href="http://www.10gen.com/">10gen</a>, quién también da soporte, orientada a documentos (JSON), con escalado horizontal (sharding) y alta disponibilidad (replicación). Permite actualizaciones atómicas pero no soporta transacciones ni incluye un lenguaje como SQL, puesto que utiliza JSON para realizar las consultas. Algunos de sus principales usos son:</p>
-<ul class="simple">
-<li>Almacenar ficheros, como se haría con S3, aproximadamente,</li>
-<li>Almacenar logs, como, por ejemplo, backend de logstash</li>
-<li>En sistemas de cola, como RabbitMQ..</li>
-<li>Data mining/Big Data, como storage, y herramienta de MapReduce.</li>
-</ul>
-<div class="section" id="despliegues">
-<h3>Despliegues</h3>
-<p>El despliegue de desarrollo es con un sólo nodo, no hay <em>sharding</em> ni <em>HA</em>. El despliegue pequeño tiene un maestro y varios esclavos, de modo que permite HA, pero no hay <em>sharding</em>. Opcionalmente, se puede tener un retraso entre el nivel de actualización de uno de los esclavos para permitir recuperar errores lógicos. Esto debería alcanzar varios miles de inserts por segundo. El despliegue avanzado tiene una composición mucho más compleja: Hay un grupo de servidores, llamados de configuración (<em>config servers</em>) que conocen la ubicación de cada información en cada servidor. Luego hay otros grupos de nodos, separados en <em>shards</em>, que corresponde a cada partición. Estos <em>shards</em> se componen de una instalación basada en el despliegue pequeño, por lo que cada <em>shard</em> es autónomo, altamente disponible y permite tener nodos retrasados. El punto de fallo para un <em>shard</em> es que se estropeen tanto el nodo maestro como los esclavos. Jordi comentó que se habían llegado a hacer instalaciones de 30-40 <em>shards</em>. Además, al poder elegir la clave de distribución, se pueden tener distribuidas las lecturas y escrituras en cada <em>shard</em>. El tipo de replicación es configurable, así como las colecciones que se mantienen en <em>shard</em> y la clave que las distribuye. Los clientes se conectan a un proceso llamado <tt class="docutils literal">mongos</tt> que es el que consulta a los <em>config servers</em> para saber a qué <em>shard</em> y qué nodo debe consultar. La desventaja es que siempre se necesitan tres servidores de configuración y que es una solución bastante más compleja que las otras.</p>
-<p>En cuanto a las copias de seguridad, Jordi explicó que tiene una instrucción que permite volcar los datos a ficheros BSON. Aunque se puede hacer en caliente, ellos lo utilizan en los nodos que tienen retrasados para hacer una copia periódica. Relacionado al rendimiento, Jordi destacó el tamaño de los índices, pero sobretodo recomendó utilizar los <em>update in-place</em> antes que reescribir el documento entero. Para la medida de los documentos, se puede configurar un porcentaje sobre el tamaño original para que se reserve espacio para que el documento pueda crecer, pero comentó que no parece que se utilice mucho. Para la monitorización, utilizan consultas formateadas con JSON sobre uno de los nodos de cada <em>replica-set</em>, que les responde con un resumen del estado. También comentó que existen módulos y guiones para Nagios y otros sistemas similares que lo permiten gestionar con bastante facilidad.</p>
-<p>Finalmente, hizo una demostración en la que, sobre una máquina virtual, instalaba tres nodos de mongoDB que contenían un solo <em>shard</em>, creando tres directorios y arrancando tres procesos mongoDB uno en cada directorio, con tres puertos distintos. Luego, se conectó a uno de los nodos, y, utilizando un documento JSON, lo inicializó. Tras esto, le indicó la existencia de los otros dos nodos y éstos se configuraron y replicaron automáticamente. Con esto hecho, se puede acceder a una interfaz de gestión vía HTTP/REST que permite visualizar el estado del <em>shard</em> y los correspondientes nodos.</p>
-</div>
-</div>
-<div class="section" id="go-y-el-zen-de-python">
-<h2><a class="reference external" href="http://www.tux21b.org/public/go-python-zen.html#1">Go y el Zen de Python</a></h2>
-<p><a class="reference external" href="https://twitter.com/itorres">Ignacio Torres</a> nos introdujo, a partir de la presentación de <a class="reference external" href="http://andrewgerrand.com">Andrew Gerrand</a>, en el mundo de <a class="reference external" href="http://golang.org">Go</a>, un lenguaje de programación que apareció en 2009, con las siguientes características:</p>
-<ul class="simple">
-<li>Simple de leer y aprender.</li>
-<li>Tipado estático pero permitiendo ser usado como dinámico.</li>
-<li>Compilado en código máquina nativo, con un ciclo de desarrollo rápido.</li>
-<li>Funcionalidades especiales para la concurrencia a nivel del lenguaje. Puede interactuar directamente con Erlang.</li>
-<li>Librería estándar con esteroides y expansible.</li>
-<li>Muchas y buenas librerías.</li>
-<li>Código abierto con licencia BSD.</li>
-</ul>
-<p>Algunos usos habituales serían:</p>
-<ul class="simple">
-<li>Demonios de servidor</li>
-<li>Herramientas de línea de comandos</li>
-<li>Aplicaciones web</li>
-<li>Juegos</li>
-<li>Aplicaciones científicas</li>
-</ul>
-<p>Un factor muy importante que Ignacio destacó, es que Go es un lenguaje con sintaxis C, pero sin los peores aspectos de éste, que sigue la filosofía de Python. Hay que destacar que cualquier función puede convertirse en un método de un tipo, añadiéndolo sin necesidad de crear un heredero. Permite múltiples interfaces de forma muy sencilla. No hay <tt class="docutils literal">this</tt> o <tt class="docutils literal">self</tt>, se hace referencia con un nombre elegido en el prototipo del método. La visibilidad de los elementos se define por el uso de mayúsculas y minúsculas. No hay subclases, decoradores, iteradores, excepciones, etcétera. La gestión de errores es explícita. El espacio de nombres de los paquetes es plano. Para reforzar la legibilidad de código, evitando los <em>one-liners</em>, no hay encadenamientos para las listas ni operador condicional ternario.</p>
-<p>En cuanto al despliegue, el resultado de la compilación es un binario enlazado estáticamente, por lo que no hay que preocuparse por las dependencias. En lo relativo a la concurrencia, no hay que preocuparse del bloqueo, puesto que el compilador lo tiene en cuenta, y el código se ejecuta en paralelo con poco coste adicional (no hay GIL).</p>
-</div>
-</div>
+
+
+`MongoDB para sysadmins`_
+-------------------------
+
+`Jordi Soucheiron`_ explicó que MongoDB_ es una base de datos NoSQL, de 10gen_, quién también da soporte, orientada a documentos (JSON), con escalado horizontal (sharding) y alta disponibilidad (replicación). Permite actualizaciones atómicas pero no soporta transacciones ni incluye un lenguaje como SQL, puesto que utiliza JSON para realizar las consultas. Algunos de sus principales usos son:
+
+- Almacenar ficheros, como se haría con S3, aproximadamente,
+- Almacenar logs, como, por ejemplo, backend de logstash
+- En sistemas de cola, como RabbitMQ..
+- Data mining/Big Data, como storage, y herramienta de MapReduce.
+
+Despliegues
+```````````
+
+El despliegue de desarrollo es con un sólo nodo, no hay *sharding* ni *HA*. El despliegue pequeño tiene un maestro y varios esclavos, de modo que permite HA, pero no hay *sharding*. Opcionalmente, se puede tener un retraso entre el nivel de actualización de uno de los esclavos para permitir recuperar errores lógicos. Esto debería alcanzar varios miles de inserts por segundo. El despliegue avanzado tiene una composición mucho más compleja: Hay un grupo de servidores, llamados de configuración (*config servers*) que conocen la ubicación de cada información en cada servidor. Luego hay otros grupos de nodos, separados en *shards*, que corresponde a cada partición. Estos *shards* se componen de una instalación basada en el despliegue pequeño, por lo que cada *shard* es autónomo, altamente disponible y permite tener nodos retrasados. El punto de fallo para un *shard* es que se estropeen tanto el nodo maestro como los esclavos. Jordi comentó que se habían llegado a hacer instalaciones de 30-40 *shards*. Además, al poder elegir la clave de distribución, se pueden tener distribuidas las lecturas y escrituras en cada *shard*. El tipo de replicación es configurable, así como las colecciones que se mantienen en *shard* y la clave que las distribuye. Los clientes se conectan a un proceso llamado ``mongos`` que es el que consulta a los *config servers* para saber a qué *shard* y qué nodo debe consultar. La desventaja es que siempre se necesitan tres servidores de configuración y que es una solución bastante más compleja que las otras.
+
+En cuanto a las copias de seguridad, Jordi explicó que tiene una instrucción que permite volcar los datos a ficheros BSON. Aunque se puede hacer en caliente, ellos lo utilizan en los nodos que tienen retrasados para hacer una copia periódica. Relacionado al rendimiento, Jordi destacó el tamaño de los índices, pero sobretodo recomendó utilizar los *update in-place* antes que reescribir el documento entero. Para la medida de los documentos, se puede configurar un porcentaje sobre el tamaño original para que se reserve espacio para que el documento pueda crecer, pero comentó que no parece que se utilice mucho. Para la monitorización, utilizan consultas formateadas con JSON sobre uno de los nodos de cada *replica-set*, que les responde con un resumen del estado. También comentó que existen módulos y guiones para Nagios y otros sistemas similares que lo permiten gestionar con bastante facilidad.
+
+Finalmente, hizo una demostración en la que, sobre una máquina virtual, instalaba tres nodos de mongoDB que contenían un solo *shard*, creando tres directorios y arrancando tres procesos mongoDB uno en cada directorio, con tres puertos distintos. Luego, se conectó a uno de los nodos, y, utilizando un documento JSON, lo inicializó. Tras esto, le indicó la existencia de los otros dos nodos y éstos se configuraron y replicaron automáticamente. Con esto hecho, se puede acceder a una interfaz de gestión vía HTTP/REST que permite visualizar el estado del *shard* y los correspondientes nodos.
+
+`Go y el Zen de Python`_
+------------------------
+
+`Ignacio Torres`_ nos introdujo, a partir de la presentación de `Andrew Gerrand`_, en el mundo de Go_, un lenguaje de programación que apareció en 2009, con las siguientes características:
+
+- Simple de leer y aprender.
+- Tipado estático pero permitiendo ser usado como dinámico.
+- Compilado en código máquina nativo, con un ciclo de desarrollo rápido.
+- Funcionalidades especiales para la concurrencia a nivel del lenguaje. Puede interactuar directamente con Erlang.
+- Librería estándar con esteroides y expansible.
+- Muchas y buenas librerías.
+- Código abierto con licencia BSD.
+
+Algunos usos habituales serían:
+
+- Demonios de servidor
+- Herramientas de línea de comandos
+- Aplicaciones web
+- Juegos
+- Aplicaciones científicas
+
+Un factor muy importante que Ignacio destacó, es que Go es un lenguaje con sintaxis C, pero sin los peores aspectos de éste, que sigue la filosofía de Python. Hay que destacar que cualquier función puede convertirse en un método de un tipo, añadiéndolo sin necesidad de crear un heredero. Permite múltiples interfaces de forma muy sencilla. No hay ``this`` o ``self``, se hace referencia con un nombre elegido en el prototipo del método. La visibilidad de los elementos se define por el uso de mayúsculas y minúsculas. No hay subclases, decoradores, iteradores, excepciones, etcétera. La gestión de errores es explícita. El espacio de nombres de los paquetes es plano. Para reforzar la legibilidad de código, evitando los *one-liners*, no hay encadenamientos para las listas ni operador condicional ternario.
+
+En cuanto al despliegue, el resultado de la compilación es un binario enlazado estáticamente, por lo que no hay que preocuparse por las dependencias. En lo relativo a la concurrencia, no hay que preocuparse del bloqueo, puesto que el compilador lo tiene en cuenta, y el código se ejecuta en paralelo con poco coste adicional (no hay GIL).
+
+.. _`Sudoers BCN`: http://sudoers-barcelona.wikia.com/wiki/Sudoers_Barcelona_Wiki
+.. _`MongoDB para sysadmins`: http://www.slideshare.net/jordixou/mongo-db-22441879
+.. _`Jordi Soucheiron`: https://twitter.com/jordixou
+.. _MongoDB: http://www.mongodb.org/
+.. _10gen: http://www.10gen.com/
+.. _`Go y el Zen de Python`: http://www.tux21b.org/public/go-python-zen.html#1
+.. _`Ignacio Torres`: https://twitter.com/itorres
+.. _Go: http://golang.org
+.. _`Andrew Gerrand`: http://andrewgerrand.com
               </section>
 
               <footer class="post-footer">
@@ -288,7 +298,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                         <a class="fa fa-twitter" href="https://twitter.com/share?text=Reuni%c3%b3n%20de%20Junio%20de%20Sudoers%20BCN&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2freunion-de-junio-de-sudoers-bcn.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <span>Twitter</span>
                         </a>
-                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2freunion-de-junio-de-sudoers-bcn.html&title=Reuni%c3%b3n%20de%20Junio%20de%20Sudoers%20BCN&summary=%3cdiv%20class%3d%22document%22%3e%0a%0a%0a%3cdiv%20class%3d%22section%22%20id%3d%22sudoers-bcn%22%3e%0a%3ch2%3e%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fsudoers-barcelona.wikia.com%2fwiki%2fSudoers_Barcelona_Wiki%22%3eSudoers%20BCN%3c%2fa%3e%3c%2fh2%3e%0a%3cp%3eDe%20nuevo%2c%20como%20cada%20mes%2c%20se%20realiz%c3%b3%20la%20reuni%c3%b3n%20del%20grupo%20de%20Sudoers%20BCN%2c%20en%20la%20que%20Jordi%20Soucheiron%20habl%c3%b3%20sobre%20MongoDB%2c%20y%20Ignacio%20Torres%20hizo%20lo%20propio%20sobre%20Go.%3c%2fp%3e%0a%3cp%3e%3c%2fp%3e%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2freunion-de-junio-de-sudoers-bcn.html&title=Reuni%c3%b3n%20de%20Junio%20de%20Sudoers%20BCN&summary=%60Sudoers%20BCN%60_%0a--------------%0a%0aDe%20nuevo%2c%20como%20cada%20mes%2c%20se%20realiz%c3%b3%20la%20reuni%c3%b3n%20del%20grupo%20de%20Sudoers%20BCN%2c%20en%20la%20que%20Jordi%20Soucheiron%20habl%c3%b3%20sobre%20MongoDB%2c%20y%20Ignacio%20Torres%20hizo%20lo%20propio%20sobre%20Go.%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <span>LinkedIn</span>
                         </a>
                     </div>
