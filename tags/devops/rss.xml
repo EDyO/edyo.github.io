@@ -33,15 +33,8 @@ De la mano de &lt;a href=&#34;https://blended.io&#34; target=&#34;_blank&#34;&gt
       <pubDate>Tue, 10 Feb 2015 20:05:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/cursos-scrum-devops-lean-it.html</guid>
-      <description>.. image:: /images/clase.jpg
-   :width: 200 
-   :height: 150
-   :alt: Curso
-   :align: left
-
-¿Qué puede haber mejor para empezar el año nuevo que apuntarse a un curso? Bueno, posiblemente, bastantes otras cosas, pero por si estáis planteándoos un cambio o sentís la necesidad de aprender, en este post os damos la referencia de dos cursos.
-
-Por un lado, en la UPC, se vuelve a impartir éste año el curso de `Agile IT Management, Scrum, DevOps y Lean IT`_, como el `impartido el curso pasado`_, y que comenzará el próximo 17 de Marzo.</description>
+      <description>¿Qué puede haber mejor para empezar el año nuevo que apuntarse a un curso? Bueno, posiblemente, bastantes otras cosas, pero por si estáis planteándoos un cambio o sentís la necesidad de aprender, en este post os damos la referencia de dos cursos.
+Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Management, Scrum, DevOps y Lean IT, como el impartido el curso pasado, y que comenzará el próximo 17 de Marzo.</description>
     </item>
     
     <item>
@@ -50,14 +43,13 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de `Agile IT Ma
       <pubDate>Sun, 30 Nov 2014 12:14:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/dos-dias-velocity-conf.html</guid>
-      <description>.. image:: /images/velocity14_logo.png
-   :width: 363 
-   :height: 99
-   :alt: VelocityConf 2014
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Aunque hace unos días que pasó la `VelocityConf Europe 2014`_, publicamos este artículo para destacar algunas de las charlas que se dieron en el evento.
-En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que resultaban muy accesibles, eran también autores de libros de `O&#39;Reilly`_, tanto de la talla de `Steve Souders`_ o `John Allspaw`_ como de la relevancia de `Ilya Grigorik`_. Durante los dos primeros días, hubo algunas firmas de libros, que regalaban a los veinte primeros.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
+&lt;p&gt;Aunque hace unos días que pasó la &lt;a class=&#34;reference external&#34; href=&#34;http://velocityconf.com/velocityeu2014&#34;&gt;VelocityConf Europe 2014&lt;/a&gt;, publicamos este artículo para destacar algunas de las charlas que se dieron en el evento.
+En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que resultaban muy accesibles, eran también autores de libros de &lt;a class=&#34;reference external&#34; href=&#34;http://www.oreilly.com&#34;&gt;O&#39;Reilly&lt;/a&gt;, tanto de la talla de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/Souders&#34;&gt;Steve Souders&lt;/a&gt; o &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/allspaw&#34;&gt;John Allspaw&lt;/a&gt; como de la relevancia de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/igrigorik&#34;&gt;Ilya Grigorik&lt;/a&gt;. Durante los dos primeros días, hubo algunas firmas de libros, que regalaban a los veinte primeros.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -66,13 +58,12 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
       <pubDate>Mon, 03 Nov 2014 22:14:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/sobre-la-velocity-conf-2.html</guid>
-      <description>.. image:: /images/velocity14_logo.png
-   :width: 363 
-   :height: 99
-   :alt: VelocityConf 2014
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-En este artículo continuamos con el detalle de lo que depara la `VelocityConf Europe 2014`_, que empieza mañana. Os recordamos que podéis acceder a los descuentos_ que publicamos para las entradas.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
+&lt;p&gt;En este artículo continuamos con el detalle de lo que depara la &lt;a class=&#34;reference external&#34; href=&#34;http://velocityconf.com/velocityeu2014&#34;&gt;VelocityConf Europe 2014&lt;/a&gt;, que empieza mañana. Os recordamos que podéis acceder a los &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/posts/concurso-velocity.html&#34;&gt;descuentos&lt;/a&gt; que publicamos para las entradas.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -81,13 +72,12 @@ En este artículo continuamos con el detalle de lo que depara la `VelocityConf E
       <pubDate>Wed, 29 Oct 2014 02:14:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/sobre-la-velocity-conf-1.html</guid>
-      <description>.. image:: /images/velocity14_logo.png
-   :width: 363 
-   :height: 99
-   :alt: VelocityConf 2014
-   :align: left
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Con el `sorteo de una entrada`_ para los dos primeros días de la `VelocityConf Europe 2014`_ en marcha, hemos pensado que sería una buena idea dar una idea de lo que se avecina, a ver si os animáis a participar un poco más. Os recordamos que además del sorteo, también podéis acceder a un descuento de 250 euros para las entradas de 2 y 3 días, y otro del 20%, útil para la de un día.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
+&lt;p&gt;Con el &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/posts/concurso-velocity.html&#34;&gt;sorteo de una entrada&lt;/a&gt; para los dos primeros días de la &lt;a class=&#34;reference external&#34; href=&#34;http://velocityconf.com/velocityeu2014&#34;&gt;VelocityConf Europe 2014&lt;/a&gt; en marcha, hemos pensado que sería una buena idea dar una idea de lo que se avecina, a ver si os animáis a participar un poco más. Os recordamos que además del sorteo, también podéis acceder a un descuento de 250 euros para las entradas de 2 y 3 días, y otro del 20%, útil para la de un día.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -96,12 +86,12 @@ Con el `sorteo de una entrada`_ para los dos primeros días de la `VelocityConf 
       <pubDate>Mon, 08 Sep 2014 08:30:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-11.html</guid>
-      <description>.. image:: /images/estandarizacion.jpg
-   :alt: Bucle de retroalimentación
-   :align: left
-   :class: border
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Para finalizar esta serie de `Gene Kim`_, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Bucle de retroalimentación&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/estandarizacion.jpg&#34; /&gt;
+&lt;p&gt;Para finalizar esta serie de &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim&#34;&gt;Gene Kim&lt;/a&gt;, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -110,11 +100,12 @@ Para finalizar esta serie de `Gene Kim`_, presentamos la traducción de su terce
       <pubDate>Sun, 27 Jul 2014 00:35:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-10.html</guid>
-      <description>.. image:: /images/Feedback_Loop.png
-   :alt: Bucle de retroalimentación
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-La penúltima entrega de `Gene Kim`_, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Bucle de retroalimentación&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/Feedback_Loop.png&#34; /&gt;
+&lt;p&gt;La penúltima entrega de &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim&#34;&gt;Gene Kim&lt;/a&gt;, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -123,11 +114,12 @@ La penúltima entrega de `Gene Kim`_, consistente en su segundo patrón favorito
       <pubDate>Sun, 29 Jun 2014 03:35:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-9.html</guid>
-      <description>.. image:: /images/automation.jpeg
-   :alt: Automatización
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-En el noveno punto, `Gene Kim`_ inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Automatización&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/automation.jpeg&#34; /&gt;
+&lt;p&gt;En el noveno punto, &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -136,11 +128,12 @@ En el noveno punto, `Gene Kim`_ inicia el tramo final de los once puntos, en el 
       <pubDate>Sun, 08 Jun 2014 03:35:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-8.html</guid>
-      <description>.. image:: /images/chaos-monkey.png
-   :alt: Chaos Monkey
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-El octavo punto de `Gene Kim`_ sobre DevOps trata sobre cómo se integran las áreas de Seguridad informática y calidad en los flujos de trabajo de DevOps. Aunque parezca algo muy complejo de hacer, es también algo que conviene comprender correctamente para poder realizar de la forma más adecuada. Es decir, sin perder el sentido de tener procesos de calidad y seguridad, ni afectar al esfuerzo realizado para disponer de las funcionalidades en el tiempo requerido para mantener la competitividad de la organización.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Chaos Monkey&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/chaos-monkey.png&#34; /&gt;
+&lt;p&gt;El octavo punto de &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; sobre DevOps trata sobre cómo se integran las áreas de Seguridad informática y calidad en los flujos de trabajo de DevOps. Aunque parezca algo muy complejo de hacer, es también algo que conviene comprender correctamente para poder realizar de la forma más adecuada. Es decir, sin perder el sentido de tener procesos de calidad y seguridad, ni afectar al esfuerzo realizado para disponer de las funcionalidades en el tiempo requerido para mantener la competitividad de la organización.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -149,13 +142,13 @@ El octavo punto de `Gene Kim`_ sobre DevOps trata sobre cómo se integran las á
       <pubDate>Wed, 07 May 2014 01:05:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-7.html</guid>
-      <description>.. image:: /images/hands.png
-   :alt: Valor
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-En el séptimo punto, `Gene Kim`_ explica el valor intrínseco de DevOps para la organización, expuesto a partir de los beneficios que la adopción de DevOps aporta, recopilados a partir de estudios, experiencias, conversaciones y sus propios libros.
 
-A partir de los puntos en los que DevOps aporta valor, establece, para acabar, una relación primordial, básica y primaria por la que aplicar los principios de DevOps.&lt;/div&gt;</description>
+&lt;img alt=&#34;Valor&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/hands.png&#34; /&gt;
+&lt;p&gt;En el séptimo punto, &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; explica el valor intrínseco de DevOps para la organización, expuesto a partir de los beneficios que la adopción de DevOps aporta, recopilados a partir de estudios, experiencias, conversaciones y sus propios libros.&lt;/p&gt;
+&lt;p&gt;A partir de los puntos en los que DevOps aporta valor, establece, para acabar, una relación primordial, básica y primaria por la que aplicar los principios de DevOps.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -164,11 +157,12 @@ A partir de los puntos en los que DevOps aporta valor, establece, para acabar, u
       <pubDate>Sat, 03 May 2014 23:25:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-6.html</guid>
-      <description>.. image:: /images/change-ahead.png
-   :alt: Cambio en adelante
-   :align: left
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-El siguiente apartado que `Gene Kim`_ trata, destaca las áreas en las que los patrones DevOps operan. Éstas áreas fueron descritas en el libro `DevOps Cookbook`_. Éstas áreas unen, de formas diferente, tres conceptos altamente importantes de todo equipo de IT: Producción, Desarrollo y Operaciones.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Cambio en adelante&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/change-ahead.png&#34; /&gt;
+&lt;p&gt;El siguiente apartado que &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; trata, destaca las áreas en las que los patrones DevOps operan. Éstas áreas fueron descritas en el libro &lt;a class=&#34;reference external&#34; href=&#34;http://www.realgenekim.me/devops-cookbook/&#34;&gt;DevOps Cookbook&lt;/a&gt;. Éstas áreas unen, de formas diferente, tres conceptos altamente importantes de todo equipo de IT: Producción, Desarrollo y Operaciones.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -177,11 +171,12 @@ El siguiente apartado que `Gene Kim`_ trata, destaca las áreas en las que los p
       <pubDate>Mon, 21 Apr 2014 01:15:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-5.html</guid>
-      <description>.. image:: /images/sign-ways.png
-   :alt: Diferentes caminos
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-El quinto punto que `Gene Kim`_ recomienda conocer sobre DevOps, describe los principios fundamentales, que no dejan de ser las *Tres vías* que menciona en sus libros `DevOps Cookbook`_ y `The Phoenix Project`_. Como en los anteriores artículos, podéis enviar vuestros comentarios al *hashtag* `#11cosasdevops`_.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Diferentes caminos&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/sign-ways.png&#34; /&gt;
+&lt;p&gt;El quinto punto que &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; recomienda conocer sobre DevOps, describe los principios fundamentales, que no dejan de ser las &lt;em&gt;Tres vías&lt;/em&gt; que menciona en sus libros &lt;a class=&#34;reference external&#34; href=&#34;http://www.realgenekim.me/devops-cookbook/&#34;&gt;DevOps Cookbook&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://www.amazon.com/The-Phoenix-Project-Helping-Business/dp/0988262592&#34;&gt;The Phoenix Project&lt;/a&gt;. Como en los anteriores artículos, podéis enviar vuestros comentarios al &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -190,11 +185,12 @@ El quinto punto que `Gene Kim`_ recomienda conocer sobre DevOps, describe los pr
       <pubDate>Thu, 10 Apr 2014 01:55:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-4.html</guid>
-      <description>.. image:: /images/visible-ops.jpg
-   :alt: Visible Ops Handbook
-   :align: left
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Aunque con retraso, aquí está el cuarto punto que es necesario conocer, según `Gene Kim`_, sobre DevOps. En esta ocasión, compara DevOps con lo que describió en el libro que coescribió, titulado `Visible Ops Handbook`_. Como en las anteriores ocasiones, para comentar podéis utilizar el *hashtag* `#11cosasdevops`_.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Visible Ops Handbook&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/visible-ops.jpg&#34; /&gt;
+&lt;p&gt;Aunque con retraso, aquí está el cuarto punto que es necesario conocer, según &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt;, sobre DevOps. En esta ocasión, compara DevOps con lo que describió en el libro que coescribió, titulado &lt;a class=&#34;reference external&#34; href=&#34;http://www.amazon.com/The-Visible-Ops-Handbook-Implementing/dp/0975568612&#34;&gt;Visible Ops Handbook&lt;/a&gt;. Como en las anteriores ocasiones, para comentar podéis utilizar el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -203,16 +199,13 @@ Aunque con retraso, aquí está el cuarto punto que es necesario conocer, según
       <pubDate>Mon, 07 Apr 2014 20:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/resena-articulo-5-unsung-tools-of-devops.html</guid>
-      <description>.. image:: /images/5-unsung-tools.jpg
-   :width: 93
-   :height: 125
-   :alt: 5 Unsung Tools of DevOps
-   :class: border
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-A través de un boletín de Amazon me llegó la noticia de un libro gratuito en formato de EBook con un título que me llamó la atención: `5 Unsung Tools of DevOps`_. Dicho libro no deja de ser un artículo de `Jonathan Thurman`_ sobre una serie de herramientas que él aconseja utilizar en el ámbito de la infraestructura para poder aplicar DeVOps.
 
-El autor hace un repaso del uso que él hace sobre dichas herramientas e incluso entra en algunos aspectos de configuración.&lt;/div&gt;</description>
+&lt;img alt=&#34;5 Unsung Tools of DevOps&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/5-unsung-tools.jpg&#34; style=&#34;width: 93px; height: 125px;&#34; /&gt;
+&lt;p&gt;A través de un boletín de Amazon me llegó la noticia de un libro gratuito en formato de EBook con un título que me llamó la atención: &lt;a class=&#34;reference external&#34; href=&#34;http://newrelic.com/devops/unsung-devops-tools&#34;&gt;5 Unsung Tools of DevOps&lt;/a&gt;. Dicho libro no deja de ser un artículo de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/jthurman42&#34;&gt;Jonathan Thurman&lt;/a&gt; sobre una serie de herramientas que él aconseja utilizar en el ámbito de la infraestructura para poder aplicar DeVOps.&lt;/p&gt;
+&lt;p&gt;El autor hace un repaso del uso que él hace sobre dichas herramientas e incluso entra en algunos aspectos de configuración.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -221,12 +214,13 @@ El autor hace un repaso del uso que él hace sobre dichas herramientas e incluso
       <pubDate>Tue, 01 Apr 2014 09:35:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-3.html</guid>
-      <description>.. image:: /images/bridge-building.png
-   :alt: Change vs Trouble
-   :align: left
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-El tercer punto sobre DevOps que propone `Gene Kim`_ es la relación con ITIL_ y ITSM_, dos conjuntos de prácticas y disciplinas para la gestión de operaciones IT, muy extendidas, especialmente en las grandes empresas.
-Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitter, con el *hashtag* `#11cosasdevops`_.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Change vs Trouble&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/bridge-building.png&#34; /&gt;
+&lt;p&gt;El tercer punto sobre DevOps que propone &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; es la relación con &lt;a class=&#34;reference external&#34; href=&#34;http://es.wikipedia.org/wiki/Information_Technology_Infrastructure_Library&#34;&gt;ITIL&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://es.wikipedia.org/wiki/Gesti%C3%B3n_de_servicios_de_tecnolog%C3%ADas_de_la_informaci%C3%B3n&#34;&gt;ITSM&lt;/a&gt;, dos conjuntos de prácticas y disciplinas para la gestión de operaciones IT, muy extendidas, especialmente en las grandes empresas.
+Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitter, con el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -235,12 +229,13 @@ Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitte
       <pubDate>Tue, 25 Mar 2014 09:35:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-2.html</guid>
-      <description>.. image:: /images/change-trouble.jpg
-   :alt: Change vs Trouble
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Ya está aquí la segunda entrega de las 11 cosas que necesitas saber sobre DevOps, por `Gene Kim`_. En esta ocasión, se comenta sobre la relación con las metodologías ágiles, y sus efectos en los ciclos de desarrollo de aplicaciones. En este apartado, explica cómo la aplicación de las metodologías ágiles ayudan a la aparición de gran parte del movimiento DevOps, explicando cómo se relacionan y qué aportan al negocio.
-Como ya se indicó la semana pasada, creemos que es una buena excusa para iniciar un debate en Twitter con el *hashtag* `#11cosasdevops`_.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Change vs Trouble&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/change-trouble.jpg&#34; /&gt;
+&lt;p&gt;Ya está aquí la segunda entrega de las 11 cosas que necesitas saber sobre DevOps, por &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt;. En esta ocasión, se comenta sobre la relación con las metodologías ágiles, y sus efectos en los ciclos de desarrollo de aplicaciones. En este apartado, explica cómo la aplicación de las metodologías ágiles ayudan a la aparición de gran parte del movimiento DevOps, explicando cómo se relacionan y qué aportan al negocio.
+Como ya se indicó la semana pasada, creemos que es una buena excusa para iniciar un debate en Twitter con el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -249,13 +244,12 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
       <pubDate>Tue, 18 Mar 2014 09:35:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-1.html</guid>
-      <description>.. image:: /images/gears1.jpg
-   :width: 130px
-   :height: 120px
-   :alt: DevOps Gears
-   :align: left
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-`Gene Kim`_, autor de `The Phoenix Project`_, `The DevOps Cookbook`_ junto con otros, de quien ya hemos hablado en este blog, tiene publicado un documento llamado `The Top 11 Things You Need To Know About DevOps`_. Dado que los puntos que detalla son bastante interesantes, vamos a iniciar una serie de artículos semanales, en los que traduciremos uno a uno cada punto de la lista. A continuación, encontraréis el primero, que consiste en una visión histórica del concepto de DevOps. Esperamos vuestras reacciones en Twitter con el *hashtag* #11cosasdevops.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;DevOps Gears&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/gears1.jpg&#34; style=&#34;width: 130px; height: 120px;&#34; /&gt;
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt;, autor de &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/books/phoenix-project-devops-book/&#34;&gt;The Phoenix Project&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/books/devops-cookbook/&#34;&gt;The DevOps Cookbook&lt;/a&gt; junto con otros, de quien ya hemos hablado en este blog, tiene publicado un documento llamado &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/11devops/&#34;&gt;The Top 11 Things You Need To Know About DevOps&lt;/a&gt;. Dado que los puntos que detalla son bastante interesantes, vamos a iniciar una serie de artículos semanales, en los que traduciremos uno a uno cada punto de la lista. A continuación, encontraréis el primero, que consiste en una visión histórica del concepto de DevOps. Esperamos vuestras reacciones en Twitter con el &lt;em&gt;hashtag&lt;/em&gt; #11cosasdevops.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -264,7 +258,11 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
       <pubDate>Sun, 09 Mar 2014 11:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/creando-cultura-devops-capside.html</guid>
-      <description>El pasado lunes 3 de Marzo en `Capside`_ se realizó una charla con el título “Creando un cultura de DevOps”. El objetivo era presentar en que consiste el DevOps y los beneficios que puede aportar.&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;El pasado lunes 3 de Marzo en &lt;a class=&#34;reference external&#34; href=&#34;https://capside.com/&#34;&gt;Capside&lt;/a&gt; se realizó una charla con el título “Creando un cultura de DevOps”. El objetivo era presentar en que consiste el DevOps y los beneficios que puede aportar.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -273,14 +271,12 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
       <pubDate>Sun, 19 Jan 2014 19:45:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html</guid>
-      <description>.. image:: /images/Weekly-Newspaper.jpg
-   :width: 213px
-   :height: 141px
-   :alt: La información semanal sobre lo que te interesa
-   :align: left
-   :class: border
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Como la semana pasada no se publicaron noticias, las hemos unido, por lo que en esta entrega, tenemos bastantes noticias: La publicación del manual del administrador de `Debian`_, una nueva librería para gestionar recursos en EC2_ desde Python, una presentación sobre Flapjack_, otra para hacer pruebas sobre navegadores con JavaScript, otra plataforma de monitorización que se integra con Graphite_ y Jenkins_, otra más que permite exponer un directorio con guiones de *bash* como API REST, y la adición de nuevas localizaciones a los servicios de CloudFront_ y `Route 53`_.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
+&lt;p&gt;Como la semana pasada no se publicaron noticias, las hemos unido, por lo que en esta entrega, tenemos bastantes noticias: La publicación del manual del administrador de &lt;a class=&#34;reference external&#34; href=&#34;http://debian.org&#34;&gt;Debian&lt;/a&gt;, una nueva librería para gestionar recursos en &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/ec2/&#34;&gt;EC2&lt;/a&gt; desde Python, una presentación sobre &lt;a class=&#34;reference external&#34; href=&#34;http://flapjack.io/&#34;&gt;Flapjack&lt;/a&gt;, otra para hacer pruebas sobre navegadores con JavaScript, otra plataforma de monitorización que se integra con &lt;a class=&#34;reference external&#34; href=&#34;http://graphite.wikidot.com/&#34;&gt;Graphite&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://jenkins-ci.org&#34;&gt;Jenkins&lt;/a&gt;, otra más que permite exponer un directorio con guiones de &lt;em&gt;bash&lt;/em&gt; como API REST, y la adición de nuevas localizaciones a los servicios de &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/cloudfront/&#34;&gt;CloudFront&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/route53/&#34;&gt;Route 53&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -289,14 +285,12 @@ Como la semana pasada no se publicaron noticias, las hemos unido, por lo que en 
       <pubDate>Tue, 24 Dec 2013 12:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-3.html</guid>
-      <description>.. image:: /images/Weekly-Newspaper.jpg
-   :width: 213px
-   :height: 141px
-   :alt: La información semanal sobre lo que te interesa
-   :align: right
-   :class: border
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Debido a que el ritmo de publicación de noticias se había incrementado hasta el punto de casi no tener tiempo para escribir nada más, en Entre Dev Y Ops vamos a probar publicar un sólo post semanal con las noticias más interesantes de cada semana.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
+&lt;p&gt;Debido a que el ritmo de publicación de noticias se había incrementado hasta el punto de casi no tener tiempo para escribir nada más, en Entre Dev Y Ops vamos a probar publicar un sólo post semanal con las noticias más interesantes de cada semana.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -305,16 +299,13 @@ Debido a que el ritmo de publicación de noticias se había incrementado hasta e
       <pubDate>Sat, 07 Dec 2013 20:14:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/review-paper-what-is-devops.html</guid>
-      <description>.. image:: /images/what_is_devops_paper.jpg
-   :width: 93
-   :height: 125
-   :alt: Paper What Is DevOps?
-   :class: border
-   :align: left
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Buscando por Amazon libros sobre DevOps fui a dar un con un paper que tanto su título y precio enseguida llamaron mi atención. El paper en cuestión es `What Is DevOps?`_ de Mike Loukides y su precio es 0 €. 
 
-Es un paper ameno, haciendo referencia a diversas fuentes, que para los dominadores de la lengua de Shakespeare se lee de manera rápida en apenas 15 minutos.&lt;/div&gt;</description>
+&lt;img alt=&#34;Paper What Is DevOps?&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/what_is_devops_paper.jpg&#34; style=&#34;width: 93px; height: 125px;&#34; /&gt;
+&lt;p&gt;Buscando por Amazon libros sobre DevOps fui a dar un con un paper que tanto su título y precio enseguida llamaron mi atención. El paper en cuestión es &lt;a class=&#34;reference external&#34; href=&#34;http://www.amazon.com/What-DevOps-Mike-Loukides-ebook/dp/B0084HJB56/ref=sr_1_2?s=digital-text&amp;amp;ie=UTF8&amp;amp;qid=1386441697&amp;amp;sr=1-2&#34;&gt;What Is DevOps?&lt;/a&gt; de Mike Loukides y su precio es 0 €.&lt;/p&gt;
+&lt;p&gt;Es un paper ameno, haciendo referencia a diversas fuentes, que para los dominadores de la lengua de Shakespeare se lee de manera rápida en apenas 15 minutos.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -323,16 +314,13 @@ Es un paper ameno, haciendo referencia a diversas fuentes, que para los dominado
       <pubDate>Thu, 14 Nov 2013 07:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/puppet-labs-libro-ebook-entrega-continua-continuous-delivery.html</guid>
-      <description>.. image:: /images/cdebook-puppet.png
-   :width: 93px
-   :height: 125px
-   :alt: Ebook de Puppet Labs sobre entrega contínua
-   :align: left
-   :class: border
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-El concepto de entrega de software contínua no es nuevo. Ofrece al negocio la capacidad de añadir nuevas funcionalidades y capacidades al producto permitiendo alcanzar el mercado rápido y con confianza. Pero quedan algunas dudas pendientes de resolver como: ¿De qué se trata exactamente? ¿Qué es necesario para empezar?
 
-`Puppet Labs`_ ha publicado un libro_ gratuito sobre ello. No dudéis en descargarlo. Próximamente, haremos una reseña sobre este documento.&lt;/div&gt;</description>
+&lt;img alt=&#34;Ebook de Puppet Labs sobre entrega contínua&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/cdebook-puppet.png&#34; style=&#34;width: 93px; height: 125px;&#34; /&gt;
+&lt;p&gt;El concepto de entrega de software contínua no es nuevo. Ofrece al negocio la capacidad de añadir nuevas funcionalidades y capacidades al producto permitiendo alcanzar el mercado rápido y con confianza. Pero quedan algunas dudas pendientes de resolver como: ¿De qué se trata exactamente? ¿Qué es necesario para empezar?&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com&#34;&gt;Puppet Labs&lt;/a&gt; ha publicado un &lt;a class=&#34;reference external&#34; href=&#34;http://info.puppetlabs.com/download-free-continuous-delivery-ebook.html&#34;&gt;libro&lt;/a&gt; gratuito sobre ello. No dudéis en descargarlo. Próximamente, haremos una reseña sobre este documento.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -341,9 +329,12 @@ El concepto de entrega de software contínua no es nuevo. Ofrece al negocio la c
       <pubDate>Wed, 13 Nov 2013 21:25:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/traduccion-de-las-tres-vias.html</guid>
-      <description>A raíz de la lectura de `The Phoenix Project`_ (del cual hicimos una `reseña`_) buscamos más información sobre Las Tres Vías (The Three Ways) y fuimos a dar con un post de `Gene Kim`_ (co-autor del libro) donde hace una breve introducción a estas. 
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-A continuación adjuntamos una traducción del post (podéis encontrar el post original aquí_).&lt;/div&gt;</description>
+
+&lt;p&gt;A raíz de la lectura de &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/books/phoenix-project-devops-book/&#34;&gt;The Phoenix Project&lt;/a&gt; (del cual hicimos una &lt;a class=&#34;reference external&#34; href=&#34;http://www.entredevyops.es/posts/the-phoenix-project.html&#34;&gt;reseña&lt;/a&gt;) buscamos más información sobre Las Tres Vías (The Three Ways) y fuimos a dar con un post de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/RealGeneKim&#34;&gt;Gene Kim&lt;/a&gt; (co-autor del libro) donde hace una breve introducción a estas.&lt;/p&gt;
+&lt;p&gt;A continuación adjuntamos una traducción del post (podéis encontrar el post original &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/the-three-ways-principles-underpinning-devops/&#34;&gt;aquí&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -352,15 +343,13 @@ A continuación adjuntamos una traducción del post (podéis encontrar el post o
       <pubDate>Tue, 12 Nov 2013 20:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/curso-scrum-devops-lean-it-barcelona-bcn.html</guid>
-      <description>.. image:: /images/upc.jpeg
-   :width: 125px
-   :height: 125px
-   :alt: UPC
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Era de esperar que en algún momento apareciera, desde el mundo universitario, formación sobre el tema DevOps, o que la incluya. Así pues, llega el curso de formación contínua `Agile IT Management: Scrum, DevOps, Lean IT`_, ofrecido por BarcelonaTech_.
 
-Este curso incluye la práctica con ciertas herramientas relacionas, entre ellas Jenkins_, Puppet_, o `Amazon WS`_. De todos modos, no olvida la interacción con las metodología ágiles y los conceptos de *lean* aplicados a entornos de las TIC.&lt;/div&gt;</description>
+&lt;img alt=&#34;UPC&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/upc.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
+&lt;p&gt;Era de esperar que en algún momento apareciera, desde el mundo universitario, formación sobre el tema DevOps, o que la incluya. Así pues, llega el curso de formación contínua &lt;a class=&#34;reference external&#34; href=&#34;http://www.talent.upc.edu/professionals/informacio/codi/527700/agile/management/scrum/devops/lean&#34;&gt;Agile IT Management: Scrum, DevOps, Lean IT&lt;/a&gt;, ofrecido por &lt;a class=&#34;reference external&#34; href=&#34;http://www.talent.upc.edu/&#34;&gt;BarcelonaTech&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Este curso incluye la práctica con ciertas herramientas relacionas, entre ellas &lt;a class=&#34;reference external&#34; href=&#34;http://jenkins-ci.org&#34;&gt;Jenkins&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com&#34;&gt;Puppet&lt;/a&gt;, o &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/&#34;&gt;Amazon WS&lt;/a&gt;. De todos modos, no olvida la interacción con las metodología ágiles y los conceptos de &lt;em&gt;lean&lt;/em&gt; aplicados a entornos de las TIC.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -369,15 +358,12 @@ Este curso incluye la práctica con ciertas herramientas relacionas, entre ellas
       <pubDate>Mon, 11 Nov 2013 07:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/bcndevcon-2013-segundo-dia.html</guid>
-      <description>.. image:: /images/bcndevcon13.jpeg
-   :width: 125px
-   :height: 125px
-   :alt: BcnDevCon13
-   :class: border
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
 
-El segundo día de la BcnDevCon_&#39;13 estuvo plagado de charlas y actividades, el final del `Hackathon for education`_, Los concursos de Mario Kart y Street Fighter. El salón de RetroBarcelona_ fue muy visitado y la `Agile Station`_, coordinada por la gente de `Agile BCN`_, tuvo una actividad frenética, como el día anterior.&lt;/div&gt;</description>
+&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
+&lt;p&gt;El segundo día de la &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon&lt;/a&gt;&#39;13 estuvo plagado de charlas y actividades, el final del &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/hackathon/&#34;&gt;Hackathon for education&lt;/a&gt;, Los concursos de Mario Kart y Street Fighter. El salón de &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/retrobarcelona/&#34;&gt;RetroBarcelona&lt;/a&gt; fue muy visitado y la &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/activities/agile-station/&#34;&gt;Agile Station&lt;/a&gt;, coordinada por la gente de &lt;a class=&#34;reference external&#34; href=&#34;http://barcelona.agile-spain.org/&#34;&gt;Agile BCN&lt;/a&gt;, tuvo una actividad frenética, como el día anterior.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -386,7 +372,11 @@ El segundo día de la BcnDevCon_&#39;13 estuvo plagado de charlas y actividades,
       <pubDate>Sun, 10 Nov 2013 07:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/curso-puppet-fundamentals-bcn-2013.html</guid>
-      <description>El próximo 27 de noviembre, en Barcelona, empezará el curso de formación sobre Puppet_, `Puppet Fundamentals`_, que se realizará en las instalaciones de `OlinData BV`_. El curso está orientado a enseñar las mejores prácticas en cuanto a gestionar infraestructura utilizando las herramientas de automatización de Puppet.&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;El próximo 27 de noviembre, en Barcelona, empezará el curso de formación sobre &lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com&#34;&gt;Puppet&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.amiando.com/puppet-training-barcelona-nov-2013.html?mkt_tok=3RkMMJWWfF9wsRolu6vLZKXonjHpfsX%252B6uguW6eg38431UFwdcjKPmjr1YAJTcJ0aPyQAgobGp5I5FELSrfYTaxht6wEWg%253D%253D&#34;&gt;Puppet Fundamentals&lt;/a&gt;, que se realizará en las instalaciones de &lt;a class=&#34;reference external&#34; href=&#34;http://olindata.com/&#34;&gt;OlinData BV&lt;/a&gt;. El curso está orientado a enseñar las mejores prácticas en cuanto a gestionar infraestructura utilizando las herramientas de automatización de Puppet.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -395,17 +385,13 @@ El segundo día de la BcnDevCon_&#39;13 estuvo plagado de charlas y actividades,
       <pubDate>Sat, 09 Nov 2013 12:40:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</guid>
-      <description>.. image:: /images/bcndevcon13.jpeg
-   :width: 125px
-   :height: 125px
-   :alt: BcnDevCon13
-   :align: right
-   :class: border
+      <description>&lt;div class=&#34;document&#34;&gt;
 
 
-Ayer, día 8 de noviembre, ha tenido su inicio el BcnDevCon13_. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en *cloud*, móvil, robótica y *open source*.
-
-En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.&lt;/div&gt;</description>
+&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
+&lt;p&gt;Ayer, día 8 de noviembre, ha tenido su inicio el &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon13&lt;/a&gt;. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en &lt;em&gt;cloud&lt;/em&gt;, móvil, robótica y &lt;em&gt;open source&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -414,14 +400,12 @@ En este artículo se explican algunas de las charlas que ha habido en este prime
       <pubDate>Wed, 06 Nov 2013 22:10:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/the-phoenix-project.html</guid>
-      <description>.. image:: /images/the-phoenix-project.jpg
-   :width: 136px
-   :height: 134px
-   :alt: El libro The Phoenix Project
-   :class: border
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Este enero se publicó el libro *The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win*, de `Gene Kim`_, `Kevin Behr`_ y `George Spafford`_. Pese a su novedad, es lo que se podría denominar una de las lecturas sagradas del movimiento DevOps. `David Acacio`_ ha elaborado una reseña sobre el libro que podéis leer a continuación.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;El libro The Phoenix Project&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/the-phoenix-project.jpg&#34; style=&#34;width: 136px; height: 134px;&#34; /&gt;
+&lt;p&gt;Este enero se publicó el libro &lt;em&gt;The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win&lt;/em&gt;, de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/RealGeneKim&#34;&gt;Gene Kim&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/kevinbehr&#34;&gt;Kevin Behr&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/gspaff&#34;&gt;George Spafford&lt;/a&gt;. Pese a su novedad, es lo que se podría denominar una de las lecturas sagradas del movimiento DevOps. &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/david_acacio&#34;&gt;David Acacio&lt;/a&gt; ha elaborado una reseña sobre el libro que podéis leer a continuación.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -430,13 +414,7 @@ Este enero se publicó el libro *The Phoenix Project: A Novel About IT, DevOps, 
       <pubDate>Sun, 03 Nov 2013 20:20:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/devops-summit-amsterdam.html</guid>
-      <description>.. image:: /images/devops-summit.png
-   :width: 258
-   :height: 99
-   :alt: DevOps Summit
-   :align: left
-
-El próximo día 14 de noviembre se celebrará en Amsterdam el `DevOps Summit`_, evento con un programa_ bastante simple, pero con referentes muy interesantes. Este evento se suele producir, como algunos otros, en dos sesiones anuales: Una hacia mayo, en Londres, y otra hacia noviembre, en Amsterdam.</description>
+      <description>El próximo día 14 de noviembre se celebrará en Amsterdam el DevOps Summit, evento con un programa bastante simple, pero con referentes muy interesantes. Este evento se suele producir, como algunos otros, en dos sesiones anuales: Una hacia mayo, en Londres, y otra hacia noviembre, en Amsterdam.</description>
     </item>
     
     <item>
@@ -445,14 +423,12 @@ El próximo día 14 de noviembre se celebrará en Amsterdam el `DevOps Summit`_,
       <pubDate>Sat, 02 Nov 2013 10:00:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/que-es-devops.html</guid>
-      <description>.. image:: /images/show-me-the-devops.png
-   :width: 250
-   :height: 135
-   :alt: ¿DevOps? ¿Y eso qué es?
-   :class: border
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Desde la primera vez que oí hablar de DevOps, hace casi 3 años, pasó cierto tiempo en el que, en mi mente, se formaban ideas equivocadas sobre a lo que se refería. Con el tiempo, he ido comprendiendo el concepto pero, al mismo tiempo, cada vez he ido conociendo a más gente con el mismo problema. Este artículo intenta aclarar el concepto para que nadie más se pregunte *¿Qué es esto del DevOps?*&lt;/div&gt;</description>
+
+&lt;img alt=&#34;¿DevOps? ¿Y eso qué es?&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/show-me-the-devops.png&#34; style=&#34;width: 250px; height: 135px;&#34; /&gt;
+&lt;p&gt;Desde la primera vez que oí hablar de DevOps, hace casi 3 años, pasó cierto tiempo en el que, en mi mente, se formaban ideas equivocadas sobre a lo que se refería. Con el tiempo, he ido comprendiendo el concepto pero, al mismo tiempo, cada vez he ido conociendo a más gente con el mismo problema. Este artículo intenta aclarar el concepto para que nadie más se pregunte &lt;em&gt;¿Qué es esto del DevOps?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -461,14 +437,12 @@ Desde la primera vez que oí hablar de DevOps, hace casi 3 años, pasó cierto t
       <pubDate>Wed, 23 Oct 2013 00:01:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/ibm-y-el-devops.html</guid>
-      <description>.. image:: /images/devopsdummies.jpg
-        :width: 100px
-        :height: 156px
-        :alt: Portada devops for dummies
-        :align: left
-        :class: border
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Hace algún tiempo busqué información sobre metodologías ágiles y DevOps para AIX. AIX_ se podría definir como el UNIX de IBM, aunque se trata de una definición muy vaga ya que al AIX siempre lo encontramos asociado a un hardware especifico (P-series) y a un procesador creado por IBM el POWER_. Este ecosistema hacen que el sistema AIX sea unos de los sistemas más robustos. Pero lo que quería buscar era si éste modelo era ágil.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Portada devops for dummies&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/devopsdummies.jpg&#34; style=&#34;width: 100px; height: 156px;&#34; /&gt;
+&lt;p&gt;Hace algún tiempo busqué información sobre metodologías ágiles y DevOps para AIX. &lt;a class=&#34;reference external&#34; href=&#34;http://www-03.ibm.com/systems/es/power/software/aix/index.html&#34;&gt;AIX&lt;/a&gt; se podría definir como el UNIX de IBM, aunque se trata de una definición muy vaga ya que al AIX siempre lo encontramos asociado a un hardware especifico (P-series) y a un procesador creado por IBM el &lt;a class=&#34;reference external&#34; href=&#34;http://www-03.ibm.com/systems/es/power/index.html&#34;&gt;POWER&lt;/a&gt;. Este ecosistema hacen que el sistema AIX sea unos de los sistemas más robustos. Pero lo que quería buscar era si éste modelo era ágil.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -477,14 +451,12 @@ Hace algún tiempo busqué información sobre metodologías ágiles y DevOps par
       <pubDate>Mon, 21 Oct 2013 16:45:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/semanarios-devops-nosql.html</guid>
-      <description>.. image:: /images/Weekly-Newspaper.jpg
-   :width: 213px
-   :height: 141px
-   :alt: La información semanal sobre lo que te interesa
-   :align: right
-   :class: border
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-En muchas comunidades, sobretodo las tecnológicas, tarde o temprano, acaban por aparecer medios informativos muy útiles para propagar las novedades. Dentro de las comunidades DevOps y NoSQL esto ya hace tiempo que está ocurriendo. En este artículo veremos dos semanarios que pueden resultar interesantes.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
+&lt;p&gt;En muchas comunidades, sobretodo las tecnológicas, tarde o temprano, acaban por aparecer medios informativos muy útiles para propagar las novedades. Dentro de las comunidades DevOps y NoSQL esto ya hace tiempo que está ocurriendo. En este artículo veremos dos semanarios que pueden resultar interesantes.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -493,11 +465,14 @@ En muchas comunidades, sobretodo las tecnológicas, tarde o temprano, acaban por
       <pubDate>Sat, 12 Oct 2013 20:13:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html</guid>
-      <description>`devops days Barcelona 2013`_
------------------------------
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Como decíamos en nuestro último post, éstos dos últimos días, jueves y viernes, se ha celebrado en la `Fábrica de la Moritz`_ de Barcelona, el evento `devops days`_ en su edición de 2013. El evento en sí ha estado muy bien y bastante interesante. Con muchos asistentes, se podría decir que cerca de 100 personas, la posibilidad de hacer networking era muy interesante. Podréis encontrar todos los vídeos en `la página de vimeo`_.
-El evento lo ha organizado `Rhommel Lamas`_, y ha contado con el patrocinio de `Moritz`_, `STR Sistemas`_, `Rakuten`_, `CA`_, `Telefónica I+D`_, `3Scale`_, y `GitHub`_. Realmente, conviene que este evento se repita y crezca, tanto en cantidad de asistentes, como de ponentes.&lt;/div&gt;</description>
+
+&lt;div class=&#34;section&#34; id=&#34;devops-days-barcelona-2013&#34;&gt;
+&lt;h2&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://devopsdays.org/events/2013-barcelona/&#34;&gt;devops days Barcelona 2013&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Como decíamos en nuestro último post, éstos dos últimos días, jueves y viernes, se ha celebrado en la &lt;a class=&#34;reference external&#34; href=&#34;https://plus.google.com/100068709387237553942/about?gl=ES&amp;amp;hl=en-ES&#34;&gt;Fábrica de la Moritz&lt;/a&gt; de Barcelona, el evento &lt;a class=&#34;reference external&#34; href=&#34;http://devopsdays.org&#34;&gt;devops days&lt;/a&gt; en su edición de 2013. El evento en sí ha estado muy bien y bastante interesante. Con muchos asistentes, se podría decir que cerca de 100 personas, la posibilidad de hacer networking era muy interesante. Podréis encontrar todos los vídeos en &lt;a class=&#34;reference external&#34; href=&#34;http://vimeo.com/album/2565361&#34;&gt;la página de vimeo&lt;/a&gt;.
+El evento lo ha organizado &lt;a class=&#34;reference external&#34; href=&#34;http://rhommell.com/&#34;&gt;Rhommel Lamas&lt;/a&gt;, y ha contado con el patrocinio de &lt;a class=&#34;reference external&#34; href=&#34;http://www.moritz.com/&#34;&gt;Moritz&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.strsistemas.com/&#34;&gt;STR Sistemas&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.rakuten.co.jp/&#34;&gt;Rakuten&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.ca.com/es/lpg/appvelocity/home.aspx&#34;&gt;CA&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.tid.es/&#34;&gt;Telefónica I+D&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.3scale.net/&#34;&gt;3Scale&lt;/a&gt;, y &lt;a class=&#34;reference external&#34; href=&#34;http://github.com/&#34;&gt;GitHub&lt;/a&gt;. Realmente, conviene que este evento se repita y crezca, tanto en cantidad de asistentes, como de ponentes.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -506,12 +481,7 @@ El evento lo ha organizado `Rhommel Lamas`_, y ha contado con el patrocinio de `
       <pubDate>Thu, 10 Oct 2013 21:35:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/devopsdays-barcelona-2013.html</guid>
-      <description>`devops days Barcelona 2013`_
------------------------------
-
-Hoy y mañana, en la Fábrica de la Moritz, en Barcelona, tiene lugar la edición de `devops days`_ correspondiente a 2013. En los próximos días podréis encontrar artículos sobre las charlas más interesantes que se han hecho.
-
-.. _`devops days`: http://devopsdays.org</description>
+      <description>devops days Barcelona 2013 Hoy y mañana, en la Fábrica de la Moritz, en Barcelona, tiene lugar la edición de devops days correspondiente a 2013. En los próximos días podréis encontrar artículos sobre las charlas más interesantes que se han hecho.</description>
     </item>
     
   </channel>

@@ -32,14 +32,12 @@
       <pubDate>Mon, 23 Jun 2014 03:14:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/analisis-rendimiento-linux.html</guid>
-      <description>.. image:: /images/linuxperftools_1000.png
-   :width: 650px
-   :height: 376px
-   :alt: resumen de herramientas de Brendan Gregg
-   :align: center
-   :class: border
-   
-Brendan Gregg ha escrito una serie de artículos y documentos agrupados en `Linux Performance &lt;http://www.brendangregg.com/linuxperf.html&gt;`_ donde se investigan los cuellos de botella de los sistemas Unix y Linux.&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;img alt=&#34;resumen de herramientas de Brendan Gregg&#34; class=&#34;border align-center&#34; src=&#34;http://www.entredevyops.es/images/linuxperftools_1000.png&#34; style=&#34;width: 650px; height: 376px;&#34; /&gt;
+&lt;p&gt;Brendan Gregg ha escrito una serie de artículos y documentos agrupados en &lt;a class=&#34;reference external&#34; href=&#34;http://www.brendangregg.com/linuxperf.html&#34;&gt;Linux Performance&lt;/a&gt; donde se investigan los cuellos de botella de los sistemas Unix y Linux.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -48,13 +46,12 @@ Brendan Gregg ha escrito una serie de artículos y documentos agrupados en `Linu
       <pubDate>Fri, 14 Mar 2014 23:45:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/minidebconf-bcn-2014.html</guid>
-      <description>.. image:: /images/dw.png
-   :width: 82px
-   :height: 140px
-   :alt: Debian Women Project
-   :align: left
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Este fin de semana se celebra en Barcelona la `MiniDebConf 2014`_, una conferencia sobre Debian organizada por Debian-Es_ y `The Debian Women Project`_.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Debian Women Project&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/dw.png&#34; style=&#34;width: 82px; height: 140px;&#34; /&gt;
+&lt;p&gt;Este fin de semana se celebra en Barcelona la &lt;a class=&#34;reference external&#34; href=&#34;http://bcn2014.mini.debconf.org/&#34;&gt;MiniDebConf 2014&lt;/a&gt;, una conferencia sobre Debian organizada por &lt;a class=&#34;reference external&#34; href=&#34;http://debian-es.org/&#34;&gt;Debian-Es&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;https://www.debian.org/women/&#34;&gt;The Debian Women Project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -63,7 +60,11 @@ Este fin de semana se celebra en Barcelona la `MiniDebConf 2014`_, una conferenc
       <pubDate>Tue, 11 Mar 2014 00:20:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</guid>
-      <description>Vía `Barrapunto`_ me entero que la `Linux Foundation`_ ofrecerá su `curso de Introducción a Linux`_ de forma gratuita en la plataforma `edX`_.&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;Vía &lt;a class=&#34;reference external&#34; href=&#34;http://barrapunto.com/articles/14/03/09/1255225.shtml&#34;&gt;Barrapunto&lt;/a&gt; me entero que la &lt;a class=&#34;reference external&#34; href=&#34;http://www.linuxfoundation.org/&#34;&gt;Linux Foundation&lt;/a&gt; ofrecerá su &lt;a class=&#34;reference external&#34; href=&#34;http://training.linuxfoundation.org/linux-courses/introduction-to-linux/outline&#34;&gt;curso de Introducción a Linux&lt;/a&gt; de forma gratuita en la plataforma &lt;a class=&#34;reference external&#34; href=&#34;https://www.edx.org/&#34;&gt;edX&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -72,7 +73,11 @@ Este fin de semana se celebra en Barcelona la `MiniDebConf 2014`_, una conferenc
       <pubDate>Tue, 19 Nov 2013 00:30:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</guid>
-      <description>Normalmente, los administradores de sistemas UNIX/Linux suelen recurrir a la consola de comandos para la mayoría de la tareas de gestión, sobretodo cuando se realizan de forma remota por SSH, por poner un ejemplo. También son muchos los desarrolladores que dejan de lado las herramientas gráficas (normalmente IDE&#39;s) y utilizan la consola para determinadas tareas que en cierta manera pueden ser ejecutadas con mayor eficacia de esta forma, un ejemplo sería el uso de sistemas de control de versiones como pueden ser Git o Mercurial.&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;Normalmente, los administradores de sistemas UNIX/Linux suelen recurrir a la consola de comandos para la mayoría de la tareas de gestión, sobretodo cuando se realizan de forma remota por SSH, por poner un ejemplo. También son muchos los desarrolladores que dejan de lado las herramientas gráficas (normalmente IDE&#39;s) y utilizan la consola para determinadas tareas que en cierta manera pueden ser ejecutadas con mayor eficacia de esta forma, un ejemplo sería el uso de sistemas de control de versiones como pueden ser Git o Mercurial.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

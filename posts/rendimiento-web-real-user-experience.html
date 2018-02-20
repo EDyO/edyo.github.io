@@ -24,15 +24,12 @@
         <meta name="twitter:creator" content="@EntreDevYOps" />
         <meta name="twitter:title" content="Rendimiento Web: Real User eXperience" />
         
-        <meta name="twitter:description" content=".. image:: /images/performance.jpg
-   :width: 180px
-   :height: 135px
-   :alt: Medición de tiempos (Foto: William Warby)
-   :align: left
-   :class: border
-   :target: http://www.flickr.com/photos/wwarby/
+        <meta name="twitter:description" content="
 
-El pasado jueves tuvo lugar, en las oficinas que CanteraTech_ tiene en  Barcelona, un encuentro del grupo de Meetup_ de `Barcelona Web Performance`_ en el que `Marc Loan`_ habló sobre su proyecto *Real User eXperience*, o RUX. Desarrollado y utilizado desde 2008 para detectar y analizar los problemas que los usuarios puedan experimentar durante la navegación de un sitio web, incluso cuando éstos no llamen al servicio de atención al cliente. Este proyecto, además, se convirtió en el proyecto de fin de carrera de Marc." />
+
+
+El pasado jueves tuvo lugar, en las oficinas que CanteraTech tiene en  Barcelona, un encuentro del grupo de Meetup de Barcelona Web Performance en el que Marc Loan habló sobre su proyecto Real User eXperience, o RUX. Desarrollado y utilizado desde 2008 para detectar y analizar los problemas que los usuarios puedan experimentar durante la navegación de un sitio web, incluso cuando éstos no llamen al servicio de atención al cliente. Este proyecto, además, se convirtió en el proyecto de fin de carrera de Marc.
+" />
         <meta name="twitter:url" content="http://www.entredevyops.es/posts/rendimiento-web-real-user-experience.html" />
     
 
@@ -112,7 +109,7 @@ El pasado jueves tuvo lugar, en las oficinas que CanteraTech_ tiene en  Barcelon
         },
         "datePublished": "2013-10-28",
         "dateModified": "2013-10-28",
-        "wordCount": 344,
+        "wordCount": 301,
         "keywords": ["Eventos","Herramientas","Rendimiento"] 
     }
     </script>
@@ -211,7 +208,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">28 Oct 2013</span> <span class="reading-time">| <span class="estimated-reading-time">2 min.</span> (<span class="word-count">344</span> palabras)</span></span>
+                        <span class="post-date">28 Oct 2013</span> <span class="reading-time">| <span class="estimated-reading-time">2 min.</span> (<span class="word-count">301</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -220,39 +217,28 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  .. image:: /images/performance.jpg
-   :width: 180px
-   :height: 135px
-   :alt: Medición de tiempos (Foto: William Warby)
-   :align: left
-   :class: border
-   :target: http://www.flickr.com/photos/wwarby/
-
-El pasado jueves tuvo lugar, en las oficinas que CanteraTech_ tiene en  Barcelona, un encuentro del grupo de Meetup_ de `Barcelona Web Performance`_ en el que `Marc Loan`_ habló sobre su proyecto *Real User eXperience*, o RUX. Desarrollado y utilizado desde 2008 para detectar y analizar los problemas que los usuarios puedan experimentar durante la navegación de un sitio web, incluso cuando éstos no llamen al servicio de atención al cliente. Este proyecto, además, se convirtió en el proyecto de fin de carrera de Marc.
+                  <div class="document">
 
 
-
-
-RUX: Real User eXperience
--------------------------
-
-Como explicó Marc, el proyecto se realizó para poder atender problemas que los usuarios detectaban en la página web, sin que percibieran el problema, a no ser que el usuario llamaba a su servicio de atención.
-Este proyecto se inició en 2008 para aportar:
-
-* Control en tiempo real de las incidencias.
-* Mejoras en la calidad de la aplicación.
-* Reducción del tiempo de investigacion de los errores, al recibirlo todo en el momento de producirse, antes de que los usuarios llamasen.
-* Recuperación de la información útil para los desarrolladores.
-* Análisis de la estadística de los errores para encontrar tendencias.
-* Registro de la actividad de los usuarios, permitiendo detectar el entorno que causa el error.
-* Diagnóstico del funcionamiento de los servicios. Es una especie de web status.
-
-En su entorno, el contenido se sirve desde una granja de servidores web. Estos servidores registran todo en un servidor centralizado utilizando el servicio ``syslog``. Sobre los registros de las peticiones y de los errores, que se actualizan tras cada petición, se ejecuta un proceso *ETL* que analiza su contenido y lo carga en una base de datos. Esta base de datos, que tiene un diseño ROLAP para permitir crear cubos de análisis OLAP, es consultada por el sistema que crearon para obtener la información que necesita.
-
-.. _CanteraTech: http://www.cantera-tech.com/es/
-.. _Meetup: http://www.meetup.com/
-.. _`Barcelona Web Performance`: http://www.meetup.com/Barcelona-Web-Performance-Group/
-.. _`Marc Loan`: http://marcloan.cat/
+<a class="reference external image-reference" href="http://www.flickr.com/photos/wwarby/"><img alt="Medición de tiempos (Foto: William Warby)" class="border align-left" src="/images/performance.jpg" style="width: 180px; height: 135px;" /></a>
+<p>El pasado jueves tuvo lugar, en las oficinas que <a class="reference external" href="http://www.cantera-tech.com/es/">CanteraTech</a> tiene en  Barcelona, un encuentro del grupo de <a class="reference external" href="http://www.meetup.com/">Meetup</a> de <a class="reference external" href="http://www.meetup.com/Barcelona-Web-Performance-Group/">Barcelona Web Performance</a> en el que <a class="reference external" href="http://marcloan.cat/">Marc Loan</a> habló sobre su proyecto <em>Real User eXperience</em>, o RUX. Desarrollado y utilizado desde 2008 para detectar y analizar los problemas que los usuarios puedan experimentar durante la navegación de un sitio web, incluso cuando éstos no llamen al servicio de atención al cliente. Este proyecto, además, se convirtió en el proyecto de fin de carrera de Marc.</p>
+<p></p>
+<div class="section" id="rux-real-user-experience">
+<h2>RUX: Real User eXperience</h2>
+<p>Como explicó Marc, el proyecto se realizó para poder atender problemas que los usuarios detectaban en la página web, sin que percibieran el problema, a no ser que el usuario llamaba a su servicio de atención.
+Este proyecto se inició en 2008 para aportar:</p>
+<ul class="simple">
+<li>Control en tiempo real de las incidencias.</li>
+<li>Mejoras en la calidad de la aplicación.</li>
+<li>Reducción del tiempo de investigacion de los errores, al recibirlo todo en el momento de producirse, antes de que los usuarios llamasen.</li>
+<li>Recuperación de la información útil para los desarrolladores.</li>
+<li>Análisis de la estadística de los errores para encontrar tendencias.</li>
+<li>Registro de la actividad de los usuarios, permitiendo detectar el entorno que causa el error.</li>
+<li>Diagnóstico del funcionamiento de los servicios. Es una especie de web status.</li>
+</ul>
+<p>En su entorno, el contenido se sirve desde una granja de servidores web. Estos servidores registran todo en un servidor centralizado utilizando el servicio <tt class="docutils literal">syslog</tt>. Sobre los registros de las peticiones y de los errores, que se actualizan tras cada petición, se ejecuta un proceso <em>ETL</em> que analiza su contenido y lo carga en una base de datos. Esta base de datos, que tiene un diseño ROLAP para permitir crear cubos de análisis OLAP, es consultada por el sistema que crearon para obtener la información que necesita.</p>
+</div>
+</div>
               </section>
 
               <footer class="post-footer">
@@ -272,7 +258,7 @@ En su entorno, el contenido se sirve desde una granja de servidores web. Estos s
                         <a class="fa fa-twitter" href="https://twitter.com/share?text=Rendimiento%20Web%3a%20Real%20User%20eXperience&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2frendimiento-web-real-user-experience.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <span>Twitter</span>
                         </a>
-                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2frendimiento-web-real-user-experience.html&title=Rendimiento%20Web%3a%20Real%20User%20eXperience&summary=..%20image%3a%3a%20%2fimages%2fperformance.jpg%0a%20%20%20%3awidth%3a%20180px%0a%20%20%20%3aheight%3a%20135px%0a%20%20%20%3aalt%3a%20Medici%c3%b3n%20de%20tiempos%20%28Foto%3a%20William%20Warby%29%0a%20%20%20%3aalign%3a%20left%0a%20%20%20%3aclass%3a%20border%0a%20%20%20%3atarget%3a%20http%3a%2f%2fwww.flickr.com%2fphotos%2fwwarby%2f%0a%0aEl%20pasado%20jueves%20tuvo%20lugar%2c%20en%20las%20oficinas%20que%20CanteraTech_%20tiene%20en%20%20Barcelona%2c%20un%20encuentro%20del%20grupo%20de%20Meetup_%20de%20%60Barcelona%20Web%20Performance%60_%20en%20el%20que%20%60Marc%20Loan%60_%20habl%c3%b3%20sobre%20su%20proyecto%20%2aReal%20User%20eXperience%2a%2c%20o%20RUX.%20Desarrollado%20y%20utilizado%20desde%202008%20para%20detectar%20y%20analizar%20los%20problemas%20que%20los%20usuarios%20puedan%20experimentar%20durante%20la%20navegaci%c3%b3n%20de%20un%20sitio%20web%2c%20incluso%20cuando%20%c3%a9stos%20no%20llamen%20al%20servicio%20de%20atenci%c3%b3n%20al%20cliente.%20Este%20proyecto%2c%20adem%c3%a1s%2c%20se%20convirti%c3%b3%20en%20el%20proyecto%20de%20fin%20de%20carrera%20de%20Marc.%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2frendimiento-web-real-user-experience.html&title=Rendimiento%20Web%3a%20Real%20User%20eXperience&summary=%3cdiv%20class%3d%22document%22%3e%0a%0a%0a%3ca%20class%3d%22reference%20external%20image-reference%22%20href%3d%22http%3a%2f%2fwww.flickr.com%2fphotos%2fwwarby%2f%22%3e%3cimg%20alt%3d%22Medici%c3%b3n%20de%20tiempos%20%28Foto%3a%20William%20Warby%29%22%20class%3d%22border%20align-left%22%20src%3d%22%2fimages%2fperformance.jpg%22%20style%3d%22width%3a%20180px%3b%20height%3a%20135px%3b%22%20%2f%3e%3c%2fa%3e%0a%3cp%3eEl%20pasado%20jueves%20tuvo%20lugar%2c%20en%20las%20oficinas%20que%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fwww.cantera-tech.com%2fes%2f%22%3eCanteraTech%3c%2fa%3e%20tiene%20en%20%20Barcelona%2c%20un%20encuentro%20del%20grupo%20de%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fwww.meetup.com%2f%22%3eMeetup%3c%2fa%3e%20de%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fwww.meetup.com%2fBarcelona-Web-Performance-Group%2f%22%3eBarcelona%20Web%20Performance%3c%2fa%3e%20en%20el%20que%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fmarcloan.cat%2f%22%3eMarc%20Loan%3c%2fa%3e%20habl%c3%b3%20sobre%20su%20proyecto%20%3cem%3eReal%20User%20eXperience%3c%2fem%3e%2c%20o%20RUX.%20Desarrollado%20y%20utilizado%20desde%202008%20para%20detectar%20y%20analizar%20los%20problemas%20que%20los%20usuarios%20puedan%20experimentar%20durante%20la%20navegaci%c3%b3n%20de%20un%20sitio%20web%2c%20incluso%20cuando%20%c3%a9stos%20no%20llamen%20al%20servicio%20de%20atenci%c3%b3n%20al%20cliente.%20Este%20proyecto%2c%20adem%c3%a1s%2c%20se%20convirti%c3%b3%20en%20el%20proyecto%20de%20fin%20de%20carrera%20de%20Marc.%3c%2fp%3e%0a%3cp%3e%3c%2fp%3e%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <span>LinkedIn</span>
                         </a>
                     </div>

@@ -17,7 +17,8 @@
       <pubDate>Mon, 16 Jun 2014 03:14:00 +0000</pubDate>
       
       <guid>http://www.entredevyops.es/posts/recursos-git.html</guid>
-      <description>Unos cuantos recursos interesantes de git: - `A hacker&#39;s guide to Git `_ - `Git Is Simpler Than You Think `_ - `A successful Git branching model `_ De todos los links anteriores, especialmente el último creo que es muy interesante ya que en su simplicidad de uso de las ramas en git permite poder hacer cualquier tipo operaciones con ello, ya sean fixes o la creación de nuevas features. </description>
+      <description>Unos cuantos recursos interesantes de git:
+A hacker&#39;s guide to Git Git Is Simpler Than You Think A successful Git branching model  De todos los links anteriores, especialmente el último creo que es muy interesante ya que en su simplicidad de uso de las ramas en git permite poder hacer cualquier tipo operaciones con ello, ya sean fixes o la creación de nuevas features.</description>
     </item>
     
   </channel>
