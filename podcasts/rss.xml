@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Podcasts on Entre Dev Y Ops</title>
+    <title>Podcasts on Entre Dev y Ops</title>
     <link>http://www.entredevyops.es/podcasts.html</link>
-    <description>Recent content in Podcasts on Entre Dev Y Ops</description>
+    <description>Recent content in Podcasts on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 15 Mar 2018 23:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Mar 2018 18:15:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Colaboración 1: Open Source Leadership Summit por José Miguel Parrella (@bureado)</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-colaboracion-1.html</link>
+      <pubDate>Fri, 30 Mar 2018 18:15:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-colaboracion-1.html</guid>
+      <description>&lt;p&gt;Estrenamos nuevo formato, colaboraciones, y empezamos con una de José Miguel Parrella (&lt;a href=&#34;https://twitter.com/bureado&#34; target=&#34;_blank&#34;&gt;@bureado&lt;/a&gt;) en la que
+nos explica el evento &lt;a href=&#34;https://events.linuxfoundation.org/events/open-source-leadership-summit-2018/&#34; target=&#34;_blank&#34;&gt;Open Source Leadership Summit 2018 (OSLS)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 37: Conviviendo con el legacy</title>
