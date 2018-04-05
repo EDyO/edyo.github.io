@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 30 Mar 2018 18:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Apr 2018 19:40:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 38: Ciberseguridad con Alex Soler, CTO de Ackcent</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-38.html</link>
+      <pubDate>Thu, 05 Apr 2018 19:40:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-38.html</guid>
+      <description>&lt;p&gt;En este episodio entrevistamos a &lt;a href=&#34;https://twitter.com/as0ler&#34; target=&#34;_blank&#34;&gt;Alex Soler&lt;/a&gt;, CTO de &lt;a href=&#34;https://ackcent.com/&#34; target=&#34;_blank&#34;&gt;Ackcent&lt;/a&gt;, para que nos ponga al día sobre seguridad.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Colaboración 1: Open Source Leadership Summit por José Miguel Parrella (@bureado)</title>
