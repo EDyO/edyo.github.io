@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 05 Apr 2018 19:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 May 2018 12:25:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Píldora 3 - DevOps Barcelona</title>
+      <link>http://www.entredevyops.es/podcasts/podcast-pildora-3.html</link>
+      <pubDate>Tue, 01 May 2018 12:25:00 +0000</pubDate>
+      
+      <guid>http://www.entredevyops.es/podcasts/podcast-pildora-3.html</guid>
+      <description>&lt;p&gt;En esta tercera píldora del podcast, David y Daniel nos cuentan cómo vivieron la conferencia &lt;a href=&#34;https://devops.barcelona&#34; target=&#34;_blank&#34;&gt;DevOps Barcelona&lt;/a&gt;; los demás les troleamos lo que podemos.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 38: Ciberseguridad con Alex Soler, CTO de Ackcent</title>
