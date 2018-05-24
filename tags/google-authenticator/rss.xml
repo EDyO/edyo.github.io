@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google Authenticator on Entre Dev y Ops</title>
-    <link>http://www.entredevyops.es/tags/google-authenticator.html</link>
+    <link>https://www.entredevyops.es/tags/google-authenticator.html</link>
     <description>Recent content in Google Authenticator on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Wed, 23 Nov 2016 00:25:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.entredevyops.es/tags/google-authenticator/rss.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.entredevyops.es/tags/google-authenticator/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Habilitar la autenticación en dos pasos para SSH con Google Authenticator</title>
-      <link>http://www.entredevyops.es/posts/ssh-2fa.html</link>
+      <link>https://www.entredevyops.es/posts/ssh-2fa.html</link>
       <pubDate>Wed, 23 Nov 2016 00:25:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/ssh-2fa.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/4c54eb54-9466-11e6-8a7b-4aa4459dc02f.png&#39; alt=&#39;Ssh Google Authenticator&#39; class=&#39;align-right&#39; height=&#39;150&#39; width=&#39;150&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/ssh-2fa.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/4c54eb54-9466-11e6-8a7b-4aa4459dc02f.png&#39; alt=&#39;Ssh Google Authenticator&#39; class=&#39;align-right&#39; height=&#39;150&#39; width=&#39;150&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;Tal como comenté en mi &lt;a href=&#34;http://www.entredevyops.es/posts/fail2ban-ssh.html&#34; target=&#34;_blank&#34;&gt;pasado artículo en este mismo blog&lt;/a&gt; hace poco detecté que alguna mala persona estaba intentando acceder a mi servidor privado mediante fuerza bruta por SSH. En el artículo de hoy vamos a explicar cómo activar el 2FA (doble factor de autenticación) para acceso SSH con &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&#34; target=&#34;_blank&#34;&gt;Google Authenticator&lt;/a&gt;.&lt;/p&gt;
 

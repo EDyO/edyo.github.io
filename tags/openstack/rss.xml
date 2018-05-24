@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Openstack on Entre Dev y Ops</title>
-    <link>http://www.entredevyops.es/tags/openstack.html</link>
+    <link>https://www.entredevyops.es/tags/openstack.html</link>
     <description>Recent content in Openstack on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Wed, 13 May 2015 23:30:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.entredevyops.es/tags/openstack/rss.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.entredevyops.es/tags/openstack/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Webinarios sobre la plataforma HP Helion</title>
-      <link>http://www.entredevyops.es/posts/webinarios-hp-helion.html</link>
+      <link>https://www.entredevyops.es/posts/webinarios-hp-helion.html</link>
       <pubDate>Wed, 13 May 2015 23:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/webinarios-hp-helion.html</guid>
+      <guid>https://www.entredevyops.es/posts/webinarios-hp-helion.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;HP&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/81814a0c-5a6f-11e5-928d-8f899736a0cb.jpg&#34; style=&#34;width: 120px;&#34; /&gt;
+&lt;img alt=&#34;HP&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/81814a0c-5a6f-11e5-928d-8f899736a0cb.jpg&#34; style=&#34;width: 120px;&#34; /&gt;
 &lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.hp.com/es/es&#34;&gt;HP&lt;/a&gt; ha estado presentando su plataforma &lt;a class=&#34;reference external&#34; href=&#34;http://www8.hp.com/es/es/cloud/helion-overview.html&#34;&gt;Helion&lt;/a&gt;, basada en &lt;a class=&#34;reference external&#34; href=&#34;http://www.openstack.org&#34;&gt;OpenStack&lt;/a&gt;, para permanecer en el mercado de la computación en la nube.
 Por ello están llevando a cabo una campaña de divulgación de la plataforma, de la que forman parte &lt;a class=&#34;reference external&#34; href=&#34;http://hphelion.bemyapp.com/meetup/&#34;&gt;estos cinco webinarios&lt;/a&gt; que presentan.
 Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis a punto para inscribiros en el resto.&lt;/p&gt;
@@ -29,10 +29,10 @@ Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis
     
     <item>
       <title>Primeros pasos con OpenStack</title>
-      <link>http://www.entredevyops.es/posts/primeros-pasos-openstack.html</link>
+      <link>https://www.entredevyops.es/posts/primeros-pasos-openstack.html</link>
       <pubDate>Wed, 09 Jul 2014 04:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/primeros-pasos-openstack.html</guid>
+      <guid>https://www.entredevyops.es/posts/primeros-pasos-openstack.html</guid>
       <description>&lt;p&gt;Continuando con nuestro pequeño laboratorio OpenStack necesitamos crear las nuevas redes.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -40,10 +40,10 @@ Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis
     
     <item>
       <title>Laboratorio de pruebas</title>
-      <link>http://www.entredevyops.es/posts/laboratorio-pruebas.html</link>
+      <link>https://www.entredevyops.es/posts/laboratorio-pruebas.html</link>
       <pubDate>Wed, 02 Jul 2014 03:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/laboratorio-pruebas.html</guid>
+      <guid>https://www.entredevyops.es/posts/laboratorio-pruebas.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -53,10 +53,10 @@ Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis
     
     <item>
       <title>Curso de OpenStack en Barcelona</title>
-      <link>http://www.entredevyops.es/posts/curso-openstack-barcelona.html</link>
+      <link>https://www.entredevyops.es/posts/curso-openstack-barcelona.html</link>
       <pubDate>Wed, 06 Nov 2013 21:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/curso-openstack-barcelona.html</guid>
+      <guid>https://www.entredevyops.es/posts/curso-openstack-barcelona.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -66,19 +66,19 @@ Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis
     
     <item>
       <title>Introducción a OpenStack en Midokura</title>
-      <link>http://www.entredevyops.es/posts/introduccion-openstack-midokura.html</link>
+      <link>https://www.entredevyops.es/posts/introduccion-openstack-midokura.html</link>
       <pubDate>Tue, 29 Oct 2013 16:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/introduccion-openstack-midokura.html</guid>
+      <guid>https://www.entredevyops.es/posts/introduccion-openstack-midokura.html</guid>
       <description>El grupo de Meetup OpenStack Barcelona, celebró el pasado viernes su primer evento, en la sede de la empresa Midokura. La sesión fue llevada por la organizadora del grupo, Rossella Sblendido, que trabaja en Midokura. La introducción se basó en la versión Havana de OpenStack, que es la que actualmente está en desarrollo. Hubo cierto énfasis en el componente llamado Neutron que consiste en el servicio de virtualización de red, para el cual Midokura desarrolla módulos.</description>
     </item>
     
     <item>
       <title>OpenStack: Arquitectura y operaciones para la nube y las aplicaciones del siglo XXI</title>
-      <link>http://www.entredevyops.es/posts/openstack-arquitectura-operaciones-nube-aplicaciones-siglo-xxi.html</link>
+      <link>https://www.entredevyops.es/posts/openstack-arquitectura-operaciones-nube-aplicaciones-siglo-xxi.html</link>
       <pubDate>Sun, 03 Feb 2013 10:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/openstack-arquitectura-operaciones-nube-aplicaciones-siglo-xxi.html</guid>
+      <guid>https://www.entredevyops.es/posts/openstack-arquitectura-operaciones-nube-aplicaciones-siglo-xxi.html</guid>
       <description>&lt;div class=&#34;document&#34; id=&#34;openstack-arquitectura-y-operaciones-para-la-nube-y-las-aplicaciones-del-siglo-xxi&#34;&gt;
 &lt;h1 class=&#34;title&#34;&gt;OpenStack: Arquitectura y operaciones para la nube y las aplicaciones del siglo XXI&lt;/h1&gt;
 

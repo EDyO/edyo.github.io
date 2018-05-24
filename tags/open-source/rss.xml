@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source on Entre Dev y Ops</title>
-    <link>http://www.entredevyops.es/tags/open-source.html</link>
+    <link>https://www.entredevyops.es/tags/open-source.html</link>
     <description>Recent content in Open Source on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Sat, 26 Sep 2015 15:40:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.entredevyops.es/tags/open-source/rss.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.entredevyops.es/tags/open-source/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Vuelve la dotGo</title>
-      <link>http://www.entredevyops.es/posts/vuelve-dotgo-2015.html</link>
+      <link>https://www.entredevyops.es/posts/vuelve-dotgo-2015.html</link>
       <pubDate>Sat, 26 Sep 2015 15:40:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/vuelve-dotgo-2015.html</guid>
+      <guid>https://www.entredevyops.es/posts/vuelve-dotgo-2015.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;dotGo&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/dotGo-logo.png&#34; /&gt;
+&lt;img alt=&#34;dotGo&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/dotGo-logo.png&#34; /&gt;
 &lt;p&gt;Muchos ya conoceréis el lenguaje &lt;a class=&#34;reference external&#34; href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;, incluso algunos conocerán la &lt;a class=&#34;reference external&#34; href=&#34;http://dotgo.eu/&#34;&gt;dotGo&lt;/a&gt;, la primera conferencia europea sobre &lt;a class=&#34;reference external&#34; href=&#34;http://golang.org/&#34;&gt;Golang&lt;/a&gt;.
 Este año &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/intent/user?original_referer=http%3A%2F%2Fwww.dotconferences.eu%2F&amp;amp;region=following&amp;amp;screen_name=dotConferences&amp;amp;tw_p=followbutton&amp;amp;variant=2.0&#34;&gt;&amp;#64;dotConferences&lt;/a&gt; celebra la segunda edición de este evento, con una expectación de asistencia aún mayor.
 Como ya es costumbre de &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu/&#34;&gt;dotConferences&lt;/a&gt;, la &lt;a class=&#34;reference external&#34; href=&#34;http://dotgo.eu/&#34;&gt;dotGo&lt;/a&gt; se celebrará en un teatro parisino, marco digno del evento.
@@ -30,52 +30,52 @@ El evento, además, seguirá las costumbres de los eventos de &lt;a class=&#34;r
     
     <item>
       <title>Anuncio de la dotGo 2014</title>
-      <link>http://www.entredevyops.es/posts/anuncio-dotgo-2014.html</link>
+      <link>https://www.entredevyops.es/posts/anuncio-dotgo-2014.html</link>
       <pubDate>Sat, 26 Jul 2014 02:40:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/anuncio-dotgo-2014.html</guid>
+      <guid>https://www.entredevyops.es/posts/anuncio-dotgo-2014.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;dotGo&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/dotGo-logo.png&#34; /&gt;
+&lt;img alt=&#34;dotGo&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/dotGo-logo.png&#34; /&gt;
 &lt;p&gt;Basado en la filosofía de Python y una sintaxis derivada de C, el lenguaje Go ya conocido por muchos, es una herramienta que se tercia bastante útil en este mundo de escala cada vez mayor. Siendo lo que más destacan sus adeptos su facilidad en la implementación de concurrencia y su portabilidad, cada vez más se va acercando al paisaje de lenguajes mayoritarios. Tanto es así que la gente de &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu/&#34;&gt;dotConferences&lt;/a&gt; ha decidido este año organizar una de sus conferencias sobre Go... y, como son así de majos, os pasamos un descuento del 20%. &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/intent/user?original_referer=http%3A%2F%2Fwww.dotconferences.eu%2F&amp;amp;region=following&amp;amp;screen_name=dotConferences&amp;amp;tw_p=followbutton&amp;amp;variant=2.0&#34;&gt;&amp;#64;dotConferences&lt;/a&gt;, gracias!&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Conferencia dotScale</title>
-      <link>http://www.entredevyops.es/posts/dotscale.html</link>
+      <link>https://www.entredevyops.es/posts/dotscale.html</link>
       <pubDate>Sun, 16 Mar 2014 13:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/dotscale.html</guid>
+      <guid>https://www.entredevyops.es/posts/dotscale.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Dot Scale&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/dotscale.png&#34; style=&#34;width: 300px; height: 115px;&#34; /&gt;
+&lt;img alt=&#34;Dot Scale&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/dotscale.png&#34; style=&#34;width: 300px; height: 115px;&#34; /&gt;
 &lt;p&gt;El 19 de mayo se celebrarán en el Théâtre de Paris las conferencias &lt;a class=&#34;reference external&#34; href=&#34;http://dotscale.eu&#34;&gt;dotScale&lt;/a&gt;, que forman parte de las &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu&#34;&gt;dotConferences&lt;/a&gt;. Dentro del mismo evento, el día 17, se impartirán unos talleres, que se concretarán entre seis y ocho semanas antes de la fecha. Las &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu&#34;&gt;dotConferences&lt;/a&gt; son charlas técnicas impartidas por desarrolladores para desarrolladores sobre diferentes lenguajes. Las &lt;a class=&#34;reference external&#34; href=&#34;http://dotscale.eu&#34;&gt;dotScale&lt;/a&gt;, no obstante, se centran en la escalabilidad de aplicaciones, sin centrarse en un lenguaje específico. Además, aunque la lista no está completa, ya se ha confirmado un interesante grupo de ponentes.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>MiniDebConf 2014 en Barcelona</title>
-      <link>http://www.entredevyops.es/posts/minidebconf-bcn-2014.html</link>
+      <link>https://www.entredevyops.es/posts/minidebconf-bcn-2014.html</link>
       <pubDate>Fri, 14 Mar 2014 23:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/minidebconf-bcn-2014.html</guid>
+      <guid>https://www.entredevyops.es/posts/minidebconf-bcn-2014.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Debian Women Project&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/dw.png&#34; style=&#34;width: 82px; height: 140px;&#34; /&gt;
+&lt;img alt=&#34;Debian Women Project&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/dw.png&#34; style=&#34;width: 82px; height: 140px;&#34; /&gt;
 &lt;p&gt;Este fin de semana se celebra en Barcelona la &lt;a class=&#34;reference external&#34; href=&#34;http://bcn2014.mini.debconf.org/&#34;&gt;MiniDebConf 2014&lt;/a&gt;, una conferencia sobre Debian organizada por &lt;a class=&#34;reference external&#34; href=&#34;http://debian-es.org/&#34;&gt;Debian-Es&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;https://www.debian.org/women/&#34;&gt;The Debian Women Project&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>EditorConfig: Mantén tu código uniforme</title>
-      <link>http://www.entredevyops.es/posts/editorconfig-manten-codigo-uniforme.html</link>
+      <link>https://www.entredevyops.es/posts/editorconfig-manten-codigo-uniforme.html</link>
       <pubDate>Thu, 21 Nov 2013 22:25:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/editorconfig-manten-codigo-uniforme.html</guid>
+      <guid>https://www.entredevyops.es/posts/editorconfig-manten-codigo-uniforme.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -85,10 +85,10 @@ El evento, además, seguirá las costumbres de los eventos de &lt;a class=&#34;r
     
     <item>
       <title>Final Term: ¿El terminal «definitivo»?</title>
-      <link>http://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</link>
+      <link>https://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</link>
       <pubDate>Tue, 19 Nov 2013 00:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</guid>
+      <guid>https://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -98,14 +98,14 @@ El evento, además, seguirá las costumbres de los eventos de &lt;a class=&#34;r
     
     <item>
       <title>Primer día en la BcnDevCon&#39;13</title>
-      <link>http://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</link>
+      <link>https://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</link>
       <pubDate>Sat, 09 Nov 2013 12:40:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</guid>
+      <guid>https://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
+&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
 &lt;p&gt;Ayer, día 8 de noviembre, ha tenido su inicio el &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon13&lt;/a&gt;. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en &lt;em&gt;cloud&lt;/em&gt;, móvil, robótica y &lt;em&gt;open source&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -113,10 +113,10 @@ El evento, además, seguirá las costumbres de los eventos de &lt;a class=&#34;r
     
     <item>
       <title>Testing y automatización  en el Fosdem</title>
-      <link>http://www.entredevyops.es/posts/testing-automatizacion-fosdem.html</link>
+      <link>https://www.entredevyops.es/posts/testing-automatizacion-fosdem.html</link>
       <pubDate>Sun, 17 Feb 2013 19:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/testing-automatizacion-fosdem.html</guid>
+      <guid>https://www.entredevyops.es/posts/testing-automatizacion-fosdem.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 

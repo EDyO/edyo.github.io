@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scrum on Entre Dev y Ops</title>
-    <link>http://www.entredevyops.es/tags/scrum.html</link>
+    <link>https://www.entredevyops.es/tags/scrum.html</link>
     <description>Recent content in Scrum on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Tue, 10 Feb 2015 20:05:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.entredevyops.es/tags/scrum/rss.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.entredevyops.es/tags/scrum/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cursos sobre Scrum, DevOps y Lean IT</title>
-      <link>http://www.entredevyops.es/posts/cursos-scrum-devops-lean-it.html</link>
+      <link>https://www.entredevyops.es/posts/cursos-scrum-devops-lean-it.html</link>
       <pubDate>Tue, 10 Feb 2015 20:05:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/cursos-scrum-devops-lean-it.html</guid>
+      <guid>https://www.entredevyops.es/posts/cursos-scrum-devops-lean-it.html</guid>
       <description>¿Qué puede haber mejor para empezar el año nuevo que apuntarse a un curso? Bueno, posiblemente, bastantes otras cosas, pero por si estáis planteándoos un cambio o sentís la necesidad de aprender, en este post os damos la referencia de dos cursos.
 Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Management, Scrum, DevOps y Lean IT, como el impartido el curso pasado, y que comenzará el próximo 17 de Marzo.</description>
     </item>
     
     <item>
       <title>Encuentro Agile-Python BCN</title>
-      <link>http://www.entredevyops.es/posts/agile-python-bcn-meetup.html</link>
+      <link>https://www.entredevyops.es/posts/agile-python-bcn-meetup.html</link>
       <pubDate>Wed, 29 May 2013 23:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/agile-python-bcn-meetup.html</guid>
+      <guid>https://www.entredevyops.es/posts/agile-python-bcn-meetup.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 

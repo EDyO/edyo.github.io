@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud on Entre Dev y Ops</title>
-    <link>http://www.entredevyops.es/tags/cloud.html</link>
+    <link>https://www.entredevyops.es/tags/cloud.html</link>
     <description>Recent content in Cloud on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Wed, 17 May 2017 13:35:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.entredevyops.es/tags/cloud/rss.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.entredevyops.es/tags/cloud/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>El SLA del Cloud</title>
-      <link>http://www.entredevyops.es/posts/sla-cloud-aws-azure.html</link>
+      <link>https://www.entredevyops.es/posts/sla-cloud-aws-azure.html</link>
       <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/sla-cloud-aws-azure.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/743e78a4-370b-11e7-9d3d-e8321c7d49c9.jpg&#39; alt=&#39;SLA&#39; class=&#39;align-left&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/sla-cloud-aws-azure.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/743e78a4-370b-11e7-9d3d-e8321c7d49c9.jpg&#39; alt=&#39;SLA&#39; class=&#39;align-left&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;A raíz del incidente de &lt;a href=&#34;https://aws.amazon.com/es/message/41926/&#34; target=&#34;_blank&#34;&gt;AWS S3 del pasado 28 de Febrero&lt;/a&gt;  he oído, y no en pocas ocasiones, frases del estilo “pero esto del cloud no se caía, no?”, “hasta el cloud tiene caídas de servicio” y similares.
 Si hablamos con personas que conozcan que es el cloud seguramente tendrán una opinión similar: una de las ventajas de migrar hacia el cloud es que nunca tendrás caídas de servicio.&lt;/p&gt;
@@ -29,11 +29,11 @@ Si hablamos con personas que conozcan que es el cloud seguramente tendrán una o
     
     <item>
       <title>Amazon Linux, ¿sí o no?</title>
-      <link>http://www.entredevyops.es/posts/amazon-linux-si-o-no.html</link>
+      <link>https://www.entredevyops.es/posts/amazon-linux-si-o-no.html</link>
       <pubDate>Tue, 23 Aug 2016 19:55:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/amazon-linux-si-o-no.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/AmazonWebservices.png&#39; alt=&#39;Amazon Web Services&#39; class=&#39;align-left&#39; height=&#39;80&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/amazon-linux-si-o-no.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/AmazonWebservices.png&#39; alt=&#39;Amazon Web Services&#39; class=&#39;align-left&#39; height=&#39;80&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;Seguro que todos los que usáis o habéis usado Amazon Web Services (AWS para abreviar) alguna vez habréis probado, o usado de forma productiva &lt;a href=&#34;https://aws.amazon.com/es/amazon-linux-ami/&#34; target=&#34;_blank&#34;&gt;Amazon Linux&lt;/a&gt;, la versión de Linux basada en RedHat/CentOS preparada por ellos y &amp;ldquo;equipada&amp;rdquo; para funcionar perfectamente en su servicio EC2.&lt;/p&gt;
 
@@ -44,10 +44,10 @@ Si hablamos con personas que conozcan que es el cloud seguramente tendrán una o
     
     <item>
       <title>Las conferencias OpenNebulaConf 2015</title>
-      <link>http://www.entredevyops.es/posts/opennebula_2015.html</link>
+      <link>https://www.entredevyops.es/posts/opennebula_2015.html</link>
       <pubDate>Tue, 10 Nov 2015 21:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/opennebula_2015.html</guid>
+      <guid>https://www.entredevyops.es/posts/opennebula_2015.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -57,10 +57,10 @@ Si hablamos con personas que conozcan que es el cloud seguramente tendrán una o
     
     <item>
       <title>OpenNebulaConf 2015</title>
-      <link>http://www.entredevyops.es/posts/opennebulaconf_2015.html</link>
+      <link>https://www.entredevyops.es/posts/opennebulaconf_2015.html</link>
       <pubDate>Tue, 29 Sep 2015 22:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/opennebulaconf_2015.html</guid>
+      <guid>https://www.entredevyops.es/posts/opennebulaconf_2015.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -70,14 +70,14 @@ Si hablamos con personas que conozcan que es el cloud seguramente tendrán una o
     
     <item>
       <title>Webinarios de AWS para septiembre</title>
-      <link>http://www.entredevyops.es/posts/webinarios-aws-septiembre.html</link>
+      <link>https://www.entredevyops.es/posts/webinarios-aws-septiembre.html</link>
       <pubDate>Thu, 14 May 2015 00:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/webinarios-aws-septiembre.html</guid>
+      <guid>https://www.entredevyops.es/posts/webinarios-aws-septiembre.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/AmazonWebservices.png&#34; style=&#34;width: 200px; height: 80px;&#34; /&gt;
+&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/AmazonWebservices.png&#34; style=&#34;width: 200px; height: 80px;&#34; /&gt;
 &lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.hp.com/es/es&#34;&gt;AWS&lt;/a&gt; está poniéndose las pilas en cuanto a formación se refiere.
 Este mes de septiembre propone una serie de webinarios sobre diferentes servicios, entre ellos, algunos de los más nuevos.
 Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34;reference external&#34; href=&#34;http://www.hp.com/es/es&#34;&gt;AWS&lt;/a&gt; ofrece como &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/redshift/&#34;&gt;Redshift&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/lambda/&#34;&gt;Lambda&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/dynamodb/&#34;&gt;DynamoDB&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/glacier/&#34;&gt;Glacier&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/ecs/details/&#34;&gt;EC2 Container Service&lt;/a&gt; y otros.&lt;/p&gt;
@@ -86,89 +86,89 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
     
     <item>
       <title>Noticias interesantes sobre AWS</title>
-      <link>http://www.entredevyops.es/posts/noticias-sobre-aws-interact-redis-frankfurt.html</link>
+      <link>https://www.entredevyops.es/posts/noticias-sobre-aws-interact-redis-frankfurt.html</link>
       <pubDate>Mon, 03 Nov 2014 01:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/noticias-sobre-aws-interact-redis-frankfurt.html</guid>
+      <guid>https://www.entredevyops.es/posts/noticias-sobre-aws-interact-redis-frankfurt.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;AWS&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/AmazonWebservices.png&#34; style=&#34;width: 200px; height: 80px;&#34; /&gt;
+&lt;img alt=&#34;AWS&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/AmazonWebservices.png&#34; style=&#34;width: 200px; height: 80px;&#34; /&gt;
 &lt;p&gt;Recientemente, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/&#34;&gt;Amazon WebServices&lt;/a&gt; ha publicado tres noticias bastante relevantes. En este artículo las comentamos un poco.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>DigitalOcean anuncia nueva región en Londres</title>
-      <link>http://www.entredevyops.es/posts/digitalocean-nueva-region-londres.html</link>
+      <link>https://www.entredevyops.es/posts/digitalocean-nueva-region-londres.html</link>
       <pubDate>Tue, 15 Jul 2014 23:40:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/digitalocean-nueva-region-londres.html</guid>
+      <guid>https://www.entredevyops.es/posts/digitalocean-nueva-region-londres.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Digital Ocean&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/digitalocean_logo.png&#34; style=&#34;width: 200px; height: 122px;&#34; /&gt;
+&lt;img alt=&#34;Digital Ocean&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/digitalocean_logo.png&#34; style=&#34;width: 200px; height: 122px;&#34; /&gt;
 &lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.digitalocean.com&#34;&gt;DigitalOcean&lt;/a&gt; ha anunciado hoy &lt;a class=&#34;reference external&#34; href=&#34;https://www.digitalocean.com/company/blog/introducing-our-london-region/&#34;&gt;en su blog&lt;/a&gt; la disponibilidad de una nueva región para la creación de &lt;a class=&#34;reference external&#34; href=&#34;https://www.digitalocean.com/help/technical/general/&#34;&gt;droplets&lt;/a&gt; (denominación de este servicio para instancias de servidores), esta nueva región ubicada en Londres es la tercera que este servicio dispone ya en Europa, junto a las dos existentes en Amsterdam.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Noticias semanales (Dic III)</title>
-      <link>http://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-3.html</link>
+      <link>https://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-3.html</link>
       <pubDate>Tue, 24 Dec 2013 12:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-3.html</guid>
+      <guid>https://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-3.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
+&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
 &lt;p&gt;Debido a que el ritmo de publicación de noticias se había incrementado hasta el punto de casi no tener tiempo para escribir nada más, en Entre Dev Y Ops vamos a probar publicar un sólo post semanal con las noticias más interesantes de cada semana.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Introducción a OpenStack en Midokura</title>
-      <link>http://www.entredevyops.es/posts/introduccion-openstack-midokura.html</link>
+      <link>https://www.entredevyops.es/posts/introduccion-openstack-midokura.html</link>
       <pubDate>Tue, 29 Oct 2013 16:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/introduccion-openstack-midokura.html</guid>
+      <guid>https://www.entredevyops.es/posts/introduccion-openstack-midokura.html</guid>
       <description>El grupo de Meetup OpenStack Barcelona, celebró el pasado viernes su primer evento, en la sede de la empresa Midokura. La sesión fue llevada por la organizadora del grupo, Rossella Sblendido, que trabaja en Midokura. La introducción se basó en la versión Havana de OpenStack, que es la que actualmente está en desarrollo. Hubo cierto énfasis en el componente llamado Neutron que consiste en el servicio de virtualización de red, para el cual Midokura desarrolla módulos.</description>
     </item>
     
     <item>
       <title>Crónica del AWS Summit Barcelona 2013</title>
-      <link>http://www.entredevyops.es/posts/aws-summit-barcelona-2013.html</link>
+      <link>https://www.entredevyops.es/posts/aws-summit-barcelona-2013.html</link>
       <pubDate>Sun, 27 Oct 2013 20:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/aws-summit-barcelona-2013.html</guid>
+      <guid>https://www.entredevyops.es/posts/aws-summit-barcelona-2013.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/AmazonWebservices.png&#34; /&gt;
+&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/AmazonWebservices.png&#34; /&gt;
 &lt;p&gt;Este pasado jueves &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt; celebró en Barcelona un &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/aws-summit-2013/barcelona/&#34;&gt;Summit&lt;/a&gt; para ofrecer una visión de sus tecnologías &lt;em&gt;cloud&lt;/em&gt;, casos prácticos de empresas, su aplicación para escenarios de &lt;em&gt;Big Data&lt;/em&gt;, copias de seguridad y &lt;em&gt;Disaster Recovery&lt;/em&gt;, así como aspectos de seguridad. El evento pudo seguirse en Twitter con el hashtag &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%23awssummit&#34;&gt;#awssummit&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Amazon WS anuncia soporte para autenticación multifactor</title>
-      <link>http://www.entredevyops.es/posts/amazon-ws-aws-soporte-mfa-autenticacion-multifactor.html</link>
+      <link>https://www.entredevyops.es/posts/amazon-ws-aws-soporte-mfa-autenticacion-multifactor.html</link>
       <pubDate>Sat, 19 Oct 2013 10:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/amazon-ws-aws-soporte-mfa-autenticacion-multifactor.html</guid>
+      <guid>https://www.entredevyops.es/posts/amazon-ws-aws-soporte-mfa-autenticacion-multifactor.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Algo que el usuario posea, en el móvil, por ejemplo.&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/Simple-Mobile-based.jpg&#34; style=&#34;width: 206px; height: 97px;&#34; /&gt;
+&lt;img alt=&#34;Algo que el usuario posea, en el móvil, por ejemplo.&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/Simple-Mobile-based.jpg&#34; style=&#34;width: 206px; height: 97px;&#34; /&gt;
 &lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com&#34;&gt;Amazon Web Services&lt;/a&gt; anunció ayer, viernes día 18, el &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/mfa&#34;&gt;soporte&lt;/a&gt; para la autenticación multifactor, o &lt;a class=&#34;reference external&#34; href=&#34;http://en.wikipedia.org/wiki/Multi-factor_authentication&#34;&gt;MFA&lt;/a&gt;, de sus siglas en inglés.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Introducción a Amazon WS por el Barcelona JUG</title>
-      <link>http://www.entredevyops.es/posts/introduccion-amazon-ws-barcelona-jug.html</link>
+      <link>https://www.entredevyops.es/posts/introduccion-amazon-ws-barcelona-jug.html</link>
       <pubDate>Wed, 16 Oct 2013 00:55:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/introduccion-amazon-ws-barcelona-jug.html</guid>
+      <guid>https://www.entredevyops.es/posts/introduccion-amazon-ws-barcelona-jug.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -178,10 +178,10 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
     
     <item>
       <title>OpenStack: Arquitectura y operaciones para la nube y las aplicaciones del siglo XXI</title>
-      <link>http://www.entredevyops.es/posts/openstack-arquitectura-operaciones-nube-aplicaciones-siglo-xxi.html</link>
+      <link>https://www.entredevyops.es/posts/openstack-arquitectura-operaciones-nube-aplicaciones-siglo-xxi.html</link>
       <pubDate>Sun, 03 Feb 2013 10:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/openstack-arquitectura-operaciones-nube-aplicaciones-siglo-xxi.html</guid>
+      <guid>https://www.entredevyops.es/posts/openstack-arquitectura-operaciones-nube-aplicaciones-siglo-xxi.html</guid>
       <description>&lt;div class=&#34;document&#34; id=&#34;openstack-arquitectura-y-operaciones-para-la-nube-y-las-aplicaciones-del-siglo-xxi&#34;&gt;
 &lt;h1 class=&#34;title&#34;&gt;OpenStack: Arquitectura y operaciones para la nube y las aplicaciones del siglo XXI&lt;/h1&gt;
 

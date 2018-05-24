@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devopsdays on Entre Dev y Ops</title>
-    <link>http://www.entredevyops.es/tags/devopsdays.html</link>
+    <link>https://www.entredevyops.es/tags/devopsdays.html</link>
     <description>Recent content in Devopsdays on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Sat, 12 Oct 2013 20:13:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.entredevyops.es/tags/devopsdays/rss.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.entredevyops.es/tags/devopsdays/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Charlas en el DevOpsDays Barcelona 2013</title>
-      <link>http://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html</link>
+      <link>https://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html</link>
       <pubDate>Sat, 12 Oct 2013 20:13:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html</guid>
+      <guid>https://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -29,10 +29,10 @@ El evento lo ha organizado &lt;a class=&#34;reference external&#34; href=&#34;ht
     
     <item>
       <title>DevOpsDays Barcelona 2013</title>
-      <link>http://www.entredevyops.es/posts/devopsdays-barcelona-2013.html</link>
+      <link>https://www.entredevyops.es/posts/devopsdays-barcelona-2013.html</link>
       <pubDate>Thu, 10 Oct 2013 21:35:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/devopsdays-barcelona-2013.html</guid>
+      <guid>https://www.entredevyops.es/posts/devopsdays-barcelona-2013.html</guid>
       <description>devops days Barcelona 2013 Hoy y mañana, en la Fábrica de la Moritz, en Barcelona, tiene lugar la edición de devops days correspondiente a 2013. En los próximos días podréis encontrar artículos sobre las charlas más interesantes que se han hecho.</description>
     </item>
     

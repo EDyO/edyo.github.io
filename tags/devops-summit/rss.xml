@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devops Summit on Entre Dev y Ops</title>
-    <link>http://www.entredevyops.es/tags/devops-summit.html</link>
+    <link>https://www.entredevyops.es/tags/devops-summit.html</link>
     <description>Recent content in Devops Summit on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Sun, 03 Nov 2013 20:20:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.entredevyops.es/tags/devops-summit/rss.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.entredevyops.es/tags/devops-summit/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DevOps Summit en Amsterdam el próximo día 14</title>
-      <link>http://www.entredevyops.es/posts/devops-summit-amsterdam.html</link>
+      <link>https://www.entredevyops.es/posts/devops-summit-amsterdam.html</link>
       <pubDate>Sun, 03 Nov 2013 20:20:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/devops-summit-amsterdam.html</guid>
+      <guid>https://www.entredevyops.es/posts/devops-summit-amsterdam.html</guid>
       <description>El próximo día 14 de noviembre se celebrará en Amsterdam el DevOps Summit, evento con un programa bastante simple, pero con referentes muy interesantes. Este evento se suele producir, como algunos otros, en dos sesiones anuales: Una hacia mayo, en Londres, y otra hacia noviembre, en Amsterdam.</description>
     </item>
     

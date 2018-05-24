@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Entre Dev y Ops</title>
-    <link>http://www.entredevyops.es/posts.html</link>
+    <link>https://www.entredevyops.es/posts.html</link>
     <description>Recent content in Posts on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Fri, 22 Sep 2017 22:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.entredevyops.es/posts/rss.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.entredevyops.es/posts/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Referendum 1-O: ¿Dónde votar?</title>
-      <link>http://www.entredevyops.es/posts/referendum-votar.html</link>
+      <link>https://www.entredevyops.es/posts/referendum-votar.html</link>
       <pubDate>Fri, 22 Sep 2017 22:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/referendum-votar.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/30765928-56c56350-9ff2-11e7-85a8-cc8fad0d7947.jpg&#39; alt=&#39;yes-no&#39; class=&#39;align-left height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/referendum-votar.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/30765928-56c56350-9ff2-11e7-85a8-cc8fad0d7947.jpg&#39; alt=&#39;yes-no&#39; class=&#39;align-left height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;No, no nos hemos vuelto locos, en Edyo seguimos hablando de tecnología. Sabemos también que últimamente no publicamos más que podcasts; a pesar de ello, mantenemos el blog para cosas que se cuentan mejor escritas que narradas. Hoy os traemos un análisis técnico que no puede ser más de actualidad: la web de consulta del censo para el referendum del 1-O. Os prometo que vale la pena.&lt;/p&gt;
 
@@ -26,11 +26,11 @@
     
     <item>
       <title>El SLA del Cloud</title>
-      <link>http://www.entredevyops.es/posts/sla-cloud-aws-azure.html</link>
+      <link>https://www.entredevyops.es/posts/sla-cloud-aws-azure.html</link>
       <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/sla-cloud-aws-azure.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/743e78a4-370b-11e7-9d3d-e8321c7d49c9.jpg&#39; alt=&#39;SLA&#39; class=&#39;align-left&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/sla-cloud-aws-azure.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/743e78a4-370b-11e7-9d3d-e8321c7d49c9.jpg&#39; alt=&#39;SLA&#39; class=&#39;align-left&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;A raíz del incidente de &lt;a href=&#34;https://aws.amazon.com/es/message/41926/&#34; target=&#34;_blank&#34;&gt;AWS S3 del pasado 28 de Febrero&lt;/a&gt;  he oído, y no en pocas ocasiones, frases del estilo “pero esto del cloud no se caía, no?”, “hasta el cloud tiene caídas de servicio” y similares.
 Si hablamos con personas que conozcan que es el cloud seguramente tendrán una opinión similar: una de las ventajas de migrar hacia el cloud es que nunca tendrás caídas de servicio.&lt;/p&gt;
@@ -42,11 +42,11 @@ Si hablamos con personas que conozcan que es el cloud seguramente tendrán una o
     
     <item>
       <title>Crónica de el Orchestrate 2017</title>
-      <link>http://www.entredevyops.es/posts/cronica-orchestrate-2017.html</link>
+      <link>https://www.entredevyops.es/posts/cronica-orchestrate-2017.html</link>
       <pubDate>Sat, 29 Apr 2017 19:50:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/cronica-orchestrate-2017.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/bb4decaa-0e40-11e7-9007-41080697e259.png&#39; alt=&#39;AWS Lambda&#39; class=&#39;align-right&#39; height=&#39;75&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/cronica-orchestrate-2017.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/bb4decaa-0e40-11e7-9007-41080697e259.png&#39; alt=&#39;AWS Lambda&#39; class=&#39;align-right&#39; height=&#39;75&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;El pasado 6 de Abril tuvo lugar, en &lt;a href=&#34;https://codeworks.me&#34; target=&#34;_blank&#34;&gt;CodeWorks&lt;/a&gt;, el &lt;a href=&#34;https://ti.to/blended/orchestrate-2017/en&#34; target=&#34;_blank&#34;&gt;Orchestrate 2017&lt;/a&gt;, un evento sobre DevOps, que ya &lt;a href=&#34;http://www.entredevyops.es/posts/orchestrate-2017.html&#34; target=&#34;_blank&#34;&gt;anunciamos&lt;/a&gt;.
 De la mano de &lt;a href=&#34;https://blended.io&#34; target=&#34;_blank&#34;&gt;blended.io&lt;/a&gt;, el evento trató principalmente sobre &lt;a href=&#34;https://kubernetes.io/&#34; target=&#34;_blank&#34;&gt;Kubernetes&lt;/a&gt;, contenedores, microservicios y testeo.&lt;/p&gt;
@@ -58,11 +58,11 @@ De la mano de &lt;a href=&#34;https://blended.io&#34; target=&#34;_blank&#34;&gt
     
     <item>
       <title>Orchestrate 2017</title>
-      <link>http://www.entredevyops.es/posts/orchestrate-2017.html</link>
+      <link>https://www.entredevyops.es/posts/orchestrate-2017.html</link>
       <pubDate>Tue, 21 Mar 2017 14:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/orchestrate-2017.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/bb4decaa-0e40-11e7-9007-41080697e259.png&#39; alt=&#39;AWS Lambda&#39; class=&#39;align-right&#39; height=&#39;75&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/orchestrate-2017.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/bb4decaa-0e40-11e7-9007-41080697e259.png&#39; alt=&#39;AWS Lambda&#39; class=&#39;align-right&#39; height=&#39;75&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;El próximo día 06 de Abril de 2017 tiene lugar en Barcelona,, de la mano de &lt;a href=&#34;https://blended.io&#34; target=&#34;_blank&#34;&gt;blended.io&lt;/a&gt;, el &lt;a href=&#34;https://ti.to/blended/orchestrate-2017/en&#34; target=&#34;_blank&#34;&gt;Orchestrate 2017&lt;/a&gt;, un evento sobre DevOps, orquestación y temas relacionados. Tendrá lugar en las oficinas de &lt;a href=&#34;https://codeworks.me&#34; target=&#34;_blank&#34;&gt;Codeworks&lt;/a&gt; y contará tanto de conferencias, ofrecidas por ponentes de renombre, como de talleres.&lt;/p&gt;
 
@@ -75,10 +75,10 @@ De la mano de &lt;a href=&#34;https://blended.io&#34; target=&#34;_blank&#34;&gt
     
     <item>
       <title>Comparando Serverless</title>
-      <link>http://www.entredevyops.es/posts/comparando-serverless.html</link>
+      <link>https://www.entredevyops.es/posts/comparando-serverless.html</link>
       <pubDate>Thu, 16 Mar 2017 03:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/comparando-serverless.html</guid>
+      <guid>https://www.entredevyops.es/posts/comparando-serverless.html</guid>
       <description>&lt;p&gt;El líder indiscutible del cloud es AWS, pero tiene un competidor que le sigue de cerca. Bueno, siendo realistas no tan de cerca, pero que se ha acercado mucho en estos últimos tiempos.&lt;/p&gt;
 
 &lt;p&gt;Hemos visto el avance de &lt;a href=&#34;https://aws.amazon.com/es/lambda/details/&#34; target=&#34;_blank&#34;&gt;Lambda&lt;/a&gt;, y como pasó de ser un anuncio en el re:Invent del 2014, a ocupar varias charlas en el re:Invent del año pasado. Teniendo en cuenta que ahora mismo, tenemos el sistema distribuido entre: el lambda de siempre, en el &lt;a href=&#34;https://aws.amazon.com/es/snowball/details/&#34; target=&#34;_blank&#34;&gt;snowball&lt;/a&gt; y próximamente en  la ejecución lambda de los &lt;a href=&#34;https://pages.awscloud.com/lambda-at-edge-preview.html&#34; target=&#34;_blank&#34;&gt;nodos edge de cloudfront&lt;/a&gt;  y en los productos que usen &lt;a href=&#34;https://aws.amazon.com/es/greengrass/&#34; target=&#34;_blank&#34;&gt;AWS Greengrass&lt;/a&gt;,  pero la pregunta es: ¿cual es la herramienta de Azure para combatir Lambda?&lt;/p&gt;
@@ -88,11 +88,11 @@ De la mano de &lt;a href=&#34;https://blended.io&#34; target=&#34;_blank&#34;&gt
     
     <item>
       <title>¿Eres lo suficientemente bueno?</title>
-      <link>http://www.entredevyops.es/posts/eres-suficientemente-bueno.html</link>
+      <link>https://www.entredevyops.es/posts/eres-suficientemente-bueno.html</link>
       <pubDate>Wed, 01 Mar 2017 12:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/eres-suficientemente-bueno.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/c94c4a6a-f24b-11e6-83f9-d81dc988b9da.jpg&#39; alt=&#39;Impostor&#39; class=&#39;align-right&#39; height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/eres-suficientemente-bueno.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/c94c4a6a-f24b-11e6-83f9-d81dc988b9da.jpg&#39; alt=&#39;Impostor&#39; class=&#39;align-right&#39; height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;Hay momentos en los que pienso que soy un impostor y que solamente es cuestión de tiempo el que me descubran.
 &lt;/p&gt;</description>
@@ -100,11 +100,11 @@ De la mano de &lt;a href=&#34;https://blended.io&#34; target=&#34;_blank&#34;&gt
     
     <item>
       <title>Ejecutando shell script en AWS Lambda</title>
-      <link>http://www.entredevyops.es/posts/shellscript-lambda.html</link>
+      <link>https://www.entredevyops.es/posts/shellscript-lambda.html</link>
       <pubDate>Mon, 20 Feb 2017 23:25:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/shellscript-lambda.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/da5bb104-f243-11e6-96e0-f7d9341c64a3.png&#39; alt=&#39;AWS Lambda&#39; class=&#39;align-right&#39; height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/shellscript-lambda.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/da5bb104-f243-11e6-96e0-f7d9341c64a3.png&#39; alt=&#39;AWS Lambda&#39; class=&#39;align-right&#39; height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;Llevo un tiempo dándole vueltas a migrar de mi servidor virtual privado hacia el cloud, en concreto hacia AWS, pero uno de los motivos que más me echan para atrás es todos los scripts, la mayor parte en shell script, que tengo programados para ejecutarse diariamente en mi servidor y que realizan tareas de lo más útiles. De todos ellos destacaría el que tengo para que cada día me &amp;ldquo;recolecte&amp;rdquo; el libro electrónico gratuito que publica &lt;a href=&#34;https://www.packtpub.com&#34; target=&#34;_blank&#34;&gt;Packtpub&lt;/a&gt;. Pues bien, parece que este impedimento ha llegado a su fin, ya que utilizando un pequeño truco se pueden ejecutar shell scripts en Lambda.&lt;/p&gt;
 
@@ -115,11 +115,11 @@ De la mano de &lt;a href=&#34;https://blended.io&#34; target=&#34;_blank&#34;&gt
     
     <item>
       <title>#TrueStories que no me contó ningún amigo</title>
-      <link>http://www.entredevyops.es/posts/true-stories.html</link>
+      <link>https://www.entredevyops.es/posts/true-stories.html</link>
       <pubDate>Fri, 17 Feb 2017 10:35:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/true-stories.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/669fab80-f108-11e6-8519-f9af43643c67.jpg&#39; alt=&#39;Mitsakes&#39; class=&#39;align-left height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/true-stories.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/669fab80-f108-11e6-8519-f9af43643c67.jpg&#39; alt=&#39;Mitsakes&#39; class=&#39;align-left height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;Son muchas las citas y reflexiones que se han dicho y escrito sobre los errores y sus consecuencias.
 Nadie está exento de equivocarse, pero aprender de esos mismos errores es aquello que permite mejorar y avanzar.&lt;/p&gt;
@@ -132,11 +132,11 @@ Pero resistirse a hacerlo por &lt;s&gt;el orgullo de algunos&lt;/s&gt; cualquier
     
     <item>
       <title>¿Dejarías entrar a Alexa en tu casa?</title>
-      <link>http://www.entredevyops.es/posts/seguridad-alexa.html</link>
+      <link>https://www.entredevyops.es/posts/seguridad-alexa.html</link>
       <pubDate>Tue, 10 Jan 2017 23:25:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/seguridad-alexa.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/eaad251a-d759-11e6-9484-fcae118cc767.png&#39; alt=&#39;Ssh Google Authenticator&#39; class=&#39;align-right&#39; height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/seguridad-alexa.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/eaad251a-d759-11e6-9484-fcae118cc767.png&#39; alt=&#39;Ssh Google Authenticator&#39; class=&#39;align-right&#39; height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;En pleno auge del &lt;a href=&#34;https://es.wikipedia.org/wiki/Internet_de_las_cosas&#34; target=&#34;_blank&#34;&gt;IoT (Intenet de las
 cosas)&lt;/a&gt; Amazon nos presenta un producto que combina hardware y software con el objetivo de ofrecernos una nueva asistenta virtual del hogar que viene a romper las reglas, pero yo me lo
@@ -149,11 +149,11 @@ pensaría dos veces antes de dejarla entrar en mi casa.&lt;/p&gt;
     
     <item>
       <title>Habilitar la autenticación en dos pasos para SSH con Google Authenticator</title>
-      <link>http://www.entredevyops.es/posts/ssh-2fa.html</link>
+      <link>https://www.entredevyops.es/posts/ssh-2fa.html</link>
       <pubDate>Wed, 23 Nov 2016 00:25:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/ssh-2fa.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/4c54eb54-9466-11e6-8a7b-4aa4459dc02f.png&#39; alt=&#39;Ssh Google Authenticator&#39; class=&#39;align-right&#39; height=&#39;150&#39; width=&#39;150&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/ssh-2fa.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/4c54eb54-9466-11e6-8a7b-4aa4459dc02f.png&#39; alt=&#39;Ssh Google Authenticator&#39; class=&#39;align-right&#39; height=&#39;150&#39; width=&#39;150&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;Tal como comenté en mi &lt;a href=&#34;http://www.entredevyops.es/posts/fail2ban-ssh.html&#34; target=&#34;_blank&#34;&gt;pasado artículo en este mismo blog&lt;/a&gt; hace poco detecté que alguna mala persona estaba intentando acceder a mi servidor privado mediante fuerza bruta por SSH. En el artículo de hoy vamos a explicar cómo activar el 2FA (doble factor de autenticación) para acceso SSH con &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&#34; target=&#34;_blank&#34;&gt;Google Authenticator&lt;/a&gt;.&lt;/p&gt;
 
@@ -162,10 +162,10 @@ pensaría dos veces antes de dejarla entrar en mi casa.&lt;/p&gt;
     
     <item>
       <title>¿Qué sabes del Cloud?</title>
-      <link>http://www.entredevyops.es/posts/que-sabes-del-cloud.html</link>
+      <link>https://www.entredevyops.es/posts/que-sabes-del-cloud.html</link>
       <pubDate>Sun, 13 Nov 2016 12:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/que-sabes-del-cloud.html</guid>
+      <guid>https://www.entredevyops.es/posts/que-sabes-del-cloud.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -175,11 +175,11 @@ pensaría dos veces antes de dejarla entrar en mi casa.&lt;/p&gt;
     
     <item>
       <title>TLS: de estándares y lobbies</title>
-      <link>http://www.entredevyops.es/posts/tls-estandares-lobbies.html</link>
+      <link>https://www.entredevyops.es/posts/tls-estandares-lobbies.html</link>
       <pubDate>Fri, 07 Oct 2016 23:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/tls-estandares-lobbies.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/b782e002-8ceb-11e6-8121-7860d9049fab.png&#39; alt=&#39;TLS&#39; class=&#39;align-right&#39; height=&#39;100&#39; width=&#39;150&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/tls-estandares-lobbies.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/b782e002-8ceb-11e6-8121-7860d9049fab.png&#39; alt=&#39;TLS&#39; class=&#39;align-right&#39; height=&#39;100&#39; width=&#39;150&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;El grupo de trabajo de IETF encargado de crear la versión 1.3 de TLS lleva trabajando en él desde abril de 2014.
 Llevan ya &lt;a href=&#34;https://tools.ietf.org/html/draft-ietf-tls-tls13-16&#34; target=&#34;_blank&#34;&gt;16 borradores&lt;/a&gt;, el último de este mismo septiembre, así que la publicación del estándar definitivo
@@ -190,11 +190,11 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;
     
     <item>
       <title>Publicación estática (II)</title>
-      <link>http://www.entredevyops.es/posts/publicacion-estatica-ii.html</link>
+      <link>https://www.entredevyops.es/posts/publicacion-estatica-ii.html</link>
       <pubDate>Sun, 02 Oct 2016 23:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/publicacion-estatica-ii.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://www.entredevyops.es/images/publicacion-estatica-header.png&#34; class=&#34;align-left&#34; alt=&#34;Publicación estática&#34; height=&#34;180&#34; /&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/publicacion-estatica-ii.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.entredevyops.es/images/publicacion-estatica-header.png&#34; class=&#34;align-left&#34; alt=&#34;Publicación estática&#34; height=&#34;180&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Han pasado casi tres meses desde que se publicó el &lt;a href=&#34;http://www.entredevyops.es/posts/publicacion-estatica.html&#34; target=&#34;_blank&#34;&gt;primer artículo sobre publicación estática&lt;/a&gt; en &lt;a href=&#34;http://www.entredevyops.es&#34; target=&#34;_blank&#34;&gt;EntreDevYOps&lt;/a&gt;, en el que se prometía un ejemplo&amp;hellip;
 Lo prometido es deuda.
@@ -207,11 +207,11 @@ Espero que el interés sobre el tema aún siga vigente&amp;hellip;&lt;/p&gt;
     
     <item>
       <title>Usando Fail2Ban para securizar SSH</title>
-      <link>http://www.entredevyops.es/posts/fail2ban-ssh.html</link>
+      <link>https://www.entredevyops.es/posts/fail2ban-ssh.html</link>
       <pubDate>Thu, 08 Sep 2016 15:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/fail2ban-ssh.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/796bbae0-6fd7-11e6-91dc-feb4e6aa9afa.jpg&#39; alt=&#39;Fail2Ban&#39; class=&#39;align-left&#39; height=&#39;80&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/fail2ban-ssh.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/796bbae0-6fd7-11e6-91dc-feb4e6aa9afa.jpg&#39; alt=&#39;Fail2Ban&#39; class=&#39;align-left&#39; height=&#39;80&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;Hace poco realizando tareas de mantenimiento en mi servidor personal vi varios mensajes en los logs que no me gustaron nada: &lt;em&gt;Failed password for root from 121.18.238.22 port 40618 ssh2&lt;/em&gt;.&lt;/p&gt;
 
@@ -222,10 +222,10 @@ Espero que el interés sobre el tema aún siga vigente&amp;hellip;&lt;/p&gt;
     
     <item>
       <title>Páginas estáticas en Amazon - 2</title>
-      <link>http://www.entredevyops.es/posts/paginas-estaticas-amazon-2.html</link>
+      <link>https://www.entredevyops.es/posts/paginas-estaticas-amazon-2.html</link>
       <pubDate>Sun, 04 Sep 2016 12:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/paginas-estaticas-amazon-2.html</guid>
+      <guid>https://www.entredevyops.es/posts/paginas-estaticas-amazon-2.html</guid>
       <description>&lt;p&gt;Continuamos con el curso de páginas estáticas de Amazon, pero esta vez vamos a
 subir las páginas a Amazon. Elegimos un sistema de generación de contenido
 estático. En la siguiente &lt;a href=&#34;https://staticsitegenerators.net&#34; target=&#34;_blank&#34;&gt;página&lt;/a&gt; hay un
@@ -236,11 +236,11 @@ listado muy extenso de este tipo de software.&lt;/p&gt;
     
     <item>
       <title>Amazon Linux, ¿sí o no?</title>
-      <link>http://www.entredevyops.es/posts/amazon-linux-si-o-no.html</link>
+      <link>https://www.entredevyops.es/posts/amazon-linux-si-o-no.html</link>
       <pubDate>Tue, 23 Aug 2016 19:55:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/amazon-linux-si-o-no.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/AmazonWebservices.png&#39; alt=&#39;Amazon Web Services&#39; class=&#39;align-left&#39; height=&#39;80&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/amazon-linux-si-o-no.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/AmazonWebservices.png&#39; alt=&#39;Amazon Web Services&#39; class=&#39;align-left&#39; height=&#39;80&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;Seguro que todos los que usáis o habéis usado Amazon Web Services (AWS para abreviar) alguna vez habréis probado, o usado de forma productiva &lt;a href=&#34;https://aws.amazon.com/es/amazon-linux-ami/&#34; target=&#34;_blank&#34;&gt;Amazon Linux&lt;/a&gt;, la versión de Linux basada en RedHat/CentOS preparada por ellos y &amp;ldquo;equipada&amp;rdquo; para funcionar perfectamente en su servicio EC2.&lt;/p&gt;
 
@@ -251,14 +251,14 @@ listado muy extenso de este tipo de software.&lt;/p&gt;
     
     <item>
       <title>¿Hay consenso en el consenso?</title>
-      <link>http://www.entredevyops.es/posts/hay-consenso-consenso.html</link>
+      <link>https://www.entredevyops.es/posts/hay-consenso-consenso.html</link>
       <pubDate>Thu, 11 Aug 2016 09:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/hay-consenso-consenso.html</guid>
+      <guid>https://www.entredevyops.es/posts/hay-consenso-consenso.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Students&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/55bed744-5fa6-11e6-93ee-f037e8f7b624.jpg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
+&lt;img alt=&#34;Students&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/55bed744-5fa6-11e6-93ee-f037e8f7b624.jpg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
 &lt;p&gt;Imaginad un grupo de alumnos que toma apuntes en clase, anotando todo lo que un profesor dice.
 Este profesor, a menos que le indiquen lo contrario, no se detiene y asume que sus palabras llegan correctamente a todos los estudiantes.
 Si hay algún despistado, siempre puede preguntar al de al lado &lt;em&gt;(&amp;quot;oye, ¿qué acaba de decir?&amp;quot;)&lt;/em&gt; sin interrumpir la clase.&lt;/p&gt;
@@ -267,24 +267,24 @@ Si hay algún despistado, siempre puede preguntar al de al lado &lt;em&gt;(&amp;
     
     <item>
       <title>Todos estamos aquí por el dinero</title>
-      <link>http://www.entredevyops.es/posts/estamos-aqui-por-dinero.html</link>
+      <link>https://www.entredevyops.es/posts/estamos-aqui-por-dinero.html</link>
       <pubDate>Tue, 02 Aug 2016 23:55:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/estamos-aqui-por-dinero.html</guid>
+      <guid>https://www.entredevyops.es/posts/estamos-aqui-por-dinero.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Money&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/cc4fbf3a-5912-11e6-87b6-e220d5f81ecb.jpg&#34; style=&#34;width: 120px; height: 80px;&#34; /&gt;
+&lt;img alt=&#34;Money&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/cc4fbf3a-5912-11e6-87b6-e220d5f81ecb.jpg&#34; style=&#34;width: 120px; height: 80px;&#34; /&gt;
 &lt;p&gt;No os engañéis, todos, del primero al último, estamos aquí por el dinero, y el que diga lo contrario está muy equivocado.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Páginas estáticas en Amazon - 1</title>
-      <link>http://www.entredevyops.es/posts/paginas-estaticas-amazon-1.html</link>
+      <link>https://www.entredevyops.es/posts/paginas-estaticas-amazon-1.html</link>
       <pubDate>Tue, 26 Jul 2016 12:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/paginas-estaticas-amazon-1.html</guid>
+      <guid>https://www.entredevyops.es/posts/paginas-estaticas-amazon-1.html</guid>
       <description>&lt;p&gt;Tal como comentamos el pasado artículo &lt;a href=&#34;http://www.entredevyops.es/posts/publicacion-estatica.html&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Publicación estática&lt;/em&gt;&lt;/a&gt; el uso de sitios estáticos es cada vez más habitual por seguridad o por su eficiencia tal como comentaba &lt;em&gt;Ersiko&lt;/em&gt; en ese mismo artículo, por otro lado tenemos a Amazon como proveedor y líder indiscutible en servicios de computación y en este artículo los vamos a unir.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -292,11 +292,11 @@ Si hay algún despistado, siempre puede preguntar al de al lado &lt;em&gt;(&amp;
     
     <item>
       <title>BBC micro:bit</title>
-      <link>http://www.entredevyops.es/posts/bbc-micro-bit.html</link>
+      <link>https://www.entredevyops.es/posts/bbc-micro-bit.html</link>
       <pubDate>Fri, 22 Jul 2016 12:15:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/bbc-micro-bit.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/bbc-microbit.jpg&#39; alt=&#39;BBC micro:bit&#39; class=&#39;border align-right&#39; height=&#39;180&#39; width=&#39;240&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/bbc-micro-bit.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/bbc-microbit.jpg&#39; alt=&#39;BBC micro:bit&#39; class=&#39;border align-right&#39; height=&#39;180&#39; width=&#39;240&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;Que el fenómeno &lt;a href=&#34;https://es.wikipedia.org/wiki/Internet_de_las_cosas&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Internet of Things&lt;/em&gt;&lt;/a&gt; (también conocido en su forma abreviada como IoT) está de moda es más que un hecho, este nuevo concepto está aquí para quedarse, y por bastante tiempo.&lt;/p&gt;
 
@@ -307,10 +307,10 @@ Si hay algún despistado, siempre puede preguntar al de al lado &lt;em&gt;(&amp;
     
     <item>
       <title>Publicación estática</title>
-      <link>http://www.entredevyops.es/posts/publicacion-estatica.html</link>
+      <link>https://www.entredevyops.es/posts/publicacion-estatica.html</link>
       <pubDate>Mon, 11 Jul 2016 12:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/publicacion-estatica.html</guid>
+      <guid>https://www.entredevyops.es/posts/publicacion-estatica.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -322,10 +322,10 @@ Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticament
     
     <item>
       <title>El fondo de armario de un ingeniero</title>
-      <link>http://www.entredevyops.es/posts/fondo-armario-ingeniero.html</link>
+      <link>https://www.entredevyops.es/posts/fondo-armario-ingeniero.html</link>
       <pubDate>Mon, 04 Jul 2016 12:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/fondo-armario-ingeniero.html</guid>
+      <guid>https://www.entredevyops.es/posts/fondo-armario-ingeniero.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -335,10 +335,10 @@ Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticament
     
     <item>
       <title>Corred, insensatos!</title>
-      <link>http://www.entredevyops.es/posts/full_stack_engineer.html</link>
+      <link>https://www.entredevyops.es/posts/full_stack_engineer.html</link>
       <pubDate>Mon, 07 Mar 2016 09:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/full_stack_engineer.html</guid>
+      <guid>https://www.entredevyops.es/posts/full_stack_engineer.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -349,11 +349,11 @@ Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticament
     
     <item>
       <title>Probando Let&#39;s Encrypt: certificados SSL para todos!</title>
-      <link>http://www.entredevyops.es/posts/laboratorio_lets_encrypt.html</link>
+      <link>https://www.entredevyops.es/posts/laboratorio_lets_encrypt.html</link>
       <pubDate>Wed, 23 Dec 2015 16:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/laboratorio_lets_encrypt.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://www.entredevyops.es/images/c3198b70-ad60-11e5-8736-57bd99ad0ca3.jpg&#34; alt=&#34;Lets Encrypt&#34; /&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/laboratorio_lets_encrypt.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.entredevyops.es/images/c3198b70-ad60-11e5-8736-57bd99ad0ca3.jpg&#34; alt=&#34;Lets Encrypt&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;El pasado día 03/12/2015 &lt;a href=&#34;https://letsencrypt.org/&#34; target=&#34;_blank&#34;&gt;Let&amp;rsquo;s Encrypt&lt;/a&gt; entró en fase beta pública. La idea con la cual nace este proyecto es la de ofrecer &lt;strong&gt;gratuitamente&lt;/strong&gt; certificados X.509 para encriptación TLS a través de procesos automáticos, eliminando los complejos y engorrosos procesos de creación, validación, firma, instalación y renovación de los certificados para la securización de sitios web.&lt;/p&gt;
 
@@ -364,10 +364,10 @@ Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticament
     
     <item>
       <title>Las conferencias OpenNebulaConf 2015</title>
-      <link>http://www.entredevyops.es/posts/opennebula_2015.html</link>
+      <link>https://www.entredevyops.es/posts/opennebula_2015.html</link>
       <pubDate>Tue, 10 Nov 2015 21:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/opennebula_2015.html</guid>
+      <guid>https://www.entredevyops.es/posts/opennebula_2015.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -377,10 +377,10 @@ Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticament
     
     <item>
       <title>OpenNebulaConf 2015</title>
-      <link>http://www.entredevyops.es/posts/opennebulaconf_2015.html</link>
+      <link>https://www.entredevyops.es/posts/opennebulaconf_2015.html</link>
       <pubDate>Tue, 29 Sep 2015 22:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/opennebulaconf_2015.html</guid>
+      <guid>https://www.entredevyops.es/posts/opennebulaconf_2015.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -390,14 +390,14 @@ Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticament
     
     <item>
       <title>Vuelve la dotGo</title>
-      <link>http://www.entredevyops.es/posts/vuelve-dotgo-2015.html</link>
+      <link>https://www.entredevyops.es/posts/vuelve-dotgo-2015.html</link>
       <pubDate>Sat, 26 Sep 2015 15:40:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/vuelve-dotgo-2015.html</guid>
+      <guid>https://www.entredevyops.es/posts/vuelve-dotgo-2015.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;dotGo&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/dotGo-logo.png&#34; /&gt;
+&lt;img alt=&#34;dotGo&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/dotGo-logo.png&#34; /&gt;
 &lt;p&gt;Muchos ya conoceréis el lenguaje &lt;a class=&#34;reference external&#34; href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;, incluso algunos conocerán la &lt;a class=&#34;reference external&#34; href=&#34;http://dotgo.eu/&#34;&gt;dotGo&lt;/a&gt;, la primera conferencia europea sobre &lt;a class=&#34;reference external&#34; href=&#34;http://golang.org/&#34;&gt;Golang&lt;/a&gt;.
 Este año &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/intent/user?original_referer=http%3A%2F%2Fwww.dotconferences.eu%2F&amp;amp;region=following&amp;amp;screen_name=dotConferences&amp;amp;tw_p=followbutton&amp;amp;variant=2.0&#34;&gt;&amp;#64;dotConferences&lt;/a&gt; celebra la segunda edición de este evento, con una expectación de asistencia aún mayor.
 Como ya es costumbre de &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu/&#34;&gt;dotConferences&lt;/a&gt;, la &lt;a class=&#34;reference external&#34; href=&#34;http://dotgo.eu/&#34;&gt;dotGo&lt;/a&gt; se celebrará en un teatro parisino, marco digno del evento.
@@ -407,14 +407,14 @@ El evento, además, seguirá las costumbres de los eventos de &lt;a class=&#34;r
     
     <item>
       <title>Novedades sobre la Distributed Matters BCN 2015</title>
-      <link>http://www.entredevyops.es/posts/novedades-distributed-matters-bcn-2015.html</link>
+      <link>https://www.entredevyops.es/posts/novedades-distributed-matters-bcn-2015.html</link>
       <pubDate>Sun, 20 Sep 2015 12:05:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/novedades-distributed-matters-bcn-2015.html</guid>
+      <guid>https://www.entredevyops.es/posts/novedades-distributed-matters-bcn-2015.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Distributed matters&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/0e706560-5f89-11e5-835e-fbea9e75fec5.png&#34; /&gt;
+&lt;img alt=&#34;Distributed matters&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/0e706560-5f89-11e5-835e-fbea9e75fec5.png&#34; /&gt;
 &lt;p&gt;Como ya comentamos en el último episodio del podcast, para su 4o evento, la &lt;a class=&#34;reference external&#34; href=&#34;http://www.nosql-matters.org/&#34;&gt;NoSQL matters&lt;/a&gt; ha cambiado su nombre a &lt;a class=&#34;reference external&#34; href=&#34;https://www.distributed-matters.org/&#34;&gt;Distributed matters&lt;/a&gt;.
 De ese modo, se amplía el ámbito de temas tratados en sus conferencias a asuntos tan interesantes y relacionados con los sistemas NoSQL.
 Con ello, los temas de los que se hablará serán, principalmente, sistemas distribuidos, microservicios, gestión y administración del &lt;em&gt;Cloud&lt;/em&gt;, soluciones de bases de datos, NoSQL, Big Data y DevOps.&lt;/p&gt;
@@ -424,14 +424,14 @@ Con ello, los temas de los que se hablará serán, principalmente, sistemas dist
     
     <item>
       <title>Webinarios de AWS para septiembre</title>
-      <link>http://www.entredevyops.es/posts/webinarios-aws-septiembre.html</link>
+      <link>https://www.entredevyops.es/posts/webinarios-aws-septiembre.html</link>
       <pubDate>Thu, 14 May 2015 00:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/webinarios-aws-septiembre.html</guid>
+      <guid>https://www.entredevyops.es/posts/webinarios-aws-septiembre.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/AmazonWebservices.png&#34; style=&#34;width: 200px; height: 80px;&#34; /&gt;
+&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/AmazonWebservices.png&#34; style=&#34;width: 200px; height: 80px;&#34; /&gt;
 &lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.hp.com/es/es&#34;&gt;AWS&lt;/a&gt; está poniéndose las pilas en cuanto a formación se refiere.
 Este mes de septiembre propone una serie de webinarios sobre diferentes servicios, entre ellos, algunos de los más nuevos.
 Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34;reference external&#34; href=&#34;http://www.hp.com/es/es&#34;&gt;AWS&lt;/a&gt; ofrece como &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/redshift/&#34;&gt;Redshift&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/lambda/&#34;&gt;Lambda&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/dynamodb/&#34;&gt;DynamoDB&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/glacier/&#34;&gt;Glacier&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/ecs/details/&#34;&gt;EC2 Container Service&lt;/a&gt; y otros.&lt;/p&gt;
@@ -440,14 +440,14 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
     
     <item>
       <title>Webinarios sobre la plataforma HP Helion</title>
-      <link>http://www.entredevyops.es/posts/webinarios-hp-helion.html</link>
+      <link>https://www.entredevyops.es/posts/webinarios-hp-helion.html</link>
       <pubDate>Wed, 13 May 2015 23:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/webinarios-hp-helion.html</guid>
+      <guid>https://www.entredevyops.es/posts/webinarios-hp-helion.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;HP&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/81814a0c-5a6f-11e5-928d-8f899736a0cb.jpg&#34; style=&#34;width: 120px;&#34; /&gt;
+&lt;img alt=&#34;HP&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/81814a0c-5a6f-11e5-928d-8f899736a0cb.jpg&#34; style=&#34;width: 120px;&#34; /&gt;
 &lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.hp.com/es/es&#34;&gt;HP&lt;/a&gt; ha estado presentando su plataforma &lt;a class=&#34;reference external&#34; href=&#34;http://www8.hp.com/es/es/cloud/helion-overview.html&#34;&gt;Helion&lt;/a&gt;, basada en &lt;a class=&#34;reference external&#34; href=&#34;http://www.openstack.org&#34;&gt;OpenStack&lt;/a&gt;, para permanecer en el mercado de la computación en la nube.
 Por ello están llevando a cabo una campaña de divulgación de la plataforma, de la que forman parte &lt;a class=&#34;reference external&#34; href=&#34;http://hphelion.bemyapp.com/meetup/&#34;&gt;estos cinco webinarios&lt;/a&gt; que presentan.
 Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis a punto para inscribiros en el resto.&lt;/p&gt;
@@ -456,14 +456,14 @@ Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis
     
     <item>
       <title>Anuncio de la NoSQL matters BCN 2015</title>
-      <link>http://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2015.html</link>
+      <link>https://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2015.html</link>
       <pubDate>Mon, 11 May 2015 21:25:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2015.html</guid>
+      <guid>https://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2015.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
+&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
 &lt;p&gt;Ya se ha anunciado la cuarta edición de la &lt;a class=&#34;reference external&#34; href=&#34;http://2015.nosql-matters.org/bcn/&#34;&gt;NoSQL matters Barcelona&lt;/a&gt;.
 El evento se celebrará durante los días 20 y 21 de noviembre y, como las anteriores ediciones, tendrá lugar en la bonita &lt;a class=&#34;reference external&#34; href=&#34;http://www.uab-casaconvalescencia.org/en/index.php&#34;&gt;Casa de la Convalescència&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;El pasado día 27 de abril se anunció el inicio del período para presentar propuestas de charlas.
@@ -474,14 +474,14 @@ En este artículo podréis encontrar todo lo que sabemos por ahora.&lt;/p&gt;
     
     <item>
       <title>OpenFlow, democratizando SDN</title>
-      <link>http://www.entredevyops.es/posts/openflow-sdn.html</link>
+      <link>https://www.entredevyops.es/posts/openflow-sdn.html</link>
       <pubDate>Wed, 18 Feb 2015 10:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/openflow-sdn.html</guid>
+      <guid>https://www.entredevyops.es/posts/openflow-sdn.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;OpenFlow&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/OpenFlow-Logo-Small.jpg&#34; /&gt;
+&lt;img alt=&#34;OpenFlow&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/OpenFlow-Logo-Small.jpg&#34; /&gt;
 &lt;p&gt;Más vale tarde que nunca: si hace ya un tiempo nos arrancamos con una &lt;a class=&#34;reference external&#34; href=&#34;http://www.entredevyops.es/posts/sdn-nfv-wtf.html&#34;&gt;introducción teórica&lt;/a&gt; a las diferentes filosofías de virtualización de red, hoy retomamos el tema para ahondar en conceptos más específicos.&lt;/p&gt;
 &lt;p&gt;Hablemos de OpenFlow, probablemente la tecnología SDN más popular hoy en día.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -489,14 +489,14 @@ En este artículo podréis encontrar todo lo que sabemos por ahora.&lt;/p&gt;
     
     <item>
       <title>Viaje a la FOSDEM 2015</title>
-      <link>http://www.entredevyops.es/posts/fosdem-2015.html</link>
+      <link>https://www.entredevyops.es/posts/fosdem-2015.html</link>
       <pubDate>Wed, 11 Feb 2015 12:05:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/fosdem-2015.html</guid>
+      <guid>https://www.entredevyops.es/posts/fosdem-2015.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Logo del FOSDEM&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/fosdem.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;
+&lt;img alt=&#34;Logo del FOSDEM&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/fosdem.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;
 &lt;p&gt;Como muchos ya sabréis, solemos ir cada año a la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt;, que tiene lugar el primer fin de semana de Febrero en Bruselas. No vamos a ponernos a explicar qué es la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt;, hemos hablado mucho describiéndola, tanto en nuestros podcasts, como en nuestros posts, como en muchos otros lugares... Tampoco vamos a explicaros que hizo mucho frío, que hubo mucha gente, o que bebimos mucha cerv..., digooooo, que hizo mucho frío, que hubo mucha gente, ...&lt;/p&gt;
 &lt;p&gt;Podríamos contaros que apareció por ahí &lt;a class=&#34;reference external&#34; href=&#34;https://stallman.org/&#34;&gt;Richard Stallman&lt;/a&gt; repartiendo &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/images/octavilla_Stallman_FOSDEM_2015.jpg&#34;&gt;octavillas&lt;/a&gt; destacando que la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; había dejado de definirse como un evento de software libre, o que hubo bastante barullo sobre el establecimiento de un &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/fosdem/status/561885201383821312&#34;&gt;código de conducta&lt;/a&gt; para la siguiente edición... No obstante, como sabemos lo que os importa, os detallamos, en este artículo, algunas de las charlas que más nos gustaron.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -504,24 +504,24 @@ En este artículo podréis encontrar todo lo que sabemos por ahora.&lt;/p&gt;
     
     <item>
       <title>Cursos sobre Scrum, DevOps y Lean IT</title>
-      <link>http://www.entredevyops.es/posts/cursos-scrum-devops-lean-it.html</link>
+      <link>https://www.entredevyops.es/posts/cursos-scrum-devops-lean-it.html</link>
       <pubDate>Tue, 10 Feb 2015 20:05:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/cursos-scrum-devops-lean-it.html</guid>
+      <guid>https://www.entredevyops.es/posts/cursos-scrum-devops-lean-it.html</guid>
       <description>¿Qué puede haber mejor para empezar el año nuevo que apuntarse a un curso? Bueno, posiblemente, bastantes otras cosas, pero por si estáis planteándoos un cambio o sentís la necesidad de aprender, en este post os damos la referencia de dos cursos.
 Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Management, Scrum, DevOps y Lean IT, como el impartido el curso pasado, y que comenzará el próximo 17 de Marzo.</description>
     </item>
     
     <item>
       <title>¿Cuál es el trabajo de un gestor?</title>
-      <link>http://www.entredevyops.es/posts/cual-es-el-trabajo-de-un-gestor.html</link>
+      <link>https://www.entredevyops.es/posts/cual-es-el-trabajo-de-un-gestor.html</link>
       <pubDate>Wed, 07 Jan 2015 18:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/cual-es-el-trabajo-de-un-gestor.html</guid>
+      <guid>https://www.entredevyops.es/posts/cual-es-el-trabajo-de-un-gestor.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Podcast&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/manager.jpg&#34; style=&#34;width: 230px; height: 150px;&#34; /&gt;
+&lt;img alt=&#34;Podcast&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/manager.jpg&#34; style=&#34;width: 230px; height: 150px;&#34; /&gt;
 &lt;p&gt;Muchas veces en mi trabajo oigo frases provenientes de los técnicos, hacia los gestores, del estilo “no sé qué trabajo hacéis los gestores” o “no hacen más que reunirse todo el día y hacer reenvíos de emails, no hacen nada”, y así puedo enumerar cientos de ellas.&lt;/p&gt;
 &lt;p&gt;¿Qué hay de cierto en estos comentarios? En este breve post intento plasmar mi visión de cual es el trabajo de un gestor, recogida desde mi corta experiencia,  de un técnico que ha pasado a gestor dentro del ámbito de una empresa tecnológica.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -529,14 +529,14 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Man
     
     <item>
       <title>NoSQL Matters BCN 2014</title>
-      <link>http://www.entredevyops.es/posts/nosql-matters-bcn-2014.html</link>
+      <link>https://www.entredevyops.es/posts/nosql-matters-bcn-2014.html</link>
       <pubDate>Sun, 30 Nov 2014 22:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/nosql-matters-bcn-2014.html</guid>
+      <guid>https://www.entredevyops.es/posts/nosql-matters-bcn-2014.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
+&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
 &lt;p&gt;Los pasados 20 y 21 de Noviembre tuvo lugar la tercera edición de la &lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/bcn/homepage/&#34;&gt;NoSQL matters Barcelona 2014&lt;/a&gt; a la que tuvimos la oportunidad de asistir, y que este artículo trata de resumir. Recordad que estas conferencias comprenden un día de talleres, y otro de charlas, celebrándose ambos en las instalaciones del Hospital de Sant Pau, conocidas como &lt;a class=&#34;reference external&#34; href=&#34;http://www.uab-casaconvalescencia.org/en/index.php&#34;&gt;Casa de la Convalescència&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Como cada año, ha sido una oportunidad espléndida de encontrarse con gran parte de la comunidad NoSQL, y hablar de los últimos cambios y novedades. En cuanto a los talleres, este año ha habido más afluencia. Además, se podría decir que la coincidencia con la &lt;a class=&#34;reference external&#34; href=&#34;http://strataconf.com/strataeu2014&#34;&gt;Strata&lt;/a&gt; de &lt;a class=&#34;reference external&#34; href=&#34;http://oreilly.com&#34;&gt;O&#39;Reilly&lt;/a&gt; podría haber provocado que mucha gente se decidiera a asistir también al evento sobre NoSQL.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -544,14 +544,14 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Man
     
     <item>
       <title>Dos días en la VelocityConf</title>
-      <link>http://www.entredevyops.es/posts/dos-dias-velocity-conf.html</link>
+      <link>https://www.entredevyops.es/posts/dos-dias-velocity-conf.html</link>
       <pubDate>Sun, 30 Nov 2014 12:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/dos-dias-velocity-conf.html</guid>
+      <guid>https://www.entredevyops.es/posts/dos-dias-velocity-conf.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
+&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
 &lt;p&gt;Aunque hace unos días que pasó la &lt;a class=&#34;reference external&#34; href=&#34;http://velocityconf.com/velocityeu2014&#34;&gt;VelocityConf Europe 2014&lt;/a&gt;, publicamos este artículo para destacar algunas de las charlas que se dieron en el evento.
 En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que resultaban muy accesibles, eran también autores de libros de &lt;a class=&#34;reference external&#34; href=&#34;http://www.oreilly.com&#34;&gt;O&#39;Reilly&lt;/a&gt;, tanto de la talla de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/Souders&#34;&gt;Steve Souders&lt;/a&gt; o &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/allspaw&#34;&gt;John Allspaw&lt;/a&gt; como de la relevancia de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/igrigorik&#34;&gt;Ilya Grigorik&lt;/a&gt;. Durante los dos primeros días, hubo algunas firmas de libros, que regalaban a los veinte primeros.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -559,135 +559,135 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
     
     <item>
       <title>Sobre la VelocityConf (II)</title>
-      <link>http://www.entredevyops.es/posts/sobre-la-velocity-conf-2.html</link>
+      <link>https://www.entredevyops.es/posts/sobre-la-velocity-conf-2.html</link>
       <pubDate>Mon, 03 Nov 2014 22:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/sobre-la-velocity-conf-2.html</guid>
+      <guid>https://www.entredevyops.es/posts/sobre-la-velocity-conf-2.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
+&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
 &lt;p&gt;En este artículo continuamos con el detalle de lo que depara la &lt;a class=&#34;reference external&#34; href=&#34;http://velocityconf.com/velocityeu2014&#34;&gt;VelocityConf Europe 2014&lt;/a&gt;, que empieza mañana. Os recordamos que podéis acceder a los &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/posts/concurso-velocity.html&#34;&gt;descuentos&lt;/a&gt; que publicamos para las entradas.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Noticias interesantes sobre AWS</title>
-      <link>http://www.entredevyops.es/posts/noticias-sobre-aws-interact-redis-frankfurt.html</link>
+      <link>https://www.entredevyops.es/posts/noticias-sobre-aws-interact-redis-frankfurt.html</link>
       <pubDate>Mon, 03 Nov 2014 01:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/noticias-sobre-aws-interact-redis-frankfurt.html</guid>
+      <guid>https://www.entredevyops.es/posts/noticias-sobre-aws-interact-redis-frankfurt.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;AWS&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/AmazonWebservices.png&#34; style=&#34;width: 200px; height: 80px;&#34; /&gt;
+&lt;img alt=&#34;AWS&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/AmazonWebservices.png&#34; style=&#34;width: 200px; height: 80px;&#34; /&gt;
 &lt;p&gt;Recientemente, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/&#34;&gt;Amazon WebServices&lt;/a&gt; ha publicado tres noticias bastante relevantes. En este artículo las comentamos un poco.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>HTML5 finalizado</title>
-      <link>http://www.entredevyops.es/posts/html5-finalizado.html</link>
+      <link>https://www.entredevyops.es/posts/html5-finalizado.html</link>
       <pubDate>Thu, 30 Oct 2014 18:50:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/html5-finalizado.html</guid>
+      <guid>https://www.entredevyops.es/posts/html5-finalizado.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;HTML5&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/html5.png&#34; /&gt;
+&lt;img alt=&#34;HTML5&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/html5.png&#34; /&gt;
 &lt;p&gt;A pesar de llevar años entre nosotros, sobretodo, gracias al empuje de Google con su &amp;quot;joven&amp;quot; navegador Chrome, a la fundación Mozilla con Firefox, y al rápido crecimiento y cada vez uso más generalizado de &lt;em&gt;smartphones&lt;/em&gt;, el &lt;a class=&#34;reference external&#34; href=&#34;http://www.w3.org/blog/news/archives/4167&#34;&gt;pasado día 28 de Octubre&lt;/a&gt;, el &lt;a class=&#34;reference external&#34; href=&#34;http://www.w3.org/&#34;&gt;W3C&lt;/a&gt; dio por finalizado el estándar &lt;a class=&#34;reference external&#34; href=&#34;http://www.w3.org/TR/2014/REC-html5-20141028/&#34;&gt;HTML5&lt;/a&gt; pasándolo al estado de recomendación.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Sobre la VelocityConf (I)</title>
-      <link>http://www.entredevyops.es/posts/sobre-la-velocity-conf-1.html</link>
+      <link>https://www.entredevyops.es/posts/sobre-la-velocity-conf-1.html</link>
       <pubDate>Wed, 29 Oct 2014 02:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/sobre-la-velocity-conf-1.html</guid>
+      <guid>https://www.entredevyops.es/posts/sobre-la-velocity-conf-1.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
+&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
 &lt;p&gt;Con el &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/posts/concurso-velocity.html&#34;&gt;sorteo de una entrada&lt;/a&gt; para los dos primeros días de la &lt;a class=&#34;reference external&#34; href=&#34;http://velocityconf.com/velocityeu2014&#34;&gt;VelocityConf Europe 2014&lt;/a&gt; en marcha, hemos pensado que sería una buena idea dar una idea de lo que se avecina, a ver si os animáis a participar un poco más. Os recordamos que además del sorteo, también podéis acceder a un descuento de 250 euros para las entradas de 2 y 3 días, y otro del 20%, útil para la de un día.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Coding Dojo en Python</title>
-      <link>http://www.entredevyops.es/posts/coding-dojo-python-noviembre.html</link>
+      <link>https://www.entredevyops.es/posts/coding-dojo-python-noviembre.html</link>
       <pubDate>Mon, 27 Oct 2014 23:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/coding-dojo-python-noviembre.html</guid>
+      <guid>https://www.entredevyops.es/posts/coding-dojo-python-noviembre.html</guid>
       <description>El próximo sábado, 15 de noviembre, se celebrará un Coding Dojo del grupo de Python BCN, en el que se practicará con la técnica de mocking. El evento tendrá lugar en el Punt Multimèdia del Parc de l&#39;Espanya Industrial, en Barcelona. Si queréis asistir, debéis apuntaros.</description>
     </item>
     
     <item>
       <title>2014, el año de las vulnerabilidades</title>
-      <link>http://www.entredevyops.es/posts/2014-vulnerabilidades.html</link>
+      <link>https://www.entredevyops.es/posts/2014-vulnerabilidades.html</link>
       <pubDate>Sun, 26 Oct 2014 21:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/2014-vulnerabilidades.html</guid>
+      <guid>https://www.entredevyops.es/posts/2014-vulnerabilidades.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Securidad&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/security.jpg&#34; /&gt;
+&lt;img alt=&#34;Securidad&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/security.jpg&#34; /&gt;
 &lt;p&gt;Este año 2014 se ha convertido en un verdadero calvario para los administradores de sistemas y los responsables de seguridad de muchas empresas, sobretodo las que proporcionan servicios en Internet. A falta de dos meses para que finalice el año, ya son tres las vulnerabilidades graves detectadas que nos han puesto en jaque. Hablamos de &lt;a class=&#34;reference external&#34; href=&#34;https://en.wikipedia.org/wiki/Heartbleed&#34;&gt;Heartbleed&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://en.wikipedia.org/wiki/Shellshock_(software_bug)&#34;&gt;Shellshock&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;https://en.wikipedia.org/wiki/Transport_Layer_Security#POODLE_attack&#34;&gt;Poodle&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Concurso de una entrada para la Velocity Conf Europe 2014</title>
-      <link>http://www.entredevyops.es/posts/concurso-velocity.html</link>
+      <link>https://www.entredevyops.es/posts/concurso-velocity.html</link>
       <pubDate>Wed, 15 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/concurso-velocity.html</guid>
+      <guid>https://www.entredevyops.es/posts/concurso-velocity.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
+&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
 &lt;p&gt;Como ya comentamos en nuestro podcast, del 17 al 19 de noviembre se celebrará la &lt;a class=&#34;reference external&#34; href=&#34;http://velocityconf.com/velocityeu2014&#34;&gt;VelocityConf Europe 2014&lt;/a&gt; en Barcelona. Estas conferencias reúnen a algunos de los gurús más reconocidos del mundo del rendimiento y operaciones web. Queremos agradecer a &lt;a class=&#34;reference external&#34; href=&#34;http://oreilly.com/&#34;&gt;O&#39;Reilly&lt;/a&gt;, organizadores de esta conferencia, que nos hayan cedido un par de descuentos para las entradas... y una entrada para sortear entre nuestra audiencia. En este post os explicamos cómo podéis participar.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Todo listo para la NoSQL matters BCN 2014</title>
-      <link>http://www.entredevyops.es/posts/todo-listo-nosql-matters-bcn-2014.html</link>
+      <link>https://www.entredevyops.es/posts/todo-listo-nosql-matters-bcn-2014.html</link>
       <pubDate>Sun, 05 Oct 2014 22:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/todo-listo-nosql-matters-bcn-2014.html</guid>
+      <guid>https://www.entredevyops.es/posts/todo-listo-nosql-matters-bcn-2014.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
+&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
 &lt;p&gt;Poco más de un mes es el tiempo que queda para el inicio de la conferencia &lt;a class=&#34;reference external&#34; href=&#34;https://2014.nosql-matters.org/bcn/&#34;&gt;NoSQL matters Barcelona&lt;/a&gt; y tanto los descuentos &lt;em&gt;Early Bird&lt;/em&gt; como los &lt;em&gt;Summer Bird&lt;/em&gt; están agotados, pero no os preocupéis, en &lt;strong&gt;Entre Dev y Ops&lt;/strong&gt; pensamos en vosotros y os dejamos un código promocional (agradecer a la organización el hecho de habernos facilitado dicho código) para que podáis adquirir vuestra entrada a un mejor precio.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>El límite de los técnicos</title>
-      <link>http://www.entredevyops.es/posts/el-limite-de-los-tecnicos.html</link>
+      <link>https://www.entredevyops.es/posts/el-limite-de-los-tecnicos.html</link>
       <pubDate>Wed, 24 Sep 2014 08:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/el-limite-de-los-tecnicos.html</guid>
+      <guid>https://www.entredevyops.es/posts/el-limite-de-los-tecnicos.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;El límite de los técnicos&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/stop.jpg&#34; style=&#34;width: 203px; height: 172px;&#34; /&gt;
+&lt;img alt=&#34;El límite de los técnicos&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/stop.jpg&#34; style=&#34;width: 203px; height: 172px;&#34; /&gt;
 &lt;p&gt;En el pasado &lt;a class=&#34;reference external&#34; href=&#34;http://sudoers-barcelona.wikia.com/wiki/Sudoers_Barcelona_Wiki&#34;&gt;Sudoers BCN&lt;/a&gt;, más concretamente en las cervezas post sudoers, mantuve una interesante conversación con una persona que actualmente trabaja como administrador de sistemas freelance. Durante la conversación me contó que antiguamente trabajaba para una gran empresa como técnico, pero que llegado a cierto punto, para poder seguir evolucionando (tanto económicamente como profesionalmente) se le requería que cambiase su rol a un perfil de gestión. Este tipo de cambio no le gustó, y fue el detonante por el cual decidió hacerse administrador de sistemas freelance, y así dedicarse en su totalidad al mundo técnico sin tener ningún tipo de limitación impuesta por terceros.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Descuentos, talleres y más conferenciantes en la NoSQL matters BCN</title>
-      <link>http://www.entredevyops.es/posts/descuentos-talleres-conferenciantes-nosql-matters-bcn-2014.html</link>
+      <link>https://www.entredevyops.es/posts/descuentos-talleres-conferenciantes-nosql-matters-bcn-2014.html</link>
       <pubDate>Tue, 23 Sep 2014 00:16:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/descuentos-talleres-conferenciantes-nosql-matters-bcn-2014.html</guid>
+      <guid>https://www.entredevyops.es/posts/descuentos-talleres-conferenciantes-nosql-matters-bcn-2014.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
+&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
 &lt;p&gt;Continuando con los artículos sobre la &lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/bcn/&#34;&gt;NoSQL matters Barcelona&lt;/a&gt;, os traemos las últimas novedades sobre la conferencia.&lt;/p&gt;
 &lt;p&gt;Para los que se perdieron los anteriores artículos, se trata de unas conferencias sobre NoSQL, en general, con charlas de ponentes de primera línea, tanto desarrolladores de los motores como desarrolladores que los utilizan para sus aplicaciones.&lt;/p&gt;
 &lt;p&gt;La próxima &lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/bcn/&#34;&gt;NoSQL matters Barcelona&lt;/a&gt; tendrá lugar el 21 y 22 de noviembre en la &lt;a class=&#34;reference external&#34; href=&#34;http://www.uab-casaconvalescencia.org/en/index.php&#34;&gt;Casa de la Convalescència&lt;/a&gt;. Recordad que siempre podéis contactar con ellos vía Twitter en &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/nosqlmatters&#34;&gt;&amp;#64;nosqlmatters&lt;/a&gt; y que podréis seguir el evento con el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/hashtag/nosql14&#34;&gt;#nosql14&lt;/a&gt;.&lt;/p&gt;
@@ -696,24 +696,24 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
     
     <item>
       <title>11 cosas sobre DevOps (11): Mi tercer patrón DevOps favorito</title>
-      <link>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-11.html</link>
+      <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-11.html</link>
       <pubDate>Mon, 08 Sep 2014 08:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-11.html</guid>
+      <guid>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-11.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Bucle de retroalimentación&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/estandarizacion.jpg&#34; /&gt;
+&lt;img alt=&#34;Bucle de retroalimentación&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/estandarizacion.jpg&#34; /&gt;
 &lt;p&gt;Para finalizar esta serie de &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim&#34;&gt;Gene Kim&lt;/a&gt;, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Laboratorio de sslh: Un puerto para dominarlos a todos</title>
-      <link>http://www.entredevyops.es/posts/laboratorio-sslh.html</link>
+      <link>https://www.entredevyops.es/posts/laboratorio-sslh.html</link>
       <pubDate>Wed, 27 Aug 2014 19:55:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/laboratorio-sslh.html</guid>
+      <guid>https://www.entredevyops.es/posts/laboratorio-sslh.html</guid>
       <description>&lt;p&gt;En muchas redes corporativas me estoy encontrado que una manera que tienen los administradores de controlar la actividad de sus usuarios es bloquear el acceso de los clientes a ciertos puertos mediante reglas de firewall (por ejemplo denegar toda conexión al puerto 22 o solo permitir conexiones al puerto 80 o 443). Medida para nada afectiva, ya que no garantiza que el usuario no se conecte al servicio no deseado, sino que no se conecte al puerto por defecto de dicho servicio. Para saltarse esta restricción es tan sencillo como configurar el servicio en uno de los puertos permitidos.&lt;/p&gt;
 
 &lt;p&gt;Si bien es cierto que puede ser bastante molesto, ya que obliga a modificar configuraciones, puede suponer un problema si ya tenemos un servicio activo en el puerto requerido. Esto me motivó a buscar la manera de, a través de un único puerto de un servidor, se pudiera acceder a diversos servicios.&lt;/p&gt;
@@ -723,14 +723,14 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
     
     <item>
       <title>Tiquets y primeros ponentes de la NoSQL matters BCN 2014 ya disponibles</title>
-      <link>http://www.entredevyops.es/posts/tiquets-primeros-ponentes-nosql-matters-bcn-2014.html</link>
+      <link>https://www.entredevyops.es/posts/tiquets-primeros-ponentes-nosql-matters-bcn-2014.html</link>
       <pubDate>Tue, 26 Aug 2014 22:16:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/tiquets-primeros-ponentes-nosql-matters-bcn-2014.html</guid>
+      <guid>https://www.entredevyops.es/posts/tiquets-primeros-ponentes-nosql-matters-bcn-2014.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
+&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
 &lt;p&gt;Hace más de un mes publicamos un mensaje del equipo de &lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/cgn/&#34;&gt;NoSQL matters&lt;/a&gt; anunciando la próxima &lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/bcn/&#34;&gt;NoSQL matters Barcelona&lt;/a&gt;, que tendrá lugar el 21 y 22 de noviembre en la &lt;a class=&#34;reference external&#34; href=&#34;http://www.uab-casaconvalescencia.org/en/index.php&#34;&gt;Casa de la Convalescència&lt;/a&gt;. La &lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/cgn/&#34;&gt;NoSQL matters&lt;/a&gt; es una de las mejores conferencias para enterarse y aprender sobre NoSQL y los distintos motores que existen y que se están desarrollando. Sus organizadores ponen un gran esfuerzo en tener a los mejores ponentes, que suelen ser grandes expertos en los diferentes motores en los que trabajan. Recordad que siempre podéis contactar con ellos vía Twitter en &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/nosqlmatters&#34;&gt;&amp;#64;nosqlmatters&lt;/a&gt; y que podréis seguir el evento con el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/hashtag/nosql14&#34;&gt;#nosql14&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Hoy traemos algunas novedades sobre las entradas y los conferenciantes para aquellos interesados.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -738,24 +738,24 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
     
     <item>
       <title>Conferencia Agile Spain 2014, en Barcelona en Diciembre</title>
-      <link>http://www.entredevyops.es/posts/cas2014-cfp-y-early-birds.html</link>
+      <link>https://www.entredevyops.es/posts/cas2014-cfp-y-early-birds.html</link>
       <pubDate>Sun, 24 Aug 2014 00:20:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/cas2014-cfp-y-early-birds.html</guid>
+      <guid>https://www.entredevyops.es/posts/cas2014-cfp-y-early-birds.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;CAS 2014&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/logo-cas.png&#34; /&gt;
+&lt;img alt=&#34;CAS 2014&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/logo-cas.png&#34; /&gt;
 &lt;p&gt;Los días 4 y 5 de Diciembre, la asociación &lt;a class=&#34;reference external&#34; href=&#34;http://agile-spain.org/en&#34;&gt;Agile-Spain&lt;/a&gt; organiza las &lt;a class=&#34;reference external&#34; href=&#34;http://cas2014.agile-spain.org/&#34;&gt;Conferencias Agile Spain 2014&lt;/a&gt;, que tendrán lugar en el CCCB (Centre de Cultura Contemporània de Barcelona), y para las que ya han iniciado el período de aceptación de charlas y la venta de las primeras entradas. Una cita que más vale no perderse.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>512000 es el número que se contará...</title>
-      <link>http://www.entredevyops.es/posts/512000-numero-contara.html</link>
+      <link>https://www.entredevyops.es/posts/512000-numero-contara.html</link>
       <pubDate>Wed, 13 Aug 2014 20:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/512000-numero-contara.html</guid>
+      <guid>https://www.entredevyops.es/posts/512000-numero-contara.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -769,38 +769,38 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
     
     <item>
       <title>11 cosas sobre DevOps (10): Mi segundo patrón DevOps favorito</title>
-      <link>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-10.html</link>
+      <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-10.html</link>
       <pubDate>Sun, 27 Jul 2014 00:35:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-10.html</guid>
+      <guid>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-10.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Bucle de retroalimentación&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/Feedback_Loop.png&#34; /&gt;
+&lt;img alt=&#34;Bucle de retroalimentación&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/Feedback_Loop.png&#34; /&gt;
 &lt;p&gt;La penúltima entrega de &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim&#34;&gt;Gene Kim&lt;/a&gt;, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Anuncio de la dotGo 2014</title>
-      <link>http://www.entredevyops.es/posts/anuncio-dotgo-2014.html</link>
+      <link>https://www.entredevyops.es/posts/anuncio-dotgo-2014.html</link>
       <pubDate>Sat, 26 Jul 2014 02:40:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/anuncio-dotgo-2014.html</guid>
+      <guid>https://www.entredevyops.es/posts/anuncio-dotgo-2014.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;dotGo&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/dotGo-logo.png&#34; /&gt;
+&lt;img alt=&#34;dotGo&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/dotGo-logo.png&#34; /&gt;
 &lt;p&gt;Basado en la filosofía de Python y una sintaxis derivada de C, el lenguaje Go ya conocido por muchos, es una herramienta que se tercia bastante útil en este mundo de escala cada vez mayor. Siendo lo que más destacan sus adeptos su facilidad en la implementación de concurrencia y su portabilidad, cada vez más se va acercando al paisaje de lenguajes mayoritarios. Tanto es así que la gente de &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu/&#34;&gt;dotConferences&lt;/a&gt; ha decidido este año organizar una de sus conferencias sobre Go... y, como son así de majos, os pasamos un descuento del 20%. &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/intent/user?original_referer=http%3A%2F%2Fwww.dotconferences.eu%2F&amp;amp;region=following&amp;amp;screen_name=dotConferences&amp;amp;tw_p=followbutton&amp;amp;variant=2.0&#34;&gt;&amp;#64;dotConferences&lt;/a&gt;, gracias!&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>SDN... NFV... ¿WTF?</title>
-      <link>http://www.entredevyops.es/posts/sdn-nfv-wtf.html</link>
+      <link>https://www.entredevyops.es/posts/sdn-nfv-wtf.html</link>
       <pubDate>Tue, 22 Jul 2014 21:20:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/sdn-nfv-wtf.html</guid>
+      <guid>https://www.entredevyops.es/posts/sdn-nfv-wtf.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -810,24 +810,24 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
     
     <item>
       <title>DigitalOcean anuncia nueva región en Londres</title>
-      <link>http://www.entredevyops.es/posts/digitalocean-nueva-region-londres.html</link>
+      <link>https://www.entredevyops.es/posts/digitalocean-nueva-region-londres.html</link>
       <pubDate>Tue, 15 Jul 2014 23:40:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/digitalocean-nueva-region-londres.html</guid>
+      <guid>https://www.entredevyops.es/posts/digitalocean-nueva-region-londres.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Digital Ocean&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/digitalocean_logo.png&#34; style=&#34;width: 200px; height: 122px;&#34; /&gt;
+&lt;img alt=&#34;Digital Ocean&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/digitalocean_logo.png&#34; style=&#34;width: 200px; height: 122px;&#34; /&gt;
 &lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.digitalocean.com&#34;&gt;DigitalOcean&lt;/a&gt; ha anunciado hoy &lt;a class=&#34;reference external&#34; href=&#34;https://www.digitalocean.com/company/blog/introducing-our-london-region/&#34;&gt;en su blog&lt;/a&gt; la disponibilidad de una nueva región para la creación de &lt;a class=&#34;reference external&#34; href=&#34;https://www.digitalocean.com/help/technical/general/&#34;&gt;droplets&lt;/a&gt; (denominación de este servicio para instancias de servidores), esta nueva región ubicada en Londres es la tercera que este servicio dispone ya en Europa, junto a las dos existentes en Amsterdam.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Primeros pasos con OpenStack</title>
-      <link>http://www.entredevyops.es/posts/primeros-pasos-openstack.html</link>
+      <link>https://www.entredevyops.es/posts/primeros-pasos-openstack.html</link>
       <pubDate>Wed, 09 Jul 2014 04:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/primeros-pasos-openstack.html</guid>
+      <guid>https://www.entredevyops.es/posts/primeros-pasos-openstack.html</guid>
       <description>&lt;p&gt;Continuando con nuestro pequeño laboratorio OpenStack necesitamos crear las nuevas redes.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -835,10 +835,10 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
     
     <item>
       <title>SSH: Acceso remoto a servidores</title>
-      <link>http://www.entredevyops.es/posts/ssh-acceso-remoto-servidores.html</link>
+      <link>https://www.entredevyops.es/posts/ssh-acceso-remoto-servidores.html</link>
       <pubDate>Sat, 05 Jul 2014 10:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/ssh-acceso-remoto-servidores.html</guid>
+      <guid>https://www.entredevyops.es/posts/ssh-acceso-remoto-servidores.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -848,24 +848,24 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
     
     <item>
       <title>Anuncio de la NoSQL matters BCN 2014</title>
-      <link>http://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2014.html</link>
+      <link>https://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2014.html</link>
       <pubDate>Sat, 05 Jul 2014 01:35:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2014.html</guid>
+      <guid>https://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2014.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
+&lt;img alt=&#34;NoSQL matters&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/logo_nosqlmatters.png&#34; /&gt;
 &lt;p&gt;¡&lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/cgn/&#34;&gt;NoSQL matters&lt;/a&gt; te da la bienvenida a la tercera edición de nuestra conferencia en Barcelona! El 21 y 22 de noviembre la hermosa &lt;a class=&#34;reference external&#34; href=&#34;http://www.uab-casaconvalescencia.org/en/index.php&#34;&gt;Casa de la Convalescència&lt;/a&gt; abrirá sus puertas a nuestros participantes hambrientos de aventura. ¡Acércate y disfruta de este gran evento con nosotros! Como conferencia consistente en un día de formación interactiva y otro día de charlas informativas, &lt;a class=&#34;reference external&#34; href=&#34;http://2014.nosql-matters.org/bcn/&#34;&gt;NoSQL matters Barcelona&lt;/a&gt; es el evento ideal para desarrolladores, arquitectos y &lt;em&gt;geeks&lt;/em&gt;. Tendrás la oportunidad de contactar con los expertos líderes en NoSQL de todo el mundo, disfrutar de excitantes conversaciones o simplemente pasártelo en grande hackeando con otros participantes.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Laboratorio de pruebas</title>
-      <link>http://www.entredevyops.es/posts/laboratorio-pruebas.html</link>
+      <link>https://www.entredevyops.es/posts/laboratorio-pruebas.html</link>
       <pubDate>Wed, 02 Jul 2014 03:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/laboratorio-pruebas.html</guid>
+      <guid>https://www.entredevyops.es/posts/laboratorio-pruebas.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -875,42 +875,42 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
     
     <item>
       <title>11 cosas sobre DevOps (9): Mi primer patrón DevOps favorito</title>
-      <link>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-9.html</link>
+      <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-9.html</link>
       <pubDate>Sun, 29 Jun 2014 03:35:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-9.html</guid>
+      <guid>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-9.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Automatización&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/automation.jpeg&#34; /&gt;
+&lt;img alt=&#34;Automatización&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/automation.jpeg&#34; /&gt;
 &lt;p&gt;En el noveno punto, &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Análisis de rendimiento de Linux</title>
-      <link>http://www.entredevyops.es/posts/analisis-rendimiento-linux.html</link>
+      <link>https://www.entredevyops.es/posts/analisis-rendimiento-linux.html</link>
       <pubDate>Mon, 23 Jun 2014 03:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/analisis-rendimiento-linux.html</guid>
+      <guid>https://www.entredevyops.es/posts/analisis-rendimiento-linux.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;resumen de herramientas de Brendan Gregg&#34; class=&#34;border align-center&#34; src=&#34;http://www.entredevyops.es/images/linuxperftools_1000.png&#34; style=&#34;width: 650px; height: 376px;&#34; /&gt;
+&lt;img alt=&#34;resumen de herramientas de Brendan Gregg&#34; class=&#34;border align-center&#34; src=&#34;https://www.entredevyops.es/images/linuxperftools_1000.png&#34; style=&#34;width: 650px; height: 376px;&#34; /&gt;
 &lt;p&gt;Brendan Gregg ha escrito una serie de artículos y documentos agrupados en &lt;a class=&#34;reference external&#34; href=&#34;http://www.brendangregg.com/linuxperf.html&#34;&gt;Linux Performance&lt;/a&gt; donde se investigan los cuellos de botella de los sistemas Unix y Linux.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>The Dream Team Nightmare</title>
-      <link>http://www.entredevyops.es/posts/the-dream-team-nightmare.html</link>
+      <link>https://www.entredevyops.es/posts/the-dream-team-nightmare.html</link>
       <pubDate>Wed, 18 Jun 2014 08:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/the-dream-team-nightmare.html</guid>
+      <guid>https://www.entredevyops.es/posts/the-dream-team-nightmare.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;The Dream Team Nightmare&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/dream_team.jpg&#34; /&gt;
+&lt;img alt=&#34;The Dream Team Nightmare&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/dream_team.jpg&#34; /&gt;
 &lt;p&gt;En el viaje al &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; que realizamos el pasado mes de Febrero (podéis encontrar la crónica del viaje &lt;a class=&#34;reference external&#34; href=&#34;http://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html&#34;&gt;aquí&lt;/a&gt;) siempre es visita obligatoria el stand de &lt;a class=&#34;reference external&#34; href=&#34;http://www.oreilly.com/&#34;&gt;O&#39;Reilly&lt;/a&gt; para aprovechar el descuento que se aplica por comprar en el Fosdem y hacerme con alguna pequeña joya.&lt;/p&gt;
 &lt;p&gt;La vista siempre se me va hacia libros de temática relacionada con mi bien amado Linux, pero últimamente también estoy cayendo en libros relacionados con  Agile, DevOps, Metodologías de gestión de proyectos y equipos, etc... De entre todos los libros que me llamaron la atención encontré uno que destacó, primero por su temática (Agile)  y luego por su formato.&lt;/p&gt;
 &lt;p&gt;El libro del que os estoy hablando es &lt;a class=&#34;reference external&#34; href=&#34;http://pragprog.com/book/ptdream/the-dream-team-nightmare&#34;&gt;The Dream Team Nightmare&lt;/a&gt;&lt;/p&gt;
@@ -919,52 +919,52 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
     
     <item>
       <title>Recursos Git</title>
-      <link>http://www.entredevyops.es/posts/recursos-git.html</link>
+      <link>https://www.entredevyops.es/posts/recursos-git.html</link>
       <pubDate>Mon, 16 Jun 2014 03:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/recursos-git.html</guid>
+      <guid>https://www.entredevyops.es/posts/recursos-git.html</guid>
       <description>Unos cuantos recursos interesantes de git:
 A hacker&#39;s guide to Git Git Is Simpler Than You Think A successful Git branching model  De todos los links anteriores, especialmente el último creo que es muy interesante ya que en su simplicidad de uso de las ramas en git permite poder hacer cualquier tipo operaciones con ello, ya sean fixes o la creación de nuevas features.</description>
     </item>
     
     <item>
       <title>11 cosas sobre DevOps (8): Infosec y QA</title>
-      <link>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-8.html</link>
+      <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-8.html</link>
       <pubDate>Sun, 08 Jun 2014 03:35:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-8.html</guid>
+      <guid>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-8.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Chaos Monkey&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/chaos-monkey.png&#34; /&gt;
+&lt;img alt=&#34;Chaos Monkey&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/chaos-monkey.png&#34; /&gt;
 &lt;p&gt;El octavo punto de &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; sobre DevOps trata sobre cómo se integran las áreas de Seguridad informática y calidad en los flujos de trabajo de DevOps. Aunque parezca algo muy complejo de hacer, es también algo que conviene comprender correctamente para poder realizar de la forma más adecuada. Es decir, sin perder el sentido de tener procesos de calidad y seguridad, ni afectar al esfuerzo realizado para disponer de las funcionalidades en el tiempo requerido para mantener la competitividad de la organización.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Evento Agile Open Spain 2014</title>
-      <link>http://www.entredevyops.es/posts/evento-agile-open-spain-2014.html</link>
+      <link>https://www.entredevyops.es/posts/evento-agile-open-spain-2014.html</link>
       <pubDate>Wed, 28 May 2014 01:50:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/evento-agile-open-spain-2014.html</guid>
+      <guid>https://www.entredevyops.es/posts/evento-agile-open-spain-2014.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Agile Open Space 2014&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/aoslogo2014.jpg&#34; style=&#34;width: 128px; height: 128px;&#34; /&gt;
+&lt;img alt=&#34;Agile Open Space 2014&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/aoslogo2014.jpg&#34; style=&#34;width: 128px; height: 128px;&#34; /&gt;
 &lt;p&gt;El próximo mes de Junio, durante los días 6 y 7, se celebrará en Valladolid el &lt;a class=&#34;reference external&#34; href=&#34;http://aos2014.agile-spain.org/&#34;&gt;Agile Open Spain 2014&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>11 cosas sobre DevOps (7): El valor de DevOps</title>
-      <link>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-7.html</link>
+      <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-7.html</link>
       <pubDate>Wed, 07 May 2014 01:05:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-7.html</guid>
+      <guid>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-7.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Valor&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/hands.png&#34; /&gt;
+&lt;img alt=&#34;Valor&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/hands.png&#34; /&gt;
 &lt;p&gt;En el séptimo punto, &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; explica el valor intrínseco de DevOps para la organización, expuesto a partir de los beneficios que la adopción de DevOps aporta, recopilados a partir de estudios, experiencias, conversaciones y sus propios libros.&lt;/p&gt;
 &lt;p&gt;A partir de los puntos en los que DevOps aporta valor, establece, para acabar, una relación primordial, básica y primaria por la que aplicar los principios de DevOps.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -972,56 +972,56 @@ A hacker&#39;s guide to Git Git Is Simpler Than You Think A successful Git branc
     
     <item>
       <title>11 cosas sobre DevOps (6): Las áreas de los patrones</title>
-      <link>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-6.html</link>
+      <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-6.html</link>
       <pubDate>Sat, 03 May 2014 23:25:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-6.html</guid>
+      <guid>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-6.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Cambio en adelante&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/change-ahead.png&#34; /&gt;
+&lt;img alt=&#34;Cambio en adelante&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/change-ahead.png&#34; /&gt;
 &lt;p&gt;El siguiente apartado que &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; trata, destaca las áreas en las que los patrones DevOps operan. Éstas áreas fueron descritas en el libro &lt;a class=&#34;reference external&#34; href=&#34;http://www.realgenekim.me/devops-cookbook/&#34;&gt;DevOps Cookbook&lt;/a&gt;. Éstas áreas unen, de formas diferente, tres conceptos altamente importantes de todo equipo de IT: Producción, Desarrollo y Operaciones.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>11 cosas sobre DevOps (5): Los principios puntales</title>
-      <link>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-5.html</link>
+      <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-5.html</link>
       <pubDate>Mon, 21 Apr 2014 01:15:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-5.html</guid>
+      <guid>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-5.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Diferentes caminos&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/sign-ways.png&#34; /&gt;
+&lt;img alt=&#34;Diferentes caminos&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/sign-ways.png&#34; /&gt;
 &lt;p&gt;El quinto punto que &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; recomienda conocer sobre DevOps, describe los principios fundamentales, que no dejan de ser las &lt;em&gt;Tres vías&lt;/em&gt; que menciona en sus libros &lt;a class=&#34;reference external&#34; href=&#34;http://www.realgenekim.me/devops-cookbook/&#34;&gt;DevOps Cookbook&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://www.amazon.com/The-Phoenix-Project-Helping-Business/dp/0988262592&#34;&gt;The Phoenix Project&lt;/a&gt;. Como en los anteriores artículos, podéis enviar vuestros comentarios al &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>11 cosas sobre DevOps (4): Cómo encaja con Visible Ops</title>
-      <link>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-4.html</link>
+      <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-4.html</link>
       <pubDate>Thu, 10 Apr 2014 01:55:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-4.html</guid>
+      <guid>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-4.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Visible Ops Handbook&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/visible-ops.jpg&#34; /&gt;
+&lt;img alt=&#34;Visible Ops Handbook&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/visible-ops.jpg&#34; /&gt;
 &lt;p&gt;Aunque con retraso, aquí está el cuarto punto que es necesario conocer, según &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt;, sobre DevOps. En esta ocasión, compara DevOps con lo que describió en el libro que coescribió, titulado &lt;a class=&#34;reference external&#34; href=&#34;http://www.amazon.com/The-Visible-Ops-Handbook-Implementing/dp/0975568612&#34;&gt;Visible Ops Handbook&lt;/a&gt;. Como en las anteriores ocasiones, para comentar podéis utilizar el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Reseña del artículo 5 Unsung Tools of DevOps</title>
-      <link>http://www.entredevyops.es/posts/resena-articulo-5-unsung-tools-of-devops.html</link>
+      <link>https://www.entredevyops.es/posts/resena-articulo-5-unsung-tools-of-devops.html</link>
       <pubDate>Mon, 07 Apr 2014 20:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/resena-articulo-5-unsung-tools-of-devops.html</guid>
+      <guid>https://www.entredevyops.es/posts/resena-articulo-5-unsung-tools-of-devops.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;5 Unsung Tools of DevOps&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/5-unsung-tools.jpg&#34; style=&#34;width: 93px; height: 125px;&#34; /&gt;
+&lt;img alt=&#34;5 Unsung Tools of DevOps&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/5-unsung-tools.jpg&#34; style=&#34;width: 93px; height: 125px;&#34; /&gt;
 &lt;p&gt;A través de un boletín de Amazon me llegó la noticia de un libro gratuito en formato de EBook con un título que me llamó la atención: &lt;a class=&#34;reference external&#34; href=&#34;http://newrelic.com/devops/unsung-devops-tools&#34;&gt;5 Unsung Tools of DevOps&lt;/a&gt;. Dicho libro no deja de ser un artículo de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/jthurman42&#34;&gt;Jonathan Thurman&lt;/a&gt; sobre una serie de herramientas que él aconseja utilizar en el ámbito de la infraestructura para poder aplicar DeVOps.&lt;/p&gt;
 &lt;p&gt;El autor hace un repaso del uso que él hace sobre dichas herramientas e incluso entra en algunos aspectos de configuración.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -1029,14 +1029,14 @@ A hacker&#39;s guide to Git Git Is Simpler Than You Think A successful Git branc
     
     <item>
       <title>11 cosas sobre DevOps (3): En qué difiere de ITIL o de ITSM</title>
-      <link>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-3.html</link>
+      <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-3.html</link>
       <pubDate>Tue, 01 Apr 2014 09:35:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-3.html</guid>
+      <guid>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-3.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Change vs Trouble&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/bridge-building.png&#34; /&gt;
+&lt;img alt=&#34;Change vs Trouble&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/bridge-building.png&#34; /&gt;
 &lt;p&gt;El tercer punto sobre DevOps que propone &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; es la relación con &lt;a class=&#34;reference external&#34; href=&#34;http://es.wikipedia.org/wiki/Information_Technology_Infrastructure_Library&#34;&gt;ITIL&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://es.wikipedia.org/wiki/Gesti%C3%B3n_de_servicios_de_tecnolog%C3%ADas_de_la_informaci%C3%B3n&#34;&gt;ITSM&lt;/a&gt;, dos conjuntos de prácticas y disciplinas para la gestión de operaciones IT, muy extendidas, especialmente en las grandes empresas.
 Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitter, con el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -1044,14 +1044,14 @@ Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitte
     
     <item>
       <title>11 cosas sobre DevOps (2): En qué difiere de Agile</title>
-      <link>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-2.html</link>
+      <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-2.html</link>
       <pubDate>Tue, 25 Mar 2014 09:35:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-2.html</guid>
+      <guid>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-2.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Change vs Trouble&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/change-trouble.jpg&#34; /&gt;
+&lt;img alt=&#34;Change vs Trouble&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/change-trouble.jpg&#34; /&gt;
 &lt;p&gt;Ya está aquí la segunda entrega de las 11 cosas que necesitas saber sobre DevOps, por &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt;. En esta ocasión, se comenta sobre la relación con las metodologías ágiles, y sus efectos en los ciclos de desarrollo de aplicaciones. En este apartado, explica cómo la aplicación de las metodologías ágiles ayudan a la aparición de gran parte del movimiento DevOps, explicando cómo se relacionan y qué aportan al negocio.
 Como ya se indicó la semana pasada, creemos que es una buena excusa para iniciar un debate en Twitter con el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -1059,10 +1059,10 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Evento de MongoDB en Barcelona</title>
-      <link>http://www.entredevyops.es/posts/evento-mongodb-barcelona.html</link>
+      <link>https://www.entredevyops.es/posts/evento-mongodb-barcelona.html</link>
       <pubDate>Wed, 19 Mar 2014 22:20:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/evento-mongodb-barcelona.html</guid>
+      <guid>https://www.entredevyops.es/posts/evento-mongodb-barcelona.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1072,52 +1072,52 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Las once cosas que necesitas saber sobre DevOps (1)</title>
-      <link>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-1.html</link>
+      <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-1.html</link>
       <pubDate>Tue, 18 Mar 2014 09:35:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-1.html</guid>
+      <guid>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-1.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;DevOps Gears&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/gears1.jpg&#34; style=&#34;width: 130px; height: 120px;&#34; /&gt;
+&lt;img alt=&#34;DevOps Gears&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/gears1.jpg&#34; style=&#34;width: 130px; height: 120px;&#34; /&gt;
 &lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt;, autor de &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/books/phoenix-project-devops-book/&#34;&gt;The Phoenix Project&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/books/devops-cookbook/&#34;&gt;The DevOps Cookbook&lt;/a&gt; junto con otros, de quien ya hemos hablado en este blog, tiene publicado un documento llamado &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/11devops/&#34;&gt;The Top 11 Things You Need To Know About DevOps&lt;/a&gt;. Dado que los puntos que detalla son bastante interesantes, vamos a iniciar una serie de artículos semanales, en los que traduciremos uno a uno cada punto de la lista. A continuación, encontraréis el primero, que consiste en una visión histórica del concepto de DevOps. Esperamos vuestras reacciones en Twitter con el &lt;em&gt;hashtag&lt;/em&gt; #11cosasdevops.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Conferencia dotScale</title>
-      <link>http://www.entredevyops.es/posts/dotscale.html</link>
+      <link>https://www.entredevyops.es/posts/dotscale.html</link>
       <pubDate>Sun, 16 Mar 2014 13:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/dotscale.html</guid>
+      <guid>https://www.entredevyops.es/posts/dotscale.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Dot Scale&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/dotscale.png&#34; style=&#34;width: 300px; height: 115px;&#34; /&gt;
+&lt;img alt=&#34;Dot Scale&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/dotscale.png&#34; style=&#34;width: 300px; height: 115px;&#34; /&gt;
 &lt;p&gt;El 19 de mayo se celebrarán en el Théâtre de Paris las conferencias &lt;a class=&#34;reference external&#34; href=&#34;http://dotscale.eu&#34;&gt;dotScale&lt;/a&gt;, que forman parte de las &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu&#34;&gt;dotConferences&lt;/a&gt;. Dentro del mismo evento, el día 17, se impartirán unos talleres, que se concretarán entre seis y ocho semanas antes de la fecha. Las &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu&#34;&gt;dotConferences&lt;/a&gt; son charlas técnicas impartidas por desarrolladores para desarrolladores sobre diferentes lenguajes. Las &lt;a class=&#34;reference external&#34; href=&#34;http://dotscale.eu&#34;&gt;dotScale&lt;/a&gt;, no obstante, se centran en la escalabilidad de aplicaciones, sin centrarse en un lenguaje específico. Además, aunque la lista no está completa, ya se ha confirmado un interesante grupo de ponentes.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>MiniDebConf 2014 en Barcelona</title>
-      <link>http://www.entredevyops.es/posts/minidebconf-bcn-2014.html</link>
+      <link>https://www.entredevyops.es/posts/minidebconf-bcn-2014.html</link>
       <pubDate>Fri, 14 Mar 2014 23:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/minidebconf-bcn-2014.html</guid>
+      <guid>https://www.entredevyops.es/posts/minidebconf-bcn-2014.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Debian Women Project&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/dw.png&#34; style=&#34;width: 82px; height: 140px;&#34; /&gt;
+&lt;img alt=&#34;Debian Women Project&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/dw.png&#34; style=&#34;width: 82px; height: 140px;&#34; /&gt;
 &lt;p&gt;Este fin de semana se celebra en Barcelona la &lt;a class=&#34;reference external&#34; href=&#34;http://bcn2014.mini.debconf.org/&#34;&gt;MiniDebConf 2014&lt;/a&gt;, una conferencia sobre Debian organizada por &lt;a class=&#34;reference external&#34; href=&#34;http://debian-es.org/&#34;&gt;Debian-Es&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;https://www.debian.org/women/&#34;&gt;The Debian Women Project&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Curso de Introducción a Linux gratuito en edX</title>
-      <link>http://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</link>
+      <link>https://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</link>
       <pubDate>Tue, 11 Mar 2014 00:20:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</guid>
+      <guid>https://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1127,10 +1127,10 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Charla “Creando una cultura de DevOps” en Capside</title>
-      <link>http://www.entredevyops.es/posts/creando-cultura-devops-capside.html</link>
+      <link>https://www.entredevyops.es/posts/creando-cultura-devops-capside.html</link>
       <pubDate>Sun, 09 Mar 2014 11:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/creando-cultura-devops-capside.html</guid>
+      <guid>https://www.entredevyops.es/posts/creando-cultura-devops-capside.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1140,10 +1140,10 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Mañana empieza el mobile world congress</title>
-      <link>http://www.entredevyops.es/posts/inicio-mobile-world-congress.html</link>
+      <link>https://www.entredevyops.es/posts/inicio-mobile-world-congress.html</link>
       <pubDate>Sun, 23 Feb 2014 21:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/inicio-mobile-world-congress.html</guid>
+      <guid>https://www.entredevyops.es/posts/inicio-mobile-world-congress.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1154,14 +1154,14 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>FOSDEM 2014 - Crónica de un viaje al Open Source</title>
-      <link>http://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html</link>
+      <link>https://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html</link>
       <pubDate>Wed, 19 Feb 2014 20:22:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html</guid>
+      <guid>https://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Logo del FOSDEM&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/fosdem.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;
+&lt;img alt=&#34;Logo del FOSDEM&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/fosdem.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;
 &lt;p&gt;Como ya viene siendo tradición, el equipo completo de EDyO tiene una cita obligada con el más importante evento de Software Libre que se produce en Europa: el Free Open source Software Developers European Meeting (FOSDEM).&lt;/p&gt;
 &lt;p&gt;En este post no me voy a centrar en las conferencias en si (que seguro que mis compañeros de blog nos regalarán más de un articulo sobre las charlas más destacadas), sino sobre los pormenores del viaje y de lo que pasa más allá de dicho evento.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -1169,24 +1169,24 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Noticias semanales (Ene II y III)</title>
-      <link>http://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html</link>
+      <link>https://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html</link>
       <pubDate>Sun, 19 Jan 2014 19:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html</guid>
+      <guid>https://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
+&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
 &lt;p&gt;Como la semana pasada no se publicaron noticias, las hemos unido, por lo que en esta entrega, tenemos bastantes noticias: La publicación del manual del administrador de &lt;a class=&#34;reference external&#34; href=&#34;http://debian.org&#34;&gt;Debian&lt;/a&gt;, una nueva librería para gestionar recursos en &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/ec2/&#34;&gt;EC2&lt;/a&gt; desde Python, una presentación sobre &lt;a class=&#34;reference external&#34; href=&#34;http://flapjack.io/&#34;&gt;Flapjack&lt;/a&gt;, otra para hacer pruebas sobre navegadores con JavaScript, otra plataforma de monitorización que se integra con &lt;a class=&#34;reference external&#34; href=&#34;http://graphite.wikidot.com/&#34;&gt;Graphite&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://jenkins-ci.org&#34;&gt;Jenkins&lt;/a&gt;, otra más que permite exponer un directorio con guiones de &lt;em&gt;bash&lt;/em&gt; como API REST, y la adición de nuevas localizaciones a los servicios de &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/cloudfront/&#34;&gt;CloudFront&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/route53/&#34;&gt;Route 53&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Disponibles los vídeos de las charlas de la PyConES 2013</title>
-      <link>http://www.entredevyops.es/posts/disponibles-videos-pycones-2013.html</link>
+      <link>https://www.entredevyops.es/posts/disponibles-videos-pycones-2013.html</link>
       <pubDate>Thu, 09 Jan 2014 15:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/disponibles-videos-pycones-2013.html</guid>
+      <guid>https://www.entredevyops.es/posts/disponibles-videos-pycones-2013.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1196,56 +1196,56 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Noticias semanales (Ene I)</title>
-      <link>http://www.entredevyops.es/posts/noticias-semanales-enero-2014-1.html</link>
+      <link>https://www.entredevyops.es/posts/noticias-semanales-enero-2014-1.html</link>
       <pubDate>Tue, 07 Jan 2014 21:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/noticias-semanales-enero-2014-1.html</guid>
+      <guid>https://www.entredevyops.es/posts/noticias-semanales-enero-2014-1.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
+&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
 &lt;p&gt;En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, los encuentros familiares y los regalos, aquí están las primeras noticias de 2014. Podréis encontrar herramientas, como una especie de &lt;a class=&#34;reference external&#34; href=&#34;http://vagrantup.com&#34;&gt;Vagrant&lt;/a&gt; para &lt;a class=&#34;reference external&#34; href=&#34;https://docker.io&#34;&gt;Docker&lt;/a&gt;, un servicio complementario para vuestro &lt;a class=&#34;reference external&#34; href=&#34;http://www.nagios.org/&#34;&gt;Nagios&lt;/a&gt; y vuestra cuenta de &lt;a class=&#34;reference external&#34; href=&#34;http://www.pagerduty.com/&#34;&gt;Pagerduty&lt;/a&gt;, o un nuevo panel para &lt;a class=&#34;reference external&#34; href=&#34;http://graphite.wikidot.com/&#34;&gt;Graphite&lt;/a&gt;, así como explicaciones sobre cobertura de testeo de código para &lt;a class=&#34;reference external&#34; href=&#34;http://www.getchef.com/chef/&#34;&gt;Chef&lt;/a&gt; o un interesante blog sobre lo último de &lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com/&#34;&gt;Puppet&lt;/a&gt;, junto con artículos sobre &lt;a class=&#34;reference external&#34; href=&#34;http://en.wikipedia.org/wiki/Software-defined_networking&#34;&gt;SDN&lt;/a&gt;, el despliegue contínuo agresivo o la importancia de la infraestructura como código para la automatización. Disfrutad del commienzo de año.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Noticias semanales (Dic IV)</title>
-      <link>http://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-4.html</link>
+      <link>https://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-4.html</link>
       <pubDate>Mon, 30 Dec 2013 20:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-4.html</guid>
+      <guid>https://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-4.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
+&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
 &lt;p&gt;El parón navideño se está haciendo notar, pero pese a todo, aún hay algunos asuntos que tratar de cara al fin de año: Los horarios de la &lt;a class=&#34;reference external&#34; href=&#34;https://fosdem.org/2014/&#34;&gt;FOSDEM&lt;/a&gt;, el calendario de adviento del administrador de sistemas y descuentos en libros electrónicos.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Noticias semanales (Dic III)</title>
-      <link>http://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-3.html</link>
+      <link>https://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-3.html</link>
       <pubDate>Tue, 24 Dec 2013 12:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-3.html</guid>
+      <guid>https://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-3.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
+&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
 &lt;p&gt;Debido a que el ritmo de publicación de noticias se había incrementado hasta el punto de casi no tener tiempo para escribir nada más, en Entre Dev Y Ops vamos a probar publicar un sólo post semanal con las noticias más interesantes de cada semana.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Review del paper What Is DevOps?</title>
-      <link>http://www.entredevyops.es/posts/review-paper-what-is-devops.html</link>
+      <link>https://www.entredevyops.es/posts/review-paper-what-is-devops.html</link>
       <pubDate>Sat, 07 Dec 2013 20:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/review-paper-what-is-devops.html</guid>
+      <guid>https://www.entredevyops.es/posts/review-paper-what-is-devops.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Paper What Is DevOps?&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/what_is_devops_paper.jpg&#34; style=&#34;width: 93px; height: 125px;&#34; /&gt;
+&lt;img alt=&#34;Paper What Is DevOps?&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/what_is_devops_paper.jpg&#34; style=&#34;width: 93px; height: 125px;&#34; /&gt;
 &lt;p&gt;Buscando por Amazon libros sobre DevOps fui a dar un con un paper que tanto su título y precio enseguida llamaron mi atención. El paper en cuestión es &lt;a class=&#34;reference external&#34; href=&#34;http://www.amazon.com/What-DevOps-Mike-Loukides-ebook/dp/B0084HJB56/ref=sr_1_2?s=digital-text&amp;amp;ie=UTF8&amp;amp;qid=1386441697&amp;amp;sr=1-2&#34;&gt;What Is DevOps?&lt;/a&gt; de Mike Loukides y su precio es 0 €.&lt;/p&gt;
 &lt;p&gt;Es un paper ameno, haciendo referencia a diversas fuentes, que para los dominadores de la lengua de Shakespeare se lee de manera rápida en apenas 15 minutos.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -1253,10 +1253,10 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>AWS soporte federación basada en SAML</title>
-      <link>http://www.entredevyops.es/posts/amazon-ws-iam-soporta-federacion-saml.html</link>
+      <link>https://www.entredevyops.es/posts/amazon-ws-iam-soporta-federacion-saml.html</link>
       <pubDate>Thu, 28 Nov 2013 12:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/amazon-ws-iam-soporta-federacion-saml.html</guid>
+      <guid>https://www.entredevyops.es/posts/amazon-ws-iam-soporta-federacion-saml.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1266,24 +1266,24 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Amazon WS re:Invent 2013</title>
-      <link>http://www.entredevyops.es/posts/reinvent-2013-amazon-ws.html</link>
+      <link>https://www.entredevyops.es/posts/reinvent-2013-amazon-ws.html</link>
       <pubDate>Mon, 25 Nov 2013 21:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/reinvent-2013-amazon-ws.html</guid>
+      <guid>https://www.entredevyops.es/posts/reinvent-2013-amazon-ws.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/AmazonWebservices.png&#34; /&gt;
+&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/AmazonWebservices.png&#34; /&gt;
 &lt;p&gt;Del día 12 al 15 de noviembre, tuvo lugar, en Las Vegas, el &lt;a class=&#34;reference external&#34; href=&#34;http://reinvent.awsevents.com/index.html&#34;&gt;re:Invent&lt;/a&gt;, de &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt;. Siendo el mayor evento sobre el &lt;em&gt;cloud&lt;/em&gt; de &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;AWS&lt;/a&gt;, esta edición contempló sesiones técnicas, sesiones formativas de entrenamiento, laboratorios de práctica y consultas técnicas con ingenieros y clientes expertos. Aunque nuestra asistencia fue imposible, este artículo contiene un resumen de las novedades que anunciaron.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Permisos sobre recursos en RunInstances de EC2</title>
-      <link>http://www.entredevyops.es/posts/amazon-ws-ec2-runinstances-permisos-nivel-recursos.html</link>
+      <link>https://www.entredevyops.es/posts/amazon-ws-ec2-runinstances-permisos-nivel-recursos.html</link>
       <pubDate>Sat, 23 Nov 2013 12:15:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/amazon-ws-ec2-runinstances-permisos-nivel-recursos.html</guid>
+      <guid>https://www.entredevyops.es/posts/amazon-ws-ec2-runinstances-permisos-nivel-recursos.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1293,10 +1293,10 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>EditorConfig: Mantén tu código uniforme</title>
-      <link>http://www.entredevyops.es/posts/editorconfig-manten-codigo-uniforme.html</link>
+      <link>https://www.entredevyops.es/posts/editorconfig-manten-codigo-uniforme.html</link>
       <pubDate>Thu, 21 Nov 2013 22:25:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/editorconfig-manten-codigo-uniforme.html</guid>
+      <guid>https://www.entredevyops.es/posts/editorconfig-manten-codigo-uniforme.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1306,10 +1306,10 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Final Term: ¿El terminal «definitivo»?</title>
-      <link>http://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</link>
+      <link>https://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</link>
       <pubDate>Tue, 19 Nov 2013 00:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</guid>
+      <guid>https://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1319,14 +1319,14 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Puppet Labs publica libro sobre entrega contínua</title>
-      <link>http://www.entredevyops.es/posts/puppet-labs-libro-ebook-entrega-continua-continuous-delivery.html</link>
+      <link>https://www.entredevyops.es/posts/puppet-labs-libro-ebook-entrega-continua-continuous-delivery.html</link>
       <pubDate>Thu, 14 Nov 2013 07:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/puppet-labs-libro-ebook-entrega-continua-continuous-delivery.html</guid>
+      <guid>https://www.entredevyops.es/posts/puppet-labs-libro-ebook-entrega-continua-continuous-delivery.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Ebook de Puppet Labs sobre entrega contínua&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/cdebook-puppet.png&#34; style=&#34;width: 93px; height: 125px;&#34; /&gt;
+&lt;img alt=&#34;Ebook de Puppet Labs sobre entrega contínua&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/cdebook-puppet.png&#34; style=&#34;width: 93px; height: 125px;&#34; /&gt;
 &lt;p&gt;El concepto de entrega de software contínua no es nuevo. Ofrece al negocio la capacidad de añadir nuevas funcionalidades y capacidades al producto permitiendo alcanzar el mercado rápido y con confianza. Pero quedan algunas dudas pendientes de resolver como: ¿De qué se trata exactamente? ¿Qué es necesario para empezar?&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com&#34;&gt;Puppet Labs&lt;/a&gt; ha publicado un &lt;a class=&#34;reference external&#34; href=&#34;http://info.puppetlabs.com/download-free-continuous-delivery-ebook.html&#34;&gt;libro&lt;/a&gt; gratuito sobre ello. No dudéis en descargarlo. Próximamente, haremos una reseña sobre este documento.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -1334,10 +1334,10 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Traducción de Las Tres Vías: Los principios que sustentan el DevOps por Gene Kim</title>
-      <link>http://www.entredevyops.es/posts/traduccion-de-las-tres-vias.html</link>
+      <link>https://www.entredevyops.es/posts/traduccion-de-las-tres-vias.html</link>
       <pubDate>Wed, 13 Nov 2013 21:25:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/traduccion-de-las-tres-vias.html</guid>
+      <guid>https://www.entredevyops.es/posts/traduccion-de-las-tres-vias.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1348,14 +1348,14 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Curso Agile IT Management: Scrum, DevOps, Lean IT en BarcelonaTech</title>
-      <link>http://www.entredevyops.es/posts/curso-scrum-devops-lean-it-barcelona-bcn.html</link>
+      <link>https://www.entredevyops.es/posts/curso-scrum-devops-lean-it-barcelona-bcn.html</link>
       <pubDate>Tue, 12 Nov 2013 20:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/curso-scrum-devops-lean-it-barcelona-bcn.html</guid>
+      <guid>https://www.entredevyops.es/posts/curso-scrum-devops-lean-it-barcelona-bcn.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;UPC&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/upc.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
+&lt;img alt=&#34;UPC&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/upc.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
 &lt;p&gt;Era de esperar que en algún momento apareciera, desde el mundo universitario, formación sobre el tema DevOps, o que la incluya. Así pues, llega el curso de formación contínua &lt;a class=&#34;reference external&#34; href=&#34;http://www.talent.upc.edu/professionals/informacio/codi/527700/agile/management/scrum/devops/lean&#34;&gt;Agile IT Management: Scrum, DevOps, Lean IT&lt;/a&gt;, ofrecido por &lt;a class=&#34;reference external&#34; href=&#34;http://www.talent.upc.edu/&#34;&gt;BarcelonaTech&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Este curso incluye la práctica con ciertas herramientas relacionas, entre ellas &lt;a class=&#34;reference external&#34; href=&#34;http://jenkins-ci.org&#34;&gt;Jenkins&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com&#34;&gt;Puppet&lt;/a&gt;, o &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/&#34;&gt;Amazon WS&lt;/a&gt;. De todos modos, no olvida la interacción con las metodología ágiles y los conceptos de &lt;em&gt;lean&lt;/em&gt; aplicados a entornos de las TIC.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -1363,52 +1363,52 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Tercer día en la BcnDevCon&#39;13</title>
-      <link>http://www.entredevyops.es/posts/bcndevcon-2013-tercer-dia.html</link>
+      <link>https://www.entredevyops.es/posts/bcndevcon-2013-tercer-dia.html</link>
       <pubDate>Mon, 11 Nov 2013 20:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/bcndevcon-2013-tercer-dia.html</guid>
+      <guid>https://www.entredevyops.es/posts/bcndevcon-2013-tercer-dia.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
+&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
 &lt;p&gt;El tercer día de la &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon13&lt;/a&gt; fue bastante más relajado que los otros dos. No en vano fue domingo. Las visitas al salón de &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/retrobarcelona/&#34;&gt;RetroBarcelona&lt;/a&gt; se mantuvieron bastante activas. Las actividades sobre robótica, como el &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/aess-challenge/&#34;&gt;AESS Challenge&lt;/a&gt; también tuvieron bastante afluencia. La &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/activities/agile-station/&#34;&gt;Agile Station&lt;/a&gt; tuvo actividad, pero tuvieron que cancelar alguna actividad debido a la baja afluencia. No obstante, su taller de robótica infantil pareció tener cierto éxito.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Segundo día en la BcnDevCon&#39;13</title>
-      <link>http://www.entredevyops.es/posts/bcndevcon-2013-segundo-dia.html</link>
+      <link>https://www.entredevyops.es/posts/bcndevcon-2013-segundo-dia.html</link>
       <pubDate>Mon, 11 Nov 2013 07:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/bcndevcon-2013-segundo-dia.html</guid>
+      <guid>https://www.entredevyops.es/posts/bcndevcon-2013-segundo-dia.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
+&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
 &lt;p&gt;El segundo día de la &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon&lt;/a&gt;&#39;13 estuvo plagado de charlas y actividades, el final del &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/hackathon/&#34;&gt;Hackathon for education&lt;/a&gt;, Los concursos de Mario Kart y Street Fighter. El salón de &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/retrobarcelona/&#34;&gt;RetroBarcelona&lt;/a&gt; fue muy visitado y la &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/activities/agile-station/&#34;&gt;Agile Station&lt;/a&gt;, coordinada por la gente de &lt;a class=&#34;reference external&#34; href=&#34;http://barcelona.agile-spain.org/&#34;&gt;Agile BCN&lt;/a&gt;, tuvo una actividad frenética, como el día anterior.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>ELB de Amazon WS balancea entre zonas de disponibilidad</title>
-      <link>http://www.entredevyops.es/posts/amazon-ws-elb-balancea-entre-zonas.html</link>
+      <link>https://www.entredevyops.es/posts/amazon-ws-elb-balancea-entre-zonas.html</link>
       <pubDate>Sun, 10 Nov 2013 08:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/amazon-ws-elb-balancea-entre-zonas.html</guid>
+      <guid>https://www.entredevyops.es/posts/amazon-ws-elb-balancea-entre-zonas.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;AWS&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/AmazonWebservices.png&#34; /&gt;
+&lt;img alt=&#34;AWS&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/AmazonWebservices.png&#34; /&gt;
 &lt;p&gt;El pasado jueves, día 7 de noviembre, &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt; anunció que su servicio &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/elb/&#34;&gt;ELB&lt;/a&gt; pasaría a permitir balancear entre instancias que se encontraran en zonas de disponibilidad distintas, mejorando el mantenimiento y rendimiento de las aplicaciones, que ya no requerirán esfuerzos adicionales por parte de los clientes. También hará el despliegue de las aplicaciones más sencillo.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Curso Puppet Fundamentals en BCN</title>
-      <link>http://www.entredevyops.es/posts/curso-puppet-fundamentals-bcn-2013.html</link>
+      <link>https://www.entredevyops.es/posts/curso-puppet-fundamentals-bcn-2013.html</link>
       <pubDate>Sun, 10 Nov 2013 07:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/curso-puppet-fundamentals-bcn-2013.html</guid>
+      <guid>https://www.entredevyops.es/posts/curso-puppet-fundamentals-bcn-2013.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1418,14 +1418,14 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Primer día en la BcnDevCon&#39;13</title>
-      <link>http://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</link>
+      <link>https://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</link>
       <pubDate>Sat, 09 Nov 2013 12:40:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</guid>
+      <guid>https://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
+&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
 &lt;p&gt;Ayer, día 8 de noviembre, ha tenido su inicio el &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon13&lt;/a&gt;. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en &lt;em&gt;cloud&lt;/em&gt;, móvil, robótica y &lt;em&gt;open source&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -1433,38 +1433,38 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Amazon WS ha presentado el simulador de políticas de IAM</title>
-      <link>http://www.entredevyops.es/posts/amazon-ws-presenta-iam-policy-simulator.html</link>
+      <link>https://www.entredevyops.es/posts/amazon-ws-presenta-iam-policy-simulator.html</link>
       <pubDate>Wed, 06 Nov 2013 23:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/amazon-ws-presenta-iam-policy-simulator.html</guid>
+      <guid>https://www.entredevyops.es/posts/amazon-ws-presenta-iam-policy-simulator.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Seguridad mejorada en Amazon WS IAM&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/iam.jpg&#34; style=&#34;width: 183px; height: 123px;&#34; /&gt;
+&lt;img alt=&#34;Seguridad mejorada en Amazon WS IAM&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/iam.jpg&#34; style=&#34;width: 183px; height: 123px;&#34; /&gt;
 &lt;p&gt;Esta semana &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt; ha publicado una nueva funcionalidad para su servicio &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/iam/&#34;&gt;IAM&lt;/a&gt;, con el que intenta mejorar el despliegue de configuraciones de seguridad algo más complejas, asegurando que no afecten al funcionamiento de la infraestructura. El servicio &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/iam/&#34;&gt;IAM&lt;/a&gt; es el que permite administrar el modo en que los usuarios se autentican y acceden a los servicios que se hayan contratado con &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt;. La aplicación de políticas complejas pueden poner en peligro el funcionamiento del sistema desplegado.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>The Phoenix Project</title>
-      <link>http://www.entredevyops.es/posts/the-phoenix-project.html</link>
+      <link>https://www.entredevyops.es/posts/the-phoenix-project.html</link>
       <pubDate>Wed, 06 Nov 2013 22:10:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/the-phoenix-project.html</guid>
+      <guid>https://www.entredevyops.es/posts/the-phoenix-project.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;El libro The Phoenix Project&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/the-phoenix-project.jpg&#34; style=&#34;width: 136px; height: 134px;&#34; /&gt;
+&lt;img alt=&#34;El libro The Phoenix Project&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/the-phoenix-project.jpg&#34; style=&#34;width: 136px; height: 134px;&#34; /&gt;
 &lt;p&gt;Este enero se publicó el libro &lt;em&gt;The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win&lt;/em&gt;, de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/RealGeneKim&#34;&gt;Gene Kim&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/kevinbehr&#34;&gt;Kevin Behr&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/gspaff&#34;&gt;George Spafford&lt;/a&gt;. Pese a su novedad, es lo que se podría denominar una de las lecturas sagradas del movimiento DevOps. &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/david_acacio&#34;&gt;David Acacio&lt;/a&gt; ha elaborado una reseña sobre el libro que podéis leer a continuación.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Curso de OpenStack en Barcelona</title>
-      <link>http://www.entredevyops.es/posts/curso-openstack-barcelona.html</link>
+      <link>https://www.entredevyops.es/posts/curso-openstack-barcelona.html</link>
       <pubDate>Wed, 06 Nov 2013 21:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/curso-openstack-barcelona.html</guid>
+      <guid>https://www.entredevyops.es/posts/curso-openstack-barcelona.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1474,24 +1474,24 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Reunión de Sudoers BCN de Noviembre</title>
-      <link>http://www.entredevyops.es/posts/reunion-sudoers-noviembre.html</link>
+      <link>https://www.entredevyops.es/posts/reunion-sudoers-noviembre.html</link>
       <pubDate>Wed, 06 Nov 2013 20:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/reunion-sudoers-noviembre.html</guid>
+      <guid>https://www.entredevyops.es/posts/reunion-sudoers-noviembre.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;sudo make me a sandwich&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/SudoersBCN.png&#34; style=&#34;width: 180px; height: 150px;&#34; /&gt;
+&lt;img alt=&#34;sudo make me a sandwich&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/SudoersBCN.png&#34; style=&#34;width: 180px; height: 150px;&#34; /&gt;
 &lt;p&gt;En la charla de este mes, &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/codehead&#34;&gt;Javier Arturo Rodríguez&lt;/a&gt; habló sobre &lt;a class=&#34;reference external&#34; href=&#34;http://www.ansibleworks.com/&#34;&gt;Ansible&lt;/a&gt;, otra herramienta para la gestión de configuración. Aunque bien podría compararse en funcionalidad con &lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com/&#34;&gt;Puppet&lt;/a&gt; o &lt;a class=&#34;reference external&#34; href=&#34;http://www.opscode.com/chef/&#34;&gt;Chef&lt;/a&gt;, su diseño y las técnicas utilizadas la convierten en una herramienta muy sencilla, completa e interesante, incluso para sustituir a otras herramientas como &lt;a class=&#34;reference external&#34; href=&#34;http://docs.fabfile.org/en/1.8/&#34;&gt;Fabric&lt;/a&gt; o &lt;a class=&#34;reference external&#34; href=&#34;http://www.capistranorb.com/&#34;&gt;Capistrano&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Certificaciones oficiales en MongoDB</title>
-      <link>http://www.entredevyops.es/posts/certificaciones-oficiales-mongodb.html</link>
+      <link>https://www.entredevyops.es/posts/certificaciones-oficiales-mongodb.html</link>
       <pubDate>Wed, 06 Nov 2013 01:10:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/certificaciones-oficiales-mongodb.html</guid>
+      <guid>https://www.entredevyops.es/posts/certificaciones-oficiales-mongodb.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1501,135 +1501,135 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Nuevas funcionalidades y noticias en Amazon WS</title>
-      <link>http://www.entredevyops.es/posts/nuevas-funcionalidades-amazon-ws.html</link>
+      <link>https://www.entredevyops.es/posts/nuevas-funcionalidades-amazon-ws.html</link>
       <pubDate>Tue, 05 Nov 2013 00:15:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/nuevas-funcionalidades-amazon-ws.html</guid>
+      <guid>https://www.entredevyops.es/posts/nuevas-funcionalidades-amazon-ws.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/AmazonWebservices.png&#34; /&gt;
+&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/AmazonWebservices.png&#34; /&gt;
 &lt;p&gt;Entre el jueves de la semana pasada y este lunes, &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt; publicó algunas noticias sobre nuevas funcionalidades en sus productos &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/rds/&#34;&gt;RDS&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/cloudfront/&#34;&gt;Cloudfront&lt;/a&gt;, y &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/cloudwatch/&#34;&gt;CloudWatch&lt;/a&gt;. También reconocieron ciertos problemas en su actualización de versión menor de &lt;a class=&#34;reference external&#34; href=&#34;http://mysql.com/&#34;&gt;MySQL&lt;/a&gt; en &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/rds/&#34;&gt;RDS&lt;/a&gt;, por lo que han detenido su calendario de aplicación de dicha actualización, aunque ofrecen a los usuarios que lo deseen, poderse actualizar.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>DevOps Summit en Amsterdam el próximo día 14</title>
-      <link>http://www.entredevyops.es/posts/devops-summit-amsterdam.html</link>
+      <link>https://www.entredevyops.es/posts/devops-summit-amsterdam.html</link>
       <pubDate>Sun, 03 Nov 2013 20:20:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/devops-summit-amsterdam.html</guid>
+      <guid>https://www.entredevyops.es/posts/devops-summit-amsterdam.html</guid>
       <description>El próximo día 14 de noviembre se celebrará en Amsterdam el DevOps Summit, evento con un programa bastante simple, pero con referentes muy interesantes. Este evento se suele producir, como algunos otros, en dos sesiones anuales: Una hacia mayo, en Londres, y otra hacia noviembre, en Amsterdam.</description>
     </item>
     
     <item>
       <title>¿Qué es DevOps?</title>
-      <link>http://www.entredevyops.es/posts/que-es-devops.html</link>
+      <link>https://www.entredevyops.es/posts/que-es-devops.html</link>
       <pubDate>Sat, 02 Nov 2013 10:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/que-es-devops.html</guid>
+      <guid>https://www.entredevyops.es/posts/que-es-devops.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;¿DevOps? ¿Y eso qué es?&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/show-me-the-devops.png&#34; style=&#34;width: 250px; height: 135px;&#34; /&gt;
+&lt;img alt=&#34;¿DevOps? ¿Y eso qué es?&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/show-me-the-devops.png&#34; style=&#34;width: 250px; height: 135px;&#34; /&gt;
 &lt;p&gt;Desde la primera vez que oí hablar de DevOps, hace casi 3 años, pasó cierto tiempo en el que, en mi mente, se formaban ideas equivocadas sobre a lo que se refería. Con el tiempo, he ido comprendiendo el concepto pero, al mismo tiempo, cada vez he ido conociendo a más gente con el mismo problema. Este artículo intenta aclarar el concepto para que nadie más se pregunte &lt;em&gt;¿Qué es esto del DevOps?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Introducción a OpenStack en Midokura</title>
-      <link>http://www.entredevyops.es/posts/introduccion-openstack-midokura.html</link>
+      <link>https://www.entredevyops.es/posts/introduccion-openstack-midokura.html</link>
       <pubDate>Tue, 29 Oct 2013 16:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/introduccion-openstack-midokura.html</guid>
+      <guid>https://www.entredevyops.es/posts/introduccion-openstack-midokura.html</guid>
       <description>El grupo de Meetup OpenStack Barcelona, celebró el pasado viernes su primer evento, en la sede de la empresa Midokura. La sesión fue llevada por la organizadora del grupo, Rossella Sblendido, que trabaja en Midokura. La introducción se basó en la versión Havana de OpenStack, que es la que actualmente está en desarrollo. Hubo cierto énfasis en el componente llamado Neutron que consiste en el servicio de virtualización de red, para el cual Midokura desarrolla módulos.</description>
     </item>
     
     <item>
       <title>EuroPython 2014 en Berlín</title>
-      <link>http://www.entredevyops.es/posts/europython-2014-berlin.html</link>
+      <link>https://www.entredevyops.es/posts/europython-2014-berlin.html</link>
       <pubDate>Mon, 28 Oct 2013 16:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/europython-2014-berlin.html</guid>
+      <guid>https://www.entredevyops.es/posts/europython-2014-berlin.html</guid>
       <description>Se han hecho públicas las fechas para la EuroPython del año que viene. Como ya era conocido, ésta se celebrará en Berlín. Lo que se comunicó el pasado día 24, es que tendrá lugar del 21 al 27 de julio y el lugar es el Berlin Congress Center.</description>
     </item>
     
     <item>
       <title>Rendimiento Web: Real User eXperience</title>
-      <link>http://www.entredevyops.es/posts/rendimiento-web-real-user-experience.html</link>
+      <link>https://www.entredevyops.es/posts/rendimiento-web-real-user-experience.html</link>
       <pubDate>Mon, 28 Oct 2013 16:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/rendimiento-web-real-user-experience.html</guid>
+      <guid>https://www.entredevyops.es/posts/rendimiento-web-real-user-experience.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;a class=&#34;reference external image-reference&#34; href=&#34;http://www.flickr.com/photos/wwarby/&#34;&gt;&lt;img alt=&#34;Medición de tiempos (Foto: William Warby)&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/performance.jpg&#34; style=&#34;width: 180px; height: 135px;&#34; /&gt;&lt;/a&gt;
+&lt;a class=&#34;reference external image-reference&#34; href=&#34;http://www.flickr.com/photos/wwarby/&#34;&gt;&lt;img alt=&#34;Medición de tiempos (Foto: William Warby)&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/performance.jpg&#34; style=&#34;width: 180px; height: 135px;&#34; /&gt;&lt;/a&gt;
 &lt;p&gt;El pasado jueves tuvo lugar, en las oficinas que &lt;a class=&#34;reference external&#34; href=&#34;http://www.cantera-tech.com/es/&#34;&gt;CanteraTech&lt;/a&gt; tiene en  Barcelona, un encuentro del grupo de &lt;a class=&#34;reference external&#34; href=&#34;http://www.meetup.com/&#34;&gt;Meetup&lt;/a&gt; de &lt;a class=&#34;reference external&#34; href=&#34;http://www.meetup.com/Barcelona-Web-Performance-Group/&#34;&gt;Barcelona Web Performance&lt;/a&gt; en el que &lt;a class=&#34;reference external&#34; href=&#34;http://marcloan.cat/&#34;&gt;Marc Loan&lt;/a&gt; habló sobre su proyecto &lt;em&gt;Real User eXperience&lt;/em&gt;, o RUX. Desarrollado y utilizado desde 2008 para detectar y analizar los problemas que los usuarios puedan experimentar durante la navegación de un sitio web, incluso cuando éstos no llamen al servicio de atención al cliente. Este proyecto, además, se convirtió en el proyecto de fin de carrera de Marc.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Crónica del AWS Summit Barcelona 2013</title>
-      <link>http://www.entredevyops.es/posts/aws-summit-barcelona-2013.html</link>
+      <link>https://www.entredevyops.es/posts/aws-summit-barcelona-2013.html</link>
       <pubDate>Sun, 27 Oct 2013 20:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/aws-summit-barcelona-2013.html</guid>
+      <guid>https://www.entredevyops.es/posts/aws-summit-barcelona-2013.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/AmazonWebservices.png&#34; /&gt;
+&lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/AmazonWebservices.png&#34; /&gt;
 &lt;p&gt;Este pasado jueves &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt; celebró en Barcelona un &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/aws-summit-2013/barcelona/&#34;&gt;Summit&lt;/a&gt; para ofrecer una visión de sus tecnologías &lt;em&gt;cloud&lt;/em&gt;, casos prácticos de empresas, su aplicación para escenarios de &lt;em&gt;Big Data&lt;/em&gt;, copias de seguridad y &lt;em&gt;Disaster Recovery&lt;/em&gt;, así como aspectos de seguridad. El evento pudo seguirse en Twitter con el hashtag &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%23awssummit&#34;&gt;#awssummit&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>IBM y el DevOps</title>
-      <link>http://www.entredevyops.es/posts/ibm-y-el-devops.html</link>
+      <link>https://www.entredevyops.es/posts/ibm-y-el-devops.html</link>
       <pubDate>Wed, 23 Oct 2013 00:01:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/ibm-y-el-devops.html</guid>
+      <guid>https://www.entredevyops.es/posts/ibm-y-el-devops.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Portada devops for dummies&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/devopsdummies.jpg&#34; style=&#34;width: 100px; height: 156px;&#34; /&gt;
+&lt;img alt=&#34;Portada devops for dummies&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/devopsdummies.jpg&#34; style=&#34;width: 100px; height: 156px;&#34; /&gt;
 &lt;p&gt;Hace algún tiempo busqué información sobre metodologías ágiles y DevOps para AIX. &lt;a class=&#34;reference external&#34; href=&#34;http://www-03.ibm.com/systems/es/power/software/aix/index.html&#34;&gt;AIX&lt;/a&gt; se podría definir como el UNIX de IBM, aunque se trata de una definición muy vaga ya que al AIX siempre lo encontramos asociado a un hardware especifico (P-series) y a un procesador creado por IBM el &lt;a class=&#34;reference external&#34; href=&#34;http://www-03.ibm.com/systems/es/power/index.html&#34;&gt;POWER&lt;/a&gt;. Este ecosistema hacen que el sistema AIX sea unos de los sistemas más robustos. Pero lo que quería buscar era si éste modelo era ágil.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Semanarios DevOps y NoSQL</title>
-      <link>http://www.entredevyops.es/posts/semanarios-devops-nosql.html</link>
+      <link>https://www.entredevyops.es/posts/semanarios-devops-nosql.html</link>
       <pubDate>Mon, 21 Oct 2013 16:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/semanarios-devops-nosql.html</guid>
+      <guid>https://www.entredevyops.es/posts/semanarios-devops-nosql.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
+&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
 &lt;p&gt;En muchas comunidades, sobretodo las tecnológicas, tarde o temprano, acaban por aparecer medios informativos muy útiles para propagar las novedades. Dentro de las comunidades DevOps y NoSQL esto ya hace tiempo que está ocurriendo. En este artículo veremos dos semanarios que pueden resultar interesantes.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Amazon WS anuncia soporte para autenticación multifactor</title>
-      <link>http://www.entredevyops.es/posts/amazon-ws-aws-soporte-mfa-autenticacion-multifactor.html</link>
+      <link>https://www.entredevyops.es/posts/amazon-ws-aws-soporte-mfa-autenticacion-multifactor.html</link>
       <pubDate>Sat, 19 Oct 2013 10:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/amazon-ws-aws-soporte-mfa-autenticacion-multifactor.html</guid>
+      <guid>https://www.entredevyops.es/posts/amazon-ws-aws-soporte-mfa-autenticacion-multifactor.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Algo que el usuario posea, en el móvil, por ejemplo.&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/Simple-Mobile-based.jpg&#34; style=&#34;width: 206px; height: 97px;&#34; /&gt;
+&lt;img alt=&#34;Algo que el usuario posea, en el móvil, por ejemplo.&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/Simple-Mobile-based.jpg&#34; style=&#34;width: 206px; height: 97px;&#34; /&gt;
 &lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com&#34;&gt;Amazon Web Services&lt;/a&gt; anunció ayer, viernes día 18, el &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/mfa&#34;&gt;soporte&lt;/a&gt; para la autenticación multifactor, o &lt;a class=&#34;reference external&#34; href=&#34;http://en.wikipedia.org/wiki/Multi-factor_authentication&#34;&gt;MFA&lt;/a&gt;, de sus siglas en inglés.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Introducción a Amazon WS por el Barcelona JUG</title>
-      <link>http://www.entredevyops.es/posts/introduccion-amazon-ws-barcelona-jug.html</link>
+      <link>https://www.entredevyops.es/posts/introduccion-amazon-ws-barcelona-jug.html</link>
       <pubDate>Wed, 16 Oct 2013 00:55:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/introduccion-amazon-ws-barcelona-jug.html</guid>
+      <guid>https://www.entredevyops.es/posts/introduccion-amazon-ws-barcelona-jug.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1639,19 +1639,19 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
     
     <item>
       <title>Fechas para la NoSQL matters Cologne 2014</title>
-      <link>http://www.entredevyops.es/posts/nosql-matters-cologne-2014.html</link>
+      <link>https://www.entredevyops.es/posts/nosql-matters-cologne-2014.html</link>
       <pubDate>Tue, 15 Oct 2013 21:13:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/nosql-matters-cologne-2014.html</guid>
+      <guid>https://www.entredevyops.es/posts/nosql-matters-cologne-2014.html</guid>
       <description>NoSQL matters La NoSQL matters es una conferencia sobre bases de datos NoSQL, que se celebra con carácter semestral, hasta ahora en Colonia y Barcelona, en ediciones alternativas, siendo la primera de cada año en Colonia. Las sesiones se celebran en dos jornadas, una primera opcional con sesiones de formación, y la segunda en la que se celebra la conferencia en sí misma. La próxima edición será en Barcelona, los días 29 y 30 de Noviembre, pero ya se han hecho oficales las fechas para la siguiente edición en Colonia, el año que viene: 22 y 23 de Mayo.</description>
     </item>
     
     <item>
       <title>Charlas en el DevOpsDays Barcelona 2013</title>
-      <link>http://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html</link>
+      <link>https://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html</link>
       <pubDate>Sat, 12 Oct 2013 20:13:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html</guid>
+      <guid>https://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1664,19 +1664,19 @@ El evento lo ha organizado &lt;a class=&#34;reference external&#34; href=&#34;ht
     
     <item>
       <title>DevOpsDays Barcelona 2013</title>
-      <link>http://www.entredevyops.es/posts/devopsdays-barcelona-2013.html</link>
+      <link>https://www.entredevyops.es/posts/devopsdays-barcelona-2013.html</link>
       <pubDate>Thu, 10 Oct 2013 21:35:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/devopsdays-barcelona-2013.html</guid>
+      <guid>https://www.entredevyops.es/posts/devopsdays-barcelona-2013.html</guid>
       <description>devops days Barcelona 2013 Hoy y mañana, en la Fábrica de la Moritz, en Barcelona, tiene lugar la edición de devops days correspondiente a 2013. En los próximos días podréis encontrar artículos sobre las charlas más interesantes que se han hecho.</description>
     </item>
     
     <item>
       <title>Reunión de Junio de Sudoers BCN</title>
-      <link>http://www.entredevyops.es/posts/reunion-de-junio-de-sudoers-bcn.html</link>
+      <link>https://www.entredevyops.es/posts/reunion-de-junio-de-sudoers-bcn.html</link>
       <pubDate>Tue, 04 Jun 2013 20:37:37 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/reunion-de-junio-de-sudoers-bcn.html</guid>
+      <guid>https://www.entredevyops.es/posts/reunion-de-junio-de-sudoers-bcn.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1688,10 +1688,10 @@ El evento lo ha organizado &lt;a class=&#34;reference external&#34; href=&#34;ht
     
     <item>
       <title>La empresa moderna y los cambios</title>
-      <link>http://www.entredevyops.es/posts/empresa-moderna-y-los-cambios.html</link>
+      <link>https://www.entredevyops.es/posts/empresa-moderna-y-los-cambios.html</link>
       <pubDate>Mon, 03 Jun 2013 16:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/empresa-moderna-y-los-cambios.html</guid>
+      <guid>https://www.entredevyops.es/posts/empresa-moderna-y-los-cambios.html</guid>
       <description>&lt;div class=&#34;document&#34; id=&#34;la-empresa-moderna-y-los-cambios&#34;&gt;
 &lt;h1 class=&#34;title&#34;&gt;La empresa moderna y los cambios&lt;/h1&gt;
 
@@ -1701,10 +1701,10 @@ El evento lo ha organizado &lt;a class=&#34;reference external&#34; href=&#34;ht
     
     <item>
       <title>Encuentro Agile-Python BCN</title>
-      <link>http://www.entredevyops.es/posts/agile-python-bcn-meetup.html</link>
+      <link>https://www.entredevyops.es/posts/agile-python-bcn-meetup.html</link>
       <pubDate>Wed, 29 May 2013 23:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/agile-python-bcn-meetup.html</guid>
+      <guid>https://www.entredevyops.es/posts/agile-python-bcn-meetup.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1714,10 +1714,10 @@ El evento lo ha organizado &lt;a class=&#34;reference external&#34; href=&#34;ht
     
     <item>
       <title>Testing y automatización  en el Fosdem</title>
-      <link>http://www.entredevyops.es/posts/testing-automatizacion-fosdem.html</link>
+      <link>https://www.entredevyops.es/posts/testing-automatizacion-fosdem.html</link>
       <pubDate>Sun, 17 Feb 2013 19:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/testing-automatizacion-fosdem.html</guid>
+      <guid>https://www.entredevyops.es/posts/testing-automatizacion-fosdem.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -1727,10 +1727,10 @@ El evento lo ha organizado &lt;a class=&#34;reference external&#34; href=&#34;ht
     
     <item>
       <title>OpenStack: Arquitectura y operaciones para la nube y las aplicaciones del siglo XXI</title>
-      <link>http://www.entredevyops.es/posts/openstack-arquitectura-operaciones-nube-aplicaciones-siglo-xxi.html</link>
+      <link>https://www.entredevyops.es/posts/openstack-arquitectura-operaciones-nube-aplicaciones-siglo-xxi.html</link>
       <pubDate>Sun, 03 Feb 2013 10:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/openstack-arquitectura-operaciones-nube-aplicaciones-siglo-xxi.html</guid>
+      <guid>https://www.entredevyops.es/posts/openstack-arquitectura-operaciones-nube-aplicaciones-siglo-xxi.html</guid>
       <description>&lt;div class=&#34;document&#34; id=&#34;openstack-arquitectura-y-operaciones-para-la-nube-y-las-aplicaciones-del-siglo-xxi&#34;&gt;
 &lt;h1 class=&#34;title&#34;&gt;OpenStack: Arquitectura y operaciones para la nube y las aplicaciones del siglo XXI&lt;/h1&gt;
 
@@ -1740,19 +1740,19 @@ El evento lo ha organizado &lt;a class=&#34;reference external&#34; href=&#34;ht
     
     <item>
       <title>Apache CloudStack: Funcionalidades y herramientas</title>
-      <link>http://www.entredevyops.es/posts/apache-cloudstack-funcionalidades-herramientas.html</link>
+      <link>https://www.entredevyops.es/posts/apache-cloudstack-funcionalidades-herramientas.html</link>
       <pubDate>Sun, 03 Feb 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/apache-cloudstack-funcionalidades-herramientas.html</guid>
+      <guid>https://www.entredevyops.es/posts/apache-cloudstack-funcionalidades-herramientas.html</guid>
       <description>Apache CloudStack: Funcionalidades y herramientas Sebastien Goasguen habló sobre Apache CloudStack. Cloudstack se podría definir como un sistema de gestión de entornos de virtualización y de computación en nube. Este software, que hace uso de la librería deltaCloud, permite gestionar los servicios de computación, almacenamiento y red,</description>
     </item>
     
     <item>
       <title>Devops con Jenkins</title>
-      <link>http://www.entredevyops.es/posts/devops-jenkins.html</link>
+      <link>https://www.entredevyops.es/posts/devops-jenkins.html</link>
       <pubDate>Sat, 02 Feb 2013 16:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/devops-jenkins.html</guid>
+      <guid>https://www.entredevyops.es/posts/devops-jenkins.html</guid>
       <description>&lt;div class=&#34;document&#34; id=&#34;devops-con-jenkins&#34;&gt;
 &lt;h1 class=&#34;title&#34;&gt;DevOps con Jenkins&lt;/h1&gt;
 
@@ -1762,10 +1762,10 @@ El evento lo ha organizado &lt;a class=&#34;reference external&#34; href=&#34;ht
     
     <item>
       <title>Empaquetado Contínuo</title>
-      <link>http://www.entredevyops.es/posts/empaquetado-continuo.html</link>
+      <link>https://www.entredevyops.es/posts/empaquetado-continuo.html</link>
       <pubDate>Sat, 02 Feb 2013 16:00:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/empaquetado-continuo.html</guid>
+      <guid>https://www.entredevyops.es/posts/empaquetado-continuo.html</guid>
       <description>&lt;div class=&#34;document&#34; id=&#34;empaquetado-continuo&#34;&gt;
 &lt;h1 class=&#34;title&#34;&gt;Empaquetado contínuo&lt;/h1&gt;
 

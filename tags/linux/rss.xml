@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Entre Dev y Ops</title>
-    <link>http://www.entredevyops.es/tags/linux.html</link>
+    <link>https://www.entredevyops.es/tags/linux.html</link>
     <description>Recent content in Linux on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Tue, 23 Aug 2016 19:55:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.entredevyops.es/tags/linux/rss.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.entredevyops.es/tags/linux/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Amazon Linux, ¿sí o no?</title>
-      <link>http://www.entredevyops.es/posts/amazon-linux-si-o-no.html</link>
+      <link>https://www.entredevyops.es/posts/amazon-linux-si-o-no.html</link>
       <pubDate>Tue, 23 Aug 2016 19:55:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/amazon-linux-si-o-no.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/AmazonWebservices.png&#39; alt=&#39;Amazon Web Services&#39; class=&#39;align-left&#39; height=&#39;80&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/amazon-linux-si-o-no.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/AmazonWebservices.png&#39; alt=&#39;Amazon Web Services&#39; class=&#39;align-left&#39; height=&#39;80&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;Seguro que todos los que usáis o habéis usado Amazon Web Services (AWS para abreviar) alguna vez habréis probado, o usado de forma productiva &lt;a href=&#34;https://aws.amazon.com/es/amazon-linux-ami/&#34; target=&#34;_blank&#34;&gt;Amazon Linux&lt;/a&gt;, la versión de Linux basada en RedHat/CentOS preparada por ellos y &amp;ldquo;equipada&amp;rdquo; para funcionar perfectamente en su servicio EC2.&lt;/p&gt;
 
@@ -28,38 +28,38 @@
     
     <item>
       <title>Análisis de rendimiento de Linux</title>
-      <link>http://www.entredevyops.es/posts/analisis-rendimiento-linux.html</link>
+      <link>https://www.entredevyops.es/posts/analisis-rendimiento-linux.html</link>
       <pubDate>Mon, 23 Jun 2014 03:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/analisis-rendimiento-linux.html</guid>
+      <guid>https://www.entredevyops.es/posts/analisis-rendimiento-linux.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;resumen de herramientas de Brendan Gregg&#34; class=&#34;border align-center&#34; src=&#34;http://www.entredevyops.es/images/linuxperftools_1000.png&#34; style=&#34;width: 650px; height: 376px;&#34; /&gt;
+&lt;img alt=&#34;resumen de herramientas de Brendan Gregg&#34; class=&#34;border align-center&#34; src=&#34;https://www.entredevyops.es/images/linuxperftools_1000.png&#34; style=&#34;width: 650px; height: 376px;&#34; /&gt;
 &lt;p&gt;Brendan Gregg ha escrito una serie de artículos y documentos agrupados en &lt;a class=&#34;reference external&#34; href=&#34;http://www.brendangregg.com/linuxperf.html&#34;&gt;Linux Performance&lt;/a&gt; donde se investigan los cuellos de botella de los sistemas Unix y Linux.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>MiniDebConf 2014 en Barcelona</title>
-      <link>http://www.entredevyops.es/posts/minidebconf-bcn-2014.html</link>
+      <link>https://www.entredevyops.es/posts/minidebconf-bcn-2014.html</link>
       <pubDate>Fri, 14 Mar 2014 23:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/minidebconf-bcn-2014.html</guid>
+      <guid>https://www.entredevyops.es/posts/minidebconf-bcn-2014.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;Debian Women Project&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/dw.png&#34; style=&#34;width: 82px; height: 140px;&#34; /&gt;
+&lt;img alt=&#34;Debian Women Project&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/dw.png&#34; style=&#34;width: 82px; height: 140px;&#34; /&gt;
 &lt;p&gt;Este fin de semana se celebra en Barcelona la &lt;a class=&#34;reference external&#34; href=&#34;http://bcn2014.mini.debconf.org/&#34;&gt;MiniDebConf 2014&lt;/a&gt;, una conferencia sobre Debian organizada por &lt;a class=&#34;reference external&#34; href=&#34;http://debian-es.org/&#34;&gt;Debian-Es&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;https://www.debian.org/women/&#34;&gt;The Debian Women Project&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Curso de Introducción a Linux gratuito en edX</title>
-      <link>http://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</link>
+      <link>https://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</link>
       <pubDate>Tue, 11 Mar 2014 00:20:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</guid>
+      <guid>https://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
@@ -69,10 +69,10 @@
     
     <item>
       <title>Final Term: ¿El terminal «definitivo»?</title>
-      <link>http://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</link>
+      <link>https://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</link>
       <pubDate>Tue, 19 Nov 2013 00:30:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</guid>
+      <guid>https://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 

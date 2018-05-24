@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shell Script on Entre Dev y Ops</title>
-    <link>http://www.entredevyops.es/tags/shell-script.html</link>
+    <link>https://www.entredevyops.es/tags/shell-script.html</link>
     <description>Recent content in Shell Script on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Mon, 20 Feb 2017 23:25:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.entredevyops.es/tags/shell-script/rss.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.entredevyops.es/tags/shell-script/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ejecutando shell script en AWS Lambda</title>
-      <link>http://www.entredevyops.es/posts/shellscript-lambda.html</link>
+      <link>https://www.entredevyops.es/posts/shellscript-lambda.html</link>
       <pubDate>Mon, 20 Feb 2017 23:25:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/shellscript-lambda.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;http://www.entredevyops.es/images/da5bb104-f243-11e6-96e0-f7d9341c64a3.png&#39; alt=&#39;AWS Lambda&#39; class=&#39;align-right&#39; height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
+      <guid>https://www.entredevyops.es/posts/shellscript-lambda.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/da5bb104-f243-11e6-96e0-f7d9341c64a3.png&#39; alt=&#39;AWS Lambda&#39; class=&#39;align-right&#39; height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
 
 &lt;p&gt;Llevo un tiempo dándole vueltas a migrar de mi servidor virtual privado hacia el cloud, en concreto hacia AWS, pero uno de los motivos que más me echan para atrás es todos los scripts, la mayor parte en shell script, que tengo programados para ejecutarse diariamente en mi servidor y que realizan tareas de lo más útiles. De todos ellos destacaría el que tengo para que cada día me &amp;ldquo;recolecte&amp;rdquo; el libro electrónico gratuito que publica &lt;a href=&#34;https://www.packtpub.com&#34; target=&#34;_blank&#34;&gt;Packtpub&lt;/a&gt;. Pues bien, parece que este impedimento ha llegado a su fin, ya que utilizando un pequeño truco se pueden ejecutar shell scripts en Lambda.&lt;/p&gt;
 

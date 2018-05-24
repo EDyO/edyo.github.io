@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rendimiento on Entre Dev y Ops</title>
-    <link>http://www.entredevyops.es/tags/rendimiento.html</link>
+    <link>https://www.entredevyops.es/tags/rendimiento.html</link>
     <description>Recent content in Rendimiento on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Sun, 30 Nov 2014 12:14:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.entredevyops.es/tags/rendimiento/rss.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.entredevyops.es/tags/rendimiento/rss.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dos días en la VelocityConf</title>
-      <link>http://www.entredevyops.es/posts/dos-dias-velocity-conf.html</link>
+      <link>https://www.entredevyops.es/posts/dos-dias-velocity-conf.html</link>
       <pubDate>Sun, 30 Nov 2014 12:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/dos-dias-velocity-conf.html</guid>
+      <guid>https://www.entredevyops.es/posts/dos-dias-velocity-conf.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
+&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
 &lt;p&gt;Aunque hace unos días que pasó la &lt;a class=&#34;reference external&#34; href=&#34;http://velocityconf.com/velocityeu2014&#34;&gt;VelocityConf Europe 2014&lt;/a&gt;, publicamos este artículo para destacar algunas de las charlas que se dieron en el evento.
 En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que resultaban muy accesibles, eran también autores de libros de &lt;a class=&#34;reference external&#34; href=&#34;http://www.oreilly.com&#34;&gt;O&#39;Reilly&lt;/a&gt;, tanto de la talla de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/Souders&#34;&gt;Steve Souders&lt;/a&gt; o &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/allspaw&#34;&gt;John Allspaw&lt;/a&gt; como de la relevancia de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/igrigorik&#34;&gt;Ilya Grigorik&lt;/a&gt;. Durante los dos primeros días, hubo algunas firmas de libros, que regalaban a los veinte primeros.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -28,56 +28,56 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
     
     <item>
       <title>Sobre la VelocityConf (II)</title>
-      <link>http://www.entredevyops.es/posts/sobre-la-velocity-conf-2.html</link>
+      <link>https://www.entredevyops.es/posts/sobre-la-velocity-conf-2.html</link>
       <pubDate>Mon, 03 Nov 2014 22:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/sobre-la-velocity-conf-2.html</guid>
+      <guid>https://www.entredevyops.es/posts/sobre-la-velocity-conf-2.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-right&#34; src=&#34;http://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
+&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
 &lt;p&gt;En este artículo continuamos con el detalle de lo que depara la &lt;a class=&#34;reference external&#34; href=&#34;http://velocityconf.com/velocityeu2014&#34;&gt;VelocityConf Europe 2014&lt;/a&gt;, que empieza mañana. Os recordamos que podéis acceder a los &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/posts/concurso-velocity.html&#34;&gt;descuentos&lt;/a&gt; que publicamos para las entradas.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Sobre la VelocityConf (I)</title>
-      <link>http://www.entredevyops.es/posts/sobre-la-velocity-conf-1.html</link>
+      <link>https://www.entredevyops.es/posts/sobre-la-velocity-conf-1.html</link>
       <pubDate>Wed, 29 Oct 2014 02:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/sobre-la-velocity-conf-1.html</guid>
+      <guid>https://www.entredevyops.es/posts/sobre-la-velocity-conf-1.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-left&#34; src=&#34;http://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
+&lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
 &lt;p&gt;Con el &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/posts/concurso-velocity.html&#34;&gt;sorteo de una entrada&lt;/a&gt; para los dos primeros días de la &lt;a class=&#34;reference external&#34; href=&#34;http://velocityconf.com/velocityeu2014&#34;&gt;VelocityConf Europe 2014&lt;/a&gt; en marcha, hemos pensado que sería una buena idea dar una idea de lo que se avecina, a ver si os animáis a participar un poco más. Os recordamos que además del sorteo, también podéis acceder a un descuento de 250 euros para las entradas de 2 y 3 días, y otro del 20%, útil para la de un día.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Análisis de rendimiento de Linux</title>
-      <link>http://www.entredevyops.es/posts/analisis-rendimiento-linux.html</link>
+      <link>https://www.entredevyops.es/posts/analisis-rendimiento-linux.html</link>
       <pubDate>Mon, 23 Jun 2014 03:14:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/analisis-rendimiento-linux.html</guid>
+      <guid>https://www.entredevyops.es/posts/analisis-rendimiento-linux.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;resumen de herramientas de Brendan Gregg&#34; class=&#34;border align-center&#34; src=&#34;http://www.entredevyops.es/images/linuxperftools_1000.png&#34; style=&#34;width: 650px; height: 376px;&#34; /&gt;
+&lt;img alt=&#34;resumen de herramientas de Brendan Gregg&#34; class=&#34;border align-center&#34; src=&#34;https://www.entredevyops.es/images/linuxperftools_1000.png&#34; style=&#34;width: 650px; height: 376px;&#34; /&gt;
 &lt;p&gt;Brendan Gregg ha escrito una serie de artículos y documentos agrupados en &lt;a class=&#34;reference external&#34; href=&#34;http://www.brendangregg.com/linuxperf.html&#34;&gt;Linux Performance&lt;/a&gt; donde se investigan los cuellos de botella de los sistemas Unix y Linux.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Primer día en la BcnDevCon&#39;13</title>
-      <link>http://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</link>
+      <link>https://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</link>
       <pubDate>Sat, 09 Nov 2013 12:40:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</guid>
+      <guid>https://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;http://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
+&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
 &lt;p&gt;Ayer, día 8 de noviembre, ha tenido su inicio el &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon13&lt;/a&gt;. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en &lt;em&gt;cloud&lt;/em&gt;, móvil, robótica y &lt;em&gt;open source&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
@@ -85,14 +85,14 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
     
     <item>
       <title>Rendimiento Web: Real User eXperience</title>
-      <link>http://www.entredevyops.es/posts/rendimiento-web-real-user-experience.html</link>
+      <link>https://www.entredevyops.es/posts/rendimiento-web-real-user-experience.html</link>
       <pubDate>Mon, 28 Oct 2013 16:45:00 +0000</pubDate>
       
-      <guid>http://www.entredevyops.es/posts/rendimiento-web-real-user-experience.html</guid>
+      <guid>https://www.entredevyops.es/posts/rendimiento-web-real-user-experience.html</guid>
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;a class=&#34;reference external image-reference&#34; href=&#34;http://www.flickr.com/photos/wwarby/&#34;&gt;&lt;img alt=&#34;Medición de tiempos (Foto: William Warby)&#34; class=&#34;border align-left&#34; src=&#34;http://www.entredevyops.es/images/performance.jpg&#34; style=&#34;width: 180px; height: 135px;&#34; /&gt;&lt;/a&gt;
+&lt;a class=&#34;reference external image-reference&#34; href=&#34;http://www.flickr.com/photos/wwarby/&#34;&gt;&lt;img alt=&#34;Medición de tiempos (Foto: William Warby)&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/performance.jpg&#34; style=&#34;width: 180px; height: 135px;&#34; /&gt;&lt;/a&gt;
 &lt;p&gt;El pasado jueves tuvo lugar, en las oficinas que &lt;a class=&#34;reference external&#34; href=&#34;http://www.cantera-tech.com/es/&#34;&gt;CanteraTech&lt;/a&gt; tiene en  Barcelona, un encuentro del grupo de &lt;a class=&#34;reference external&#34; href=&#34;http://www.meetup.com/&#34;&gt;Meetup&lt;/a&gt; de &lt;a class=&#34;reference external&#34; href=&#34;http://www.meetup.com/Barcelona-Web-Performance-Group/&#34;&gt;Barcelona Web Performance&lt;/a&gt; en el que &lt;a class=&#34;reference external&#34; href=&#34;http://marcloan.cat/&#34;&gt;Marc Loan&lt;/a&gt; habló sobre su proyecto &lt;em&gt;Real User eXperience&lt;/em&gt;, o RUX. Desarrollado y utilizado desde 2008 para detectar y analizar los problemas que los usuarios puedan experimentar durante la navegación de un sitio web, incluso cuando éstos no llamen al servicio de atención al cliente. Este proyecto, además, se convirtió en el proyecto de fin de carrera de Marc.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
