@@ -35,7 +35,8 @@ En la charla de este mes, Javier Arturo Rodríguez habló sobre Ansible, otra he
 
         <title> Reunión de Sudoers BCN de Noviembre &middot;  Entre Dev y Ops</title>
 
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
         <link rel="preload" href="/js/main.js" as="script" />
         <link rel="preload" href="/css/main.css" as="style" />
         
@@ -180,9 +181,10 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <a class="menu subscription" data-action="subscription"
                     data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
               
-              <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops" title="Entre Dev Y Ops en Twitter"><i class="fa fa-twitter"></i></a>
-              <a class="nav-social" target="_blank" href="https://github.com/edyo" title="Entre Dev Y Ops en GitHub"><i class="fa fa-github"></i></a>
-              <a id="search-button" onclick="$('#search-form').toggle();" title="Buscar"><i class="fa fa-search"></i></a>
+              <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops" title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
+              <a class="nav-social" target="_blank" href="https://t.me/entredevyops" title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
+              <a class="nav-social" target="_blank" href="https://github.com/edyo" title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+              <a id="search-button" onclick="$('#search-form').toggle();" title="Buscar"><i class="fas fa-search"></i></a>
               <form id="search-form" method="get" role="search" action="https://google.es/search">
                 <input type="hidden" name="as_sitesearch" value="http://www.entredevyops.es/">
                 <input type="text" name="q" maxlength="255" placeholder="Buscar..." class="form-control">
@@ -193,7 +195,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
               
               
                 <a id="main-menu-button" class="menu" data-action="menu" data-target="menu"
-                    title="Menú"><i class="fa fa-navicon"></i></a>
+                    title="Menú"><i class="fas fa-bars"></i></a>
               
             </div>
           </nav>
@@ -320,10 +322,10 @@ ansible -vvvv -i production webservers -m setup
                   </div>
                 
                     <div class="post-share">
-                        <a class="fa fa-twitter" href="https://twitter.com/share?text=Reuni%c3%b3n%20de%20Sudoers%20BCN%20de%20Noviembre&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2freunion-sudoers-noviembre.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                        <a class="fas fa-twitter" href="https://twitter.com/share?text=Reuni%c3%b3n%20de%20Sudoers%20BCN%20de%20Noviembre&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2freunion-sudoers-noviembre.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <span>Twitter</span>
                         </a>
-                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2freunion-sudoers-noviembre.html&title=Reuni%c3%b3n%20de%20Sudoers%20BCN%20de%20Noviembre&summary=%3cdiv%20class%3d%22document%22%3e%0a%0a%0a%3cimg%20alt%3d%22sudo%20make%20me%20a%20sandwich%22%20class%3d%22align-left%22%20src%3d%22%2fimages%2fSudoersBCN.png%22%20style%3d%22width%3a%20180px%3b%20height%3a%20150px%3b%22%20%2f%3e%0a%3cp%3eEn%20la%20charla%20de%20este%20mes%2c%20%3ca%20class%3d%22reference%20external%22%20href%3d%22https%3a%2f%2ftwitter.com%2fcodehead%22%3eJavier%20Arturo%20Rodr%c3%adguez%3c%2fa%3e%20habl%c3%b3%20sobre%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fwww.ansibleworks.com%2f%22%3eAnsible%3c%2fa%3e%2c%20otra%20herramienta%20para%20la%20gesti%c3%b3n%20de%20configuraci%c3%b3n.%20Aunque%20bien%20podr%c3%ada%20compararse%20en%20funcionalidad%20con%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fpuppetlabs.com%2f%22%3ePuppet%3c%2fa%3e%20o%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fwww.opscode.com%2fchef%2f%22%3eChef%3c%2fa%3e%2c%20su%20dise%c3%b1o%20y%20las%20t%c3%a9cnicas%20utilizadas%20la%20convierten%20en%20una%20herramienta%20muy%20sencilla%2c%20completa%20e%20interesante%2c%20incluso%20para%20sustituir%20a%20otras%20herramientas%20como%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fdocs.fabfile.org%2fen%2f1.8%2f%22%3eFabric%3c%2fa%3e%20o%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fwww.capistranorb.com%2f%22%3eCapistrano%3c%2fa%3e.%3c%2fp%3e%0a%3cp%3e%3c%2fp%3e%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                        <a class="fas fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2freunion-sudoers-noviembre.html&title=Reuni%c3%b3n%20de%20Sudoers%20BCN%20de%20Noviembre&summary=%3cdiv%20class%3d%22document%22%3e%0a%0a%0a%3cimg%20alt%3d%22sudo%20make%20me%20a%20sandwich%22%20class%3d%22align-left%22%20src%3d%22%2fimages%2fSudoersBCN.png%22%20style%3d%22width%3a%20180px%3b%20height%3a%20150px%3b%22%20%2f%3e%0a%3cp%3eEn%20la%20charla%20de%20este%20mes%2c%20%3ca%20class%3d%22reference%20external%22%20href%3d%22https%3a%2f%2ftwitter.com%2fcodehead%22%3eJavier%20Arturo%20Rodr%c3%adguez%3c%2fa%3e%20habl%c3%b3%20sobre%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fwww.ansibleworks.com%2f%22%3eAnsible%3c%2fa%3e%2c%20otra%20herramienta%20para%20la%20gesti%c3%b3n%20de%20configuraci%c3%b3n.%20Aunque%20bien%20podr%c3%ada%20compararse%20en%20funcionalidad%20con%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fpuppetlabs.com%2f%22%3ePuppet%3c%2fa%3e%20o%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fwww.opscode.com%2fchef%2f%22%3eChef%3c%2fa%3e%2c%20su%20dise%c3%b1o%20y%20las%20t%c3%a9cnicas%20utilizadas%20la%20convierten%20en%20una%20herramienta%20muy%20sencilla%2c%20completa%20e%20interesante%2c%20incluso%20para%20sustituir%20a%20otras%20herramientas%20como%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fdocs.fabfile.org%2fen%2f1.8%2f%22%3eFabric%3c%2fa%3e%20o%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fwww.capistranorb.com%2f%22%3eCapistrano%3c%2fa%3e.%3c%2fp%3e%0a%3cp%3e%3c%2fp%3e%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <span>LinkedIn</span>
                         </a>
                     </div>
@@ -347,7 +349,7 @@ ansible -vvvv -i production webservers -m setup
                 
                     <a class="post-nav-item post-nav-next" href="http://www.entredevyops.es/posts/curso-openstack-barcelona.html">
                         <section class="post-nav-teaser">
-                            <span class="post-nav-icon"><i class="fa fa-chevron-left"></i></span>
+                            <span class="post-nav-icon"><i class="fas fa-chevron-left"></i></span>
                             <span class="post-nav-info">
                                 <h4 class="post-nav-title">Curso de OpenStack en Barcelona</h4>
                             </span>
@@ -357,7 +359,7 @@ ansible -vvvv -i production webservers -m setup
                 
                     <a class="post-nav-item post-nav-prev" href="http://www.entredevyops.es/posts/certificaciones-oficiales-mongodb.html">
                         <section class="post-nav-teaser">
-                            <span class="post-nav-icon"><i class="fa fa-chevron-right"></i></span>
+                            <span class="post-nav-icon"><i class="fas fa-chevron-right"></i></span>
                             <span class="post-nav-info">
                                 <h4 class="post-nav-title">Certificaciones oficiales en MongoDB</h4>
                             </span>
@@ -375,8 +377,7 @@ ansible -vvvv -i production webservers -m setup
                 <footer id="footer">
                     <section class="credits">
                         
-                        <span class="credits-license"><i class="fa
-                                fa-copyright"></i> 2013-2018 Entre Dev y Ops, licencia <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_ES"><i class="fab fa-creative-commons"></i> BY-NC-SA 3.0</a>
+                        <span class="credits-license"><i class="fas fa-copyright"></i> 2013-2018 Entre Dev y Ops, licencia <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_ES"><i class="fab fa-creative-commons"></i> BY-NC-SA 3.0</a>
                         
                         
                         — <a href="politica-cookies.html">Política de cookies</a>
@@ -454,8 +455,9 @@ ansible -vvvv -i production webservers -m setup
         </li>
         
         <li class="menu-list-item menu-list-social">
-            <a href="https://twitter.com/entredevyops" title="Entre Dev Y Ops en Twitter"><i class="fa fa-twitter"></i></a>
-            <a href="https://github.com/edyo" title="Entre Dev Y Ops en GitHub"><i class="fa fa-github"></i></a>
+            <a href="https://twitter.com/entredevyops" title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://t.me/entredevyops" title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
+            <a href="https://github.com/edyo" title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
         </li>
     </div>
 

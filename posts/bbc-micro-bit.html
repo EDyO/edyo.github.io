@@ -37,7 +37,8 @@ Pensaréis, ¿y todo esto, a qué viene?, pues esta semana se celebra el EuroPyt
 
         <title> BBC micro:bit &middot;  Entre Dev y Ops</title>
 
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
         <link rel="preload" href="/js/main.js" as="script" />
         <link rel="preload" href="/css/main.css" as="style" />
         
@@ -182,9 +183,10 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <a class="menu subscription" data-action="subscription"
                     data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
               
-              <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops" title="Entre Dev Y Ops en Twitter"><i class="fa fa-twitter"></i></a>
-              <a class="nav-social" target="_blank" href="https://github.com/edyo" title="Entre Dev Y Ops en GitHub"><i class="fa fa-github"></i></a>
-              <a id="search-button" onclick="$('#search-form').toggle();" title="Buscar"><i class="fa fa-search"></i></a>
+              <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops" title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
+              <a class="nav-social" target="_blank" href="https://t.me/entredevyops" title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
+              <a class="nav-social" target="_blank" href="https://github.com/edyo" title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+              <a id="search-button" onclick="$('#search-form').toggle();" title="Buscar"><i class="fas fa-search"></i></a>
               <form id="search-form" method="get" role="search" action="https://google.es/search">
                 <input type="hidden" name="as_sitesearch" value="http://www.entredevyops.es/">
                 <input type="text" name="q" maxlength="255" placeholder="Buscar..." class="form-control">
@@ -195,7 +197,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
               
               
                 <a id="main-menu-button" class="menu" data-action="menu" data-target="menu"
-                    title="Menú"><i class="fa fa-navicon"></i></a>
+                    title="Menú"><i class="fas fa-bars"></i></a>
               
             </div>
           </nav>
@@ -272,10 +274,10 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                   </div>
                 
                     <div class="post-share">
-                        <a class="fa fa-twitter" href="https://twitter.com/share?text=BBC%20micro%3abit&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2fbbc-micro-bit.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                        <a class="fas fa-twitter" href="https://twitter.com/share?text=BBC%20micro%3abit&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2fbbc-micro-bit.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <span>Twitter</span>
                         </a>
-                        <a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2fbbc-micro-bit.html&title=BBC%20micro%3abit&summary=%3cp%3e%3cimg%20src%3d%27%2fimages%2fbbc-microbit.jpg%27%20alt%3d%27BBC%20micro%3abit%27%20class%3d%27border%20align-right%27%20height%3d%27180%27%20width%3d%27240%27%2f%3e%3c%2fp%3e%0a%0a%3cp%3eQue%20el%20fen%c3%b3meno%20%3ca%20href%3d%22https%3a%2f%2fes.wikipedia.org%2fwiki%2fInternet_de_las_cosas%22%20target%3d%22_blank%22%3e%3cem%3eInternet%20of%20Things%3c%2fem%3e%3c%2fa%3e%20%28tambi%c3%a9n%20conocido%20en%20su%20forma%20abreviada%20como%20IoT%29%20est%c3%a1%20de%20moda%20es%20m%c3%a1s%20que%20un%20hecho%2c%20este%20nuevo%20concepto%20est%c3%a1%20aqu%c3%ad%20para%20quedarse%2c%20y%20por%20bastante%20tiempo.%3c%2fp%3e%0a%0a%3cp%3ePensar%c3%a9is%2c%20%c2%bfy%20todo%20esto%2c%20a%20qu%c3%a9%20viene%3f%2c%20pues%20esta%20semana%20se%20celebra%20el%20%3ca%20href%3d%22https%3a%2f%2feuropython.eu%22%20target%3d%22_blank%22%3eEuroPython%3c%2fa%3e%2c%20que%20por%20segundo%20a%c3%b1o%20consecutivo%20se%20emplaza%20en%20Bilbao%20%28bonita%20ciudad%20donde%20las%20haya%2c%20y%20que%20recomiendo%20visitar%20si%20no%20lo%20hab%c3%a9is%20hecho%20a%c3%ban%29%2c%20y%20en%20esta%20edici%c3%b3n%2c%20adem%c3%a1s%20de%20entregar%20la%20bolsa%20de%20bienvenida%20de%20rigor%2c%20han%20regalado%20una%20%3ca%20href%3d%22https%3a%2f%2fwww.microbit.co.uk%2f%22%20target%3d%22_blank%22%3eBBC%20micro%3abit%3c%2fa%3e%2c%20no%20sin%20antes%20haberla%20dado%20a%20conocer%20en%20varias%20charlas%2c%20que%20pronto%20estar%c3%a1n%20disponibles%20en%20v%c3%addeo.%3c%2fp%3e%0a%0a%3cp%3e%3c%2fp%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                        <a class="fas fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fwww.entredevyops.es%2fposts%2fbbc-micro-bit.html&title=BBC%20micro%3abit&summary=%3cp%3e%3cimg%20src%3d%27%2fimages%2fbbc-microbit.jpg%27%20alt%3d%27BBC%20micro%3abit%27%20class%3d%27border%20align-right%27%20height%3d%27180%27%20width%3d%27240%27%2f%3e%3c%2fp%3e%0a%0a%3cp%3eQue%20el%20fen%c3%b3meno%20%3ca%20href%3d%22https%3a%2f%2fes.wikipedia.org%2fwiki%2fInternet_de_las_cosas%22%20target%3d%22_blank%22%3e%3cem%3eInternet%20of%20Things%3c%2fem%3e%3c%2fa%3e%20%28tambi%c3%a9n%20conocido%20en%20su%20forma%20abreviada%20como%20IoT%29%20est%c3%a1%20de%20moda%20es%20m%c3%a1s%20que%20un%20hecho%2c%20este%20nuevo%20concepto%20est%c3%a1%20aqu%c3%ad%20para%20quedarse%2c%20y%20por%20bastante%20tiempo.%3c%2fp%3e%0a%0a%3cp%3ePensar%c3%a9is%2c%20%c2%bfy%20todo%20esto%2c%20a%20qu%c3%a9%20viene%3f%2c%20pues%20esta%20semana%20se%20celebra%20el%20%3ca%20href%3d%22https%3a%2f%2feuropython.eu%22%20target%3d%22_blank%22%3eEuroPython%3c%2fa%3e%2c%20que%20por%20segundo%20a%c3%b1o%20consecutivo%20se%20emplaza%20en%20Bilbao%20%28bonita%20ciudad%20donde%20las%20haya%2c%20y%20que%20recomiendo%20visitar%20si%20no%20lo%20hab%c3%a9is%20hecho%20a%c3%ban%29%2c%20y%20en%20esta%20edici%c3%b3n%2c%20adem%c3%a1s%20de%20entregar%20la%20bolsa%20de%20bienvenida%20de%20rigor%2c%20han%20regalado%20una%20%3ca%20href%3d%22https%3a%2f%2fwww.microbit.co.uk%2f%22%20target%3d%22_blank%22%3eBBC%20micro%3abit%3c%2fa%3e%2c%20no%20sin%20antes%20haberla%20dado%20a%20conocer%20en%20varias%20charlas%2c%20que%20pronto%20estar%c3%a1n%20disponibles%20en%20v%c3%addeo.%3c%2fp%3e%0a%0a%3cp%3e%3c%2fp%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <span>LinkedIn</span>
                         </a>
                     </div>
@@ -299,7 +301,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 
                     <a class="post-nav-item post-nav-next" href="http://www.entredevyops.es/posts/paginas-estaticas-amazon-1.html">
                         <section class="post-nav-teaser">
-                            <span class="post-nav-icon"><i class="fa fa-chevron-left"></i></span>
+                            <span class="post-nav-icon"><i class="fas fa-chevron-left"></i></span>
                             <span class="post-nav-info">
                                 <h4 class="post-nav-title">Páginas estáticas en Amazon - 1</h4>
                             </span>
@@ -309,7 +311,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 
                     <a class="post-nav-item post-nav-prev" href="http://www.entredevyops.es/posts/publicacion-estatica.html">
                         <section class="post-nav-teaser">
-                            <span class="post-nav-icon"><i class="fa fa-chevron-right"></i></span>
+                            <span class="post-nav-icon"><i class="fas fa-chevron-right"></i></span>
                             <span class="post-nav-info">
                                 <h4 class="post-nav-title">Publicación estática</h4>
                             </span>
@@ -327,8 +329,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <footer id="footer">
                     <section class="credits">
                         
-                        <span class="credits-license"><i class="fa
-                                fa-copyright"></i> 2013-2018 Entre Dev y Ops, licencia <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_ES"><i class="fab fa-creative-commons"></i> BY-NC-SA 3.0</a>
+                        <span class="credits-license"><i class="fas fa-copyright"></i> 2013-2018 Entre Dev y Ops, licencia <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_ES"><i class="fab fa-creative-commons"></i> BY-NC-SA 3.0</a>
                         
                         
                         — <a href="politica-cookies.html">Política de cookies</a>
@@ -406,8 +407,9 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
         </li>
         
         <li class="menu-list-item menu-list-social">
-            <a href="https://twitter.com/entredevyops" title="Entre Dev Y Ops en Twitter"><i class="fa fa-twitter"></i></a>
-            <a href="https://github.com/edyo" title="Entre Dev Y Ops en GitHub"><i class="fa fa-github"></i></a>
+            <a href="https://twitter.com/entredevyops" title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://t.me/entredevyops" title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
+            <a href="https://github.com/edyo" title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
         </li>
     </div>
 
