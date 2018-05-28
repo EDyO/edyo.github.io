@@ -35,7 +35,9 @@ A pesar de llevar años entre nosotros, sobretodo, gracias al empuje de Google c
 
         <title> HTML5 finalizado &middot;  Entre Dev y Ops</title>
 
-        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+        <script defer src="//use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+        <script defer src="//use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
+        <script defer src="//use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
         <link rel="preload" href="/js/main.js" as="script" />
         <link rel="preload" href="/css/main.css" as="style" />
@@ -140,7 +142,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
 
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
     window.addEventListener("load", function(){
     window.cookieconsent.initialise({
@@ -179,11 +181,20 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
             <div id="main-menu" class="nav-menu">
               
                 <a class="menu subscription" data-action="subscription"
-                    data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
+                   data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
               
-              <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops" title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
-              <a class="nav-social" target="_blank" href="https://t.me/entredevyops" title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
-              <a class="nav-social" target="_blank" href="https://github.com/edyo" title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+              
+                  <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops"
+                     title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
+              
+              
+                  <a class="nav-social" target="_blank" href="https://t.me/entredevyops"
+                     title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
+              
+              
+                  <a class="nav-social" target="_blank" href="https://github.com/edyo"
+                     title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+              
               <a id="search-button" onclick="$('#search-form').toggle();" title="Buscar"><i class="fas fa-search"></i></a>
               <form id="search-form" method="get" role="search" action="https://google.es/search">
                 <input type="hidden" name="as_sitesearch" value="https://www.entredevyops.es/">
@@ -244,11 +255,13 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                   </div>
                 
                     <div class="post-share">
-                        <a class="fas fa-twitter" href="https://twitter.com/share?text=HTML5%20finalizado&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fhtml5-finalizado.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                            <span>Twitter</span>
+                        <a href="https://twitter.com/share?text=HTML5%20finalizado&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fhtml5-finalizado.html"
+                           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a class="fas fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fhtml5-finalizado.html&title=HTML5%20finalizado&summary=%3cdiv%20class%3d%22document%22%3e%0a%0a%0a%3cimg%20alt%3d%22HTML5%22%20class%3d%22align-right%22%20src%3d%22%2fimages%2fhtml5.png%22%20%2f%3e%0a%3cp%3eA%20pesar%20de%20llevar%20a%c3%b1os%20entre%20nosotros%2c%20sobretodo%2c%20gracias%20al%20empuje%20de%20Google%20con%20su%20%26quot%3bjoven%26quot%3b%20navegador%20Chrome%2c%20a%20la%20fundaci%c3%b3n%20Mozilla%20con%20Firefox%2c%20y%20al%20r%c3%a1pido%20crecimiento%20y%20cada%20vez%20uso%20m%c3%a1s%20generalizado%20de%20%3cem%3esmartphones%3c%2fem%3e%2c%20el%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fwww.w3.org%2fblog%2fnews%2farchives%2f4167%22%3epasado%20d%c3%ada%2028%20de%20Octubre%3c%2fa%3e%2c%20el%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fwww.w3.org%2f%22%3eW3C%3c%2fa%3e%20dio%20por%20finalizado%20el%20est%c3%a1ndar%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fwww.w3.org%2fTR%2f2014%2fREC-html5-20141028%2f%22%3eHTML5%3c%2fa%3e%20pas%c3%a1ndolo%20al%20estado%20de%20recomendaci%c3%b3n.%3c%2fp%3e%0a%3cp%3e%3c%2fp%3e%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
-                            <span>LinkedIn</span>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fhtml5-finalizado.html&title=HTML5%20finalizado&summary=A%20pesar%20de%20llevar%20a%c3%b1os%20entre%20nosotros%2c%20sobretodo%2c%20gracias%20al%20empuje%20de%20Google%20con%20su%20%26quot%3bjoven%26quot%3b%20navegador%20Chrome%2c%20a%20la%20fundaci%c3%b3n%20Mozilla%20con%20Firefox%2c%20y%20al%20r%c3%a1pido%20crecimiento%20y%20cada%20vez%20uso%20m%c3%a1s%20generalizado%20de%20smartphones%2c%20el%20pasado%20d%c3%ada%2028%20de%20Octubre%2c%20el%20W3C%20dio%20por%20finalizado%20el%20est%c3%a1ndar%20HTML5%20pas%c3%a1ndolo%20al%20estado%20de%20recomendaci%c3%b3n.%0a%0a"
+                           onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>
                     </div>
             
@@ -383,9 +396,22 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
         </li>
         
         <li class="menu-list-item menu-list-social">
-            <a href="https://twitter.com/entredevyops" title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://t.me/entredevyops" title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
-            <a href="https://github.com/edyo" title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+            
+              <a class="menu subscription" data-action="subscription"
+                 data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
+            
+            
+                <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops"
+                   title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
+            
+            
+                <a class="nav-social" target="_blank" href="https://t.me/entredevyops"
+                   title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
+            
+            
+                <a class="nav-social" target="_blank" href="https://github.com/edyo"
+                   title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+            
         </li>
     </div>
 

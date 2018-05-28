@@ -35,7 +35,9 @@ EditorConfig es un proyecto que parte de una idea muy simple, pero que resulta s
 
         <title> EditorConfig: Mantén tu código uniforme &middot;  Entre Dev y Ops</title>
 
-        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+        <script defer src="//use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+        <script defer src="//use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
+        <script defer src="//use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
         <link rel="preload" href="/js/main.js" as="script" />
         <link rel="preload" href="/css/main.css" as="style" />
@@ -140,7 +142,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
 
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
     window.addEventListener("load", function(){
     window.cookieconsent.initialise({
@@ -179,11 +181,20 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
             <div id="main-menu" class="nav-menu">
               
                 <a class="menu subscription" data-action="subscription"
-                    data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
+                   data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
               
-              <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops" title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
-              <a class="nav-social" target="_blank" href="https://t.me/entredevyops" title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
-              <a class="nav-social" target="_blank" href="https://github.com/edyo" title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+              
+                  <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops"
+                     title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
+              
+              
+                  <a class="nav-social" target="_blank" href="https://t.me/entredevyops"
+                     title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
+              
+              
+                  <a class="nav-social" target="_blank" href="https://github.com/edyo"
+                     title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+              
               <a id="search-button" onclick="$('#search-form').toggle();" title="Buscar"><i class="fas fa-search"></i></a>
               <form id="search-form" method="get" role="search" action="https://google.es/search">
                 <input type="hidden" name="as_sitesearch" value="https://www.entredevyops.es/">
@@ -254,11 +265,13 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                   </div>
                 
                     <div class="post-share">
-                        <a class="fas fa-twitter" href="https://twitter.com/share?text=EditorConfig%3a%20Mant%c3%a9n%20tu%20c%c3%b3digo%20uniforme&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2feditorconfig-manten-codigo-uniforme.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                            <span>Twitter</span>
+                        <a href="https://twitter.com/share?text=EditorConfig%3a%20Mant%c3%a9n%20tu%20c%c3%b3digo%20uniforme&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2feditorconfig-manten-codigo-uniforme.html"
+                           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a class="fas fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2feditorconfig-manten-codigo-uniforme.html&title=EditorConfig%3a%20Mant%c3%a9n%20tu%20c%c3%b3digo%20uniforme&summary=%3cdiv%20class%3d%22document%22%3e%0a%0a%0a%3cp%3e%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2feditorconfig.org%22%3eEditorConfig%3c%2fa%3e%20es%20un%20proyecto%20que%20parte%20de%20una%20idea%20muy%20simple%2c%20pero%20que%20resulta%20ser%20de%20gran%20utilidad.%20B%c3%a1sicamente%20se%20trata%20de%20un%20fichero%20con%20una%20serie%20de%20reglas%20que%20definen%20las%20normas%20de%20estilo%20que%20deben%20ser%20aplicadas%20al%20c%c3%b3digo.%20Este%20fichero%20es%20interpretado%20en%20el%20editor%20con%20un%20%3cem%3eplugin%3c%2fem%3e%20que%20se%20encargar%c3%a1%20de%20ajustar%20la%20configuraci%c3%b3n%20para%20el%20c%c3%b3digo%20en%20cuesti%c3%b3n.%3c%2fp%3e%0a%3cp%3e%3c%2fp%3e%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
-                            <span>LinkedIn</span>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2feditorconfig-manten-codigo-uniforme.html&title=EditorConfig%3a%20Mant%c3%a9n%20tu%20c%c3%b3digo%20uniforme&summary=EditorConfig%20es%20un%20proyecto%20que%20parte%20de%20una%20idea%20muy%20simple%2c%20pero%20que%20resulta%20ser%20de%20gran%20utilidad.%20B%c3%a1sicamente%20se%20trata%20de%20un%20fichero%20con%20una%20serie%20de%20reglas%20que%20definen%20las%20normas%20de%20estilo%20que%20deben%20ser%20aplicadas%20al%20c%c3%b3digo.%20Este%20fichero%20es%20interpretado%20en%20el%20editor%20con%20un%20plugin%20que%20se%20encargar%c3%a1%20de%20ajustar%20la%20configuraci%c3%b3n%20para%20el%20c%c3%b3digo%20en%20cuesti%c3%b3n.%0a%0a"
+                           onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>
                     </div>
             
@@ -393,9 +406,22 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
         </li>
         
         <li class="menu-list-item menu-list-social">
-            <a href="https://twitter.com/entredevyops" title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://t.me/entredevyops" title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
-            <a href="https://github.com/edyo" title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+            
+              <a class="menu subscription" data-action="subscription"
+                 data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
+            
+            
+                <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops"
+                   title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
+            
+            
+                <a class="nav-social" target="_blank" href="https://t.me/entredevyops"
+                   title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
+            
+            
+                <a class="nav-social" target="_blank" href="https://github.com/edyo"
+                   title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+            
         </li>
     </div>
 

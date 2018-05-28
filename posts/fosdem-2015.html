@@ -38,7 +38,9 @@ Podríamos contaros que apareció por ahí Richard Stallman repartiendo octavill
 
         <title> Viaje a la FOSDEM 2015 &middot;  Entre Dev y Ops</title>
 
-        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+        <script defer src="//use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+        <script defer src="//use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
+        <script defer src="//use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
         <link rel="preload" href="/js/main.js" as="script" />
         <link rel="preload" href="/css/main.css" as="style" />
@@ -143,7 +145,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
 
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
     window.addEventListener("load", function(){
     window.cookieconsent.initialise({
@@ -182,11 +184,20 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
             <div id="main-menu" class="nav-menu">
               
                 <a class="menu subscription" data-action="subscription"
-                    data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
+                   data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
               
-              <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops" title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
-              <a class="nav-social" target="_blank" href="https://t.me/entredevyops" title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
-              <a class="nav-social" target="_blank" href="https://github.com/edyo" title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+              
+                  <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops"
+                     title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
+              
+              
+                  <a class="nav-social" target="_blank" href="https://t.me/entredevyops"
+                     title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
+              
+              
+                  <a class="nav-social" target="_blank" href="https://github.com/edyo"
+                     title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+              
               <a id="search-button" onclick="$('#search-form').toggle();" title="Buscar"><i class="fas fa-search"></i></a>
               <form id="search-form" method="get" role="search" action="https://google.es/search">
                 <input type="hidden" name="as_sitesearch" value="https://www.entredevyops.es/">
@@ -258,11 +269,13 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                   </div>
                 
                     <div class="post-share">
-                        <a class="fas fa-twitter" href="https://twitter.com/share?text=Viaje%20a%20la%20FOSDEM%202015&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2ffosdem-2015.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                            <span>Twitter</span>
+                        <a href="https://twitter.com/share?text=Viaje%20a%20la%20FOSDEM%202015&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2ffosdem-2015.html"
+                           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a class="fas fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2ffosdem-2015.html&title=Viaje%20a%20la%20FOSDEM%202015&summary=%3cdiv%20class%3d%22document%22%3e%0a%0a%0a%3cimg%20alt%3d%22Logo%20del%20FOSDEM%22%20class%3d%22align-right%22%20src%3d%22%2fimages%2ffosdem.png%22%20style%3d%22width%3a%20100px%3b%20height%3a%20100px%3b%22%20%2f%3e%0a%3cp%3eComo%20muchos%20ya%20sabr%c3%a9is%2c%20solemos%20ir%20cada%20a%c3%b1o%20a%20la%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2ffosdem.org%22%3eFOSDEM%3c%2fa%3e%2c%20que%20tiene%20lugar%20el%20primer%20fin%20de%20semana%20de%20Febrero%20en%20Bruselas.%20No%20vamos%20a%20ponernos%20a%20explicar%20qu%c3%a9%20es%20la%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2ffosdem.org%22%3eFOSDEM%3c%2fa%3e%2c%20hemos%20hablado%20mucho%20describi%c3%a9ndola%2c%20tanto%20en%20nuestros%20podcasts%2c%20como%20en%20nuestros%20posts%2c%20como%20en%20muchos%20otros%20lugares...%20Tampoco%20vamos%20a%20explicaros%20que%20hizo%20mucho%20fr%c3%ado%2c%20que%20hubo%20mucha%20gente%2c%20o%20que%20bebimos%20mucha%20cerv...%2c%20digooooo%2c%20que%20hizo%20mucho%20fr%c3%ado%2c%20que%20hubo%20mucha%20gente%2c%20...%3c%2fp%3e%0a%3cp%3ePodr%c3%adamos%20contaros%20que%20apareci%c3%b3%20por%20ah%c3%ad%20%3ca%20class%3d%22reference%20external%22%20href%3d%22https%3a%2f%2fstallman.org%2f%22%3eRichard%20Stallman%3c%2fa%3e%20repartiendo%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2fentredevyops.es%2fimages%2foctavilla_Stallman_FOSDEM_2015.jpg%22%3eoctavillas%3c%2fa%3e%20destacando%20que%20la%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2ffosdem.org%22%3eFOSDEM%3c%2fa%3e%20hab%c3%ada%20dejado%20de%20definirse%20como%20un%20evento%20de%20software%20libre%2c%20o%20que%20hubo%20bastante%20barullo%20sobre%20el%20establecimiento%20de%20un%20%3ca%20class%3d%22reference%20external%22%20href%3d%22https%3a%2f%2ftwitter.com%2ffosdem%2fstatus%2f561885201383821312%22%3ec%c3%b3digo%20de%20conducta%3c%2fa%3e%20para%20la%20siguiente%20edici%c3%b3n...%20No%20obstante%2c%20como%20sabemos%20lo%20que%20os%20importa%2c%20os%20detallamos%2c%20en%20este%20art%c3%adculo%2c%20algunas%20de%20las%20charlas%20que%20m%c3%a1s%20nos%20gustaron.%3c%2fp%3e%0a%3cp%3e%3c%2fp%3e%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
-                            <span>LinkedIn</span>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2ffosdem-2015.html&title=Viaje%20a%20la%20FOSDEM%202015&summary=Como%20muchos%20ya%20sabr%c3%a9is%2c%20solemos%20ir%20cada%20a%c3%b1o%20a%20la%20FOSDEM%2c%20que%20tiene%20lugar%20el%20primer%20fin%20de%20semana%20de%20Febrero%20en%20Bruselas.%20No%20vamos%20a%20ponernos%20a%20explicar%20qu%c3%a9%20es%20la%20FOSDEM%2c%20hemos%20hablado%20mucho%20describi%c3%a9ndola%2c%20tanto%20en%20nuestros%20podcasts%2c%20como%20en%20nuestros%20posts%2c%20como%20en%20muchos%20otros%20lugares...%20Tampoco%20vamos%20a%20explicaros%20que%20hizo%20mucho%20fr%c3%ado%2c%20que%20hubo%20mucha%20gente%2c%20o%20que%20bebimos%20mucha%20cerv...%2c%20digooooo%2c%20que%20hizo%20mucho%20fr%c3%ado%2c%20que%20hubo%20mucha%20gente%2c%20...%0aPodr%c3%adamos%20contaros%20que%20apareci%c3%b3%20por%20ah%c3%ad%20Richard%20Stallman%20repartiendo%20octavillas%20destacando%20que%20la%20FOSDEM%20hab%c3%ada%20dejado%20de%20definirse%20como%20un%20evento%20de%20software%20libre%2c%20o%20que%20hubo%20bastante%20barullo%20sobre%20el%20establecimiento%20de%20un%20c%c3%b3digo%20de%20conducta%20para%20la%20siguiente%20edici%c3%b3n...%20No%20obstante%2c%20como%20sabemos%20lo%20que%20os%20importa%2c%20os%20detallamos%2c%20en%20este%20art%c3%adculo%2c%20algunas%20de%20las%20charlas%20que%20m%c3%a1s%20nos%20gustaron.%0a%0a"
+                           onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>
                     </div>
             
@@ -397,9 +410,22 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
         </li>
         
         <li class="menu-list-item menu-list-social">
-            <a href="https://twitter.com/entredevyops" title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://t.me/entredevyops" title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
-            <a href="https://github.com/edyo" title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+            
+              <a class="menu subscription" data-action="subscription"
+                 data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
+            
+            
+                <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops"
+                   title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
+            
+            
+                <a class="nav-social" target="_blank" href="https://t.me/entredevyops"
+                   title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
+            
+            
+                <a class="nav-social" target="_blank" href="https://github.com/edyo"
+                   title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+            
         </li>
     </div>
 

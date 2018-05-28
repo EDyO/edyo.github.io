@@ -35,7 +35,9 @@ Este pasado jueves Amazon WS celebró en Barcelona un Summit para ofrecer una vi
 
         <title> Crónica del AWS Summit Barcelona 2013 &middot;  Entre Dev y Ops</title>
 
-        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+        <script defer src="//use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+        <script defer src="//use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
+        <script defer src="//use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
         <link rel="preload" href="/js/main.js" as="script" />
         <link rel="preload" href="/css/main.css" as="style" />
@@ -140,7 +142,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
 
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
     window.addEventListener("load", function(){
     window.cookieconsent.initialise({
@@ -179,11 +181,20 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
             <div id="main-menu" class="nav-menu">
               
                 <a class="menu subscription" data-action="subscription"
-                    data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
+                   data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
               
-              <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops" title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
-              <a class="nav-social" target="_blank" href="https://t.me/entredevyops" title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
-              <a class="nav-social" target="_blank" href="https://github.com/edyo" title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+              
+                  <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops"
+                     title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
+              
+              
+                  <a class="nav-social" target="_blank" href="https://t.me/entredevyops"
+                     title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
+              
+              
+                  <a class="nav-social" target="_blank" href="https://github.com/edyo"
+                     title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+              
               <a id="search-button" onclick="$('#search-form').toggle();" title="Buscar"><i class="fas fa-search"></i></a>
               <form id="search-form" method="get" role="search" action="https://google.es/search">
                 <input type="hidden" name="as_sitesearch" value="https://www.entredevyops.es/">
@@ -294,11 +305,13 @@ Una variación de esto, cuando la infraestructura está en instalación propios,
                   </div>
                 
                     <div class="post-share">
-                        <a class="fas fa-twitter" href="https://twitter.com/share?text=Cr%c3%b3nica%20del%20AWS%20Summit%20Barcelona%202013&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2faws-summit-barcelona-2013.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                            <span>Twitter</span>
+                        <a href="https://twitter.com/share?text=Cr%c3%b3nica%20del%20AWS%20Summit%20Barcelona%202013&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2faws-summit-barcelona-2013.html"
+                           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a class="fas fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2faws-summit-barcelona-2013.html&title=Cr%c3%b3nica%20del%20AWS%20Summit%20Barcelona%202013&summary=%3cdiv%20class%3d%22document%22%3e%0a%0a%0a%3cimg%20alt%3d%22AWS%22%20class%3d%22align-right%22%20src%3d%22%2fimages%2fAmazonWebservices.png%22%20%2f%3e%0a%3cp%3eEste%20pasado%20jueves%20%3ca%20class%3d%22reference%20external%22%20href%3d%22http%3a%2f%2faws.amazon.com%2fes%2f%22%3eAmazon%20WS%3c%2fa%3e%20celebr%c3%b3%20en%20Barcelona%20un%20%3ca%20class%3d%22reference%20external%22%20href%3d%22https%3a%2f%2faws.amazon.com%2fes%2faws-summit-2013%2fbarcelona%2f%22%3eSummit%3c%2fa%3e%20para%20ofrecer%20una%20visi%c3%b3n%20de%20sus%20tecnolog%c3%adas%20%3cem%3ecloud%3c%2fem%3e%2c%20casos%20pr%c3%a1cticos%20de%20empresas%2c%20su%20aplicaci%c3%b3n%20para%20escenarios%20de%20%3cem%3eBig%20Data%3c%2fem%3e%2c%20copias%20de%20seguridad%20y%20%3cem%3eDisaster%20Recovery%3c%2fem%3e%2c%20as%c3%ad%20como%20aspectos%20de%20seguridad.%20El%20evento%20pudo%20seguirse%20en%20Twitter%20con%20el%20hashtag%20%3ca%20class%3d%22reference%20external%22%20href%3d%22https%3a%2f%2ftwitter.com%2fsearch%3fq%3d%2523awssummit%22%3e%23awssummit%3c%2fa%3e.%3c%2fp%3e%0a%3cp%3e%3c%2fp%3e%3c%2fdiv%3e" onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
-                            <span>LinkedIn</span>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2faws-summit-barcelona-2013.html&title=Cr%c3%b3nica%20del%20AWS%20Summit%20Barcelona%202013&summary=Este%20pasado%20jueves%20Amazon%20WS%20celebr%c3%b3%20en%20Barcelona%20un%20Summit%20para%20ofrecer%20una%20visi%c3%b3n%20de%20sus%20tecnolog%c3%adas%20cloud%2c%20casos%20pr%c3%a1cticos%20de%20empresas%2c%20su%20aplicaci%c3%b3n%20para%20escenarios%20de%20Big%20Data%2c%20copias%20de%20seguridad%20y%20Disaster%20Recovery%2c%20as%c3%ad%20como%20aspectos%20de%20seguridad.%20El%20evento%20pudo%20seguirse%20en%20Twitter%20con%20el%20hashtag%20%23awssummit.%0a%0a"
+                           onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>
                     </div>
             
@@ -433,9 +446,22 @@ Una variación de esto, cuando la infraestructura está en instalación propios,
         </li>
         
         <li class="menu-list-item menu-list-social">
-            <a href="https://twitter.com/entredevyops" title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://t.me/entredevyops" title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
-            <a href="https://github.com/edyo" title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+            
+              <a class="menu subscription" data-action="subscription"
+                 data-target="subscription" title="Suscríbete al Podcast">Suscríbete</a>
+            
+            
+                <a class="nav-social" target="_blank" href="https://twitter.com/entredevyops"
+                   title="Entre Dev y Ops en Twitter"><i class="fab fa-twitter"></i></a>
+            
+            
+                <a class="nav-social" target="_blank" href="https://t.me/entredevyops"
+                   title="Entre Dev y Ops en Telegram"><i class="fab fa-telegram-plane"></i></a>
+            
+            
+                <a class="nav-social" target="_blank" href="https://github.com/edyo"
+                   title="Entre Dev y Ops en GitHub"><i class="fab fa-github"></i></a>
+            
         </li>
     </div>
 
