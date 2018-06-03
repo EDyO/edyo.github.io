@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 16 May 2018 22:35:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Jun 2018 12:35:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 40: Las querras de Bitcoin</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-40.html</link>
+      <pubDate>Sun, 03 Jun 2018 12:35:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-40.html</guid>
+      <description>&lt;p&gt;En el episodio 40 del podcast hacemos un repaso de los forks nacidos de Bitcoin y sus diferentes filosofías.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 39: Entrevistas de trabajo</title>
