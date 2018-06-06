@@ -6,10 +6,26 @@
     <description>Recent content in Posts on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 22 Sep 2017 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Mar 2018 22:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/posts/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>La promesa incompleta</title>
+      <link>https://www.entredevyops.es/posts/la-promesa-incompleta.html</link>
+      <pubDate>Mon, 05 Mar 2018 22:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/posts/la-promesa-incompleta.html</guid>
+      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/noops.jpg&#39; alt=&#39;noops&#39; class=&#39;align-left height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
+
+&lt;p&gt;Hace unos días, con un compañero desarrollador comentábamos un &lt;a href=&#34;https://medium.freecodecamp.org/how-we-serve-25m-api-calls-from-10-scalable-global-endpoints-for-150-a-month-911002703280&#34; target=&#34;_blank&#34;&gt;artículo&lt;/a&gt; sobre un producto implementado usando sólo Serverless y que, por lo tanto, es NoOps.
+Durante la conversación, me llamó la atención lo fácil que es confundir el significado de NoOps, así que decidí escribir este post.&lt;/p&gt;
+
+&lt;p&gt;Aunque es largo, espero que os guste ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Referendum 1-O: ¿Dónde votar?</title>
