@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 05 Jun 2018 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Jun 2018 23:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Píldora 4 - Microsoft compra GitHub</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-pildora-4.html</link>
+      <pubDate>Sat, 09 Jun 2018 23:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-pildora-4.html</guid>
+      <description>&lt;p&gt;En nuestra cuarta píldora, hablamos sobre la compra de GitHub por parte de Microsoft, y de las reacciones que ha causado.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>La promesa incompleta</title>
