@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 05 Jun 2018 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Jun 2018 22:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/posts/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Inteligencia Artificial (IA)</title>
+      <link>https://www.entredevyops.es/posts/inteligencia-artificial.html</link>
+      <pubDate>Wed, 13 Jun 2018 22:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/posts/inteligencia-artificial.html</guid>
+      <description>Hace pocos días tuvo lugar la Google I/O donde pudimos ver una impresionante demostración de la evolución del asistente de Google, y me hizo pensar en las noticias o eventos más relevantes relacionados con la inteligencia artificial que he visto en toda mi vida.
+He decidido hacer una pequeña “recolecta” de dichos eventos y ponerlos todos en este post. Seguramente no estarán todos, ya que solo pongo los que han sido más relevantes para mi, así que os animo a dejar en los comentarios aquellos que os sean más significativos a vosotros.</description>
+    </item>
     
     <item>
       <title>La promesa incompleta</title>
@@ -1787,16 +1797,6 @@ El evento lo ha organizado &lt;a class=&#34;reference external&#34; href=&#34;ht
 
 &lt;p&gt;Maciej Pasternacki &lt;a class=&#34;reference external&#34; href=&#34;https://fosdem.org/2013/schedule/event/continuous_packaging_pipeline/&#34;&gt;contó&lt;/a&gt; cómo, con componentes ya existentes y otros que ha creado él, se puede construir una cadena de empaquetamiento contínuo.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Inteligencia Artificial (IA)</title>
-      <link>https://www.entredevyops.es/posts/inteligencia-artificial.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/posts/inteligencia-artificial.html</guid>
-      <description>Hace pocos días tuvo lugar la Google I/O donde pudimos ver una impresionante demostración de la evolución del asistente de Google, y me hizo pensar en las noticias o eventos más relevantes relacionados con la inteligencia artificial que he visto en toda mi vida.
-He decidido hacer una pequeña “recolecta” de dichos eventos y ponerlos todos en este post. Seguramente no estarán todos, ya que solo pongo los que han sido más relevantes para mi, así que os animo a dejar en los comentarios aquellos que os sean más significativos a vosotros.</description>
     </item>
     
   </channel>

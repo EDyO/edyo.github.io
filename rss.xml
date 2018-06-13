@@ -6,10 +6,20 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sat, 09 Jun 2018 23:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Jun 2018 22:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Inteligencia Artificial (IA)</title>
+      <link>https://www.entredevyops.es/posts/inteligencia-artificial.html</link>
+      <pubDate>Wed, 13 Jun 2018 22:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/posts/inteligencia-artificial.html</guid>
+      <description>Hace pocos días tuvo lugar la Google I/O donde pudimos ver una impresionante demostración de la evolución del asistente de Google, y me hizo pensar en las noticias o eventos más relevantes relacionados con la inteligencia artificial que he visto en toda mi vida.
+He decidido hacer una pequeña “recolecta” de dichos eventos y ponerlos todos en este post. Seguramente no estarán todos, ya que solo pongo los que han sido más relevantes para mi, así que os animo a dejar en los comentarios aquellos que os sean más significativos a vosotros.</description>
+    </item>
     
     <item>
       <title>Píldora 4 - Microsoft compra GitHub</title>
@@ -2258,16 +2268,6 @@ El evento lo ha organizado &lt;a class=&#34;reference external&#34; href=&#34;ht
       <guid>https://www.entredevyops.es/equipo.html</guid>
       <description>Tras el auge del movimiento DevOps, creemos que compartir información es el mejor camino para estrechar la distancia entre los equipos de desarrollo y de operaciones. Con este objetivo, nace Entre Dev Y Ops, donde compartiremos información relativa a ambos mundos en castellano.
 Ignasi Fosch Ingeniero de Sistemas Interesado en la informática, en general, desde muy joven, estudié para programador, pero acabé trabajando como administrador. Siempre he pensado que un técnico mejora cuanto más conoce de la tecnología que usa.</description>
-    </item>
-    
-    <item>
-      <title>Inteligencia Artificial (IA)</title>
-      <link>https://www.entredevyops.es/posts/inteligencia-artificial.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/posts/inteligencia-artificial.html</guid>
-      <description>Hace pocos días tuvo lugar la Google I/O donde pudimos ver una impresionante demostración de la evolución del asistente de Google, y me hizo pensar en las noticias o eventos más relevantes relacionados con la inteligencia artificial que he visto en toda mi vida.
-He decidido hacer una pequeña “recolecta” de dichos eventos y ponerlos todos en este post. Seguramente no estarán todos, ya que solo pongo los que han sido más relevantes para mi, así que os animo a dejar en los comentarios aquellos que os sean más significativos a vosotros.</description>
     </item>
     
     <item>
