@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-pildora-5.html</loc>
+    <lastmod>2018-06-30T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.entredevyops.es/podcasts/podcast-41.html</loc>
     <lastmod>2018-06-16T22:35:00+00:00</lastmod>
   </url>
@@ -1015,7 +1020,7 @@
   
   <url>
     <loc>https://www.entredevyops.es/</loc>
-    <lastmod>2018-06-16T22:35:00+00:00</lastmod>
+    <lastmod>2018-06-30T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1271,7 +1276,7 @@
   
   <url>
     <loc>https://www.entredevyops.es/podcasts.html</loc>
-    <lastmod>2018-06-16T22:35:00+00:00</lastmod>
+    <lastmod>2018-06-30T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

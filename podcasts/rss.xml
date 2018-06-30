@@ -6,10 +6,21 @@
     <description>Recent content in Podcasts on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sat, 16 Jun 2018 22:35:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Jun 2018 23:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Píldora 5 - NoOps</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-pildora-5.html</link>
+      <pubDate>Sat, 30 Jun 2018 23:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-pildora-5.html</guid>
+      <description>&lt;p&gt;En la quinta píldora del podcast de Entre Dev y Ops debatimos sobre NoOps.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 41: Guifi.net</title>
