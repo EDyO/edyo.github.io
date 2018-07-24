@@ -1416,6 +1416,10 @@
   </url>
   
   <url>
+    <loc>https://www.entredevyops.es/suscribete.html</loc>
+  </url>
+  
+  <url>
     <loc>https://www.entredevyops.es/tags.html</loc>
     <lastmod>2016-11-23T00:25:00+00:00</lastmod>
     <priority>0</priority>
@@ -1449,6 +1453,10 @@
     <loc>https://www.entredevyops.es/tags/web.html</loc>
     <lastmod>2016-10-02T23:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.entredevyops.es/ayudanos.html</loc>
   </url>
   
 </urlset>

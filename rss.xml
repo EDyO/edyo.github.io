@@ -2312,5 +2312,28 @@ Ignasi Fosch Ingeniero de Sistemas Interesado en la informática, en general, de
       <description>Una cookie es un fichero que se descarga en tu ordenador al acceder a determinadas páginas web. Las cookies permiten a una página web, entre otras cosas, almacenar y recuperar información sobre los hábitos de navegación de un usuario o de su equipo y, dependiendo de la información que contengan y de la forma en que utilice su equipo, pueden utilizarse para reconocer al usuario. El navegador del usuario almacena cookies en el disco duro solamente durante la sesión actual ocupando un espacio mínimo y no perjudicando al ordenador.</description>
     </item>
     
+    <item>
+      <title>Suscríbete</title>
+      <link>https://www.entredevyops.es/suscribete.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/suscribete.html</guid>
+      <description>Aunque siempre puedes pasar por nuestra web a echar un vistazo en busca de nuevos episodios, lo más fácil es que te suscribas con tu cliente de podcast favorito usando nuestro enlace de FeedPress:
+Entre Dev y Ops en FeedPress
+También tienes la opción de usar nuestro enlace de iVoox, que disponen de cliente para Android y iPhone:
+Entre Dev y Ops en iVoox
+Si usas iTunes, también nos encontrarás allí:</description>
+    </item>
+    
+    <item>
+      <title>¡Ayúdanos!</title>
+      <link>https://www.entredevyops.es/ayudanos.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/ayudanos.html</guid>
+      <description>Si te gusta el trabajo que realizamos en Entre Dev y Ops, puedes apoyarnos económicamente para que podamos seguir con el proyecto. Puedes contribuir de las siguientes formas:
+ Usando nuestro enlace de Patreon con una pequeña aportación mensual.      Mediante nuestro enlace de afiliados de Amazon (más info), con el cual, una vez abierto, hará que recibamos una pequeña comisión por cada compra que hagas, sin que esto te suponga ningún tipo de cargo extra o inconveniente para ti.</description>
+    </item>
+    
   </channel>
 </rss>
