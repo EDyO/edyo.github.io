@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 27 Aug 2018 22:50:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Sep 2018 18:45:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Píldora 8: Hacktoberfest</title>
+      <link>https://www.entredevyops.es/podcasts/pildora-8.html</link>
+      <pubDate>Sun, 30 Sep 2018 18:45:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/pildora-8.html</guid>
+      <description>&lt;p&gt;En nuestra octava píldora hablaremos sobre la &lt;a href=&#34;https://hacktoberfest.digitalocean.com/&#34; target=&#34;_blank&#34;&gt;Hacktoberfest&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Píldora 7: Tips &amp; tricks viaje al FOSDEM</title>
