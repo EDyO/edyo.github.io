@@ -23,11 +23,7 @@
         <meta name="twitter:creator" content="@entredevyops" />
         <meta name="twitter:title" content="Testing y automatización  en el Fosdem" />
         
-        <meta name="twitter:description" content="
-
-
-El primer día de la FOSDEM hubo una devroom con charlas de testing y automatización. De esta sala asistimos a las siguientes charlas de las que podemos hacer un resumenO
-" />
+        <meta name="twitter:description" content="El primer día de la FOSDEM hubo una devroom con charlas de testing y automatización. De esta sala asistimos a las siguientes charlas de las que podemos hacer un resumenO" />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/testing-automatizacion-fosdem.html" />
     
 
@@ -110,7 +106,7 @@ El primer día de la FOSDEM hubo una devroom con charlas de testing y automatiza
         },
         "datePublished": "2013-02-17",
         "dateModified": "2013-02-17",
-        "wordCount": 909,
+        "wordCount": 989,
         "keywords": ["FOSDEM","Open Source"] 
     }
     </script>
@@ -215,7 +211,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">17 Feb 2013</span> <span class="reading-time">| <span class="estimated-reading-time">5 min.</span> (<span class="word-count">909</span> palabras)</span></span>
+                        <span class="post-date">17 Feb 2013</span> <span class="reading-time">| <span class="estimated-reading-time">5 min.</span> (<span class="word-count">989</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -224,85 +220,123 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <div class="document">
+                  El primer día de la FOSDEM hubo una devroom con charlas de testing y automatización. De esta sala asistimos a las siguientes charlas de las que podemos hacer un resumenO
 
 
-<p>El primer día de la FOSDEM hubo una devroom con charlas de testing y automatización. De esta sala asistimos a las siguientes charlas de las que podemos hacer un resumenO</p>
-<p></p>
-<ul class="simple">
-<li>Metaphor and BDD</li>
-<li>Automating OpenStack Testing on Ubuntu</li>
-<li>BDD for Mobile using Calabash</li>
-<li>How MediaWiki is tested</li>
-<li>Scale your Jenkins build pipeline automatically to minimize test time</li>
-<li>A Continuous Packaging Pipeline</li>
-<li>DevOps with Jenkins</li>
-<li>What's Our Status -  Visualizing the state of complex build systems and pipeline</li>
-</ul>
-<div class="section" id="metaphor-and-bdd">
-<h2>Metaphor and BDD</h2>
-<p>En una mirada filosófica a los casos de uso para poder otorgar un enfoque distinto al TDD. Es decir, la primera charla de la FOSDEM, pero no la mejor, ya que, entre que no era un concepto fácil, entre las neblinas del despertar y que las fotografías realizadas para la presentación dejaban muchos reflejos en la pantalla , me fue imposible entender si era una buena idea o simplemente era un nombre nuevo a un concepto antiguo como sería el llamar a las clases según su utilidad en los casos de uso para facilitar su testeo a través de TDD.</p>
-</div>
-<div class="section" id="automating-openstack-testing-on-ubuntu">
-<h2>Automating OpenStack Testing on Ubuntu</h2>
-<p>Realmente una muy buena charla en la que utilizando uno de los componentes mas importantes de la integración continua, Jenkins, como núcleo central , pudimos ver como se integraba con Juju y MAAS para obtener un conjunto de máquinas donde la abstracción del HW físico hacía que pudieras tener un cloud privado  con pocas máquinas.</p>
-</div>
-<div class="section" id="bdd-for-mobile-using-calabash">
-<h2>BDD for Mobile using Calabash</h2>
-<p>Fantástico producto que extiende <a class="reference external" href="http://cukes.info/">cucumber</a>  a los dispositivos móviles. Actuando como cliente y servidor puede ejecutar todo tipo de pruebas en dispositivos móviles de forma que con un código y un test puedes probar distintos móviles Android e iOS.</p>
-<p>Un momento curioso de la presentación fue cuando puso un vídeo con una pared llena de móviles que a través de un dispositivo Arduino controlaba diversos motores que hacían girar los móviles para hacer las pruebas  de movimiento en los dispositivos a la vez.</p>
-<p>Otra curiosidad fue que este producto extendía el Xcode para poder compilar el código y utilizar el simulador sin necesidad de utilizar el editor de Xcode, ya que como editor principal utilizaba un programa para Mac que se llama <a class="reference external" href="http://www.jetbrains.com/ruby/">Rubymine</a> y que no fue ni la primera vez ni la última que lo viese durante la FOSDEM.</p>
-</div>
-<div class="section" id="how-mediawiki-is-tested">
-<h2>How MediaWiki is tested</h2>
-<p>Mediawiki es una de las páginas más visitadas y utilizadas en el mundo y realmente saber de los mejores es una buena forma de aprender. Según ellos mismos comentaron, utilizan:</p>
-<p>Principalmente <a class="reference external" href="http://code.google.com/p/selenium/wiki/PageObjects">page object</a> y un montón de utilidades: <a class="reference external" href="http://git-scm.com/">Git</a>, <a class="reference external" href="http://www.ruby-lang.org/en/">Ruby</a>, <a class="reference external" href="https://rvm.io/">RVM</a>, <a class="reference external" href="https://rubygems.org/">RubyGems</a>, <a class="reference external" href="http://cukes.info/">Cucumber</a>, <a class="reference external" href="http://seleniumhq.org/">Selenium WebDriver</a>, <a class="reference external" href="http://watir.com/">Watir</a>, <a class="reference external" href="http://gembundler.com/">Bundler</a>, <a class="reference external" href="https://github.com/cheezy/page-object">page-object gem</a>, <a class="reference external" href="http://www.jetbrains.com/ruby/">RubyMine</a>, <a class="reference external" href="http://jenkins-ci.org/">Jenkins</a>, <a class="reference external" href="http://www.cloudbees.com/">CloudBees</a>, <a class="reference external" href="https://saucelabs.com/">Sauce Labs</a> y alguna más.</p>
-<p>En su afán de dar a conocer como funciona por dentro la wikipedia se puede acceder a sus test en esta <a class="reference external" href="https://github.com/wikimedia/qa-browsertests">dirección</a>.</p>
-</div>
-<div class="section" id="scale-your-jenkins-build-pipeline-automatically-to-minimize-test-time">
-<h2>Scale your Jenkins build pipeline automatically to minimize test time</h2>
-<p>La utilización de varios servidores para testear en paralelo es un cosa que nunca se me había ocurrido ya que en los proyectos que lo he necesitado no ha sido nunca necesario realizar a tal velocidad los testeos.</p>
-<p>En cambio en esta presentación, utilizando selenium 2 y el plugin swarm de <a class="reference external" href="http://jenkins-ci.org/">Jenkins</a> como testeadores y la orquestación de ec-collective y puppet, desmostró que se puede levantar unas máquinas en EC2 de amazon y realizar el testeo de la plataforma. Aunque teniendo en cuenta que cuando pasaban de 4 a 8 máquinas, el tiempo se reducía exponencialmente; pero en el caso de pasar de 8 a 16 el tiempo no tenía la reducción esperada por lo que, si no recuerdo mal, al final, realizaban las pruebas principalmente con 12 máquinas pequeñas, a no ser que el precio a pagar por el sobrecoste valiese la pena en comparación con el servicio recibido.</p>
-<p>Todo perfectamente explicado, pero sin tantos ejemplos en:
-<a class="reference external" href="http://tradeshift.com/blog/just-add-servers/">http://tradeshift.com/blog/just-add-servers/</a></p>
-</div>
-<div class="section" id="a-continuous-packaging-pipeline">
-<h2>A Continuous Packaging Pipeline</h2>
-<p>Múltiples herramientas a través de las cuales conseguimos pasar automáticamente de un código fuente a un paquete terminado y listo para distribuir:</p>
-<p>A través de la cadena:</p>
-<p><a class="reference external" href="http://git-scm.com/">git</a> -&gt; <a class="reference external" href="https://github.com/3ofcoins/vendorificator/">vendorificator</a> -&gt; <a class="reference external" href="http://jenkins-ci.org/">Jenkins</a> -&gt; <a class="reference external" href="https://github.com/3ofcoins/metarake/">metarake</a> -&gt; <a class="reference external" href="https://github.com/3ofcoins/evoker/">evoker</a> -&gt; <a class="reference external" href="https://github.com/jordansissel/fpm/">FPM</a> -&gt; <a class="reference external" href="https://github.com/rcrowley/freight/">freight</a> -&gt; apt-get</p>
-<p>Una de las partes más interesantes de esta charla fue la explicación del por qué todas las librerías que utilizas han de formar parte de tu código, ya que en caso de cambio en las librerías utilizadas y no conservar el código antiguo es una fuente de problemas.</p>
-<ul class="simple">
-<li><a class="reference external" href="https://github.com/3ofcoins/vendorificator/">vendorificator</a></li>
-</ul>
-<p>Mantiene dentro del código las librerías externas</p>
-<ul class="simple">
-<li><a class="reference external" href="https://github.com/3ofcoins/metarake/">metarake</a></li>
-</ul>
-<p>Es un <a class="reference external" href="https://github.com/jimweinrich/rake/">rake</a> con esteroides, que permite &quot;programar&quot; <a class="reference external" href="https://github.com/jimweinrich/rake/">rake</a></p>
-<ul class="simple">
-<li><a class="reference external" href="https://github.com/3ofcoins/evoker/">evoker</a></li>
-</ul>
-<p>permite una descarga inteligente desde terceros componentes.</p>
-<ul class="simple">
-<li><a class="reference external" href="https://github.com/jordansissel/fpm/">FPM</a></li>
-</ul>
-<p>Es un administrador de paquetes de forma que se puede convertir paquetes de un formato a otro</p>
-<ul class="simple">
-<li><a class="reference external" href="https://github.com/rcrowley/freight/">freight</a></li>
-</ul>
-<p>Simula ser un servidor .deb para poder hacer pruebas de instalaciones</p>
-<p>Más información en esta <a class="reference external" href="https://gist.github.com/3831086">página</a></p>
-</div>
-<div class="section" id="devops-with-jenkins">
-<h2>DevOps with Jenkins</h2>
-<p>Una pequeña introducción al uso de los plugins de <a class="reference external" href="http://jenkins-ci.org/">Jenkins</a> para poder utilizarlos en devops aunque mi impresión era que intentaba vender los libros que ha escrito sobre Agile ALM.</p>
-</div>
-<div class="section" id="what-s-our-status-visualizing-the-state-of-complex-build-systems-and-pipeline">
-<h2>What's Our Status -  Visualizing the state of complex build systems and pipeline</h2>
-<p>Diversas formas de visualización para ver si hay algún problema en la generación del código. Fue una charla muy filosófica que realmente es muy interesante y plantea una muy buena pregunta. Es necesario tener de una forma visual la información si un proceso ha funcionado o no, pero claro siempre teniendo claro la importancia del proceso. El problema es que no llegó a ninguna conclusión. Así que será necesario seguir investigando.</p>
-</div>
-</div>
+
+
+- Metaphor and BDD
+- Automating OpenStack Testing on Ubuntu
+- BDD for Mobile using Calabash
+- How MediaWiki is tested
+- Scale your Jenkins build pipeline automatically to minimize test time
+- A Continuous Packaging Pipeline
+- DevOps with Jenkins
+- What's Our Status -  Visualizing the state of complex build systems and pipeline
+
+
+Metaphor and BDD
+----------------
+
+En una mirada filosófica a los casos de uso para poder otorgar un enfoque distinto al TDD. Es decir, la primera charla de la FOSDEM, pero no la mejor, ya que, entre que no era un concepto fácil, entre las neblinas del despertar y que las fotografías realizadas para la presentación dejaban muchos reflejos en la pantalla , me fue imposible entender si era una buena idea o simplemente era un nombre nuevo a un concepto antiguo como sería el llamar a las clases según su utilidad en los casos de uso para facilitar su testeo a través de TDD.
+
+Automating OpenStack Testing on Ubuntu
+--------------------------------------
+
+Realmente una muy buena charla en la que utilizando uno de los componentes mas importantes de la integración continua, Jenkins, como núcleo central , pudimos ver como se integraba con Juju y MAAS para obtener un conjunto de máquinas donde la abstracción del HW físico hacía que pudieras tener un cloud privado  con pocas máquinas.
+
+
+BDD for Mobile using Calabash
+-----------------------------
+
+Fantástico producto que extiende cucumber_  a los dispositivos móviles. Actuando como cliente y servidor puede ejecutar todo tipo de pruebas en dispositivos móviles de forma que con un código y un test puedes probar distintos móviles Android e iOS.
+
+Un momento curioso de la presentación fue cuando puso un vídeo con una pared llena de móviles que a través de un dispositivo Arduino controlaba diversos motores que hacían girar los móviles para hacer las pruebas  de movimiento en los dispositivos a la vez. 
+
+Otra curiosidad fue que este producto extendía el Xcode para poder compilar el código y utilizar el simulador sin necesidad de utilizar el editor de Xcode, ya que como editor principal utilizaba un programa para Mac que se llama Rubymine_ y que no fue ni la primera vez ni la última que lo viese durante la FOSDEM.
+
+
+How MediaWiki is tested
+-----------------------
+
+Mediawiki es una de las páginas más visitadas y utilizadas en el mundo y realmente saber de los mejores es una buena forma de aprender. Según ellos mismos comentaron, utilizan: 
+
+Principalmente `page object <http://code.google.com/p/selenium/wiki/PageObjects>`_ y un montón de utilidades: Git_, Ruby_, RVM_, RubyGems_, Cucumber_, `Selenium WebDriver <http://seleniumhq.org/>`_, Watir_, Bundler_, `page-object gem <https://github.com/cheezy/page-object>`_, RubyMine_, Jenkins_, CloudBees_, `Sauce Labs <https://saucelabs.com/>`_ y alguna más. 
+
+En su afán de dar a conocer como funciona por dentro la wikipedia se puede acceder a sus test en esta `dirección <https://github.com/wikimedia/qa-browsertests>`_.
+
+Scale your Jenkins build pipeline automatically to minimize test time
+---------------------------------------------------------------------
+
+La utilización de varios servidores para testear en paralelo es un cosa que nunca se me había ocurrido ya que en los proyectos que lo he necesitado no ha sido nunca necesario realizar a tal velocidad los testeos. 
+
+En cambio en esta presentación, utilizando selenium 2 y el plugin swarm de Jenkins_ como testeadores y la orquestación de ec-collective y puppet, desmostró que se puede levantar unas máquinas en EC2 de amazon y realizar el testeo de la plataforma. Aunque teniendo en cuenta que cuando pasaban de 4 a 8 máquinas, el tiempo se reducía exponencialmente; pero en el caso de pasar de 8 a 16 el tiempo no tenía la reducción esperada por lo que, si no recuerdo mal, al final, realizaban las pruebas principalmente con 12 máquinas pequeñas, a no ser que el precio a pagar por el sobrecoste valiese la pena en comparación con el servicio recibido. 
+
+Todo perfectamente explicado, pero sin tantos ejemplos en: 
+http://tradeshift.com/blog/just-add-servers/
+
+A Continuous Packaging Pipeline
+-------------------------------
+
+Múltiples herramientas a través de las cuales conseguimos pasar automáticamente de un código fuente a un paquete terminado y listo para distribuir:
+
+A través de la cadena:
+
+git_ -> vendorificator_ -> Jenkins_ -> metarake_ -> evoker_ -> FPM_ -> freight_ -> apt-get
+
+Una de las partes más interesantes de esta charla fue la explicación del por qué todas las librerías que utilizas han de formar parte de tu código, ya que en caso de cambio en las librerías utilizadas y no conservar el código antiguo es una fuente de problemas.
+
+- vendorificator_
+
+Mantiene dentro del código las librerías externas
+
+- metarake_
+
+Es un rake_ con esteroides, que permite "programar" rake_
+
+- evoker_
+
+permite una descarga inteligente desde terceros componentes.
+
+- FPM_
+
+Es un administrador de paquetes de forma que se puede convertir paquetes de un formato a otro
+
+- freight_ 
+
+Simula ser un servidor .deb para poder hacer pruebas de instalaciones 
+
+Más información en esta `página <https://gist.github.com/3831086>`_
+
+
+DevOps with Jenkins
+-------------------
+
+Una pequeña introducción al uso de los plugins de Jenkins_ para poder utilizarlos en devops aunque mi impresión era que intentaba vender los libros que ha escrito sobre Agile ALM. 
+
+
+What's Our Status -  Visualizing the state of complex build systems and pipeline
+--------------------------------------------------------------------------------------
+
+Diversas formas de visualización para ver si hay algún problema en la generación del código. Fue una charla muy filosófica que realmente es muy interesante y plantea una muy buena pregunta. Es necesario tener de una forma visual la información si un proceso ha funcionado o no, pero claro siempre teniendo claro la importancia del proceso. El problema es que no llegó a ninguna conclusión. Así que será necesario seguir investigando. 
+
+
+.. _Git: http://git-scm.com/
+.. _Ruby: http://www.ruby-lang.org/en/
+.. _RVM: https://rvm.io/
+.. _RubyGems: https://rubygems.org/
+.. _Cucumber:  http://cukes.info/
+.. _Watir: http://watir.com/
+.. _Bundler: http://gembundler.com/
+.. _RubyMine: http://www.jetbrains.com/ruby/
+.. _Jenkins: http://jenkins-ci.org/
+.. _CloudBees: http://www.cloudbees.com/
+.. _rake : https://github.com/jimweinrich/rake/
+.. _vendorificator : https://github.com/3ofcoins/vendorificator/
+.. _Metarake : https://github.com/3ofcoins/metarake/
+.. _evoker : https://github.com/3ofcoins/evoker/
+.. _FPM : https://github.com/jordansissel/fpm/
+.. _freight: https://github.com/rcrowley/freight/
               </section>
 
               <footer class="post-footer">
@@ -321,7 +355,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2ftesting-automatizacion-fosdem.html&title=Testing%20y%20automatizaci%c3%b3n%20%20en%20el%20Fosdem&summary=El%20primer%20d%c3%ada%20de%20la%20FOSDEM%20hubo%20una%20devroom%20con%20charlas%20de%20testing%20y%20automatizaci%c3%b3n.%20De%20esta%20sala%20asistimos%20a%20las%20siguientes%20charlas%20de%20las%20que%20podemos%20hacer%20un%20resumenO%0a%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2ftesting-automatizacion-fosdem.html&title=Testing%20y%20automatizaci%c3%b3n%20%20en%20el%20Fosdem&summary=El%20primer%20d%c3%ada%20de%20la%20FOSDEM%20hubo%20una%20devroom%20con%20charlas%20de%20testing%20y%20automatizaci%c3%b3n.%20De%20esta%20sala%20asistimos%20a%20las%20siguientes%20charlas%20de%20las%20que%20podemos%20hacer%20un%20resumenO"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>
