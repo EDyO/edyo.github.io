@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 30 Sep 2018 18:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Nov 2018 13:25:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Píldora 9: IBM compra RedHat</title>
+      <link>https://www.entredevyops.es/podcasts/pildora-9.html</link>
+      <pubDate>Sat, 10 Nov 2018 13:25:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/pildora-9.html</guid>
+      <description>&lt;p&gt;En nuestra novena píldora hablaremos sobre la compra de Red Hat por parte de IBM.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Píldora 8: Hacktoberfest</title>
