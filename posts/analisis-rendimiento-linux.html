@@ -26,14 +26,12 @@
         <meta name="twitter:creator" content="@entredevyops" />
         <meta name="twitter:title" content="Análisis de rendimiento de Linux" />
         
-        <meta name="twitter:description" content=".. image:: /images/linuxperftools_1000.png
-   :width: 650px
-   :height: 376px
-   :alt: resumen de herramientas de Brendan Gregg
-   :align: center
-   :class: border
-   
-Brendan Gregg ha escrito una serie de artículos y documentos agrupados en `Linux Performance `_ donde se investigan los cuellos de botella de los sistemas Unix y Linux." />
+        <meta name="twitter:description" content="
+
+
+
+Brendan Gregg ha escrito una serie de artículos y documentos agrupados en Linux Performance donde se investigan los cuellos de botella de los sistemas Unix y Linux.
+" />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/analisis-rendimiento-linux.html" />
     
 
@@ -116,7 +114,7 @@ Brendan Gregg ha escrito una serie de artículos y documentos agrupados en `Linu
         },
         "datePublished": "2014-06-23",
         "dateModified": "2014-06-23",
-        "wordCount": 265,
+        "wordCount": 244,
         "keywords": ["Linux","Unix","Rendimiento","Herramientas","Sistemas Operativos"] 
     }
     </script>
@@ -221,7 +219,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">23 Jun 2014</span> <span class="reading-time">| <span class="estimated-reading-time">2 min.</span> (<span class="word-count">265</span> palabras)</span></span>
+                        <span class="post-date">23 Jun 2014</span> <span class="reading-time">| <span class="estimated-reading-time">2 min.</span> (<span class="word-count">244</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -230,25 +228,17 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  .. image:: /images/linuxperftools_1000.png
-   :width: 650px
-   :height: 376px
-   :alt: resumen de herramientas de Brendan Gregg
-   :align: center
-   :class: border
-   
-Brendan Gregg ha escrito una serie de artículos y documentos agrupados en `Linux Performance <http://www.brendangregg.com/linuxperf.html>`_ donde se investigan los cuellos de botella de los sistemas Unix y Linux. 
+                  <div class="document">
 
 
-
-
-Realiza una exposición de las herramientas más útiles en los distintos sistemas operativos y de su equivalencia en su `piedra Rosetta <http://www.brendangregg.com/USEmethod/use-rosetta.html>`_ sobre los sistemas Linux, Solaris, Freebsd y Mac OSX, así como de un método llamado USE para el diagnóstico de problemas. 
-
-Una de las partes más interesantes que he visto ha sido el resumen de las herramientas según la localización del problema en la imagen que acompaña a este artículo.
-
-También de las charlas que acompañan al artículo hay una llamada *What Linux can learn from Solaris performance and vice-versa* realizada el febrero de 2014 en la `SCaLE 12x <https://www.socallinuxexpo.org/scale12x/>`_ tiene como punto de origen un programa Perl ejecutado en un Linux y en un SmartOS (Basado en Illumos), el mismo programa con el mismo hardware tiene una variación de 5% entre un sistema y el otro. Durante la charla trata de averiguar como verificar el rendimiento de la máquina realizando un recorrido por todas las partes funcionales del sistema, utilizando diversas herramientas y realizando comparaciones entre ellas para ver que se puede aplicar de Solaris en Linux y que puede aprender Solaris de Linux. 
-
-Se trata pues, de una charla imprescindible para aquellas personas que necesiten investigar cuellos de botella en sus sistemas, y también las personas que quieran profundizar en el comportamiento de las máquinas.
+<img alt="resumen de herramientas de Brendan Gregg" class="border align-center" src="/images/linuxperftools_1000.png" style="width: 650px; height: 376px;" />
+<p>Brendan Gregg ha escrito una serie de artículos y documentos agrupados en <a class="reference external" href="http://www.brendangregg.com/linuxperf.html">Linux Performance</a> donde se investigan los cuellos de botella de los sistemas Unix y Linux.</p>
+<p></p>
+<p>Realiza una exposición de las herramientas más útiles en los distintos sistemas operativos y de su equivalencia en su <a class="reference external" href="http://www.brendangregg.com/USEmethod/use-rosetta.html">piedra Rosetta</a> sobre los sistemas Linux, Solaris, Freebsd y Mac OSX, así como de un método llamado USE para el diagnóstico de problemas.</p>
+<p>Una de las partes más interesantes que he visto ha sido el resumen de las herramientas según la localización del problema en la imagen que acompaña a este artículo.</p>
+<p>También de las charlas que acompañan al artículo hay una llamada <em>What Linux can learn from Solaris performance and vice-versa</em> realizada el febrero de 2014 en la <a class="reference external" href="https://www.socallinuxexpo.org/scale12x/">SCaLE 12x</a> tiene como punto de origen un programa Perl ejecutado en un Linux y en un SmartOS (Basado en Illumos), el mismo programa con el mismo hardware tiene una variación de 5% entre un sistema y el otro. Durante la charla trata de averiguar como verificar el rendimiento de la máquina realizando un recorrido por todas las partes funcionales del sistema, utilizando diversas herramientas y realizando comparaciones entre ellas para ver que se puede aplicar de Solaris en Linux y que puede aprender Solaris de Linux.</p>
+<p>Se trata pues, de una charla imprescindible para aquellas personas que necesiten investigar cuellos de botella en sus sistemas, y también las personas que quieran profundizar en el comportamiento de las máquinas.</p>
+</div>
               </section>
 
               <footer class="post-footer">
@@ -273,7 +263,7 @@ Se trata pues, de una charla imprescindible para aquellas personas que necesiten
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fanalisis-rendimiento-linux.html&title=An%c3%a1lisis%20de%20rendimiento%20de%20Linux&summary=..%20image%3a%3a%20%2fimages%2flinuxperftools_1000.png%20%3awidth%3a%20650px%20%3aheight%3a%20376px%20%3aalt%3a%20resumen%20de%20herramientas%20de%20Brendan%20Gregg%20%3aalign%3a%20center%20%3aclass%3a%20border%20Brendan%20Gregg%20ha%20escrito%20una%20serie%20de%20art%c3%adculos%20y%20documentos%20agrupados%20en%20%60Linux%20Performance%20%60_%20donde%20se%20investigan%20los%20cuellos%20de%20botella%20de%20los%20sistemas%20Unix%20y%20Linux."
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fanalisis-rendimiento-linux.html&title=An%c3%a1lisis%20de%20rendimiento%20de%20Linux&summary=Brendan%20Gregg%20ha%20escrito%20una%20serie%20de%20art%c3%adculos%20y%20documentos%20agrupados%20en%20Linux%20Performance%20donde%20se%20investigan%20los%20cuellos%20de%20botella%20de%20los%20sistemas%20Unix%20y%20Linux.%0a%0a"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

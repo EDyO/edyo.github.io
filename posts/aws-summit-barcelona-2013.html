@@ -24,11 +24,12 @@
         <meta name="twitter:creator" content="@entredevyops" />
         <meta name="twitter:title" content="Crónica del AWS Summit Barcelona 2013" />
         
-        <meta name="twitter:description" content=".. image:: /images/AmazonWebservices.png
-   :alt: AWS
-   :align: right
+        <meta name="twitter:description" content="
 
-Este pasado jueves `Amazon WS`_ celebró en Barcelona un Summit_ para ofrecer una visión de sus tecnologías *cloud*, casos prácticos de empresas, su aplicación para escenarios de *Big Data*, copias de seguridad y *Disaster Recovery*, así como aspectos de seguridad. El evento pudo seguirse en Twitter con el hashtag `#awssummit`_." />
+
+
+Este pasado jueves Amazon WS celebró en Barcelona un Summit para ofrecer una visión de sus tecnologías cloud, casos prácticos de empresas, su aplicación para escenarios de Big Data, copias de seguridad y Disaster Recovery, así como aspectos de seguridad. El evento pudo seguirse en Twitter con el hashtag #awssummit.
+" />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/aws-summit-barcelona-2013.html" />
     
 
@@ -111,7 +112,7 @@ Este pasado jueves `Amazon WS`_ celebró en Barcelona un Summit_ para ofrecer un
         },
         "datePublished": "2013-10-27",
         "dateModified": "2013-10-27",
-        "wordCount": 932,
+        "wordCount": 828,
         "keywords": ["Eventos","Amazon WS","Cloud"] 
     }
     </script>
@@ -216,7 +217,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">27 Oct 2013</span> <span class="reading-time">| <span class="estimated-reading-time">5 min.</span> (<span class="word-count">932</span> palabras)</span></span>
+                        <span class="post-date">27 Oct 2013</span> <span class="reading-time">| <span class="estimated-reading-time">4 min.</span> (<span class="word-count">828</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -225,100 +226,65 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  .. image:: /images/AmazonWebservices.png
-   :alt: AWS
-   :align: right
-
-Este pasado jueves `Amazon WS`_ celebró en Barcelona un Summit_ para ofrecer una visión de sus tecnologías *cloud*, casos prácticos de empresas, su aplicación para escenarios de *Big Data*, copias de seguridad y *Disaster Recovery*, así como aspectos de seguridad. El evento pudo seguirse en Twitter con el hashtag `#awssummit`_.
+                  <div class="document">
 
 
-
-
-Un Paseo por las Nubes: El *Cloud* for AWS
-------------------------------------------
-
-Carlos Conde, Director del equipo de arquitectos de AWS, fue el encargado de `abrir el evento`_. Nos mostró las ventajas de utilizar los servidos de Amazon WS y como tienen en cuenta y escuchan a sus clientes a la hora de crear y desplegar nuevos servicios. También pudimos ver el especular crecimiento que han tenido desde su creación, siendo en la actualidad el mayor proveedor de servicios *cloud*, manteniendo una ventaja abismal respecto a sus competidores actuales.
-
-Seguridad y cumplimiento de normativas en el *Cloud*
-----------------------------------------------------
-
-Charla donde se expuso el punto de vista en cuanto a seguridad se refiere en Amazon WS, así como algunas buenas prácticas al respecto. También nos mostraron las diferentes certificaciones que dispone Amazon WS, garantía de que nuestros datos están seguros en la nube y que podemos confiar en la privacidad de los mismos.
-
-*Cloud* Híbrida y Aplicaciones empresariales en AWS
----------------------------------------------------
-
-En esta última charla antes del descanso para el almuerzo, varios clientes españoles mostraron como habían utilizado los `servicios de Amazon WS`_ dentro de sus empresas y los motivos que les llevaron a tomar esta decisión.
-
-Las empresas invitadas fueron:
-
-* `Mapfre`_, que utiliza los servicios de Amazon WS para realizar los cálculos de solvencia requeridos para el cumplimiento de la normativa europea actual, todo con el objetivo de minimizar costes en *HPC*.
-
-* `Miquel Alimentació Grup`_, que con el objetivo de ganar en competitividad en un mercado tan exigente, y siendo en la actualidad los sistemas informáticos una pieza clave para tal fin, deciden apostar por Amazon WS.
-
-* `IE Business School`_, que han migrado sus sistemas de *IT* a la nube, todo con el propósito de garantizar el mejor servicio posible a los estudiantes que han escogido este centro para llevar a cabo sus estudios. En esta ocasión presenciamos dos ponencias, una desde un punto de vista puramente empresarial, y la otra más técnica, ya que el encargado de presentarla fue uno de los miembros del equipo de Administradores de Sistemas.
-
-Soluciones de *Disaster Recovery* en AWS
-----------------------------------------
-
-La charla empezó describiendo las soluciones que AWS_ puede ofrecer a la recuperación de desastres, que se centraron en :
-
-* El uso de servicios de almacenamiento a corto plazo, como S3_ o EBS_, y a largo plazo, como Glacier_.
-* Servicios de comunicaciones, es decir, diferentes formas de establecer conexión con los servicios en la nube, como `Direct connect`_ o VPC_.
-
-Finalmente detalló cuatro patrones de arquitecturas de *DR*:
-
-*Backup & Restore*
-~~~~~~~~~~~~~~~~~~
-
-Este patrón consiste en tener una infraestructura en producción, de la que se van haciendo copias de seguridad, guardándolas en S3_, la última, y en Glacier_, las anteriores. Cuando algo le sucede a producción, se genera una nueva infraestructura sobre la que se restaura la última copia y, utilizando el DNS, se redirige el tráfico. Sus principales ventajas son que es muy simple, tiene una barrera técnica muy baja, y que su coste es suficientemente efectivo.
-Una variación de esto, cuando la infraestructura está en instalación propios, pasaría por utilizar un `Storage Gateway`_, que es un sistema virtualizado que permite conectar los dispositivos y sistemas de almacenamientos locales a S3_. RDS_ pueden combinarse con estos escenarios. Utilizando estas técnicas, Amazon consiguió reducir sus tiempos de restauración de 15 horas a 2'5.
-
-*Pilot light*
-~~~~~~~~~~~~~
-
-Es muy similar al anterior, pero, en este caso, la nueva infrastructura se encuentra parcialmente arrancada, recibiendo actualizaciones de los datos. Ante una situación de contingencia, la infraestructura alternativa escala para soportar la carga y, utilizando `Route 53`_, se redirige el tráfico.
-
-*Hot Standby Architecture*
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Ambas infraestructuras están en funcionamiento simultáneo, pero sólo una recibe el tráfico productivo. Su principal ventaja es que se restaura muy rápido, pero su coste es el doble.
-
-*Multi-site solution mixing AWS and on-premise*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Para cuando el tiempo de caída es crítico, esta solución permite reducirlo al mínimo, aunque requiere escalabilidad. La instalación principal no puede soportar todo el tráfico posible. El funcionamiento de este patrón es similar al anterior, pero ambas infraestructuras reciben tráfico de producción.
-
-Continuous Deployment
----------------------
-
-En esta charla se explicó cómo disponer las herramientas para poder hacer despliegue continuo en Amazon WS. El uso de CloudFormation_ puede permitir la automatización de estos entornos. Sus casos de uso podrían ser entornos de test, o de pruebas de carga, de *A/B testing*, de cálculo y análisis de datos o para arquitecturas orientadas al coste.
-
-Big Data
---------
-
-Finalmente, se `comentaron casos de uso`_ de empresas españolas que utilizando recursos de AWS_, están realizando sus operaciones de análisis, *Business Intelligence* o *Big Data*. Los productos más interesantes fueron Redshift_, que consiste en un servicio de almacén de datos en la nube, o `Elastic Map Reduce`_ para el análisis.
-
-.. _`abrir el evento`: http://es.slideshare.net/AmazonWebServices/aws-summit-barcelona-opening-keynote
-.. _`servicios de Amazon WS`: http://es.slideshare.net/AmazonWebServices/aws-summit-barcelona-hybrid-enterprise-apps
-.. _`comentaron casos de uso`: http://es.slideshare.net/AmazonWebServices/aws-summit-barcelona-data-analysis-on-aws
-.. _`Amazon WS`: http://aws.amazon.com/es/
-.. _Summit: https://aws.amazon.com/es/aws-summit-2013/barcelona/
-.. _AWS: `Amazon WS`_
-.. _`#awssummit`: https://twitter.com/search?q=%23awssummit
-.. _`Mapfre`: http://www.mapfre.es/
-.. _`Miquel Alimentació Grup`: http://www.miquel.es/
-.. _`IE Business School`: http://www.ie.edu/business-school/
-.. _S3: http://aws.amazon.com/es/s3/
-.. _EBS: http://aws.amazon.com/es/ebs/
-.. _Glacier: http://aws.amazon.com/es/glacier/
-.. _`Direct connect`: http://aws.amazon.com/es/directconnect/
-.. _VPC: http://aws.amazon.com/es/vpc/
-.. _`Storage Gateway`: http://aws.amazon.com/es/storagegateway/
-.. _RDS: http://aws.amazon.com/es/rds/
-.. _CloudFormation: http://aws.amazon.com/es/cloudformation/
-.. _`Route 53`: http://aws.amazon.com/es/route53/
-.. _Redshift: http://aws.amazon.com/es/redshift/
-.. _`Elastic Map Reduce`: http://aws.amazon.com/es/elasticmapreduce/
+<img alt="AWS" class="align-right" src="/images/AmazonWebservices.png" />
+<p>Este pasado jueves <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a> celebró en Barcelona un <a class="reference external" href="https://aws.amazon.com/es/aws-summit-2013/barcelona/">Summit</a> para ofrecer una visión de sus tecnologías <em>cloud</em>, casos prácticos de empresas, su aplicación para escenarios de <em>Big Data</em>, copias de seguridad y <em>Disaster Recovery</em>, así como aspectos de seguridad. El evento pudo seguirse en Twitter con el hashtag <a class="reference external" href="https://twitter.com/search?q=%23awssummit">#awssummit</a>.</p>
+<p></p>
+<div class="section" id="un-paseo-por-las-nubes-el-cloud-for-aws">
+<h2>Un Paseo por las Nubes: El <em>Cloud</em> for AWS</h2>
+<p>Carlos Conde, Director del equipo de arquitectos de AWS, fue el encargado de <a class="reference external" href="http://es.slideshare.net/AmazonWebServices/aws-summit-barcelona-opening-keynote">abrir el evento</a>. Nos mostró las ventajas de utilizar los servidos de Amazon WS y como tienen en cuenta y escuchan a sus clientes a la hora de crear y desplegar nuevos servicios. También pudimos ver el especular crecimiento que han tenido desde su creación, siendo en la actualidad el mayor proveedor de servicios <em>cloud</em>, manteniendo una ventaja abismal respecto a sus competidores actuales.</p>
+</div>
+<div class="section" id="seguridad-y-cumplimiento-de-normativas-en-el-cloud">
+<h2>Seguridad y cumplimiento de normativas en el <em>Cloud</em></h2>
+<p>Charla donde se expuso el punto de vista en cuanto a seguridad se refiere en Amazon WS, así como algunas buenas prácticas al respecto. También nos mostraron las diferentes certificaciones que dispone Amazon WS, garantía de que nuestros datos están seguros en la nube y que podemos confiar en la privacidad de los mismos.</p>
+</div>
+<div class="section" id="cloud-hibrida-y-aplicaciones-empresariales-en-aws">
+<h2><em>Cloud</em> Híbrida y Aplicaciones empresariales en AWS</h2>
+<p>En esta última charla antes del descanso para el almuerzo, varios clientes españoles mostraron como habían utilizado los <a class="reference external" href="http://es.slideshare.net/AmazonWebServices/aws-summit-barcelona-hybrid-enterprise-apps">servicios de Amazon WS</a> dentro de sus empresas y los motivos que les llevaron a tomar esta decisión.</p>
+<p>Las empresas invitadas fueron:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://www.mapfre.es/">Mapfre</a>, que utiliza los servicios de Amazon WS para realizar los cálculos de solvencia requeridos para el cumplimiento de la normativa europea actual, todo con el objetivo de minimizar costes en <em>HPC</em>.</li>
+<li><a class="reference external" href="http://www.miquel.es/">Miquel Alimentació Grup</a>, que con el objetivo de ganar en competitividad en un mercado tan exigente, y siendo en la actualidad los sistemas informáticos una pieza clave para tal fin, deciden apostar por Amazon WS.</li>
+<li><a class="reference external" href="http://www.ie.edu/business-school/">IE Business School</a>, que han migrado sus sistemas de <em>IT</em> a la nube, todo con el propósito de garantizar el mejor servicio posible a los estudiantes que han escogido este centro para llevar a cabo sus estudios. En esta ocasión presenciamos dos ponencias, una desde un punto de vista puramente empresarial, y la otra más técnica, ya que el encargado de presentarla fue uno de los miembros del equipo de Administradores de Sistemas.</li>
+</ul>
+</div>
+<div class="section" id="soluciones-de-disaster-recovery-en-aws">
+<h2>Soluciones de <em>Disaster Recovery</em> en AWS</h2>
+<p>La charla empezó describiendo las soluciones que <a class="reference external" href="http://aws.amazon.com/es/">AWS</a> puede ofrecer a la recuperación de desastres, que se centraron en :</p>
+<ul class="simple">
+<li>El uso de servicios de almacenamiento a corto plazo, como <a class="reference external" href="http://aws.amazon.com/es/s3/">S3</a> o <a class="reference external" href="http://aws.amazon.com/es/ebs/">EBS</a>, y a largo plazo, como <a class="reference external" href="http://aws.amazon.com/es/glacier/">Glacier</a>.</li>
+<li>Servicios de comunicaciones, es decir, diferentes formas de establecer conexión con los servicios en la nube, como <a class="reference external" href="http://aws.amazon.com/es/directconnect/">Direct connect</a> o <a class="reference external" href="http://aws.amazon.com/es/vpc/">VPC</a>.</li>
+</ul>
+<p>Finalmente detalló cuatro patrones de arquitecturas de <em>DR</em>:</p>
+<div class="section" id="backup-restore">
+<h3><em>Backup &amp; Restore</em></h3>
+<p>Este patrón consiste en tener una infraestructura en producción, de la que se van haciendo copias de seguridad, guardándolas en <a class="reference external" href="http://aws.amazon.com/es/s3/">S3</a>, la última, y en <a class="reference external" href="http://aws.amazon.com/es/glacier/">Glacier</a>, las anteriores. Cuando algo le sucede a producción, se genera una nueva infraestructura sobre la que se restaura la última copia y, utilizando el DNS, se redirige el tráfico. Sus principales ventajas son que es muy simple, tiene una barrera técnica muy baja, y que su coste es suficientemente efectivo.
+Una variación de esto, cuando la infraestructura está en instalación propios, pasaría por utilizar un <a class="reference external" href="http://aws.amazon.com/es/storagegateway/">Storage Gateway</a>, que es un sistema virtualizado que permite conectar los dispositivos y sistemas de almacenamientos locales a <a class="reference external" href="http://aws.amazon.com/es/s3/">S3</a>. <a class="reference external" href="http://aws.amazon.com/es/rds/">RDS</a> pueden combinarse con estos escenarios. Utilizando estas técnicas, Amazon consiguió reducir sus tiempos de restauración de 15 horas a 2'5.</p>
+</div>
+<div class="section" id="pilot-light">
+<h3><em>Pilot light</em></h3>
+<p>Es muy similar al anterior, pero, en este caso, la nueva infrastructura se encuentra parcialmente arrancada, recibiendo actualizaciones de los datos. Ante una situación de contingencia, la infraestructura alternativa escala para soportar la carga y, utilizando <a class="reference external" href="http://aws.amazon.com/es/route53/">Route 53</a>, se redirige el tráfico.</p>
+</div>
+<div class="section" id="hot-standby-architecture">
+<h3><em>Hot Standby Architecture</em></h3>
+<p>Ambas infraestructuras están en funcionamiento simultáneo, pero sólo una recibe el tráfico productivo. Su principal ventaja es que se restaura muy rápido, pero su coste es el doble.</p>
+</div>
+<div class="section" id="multi-site-solution-mixing-aws-and-on-premise">
+<h3><em>Multi-site solution mixing AWS and on-premise</em></h3>
+<p>Para cuando el tiempo de caída es crítico, esta solución permite reducirlo al mínimo, aunque requiere escalabilidad. La instalación principal no puede soportar todo el tráfico posible. El funcionamiento de este patrón es similar al anterior, pero ambas infraestructuras reciben tráfico de producción.</p>
+</div>
+</div>
+<div class="section" id="continuous-deployment">
+<h2>Continuous Deployment</h2>
+<p>En esta charla se explicó cómo disponer las herramientas para poder hacer despliegue continuo en Amazon WS. El uso de <a class="reference external" href="http://aws.amazon.com/es/cloudformation/">CloudFormation</a> puede permitir la automatización de estos entornos. Sus casos de uso podrían ser entornos de test, o de pruebas de carga, de <em>A/B testing</em>, de cálculo y análisis de datos o para arquitecturas orientadas al coste.</p>
+</div>
+<div class="section" id="big-data">
+<h2>Big Data</h2>
+<p>Finalmente, se <a class="reference external" href="http://es.slideshare.net/AmazonWebServices/aws-summit-barcelona-data-analysis-on-aws">comentaron casos de uso</a> de empresas españolas que utilizando recursos de <a class="reference external" href="http://aws.amazon.com/es/">AWS</a>, están realizando sus operaciones de análisis, <em>Business Intelligence</em> o <em>Big Data</em>. Los productos más interesantes fueron <a class="reference external" href="http://aws.amazon.com/es/redshift/">Redshift</a>, que consiste en un servicio de almacén de datos en la nube, o <a class="reference external" href="http://aws.amazon.com/es/elasticmapreduce/">Elastic Map Reduce</a> para el análisis.</p>
+</div>
+</div>
               </section>
 
               <footer class="post-footer">
@@ -339,7 +305,7 @@ Finalmente, se `comentaron casos de uso`_ de empresas españolas que utilizando 
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2faws-summit-barcelona-2013.html&title=Cr%c3%b3nica%20del%20AWS%20Summit%20Barcelona%202013&summary=..%20image%3a%3a%20%2fimages%2fAmazonWebservices.png%20%3aalt%3a%20AWS%20%3aalign%3a%20right%20Este%20pasado%20jueves%20%60Amazon%20WS%60_%20celebr%c3%b3%20en%20Barcelona%20un%20Summit_%20para%20ofrecer%20una%20visi%c3%b3n%20de%20sus%20tecnolog%c3%adas%20%2acloud%2a%2c%20casos%20pr%c3%a1cticos%20de%20empresas%2c%20su%20aplicaci%c3%b3n%20para%20escenarios%20de%20%2aBig%20Data%2a%2c%20copias%20de%20seguridad%20y%20%2aDisaster%20Recovery%2a%2c%20as%c3%ad%20como%20aspectos%20de%20seguridad.%20El%20evento%20pudo%20seguirse%20en%20Twitter%20con%20el%20hashtag%20%60%23awssummit%60_."
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2faws-summit-barcelona-2013.html&title=Cr%c3%b3nica%20del%20AWS%20Summit%20Barcelona%202013&summary=Este%20pasado%20jueves%20Amazon%20WS%20celebr%c3%b3%20en%20Barcelona%20un%20Summit%20para%20ofrecer%20una%20visi%c3%b3n%20de%20sus%20tecnolog%c3%adas%20cloud%2c%20casos%20pr%c3%a1cticos%20de%20empresas%2c%20su%20aplicaci%c3%b3n%20para%20escenarios%20de%20Big%20Data%2c%20copias%20de%20seguridad%20y%20Disaster%20Recovery%2c%20as%c3%ad%20como%20aspectos%20de%20seguridad.%20El%20evento%20pudo%20seguirse%20en%20Twitter%20con%20el%20hashtag%20%23awssummit.%0a%0a"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

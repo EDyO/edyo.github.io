@@ -17,15 +17,13 @@
       <pubDate>Wed, 11 Feb 2015 12:05:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/fosdem-2015.html</guid>
-      <description>.. image:: /images/fosdem.png
-   :width: 100px
-   :height: 100px
-   :alt: Logo del FOSDEM
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Como muchos ya sabréis, solemos ir cada año a la FOSDEM_, que tiene lugar el primer fin de semana de Febrero en Bruselas. No vamos a ponernos a explicar qué es la FOSDEM_, hemos hablado mucho describiéndola, tanto en nuestros podcasts, como en nuestros posts, como en muchos otros lugares... Tampoco vamos a explicaros que hizo mucho frío, que hubo mucha gente, o que bebimos mucha cerv..., digooooo, que hizo mucho frío, que hubo mucha gente, ...
 
-Podríamos contaros que apareció por ahí `Richard Stallman`_ repartiendo octavillas_ destacando que la FOSDEM_ había dejado de definirse como un evento de software libre, o que hubo bastante barullo sobre el establecimiento de un `código de conducta`_ para la siguiente edición... No obstante, como sabemos lo que os importa, os detallamos, en este artículo, algunas de las charlas que más nos gustaron.&lt;/div&gt;</description>
+&lt;img alt=&#34;Logo del FOSDEM&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/fosdem.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;
+&lt;p&gt;Como muchos ya sabréis, solemos ir cada año a la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt;, que tiene lugar el primer fin de semana de Febrero en Bruselas. No vamos a ponernos a explicar qué es la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt;, hemos hablado mucho describiéndola, tanto en nuestros podcasts, como en nuestros posts, como en muchos otros lugares... Tampoco vamos a explicaros que hizo mucho frío, que hubo mucha gente, o que bebimos mucha cerv..., digooooo, que hizo mucho frío, que hubo mucha gente, ...&lt;/p&gt;
+&lt;p&gt;Podríamos contaros que apareció por ahí &lt;a class=&#34;reference external&#34; href=&#34;https://stallman.org/&#34;&gt;Richard Stallman&lt;/a&gt; repartiendo &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/images/octavilla_Stallman_FOSDEM_2015.jpg&#34;&gt;octavillas&lt;/a&gt; destacando que la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; había dejado de definirse como un evento de software libre, o que hubo bastante barullo sobre el establecimiento de un &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/fosdem/status/561885201383821312&#34;&gt;código de conducta&lt;/a&gt; para la siguiente edición... No obstante, como sabemos lo que os importa, os detallamos, en este artículo, algunas de las charlas que más nos gustaron.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -34,15 +32,13 @@ Podríamos contaros que apareció por ahí `Richard Stallman`_ repartiendo octav
       <pubDate>Wed, 19 Feb 2014 20:22:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html</guid>
-      <description>.. image:: /images/fosdem.png
-   :width: 100px
-   :height: 100px
-   :alt: Logo del FOSDEM
-   :align: left
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Como ya viene siendo tradición, el equipo completo de EDyO tiene una cita obligada con el más importante evento de Software Libre que se produce en Europa: el Free Open source Software Developers European Meeting (FOSDEM). 
 
-En este post no me voy a centrar en las conferencias en si (que seguro que mis compañeros de blog nos regalarán más de un articulo sobre las charlas más destacadas), sino sobre los pormenores del viaje y de lo que pasa más allá de dicho evento.&lt;/div&gt;</description>
+&lt;img alt=&#34;Logo del FOSDEM&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/fosdem.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;
+&lt;p&gt;Como ya viene siendo tradición, el equipo completo de EDyO tiene una cita obligada con el más importante evento de Software Libre que se produce en Europa: el Free Open source Software Developers European Meeting (FOSDEM).&lt;/p&gt;
+&lt;p&gt;En este post no me voy a centrar en las conferencias en si (que seguro que mis compañeros de blog nos regalarán más de un articulo sobre las charlas más destacadas), sino sobre los pormenores del viaje y de lo que pasa más allá de dicho evento.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -51,14 +47,12 @@ En este post no me voy a centrar en las conferencias en si (que seguro que mis c
       <pubDate>Mon, 30 Dec 2013 20:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-4.html</guid>
-      <description>.. image:: /images/Weekly-Newspaper.jpg
-   :width: 213px
-   :height: 141px
-   :alt: La información semanal sobre lo que te interesa
-   :align: left
-   :class: border
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-El parón navideño se está haciendo notar, pero pese a todo, aún hay algunos asuntos que tratar de cara al fin de año: Los horarios de la FOSDEM_, el calendario de adviento del administrador de sistemas y descuentos en libros electrónicos.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
+&lt;p&gt;El parón navideño se está haciendo notar, pero pese a todo, aún hay algunos asuntos que tratar de cara al fin de año: Los horarios de la &lt;a class=&#34;reference external&#34; href=&#34;https://fosdem.org/2014/&#34;&gt;FOSDEM&lt;/a&gt;, el calendario de adviento del administrador de sistemas y descuentos en libros electrónicos.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -67,7 +61,11 @@ El parón navideño se está haciendo notar, pero pese a todo, aún hay algunos 
       <pubDate>Sun, 17 Feb 2013 19:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/testing-automatizacion-fosdem.html</guid>
-      <description>El primer día de la FOSDEM hubo una devroom con charlas de testing y automatización. De esta sala asistimos a las siguientes charlas de las que podemos hacer un resumenO&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;El primer día de la FOSDEM hubo una devroom con charlas de testing y automatización. De esta sala asistimos a las siguientes charlas de las que podemos hacer un resumenO&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -76,11 +74,11 @@ El parón navideño se está haciendo notar, pero pese a todo, aún hay algunos 
       <pubDate>Sun, 03 Feb 2013 10:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/openstack-arquitectura-operaciones-nube-aplicaciones-siglo-xxi.html</guid>
-      <description>===================================================================================
-OpenStack: Arquitectura y operaciones para la nube y las aplicaciones del siglo XXI
-===================================================================================
+      <description>&lt;div class=&#34;document&#34; id=&#34;openstack-arquitectura-y-operaciones-para-la-nube-y-las-aplicaciones-del-siglo-xxi&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;OpenStack: Arquitectura y operaciones para la nube y las aplicaciones del siglo XXI&lt;/h1&gt;
 
-En esta charla_, Mark McLoughlin, de Red Hat, explicó algunos detalles sobre OpenStack_. OpenStack es un conjunto de componentes orientados a construir una infrastructura de nube, similar a la que Amazon tiene bajo el nombre de Web Services (AWS_).&lt;/div&gt;</description>
+&lt;p&gt;En esta &lt;a class=&#34;reference external&#34; href=&#34;https://fosdem.org/2013/schedule/event/openstack_app_arch/&#34;&gt;charla&lt;/a&gt;, Mark McLoughlin, de Red Hat, explicó algunos detalles sobre &lt;a class=&#34;reference external&#34; href=&#34;http://www.openstack.org/&#34;&gt;OpenStack&lt;/a&gt;. OpenStack es un conjunto de componentes orientados a construir una infrastructura de nube, similar a la que Amazon tiene bajo el nombre de Web Services (&lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;AWS&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -89,15 +87,7 @@ En esta charla_, Mark McLoughlin, de Red Hat, explicó algunos detalles sobre Op
       <pubDate>Sun, 03 Feb 2013 00:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/apache-cloudstack-funcionalidades-herramientas.html</guid>
-      <description>=================================================
-Apache CloudStack: Funcionalidades y herramientas
-=================================================
-
-Sebastien Goasguen habló_ sobre `Apache CloudStack`_. Cloudstack se podría definir como un sistema de gestión de entornos de virtualización y de computación en nube. Este software, que hace uso de la librería `deltaCloud`_, permite gestionar los servicios de computación, almacenamiento y red, 
- 
-.. _habló: https://fosdem.org/2013/schedule/event/cloudstack/
-.. _`Apache CloudStack`: http://cloudstack.apache.org/
-.. _`deltaCloud`: http://deltacloud.apache.org/</description>
+      <description>Apache CloudStack: Funcionalidades y herramientas Sebastien Goasguen habló sobre Apache CloudStack. Cloudstack se podría definir como un sistema de gestión de entornos de virtualización y de computación en nube. Este software, que hace uso de la librería deltaCloud, permite gestionar los servicios de computación, almacenamiento y red,</description>
     </item>
     
     <item>
@@ -106,11 +96,11 @@ Sebastien Goasguen habló_ sobre `Apache CloudStack`_. Cloudstack se podría def
       <pubDate>Sat, 02 Feb 2013 16:45:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/devops-jenkins.html</guid>
-      <description>==================
-DevOps con Jenkins
-==================
+      <description>&lt;div class=&#34;document&#34; id=&#34;devops-con-jenkins&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;DevOps con Jenkins&lt;/h1&gt;
 
-`Michael Hüttermann`_, autor de libros como *Agile ALM* o *DevOps for Developers*, explicó_ que `Jenkins`_ es una muy buena herramienta para facilitar la colaboración entre desarrolladores y administradores, permiténdoles alinear metas, procesos y herramientas.&lt;/div&gt;</description>
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://huettermann.net&#34;&gt;Michael Hüttermann&lt;/a&gt;, autor de libros como &lt;em&gt;Agile ALM&lt;/em&gt; o &lt;em&gt;DevOps for Developers&lt;/em&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://fosdem.org/2013/schedule/event/devops_with_jenkins/&#34;&gt;explicó&lt;/a&gt; que &lt;a class=&#34;reference external&#34; href=&#34;http://jenkins-ci.org&#34;&gt;Jenkins&lt;/a&gt; es una muy buena herramienta para facilitar la colaboración entre desarrolladores y administradores, permiténdoles alinear metas, procesos y herramientas.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -119,11 +109,11 @@ DevOps con Jenkins
       <pubDate>Sat, 02 Feb 2013 16:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/empaquetado-continuo.html</guid>
-      <description>====================
-Empaquetado contínuo
-====================
+      <description>&lt;div class=&#34;document&#34; id=&#34;empaquetado-continuo&#34;&gt;
+&lt;h1 class=&#34;title&#34;&gt;Empaquetado contínuo&lt;/h1&gt;
 
-Maciej Pasternacki contó_ cómo, con componentes ya existentes y otros que ha creado él, se puede construir una cadena de empaquetamiento contínuo.&lt;/div&gt;</description>
+&lt;p&gt;Maciej Pasternacki &lt;a class=&#34;reference external&#34; href=&#34;https://fosdem.org/2013/schedule/event/continuous_packaging_pipeline/&#34;&gt;contó&lt;/a&gt; cómo, con componentes ya existentes y otros que ha creado él, se puede construir una cadena de empaquetamiento contínuo.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

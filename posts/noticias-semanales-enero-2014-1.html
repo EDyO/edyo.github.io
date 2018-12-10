@@ -30,14 +30,12 @@
         <meta name="twitter:creator" content="@entredevyops" />
         <meta name="twitter:title" content="Noticias semanales (Ene I)" />
         
-        <meta name="twitter:description" content=".. image:: /images/Weekly-Newspaper.jpg
-   :width: 213px
-   :height: 141px
-   :alt: La información semanal sobre lo que te interesa
-   :align: right
-   :class: border
+        <meta name="twitter:description" content="
 
-En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, los encuentros familiares y los regalos, aquí están las primeras noticias de 2014. Podréis encontrar herramientas, como una especie de Vagrant_ para Docker_, un servicio complementario para vuestro Nagios_ y vuestra cuenta de Pagerduty_, o un nuevo panel para Graphite_, así como explicaciones sobre cobertura de testeo de código para Chef_ o un interesante blog sobre lo último de Puppet_, junto con artículos sobre SDN_, el despliegue contínuo agresivo o la importancia de la infraestructura como código para la automatización. Disfrutad del commienzo de año." />
+
+
+En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, los encuentros familiares y los regalos, aquí están las primeras noticias de 2014. Podréis encontrar herramientas, como una especie de Vagrant para Docker, un servicio complementario para vuestro Nagios y vuestra cuenta de Pagerduty, o un nuevo panel para Graphite, así como explicaciones sobre cobertura de testeo de código para Chef o un interesante blog sobre lo último de Puppet, junto con artículos sobre SDN, el despliegue contínuo agresivo o la importancia de la infraestructura como código para la automatización. Disfrutad del commienzo de año.
+" />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/noticias-semanales-enero-2014-1.html" />
     
 
@@ -120,7 +118,7 @@ En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, lo
         },
         "datePublished": "2014-01-07",
         "dateModified": "2014-01-07",
-        "wordCount": 718,
+        "wordCount": 578,
         "keywords": ["Recursos","Herramientas","Chef","Puppet","Pruebas","TDD","Entrega Contínua","Monitorización","Automatización"] 
     }
     </script>
@@ -225,7 +223,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">7 Jan 2014</span> <span class="reading-time">| <span class="estimated-reading-time">4 min.</span> (<span class="word-count">718</span> palabras)</span></span>
+                        <span class="post-date">7 Jan 2014</span> <span class="reading-time">| <span class="estimated-reading-time">3 min.</span> (<span class="word-count">578</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -234,97 +232,49 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  .. image:: /images/Weekly-Newspaper.jpg
-   :width: 213px
-   :height: 141px
-   :alt: La información semanal sobre lo que te interesa
-   :align: right
-   :class: border
-
-En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, los encuentros familiares y los regalos, aquí están las primeras noticias de 2014. Podréis encontrar herramientas, como una especie de Vagrant_ para Docker_, un servicio complementario para vuestro Nagios_ y vuestra cuenta de Pagerduty_, o un nuevo panel para Graphite_, así como explicaciones sobre cobertura de testeo de código para Chef_ o un interesante blog sobre lo último de Puppet_, junto con artículos sobre SDN_, el despliegue contínuo agresivo o la importancia de la infraestructura como código para la automatización. Disfrutad del commienzo de año.
+                  <div class="document">
 
 
-
-
-Fig, un Vagrant para Docker
----------------------------
-
-La gente de Orchard_, un proveedor de hospedaje con Docker_, ha hecho pública su herramienta para la automatización de despliegues, llamada Fig_. Siendo una suerte de Vagrant_ para Docker_, la introducción que han publicado parece muy interesante, sobretodo para la preparación de entornos de desarrollo.
-
-Cómo controlar las alertas con Flapjack
----------------------------------------
-
-Quizás más útil para un ISP o un proveedor de hosting, Flapjack_ puede ser un interesante aliado de los sistemas de monitorización, parecido a Pagerduty_ en algunos aspectos, puede complementarlo para facilitar la gestión de alertas a equipos diferenciados. En cualquier caso, un nuevo juguete al que echar un vistazo.
-
-Otro *dashboard* para Graphite
-------------------------------
-
-Es bastante habitual que aparezcan paneles e interfaces para Graphite_, lo que ya no es tan habitual es que sean tan completos en funcionalidad como Graph-explorer_, que, además, es de Vimeo_. A parte de que utiliza GEQL_, permitiendo crear gráficos aún más fácilmente, facilita la identificación de las unidades, facilita la agregación en línea, y otras muchas funcionalidades.
-
-Cobertura de tests con Chef
----------------------------
-
-`Seth Vargo`_, uno de los componentes de los equipos de Berkshelf_ y ChefSpec_, así como uno de los evangelizadores de Chef_, ha escrito un interesante artículo sobre cómo gestionar la `cobertura de los tests`_ sobre las recetas, permitiendo identificar incluso los recursos que no se han comprobado.
-
-Las novedades de Puppet
------------------------
-
-El blog `Puppet on the edge`_, de `Henrik Lindberg`_, es un blog dedicado a destacar las novedades que el equipo de Puppet_ va añadiendo, antes de que lleguen a las manos de los más avezados administradores. Un buen candidato para vuestro lector de RSS.
-
-Cambios de paradigma en la virtualización y las comunicaciones
---------------------------------------------------------------
-
-`Greg Ferro`_, autor del blog EtherealMind_, ha publicado un artículo_, en respuesta a una duda de un lector, sobre el cambio del paradigma de la virtualización de redes y su acercamiento a las SDN_. Aunque no es en gran profundidad, puede hacer reflexionar a muchos sobre la utilización de las filosofías Agile y DevOps en el mundo del *networking*.
-
-El despliegue contínuo de los grandes
--------------------------------------
-
-En `Infinite Duo`_ hacen un superficial, aunque interesante, repaso_ al despliegue contínua ultraagresivo que hacen algunos grandes como Google_, Amazon_ o Facebook_. Con un vídeo explicativo para cada caso, puede ser curioso ver cómo estar publicando las nuevas versiones de forma constante puede no ser una idea tan loca, como algunos piensan.
-
-¿Porqué nos dedicamos a esto?
------------------------------
-
-`Aaron Nichols`_, autor del blog `Operation Bootstrap`_, ha escrito una interesante reflexión_ sobre lo que, podéis estar seguros, piensan muchos administradores de sistemas y DevOps, en relación a esta nuestra profesión. A destacar el émfasis que hace en el hecho del perfil generalista tan común en Ops.
-
-La relación entre IaC y la automatización
------------------------------------------
-
-Kief_, consultor especializado en entrega contínua de software, ha escrito un artículo sobre automatización_ y la importancia de combinarla con la gestión de la infraestructura como código.
-
-
-.. _Vagrant: http://vagrantup.com
-.. _Docker: https://docker.io
-.. _Nagios: http://www.nagios.org/
-.. _Pagerduty: http://www.pagerduty.com/
-.. _Graphite: http://graphite.wikidot.com/
-.. _Chef: http://www.getchef.com/chef/
-.. _Puppet: http://puppetlabs.com/
-.. _SDN: http://en.wikipedia.org/wiki/Software-defined_networking
-.. _Orchard: https://orchardup.com/
-.. _Fig: http://orchardup.github.io/fig/
-.. _Flapjack: http://flapjack.io/
-.. _Graph-explorer: http://vimeo.github.io/graph-explorer/
-.. _Vimeo: http://vimeo.com
-.. _GEQL: https://github.com/vimeo/graph-explorer/wiki/GEQL
-.. _`Seth Vargo`: https://sethvargo.com/
-.. _Berkshelf: http://berkshelf.com
-.. _ChefSpec: https://github.com/sethvargo/chefspec
-.. _`cobertura de los tests`: https://sethvargo.com/chef-recipe-code-coverage/
-.. _`Puppet on the edge`: http://puppet-on-the-edge.blogspot.co.uk/
-.. _`Henrik Lindberg`: https://plus.google.com/103020081690083867959
-.. _`Greg Ferro`: http://etherealmind.com/author/gregferro/
-.. _EtherealMind: http://etherealmind.com
-.. _artículo: http://etherealmind.com/server-performance-network-agents-software-routers-and-networking/
-.. _`Infinite Duo`: http://infiniteundo.com
-.. _repaso: http://infiniteundo.com/post/71540519157/continuous-delivery-is-mainstream
-.. _Google: http://google.com
-.. _Amazon: http://amazon.com
-.. _Facebook: http://facebook.com
-.. _`Aaron Nichols`: https://twitter.com/anichols
-.. _`Operation Bootstrap`: http://opsbs.com
-.. _reflexión: http://www.opsbs.com/2013/09/why-i-infracode/
-.. _`Kief`: https://twitter.com/kief
-.. _`automatización`: http://kief.com/infrastructure-as-code-versus-automation.html
+<img alt="La información semanal sobre lo que te interesa" class="border align-right" src="/images/Weekly-Newspaper.jpg" style="width: 213px; height: 141px;" />
+<p>En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, los encuentros familiares y los regalos, aquí están las primeras noticias de 2014. Podréis encontrar herramientas, como una especie de <a class="reference external" href="http://vagrantup.com">Vagrant</a> para <a class="reference external" href="https://docker.io">Docker</a>, un servicio complementario para vuestro <a class="reference external" href="http://www.nagios.org/">Nagios</a> y vuestra cuenta de <a class="reference external" href="http://www.pagerduty.com/">Pagerduty</a>, o un nuevo panel para <a class="reference external" href="http://graphite.wikidot.com/">Graphite</a>, así como explicaciones sobre cobertura de testeo de código para <a class="reference external" href="http://www.getchef.com/chef/">Chef</a> o un interesante blog sobre lo último de <a class="reference external" href="http://puppetlabs.com/">Puppet</a>, junto con artículos sobre <a class="reference external" href="http://en.wikipedia.org/wiki/Software-defined_networking">SDN</a>, el despliegue contínuo agresivo o la importancia de la infraestructura como código para la automatización. Disfrutad del commienzo de año.</p>
+<p></p>
+<div class="section" id="fig-un-vagrant-para-docker">
+<h2>Fig, un Vagrant para Docker</h2>
+<p>La gente de <a class="reference external" href="https://orchardup.com/">Orchard</a>, un proveedor de hospedaje con <a class="reference external" href="https://docker.io">Docker</a>, ha hecho pública su herramienta para la automatización de despliegues, llamada <a class="reference external" href="http://orchardup.github.io/fig/">Fig</a>. Siendo una suerte de <a class="reference external" href="http://vagrantup.com">Vagrant</a> para <a class="reference external" href="https://docker.io">Docker</a>, la introducción que han publicado parece muy interesante, sobretodo para la preparación de entornos de desarrollo.</p>
+</div>
+<div class="section" id="como-controlar-las-alertas-con-flapjack">
+<h2>Cómo controlar las alertas con Flapjack</h2>
+<p>Quizás más útil para un ISP o un proveedor de hosting, <a class="reference external" href="http://flapjack.io/">Flapjack</a> puede ser un interesante aliado de los sistemas de monitorización, parecido a <a class="reference external" href="http://www.pagerduty.com/">Pagerduty</a> en algunos aspectos, puede complementarlo para facilitar la gestión de alertas a equipos diferenciados. En cualquier caso, un nuevo juguete al que echar un vistazo.</p>
+</div>
+<div class="section" id="otro-dashboard-para-graphite">
+<h2>Otro <em>dashboard</em> para Graphite</h2>
+<p>Es bastante habitual que aparezcan paneles e interfaces para <a class="reference external" href="http://graphite.wikidot.com/">Graphite</a>, lo que ya no es tan habitual es que sean tan completos en funcionalidad como <a class="reference external" href="http://vimeo.github.io/graph-explorer/">Graph-explorer</a>, que, además, es de <a class="reference external" href="http://vimeo.com">Vimeo</a>. A parte de que utiliza <a class="reference external" href="https://github.com/vimeo/graph-explorer/wiki/GEQL">GEQL</a>, permitiendo crear gráficos aún más fácilmente, facilita la identificación de las unidades, facilita la agregación en línea, y otras muchas funcionalidades.</p>
+</div>
+<div class="section" id="cobertura-de-tests-con-chef">
+<h2>Cobertura de tests con Chef</h2>
+<p><a class="reference external" href="https://sethvargo.com/">Seth Vargo</a>, uno de los componentes de los equipos de <a class="reference external" href="http://berkshelf.com">Berkshelf</a> y <a class="reference external" href="https://github.com/sethvargo/chefspec">ChefSpec</a>, así como uno de los evangelizadores de <a class="reference external" href="http://www.getchef.com/chef/">Chef</a>, ha escrito un interesante artículo sobre cómo gestionar la <a class="reference external" href="https://sethvargo.com/chef-recipe-code-coverage/">cobertura de los tests</a> sobre las recetas, permitiendo identificar incluso los recursos que no se han comprobado.</p>
+</div>
+<div class="section" id="las-novedades-de-puppet">
+<h2>Las novedades de Puppet</h2>
+<p>El blog <a class="reference external" href="http://puppet-on-the-edge.blogspot.co.uk/">Puppet on the edge</a>, de <a class="reference external" href="https://plus.google.com/103020081690083867959">Henrik Lindberg</a>, es un blog dedicado a destacar las novedades que el equipo de <a class="reference external" href="http://puppetlabs.com/">Puppet</a> va añadiendo, antes de que lleguen a las manos de los más avezados administradores. Un buen candidato para vuestro lector de RSS.</p>
+</div>
+<div class="section" id="cambios-de-paradigma-en-la-virtualizacion-y-las-comunicaciones">
+<h2>Cambios de paradigma en la virtualización y las comunicaciones</h2>
+<p><a class="reference external" href="http://etherealmind.com/author/gregferro/">Greg Ferro</a>, autor del blog <a class="reference external" href="http://etherealmind.com">EtherealMind</a>, ha publicado un <a class="reference external" href="http://etherealmind.com/server-performance-network-agents-software-routers-and-networking/">artículo</a>, en respuesta a una duda de un lector, sobre el cambio del paradigma de la virtualización de redes y su acercamiento a las <a class="reference external" href="http://en.wikipedia.org/wiki/Software-defined_networking">SDN</a>. Aunque no es en gran profundidad, puede hacer reflexionar a muchos sobre la utilización de las filosofías Agile y DevOps en el mundo del <em>networking</em>.</p>
+</div>
+<div class="section" id="el-despliegue-continuo-de-los-grandes">
+<h2>El despliegue contínuo de los grandes</h2>
+<p>En <a class="reference external" href="http://infiniteundo.com">Infinite Duo</a> hacen un superficial, aunque interesante, <a class="reference external" href="http://infiniteundo.com/post/71540519157/continuous-delivery-is-mainstream">repaso</a> al despliegue contínua ultraagresivo que hacen algunos grandes como <a class="reference external" href="http://google.com">Google</a>, <a class="reference external" href="http://amazon.com">Amazon</a> o <a class="reference external" href="http://facebook.com">Facebook</a>. Con un vídeo explicativo para cada caso, puede ser curioso ver cómo estar publicando las nuevas versiones de forma constante puede no ser una idea tan loca, como algunos piensan.</p>
+</div>
+<div class="section" id="porque-nos-dedicamos-a-esto">
+<h2>¿Porqué nos dedicamos a esto?</h2>
+<p><a class="reference external" href="https://twitter.com/anichols">Aaron Nichols</a>, autor del blog <a class="reference external" href="http://opsbs.com">Operation Bootstrap</a>, ha escrito una interesante <a class="reference external" href="http://www.opsbs.com/2013/09/why-i-infracode/">reflexión</a> sobre lo que, podéis estar seguros, piensan muchos administradores de sistemas y DevOps, en relación a esta nuestra profesión. A destacar el émfasis que hace en el hecho del perfil generalista tan común en Ops.</p>
+</div>
+<div class="section" id="la-relacion-entre-iac-y-la-automatizacion">
+<h2>La relación entre IaC y la automatización</h2>
+<p><a class="reference external" href="https://twitter.com/kief">Kief</a>, consultor especializado en entrega contínua de software, ha escrito un artículo sobre <a class="reference external" href="http://kief.com/infrastructure-as-code-versus-automation.html">automatización</a> y la importancia de combinarla con la gestión de la infraestructura como código.</p>
+</div>
+</div>
               </section>
 
               <footer class="post-footer">
@@ -357,7 +307,7 @@ Kief_, consultor especializado en entrega contínua de software, ha escrito un a
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fnoticias-semanales-enero-2014-1.html&title=Noticias%20semanales%20%28Ene%20I%29&summary=..%20image%3a%3a%20%2fimages%2fWeekly-Newspaper.jpg%20%3awidth%3a%20213px%20%3aheight%3a%20141px%20%3aalt%3a%20La%20informaci%c3%b3n%20semanal%20sobre%20lo%20que%20te%20interesa%20%3aalign%3a%20right%20%3aclass%3a%20border%20En%20primer%20lugar%2c%20%c2%a1Feliz%20A%c3%b1o%20Nuevo%20a%20todos%21%20Tras%20las%20fiestas%2c%20las%20comilonas%2c%20los%20encuentros%20familiares%20y%20los%20regalos%2c%20aqu%c3%ad%20est%c3%a1n%20las%20primeras%20noticias%20de%202014.%20Podr%c3%a9is%20encontrar%20herramientas%2c%20como%20una%20especie%20de%20Vagrant_%20para%20Docker_%2c%20un%20servicio%20complementario%20para%20vuestro%20Nagios_%20y%20vuestra%20cuenta%20de%20Pagerduty_%2c%20o%20un%20nuevo%20panel%20para%20Graphite_%2c%20as%c3%ad%20como%20explicaciones%20sobre%20cobertura%20de%20testeo%20de%20c%c3%b3digo%20para%20Chef_%20o%20un%20interesante%20blog%20sobre%20lo%20%c3%baltimo%20de%20Puppet_%2c%20junto%20con%20art%c3%adculos%20sobre%20SDN_%2c%20el%20despliegue%20cont%c3%adnuo%20agresivo%20o%20la%20importancia%20de%20la%20infraestructura%20como%20c%c3%b3digo%20para%20la%20automatizaci%c3%b3n.%20Disfrutad%20del%20commienzo%20de%20a%c3%b1o."
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fnoticias-semanales-enero-2014-1.html&title=Noticias%20semanales%20%28Ene%20I%29&summary=En%20primer%20lugar%2c%20%c2%a1Feliz%20A%c3%b1o%20Nuevo%20a%20todos%21%20Tras%20las%20fiestas%2c%20las%20comilonas%2c%20los%20encuentros%20familiares%20y%20los%20regalos%2c%20aqu%c3%ad%20est%c3%a1n%20las%20primeras%20noticias%20de%202014.%20Podr%c3%a9is%20encontrar%20herramientas%2c%20como%20una%20especie%20de%20Vagrant%20para%20Docker%2c%20un%20servicio%20complementario%20para%20vuestro%20Nagios%20y%20vuestra%20cuenta%20de%20Pagerduty%2c%20o%20un%20nuevo%20panel%20para%20Graphite%2c%20as%c3%ad%20como%20explicaciones%20sobre%20cobertura%20de%20testeo%20de%20c%c3%b3digo%20para%20Chef%20o%20un%20interesante%20blog%20sobre%20lo%20%c3%baltimo%20de%20Puppet%2c%20junto%20con%20art%c3%adculos%20sobre%20SDN%2c%20el%20despliegue%20cont%c3%adnuo%20agresivo%20o%20la%20importancia%20de%20la%20infraestructura%20como%20c%c3%b3digo%20para%20la%20automatizaci%c3%b3n.%20Disfrutad%20del%20commienzo%20de%20a%c3%b1o.%0a%0a"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>
