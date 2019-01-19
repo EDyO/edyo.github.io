@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 20 Dec 2018 10:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Jan 2019 21:50:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Píldora 10: 2018 Recap</title>
+      <link>https://www.entredevyops.es/podcasts/pildora-10.html</link>
+      <pubDate>Sat, 19 Jan 2019 21:50:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/pildora-10.html</guid>
+      <description>&lt;p&gt;En la píldora 10 de nuestro podcast repasamos los hechos más destacables de nuestro podcast durante el 2018.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 44: BGP Hijacking</title>
