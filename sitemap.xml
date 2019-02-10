@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-46.html</loc>
+    <lastmod>2019-02-10T18:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.entredevyops.es/podcasts/podcast-45.html</loc>
     <lastmod>2019-01-31T02:00:00+00:00</lastmod>
   </url>
@@ -1065,7 +1070,7 @@
   
   <url>
     <loc>https://www.entredevyops.es/</loc>
-    <lastmod>2019-01-31T02:00:00+00:00</lastmod>
+    <lastmod>2019-02-10T18:20:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1321,7 +1326,7 @@
   
   <url>
     <loc>https://www.entredevyops.es/podcasts.html</loc>
-    <lastmod>2019-01-31T02:00:00+00:00</lastmod>
+    <lastmod>2019-02-10T18:20:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

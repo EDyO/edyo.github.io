@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 31 Jan 2019 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Feb 2019 18:20:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 46: Coloquio en el Fosdem 2019</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-46.html</link>
+      <pubDate>Sun, 10 Feb 2019 18:20:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-46.html</guid>
+      <description>&lt;p&gt;En el episodio 46 del podcast de &lt;a href=&#34;https://www.entredevyops.es/&#34; target=&#34;_blank&#34;&gt;https://www.entredevyops.es/&lt;/a&gt; nos juntamos en persona para discutir varios temas: feedback Fosdem, estado actual Open Source&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 45: Normas, estándares y flujos de trabajo</title>
