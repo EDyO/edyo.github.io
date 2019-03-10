@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 14 Feb 2019 22:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Mar 2019 13:15:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 48: ¿Se te ha roto producción?</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-48.html</link>
+      <pubDate>Sun, 10 Mar 2019 13:15:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-48.html</guid>
+      <description>&lt;p&gt;En el episodio 48 del podcast de &lt;a href=&#34;https://www.entredevyops.es/&#34; target=&#34;_blank&#34;&gt;https://www.entredevyops.es/&lt;/a&gt; hablamos sobre la gestión de incidentes.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 47: Nuevos paradigmas de networking, con Christian Adell</title>
