@@ -1,21 +1,35 @@
+
 <!DOCTYPE html>
 <html lang="es-es">
 
     <head>
-	<meta name="generator" content="Hugo 0.42.1" />
 
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <meta property="og:title" content=" Entre Dev y Ops" />
+        <meta property="og:title" content=" Píldora 11: F5 compra NGINX &middot;  Entre Dev y Ops" />
         <meta property="og:site_name" content="Entre Dev y Ops" />
-        <meta property="og:url" content="https://www.entredevyops.es/" />
+        <meta property="og:url" content="https://www.entredevyops.es/podcasts/pildora-11.html" />
 
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2019-03-17T13:00:00Z" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@entredevyops" />
+        <meta name="twitter:creator" content="@entredevyops" />
+        <meta name="twitter:title" content="Píldora 11: F5 compra NGINX" />
+        
+          <meta name="twitter:image" content="https://www.entredevyops.es/images/f5_nginx.png" />
+        
+        <meta name="twitter:description" content="En esta píldora del podcast de https://www.entredevyops.es/ hablamos sobre la compra de NGINX por parte de F5.
+
+" />
+        <meta name="twitter:url" content="https://www.entredevyops.es/podcasts/pildora-11.html" />
     
 
-        <title> Entre Dev y Ops</title>
+        <title> Píldora 11: F5 compra NGINX &middot;  Entre Dev y Ops</title>
 
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
@@ -45,12 +59,58 @@
         
 
     
+        <link href="https://www.entredevyops.es/index.xml" rel="alternate" type="application/rss+xml" title="Entre Dev y Ops" />
+    
 
     
-        <link href="https://www.entredevyops.es/rss.xml" rel="alternate" type="application/rss+xml" title="Entre Dev y Ops" />
-    
-        <link rel="canonical" href="https://www.entredevyops.es/" />
+        <link rel="canonical" href="https://www.entredevyops.es/podcasts/pildora-11.html" />
 
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.entredevyops.es/podcasts/pildora-11.html"
+        },
+        "headline": "Píldora 11: F5 compra NGINX",
+        "description": "",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.entredevyops.es/",
+          "name": "Entre Dev y Ops",
+          "url": "https://www.entredevyops.es/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.entredevyops.es/f5_nginx.png",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2019-03-17",
+        "dateModified": "2019-03-17",
+        "wordCount": 43,
+        
+    }
+    </script>
 
 
     
@@ -58,9 +118,9 @@
     
     
       var disqus_shortname = 'edyo';
-      var disqus_identifier = 'https:\/\/www.entredevyops.es\/';
-      var disqus_title = 'Entre Dev y Ops';
-      var disqus_url = 'https:\/\/www.entredevyops.es\/';
+      var disqus_identifier = 'https:\/\/www.entredevyops.es\/podcasts\/pildora-11.html';
+      var disqus_title = 'Píldora 11: F5 compra NGINX';
+      var disqus_url = 'https:\/\/www.entredevyops.es\/podcasts\/pildora-11.html';
     
     </script>
     
@@ -133,6 +193,8 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <input type="submit" value="Buscar">
               </form>
               
+                
+              
               
                 <a id="main-menu-button" class="menu" data-action="menu" data-target="menu"
                     title="Menú"><i class="fas fa-bars"></i></a>
@@ -141,200 +203,100 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
           </nav>
 
 
-	<header id="header" class="header has-cover">
-		<div class="inner">
-			<a class="header-title" href="https://www.entredevyops.es/">
-				<h1 class="header-name">Entre Dev y Ops</h1>
-				
-					<span class="header-description">El podcast en el que hablamos sobre desarrollo de aplicaciones, operaciones de sistemas informáticos y todo lo relacionado con la filosofía DevOps</span>
-				
-			</a>
-		</div>
-		
-			
-    <div id="front-page-menu" class="inner">
-        
-        
-        <span class="menu-list-item">
-            <i class="fas fa-rss"></i>
-            <a href="/suscribete.html">Suscríbete</a>
+<main class="content" role="main">
+    <article class="post">
+        <div class="inner">
+
+            <div id="push">
+
+                <header class="post-header">
+                
+                    <span class="post-meta">
+                        <span class="post-date">17 Mar 2019</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">43</span> palabras)</span></span>
+                    </span>
+                <div class="clear"></div>
+                
+                <h1 class="post-title">Píldora 11: F5 compra NGINX</h1>
+              </header>
+
+              <section class="post-content">
+                
+                    <audio controls="" class="podcast-player">
+                        <source src="http://podcast.edyo.es/podcast/edyo-pildora11.mp3" type="audio/mpeg" />
+                        <a href="http://podcast.edyo.es/podcast/edyo-pildora11.mp3">Píldora 11: F5 compra NGINX</a>
+                    </audio>
+                
+                  <p>En esta píldora del podcast de <a href="https://www.entredevyops.es/" target="_blank">https://www.entredevyops.es/</a> hablamos sobre la compra de NGINX por parte de F5.</p>
+
+<p></p>
+
+<p>Enlaces comentados:</p>
+
+<ul>
+<li><a href="https://www.f5.com/" target="_blank">F5</a></li>
+<li><a href="https://www.nginx.com/" target="_blank">NGINX</a></li>
+<li><a href="https://www.f5.com/company/news/press-releases/f5-acquires-nginx-to-bridge-netops-devops" target="_blank">Notícia de F5</a></li>
+<li><a href="https://www.nginx.com/blog/nginx-joins-f5/" target="_blank">Notícia de Nginx</a></li>
+<li><a href="https://httpd.apache.org/" target="_blank">Apache Web Server</a></li>
+<li><a href="https://en.wikipedia.org/wiki/NCSA_HTTPd" target="_blank">NCSA HTTPd</a></li>
+<li><a href="https://www.lighttpd.net/" target="_blank">Lighttpd</a></li>
+<li><a href="http://cherokee-project.com/" target="_blank">Cherokee</a></li>
+<li><a href="http://www.acme.com/software/thttpd/" target="_blank">thttpd</a></li>
+<li><a href="https://en.wikipedia.org/wiki/C10k_problem" target="_blank">Problema C10K</a></li>
+<li><a href="https://www.entredevyops.es/podcasts/podcast-pildora-4.html" target="_blank">Microsoft compra GitHub</a></li>
+<li><a href="https://www.entredevyops.es/podcasts/pildora-9.html" target="_blank">IBM compra Redhat</a></li>
+</ul>
+              </section>
+
+              <footer class="post-footer">
+                  <div class="post-tags">
             
-        </span>
-        
-        
-        <span class="menu-list-item">
-            <i class="fas fa-donate"></i>
-            <a href="/ayudanos.html">Ayúdanos</a>
+                  </div>
+                
+                    <div class="post-share">
+                        <a href="https://twitter.com/share?text=P%c3%adldora%2011%3a%20F5%20compra%20NGINX&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpildora-11.html"
+                           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <i class="fab fa-twitter"/></i><span>Twitter</span>
+                        </a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpildora-11.html&title=P%c3%adldora%2011%3a%20F5%20compra%20NGINX&summary=En%20esta%20p%c3%adldora%20del%20podcast%20de%20https%3a%2f%2fwww.entredevyops.es%2f%20hablamos%20sobre%20la%20compra%20de%20NGINX%20por%20parte%20de%20F5.%0a%0a"
+                           onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
+                        </a>
+                    </div>
             
-        </span>
-        
-    </div>
-
-
-		
-		
-		<div class="header-cover blured-image" style="background-color: #19a0d7; background-image: url(/images/cover.low.jpg)" data-src="/images/cover.jpg"></div>
-		
-	</header>
-
-	<div id="post-index" class="container">
-
-		<main class="content" role="main">
-
-			<div class="post-list">
-				<div id="push">
+              </footer>
 
             
+                <aside class="post-comments">
+    
+    
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+</aside>
 
-			
-			  
-<article class="post posts">
+            
+            </div>
 
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/curso-scrum-devops-lean-it-barcelona-bcn.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">12 Nov 2013</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/curso-scrum-devops-lean-it-barcelona-bcn.html">Curso Agile IT Management: Scrum, DevOps, Lean IT en BarcelonaTech</a></h2>
-		<p class="post-excerpt"><div class="document">
+            <nav class="post-nav">
+                
+                
+                    <a class="post-nav-item post-nav-prev" href="https://www.entredevyops.es/podcasts/podcast-48.html">
+                        <section class="post-nav-teaser">
+                            <span class="post-nav-icon"><i class="fas fa-chevron-right"></i></span>
+                            <span class="post-nav-info">
+                                <h4 class="post-nav-title">Podcast 48: ¿Se te ha roto producción?</h4>
+                            </span>
+                        </section>
+                    </a>
+                
+                <div class="clear"></div>
+            </nav>
 
-
-<img alt="UPC" class="align-right" src="/images/upc.jpeg" style="width: 125px; height: 125px;" />
-<p>Era de esperar que en algún momento apareciera, desde el mundo universitario, formación sobre el tema DevOps, o que la incluya. Así pues, llega el curso de formación contínua <a class="reference external" href="http://www.talent.upc.edu/professionals/informacio/codi/527700/agile/management/scrum/devops/lean">Agile IT Management: Scrum, DevOps, Lean IT</a>, ofrecido por <a class="reference external" href="http://www.talent.upc.edu/">BarcelonaTech</a>.</p>
-<p>Este curso incluye la práctica con ciertas herramientas relacionas, entre ellas <a class="reference external" href="http://jenkins-ci.org">Jenkins</a>, <a class="reference external" href="http://puppetlabs.com">Puppet</a>, o <a class="reference external" href="http://aws.amazon.com/">Amazon WS</a>. De todos modos, no olvida la interacción con las metodología ágiles y los conceptos de <em>lean</em> aplicados a entornos de las TIC.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/curso-scrum-devops-lean-it-barcelona-bcn.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/bcndevcon-2013-tercer-dia.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">11 Nov 2013</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/bcndevcon-2013-tercer-dia.html">Tercer día en la BcnDevCon&#39;13</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<img alt="BcnDevCon13" class="border align-left" src="/images/bcndevcon13.jpeg" style="width: 125px; height: 125px;" />
-<p>El tercer día de la <a class="reference external" href="http://bcndevcon.org">BcnDevCon13</a> fue bastante más relajado que los otros dos. No en vano fue domingo. Las visitas al salón de <a class="reference external" href="http://bcndevcon.org/retrobarcelona/">RetroBarcelona</a> se mantuvieron bastante activas. Las actividades sobre robótica, como el <a class="reference external" href="http://bcndevcon.org/aess-challenge/">AESS Challenge</a> también tuvieron bastante afluencia. La <a class="reference external" href="http://bcndevcon.org/activities/agile-station/">Agile Station</a> tuvo actividad, pero tuvieron que cancelar alguna actividad debido a la baja afluencia. No obstante, su taller de robótica infantil pareció tener cierto éxito.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/bcndevcon-2013-tercer-dia.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/bcndevcon-2013-segundo-dia.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">11 Nov 2013</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/bcndevcon-2013-segundo-dia.html">Segundo día en la BcnDevCon&#39;13</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<img alt="BcnDevCon13" class="border align-right" src="/images/bcndevcon13.jpeg" style="width: 125px; height: 125px;" />
-<p>El segundo día de la <a class="reference external" href="http://bcndevcon.org">BcnDevCon</a>'13 estuvo plagado de charlas y actividades, el final del <a class="reference external" href="http://bcndevcon.org/hackathon/">Hackathon for education</a>, Los concursos de Mario Kart y Street Fighter. El salón de <a class="reference external" href="http://bcndevcon.org/retrobarcelona/">RetroBarcelona</a> fue muy visitado y la <a class="reference external" href="http://bcndevcon.org/activities/agile-station/">Agile Station</a>, coordinada por la gente de <a class="reference external" href="http://barcelona.agile-spain.org/">Agile BCN</a>, tuvo una actividad frenética, como el día anterior.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/bcndevcon-2013-segundo-dia.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/amazon-ws-elb-balancea-entre-zonas.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">10 Nov 2013</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/amazon-ws-elb-balancea-entre-zonas.html">ELB de Amazon WS balancea entre zonas de disponibilidad</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<img alt="AWS" class="align-left" src="/images/AmazonWebservices.png" />
-<p>El pasado jueves, día 7 de noviembre, <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a> anunció que su servicio <a class="reference external" href="http://aws.amazon.com/es/elb/">ELB</a> pasaría a permitir balancear entre instancias que se encontraran en zonas de disponibilidad distintas, mejorando el mantenimiento y rendimiento de las aplicaciones, que ya no requerirán esfuerzos adicionales por parte de los clientes. También hará el despliegue de las aplicaciones más sencillo.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/amazon-ws-elb-balancea-entre-zonas.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/curso-puppet-fundamentals-bcn-2013.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">10 Nov 2013</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/curso-puppet-fundamentals-bcn-2013.html">Curso Puppet Fundamentals en BCN</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<p>El próximo 27 de noviembre, en Barcelona, empezará el curso de formación sobre <a class="reference external" href="http://puppetlabs.com">Puppet</a>, <a class="reference external" href="http://www.amiando.com/puppet-training-barcelona-nov-2013.html?mkt_tok=3RkMMJWWfF9wsRolu6vLZKXonjHpfsX%252B6uguW6eg38431UFwdcjKPmjr1YAJTcJ0aPyQAgobGp5I5FELSrfYTaxht6wEWg%253D%253D">Puppet Fundamentals</a>, que se realizará en las instalaciones de <a class="reference external" href="http://olindata.com/">OlinData BV</a>. El curso está orientado a enseñar las mejores prácticas en cuanto a gestionar infraestructura utilizando las herramientas de automatización de Puppet.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/curso-puppet-fundamentals-bcn-2013.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">9 Nov 2013</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html">Primer día en la BcnDevCon&#39;13</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<img alt="BcnDevCon13" class="border align-right" src="/images/bcndevcon13.jpeg" style="width: 125px; height: 125px;" />
-<p>Ayer, día 8 de noviembre, ha tenido su inicio el <a class="reference external" href="http://bcndevcon.org">BcnDevCon13</a>. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en <em>cloud</em>, móvil, robótica y <em>open source</em>.</p>
-<p>En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-
-				</div>
-			</div>
-
-			<nav id="pagination" class="pagination" role="pagination">
-	<div class="inner">
-	
-    <a class="pagination-item pagination-next" href="https://www.entredevyops.es/page/25.html"><i class="fas fa-chevron-left"></i> <span>Anterior</span></a>
-	
-		<span class="pagination-info">Página 26 de 31</span>
-	
-    <a class="pagination-item pagination-prev" href="https://www.entredevyops.es/page/27.html"><span>Siguiente</span> <i class="fas fa-chevron-right"></i></a>
-	
-		<div class="clear"></div>
-	</div>
-</nav>
-
-
-		</main>
-
-	</div>
+        </div>
+    </article>
+</main>
 
                 <div id="body-class" style="display: none;"></div>
                 <footer id="footer">
