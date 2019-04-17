@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 17 Mar 2019 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Apr 2019 22:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 49: Agile con Jaume Jornet</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-49.html</link>
+      <pubDate>Wed, 17 Apr 2019 22:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-49.html</guid>
+      <description>&lt;p&gt;En este episodio, el número 49, hablamos de Agile con Jaume Jornet.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Píldora 11: F5 compra NGINX</title>
