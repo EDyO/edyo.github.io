@@ -56,7 +56,11 @@
       <pubDate>Wed, 02 Jul 2014 03:14:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/laboratorio-pruebas.html</guid>
-      <description>Vamos a empezar una serie de artículos que en los que vamos a realizar instalaciones y pruebas, para poder empezar necesitaremos crear nuestro laboratorio, en este caso vamos a utilizar un ordenador físico, un pequeño servidor al cual le vamos a instalar un OpenStack_ siguiendo el sistema de Packstack_ de Redhat que permite instalar todos los componentes de OpenStack en una única máquina prácticamente sin dolor.&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;Vamos a empezar una serie de artículos que en los que vamos a realizar instalaciones y pruebas, para poder empezar necesitaremos crear nuestro laboratorio, en este caso vamos a utilizar un ordenador físico, un pequeño servidor al cual le vamos a instalar un &lt;a class=&#34;reference external&#34; href=&#34;https://www.openstack.org&#34;&gt;OpenStack&lt;/a&gt; siguiendo el sistema de &lt;a class=&#34;reference external&#34; href=&#34;http://openstack.redhat.com&#34;&gt;Packstack&lt;/a&gt; de Redhat que permite instalar todos los componentes de OpenStack en una única máquina prácticamente sin dolor.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

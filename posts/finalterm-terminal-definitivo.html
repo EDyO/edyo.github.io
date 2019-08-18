@@ -25,7 +25,11 @@
         <meta name="twitter:creator" content="@entredevyops" />
         <meta name="twitter:title" content="Final Term: ¿El terminal «definitivo»?" />
         
-        <meta name="twitter:description" content="Normalmente, los administradores de sistemas UNIX/Linux suelen recurrir a la consola de comandos para la mayoría de la tareas de gestión, sobretodo cuando se realizan de forma remota por SSH, por poner un ejemplo. También son muchos los desarrolladores que dejan de lado las herramientas gráficas (normalmente IDE&#39;s) y utilizan la consola para determinadas tareas que en cierta manera pueden ser ejecutadas con mayor eficacia de esta forma, un ejemplo sería el uso de sistemas de control de versiones como pueden ser Git o Mercurial." />
+        <meta name="twitter:description" content="
+
+
+Normalmente, los administradores de sistemas UNIX/Linux suelen recurrir a la consola de comandos para la mayoría de la tareas de gestión, sobretodo cuando se realizan de forma remota por SSH, por poner un ejemplo. También son muchos los desarrolladores que dejan de lado las herramientas gráficas (normalmente IDE&#39;s) y utilizan la consola para determinadas tareas que en cierta manera pueden ser ejecutadas con mayor eficacia de esta forma, un ejemplo sería el uso de sistemas de control de versiones como pueden ser Git o Mercurial.
+" />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/finalterm-terminal-definitivo.html" />
     
 
@@ -108,7 +112,7 @@
         },
         "datePublished": "2013-11-19",
         "dateModified": "2013-11-19",
-        "wordCount": 633,
+        "wordCount": 581,
         "keywords": ["Herramientas","Linux","Free Software","Open Source"] 
     }
     </script>
@@ -213,7 +217,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">19 Nov 2013</span> <span class="reading-time">| <span class="estimated-reading-time">3 min.</span> (<span class="word-count">633</span> palabras)</span></span>
+                        <span class="post-date">19 Nov 2013</span> <span class="reading-time">| <span class="estimated-reading-time">3 min.</span> (<span class="word-count">581</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -222,48 +226,24 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  Normalmente, los administradores de sistemas UNIX/Linux suelen recurrir a la consola de comandos para la mayoría de la tareas de gestión, sobretodo cuando se realizan de forma remota por SSH, por poner un ejemplo. También son muchos los desarrolladores que dejan de lado las herramientas gráficas (normalmente IDE's) y utilizan la consola para determinadas tareas que en cierta manera pueden ser ejecutadas con mayor eficacia de esta forma, un ejemplo sería el uso de sistemas de control de versiones como pueden ser Git o Mercurial.
+                  <div class="document">
 
 
-
-
-Trabajar con la línea de comandos implica utilizar una aplicación de emulación de terminal, existen en la actualidad multitud de alternativas, en especial para Linux. En este artículo vamos a comentar una de ellas que hace poco ha salido a la palestra: `Final Term`_.
-
-Final Term es un proyecto relativamente joven, el primer *commit* data de hace unos 7 meses, y citando palabras del autor: *‒está bajo un fuerte desarrollo, todavía no es estable y le faltan características‒*. La aplicación tiene, entre otras, dependencias con la librería `GTK+`_, utilizada para la interfaz gráfica, también depende de la librerías `Clutter y Mx`_, que aprovechan el potencial de *OpenGL* para la creación de componentes de interfaz de usuario, algo bastante peculiar para este tipo de aplicación.
-
-Al igual que otras aplicaciones similares, disponemos de la opción de crear pestañas con terminales nuevos y poder dividir tanto horizontal como verticalmente para tener varios terminales en la misma vista de forma paralela.
-
-.. image:: /images/finalterm_1.png
-   :alt: Final Term
-   :align: center
-
-Lo que bajo mi punto de vista hace que esta aplicación sea realmente atractiva es la integración que tiene con los resultados que muestran en el terminal los diferentes comandos que utilizamos, en la imagen a continuación, podemos ver como en la salida del comando ``ps``, haciendo click en un ``PID`` cualquiera abriremos así un menú contextual que nos permite hacer distintas acciones sobre ese ``PID``, como mandar una señal a través del comando ``kill`` o bajarle la prioridad al proceso mediante el comando ``renice``:
-
-.. image:: /images/finalterm_2.png
-   :alt: Final Term
-   :align: center
-
-En este otro ejemplo, vemos como se descarga mediante el comando ``wget`` la versión 3.12 del Kernel de Linux, podemos ver como una barra de progreso es mostrada en la parte inferior indicando el estado de la descarga, de la misma forma que el propio comando ``wget`` lo muestra en la consola, también podemos hacer click sobre la propia URL del archivo para mostrar un menú contextual con las opciones de copiar o abrir en un navegador dicha URL:
-
-.. image:: /images/finalterm_3.png
-   :alt: Final Term
-   :align: center
-
-Otra característica curiosa es la posibilidad de contraer la salidas de los distintos comandos, haciendo uso del triangulo en la barra lateral izquierda, dejando solo a la vista lo que nos interese. El uso de *OpenGL* para el dibujado de la interfaz hace que el desplazamiento sea muy suave, también notable durante la entrada de texto, algo que normalmente es más brusco en los emuladores de terminal convencionales (por así decirlo).
-
-Para los más curiosos, comentar que en la página principal de la `web del proyecto`_ hay disponible un *screencast* donde se pueden ver en acción las características aquí explicadas junto con algunas más.
-
-Los interesados en seguir el desarrollo de esta herramienta pueden acudir a `GitHub`_ que es donde se aloja el proyecto (en estos momentos tiene más de 3000 seguidores), ir al `página del proyecto`_ en sí, o visitar el `blog`_ donde  el autor informa de las últimas novedades.
-
-Recalcar de nuevo que es un proyecto joven, el propio autor no recomienda todavía su uso en entornos productivos, así que toca esperar.
-
-.. _`Final Term`: http://finalterm.org
-.. _`GTK+`: http://www.gtk.org/
-.. _`Clutter y Mx`: http://www.clutter-project.org/
-.. _`web del proyecto`: http://finalterm.org
-.. _`GitHub`: https://github.com/p-e-w/finalterm
-.. _`página del proyecto`: http://finalterm.org
-.. _`blog`: http://blog.finalterm.org/
+<p>Normalmente, los administradores de sistemas UNIX/Linux suelen recurrir a la consola de comandos para la mayoría de la tareas de gestión, sobretodo cuando se realizan de forma remota por SSH, por poner un ejemplo. También son muchos los desarrolladores que dejan de lado las herramientas gráficas (normalmente IDE's) y utilizan la consola para determinadas tareas que en cierta manera pueden ser ejecutadas con mayor eficacia de esta forma, un ejemplo sería el uso de sistemas de control de versiones como pueden ser Git o Mercurial.</p>
+<p></p>
+<p>Trabajar con la línea de comandos implica utilizar una aplicación de emulación de terminal, existen en la actualidad multitud de alternativas, en especial para Linux. En este artículo vamos a comentar una de ellas que hace poco ha salido a la palestra: <a class="reference external" href="http://finalterm.org">Final Term</a>.</p>
+<p>Final Term es un proyecto relativamente joven, el primer <em>commit</em> data de hace unos 7 meses, y citando palabras del autor: <em>‒está bajo un fuerte desarrollo, todavía no es estable y le faltan características‒</em>. La aplicación tiene, entre otras, dependencias con la librería <a class="reference external" href="http://www.gtk.org/">GTK+</a>, utilizada para la interfaz gráfica, también depende de la librerías <a class="reference external" href="http://www.clutter-project.org/">Clutter y Mx</a>, que aprovechan el potencial de <em>OpenGL</em> para la creación de componentes de interfaz de usuario, algo bastante peculiar para este tipo de aplicación.</p>
+<p>Al igual que otras aplicaciones similares, disponemos de la opción de crear pestañas con terminales nuevos y poder dividir tanto horizontal como verticalmente para tener varios terminales en la misma vista de forma paralela.</p>
+<img alt="Final Term" class="align-center" src="/images/finalterm_1.png" />
+<p>Lo que bajo mi punto de vista hace que esta aplicación sea realmente atractiva es la integración que tiene con los resultados que muestran en el terminal los diferentes comandos que utilizamos, en la imagen a continuación, podemos ver como en la salida del comando <tt class="docutils literal">ps</tt>, haciendo click en un <tt class="docutils literal">PID</tt> cualquiera abriremos así un menú contextual que nos permite hacer distintas acciones sobre ese <tt class="docutils literal">PID</tt>, como mandar una señal a través del comando <tt class="docutils literal">kill</tt> o bajarle la prioridad al proceso mediante el comando <tt class="docutils literal">renice</tt>:</p>
+<img alt="Final Term" class="align-center" src="/images/finalterm_2.png" />
+<p>En este otro ejemplo, vemos como se descarga mediante el comando <tt class="docutils literal">wget</tt> la versión 3.12 del Kernel de Linux, podemos ver como una barra de progreso es mostrada en la parte inferior indicando el estado de la descarga, de la misma forma que el propio comando <tt class="docutils literal">wget</tt> lo muestra en la consola, también podemos hacer click sobre la propia URL del archivo para mostrar un menú contextual con las opciones de copiar o abrir en un navegador dicha URL:</p>
+<img alt="Final Term" class="align-center" src="/images/finalterm_3.png" />
+<p>Otra característica curiosa es la posibilidad de contraer la salidas de los distintos comandos, haciendo uso del triangulo en la barra lateral izquierda, dejando solo a la vista lo que nos interese. El uso de <em>OpenGL</em> para el dibujado de la interfaz hace que el desplazamiento sea muy suave, también notable durante la entrada de texto, algo que normalmente es más brusco en los emuladores de terminal convencionales (por así decirlo).</p>
+<p>Para los más curiosos, comentar que en la página principal de la <a class="reference external" href="http://finalterm.org">web del proyecto</a> hay disponible un <em>screencast</em> donde se pueden ver en acción las características aquí explicadas junto con algunas más.</p>
+<p>Los interesados en seguir el desarrollo de esta herramienta pueden acudir a <a class="reference external" href="https://github.com/p-e-w/finalterm">GitHub</a> que es donde se aloja el proyecto (en estos momentos tiene más de 3000 seguidores), ir al <a class="reference external" href="http://finalterm.org">página del proyecto</a> en sí, o visitar el <a class="reference external" href="http://blog.finalterm.org/">blog</a> donde  el autor informa de las últimas novedades.</p>
+<p>Recalcar de nuevo que es un proyecto joven, el propio autor no recomienda todavía su uso en entornos productivos, así que toca esperar.</p>
+</div>
               </section>
 
               <footer class="post-footer">
@@ -286,7 +266,7 @@ Recalcar de nuevo que es un proyecto joven, el propio autor no recomienda todav�
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2ffinalterm-terminal-definitivo.html&title=Final%20Term%3a%20%c2%bfEl%20terminal%20%c2%abdefinitivo%c2%bb%3f&summary=Normalmente%2c%20los%20administradores%20de%20sistemas%20UNIX%2fLinux%20suelen%20recurrir%20a%20la%20consola%20de%20comandos%20para%20la%20mayor%c3%ada%20de%20la%20tareas%20de%20gesti%c3%b3n%2c%20sobretodo%20cuando%20se%20realizan%20de%20forma%20remota%20por%20SSH%2c%20por%20poner%20un%20ejemplo.%20Tambi%c3%a9n%20son%20muchos%20los%20desarrolladores%20que%20dejan%20de%20lado%20las%20herramientas%20gr%c3%a1ficas%20%28normalmente%20IDE%27s%29%20y%20utilizan%20la%20consola%20para%20determinadas%20tareas%20que%20en%20cierta%20manera%20pueden%20ser%20ejecutadas%20con%20mayor%20eficacia%20de%20esta%20forma%2c%20un%20ejemplo%20ser%c3%ada%20el%20uso%20de%20sistemas%20de%20control%20de%20versiones%20como%20pueden%20ser%20Git%20o%20Mercurial."
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2ffinalterm-terminal-definitivo.html&title=Final%20Term%3a%20%c2%bfEl%20terminal%20%c2%abdefinitivo%c2%bb%3f&summary=Normalmente%2c%20los%20administradores%20de%20sistemas%20UNIX%2fLinux%20suelen%20recurrir%20a%20la%20consola%20de%20comandos%20para%20la%20mayor%c3%ada%20de%20la%20tareas%20de%20gesti%c3%b3n%2c%20sobretodo%20cuando%20se%20realizan%20de%20forma%20remota%20por%20SSH%2c%20por%20poner%20un%20ejemplo.%20Tambi%c3%a9n%20son%20muchos%20los%20desarrolladores%20que%20dejan%20de%20lado%20las%20herramientas%20gr%c3%a1ficas%20%28normalmente%20IDE%27s%29%20y%20utilizan%20la%20consola%20para%20determinadas%20tareas%20que%20en%20cierta%20manera%20pueden%20ser%20ejecutadas%20con%20mayor%20eficacia%20de%20esta%20forma%2c%20un%20ejemplo%20ser%c3%ada%20el%20uso%20de%20sistemas%20de%20control%20de%20versiones%20como%20pueden%20ser%20Git%20o%20Mercurial.%0a%0a"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

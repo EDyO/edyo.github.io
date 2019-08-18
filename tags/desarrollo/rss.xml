@@ -32,14 +32,15 @@
       <pubDate>Sat, 26 Sep 2015 15:40:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/vuelve-dotgo-2015.html</guid>
-      <description>.. image:: /images/dotGo-logo.png
-   :alt: dotGo
-   :align: left
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Muchos ya conoceréis el lenguaje Go_, incluso algunos conocerán la dotGo_, la primera conferencia europea sobre Golang_.
-Este año `@dotConferences`_ celebra la segunda edición de este evento, con una expectación de asistencia aún mayor.
-Como ya es costumbre de dotConferences_, la dotGo_ se celebrará en un teatro parisino, marco digno del evento.
-El evento, además, seguirá las costumbres de los eventos de dotConferences_, es decir,&lt;/div&gt;</description>
+
+&lt;img alt=&#34;dotGo&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/dotGo-logo.png&#34; /&gt;
+&lt;p&gt;Muchos ya conoceréis el lenguaje &lt;a class=&#34;reference external&#34; href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;, incluso algunos conocerán la &lt;a class=&#34;reference external&#34; href=&#34;http://dotgo.eu/&#34;&gt;dotGo&lt;/a&gt;, la primera conferencia europea sobre &lt;a class=&#34;reference external&#34; href=&#34;http://golang.org/&#34;&gt;Golang&lt;/a&gt;.
+Este año &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/intent/user?original_referer=http%3A%2F%2Fwww.dotconferences.eu%2F&amp;amp;region=following&amp;amp;screen_name=dotConferences&amp;amp;tw_p=followbutton&amp;amp;variant=2.0&#34;&gt;&amp;#64;dotConferences&lt;/a&gt; celebra la segunda edición de este evento, con una expectación de asistencia aún mayor.
+Como ya es costumbre de &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu/&#34;&gt;dotConferences&lt;/a&gt;, la &lt;a class=&#34;reference external&#34; href=&#34;http://dotgo.eu/&#34;&gt;dotGo&lt;/a&gt; se celebrará en un teatro parisino, marco digno del evento.
+El evento, además, seguirá las costumbres de los eventos de &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu/&#34;&gt;dotConferences&lt;/a&gt;, es decir,&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -48,15 +49,12 @@ El evento, además, seguirá las costumbres de los eventos de dotConferences_, e
       <pubDate>Sat, 26 Jul 2014 02:40:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/anuncio-dotgo-2014.html</guid>
-      <description>.. image:: /images/dotGo-logo.png
-   :alt: dotGo
-   :align: left
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-.. |br| raw:: html
 
-    &lt;br /&gt;
-
-Basado en la filosofía de Python y una sintaxis derivada de C, el lenguaje Go ya conocido por muchos, es una herramienta que se tercia bastante útil en este mundo de escala cada vez mayor. Siendo lo que más destacan sus adeptos su facilidad en la implementación de concurrencia y su portabilidad, cada vez más se va acercando al paisaje de lenguajes mayoritarios. Tanto es así que la gente de dotConferences_ ha decidido este año organizar una de sus conferencias sobre Go... y, como son así de majos, os pasamos un descuento del 20%. `@dotConferences`_, gracias!&lt;/div&gt;</description>
+&lt;img alt=&#34;dotGo&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/dotGo-logo.png&#34; /&gt;
+&lt;p&gt;Basado en la filosofía de Python y una sintaxis derivada de C, el lenguaje Go ya conocido por muchos, es una herramienta que se tercia bastante útil en este mundo de escala cada vez mayor. Siendo lo que más destacan sus adeptos su facilidad en la implementación de concurrencia y su portabilidad, cada vez más se va acercando al paisaje de lenguajes mayoritarios. Tanto es así que la gente de &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu/&#34;&gt;dotConferences&lt;/a&gt; ha decidido este año organizar una de sus conferencias sobre Go... y, como son así de majos, os pasamos un descuento del 20%. &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/intent/user?original_referer=http%3A%2F%2Fwww.dotconferences.eu%2F&amp;amp;region=following&amp;amp;screen_name=dotConferences&amp;amp;tw_p=followbutton&amp;amp;variant=2.0&#34;&gt;&amp;#64;dotConferences&lt;/a&gt;, gracias!&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -65,11 +63,12 @@ Basado en la filosofía de Python y una sintaxis derivada de C, el lenguaje Go y
       <pubDate>Thu, 10 Apr 2014 01:55:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-4.html</guid>
-      <description>.. image:: /images/visible-ops.jpg
-   :alt: Visible Ops Handbook
-   :align: left
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Aunque con retraso, aquí está el cuarto punto que es necesario conocer, según `Gene Kim`_, sobre DevOps. En esta ocasión, compara DevOps con lo que describió en el libro que coescribió, titulado `Visible Ops Handbook`_. Como en las anteriores ocasiones, para comentar podéis utilizar el *hashtag* `#11cosasdevops`_.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Visible Ops Handbook&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/visible-ops.jpg&#34; /&gt;
+&lt;p&gt;Aunque con retraso, aquí está el cuarto punto que es necesario conocer, según &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt;, sobre DevOps. En esta ocasión, compara DevOps con lo que describió en el libro que coescribió, titulado &lt;a class=&#34;reference external&#34; href=&#34;http://www.amazon.com/The-Visible-Ops-Handbook-Implementing/dp/0975568612&#34;&gt;Visible Ops Handbook&lt;/a&gt;. Como en las anteriores ocasiones, para comentar podéis utilizar el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -78,12 +77,13 @@ Aunque con retraso, aquí está el cuarto punto que es necesario conocer, según
       <pubDate>Tue, 01 Apr 2014 09:35:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-3.html</guid>
-      <description>.. image:: /images/bridge-building.png
-   :alt: Change vs Trouble
-   :align: left
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-El tercer punto sobre DevOps que propone `Gene Kim`_ es la relación con ITIL_ y ITSM_, dos conjuntos de prácticas y disciplinas para la gestión de operaciones IT, muy extendidas, especialmente en las grandes empresas.
-Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitter, con el *hashtag* `#11cosasdevops`_.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Change vs Trouble&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/bridge-building.png&#34; /&gt;
+&lt;p&gt;El tercer punto sobre DevOps que propone &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; es la relación con &lt;a class=&#34;reference external&#34; href=&#34;http://es.wikipedia.org/wiki/Information_Technology_Infrastructure_Library&#34;&gt;ITIL&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://es.wikipedia.org/wiki/Gesti%C3%B3n_de_servicios_de_tecnolog%C3%ADas_de_la_informaci%C3%B3n&#34;&gt;ITSM&lt;/a&gt;, dos conjuntos de prácticas y disciplinas para la gestión de operaciones IT, muy extendidas, especialmente en las grandes empresas.
+Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitter, con el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -92,12 +92,13 @@ Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitte
       <pubDate>Tue, 25 Mar 2014 09:35:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-2.html</guid>
-      <description>.. image:: /images/change-trouble.jpg
-   :alt: Change vs Trouble
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-Ya está aquí la segunda entrega de las 11 cosas que necesitas saber sobre DevOps, por `Gene Kim`_. En esta ocasión, se comenta sobre la relación con las metodologías ágiles, y sus efectos en los ciclos de desarrollo de aplicaciones. En este apartado, explica cómo la aplicación de las metodologías ágiles ayudan a la aparición de gran parte del movimiento DevOps, explicando cómo se relacionan y qué aportan al negocio.
-Como ya se indicó la semana pasada, creemos que es una buena excusa para iniciar un debate en Twitter con el *hashtag* `#11cosasdevops`_.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Change vs Trouble&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/change-trouble.jpg&#34; /&gt;
+&lt;p&gt;Ya está aquí la segunda entrega de las 11 cosas que necesitas saber sobre DevOps, por &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt;. En esta ocasión, se comenta sobre la relación con las metodologías ágiles, y sus efectos en los ciclos de desarrollo de aplicaciones. En este apartado, explica cómo la aplicación de las metodologías ágiles ayudan a la aparición de gran parte del movimiento DevOps, explicando cómo se relacionan y qué aportan al negocio.
+Como ya se indicó la semana pasada, creemos que es una buena excusa para iniciar un debate en Twitter con el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -106,13 +107,12 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
       <pubDate>Sun, 16 Mar 2014 13:45:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/dotscale.html</guid>
-      <description>.. image:: /images/dotscale.png
-   :width: 300px
-   :height: 115px
-   :alt: Dot Scale
-   :align: right
+      <description>&lt;div class=&#34;document&#34;&gt;
 
-El 19 de mayo se celebrarán en el Théâtre de Paris las conferencias dotScale_, que forman parte de las dotConferences_. Dentro del mismo evento, el día 17, se impartirán unos talleres, que se concretarán entre seis y ocho semanas antes de la fecha. Las dotConferences_ son charlas técnicas impartidas por desarrolladores para desarrolladores sobre diferentes lenguajes. Las dotScale_, no obstante, se centran en la escalabilidad de aplicaciones, sin centrarse en un lenguaje específico. Además, aunque la lista no está completa, ya se ha confirmado un interesante grupo de ponentes.&lt;/div&gt;</description>
+
+&lt;img alt=&#34;Dot Scale&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/dotscale.png&#34; style=&#34;width: 300px; height: 115px;&#34; /&gt;
+&lt;p&gt;El 19 de mayo se celebrarán en el Théâtre de Paris las conferencias &lt;a class=&#34;reference external&#34; href=&#34;http://dotscale.eu&#34;&gt;dotScale&lt;/a&gt;, que forman parte de las &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu&#34;&gt;dotConferences&lt;/a&gt;. Dentro del mismo evento, el día 17, se impartirán unos talleres, que se concretarán entre seis y ocho semanas antes de la fecha. Las &lt;a class=&#34;reference external&#34; href=&#34;http://dotconferences.eu&#34;&gt;dotConferences&lt;/a&gt; son charlas técnicas impartidas por desarrolladores para desarrolladores sobre diferentes lenguajes. Las &lt;a class=&#34;reference external&#34; href=&#34;http://dotscale.eu&#34;&gt;dotScale&lt;/a&gt;, no obstante, se centran en la escalabilidad de aplicaciones, sin centrarse en un lenguaje específico. Además, aunque la lista no está completa, ya se ha confirmado un interesante grupo de ponentes.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -121,7 +121,11 @@ El 19 de mayo se celebrarán en el Théâtre de Paris las conferencias dotScale_
       <pubDate>Thu, 21 Nov 2013 22:25:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/editorconfig-manten-codigo-uniforme.html</guid>
-      <description>`EditorConfig`_ es un proyecto que parte de una idea muy simple, pero que resulta ser de gran utilidad. Básicamente se trata de un fichero con una serie de reglas que definen las normas de estilo que deben ser aplicadas al código. Este fichero es interpretado en el editor con un *plugin* que se encargará de ajustar la configuración para el código en cuestión.&lt;/div&gt;</description>
+      <description>&lt;div class=&#34;document&#34;&gt;
+
+
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://editorconfig.org&#34;&gt;EditorConfig&lt;/a&gt; es un proyecto que parte de una idea muy simple, pero que resulta ser de gran utilidad. Básicamente se trata de un fichero con una serie de reglas que definen las normas de estilo que deben ser aplicadas al código. Este fichero es interpretado en el editor con un &lt;em&gt;plugin&lt;/em&gt; que se encargará de ajustar la configuración para el código en cuestión.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>
