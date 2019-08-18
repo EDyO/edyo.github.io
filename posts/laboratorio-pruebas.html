@@ -23,11 +23,7 @@
         <meta name="twitter:creator" content="@entredevyops" />
         <meta name="twitter:title" content="Laboratorio de pruebas" />
         
-        <meta name="twitter:description" content="
-
-
-Vamos a empezar una serie de artículos que en los que vamos a realizar instalaciones y pruebas, para poder empezar necesitaremos crear nuestro laboratorio, en este caso vamos a utilizar un ordenador físico, un pequeño servidor al cual le vamos a instalar un OpenStack siguiendo el sistema de Packstack de Redhat que permite instalar todos los componentes de OpenStack en una única máquina prácticamente sin dolor.
-" />
+        <meta name="twitter:description" content="Vamos a empezar una serie de artículos que en los que vamos a realizar instalaciones y pruebas, para poder empezar necesitaremos crear nuestro laboratorio, en este caso vamos a utilizar un ordenador físico, un pequeño servidor al cual le vamos a instalar un OpenStack_ siguiendo el sistema de Packstack_ de Redhat que permite instalar todos los componentes de OpenStack en una única máquina prácticamente sin dolor." />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/laboratorio-pruebas.html" />
     
 
@@ -110,7 +106,7 @@ Vamos a empezar una serie de artículos que en los que vamos a realizar instalac
         },
         "datePublished": "2014-07-02",
         "dateModified": "2014-07-02",
-        "wordCount": 575,
+        "wordCount": 632,
         "keywords": ["OpenStack","Laboratorio"] 
     }
     </script>
@@ -215,7 +211,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">2 Jul 2014</span> <span class="reading-time">| <span class="estimated-reading-time">3 min.</span> (<span class="word-count">575</span> palabras)</span></span>
+                        <span class="post-date">2 Jul 2014</span> <span class="reading-time">| <span class="estimated-reading-time">3 min.</span> (<span class="word-count">632</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -224,91 +220,125 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <div class="document">
+                  Vamos a empezar una serie de artículos que en los que vamos a realizar instalaciones y pruebas, para poder empezar necesitaremos crear nuestro laboratorio, en este caso vamos a utilizar un ordenador físico, un pequeño servidor al cual le vamos a instalar un OpenStack_ siguiendo el sistema de Packstack_ de Redhat que permite instalar todos los componentes de OpenStack en una única máquina prácticamente sin dolor. 
 
 
-<p>Vamos a empezar una serie de artículos que en los que vamos a realizar instalaciones y pruebas, para poder empezar necesitaremos crear nuestro laboratorio, en este caso vamos a utilizar un ordenador físico, un pequeño servidor al cual le vamos a instalar un <a class="reference external" href="https://www.openstack.org">OpenStack</a> siguiendo el sistema de <a class="reference external" href="http://openstack.redhat.com">Packstack</a> de Redhat que permite instalar todos los componentes de OpenStack en una única máquina prácticamente sin dolor.</p>
-<p></p>
-<p>Todo lo iniciamos con una instalación fresca de una <a class="reference external" href="http://www.centos.org">CentOS</a> 6.5 a la que le actualizamos los paquetes:</p>
-<pre class="code bash literal-block">
-yum update glibc* python* yum* rpm*
-yum update -y
-</pre>
-<p>Y reiniciamos la maquina  para tener el sistema fresco con el último kernel.</p>
-<pre class="code bash literal-block">
-reboot
-</pre>
-<p>Una vez reiniciado instalamos el repositorio y los paquetes de dependencias de OpenStack. Es muy importante realizar la última actualización ya que las dependencias pueden haber variado y necesitar otros paquetes:</p>
-<pre class="code bash literal-block">
-yum install -y http://rdo.fedorapeople.org/rdo-release.rpm
-yum install -y openstack-packstack
-yum update -y
-</pre>
-<p>Una vez actualizado todo, realizamos la instalación real:</p>
-<pre class="code bash literal-block">
-packstack --allinone --provision-demo<span class="operator">=</span>n --provision-all-in-one-ovs-bridge<span class="operator">=</span>n --os-heat-install<span class="operator">=</span>y --os-heat-cfn-install<span class="operator">=</span>y --os-neutron-install<span class="operator">=</span>y
-</pre>
-<p>Los parámetros que le pasamos nos aseguran utilizar el último servicio de redes (y no el obsoleto, seguramente esta opción no es necesaria, pero por si acaso). Y también la instalación del sistema <a class="reference external" href="http://openstack.redhat.com/DeployHeatOnHavana">HEAT</a>, que permite la automatización mediante el sistema HOT de plantillas. Una de las opciones más importantes es el parámetro <em>--provision-all-in-one-ovs-bridge=n</em> que le está indicando a la instalación que ya hay una <a class="reference external" href="http://openstack.redhat.com/Neutron_with_existing_external_network">red externa</a>.</p>
-<p>Y después de un largo rato tenemos el siguiente resultado:</p>
-<pre class="code bash literal-block">
-**** Installation completed successfully ******
 
-Additional information:
- * A new answerfile was created in: /root/packstack-answers-20140528-194405.txt
- * Time synchronization installation was skipped. Please note that unsynchronized <span class="name builtin">time </span>on server instances might be problem <span class="keyword">for </span>some OpenStack components.
- * Did not create a cinder volume group, one already existed
- * File /root/keystonerc_admin has been created on OpenStack client host 192.168.0.120. To use the <span class="name builtin">command </span>line tools you need to <span class="name builtin">source </span>the file.
- * To access the OpenStack Dashboard browse to http://192.168.0.120/dashboard .
-Please, find your login credentials stored in the keystonerc_admin in your home directory.
- * To use Nagios, browse to http://192.168.0.120/nagios username : nagiosadmin, password : fbf**********608
- * The installation log file is available at: /var/tmp/packstack/20140528-194405-KZHbZQ/Openstack-setup.log
- * The generated manifests are available at: /var/tmp/packstack/20140528-194405-KZHbZQ/manifests
-</pre>
-<p>de forma que tenemos las credenciales en el fichero /root/keystonerc_admin, para poder utilizar esta credenciales hay que cargarlas:</p>
-<pre class="code bash literal-block">
-<span class="name builtin">source</span> /root/keystonerc_admin
-</pre>
-<p>en mi caso al tener una red externa se ha de realizar unos cambios en los ficheros, editar o crear el fichero <em>/etc/sysconfig/network-scripts/ifcfg-br-ex</em> con el siguiente contenido adaptándolo a cada una de nuestras configuraciones:</p>
-<pre class="code bash literal-block">
-<span class="name variable">DEVICE</span><span class="operator">=</span>br-ex
-<span class="name variable">DEVICETYPE</span><span class="operator">=</span>ovs
-<span class="name variable">TYPE</span><span class="operator">=</span>OVSBridge
-<span class="name variable">BOOTPROTO</span><span class="operator">=</span>static
-<span class="name variable">IPADDR</span><span class="operator">=</span>192.168.122.212 <span class="comment"># La IP de la máquina
-</span><span class="name variable">NETMASK</span><span class="operator">=</span>255.255.255.0  <span class="comment"># La red
-</span><span class="name variable">GATEWAY</span><span class="operator">=</span>192.168.122.1  <span class="comment"># La puerta de enlace
-</span><span class="name variable">DNS1</span><span class="operator">=</span>192.168.122.1     <span class="comment"># El DNS de la red
-</span><span class="name variable">ONBOOT</span><span class="operator">=</span>yes
-</pre>
-<p>y cambiar el fichero <em>/etc/sysconfig/network-scripts/ifcfg-eth0</em> por:</p>
-<pre class="code bash literal-block">
-<span class="name variable">DEVICE</span><span class="operator">=</span>eth0
-<span class="name variable">HWADDR</span><span class="operator">=</span>42:42:42:42:42:EE  <span class="comment"># aquí va la MAC de vuestra tarjeta
-</span><span class="name variable">TYPE</span><span class="operator">=</span>OVSPort
-<span class="name variable">DEVICETYPE</span><span class="operator">=</span>ovs
-<span class="name variable">OVS_BRIDGE</span><span class="operator">=</span>br-ex
-<span class="name variable">ONBOOT</span><span class="operator">=</span>yes
-</pre>
-<p>Muy importante eliminar la linea <em>BOOTPROTO</em>. Y en el fichero <em>/etc/neutron/plugin.ini</em> se ha de modificar o añadir estas lineas, en el apartado donde el esta el ejemplo de estas directrices:</p>
-<pre class="code bash literal-block">
-<span class="name variable">network_vlan_ranges</span> <span class="operator">=</span> physnet1
-<span class="name variable">bridge_mappings</span> <span class="operator">=</span> physnet1:br-ex
-</pre>
-<p>Y una vez hecho se reincia el servicio de redes</p>
-<pre class="code bash literal-block">
-service network restart
-</pre>
-<p>Para evitar problemas también le cambio las directivas de <em>selinux</em> por permisive en el fichero <em>/etc/selinux/config</em>:</p>
-<pre class="code bash literal-block">
-<span class="name variable">SELINUX</span><span class="operator">=</span>permissive
-</pre>
-<p>Y instalar unas utilidades que nos van a ir bien y después reiniciaremos la máquina:</p>
-<pre class="code bash literal-block">
-yum install mlocate wget acpid git
-reboot
-</pre>
-<p>De esta forma ya tenemos un servidor de pruebas OpenStack. En siguientes artículos iremos desgranando OpenStack realizando pruebas con él.</p>
-</div>
+
+Todo lo iniciamos con una instalación fresca de una CentOS_ 6.5 a la que le actualizamos los paquetes:
+
+.. code-block:: bash
+
+	yum update glibc* python* yum* rpm*
+	yum update -y
+	
+Y reiniciamos la maquina  para tener el sistema fresco con el último kernel.
+
+.. code-block:: bash
+	
+	reboot
+
+Una vez reiniciado instalamos el repositorio y los paquetes de dependencias de OpenStack. Es muy importante realizar la última actualización ya que las dependencias pueden haber variado y necesitar otros paquetes:
+
+.. code-block:: bash
+
+	yum install -y http://rdo.fedorapeople.org/rdo-release.rpm
+	yum install -y openstack-packstack
+	yum update -y 
+
+Una vez actualizado todo, realizamos la instalación real:
+
+.. code-block:: bash
+
+	packstack --allinone --provision-demo=n --provision-all-in-one-ovs-bridge=n --os-heat-install=y --os-heat-cfn-install=y --os-neutron-install=y
+
+
+Los parámetros que le pasamos nos aseguran utilizar el último servicio de redes (y no el obsoleto, seguramente esta opción no es necesaria, pero por si acaso). Y también la instalación del sistema HEAT_, que permite la automatización mediante el sistema HOT de plantillas. Una de las opciones más importantes es el parámetro *--provision-all-in-one-ovs-bridge=n* que le está indicando a la instalación que ya hay una `red externa`_. 
+
+Y después de un largo rato tenemos el siguiente resultado:
+
+.. code-block:: bash
+
+	**** Installation completed successfully ******
+	
+	Additional information:
+	 * A new answerfile was created in: /root/packstack-answers-20140528-194405.txt
+	 * Time synchronization installation was skipped. Please note that unsynchronized time on server instances might be problem for some OpenStack components.
+	 * Did not create a cinder volume group, one already existed
+	 * File /root/keystonerc_admin has been created on OpenStack client host 192.168.0.120. To use the command line tools you need to source the file.
+	 * To access the OpenStack Dashboard browse to http://192.168.0.120/dashboard .
+	Please, find your login credentials stored in the keystonerc_admin in your home directory.
+	 * To use Nagios, browse to http://192.168.0.120/nagios username : nagiosadmin, password : fbf**********608
+	 * The installation log file is available at: /var/tmp/packstack/20140528-194405-KZHbZQ/Openstack-setup.log
+	 * The generated manifests are available at: /var/tmp/packstack/20140528-194405-KZHbZQ/manifests
+ 
+ 
+de forma que tenemos las credenciales en el fichero /root/keystonerc_admin, para poder utilizar esta credenciales hay que cargarlas:
+
+.. code-block:: bash
+
+	source /root/keystonerc_admin
+
+en mi caso al tener una red externa se ha de realizar unos cambios en los ficheros, editar o crear el fichero */etc/sysconfig/network-scripts/ifcfg-br-ex* con el siguiente contenido adaptándolo a cada una de nuestras configuraciones:
+
+.. code-block:: bash
+
+	DEVICE=br-ex
+	DEVICETYPE=ovs
+	TYPE=OVSBridge
+	BOOTPROTO=static
+	IPADDR=192.168.122.212 # La IP de la máquina
+	NETMASK=255.255.255.0  # La red
+	GATEWAY=192.168.122.1  # La puerta de enlace
+	DNS1=192.168.122.1     # El DNS de la red
+	ONBOOT=yes
+
+y cambiar el fichero */etc/sysconfig/network-scripts/ifcfg-eth0* por: 
+
+.. code-block:: bash
+
+	DEVICE=eth0
+	HWADDR=42:42:42:42:42:EE  # aquí va la MAC de vuestra tarjeta
+	TYPE=OVSPort
+	DEVICETYPE=ovs
+	OVS_BRIDGE=br-ex
+	ONBOOT=yes
+
+Muy importante eliminar la linea *BOOTPROTO*. Y en el fichero */etc/neutron/plugin.ini* se ha de modificar o añadir estas lineas, en el apartado donde el esta el ejemplo de estas directrices:
+
+.. code-block:: bash
+
+	network_vlan_ranges = physnet1
+	bridge_mappings = physnet1:br-ex
+
+Y una vez hecho se reincia el servicio de redes
+
+.. code-block:: bash
+
+	service network restart
+
+Para evitar problemas también le cambio las directivas de *selinux* por permisive en el fichero */etc/selinux/config*:
+
+.. code-block:: bash
+
+	SELINUX=permissive 
+
+Y instalar unas utilidades que nos van a ir bien y después reiniciaremos la máquina:
+
+.. code-block:: bash
+
+	yum install mlocate wget acpid git
+	reboot
+
+
+
+De esta forma ya tenemos un servidor de pruebas OpenStack. En siguientes artículos iremos desgranando OpenStack realizando pruebas con él. 
+
+.. _OpenStack : https://www.openstack.org
+.. _Packstack : http://openstack.redhat.com
+.. _CentOS : http://www.centos.org
+.. _`red externa` : http://openstack.redhat.com/Neutron_with_existing_external_network
+.. _HEAT : http://openstack.redhat.com/DeployHeatOnHavana
               </section>
 
               <footer class="post-footer">
@@ -327,7 +357,7 @@ reboot
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2flaboratorio-pruebas.html&title=Laboratorio%20de%20pruebas&summary=Vamos%20a%20empezar%20una%20serie%20de%20art%c3%adculos%20que%20en%20los%20que%20vamos%20a%20realizar%20instalaciones%20y%20pruebas%2c%20para%20poder%20empezar%20necesitaremos%20crear%20nuestro%20laboratorio%2c%20en%20este%20caso%20vamos%20a%20utilizar%20un%20ordenador%20f%c3%adsico%2c%20un%20peque%c3%b1o%20servidor%20al%20cual%20le%20vamos%20a%20instalar%20un%20OpenStack%20siguiendo%20el%20sistema%20de%20Packstack%20de%20Redhat%20que%20permite%20instalar%20todos%20los%20componentes%20de%20OpenStack%20en%20una%20%c3%banica%20m%c3%a1quina%20pr%c3%a1cticamente%20sin%20dolor.%0a%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2flaboratorio-pruebas.html&title=Laboratorio%20de%20pruebas&summary=Vamos%20a%20empezar%20una%20serie%20de%20art%c3%adculos%20que%20en%20los%20que%20vamos%20a%20realizar%20instalaciones%20y%20pruebas%2c%20para%20poder%20empezar%20necesitaremos%20crear%20nuestro%20laboratorio%2c%20en%20este%20caso%20vamos%20a%20utilizar%20un%20ordenador%20f%c3%adsico%2c%20un%20peque%c3%b1o%20servidor%20al%20cual%20le%20vamos%20a%20instalar%20un%20OpenStack_%20siguiendo%20el%20sistema%20de%20Packstack_%20de%20Redhat%20que%20permite%20instalar%20todos%20los%20componentes%20de%20OpenStack%20en%20una%20%c3%banica%20m%c3%a1quina%20pr%c3%a1cticamente%20sin%20dolor."
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

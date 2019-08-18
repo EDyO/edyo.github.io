@@ -29,12 +29,12 @@
         <meta name="twitter:creator" content="@entredevyops" />
         <meta name="twitter:title" content="11 cosas sobre DevOps (11): Mi tercer patrón DevOps favorito" />
         
-        <meta name="twitter:description" content="
+        <meta name="twitter:description" content=".. image:: /images/estandarizacion.jpg
+   :alt: Bucle de retroalimentación
+   :align: left
+   :class: border
 
-
-
-Para finalizar esta serie de Gene Kim, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio.
-" />
+Para finalizar esta serie de `Gene Kim`_, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio." />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-11.html" />
     
 
@@ -117,7 +117,7 @@ Para finalizar esta serie de Gene Kim, presentamos la traducción de su tercer p
         },
         "datePublished": "2014-09-08",
         "dateModified": "2014-09-08",
-        "wordCount": 356,
+        "wordCount": 372,
         "keywords": ["Agile","DevOps","Empresa","Entrega Contínua","Integración Contínua","Pruebas","Seguridad","QA"] 
     }
     </script>
@@ -222,7 +222,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">8 Sep 2014</span> <span class="reading-time">| <span class="estimated-reading-time">2 min.</span> (<span class="word-count">356</span> palabras)</span></span>
+                        <span class="post-date">8 Sep 2014</span> <span class="reading-time">| <span class="estimated-reading-time">2 min.</span> (<span class="word-count">372</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -231,21 +231,30 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <div class="document">
+                  .. image:: /images/estandarizacion.jpg
+   :alt: Bucle de retroalimentación
+   :align: left
+   :class: border
+
+Para finalizar esta serie de `Gene Kim`_, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio.
 
 
-<img alt="Bucle de retroalimentación" class="border align-left" src="/images/estandarizacion.jpg" />
-<p>Para finalizar esta serie de <a class="reference external" href="http://itrevolution.com/authors/gene-kim">Gene Kim</a>, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio.</p>
-<p></p>
-<div class="section" id="mi-tercer-patron-devops-favorito">
-<h2>11. Mi tercer patrón DevOps favorito</h2>
-<p>Otro problema que aparece a menudo es la falta de estandarización en el flujo de valor entre Desarrollo y Operaciones. Ejemplos de esto serían los despliegues realizados de forma distinta cada vez, o los entornos que reúnen diferentes propiedades. Cuando esto ocurre, no hay ninguna maestría en las configuraciones o procedimientos de la organización.</p>
-<p>En este patrón, definimos procedimientos de despliegue reutilizables que puedan ser utilizados en todos los proyectos. Hay una solución muy elegante en las metodologías Ágiles para esto, en la que las actividades de despliegue se convierten en una historia de usuario. Por ejemplo, podríamos construir una historia de usuario reutilizable para Operaciones llamada 'Desplegar en un entorno de alta disponibilidad', la cual definiría los pasos exactos para construir el entorno, así como cuánto tiempo lleva, qué recursos se necesitan, etc.</p>
-<p>Esta información puede, entonces, ser usada por los gestores de proyecto para integrar detalladamente las actividades de despliegue en el plan de proyecto. Por ejemplo, podríamos tener mucha confianza en el horario de despliegue si supiéramos que la historia 'Despliegue en un entorno de alta disponibilidad' ha sido ejecutada en quince ocasiones en el último año, llevando una media de tres días, con un margen de error de un día arriba o abajo.</p>
-<p>Aún más, también ganamos confianza en que las actividades de despliegue están siendo debidamente integradas en cada proyecto de <em>software</em>. Reconociendo que ciertos proyectos de <em>software</em> requieren entornos únicos que Operaciones no soporta oficialmente, podemos permitir excepciones en las que esos entornos estén permitidos en producción, pero que sean soportados por alguien fuera de Operaciones, que consideraríamos entornos no soportados.</p>
-<p>Haciendo esto, tenemos los beneficios de la estandarización de los entornos, es decir, variedad reducida, menores diferencias, soporte y mantenimiento confiable; mientras que permitimos los casos especiales que a veces el negocio requiere.</p>
-</div>
-</div>
+
+
+11. Mi tercer patrón DevOps favorito
+------------------------------------
+
+Otro problema que aparece a menudo es la falta de estandarización en el flujo de valor entre Desarrollo y Operaciones. Ejemplos de esto serían los despliegues realizados de forma distinta cada vez, o los entornos que reúnen diferentes propiedades. Cuando esto ocurre, no hay ninguna maestría en las configuraciones o procedimientos de la organización.
+
+En este patrón, definimos procedimientos de despliegue reutilizables que puedan ser utilizados en todos los proyectos. Hay una solución muy elegante en las metodologías Ágiles para esto, en la que las actividades de despliegue se convierten en una historia de usuario. Por ejemplo, podríamos construir una historia de usuario reutilizable para Operaciones llamada 'Desplegar en un entorno de alta disponibilidad', la cual definiría los pasos exactos para construir el entorno, así como cuánto tiempo lleva, qué recursos se necesitan, etc.
+
+Esta información puede, entonces, ser usada por los gestores de proyecto para integrar detalladamente las actividades de despliegue en el plan de proyecto. Por ejemplo, podríamos tener mucha confianza en el horario de despliegue si supiéramos que la historia 'Despliegue en un entorno de alta disponibilidad' ha sido ejecutada en quince ocasiones en el último año, llevando una media de tres días, con un margen de error de un día arriba o abajo.
+
+Aún más, también ganamos confianza en que las actividades de despliegue están siendo debidamente integradas en cada proyecto de *software*. Reconociendo que ciertos proyectos de *software* requieren entornos únicos que Operaciones no soporta oficialmente, podemos permitir excepciones en las que esos entornos estén permitidos en producción, pero que sean soportados por alguien fuera de Operaciones, que consideraríamos entornos no soportados.
+
+Haciendo esto, tenemos los beneficios de la estandarización de los entornos, es decir, variedad reducida, menores diferencias, soporte y mantenimiento confiable; mientras que permitimos los casos especiales que a veces el negocio requiere.
+
+.. _`Gene Kim`: http://itrevolution.com/authors/gene-kim
               </section>
 
               <footer class="post-footer">
@@ -276,7 +285,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2f11-cosas-necesitas-saber-devops-11.html&title=11%20cosas%20sobre%20DevOps%20%2811%29%3a%20Mi%20tercer%20patr%c3%b3n%20DevOps%20favorito&summary=Para%20finalizar%20esta%20serie%20de%20Gene%20Kim%2c%20presentamos%20la%20traducci%c3%b3n%20de%20su%20tercer%20patr%c3%b3n%20DevOps%20favorito.%20En%20este%20patr%c3%b3n%2c%20presenta%20el%20problema%20de%20la%20estandarizaci%c3%b3n%20en%20los%20entornos%20donde%20los%20proyectos%20son%20desplegados%2c%20y%20c%c3%b3mo%20lidiar%20con%20ellos%2c%20aplicando%20una%20t%c3%a9cnica%20%c3%a1gil%2c%20tratando%20de%20no%20olvidar%20las%20necesidades%20de%20negocio.%0a%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2f11-cosas-necesitas-saber-devops-11.html&title=11%20cosas%20sobre%20DevOps%20%2811%29%3a%20Mi%20tercer%20patr%c3%b3n%20DevOps%20favorito&summary=..%20image%3a%3a%20%2fimages%2festandarizacion.jpg%20%3aalt%3a%20Bucle%20de%20retroalimentaci%c3%b3n%20%3aalign%3a%20left%20%3aclass%3a%20border%20Para%20finalizar%20esta%20serie%20de%20%60Gene%20Kim%60_%2c%20presentamos%20la%20traducci%c3%b3n%20de%20su%20tercer%20patr%c3%b3n%20DevOps%20favorito.%20En%20este%20patr%c3%b3n%2c%20presenta%20el%20problema%20de%20la%20estandarizaci%c3%b3n%20en%20los%20entornos%20donde%20los%20proyectos%20son%20desplegados%2c%20y%20c%c3%b3mo%20lidiar%20con%20ellos%2c%20aplicando%20una%20t%c3%a9cnica%20%c3%a1gil%2c%20tratando%20de%20no%20olvidar%20las%20necesidades%20de%20negocio."
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

@@ -22,12 +22,11 @@
         <meta name="twitter:creator" content="@entredevyops" />
         <meta name="twitter:title" content="Nuevas funcionalidades y noticias en Amazon WS" />
         
-        <meta name="twitter:description" content="
+        <meta name="twitter:description" content=".. image:: /images/AmazonWebservices.png
+   :alt: AWS
+   :align: right
 
-
-
-Entre el jueves de la semana pasada y este lunes, Amazon WS publicó algunas noticias sobre nuevas funcionalidades en sus productos RDS, Cloudfront, y CloudWatch. También reconocieron ciertos problemas en su actualización de versión menor de MySQL en RDS, por lo que han detenido su calendario de aplicación de dicha actualización, aunque ofrecen a los usuarios que lo deseen, poderse actualizar.
-" />
+Entre el jueves de la semana pasada y este lunes, `Amazon WS`_ publicó algunas noticias sobre nuevas funcionalidades en sus productos RDS_, Cloudfront_, y CloudWatch_. También reconocieron ciertos problemas en su actualización de versión menor de MySQL_ en RDS_, por lo que han detenido su calendario de aplicación de dicha actualización, aunque ofrecen a los usuarios que lo deseen, poderse actualizar." />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/nuevas-funcionalidades-amazon-ws.html" />
     
 
@@ -110,7 +109,7 @@ Entre el jueves de la semana pasada y este lunes, Amazon WS publicó algunas not
         },
         "datePublished": "2013-11-05",
         "dateModified": "2013-11-05",
-        "wordCount": 631,
+        "wordCount": 735,
         "keywords": ["Amazon WS"] 
     }
     </script>
@@ -215,7 +214,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">5 Nov 2013</span> <span class="reading-time">| <span class="estimated-reading-time">3 min.</span> (<span class="word-count">631</span> palabras)</span></span>
+                        <span class="post-date">5 Nov 2013</span> <span class="reading-time">| <span class="estimated-reading-time">4 min.</span> (<span class="word-count">735</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -224,39 +223,66 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <div class="document">
+                  .. image:: /images/AmazonWebservices.png
+   :alt: AWS
+   :align: right
+
+Entre el jueves de la semana pasada y este lunes, `Amazon WS`_ publicó algunas noticias sobre nuevas funcionalidades en sus productos RDS_, Cloudfront_, y CloudWatch_. También reconocieron ciertos problemas en su actualización de versión menor de MySQL_ en RDS_, por lo que han detenido su calendario de aplicación de dicha actualización, aunque ofrecen a los usuarios que lo deseen, poderse actualizar.
 
 
-<img alt="AWS" class="align-right" src="/images/AmazonWebservices.png" />
-<p>Entre el jueves de la semana pasada y este lunes, <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a> publicó algunas noticias sobre nuevas funcionalidades en sus productos <a class="reference external" href="http://aws.amazon.com/es/rds/">RDS</a>, <a class="reference external" href="http://aws.amazon.com/es/cloudfront/">Cloudfront</a>, y <a class="reference external" href="http://aws.amazon.com/es/cloudwatch/">CloudWatch</a>. También reconocieron ciertos problemas en su actualización de versión menor de <a class="reference external" href="http://mysql.com/">MySQL</a> en <a class="reference external" href="http://aws.amazon.com/es/rds/">RDS</a>, por lo que han detenido su calendario de aplicación de dicha actualización, aunque ofrecen a los usuarios que lo deseen, poderse actualizar.</p>
-<p></p>
-<div class="section" id="cambios-en-el-calendario-de-actualizacion-de-version-menor-de-mysql-en-rds">
-<h2>Cambios en el calendario de actualización de versión menor de MySQL en RDS</h2>
-<p>El pasado día 14, publicaron un calendario de actualización de las versiones menores de MySQL a 5.1.71, 5.5.33 y 5.6.13, respectivamente. <a class="reference external" href="http://aws.amazon.com/es/">Amazon</a> ejecuta estos cambios manteniendo especial atención en las evoluciones de sus monitorizaciones. El pasado miércoles, día 30, observaron ciertos indicios que les llevaron a detener los procesos de actualización en todas las regiones, para revisarlo y reprogramar el resto de actualizaciones.</p>
-<p>En caso que un usuario desee actualizar, puede hacerlo manualmente, modificando su instancia cambiando la versión. Este cambio puede ser aplicado de forma inmediata o durante la siguiente ventana de mantenimiento. Esto causará un reinicio de la instancia. También es posible descartar la actualización automática seleccionando la respuesta 'No' en la opción '<em>Auto Minor Version Upgrade</em>'.</p>
-<p>En caso de actualizarse, recomiendan comprobar la compatibilidad y el correcto funcionamiento de las aplicaciones con las nuevas versiones menores. Para más información, siempre se puede consultar la <a class="reference external" href="http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.VersionMgmt">documentación de RDS sobre las versiones de MySQL</a></p>
-</div>
-<div class="section" id="nueva-funcionalidad-de-copia-de-un-snapshot-de-rds-entre-regiones">
-<h2>Nueva funcionalidad de copia de un snapshot de RDS entre regiones</h2>
-<p>El sábado pasado, anunciaban que la copia de <em>snapshots</em> de base de datos, para los tres motores soportados (Oracle, SQL Server y MySQL) permitía hacerlo de una región a otra, con lo que es posible copiar un <em>snapshot</em> a otra región y levantar una nueva instancia en dicho destino. El funcionamiento es, como es habitual, tanto desde la consola de gestión como utilizando las correspondientes llamadas API, o, por lo tanto, los correspondientes comandos CLI.</p>
-<p>Dado que las copias pueden tardar cierto tiempo, recomiendan la configuración y suscripción de <a class="reference external" href="http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Events.html?channel=EM&amp;Campaign_Type=Launch&amp;Campaign_id=33361880&amp;ref_=pe_411040_33361880_7">eventos de bases de datos</a> para conocer el momento en el que los datos se han copiado.</p>
-<p>En cuanto al coste, se cobrará el coste de traspaso de región a región, que es inferior al del tráfico de Internet, y el coste de almacenamiento en la región destino. Como las copias de <em>snapshots</em>, son incrementales una vez se ha realizado la primera, los costes subsecuentes siempre serán inferiores. Para saber más recomiendan leer la <a class="reference external" href="http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html">Guía de usuario de Amazon RDS</a>.</p>
-</div>
-<div class="section" id="nuevas-ubicaciones-de-servicio-para-cloudfront">
-<h2>Nuevas ubicaciones de servicio para CloudFront</h2>
-<p><a class="reference external" href="http://aws.amazon.com/es/">Amazon</a> ha abierto tres ubicaciones más para mejorar el servicio de <a class="reference external" href="http://aws.amazon.com/es/cloudfront/">CloudFront</a>: Atlanta, en los EE.UU., Londres, en el Reino Unido, y Frankfurt, en Alemania. Con estas, ya son 46 las ubicaciones totales con las que cuenta este servicio en todo el mundo. Con cada nueva ubicación, la latencia en el servicio de los contenidos desciende, mejorando el rendimiento que obtienen los usuarios finales. En caso de estar ya usando CloudFront, no es necesario realizar ninguna acción. En el caso que sea conveniente, se servirán los contenidos directamente desde estas nuevas ubicaciones.</p>
-<p>Aprovecharon para presentar el <a class="reference external" href="https://event.on24.com/eventRegistration/EventLobbyServlet?target=registration.jsp&amp;eventid=700642&amp;sessionid=1&amp;key=ED5FF854BD9C2081E4B26E38DC496A4C&amp;partnerref=WN&amp;channel=EM&amp;Campaign_Type=Launch&amp;Campaign_id=40553290&amp;ref_=7&amp;partnerref=EM_40553290&amp;sourcepage=register">webinario</a> sobre <a class="reference external" href="http://aws.amazon.com/es/cloudfront/">CloudFront</a> que han organizado para el próximo día 7, a las 19:00, hora española. También indican que en el <a class="reference external" href="http://reinvent.awsevents.com/">AWS re:Invent</a> tendrán lugar las siguientes charlas sobre CloudFront:</p>
-<ul class="simple">
-<li><a class="reference external" href="https://portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=2033&amp;channel=EM&amp;Campaign_Type=Launch&amp;Campaign_id=40553290&amp;ref_=8&amp;partnerref=EM_40553290">Aceleración dinámica de contenido</a>.</li>
-<li><a class="reference external" href="https://portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=1156&amp;channel=EM&amp;Campaign_Type=Launch&amp;Campaign_id=40553290&amp;ref_=9&amp;partnerref=EM_40553290">Streaming bajo demanda y en directo</a>.</li>
-<li><a class="reference external" href="https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=1215&amp;channel=EM&amp;Campaign_Type=Launch&amp;Campaign_id=40553290&amp;ref_=10&amp;partnerref=EM_40553290">Uso de las caches para escalar aplicaciones</a>.</li>
-</ul>
-</div>
-<div class="section" id="busqueda-y-navegacion-por-las-metricas-de-cloudwatch">
-<h2>Búsqueda y navegación por las métricas de CloudWatch</h2>
-<p>Finalmente, la última noticia es sobre las mejoras introducidas en el servicio <a class="reference external" href="http://aws.amazon.com/es/cloudwatch/">CloudWatch</a>. Junto a las mejoras de rendimiento que permitirán a las métricas cargarse con mayor velocidad, se ha creado, dentro de la consola de gestión, un <a class="reference external" href="http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/finding_metrics_with_cloudwatch.html?channel=EM&amp;Campaign_Type=Launch&amp;Campaign_id=39180040&amp;ref_=pe_411040_39180040_10">cuadro de mando de Amazon CloudWatch</a> que permite encontrar métricas introduciendo solamente un término o navegar por categorías de <a class="reference external" href="http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/supported_services.html?channel=EM&amp;Campaign_Type=Launch&amp;Campaign_id=39180040&amp;ref_=pe_411040_39180040_9">métricas</a> hasta encontrar la que se está buscando.</p>
-</div>
-</div>
+
+
+Cambios en el calendario de actualización de versión menor de MySQL en RDS
+--------------------------------------------------------------------------
+
+El pasado día 14, publicaron un calendario de actualización de las versiones menores de MySQL a 5.1.71, 5.5.33 y 5.6.13, respectivamente. Amazon_ ejecuta estos cambios manteniendo especial atención en las evoluciones de sus monitorizaciones. El pasado miércoles, día 30, observaron ciertos indicios que les llevaron a detener los procesos de actualización en todas las regiones, para revisarlo y reprogramar el resto de actualizaciones.
+
+En caso que un usuario desee actualizar, puede hacerlo manualmente, modificando su instancia cambiando la versión. Este cambio puede ser aplicado de forma inmediata o durante la siguiente ventana de mantenimiento. Esto causará un reinicio de la instancia. También es posible descartar la actualización automática seleccionando la respuesta 'No' en la opción '*Auto Minor Version Upgrade*'.
+
+En caso de actualizarse, recomiendan comprobar la compatibilidad y el correcto funcionamiento de las aplicaciones con las nuevas versiones menores. Para más información, siempre se puede consultar la `documentación de RDS sobre las versiones de MySQL`_
+
+Nueva funcionalidad de copia de un snapshot de RDS entre regiones
+-----------------------------------------------------------------
+
+El sábado pasado, anunciaban que la copia de *snapshots* de base de datos, para los tres motores soportados (Oracle, SQL Server y MySQL) permitía hacerlo de una región a otra, con lo que es posible copiar un *snapshot* a otra región y levantar una nueva instancia en dicho destino. El funcionamiento es, como es habitual, tanto desde la consola de gestión como utilizando las correspondientes llamadas API, o, por lo tanto, los correspondientes comandos CLI.
+
+Dado que las copias pueden tardar cierto tiempo, recomiendan la configuración y suscripción de `eventos de bases de datos`_ para conocer el momento en el que los datos se han copiado.
+
+En cuanto al coste, se cobrará el coste de traspaso de región a región, que es inferior al del tráfico de Internet, y el coste de almacenamiento en la región destino. Como las copias de *snapshots*, son incrementales una vez se ha realizado la primera, los costes subsecuentes siempre serán inferiores. Para saber más recomiendan leer la `Guía de usuario de Amazon RDS`_.
+
+Nuevas ubicaciones de servicio para CloudFront
+----------------------------------------------
+
+Amazon_ ha abierto tres ubicaciones más para mejorar el servicio de CloudFront_: Atlanta, en los EE.UU., Londres, en el Reino Unido, y Frankfurt, en Alemania. Con estas, ya son 46 las ubicaciones totales con las que cuenta este servicio en todo el mundo. Con cada nueva ubicación, la latencia en el servicio de los contenidos desciende, mejorando el rendimiento que obtienen los usuarios finales. En caso de estar ya usando CloudFront, no es necesario realizar ninguna acción. En el caso que sea conveniente, se servirán los contenidos directamente desde estas nuevas ubicaciones.
+
+Aprovecharon para presentar el webinario_ sobre CloudFront_ que han organizado para el próximo día 7, a las 19:00, hora española. También indican que en el `AWS re:Invent`_ tendrán lugar las siguientes charlas sobre CloudFront:
+
+* `Aceleración dinámica de contenido`_.
+* `Streaming bajo demanda y en directo`_.
+* `Uso de las caches para escalar aplicaciones`_.
+
+Búsqueda y navegación por las métricas de CloudWatch
+----------------------------------------------------
+
+Finalmente, la última noticia es sobre las mejoras introducidas en el servicio CloudWatch_. Junto a las mejoras de rendimiento que permitirán a las métricas cargarse con mayor velocidad, se ha creado, dentro de la consola de gestión, un `cuadro de mando de Amazon CloudWatch`_ que permite encontrar métricas introduciendo solamente un término o navegar por categorías de métricas_ hasta encontrar la que se está buscando.
+
+.. _`Amazon WS`: http://aws.amazon.com/es/
+.. _Amazon: `Amazon WS`_
+.. _AWS: `Amazon WS`_
+.. _RDS: http://aws.amazon.com/es/rds/
+.. _MySQL: http://mysql.com/
+.. _`documentación de RDS sobre las versiones de MySQL`: http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_MySQL.html#MySQL.Concepts.VersionMgmt
+.. _`eventos de bases de datos`: http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Events.html?channel=EM&Campaign_Type=Launch&Campaign_id=33361880&ref_=pe_411040_33361880_7
+.. _`Guía de usuario de Amazon RDS`: http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html
+.. _CloudFront: http://aws.amazon.com/es/cloudfront/
+.. _webinario: https://event.on24.com/eventRegistration/EventLobbyServlet?target=registration.jsp&eventid=700642&sessionid=1&key=ED5FF854BD9C2081E4B26E38DC496A4C&partnerref=WN&channel=EM&Campaign_Type=Launch&Campaign_id=40553290&ref_=7&partnerref=EM_40553290&sourcepage=register
+.. _`AWS re:Invent`: http://reinvent.awsevents.com/
+.. _`Aceleración dinámica de contenido`: https://portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=2033&channel=EM&Campaign_Type=Launch&Campaign_id=40553290&ref_=8&partnerref=EM_40553290
+.. _`Streaming bajo demanda y en directo`: https://portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=1156&channel=EM&Campaign_Type=Launch&Campaign_id=40553290&ref_=9&partnerref=EM_40553290
+.. _`Uso de las caches para escalar aplicaciones`: https://www.portal.reinvent.awsevents.com/connect/sessionDetail.ww?SESSION_ID=1215&channel=EM&Campaign_Type=Launch&Campaign_id=40553290&ref_=10&partnerref=EM_40553290
+.. _CloudWatch: http://aws.amazon.com/es/cloudwatch/
+.. _`cuadro de mando de Amazon CloudWatch`: http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/finding_metrics_with_cloudwatch.html?channel=EM&Campaign_Type=Launch&Campaign_id=39180040&ref_=pe_411040_39180040_10
+.. _métricas: http://docs.aws.amazon.com/AmazonCloudWatch/latest/DeveloperGuide/supported_services.html?channel=EM&Campaign_Type=Launch&Campaign_id=39180040&ref_=pe_411040_39180040_9
               </section>
 
               <footer class="post-footer">
@@ -273,7 +299,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fnuevas-funcionalidades-amazon-ws.html&title=Nuevas%20funcionalidades%20y%20noticias%20en%20Amazon%20WS&summary=Entre%20el%20jueves%20de%20la%20semana%20pasada%20y%20este%20lunes%2c%20Amazon%20WS%20public%c3%b3%20algunas%20noticias%20sobre%20nuevas%20funcionalidades%20en%20sus%20productos%20RDS%2c%20Cloudfront%2c%20y%20CloudWatch.%20Tambi%c3%a9n%20reconocieron%20ciertos%20problemas%20en%20su%20actualizaci%c3%b3n%20de%20versi%c3%b3n%20menor%20de%20MySQL%20en%20RDS%2c%20por%20lo%20que%20han%20detenido%20su%20calendario%20de%20aplicaci%c3%b3n%20de%20dicha%20actualizaci%c3%b3n%2c%20aunque%20ofrecen%20a%20los%20usuarios%20que%20lo%20deseen%2c%20poderse%20actualizar.%0a%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fnuevas-funcionalidades-amazon-ws.html&title=Nuevas%20funcionalidades%20y%20noticias%20en%20Amazon%20WS&summary=..%20image%3a%3a%20%2fimages%2fAmazonWebservices.png%20%3aalt%3a%20AWS%20%3aalign%3a%20right%20Entre%20el%20jueves%20de%20la%20semana%20pasada%20y%20este%20lunes%2c%20%60Amazon%20WS%60_%20public%c3%b3%20algunas%20noticias%20sobre%20nuevas%20funcionalidades%20en%20sus%20productos%20RDS_%2c%20Cloudfront_%2c%20y%20CloudWatch_.%20Tambi%c3%a9n%20reconocieron%20ciertos%20problemas%20en%20su%20actualizaci%c3%b3n%20de%20versi%c3%b3n%20menor%20de%20MySQL_%20en%20RDS_%2c%20por%20lo%20que%20han%20detenido%20su%20calendario%20de%20aplicaci%c3%b3n%20de%20dicha%20actualizaci%c3%b3n%2c%20aunque%20ofrecen%20a%20los%20usuarios%20que%20lo%20deseen%2c%20poderse%20actualizar."
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

@@ -23,12 +23,11 @@
         <meta name="twitter:creator" content="@entredevyops" />
         <meta name="twitter:title" content="Amazon WS re:Invent 2013" />
         
-        <meta name="twitter:description" content="
+        <meta name="twitter:description" content=".. image:: /images/AmazonWebservices.png
+   :alt: AWS
+   :align: right
 
-
-
-Del día 12 al 15 de noviembre, tuvo lugar, en Las Vegas, el re:Invent, de Amazon WS. Siendo el mayor evento sobre el cloud de AWS, esta edición contempló sesiones técnicas, sesiones formativas de entrenamiento, laboratorios de práctica y consultas técnicas con ingenieros y clientes expertos. Aunque nuestra asistencia fue imposible, este artículo contiene un resumen de las novedades que anunciaron.
-" />
+Del día 12 al 15 de noviembre, tuvo lugar, en Las Vegas, el `re:Invent`_, de `Amazon WS`_. Siendo el mayor evento sobre el *cloud* de AWS_, esta edición contempló sesiones técnicas, sesiones formativas de entrenamiento, laboratorios de práctica y consultas técnicas con ingenieros y clientes expertos. Aunque nuestra asistencia fue imposible, este artículo contiene un resumen de las novedades que anunciaron." />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/reinvent-2013-amazon-ws.html" />
     
 
@@ -111,7 +110,7 @@ Del día 12 al 15 de noviembre, tuvo lugar, en Las Vegas, el re:Invent, de Amazo
         },
         "datePublished": "2013-11-25",
         "dateModified": "2013-11-25",
-        "wordCount": 828,
+        "wordCount": 921,
         "keywords": ["Eventos","Amazon WS"] 
     }
     </script>
@@ -216,7 +215,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">25 Nov 2013</span> <span class="reading-time">| <span class="estimated-reading-time">4 min.</span> (<span class="word-count">828</span> palabras)</span></span>
+                        <span class="post-date">25 Nov 2013</span> <span class="reading-time">| <span class="estimated-reading-time">5 min.</span> (<span class="word-count">921</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -225,75 +224,107 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <div class="document">
+                  .. image:: /images/AmazonWebservices.png
+   :alt: AWS
+   :align: right
+
+Del día 12 al 15 de noviembre, tuvo lugar, en Las Vegas, el `re:Invent`_, de `Amazon WS`_. Siendo el mayor evento sobre el *cloud* de AWS_, esta edición contempló sesiones técnicas, sesiones formativas de entrenamiento, laboratorios de práctica y consultas técnicas con ingenieros y clientes expertos. Aunque nuestra asistencia fue imposible, este artículo contiene un resumen de las novedades que anunciaron.
 
 
-<img alt="AWS" class="align-right" src="/images/AmazonWebservices.png" />
-<p>Del día 12 al 15 de noviembre, tuvo lugar, en Las Vegas, el <a class="reference external" href="http://reinvent.awsevents.com/index.html">re:Invent</a>, de <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a>. Siendo el mayor evento sobre el <em>cloud</em> de <a class="reference external" href="http://aws.amazon.com/es/">AWS</a>, esta edición contempló sesiones técnicas, sesiones formativas de entrenamiento, laboratorios de práctica y consultas técnicas con ingenieros y clientes expertos. Aunque nuestra asistencia fue imposible, este artículo contiene un resumen de las novedades que anunciaron.</p>
-<p></p>
-<div class="section" id="nuevos-servicios">
-<h2>Nuevos servicios</h2>
-<div class="section" id="amazon-workspaces">
-<h3>Amazon WorkSpaces</h3>
-<p>Se diría que con la intención de introducirse en el mercado de servicios como <a class="reference external" href="http://www.vmware.com/es/products/horizon-view/">VMware Horizon View</a>, <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a> ha anunciado su nuevo servicio <a class="reference external" href="http://aws.amazon.com/workspaces/">WorkSpaces</a>. Éste nuevo servicio consiste en un sistema de escritorio completamente gestionado, más conocido como <a class="reference external" href="http://es.wikipedia.org/wiki/Virtualizaci%C3%B3n_de_escritorio">VDI</a>. Con él los usuarios pueden, desde sus portátiles, iPad, Kindle Fire, o tabletas Android, acceder a un sistema de escritorio personalizado, homogéneo y desde cualquier ubicación.</p>
-</div>
-<div class="section" id="amazon-appstream">
-<h3>Amazon AppStream</h3>
-<p>Éste otro servicio, aunque podría confundirse con el primero, es un poco distinto. En realidad consiste en disponer de aplicaciones ejecutándose en sistemas en el <em>cloud</em> con las que los usuarios interactúan desde sus dispositivos. De este modo, las aplicaciones pueden utilizar los recursos de computación de la nube, con independencia de los dispositivos que los usuarios estén utilizando. <a class="reference external" href="http://aws.amazon.com/appstream/">AppStream</a> incluye un <em>SDK</em> que soporta <em>streaming</em> desde Microsoft Windows 2008 R2 a dispositivos con FireOS, Android, iOS y Microsoft Windows. Para 2014 está planificado ofrecer una <em>SDK</em> para Mac OS X.</p>
-</div>
-<div class="section" id="amazon-cloudtrail">
-<h3>Amazon CloudTrail</h3>
-<p><a class="reference external" href="http://aws.amazon.com/cloudtrail/">CloudTrail</a>, servicio que todavía se encuentra en beta, consiste, simplemente, en un servicio que registra todas las llamadas <em>API</em> que se producen con la cuenta <a class="reference external" href="http://aws.amazon.com/es/">AWS</a>, almacenándolas en ficheros en <a class="reference external" href="http://aws.amazon.com/s3/">S3</a>. De este modo se puede realizar un seguimiento de todas las acciones administrativas que se han producido. El servicio registra:</p>
-<ul class="simple">
-<li>La identidad del usuario</li>
-<li>El momento de la llamada</li>
-<li>La dirección IP utilizada</li>
-<li>Los parámetros de la petición</li>
-<li>Los elementos de la respuesta</li>
-</ul>
-<p>El servicio registra tanto las llamadas <em>API</em> generadas desde la consola de gestión web, los <em>SDK</em>, las herramientas de línea de comandos y otros servicios <a class="reference external" href="http://aws.amazon.com/es/">AWS</a> de más alto nivel, como <a class="reference external" href="http://aws.amazon.com/cloudformation/">CloudFormation</a>.</p>
-</div>
-<div class="section" id="amazon-kinesis">
-<h3>Amazon Kinesis</h3>
-<p><a class="reference external" href="http://aws.amazon.com/kinesis/">Kinesis</a> consiste en un servicio de recopilación y procesado de flujos de datos en tiempo real a escala masiva. Su capacidad permite recoger y procesar cientos de terabytes de datos por hora desde cientos de miles de orígenes distintos. Utilizando este servicio se pueden escribir aplicaciones que procesen la información en tiempo real recibida de páginas web, información financiera y de márqueting, instrumentación de fabricación, medios sociales, registros operacionales o mediciones de datos. Se pueden construir cuadros de mandos en tiempo real, capturar excepciones de aplicaciones generando las alertas correspondientes, ofreciendo recomendaciones o tomar decisiones de negocio o operacionales. Además puede almacenar los datos en otros servicios como <a class="reference external" href="http://aws.amazon.com/s3/">S3</a>, <a class="reference external" href="http://aws.amazon.com/es/dynamodb/">DynamoDB</a> o <a class="reference external" href="http://aws.amazon.com/es/redshift/">Redshift</a>.</p>
-</div>
-</div>
-<div class="section" id="nuevas-instancias-de-ec2">
-<h2>Nuevas instancias de EC2</h2>
-<p>En el evento <a class="reference external" href="http://reinvent.awsevents.com/index.html">re:Invent</a>, además, se presentaron dos nuevos tipos de instancias de <a class="reference external" href="http://aws.amazon.com/es/ec2/">EC2</a>:</p>
-<div class="section" id="g2">
-<h3>G2</h3>
-<p>Diseñada para aplicaciones que requieran capacidades de cálculo para gráficos 3D, está equipada con una <em>GPU</em> <a class="reference external" href="http://www.nvidia.es/object/grid-vdi-desktop-virtualisation-es.html">NVIDIA GRID</a>, ofrece 8 <em>vCPU</em>, 15 GB de <em>RAM</em> y un disco <em>SSD</em> de 60 GB. Permite el uso de almacenamiento <em>EBS</em> y el rendimiento de sus interfaces de red es alto.</p>
-</div>
-<div class="section" id="c3">
-<h3>C3</h3>
-<p>Esta familia basa su capacidad de computación en los chips de alto rendimiento de <a class="reference external" href="http://www.intel.com/content/www/us/en/processors/xeon/xeon-processor-5000-sequence.html">Intel Xeon E5</a>. Además, se provisionan con almacenamiento basado en <em>SSD</em>. Son la família de instancias que proporcionan la menor relación precio/rendimiento de computación y disponen de capacidades de comunicaciones más avanzadas. Mejoran la latencia entre instancias, tienen menor <em>jitter</em> y un rendimiento en paquetes por segundo significativamente más alto.</p>
-</div>
-</div>
-<div class="section" id="funcionalidades-en-servicios-ya-existentes">
-<h2>Funcionalidades en servicios ya existentes</h2>
-<p>En esta ocasión, <a class="reference external" href="http://aws.amazon.com/es/">AWS</a> presentó nuevas funcionalidades en tres servicios ya existentes:</p>
-<div class="section" id="postgresql-ya-esta-soportado-en-rds">
-<h3>PostgreSQL ya está soportado en RDS</h3>
-<p>Con todos sus tipos de datos y sus funciones de compresión de información, búsqueda textual y de consultas geoespaciales, <a class="reference external" href="http://aws.amazon.com/es/rds/">RDS</a> incluye con <a class="reference external" href="http://www.postgresql.org/">PostgreSQL</a> sus típicas funcionalidades como el despligue multizona, recuperación a punto en el tiempo, <em>snapshots</em> de la base de datos, copia de <em>snapshots</em> entre regiones, aprovisionamiento de <em>IOPS</em>, y soporte <em>VPC</em>.</p>
-</div>
-<div class="section" id="redshift-tambien-dispone-de-snapshots-entre-regiones">
-<h3>Redshift también dispone de <em>snapshots</em> entre regiones</h3>
-<p><a class="reference external" href="http://aws.amazon.com/es/">AWS</a> ha anunciado la disponibilidad de la función de copia de <em>snapshots</em> entre regiones para el servicio <a class="reference external" href="http://aws.amazon.com/es/redshift/">Redshift</a>. La copia de <em>snapshots</em> entre regiones es una gran funcionalidad en los servicios de <a class="reference external" href="http://aws.amazon.com/es/">AWS</a>, sobretodo para aquellos usuarios que trabajan en ubicaciones muy distanciadas. Al permitir hacer una copia de un <em>snapshot</em> de una base de datos en una región a otra región, pudiendo levantar otra instancia, es posible tener un sistema de copia de seguridad muy eficiente.</p>
-</div>
-<div class="section" id="mejoras-y-optimizaciones-en-el-trusted-advisor">
-<h3>Mejoras y optimizaciones en el Trusted Advisor</h3>
-<p><a class="reference external" href="http://aws.amazon.com/es/">AWS</a> ha incluido mejoras significativas en su <a class="reference external" href="https://aws.amazon.com/es/premiumsupport/trustedadvisor/">Trusted Advisor</a>, como la visualización del ahorro mensual, o un análisis del beneficio de utilizar volúmenes <em>EBS</em> con aprovisionamiento de <em>IOPS</em>. También han retocado el interfaz de usuario para simplificar la visualización y su utilización.</p>
-<p><a class="reference external" href="https://aws.amazon.com/es/premiumsupport/trustedadvisor/">Trusted Advisor</a> es un cuadro de mando, disponible para clientes con planes de soporte <em>Business</em> y <em>Enterprise</em>, que ofrece comprovaciones y recomendaciones sobre la infraestructura en uso en <a class="reference external" href="http://aws.amazon.com/es/">AWS</a> dentro de cuatro apartados:</p>
-<ul class="simple">
-<li>Optimización de coste</li>
-<li>Seguridad</li>
-<li>Tolerancia a fallos</li>
-<li>Rendimiento</li>
-</ul>
-</div>
-</div>
-</div>
+
+
+Nuevos servicios
+----------------
+
+Amazon WorkSpaces
+~~~~~~~~~~~~~~~~~
+
+Se diría que con la intención de introducirse en el mercado de servicios como `VMware Horizon View`_, `Amazon WS`_ ha anunciado su nuevo servicio WorkSpaces_. Éste nuevo servicio consiste en un sistema de escritorio completamente gestionado, más conocido como VDI_. Con él los usuarios pueden, desde sus portátiles, iPad, Kindle Fire, o tabletas Android, acceder a un sistema de escritorio personalizado, homogéneo y desde cualquier ubicación.
+
+Amazon AppStream
+~~~~~~~~~~~~~~~~
+
+Éste otro servicio, aunque podría confundirse con el primero, es un poco distinto. En realidad consiste en disponer de aplicaciones ejecutándose en sistemas en el *cloud* con las que los usuarios interactúan desde sus dispositivos. De este modo, las aplicaciones pueden utilizar los recursos de computación de la nube, con independencia de los dispositivos que los usuarios estén utilizando. AppStream_ incluye un *SDK* que soporta *streaming* desde Microsoft Windows 2008 R2 a dispositivos con FireOS, Android, iOS y Microsoft Windows. Para 2014 está planificado ofrecer una *SDK* para Mac OS X.
+
+Amazon CloudTrail
+~~~~~~~~~~~~~~~~~
+
+CloudTrail_, servicio que todavía se encuentra en beta, consiste, simplemente, en un servicio que registra todas las llamadas *API* que se producen con la cuenta AWS_, almacenándolas en ficheros en S3_. De este modo se puede realizar un seguimiento de todas las acciones administrativas que se han producido. El servicio registra:
+
+* La identidad del usuario
+* El momento de la llamada
+* La dirección IP utilizada
+* Los parámetros de la petición
+* Los elementos de la respuesta
+
+El servicio registra tanto las llamadas *API* generadas desde la consola de gestión web, los *SDK*, las herramientas de línea de comandos y otros servicios AWS_ de más alto nivel, como CloudFormation_.
+
+Amazon Kinesis
+~~~~~~~~~~~~~~
+
+Kinesis_ consiste en un servicio de recopilación y procesado de flujos de datos en tiempo real a escala masiva. Su capacidad permite recoger y procesar cientos de terabytes de datos por hora desde cientos de miles de orígenes distintos. Utilizando este servicio se pueden escribir aplicaciones que procesen la información en tiempo real recibida de páginas web, información financiera y de márqueting, instrumentación de fabricación, medios sociales, registros operacionales o mediciones de datos. Se pueden construir cuadros de mandos en tiempo real, capturar excepciones de aplicaciones generando las alertas correspondientes, ofreciendo recomendaciones o tomar decisiones de negocio o operacionales. Además puede almacenar los datos en otros servicios como S3_, DynamoDB_ o Redshift_.
+
+Nuevas instancias de EC2
+------------------------
+
+En el evento `re:Invent`_, además, se presentaron dos nuevos tipos de instancias de EC2_:
+
+G2
+~~
+
+Diseñada para aplicaciones que requieran capacidades de cálculo para gráficos 3D, está equipada con una *GPU* `NVIDIA GRID`_, ofrece 8 *vCPU*, 15 GB de *RAM* y un disco *SSD* de 60 GB. Permite el uso de almacenamiento *EBS* y el rendimiento de sus interfaces de red es alto.
+
+C3
+~~
+
+Esta familia basa su capacidad de computación en los chips de alto rendimiento de `Intel Xeon E5`_. Además, se provisionan con almacenamiento basado en *SSD*. Son la família de instancias que proporcionan la menor relación precio/rendimiento de computación y disponen de capacidades de comunicaciones más avanzadas. Mejoran la latencia entre instancias, tienen menor *jitter* y un rendimiento en paquetes por segundo significativamente más alto.
+
+Funcionalidades en servicios ya existentes
+------------------------------------------
+
+En esta ocasión, AWS_ presentó nuevas funcionalidades en tres servicios ya existentes:
+
+PostgreSQL ya está soportado en RDS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Con todos sus tipos de datos y sus funciones de compresión de información, búsqueda textual y de consultas geoespaciales, RDS_ incluye con PostgreSQL_ sus típicas funcionalidades como el despligue multizona, recuperación a punto en el tiempo, *snapshots* de la base de datos, copia de *snapshots* entre regiones, aprovisionamiento de *IOPS*, y soporte *VPC*.
+
+Redshift también dispone de *snapshots* entre regiones
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AWS_ ha anunciado la disponibilidad de la función de copia de *snapshots* entre regiones para el servicio Redshift_. La copia de *snapshots* entre regiones es una gran funcionalidad en los servicios de AWS_, sobretodo para aquellos usuarios que trabajan en ubicaciones muy distanciadas. Al permitir hacer una copia de un *snapshot* de una base de datos en una región a otra región, pudiendo levantar otra instancia, es posible tener un sistema de copia de seguridad muy eficiente.
+
+Mejoras y optimizaciones en el Trusted Advisor
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AWS_ ha incluido mejoras significativas en su `Trusted Advisor`_, como la visualización del ahorro mensual, o un análisis del beneficio de utilizar volúmenes *EBS* con aprovisionamiento de *IOPS*. También han retocado el interfaz de usuario para simplificar la visualización y su utilización.
+
+`Trusted Advisor`_ es un cuadro de mando, disponible para clientes con planes de soporte *Business* y *Enterprise*, que ofrece comprovaciones y recomendaciones sobre la infraestructura en uso en AWS_ dentro de cuatro apartados:
+
+* Optimización de coste
+* Seguridad
+* Tolerancia a fallos
+* Rendimiento
+
+.. _`Amazon WS`: http://aws.amazon.com/es/
+.. _AWS: `Amazon WS`_
+.. _`re:Invent`: http://reinvent.awsevents.com/index.html
+.. _`VMware Horizon View`: http://www.vmware.com/es/products/horizon-view/
+.. _WorkSpaces: http://aws.amazon.com/workspaces/
+.. _VDI: http://es.wikipedia.org/wiki/Virtualizaci%C3%B3n_de_escritorio
+.. _AppStream: http://aws.amazon.com/appstream/
+.. _CloudTrail: http://aws.amazon.com/cloudtrail/
+.. _S3: http://aws.amazon.com/s3/
+.. _CloudFormation: http://aws.amazon.com/cloudformation/
+.. _Kinesis: http://aws.amazon.com/kinesis/
+.. _DynamoDB: http://aws.amazon.com/es/dynamodb/
+.. _Redshift: http://aws.amazon.com/es/redshift/
+.. _EC2: http://aws.amazon.com/es/ec2/
+.. _`NVIDIA GRID`: http://www.nvidia.es/object/grid-vdi-desktop-virtualisation-es.html
+.. _`Intel Xeon E5`: http://www.intel.com/content/www/us/en/processors/xeon/xeon-processor-5000-sequence.html
+.. _RDS: http://aws.amazon.com/es/rds/
+.. _PostgreSQL: http://www.postgresql.org/
+.. _`Trusted Advisor`: https://aws.amazon.com/es/premiumsupport/trustedadvisor/
               </section>
 
               <footer class="post-footer">
@@ -312,7 +343,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2freinvent-2013-amazon-ws.html&title=Amazon%20WS%20re%3aInvent%202013&summary=Del%20d%c3%ada%2012%20al%2015%20de%20noviembre%2c%20tuvo%20lugar%2c%20en%20Las%20Vegas%2c%20el%20re%3aInvent%2c%20de%20Amazon%20WS.%20Siendo%20el%20mayor%20evento%20sobre%20el%20cloud%20de%20AWS%2c%20esta%20edici%c3%b3n%20contempl%c3%b3%20sesiones%20t%c3%a9cnicas%2c%20sesiones%20formativas%20de%20entrenamiento%2c%20laboratorios%20de%20pr%c3%a1ctica%20y%20consultas%20t%c3%a9cnicas%20con%20ingenieros%20y%20clientes%20expertos.%20Aunque%20nuestra%20asistencia%20fue%20imposible%2c%20este%20art%c3%adculo%20contiene%20un%20resumen%20de%20las%20novedades%20que%20anunciaron.%0a%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2freinvent-2013-amazon-ws.html&title=Amazon%20WS%20re%3aInvent%202013&summary=..%20image%3a%3a%20%2fimages%2fAmazonWebservices.png%20%3aalt%3a%20AWS%20%3aalign%3a%20right%20Del%20d%c3%ada%2012%20al%2015%20de%20noviembre%2c%20tuvo%20lugar%2c%20en%20Las%20Vegas%2c%20el%20%60re%3aInvent%60_%2c%20de%20%60Amazon%20WS%60_.%20Siendo%20el%20mayor%20evento%20sobre%20el%20%2acloud%2a%20de%20AWS_%2c%20esta%20edici%c3%b3n%20contempl%c3%b3%20sesiones%20t%c3%a9cnicas%2c%20sesiones%20formativas%20de%20entrenamiento%2c%20laboratorios%20de%20pr%c3%a1ctica%20y%20consultas%20t%c3%a9cnicas%20con%20ingenieros%20y%20clientes%20expertos.%20Aunque%20nuestra%20asistencia%20fue%20imposible%2c%20este%20art%c3%adculo%20contiene%20un%20resumen%20de%20las%20novedades%20que%20anunciaron."
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

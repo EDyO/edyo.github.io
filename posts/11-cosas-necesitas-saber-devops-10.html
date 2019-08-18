@@ -29,12 +29,11 @@
         <meta name="twitter:creator" content="@entredevyops" />
         <meta name="twitter:title" content="11 cosas sobre DevOps (10): Mi segundo patrón DevOps favorito" />
         
-        <meta name="twitter:description" content="
+        <meta name="twitter:description" content=".. image:: /images/Feedback_Loop.png
+   :alt: Bucle de retroalimentación
+   :align: right
 
-
-
-La penúltima entrega de Gene Kim, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes.
-" />
+La penúltima entrega de `Gene Kim`_, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes." />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-10.html" />
     
 
@@ -117,7 +116,7 @@ La penúltima entrega de Gene Kim, consistente en su segundo patrón favorito, r
         },
         "datePublished": "2014-07-27",
         "dateModified": "2014-07-27",
-        "wordCount": 400,
+        "wordCount": 418,
         "keywords": ["Agile","DevOps","Empresa","Entrega Contínua","Integración Contínua","Pruebas","Seguridad","QA"] 
     }
     </script>
@@ -222,7 +221,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">27 Jul 2014</span> <span class="reading-time">| <span class="estimated-reading-time">2 min.</span> (<span class="word-count">400</span> palabras)</span></span>
+                        <span class="post-date">27 Jul 2014</span> <span class="reading-time">| <span class="estimated-reading-time">2 min.</span> (<span class="word-count">418</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -231,22 +230,32 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <div class="document">
+                  .. image:: /images/Feedback_Loop.png
+   :alt: Bucle de retroalimentación
+   :align: right
+
+La penúltima entrega de `Gene Kim`_, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes.
 
 
-<img alt="Bucle de retroalimentación" class="align-right" src="/images/Feedback_Loop.png" />
-<p>La penúltima entrega de <a class="reference external" href="http://itrevolution.com/authors/gene-kim">Gene Kim</a>, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes.</p>
-<p></p>
-<div class="section" id="mi-segundo-patron-devops-favorito">
-<h2>10. Mi segundo patrón DevOps favorito</h2>
-<p>Una de mis citas favoritas es de <a class="reference external" href="https://twitter.com/plightbo">Patrick Lightbody</a>, antiguo CEO de BrowserMob, que dijo: '<em>Hemos descubierto que cuando despertamos a los desarrolladores a las 2 de la madrugada, se genera un bucle de retroalimentación fenomenal. Los problemas se solucionan mucho más rápido que en ningún otro momento</em>'.</p>
-<p>Esto subraya el problema de que Desarrollo suba su código el viernes a última hora, felicitándose en el aparcamiento de camino a casa, dejando al equipo de Operaciones el trabajo de arreglar el desastre durante todo el fin de semana. Peor aún, los defectos y errores conocidos son recurrentes en producción, forzando al equipo de Operaciones a estar contínuamente apagando fuegos, sin que la razón del problema se arregle nunca porque Desarrollo se mantiene enfocado en el desarrollo de nuevas funcionalidades.</p>
-<p>Un elemento importante de la Segunda Vía es acortar y amplificar los bucles de retroalimentación, y de acercar a Desarrollo a la experiencia del cliente, que incluye tanto al equipo de Operaciones como a los usuarios finales del servicio entregado.</p>
-<p>La simetría en esto es destacable: El primer patrón favorito sobre hacer que los entornos estén disponibles temprano consiste principalmente en incrustar Operaciones en Desarrollo, mientras que el segundo patrón favorito consiste en poner Desarrollo en Operaciones.</p>
-<p>Aquí, ponemos Desarrollo en la cadena de escalado de Operaciones, posiblemente poniéndolos en un tercer nivel de soporte, o incluso haciendo a Desarrollo completamente responsable del éxito del despliegue del código, ya sea echándolo atrás o arreglando los problemas hasta que el servicio sea restaurado al cliente.</p>
-<p>La meta no es reemplazar a Operaciones por Desarrollo. En su lugar, consiste en garantizar que Desarrollo vea los efectos de su trabajo y de sus cambios, y de que vivan la realidad de Operaciones lo suficiente para que estén motivados para arreglar los problemas rápidamente para ayudar con el alcance de los logros globales.</p>
-</div>
-</div>
+
+
+10. Mi segundo patrón DevOps favorito
+-------------------------------------
+
+Una de mis citas favoritas es de `Patrick Lightbody`_, antiguo CEO de BrowserMob, que dijo: '*Hemos descubierto que cuando despertamos a los desarrolladores a las 2 de la madrugada, se genera un bucle de retroalimentación fenomenal. Los problemas se solucionan mucho más rápido que en ningún otro momento*'.
+
+Esto subraya el problema de que Desarrollo suba su código el viernes a última hora, felicitándose en el aparcamiento de camino a casa, dejando al equipo de Operaciones el trabajo de arreglar el desastre durante todo el fin de semana. Peor aún, los defectos y errores conocidos son recurrentes en producción, forzando al equipo de Operaciones a estar contínuamente apagando fuegos, sin que la razón del problema se arregle nunca porque Desarrollo se mantiene enfocado en el desarrollo de nuevas funcionalidades.
+
+Un elemento importante de la Segunda Vía es acortar y amplificar los bucles de retroalimentación, y de acercar a Desarrollo a la experiencia del cliente, que incluye tanto al equipo de Operaciones como a los usuarios finales del servicio entregado.
+
+La simetría en esto es destacable: El primer patrón favorito sobre hacer que los entornos estén disponibles temprano consiste principalmente en incrustar Operaciones en Desarrollo, mientras que el segundo patrón favorito consiste en poner Desarrollo en Operaciones.
+
+Aquí, ponemos Desarrollo en la cadena de escalado de Operaciones, posiblemente poniéndolos en un tercer nivel de soporte, o incluso haciendo a Desarrollo completamente responsable del éxito del despliegue del código, ya sea echándolo atrás o arreglando los problemas hasta que el servicio sea restaurado al cliente.
+
+La meta no es reemplazar a Operaciones por Desarrollo. En su lugar, consiste en garantizar que Desarrollo vea los efectos de su trabajo y de sus cambios, y de que vivan la realidad de Operaciones lo suficiente para que estén motivados para arreglar los problemas rápidamente para ayudar con el alcance de los logros globales.
+
+.. _`Gene Kim`: http://itrevolution.com/authors/gene-kim
+.. _`Patrick Lightbody`: https://twitter.com/plightbo
               </section>
 
               <footer class="post-footer">
@@ -277,7 +286,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2f11-cosas-necesitas-saber-devops-10.html&title=11%20cosas%20sobre%20DevOps%20%2810%29%3a%20Mi%20segundo%20patr%c3%b3n%20DevOps%20favorito&summary=La%20pen%c3%baltima%20entrega%20de%20Gene%20Kim%2c%20consistente%20en%20su%20segundo%20patr%c3%b3n%20favorito%2c%20refleja%20la%20importancia%20de%20la%20Segunda%20V%c3%ada.%20El%20inicio%20del%20bucle%20de%20retroalimentaci%c3%b3n%2c%20su%20importancia%20y%20algunas%20veladas%20sugerencias%20de%20c%c3%b3mo%20conseguirlo%2c%20son%20el%20contenido%20principal.%20Bas%c3%a1ndose%20en%20otro%20caso%20real%2c%20muestra%20c%c3%b3mo%2c%20implicando%20a%20Desarrollo%20en%20la%20atenci%c3%b3n%20y%20resoluci%c3%b3n%20de%20los%20problemas%20causados%20por%20la%20introducci%c3%b3n%20de%20nuevas%20funcionalidades%2c%20se%20puede%20reducir%20la%20duraci%c3%b3n%20de%20las%20interrupciones%20o%20degradaciones%20de%20servicio%2c%20mejorando%20la%20experiencia%20de%20los%20usuarios%20finales%20y%20de%20los%20clientes.%0a%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2f11-cosas-necesitas-saber-devops-10.html&title=11%20cosas%20sobre%20DevOps%20%2810%29%3a%20Mi%20segundo%20patr%c3%b3n%20DevOps%20favorito&summary=..%20image%3a%3a%20%2fimages%2fFeedback_Loop.png%20%3aalt%3a%20Bucle%20de%20retroalimentaci%c3%b3n%20%3aalign%3a%20right%20La%20pen%c3%baltima%20entrega%20de%20%60Gene%20Kim%60_%2c%20consistente%20en%20su%20segundo%20patr%c3%b3n%20favorito%2c%20refleja%20la%20importancia%20de%20la%20Segunda%20V%c3%ada.%20El%20inicio%20del%20bucle%20de%20retroalimentaci%c3%b3n%2c%20su%20importancia%20y%20algunas%20veladas%20sugerencias%20de%20c%c3%b3mo%20conseguirlo%2c%20son%20el%20contenido%20principal.%20Bas%c3%a1ndose%20en%20otro%20caso%20real%2c%20muestra%20c%c3%b3mo%2c%20implicando%20a%20Desarrollo%20en%20la%20atenci%c3%b3n%20y%20resoluci%c3%b3n%20de%20los%20problemas%20causados%20por%20la%20introducci%c3%b3n%20de%20nuevas%20funcionalidades%2c%20se%20puede%20reducir%20la%20duraci%c3%b3n%20de%20las%20interrupciones%20o%20degradaciones%20de%20servicio%2c%20mejorando%20la%20experiencia%20de%20los%20usuarios%20finales%20y%20de%20los%20clientes."
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

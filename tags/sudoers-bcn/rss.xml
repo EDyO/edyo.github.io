@@ -17,12 +17,13 @@
       <pubDate>Wed, 06 Nov 2013 20:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/reunion-sudoers-noviembre.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/SudoersBCN.png
+   :width: 180
+   :height: 150
+   :alt: sudo make me a sandwich
+   :align: left
 
-
-&lt;img alt=&#34;sudo make me a sandwich&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/SudoersBCN.png&#34; style=&#34;width: 180px; height: 150px;&#34; /&gt;
-&lt;p&gt;En la charla de este mes, &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/codehead&#34;&gt;Javier Arturo Rodríguez&lt;/a&gt; habló sobre &lt;a class=&#34;reference external&#34; href=&#34;http://www.ansibleworks.com/&#34;&gt;Ansible&lt;/a&gt;, otra herramienta para la gestión de configuración. Aunque bien podría compararse en funcionalidad con &lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com/&#34;&gt;Puppet&lt;/a&gt; o &lt;a class=&#34;reference external&#34; href=&#34;http://www.opscode.com/chef/&#34;&gt;Chef&lt;/a&gt;, su diseño y las técnicas utilizadas la convierten en una herramienta muy sencilla, completa e interesante, incluso para sustituir a otras herramientas como &lt;a class=&#34;reference external&#34; href=&#34;http://docs.fabfile.org/en/1.8/&#34;&gt;Fabric&lt;/a&gt; o &lt;a class=&#34;reference external&#34; href=&#34;http://www.capistranorb.com/&#34;&gt;Capistrano&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+En la charla de este mes, `Javier Arturo Rodríguez`_ habló sobre Ansible_, otra herramienta para la gestión de configuración. Aunque bien podría compararse en funcionalidad con Puppet_ o Chef_, su diseño y las técnicas utilizadas la convierten en una herramienta muy sencilla, completa e interesante, incluso para sustituir a otras herramientas como Fabric_ o Capistrano_.&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -31,13 +32,10 @@
       <pubDate>Tue, 04 Jun 2013 20:37:37 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/reunion-de-junio-de-sudoers-bcn.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>`Sudoers BCN`_
+--------------
 
-
-&lt;div class=&#34;section&#34; id=&#34;sudoers-bcn&#34;&gt;
-&lt;h2&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://sudoers-barcelona.wikia.com/wiki/Sudoers_Barcelona_Wiki&#34;&gt;Sudoers BCN&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;De nuevo, como cada mes, se realizó la reunión del grupo de Sudoers BCN, en la que Jordi Soucheiron habló sobre MongoDB, y Ignacio Torres hizo lo propio sobre Go.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+De nuevo, como cada mes, se realizó la reunión del grupo de Sudoers BCN, en la que Jordi Soucheiron habló sobre MongoDB, y Ignacio Torres hizo lo propio sobre Go.&lt;/div&gt;</description>
     </item>
     
   </channel>

@@ -17,12 +17,14 @@
       <pubDate>Sat, 19 Oct 2013 10:45:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/amazon-ws-aws-soporte-mfa-autenticacion-multifactor.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>.. image:: /images/Simple-Mobile-based.jpg
+   :width: 206px
+   :height: 97px
+   :alt: Algo que el usuario posea, en el móvil, por ejemplo.
+   :align: left
+   :class: border
 
-
-&lt;img alt=&#34;Algo que el usuario posea, en el móvil, por ejemplo.&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/Simple-Mobile-based.jpg&#34; style=&#34;width: 206px; height: 97px;&#34; /&gt;
-&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com&#34;&gt;Amazon Web Services&lt;/a&gt; anunció ayer, viernes día 18, el &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/mfa&#34;&gt;soporte&lt;/a&gt; para la autenticación multifactor, o &lt;a class=&#34;reference external&#34; href=&#34;http://en.wikipedia.org/wiki/Multi-factor_authentication&#34;&gt;MFA&lt;/a&gt;, de sus siglas en inglés.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+`Amazon Web Services`_ anunció ayer, viernes día 18, el soporte_ para la autenticación multifactor, o MFA_, de sus siglas en inglés.&lt;/div&gt;</description>
     </item>
     
   </channel>
