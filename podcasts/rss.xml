@@ -6,10 +6,21 @@
     <description>Recent content in Podcasts on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 25 Sep 2019 16:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2019 16:55:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Píldora 13: Charla Deliveritis Aguda de Carlos Buenosvinos</title>
+      <link>https://www.entredevyops.es/podcasts/pildora-13.html</link>
+      <pubDate>Sun, 20 Oct 2019 16:55:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/pildora-13.html</guid>
+      <description>&lt;p&gt;En la píldora 13 del podcast hablaremos de la charla de Carlos Buenosvinos titulada Deliveritis Aguda que dió en el CTO Summit 2019.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 50: ¿Quiero ser manager?</title>
