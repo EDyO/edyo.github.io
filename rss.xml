@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 20 Oct 2019 16:55:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Dec 2019 12:13:14 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Píldora 14: Informe DataDog sobre contenedores</title>
+      <link>https://www.entredevyops.es/podcasts/pildora-14.html</link>
+      <pubDate>Fri, 27 Dec 2019 12:13:14 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/pildora-14.html</guid>
+      <description>&lt;p&gt;En la píldora 14 del podcast comentaremos el informe de Datadog sobre el uso de contenedores.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Píldora 13: Charla Deliveritis Aguda de Carlos Buenosvinos</title>
