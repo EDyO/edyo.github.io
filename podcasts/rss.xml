@@ -6,10 +6,21 @@
     <description>Recent content in Podcasts on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 03 Apr 2020 23:10:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2020 14:15:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 52: Devops Reloaded</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-52.html</link>
+      <pubDate>Mon, 13 Apr 2020 14:15:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-52.html</guid>
+      <description>&lt;p&gt;En la episodio 52 del podcast hablaremos de cómo ha evolucionado el &lt;strong&gt;DevOps&lt;/strong&gt; estos últimos años.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Píldora 15: EDyO en casa</title>
@@ -702,17 +713,6 @@ Tras la publicación de las vulnerabilidades Shellshock y Poodle, grabamos un de
 &lt;p&gt;El pasado 25 de Agosto publicamos el episodio número 6 de nuestro podcast.&lt;/p&gt;
 &lt;p&gt;En esta última entrada tenemos el placer de realizar una entrevista a &lt;a class=&#34;reference external&#34; href=&#34;https://davidpoblador.com/&#34;&gt;David Poblador&lt;/a&gt;, jefe de SRE de &lt;a class=&#34;reference external&#34; href=&#34;https://www.spotify.com&#34;&gt;Spotify&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Podcast 52: Devops Reloaded</title>
-      <link>https://www.entredevyops.es/podcasts/podcast-52.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/podcasts/podcast-52.html</guid>
-      <description>&lt;p&gt;En la episodio 52 del podcast hablaremos de cómo ha evolucionado el &lt;strong&gt;DevOps&lt;/strong&gt; estos últimos años.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

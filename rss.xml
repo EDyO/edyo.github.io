@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 03 Apr 2020 23:10:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2020 14:15:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 52: Devops Reloaded</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-52.html</link>
+      <pubDate>Mon, 13 Apr 2020 14:15:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-52.html</guid>
+      <description>&lt;p&gt;En la episodio 52 del podcast hablaremos de cómo ha evolucionado el &lt;strong&gt;DevOps&lt;/strong&gt; estos últimos años.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Píldora 15: EDyO en casa</title>
@@ -2510,17 +2521,6 @@ El evento lo ha organizado &lt;a class=&#34;reference external&#34; href=&#34;ht
       <guid>https://www.entredevyops.es/equipo.html</guid>
       <description>Tras el auge del movimiento DevOps, creemos que compartir información es el mejor camino para estrechar la distancia entre los equipos de desarrollo y de operaciones. Con este objetivo, nace Entre Dev y Ops, donde compartiremos información relativa a ambos mundos en castellano.
 Ignasi Fosch Ingeniero de Sistemas Interesado en la informática, en general, desde muy joven, estudié para programador, pero acabé trabajando como administrador. Siempre he pensado que un técnico mejora cuanto más conoce de la tecnología que usa.</description>
-    </item>
-    
-    <item>
-      <title>Podcast 52: Devops Reloaded</title>
-      <link>https://www.entredevyops.es/podcasts/podcast-52.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/podcasts/podcast-52.html</guid>
-      <description>&lt;p&gt;En la episodio 52 del podcast hablaremos de cómo ha evolucionado el &lt;strong&gt;DevOps&lt;/strong&gt; estos últimos años.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
