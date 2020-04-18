@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 13 Apr 2020 14:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2020 16:45:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 53: Terraform</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-53.html</link>
+      <pubDate>Sat, 18 Apr 2020 16:45:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-53.html</guid>
+      <description>&lt;p&gt;En la episodio 53 del podcast hablaremos sobre Terraform.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 52: Devops Reloaded</title>

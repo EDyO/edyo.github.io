@@ -1,21 +1,36 @@
+
 <!DOCTYPE html>
 <html lang="es-es">
 
     <head>
-	<meta name="generator" content="Hugo 0.42.1" />
 
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <meta property="og:title" content=" Entre Dev y Ops" />
+        <meta property="og:title" content=" Podcast 53: Terraform &middot;  Entre Dev y Ops" />
         <meta property="og:site_name" content="Entre Dev y Ops" />
-        <meta property="og:url" content="https://www.entredevyops.es/" />
+        <meta property="og:url" content="https://www.entredevyops.es/podcasts/podcast-53.html" />
 
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2020-04-18T16:45:00Z" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@entredevyops" />
+        <meta name="twitter:creator" content="@entredevyops" />
+        <meta name="twitter:title" content="Podcast 53: Terraform" />
+        
+          <meta name="twitter:image" content="https://www.entredevyops.es/images/terraform.png" />
+        
+        <meta name="twitter:description" content="En la episodio 53 del podcast hablaremos sobre Terraform.
+
+" />
+        <meta name="twitter:url" content="https://www.entredevyops.es/podcasts/podcast-53.html" />
+        <meta name="telegram:channel" content="@entredevyops" />
     
 
-        <title> Entre Dev y Ops</title>
+        <title> Podcast 53: Terraform &middot;  Entre Dev y Ops</title>
 
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
@@ -45,12 +60,58 @@
         
 
     
+        <link href="https://www.entredevyops.es/index.xml" rel="alternate" type="application/rss+xml" title="Entre Dev y Ops" />
+    
 
     
-        <link href="https://www.entredevyops.es/rss.xml" rel="alternate" type="application/rss+xml" title="Entre Dev y Ops" />
-    
-        <link rel="canonical" href="https://www.entredevyops.es/" />
+        <link rel="canonical" href="https://www.entredevyops.es/podcasts/podcast-53.html" />
 
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.entredevyops.es/podcasts/podcast-53.html"
+        },
+        "headline": "Podcast 53: Terraform",
+        "description": "",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.entredevyops.es/",
+          "name": "Entre Dev y Ops",
+          "url": "https://www.entredevyops.es/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.entredevyops.es/terraform.png",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2020-04-18",
+        "dateModified": "2020-04-18",
+        "wordCount": 28,
+        
+    }
+    </script>
 
 
     
@@ -58,9 +119,9 @@
     
     
       var disqus_shortname = 'edyo';
-      var disqus_identifier = 'https:\/\/www.entredevyops.es\/';
-      var disqus_title = 'Entre Dev y Ops';
-      var disqus_url = 'https:\/\/www.entredevyops.es\/';
+      var disqus_identifier = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-53.html';
+      var disqus_title = 'Podcast 53: Terraform';
+      var disqus_url = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-53.html';
     
     </script>
     
@@ -133,6 +194,8 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <input type="submit" value="Buscar">
               </form>
               
+                
+              
               
                 <a id="main-menu-button" class="menu" data-action="menu" data-target="menu"
                     title="Menú"><i class="fas fa-bars"></i></a>
@@ -141,214 +204,99 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
           </nav>
 
 
-	<header id="header" class="header has-cover">
-		<div class="inner">
-			<a class="header-title" href="https://www.entredevyops.es/">
-				<h1 class="header-name">Entre Dev y Ops</h1>
-				
-					<span class="header-description">El podcast en el que hablamos sobre desarrollo de aplicaciones, operaciones de sistemas informáticos y todo lo relacionado con la filosofía DevOps</span>
-				
-			</a>
-		</div>
-		
-			
-    <div id="front-page-menu" class="inner">
-        
-        
-        <span class="menu-list-item">
-            <i class="fas fa-rss"></i>
-            <a href="/suscribete.html">Suscríbete</a>
+<main class="content" role="main">
+    <article class="post">
+        <div class="inner">
+
+            <div id="push">
+
+                <header class="post-header">
+                
+                    <span class="post-meta">
+                        <span class="post-date">18 Apr 2020</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">28</span> palabras)</span></span>
+                    </span>
+                <div class="clear"></div>
+                
+                <h1 class="post-title">Podcast 53: Terraform</h1>
+              </header>
+
+              <section class="post-content">
+                
+                    <audio controls="" class="podcast-player">
+                        <source src="http://podcast.edyo.es/podcast/edyo-53.mp3" type="audio/mpeg" />
+                        <a href="http://podcast.edyo.es/podcast/edyo-53.mp3">Podcast 53: Terraform</a>
+                    </audio>
+                
+                  <p>En la episodio 53 del podcast hablaremos sobre Terraform.</p>
+
+<p></p>
+
+<p>Enlaces comentados:</p>
+
+<ul>
+<li><a href="https://terraform.io" target="_blank">Terraform</a></li>
+<li><a href="https://amzn.to/2xmwEqc" target="_blank">Terraform: Up Running</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Infrastructure_as_code" target="_blank">Infrastructure as Code</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Software_configuration_management" target="_blank">Software Configuration Management</a></li>
+<li><a href="https://cloud-init.io/" target="_blank">cloud-init</a></li>
+<li><a href="https://aws.amazon.com/cloudformation/" target="_blank">Cloudformation</a></li>
+<li><a href="https://aws.amazon.com/cdk/" target="_blank">CDK</a></li>
+<li><a href="https://github.com/cloudtools/troposphere" target="_blank">Troposphere</a></li>
+<li><a href="https://github.com/Sceptre/sceptre" target="_blank">Sceptre</a></li>
+<li><a href="https://hashicorp.com" target="_blank">Hashicorp</a></li>
+<li><a href="https://packer.io/" target="_blank">Packer</a></li>
+</ul>
+              </section>
+
+              <footer class="post-footer">
+                  <div class="post-tags">
             
-        </span>
-        
-        
-        <span class="menu-list-item">
-            <i class="fas fa-donate"></i>
-            <a href="/ayudanos.html">Ayúdanos</a>
+                  </div>
+                
+                    <div class="post-share">
+                        <a href="https://twitter.com/share?text=Podcast%2053%3a%20Terraform&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-53.html"
+                           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <i class="fab fa-twitter"/></i><span>Twitter</span>
+                        </a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-53.html&title=Podcast%2053%3a%20Terraform&summary=En%20la%20episodio%2053%20del%20podcast%20hablaremos%20sobre%20Terraform.%0a%0a"
+                           onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
+                        </a>
+                    </div>
             
-        </span>
-        
-    </div>
-
-
-		
-		
-		<div class="header-cover blured-image" style="background-color: #19a0d7; background-image: url(/images/cover.low.jpg)" data-src="/images/cover.jpg"></div>
-		
-	</header>
-
-	<div id="post-index" class="container">
-
-		<main class="content" role="main">
-
-			<div class="post-list">
-				<div id="push">
+              </footer>
 
             
+                <aside class="post-comments">
+    
+    
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+</aside>
 
-			
-			  
-<article class="post posts">
+            
+            </div>
 
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/novedades-distributed-matters-bcn-2015.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">20 Sep 2015</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/novedades-distributed-matters-bcn-2015.html">Novedades sobre la Distributed Matters BCN 2015</a></h2>
-		<p class="post-excerpt"><div class="document">
+            <nav class="post-nav">
+                
+                
+                    <a class="post-nav-item post-nav-prev" href="https://www.entredevyops.es/podcasts/podcast-52.html">
+                        <section class="post-nav-teaser">
+                            <span class="post-nav-icon"><i class="fas fa-chevron-right"></i></span>
+                            <span class="post-nav-info">
+                                <h4 class="post-nav-title">Podcast 52: Devops Reloaded</h4>
+                            </span>
+                        </section>
+                    </a>
+                
+                <div class="clear"></div>
+            </nav>
 
-
-<img alt="Distributed matters" class="align-right" src="/images/0e706560-5f89-11e5-835e-fbea9e75fec5.png" />
-<p>Como ya comentamos en el último episodio del podcast, para su 4o evento, la <a class="reference external" href="http://www.nosql-matters.org/">NoSQL matters</a> ha cambiado su nombre a <a class="reference external" href="https://www.distributed-matters.org/">Distributed matters</a>.
-De ese modo, se amplía el ámbito de temas tratados en sus conferencias a asuntos tan interesantes y relacionados con los sistemas NoSQL.
-Con ello, los temas de los que se hablará serán, principalmente, sistemas distribuidos, microservicios, gestión y administración del <em>Cloud</em>, soluciones de bases de datos, NoSQL, Big Data y DevOps.</p>
-<p>Además, aunque ya se ha acabado el plazo para conseguir las entradas al precio más reducido, hasta el 30 de septiembre se venden las entradas <em>Early Bird</em>, pero la cantidad es limitada.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/novedades-distributed-matters-bcn-2015.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-episodio-13.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-episodio-13.html"><img src="/images/europython-2015-logo.png" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">18 Sep 2015</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-episodio-13.html">Podcast 13: EuroPython 2015</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<p>En este podcast repasaremos próximos eventos, las noticias relevantes de los últimos dos meses y discutiremos sobre temas diversos: grupo de <a class="reference external" href="http://www.meetup.com/es/devops-bcn-group/">DevOps BCN</a>, <a class="reference external" href="http://europython.eu">EuroPython 2015</a> y &quot;Se busca DevOps&quot;.</p>
-<p>Esperamos que os guste.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-episodio-13.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/webinarios-aws-septiembre.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">14 May 2015</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/webinarios-aws-septiembre.html">Webinarios de AWS para septiembre</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<img alt="AWS" class="align-right" src="/images/AmazonWebservices.png" style="width: 200px; height: 80px;" />
-<p><a class="reference external" href="http://www.hp.com/es/es">AWS</a> está poniéndose las pilas en cuanto a formación se refiere.
-Este mes de septiembre propone una serie de webinarios sobre diferentes servicios, entre ellos, algunos de los más nuevos.
-Muy recomendables si os interesa trabajar con los servicios que <a class="reference external" href="http://www.hp.com/es/es">AWS</a> ofrece como <a class="reference external" href="https://aws.amazon.com/es/redshift/">Redshift</a>, <a class="reference external" href="https://aws.amazon.com/es/lambda/">Lambda</a>, <a class="reference external" href="https://aws.amazon.com/es/dynamodb/">DynamoDB</a>, <a class="reference external" href="https://aws.amazon.com/es/glacier/">Glacier</a>, <a class="reference external" href="https://aws.amazon.com/es/ecs/details/">EC2 Container Service</a> y otros.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/webinarios-aws-septiembre.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/webinarios-hp-helion.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">13 May 2015</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/webinarios-hp-helion.html">Webinarios sobre la plataforma HP Helion</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<img alt="HP" class="align-left" src="/images/81814a0c-5a6f-11e5-928d-8f899736a0cb.jpg" style="width: 120px;" />
-<p><a class="reference external" href="http://www.hp.com/es/es">HP</a> ha estado presentando su plataforma <a class="reference external" href="http://www8.hp.com/es/es/cloud/helion-overview.html">Helion</a>, basada en <a class="reference external" href="http://www.openstack.org">OpenStack</a>, para permanecer en el mercado de la computación en la nube.
-Por ello están llevando a cabo una campaña de divulgación de la plataforma, de la que forman parte <a class="reference external" href="http://hphelion.bemyapp.com/meetup/">estos cinco webinarios</a> que presentan.
-Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis a punto para inscribiros en el resto.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/webinarios-hp-helion.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2015.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">11 May 2015</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2015.html">Anuncio de la NoSQL matters BCN 2015</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<img alt="NoSQL matters" class="align-right" src="/images/logo_nosqlmatters.png" />
-<p>Ya se ha anunciado la cuarta edición de la <a class="reference external" href="http://2015.nosql-matters.org/bcn/">NoSQL matters Barcelona</a>.
-El evento se celebrará durante los días 20 y 21 de noviembre y, como las anteriores ediciones, tendrá lugar en la bonita <a class="reference external" href="http://www.uab-casaconvalescencia.org/en/index.php">Casa de la Convalescència</a>.</p>
-<p>El pasado día 27 de abril se anunció el inicio del período para presentar propuestas de charlas.
-Hemos estado en contacto con la organización y nos han contado algunas cosas.
-En este artículo podréis encontrar todo lo que sabemos por ahora.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2015.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-episodio-12.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-episodio-12.html"><img src="/images/europython-2015-logo.png" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">13 Apr 2015</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-episodio-12.html">Podcast 12: EuroPython 2015</a></h2>
-		<p class="post-excerpt">En este podcast entrevistamos a los organizadores de la EuroPython 2015. Ésta entrevista fue gravada el día 15 de Marzo, pero por razones técnicas no hemos podido publicarla hasta ahora. En la entrevista también se habla de la enseñanza a investigadores, concretamente de la Software Carpentry.
-Esperamos que os guste.</p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-episodio-12.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-
-				</div>
-			</div>
-
-			<nav id="pagination" class="pagination" role="pagination">
-	<div class="inner">
-	
-    <a class="pagination-item pagination-next" href="https://www.entredevyops.es/page/14.html"><i class="fas fa-chevron-left"></i> <span>Anterior</span></a>
-	
-		<span class="pagination-info">Página 15 de 33</span>
-	
-    <a class="pagination-item pagination-prev" href="https://www.entredevyops.es/page/16.html"><span>Siguiente</span> <i class="fas fa-chevron-right"></i></a>
-	
-		<div class="clear"></div>
-	</div>
-</nav>
-
-
-		</main>
-
-	</div>
+        </div>
+    </article>
+</main>
 
                 <div id="body-class" style="display: none;"></div>
                 <footer id="footer">
