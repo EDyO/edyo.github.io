@@ -6,10 +6,21 @@
     <description>Recent content in Podcasts on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sat, 09 May 2020 18:20:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2020 18:30:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 55: OpenNebula</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-54.html</link>
+      <pubDate>Fri, 15 May 2020 18:30:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-54.html</guid>
+      <description>&lt;p&gt;En el episodio 55 del podcast hablaremos con Alberto Martí y Rubén Santiago de OpenNebula.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 54: Career path</title>
