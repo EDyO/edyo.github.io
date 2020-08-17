@@ -6,10 +6,21 @@
     <description>Recent content in Podcasts on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 06 Jul 2020 15:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2020 21:35:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 58: COBOL, el nuevo Ave Fénix con Joan Trench</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-58.html</link>
+      <pubDate>Mon, 17 Aug 2020 21:35:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-58.html</guid>
+      <description>&lt;p&gt;En el episodio 58 del podcast hablaremos de COBOL con Joan Trench.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 57: Organizando un evento online</title>
