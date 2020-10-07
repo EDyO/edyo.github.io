@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es-es">
 
@@ -6,15 +7,30 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <meta property="og:title" content=" Podcasts &middot;  Entre Dev y Ops" />
+        <meta property="og:title" content=" Podcast 59: Microkernels con Sergio López &middot;  Entre Dev y Ops" />
         <meta property="og:site_name" content="Entre Dev y Ops" />
-        <meta property="og:url" content="https://www.entredevyops.es/podcasts.html" />
+        <meta property="og:url" content="https://www.entredevyops.es/podcasts/podcast-59.html" />
 
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2020-10-07T11:45:00Z" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@entredevyops" />
+        <meta name="twitter:creator" content="@entredevyops" />
+        <meta name="twitter:title" content="Podcast 59: Microkernels con Sergio López" />
+        
+          <meta name="twitter:image" content="https://www.entredevyops.es/images/processor.jpg" />
+        
+        <meta name="twitter:description" content="En el episodio 59 del podcast hablaremos de Microkernels con Sergio López.
+
+" />
+        <meta name="twitter:url" content="https://www.entredevyops.es/podcasts/podcast-59.html" />
+        <meta name="telegram:channel" content="@entredevyops" />
     
 
-        <title> Podcasts &middot;  Entre Dev y Ops</title>
+        <title> Podcast 59: Microkernels con Sergio López &middot;  Entre Dev y Ops</title>
 
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
@@ -48,10 +64,54 @@
     
 
     
-        <link href="https://www.entredevyops.es/podcasts/rss.xml" rel="alternate" type="application/rss+xml" title="Podcasts &middot; Entre Dev y Ops" />
-    
-        <link rel="canonical" href="https://www.entredevyops.es/podcasts.html" />
+        <link rel="canonical" href="https://www.entredevyops.es/podcasts/podcast-59.html" />
 
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.entredevyops.es/podcasts/podcast-59.html"
+        },
+        "headline": "Podcast 59: Microkernels con Sergio López",
+        "description": "",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.entredevyops.es/",
+          "name": "Entre Dev y Ops",
+          "url": "https://www.entredevyops.es/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.entredevyops.es/processor.jpg",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2020-10-07",
+        "dateModified": "2020-10-07",
+        "wordCount": 37,
+        
+    }
+    </script>
 
 
     
@@ -59,9 +119,9 @@
     
     
       var disqus_shortname = 'edyo';
-      var disqus_identifier = 'https:\/\/www.entredevyops.es\/podcasts.html';
-      var disqus_title = 'Podcasts';
-      var disqus_url = 'https:\/\/www.entredevyops.es\/podcasts.html';
+      var disqus_identifier = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-59.html';
+      var disqus_title = 'Podcast 59: Microkernels con Sergio López';
+      var disqus_url = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-59.html';
     
     </script>
     
@@ -134,6 +194,8 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <input type="submit" value="Buscar">
               </form>
               
+                
+              
               
                 <a id="main-menu-button" class="menu" data-action="menu" data-target="menu"
                     title="Menú"><i class="fas fa-bars"></i></a>
@@ -142,117 +204,103 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
           </nav>
 
 
-<header id="header" class="header has-cover">
-	<div class="inner">
-		<a class="header-title" href="https://www.entredevyops.es/">
-			<h1 class="header-name">Podcasts</h1>
-		</a>
-	</div>
-	
-	<div class="header-cover" style="background-image: url(/images/cover.jpg)"></div>
-	
-</header>
+<main class="content" role="main">
+    <article class="post">
+        <div class="inner">
 
-	<div id="post-index" class="container">
+            <div id="push">
 
-		<main class="content" role="main">
+                <header class="post-header">
+                
+                    <span class="post-meta">
+                        <span class="post-date">7 Oct 2020</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">37</span> palabras)</span></span>
+                    </span>
+                <div class="clear"></div>
+                
+                <h1 class="post-title">Podcast 59: Microkernels con Sergio López</h1>
+              </header>
 
-			<div class="post-list">
-				<div id="push">
+              <section class="post-content">
+                
+                    <audio controls="" class="podcast-player">
+                        <source src="https://podcast.edyo.es/podcast/edyo-59.mp3" type="audio/mpeg" />
+                        <a href="https://podcast.edyo.es/podcast/edyo-59.mp3">Podcast 59: Microkernels con Sergio López</a>
+                    </audio>
+                
+                  <p>En el episodio 59 del podcast hablaremos de Microkernels con Sergio López.</p>
 
-			
+<p></p>
 
-			
-			  
-<article class="post podcasts">
+<p>Enlaces comentados:</p>
 
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-episodio-8.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-episodio-8.html"><img src="/images/shellshock.png" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">23 Nov 2014</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-episodio-8.html">Podcast 8: Shellshock y Poodle</a></h2>
-		<p class="post-excerpt">Aunque con algo de retraso, os anunciamos la disponibilidad del octavo episodio de nuestro podcast, que publicamos hace unos días.
-Tras la publicación de las vulnerabilidades Shellshock y Poodle, grabamos un debate sobre las vulnerabilidades y la reacción a ellas, que os ofrecemos en este episodio.</p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-episodio-8.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Microkernel" target="_blank">Definición Microkernel Wikipedia</a></li>
+<li><a href="https://www.cs.vu.nl/pub/amoeba/" target="_blank">AmoebaOS</a></li>
+<li><a href="https://os.beowulfchain.com/" target="_blank">Beowulf</a></li>
+<li><a href="https://www.cs.cmu.edu/afs/cs/project/mach/public/www/mach.html" target="_blank">Mach</a></li>
+<li><a href="https://es.wikipedia.org/wiki/Open_Software_Foundation" target="_blank">Open Software Foundation</a></li>
+<li><a href="https://www.opengroup.org/" target="_blank">Open Group</a></li>
+<li><a href="https://www.gnu.org/software/hurd/hurd.html" target="_blank">GNU Hurd</a></li>
+<li><a href="https://www.minix3.org/index.html" target="_blank">Minix 3</a></li>
+<li><a href="https://fuchsia.dev/" target="_blank">Google Fuchsia</a></li>
+<li><a href="https://blackberry.qnx.com/en" target="_blank">QNX</a></li>
+<li><a href="https://genode.org/documentation/platforms/okl4" target="_blank">OKL4</a></li>
+<li><a href="https://sel4.systems/" target="_blank">SEL4</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unikernel" target="_blank">Unikernels</a></li>
+<li><a href="https://twitter.com/slpnix" target="_blank">Twitter</a></li>
+<li><a href="https://fosstodon.org/@slp" target="_blank">Mastodon</a></li>
+</ul>
+              </section>
 
-			
-			  
-<article class="post podcasts">
+              <footer class="post-footer">
+                  <div class="post-tags">
+            
+                  </div>
+                
+                    <div class="post-share">
+                        <a href="https://twitter.com/share?text=Podcast%2059%3a%20Microkernels%20con%20Sergio%20L%c3%b3pez&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-59.html"
+                           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <i class="fab fa-twitter"/></i><span>Twitter</span>
+                        </a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-59.html&title=Podcast%2059%3a%20Microkernels%20con%20Sergio%20L%c3%b3pez&summary=En%20el%20episodio%2059%20del%20podcast%20hablaremos%20de%20Microkernels%20con%20Sergio%20L%c3%b3pez.%0a%0a"
+                           onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
+                        </a>
+                    </div>
+            
+              </footer>
 
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-episodio-7.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-episodio-7.html"><img src="/images/mic.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">16 Oct 2014</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-episodio-7.html">Podcast 7: Entrevista a Josep Pla</a></h2>
-		<p class="post-excerpt"><div class="document">
+            
+                <aside class="post-comments">
+    
+    
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+</aside>
 
+            
+            </div>
 
-<p>Hoy hemos publicado el episodio número 7 de nuestro podcast. Esta vez nos hemos pasado un poco y el episodio es un poco largo, prometemos no repetirlo en el futuro, o partirlo en dos.</p>
-<p>En esta ocasión hemos entrevistado a Josep Pla, administrador de sistemas en <a class="reference external" href="http://www.upptalk.com/">Upptalk</a>, sobre algunas herramientas que usan, entre otros temas.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-episodio-7.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
+            <nav class="post-nav">
+                
+                
+                    <a class="post-nav-item post-nav-prev" href="https://www.entredevyops.es/podcasts/podcast-58.html">
+                        <section class="post-nav-teaser">
+                            <span class="post-nav-icon"><i class="fas fa-chevron-right"></i></span>
+                            <span class="post-nav-info">
+                                <h4 class="post-nav-title">Podcast 58: COBOL, el nuevo Ave Fénix con Joan Trench</h4>
+                            </span>
+                        </section>
+                    </a>
+                
+                <div class="clear"></div>
+            </nav>
 
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-episodio-6.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-episodio-6.html"><img src="/images/david-poblador.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">28 Sep 2014</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-episodio-6.html">Podcast 6: Entrevista a David Poblador</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<p>El pasado 25 de Agosto publicamos el episodio número 6 de nuestro podcast.</p>
-<p>En esta última entrada tenemos el placer de realizar una entrevista a <a class="reference external" href="https://davidpoblador.com/">David Poblador</a>, jefe de SRE de <a class="reference external" href="https://www.spotify.com">Spotify</a>.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-episodio-6.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-
-				</div>
-			</div>
-
-			<nav id="pagination" class="pagination" role="pagination">
-	<div class="inner">
-	
-    <a class="pagination-item pagination-next" href="https://www.entredevyops.es/podcasts/page/11.html"><i class="fas fa-chevron-left"></i> <span>Anterior</span></a>
-	
-		<span class="pagination-info">Página 12 de 12</span>
-	
-		<div class="clear"></div>
-	</div>
-</nav>
-
-
-		</main>
-
-	</div>
+        </div>
+    </article>
+</main>
 
                 <div id="body-class" style="display: none;"></div>
                 <footer id="footer">
