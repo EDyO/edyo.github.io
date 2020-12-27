@@ -6,10 +6,22 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 07 Oct 2020 11:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Dec 2020 22:52:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 60: Incidentes en el cloud, Servicios de AWS y equipos distribuidos</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-60.html</link>
+      <pubDate>Sun, 27 Dec 2020 22:52:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-60.html</guid>
+      <description>&lt;p&gt;En este episodio del podcast hablaremos de incidentes en el cloud, servicios de AWS y equipos
+distribuidos.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 59: Microkernels con Sergio López</title>

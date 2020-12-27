@@ -1,21 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="es-es">
 
     <head>
-	<meta name="generator" content="Hugo 0.42.1" />
 
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <meta property="og:title" content=" Entre Dev y Ops" />
+        <meta property="og:title" content=" Podcast 60: Incidentes en el cloud, Servicios de AWS y equipos distribuidos &middot;  Entre Dev y Ops" />
         <meta property="og:site_name" content="Entre Dev y Ops" />
-        <meta property="og:url" content="https://www.entredevyops.es/" />
+        <meta property="og:url" content="https://www.entredevyops.es/podcasts/podcast-60.html" />
 
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2020-12-27T22:52:00Z" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@entredevyops" />
+        <meta name="twitter:creator" content="@entredevyops" />
+        <meta name="twitter:title" content="Podcast 60: Incidentes en el cloud, Servicios de AWS y equipos distribuidos" />
+        
+          <meta name="twitter:image" content="https://www.entredevyops.es/images/newspaper_and_laptop.jpg" />
+        
+        <meta name="twitter:description" content="En este episodio del podcast hablaremos de incidentes en el cloud, servicios de AWS y equipos
+distribuidos.
+
+" />
+        <meta name="twitter:url" content="https://www.entredevyops.es/podcasts/podcast-60.html" />
+        <meta name="telegram:channel" content="@entredevyops" />
     
 
-        <title> Entre Dev y Ops</title>
+        <title> Podcast 60: Incidentes en el cloud, Servicios de AWS y equipos distribuidos &middot;  Entre Dev y Ops</title>
 
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
@@ -45,12 +61,58 @@
         
 
     
+        <link href="https://www.entredevyops.es/index.xml" rel="alternate" type="application/rss+xml" title="Entre Dev y Ops" />
+    
 
     
-        <link href="https://www.entredevyops.es/rss.xml" rel="alternate" type="application/rss+xml" title="Entre Dev y Ops" />
-    
-        <link rel="canonical" href="https://www.entredevyops.es/" />
+        <link rel="canonical" href="https://www.entredevyops.es/podcasts/podcast-60.html" />
 
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.entredevyops.es/podcasts/podcast-60.html"
+        },
+        "headline": "Podcast 60: Incidentes en el cloud, Servicios de AWS y equipos distribuidos",
+        "description": "",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.entredevyops.es/",
+          "name": "Entre Dev y Ops",
+          "url": "https://www.entredevyops.es/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.entredevyops.es/newspaper_and_laptop.jpg",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2020-12-27",
+        "dateModified": "2020-12-27",
+        "wordCount": 88,
+        
+    }
+    </script>
 
 
     
@@ -58,9 +120,9 @@
     
     
       var disqus_shortname = 'edyo';
-      var disqus_identifier = 'https:\/\/www.entredevyops.es\/';
-      var disqus_title = 'Entre Dev y Ops';
-      var disqus_url = 'https:\/\/www.entredevyops.es\/';
+      var disqus_identifier = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-60.html';
+      var disqus_title = 'Podcast 60: Incidentes en el cloud, Servicios de AWS y equipos distribuidos';
+      var disqus_url = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-60.html';
     
     </script>
     
@@ -133,6 +195,8 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <input type="submit" value="Buscar">
               </form>
               
+                
+              
               
                 <a id="main-menu-button" class="menu" data-action="menu" data-target="menu"
                     title="Menú"><i class="fas fa-bars"></i></a>
@@ -141,193 +205,108 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
           </nav>
 
 
-	<header id="header" class="header has-cover">
-		<div class="inner">
-			<a class="header-title" href="https://www.entredevyops.es/">
-				<h1 class="header-name">Entre Dev y Ops</h1>
-				
-					<span class="header-description">El podcast en el que hablamos sobre desarrollo de aplicaciones, operaciones de sistemas informáticos y todo lo relacionado con la filosofía DevOps</span>
-				
-			</a>
-		</div>
-		
-			
-    <div id="front-page-menu" class="inner">
-        
-        
-        <span class="menu-list-item">
-            <i class="fas fa-rss"></i>
-            <a href="/suscribete.html">Suscríbete</a>
+<main class="content" role="main">
+    <article class="post">
+        <div class="inner">
+
+            <div id="push">
+
+                <header class="post-header">
+                
+                    <span class="post-meta">
+                        <span class="post-date">27 Dec 2020</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">88</span> palabras)</span></span>
+                    </span>
+                <div class="clear"></div>
+                
+                <h1 class="post-title">Podcast 60: Incidentes en el cloud, Servicios de AWS y equipos distribuidos</h1>
+              </header>
+
+              <section class="post-content">
+                
+                    <audio controls="" class="podcast-player">
+                        <source src="https://podcast.edyo.es/podcast/edyo-60.mp3" type="audio/mpeg" />
+                        <a href="https://podcast.edyo.es/podcast/edyo-60.mp3">Podcast 60: Incidentes en el cloud, Servicios de AWS y equipos distribuidos</a>
+                    </audio>
+                
+                  <p>En este episodio del podcast hablaremos de incidentes en el cloud, servicios de AWS y equipos
+distribuidos.</p>
+
+<p></p>
+
+<p>Enlaces comentados:</p>
+
+<ul>
+<li><a href="https://www.zdnet.com/article/google-heres-what-caused-our-big-global-outage/" target="_blank">Artículo ZDNet sobre el outage de Google</a></li>
+<li><a href="https://github.com/Netflix/SimianArmy/wiki" target="_blank">Simian Army</a></li>
+<li><a href="https://github.com/zudochkin/awesome-newsletters" target="_blank">Awesome Newsletters</a></li>
+<li><a href="https://foundation.mozilla.org/es/privacynotincluded/" target="_blank">Mozilla: Privacidad no incluida</a></li>
+<li><a href="https://haveibeenpwned.com/" target="_blank">Have I been pwned</a></li>
+<li><a href="https://monitor.firefox.com/" target="_blank">Privacy monitor</a></li>
+<li><a href="https://fasterthanli.me/articles/i-want-off-mr-golangs-wild-ride" target="_blank">Rant sobre Go</a></li>
+<li><a href="https://medium.com/unusual-ventures/why-standups-are-useless-and-how-to-run-great-product-team-meetings-278f000ea64f" target="_blank">Rant sobre Standups</a></li>
+<li><a href="https://github.com/Azure/bicep" target="_blank">Azure Bicep</a></li>
+<li><a href="https://future.works/techconference/distributed-teams-conference2020/#tickets" target="_blank">Distributed Teams Conf 2020</a></li>
+<li><a href="https://emojipedia.org/" target="_blank">Emojipedia</a></li>
+<li><a href="https://cookiepedia.co.uk/" target="_blank">Cookiepedia</a></li>
+<li><a href="https://aws.amazon.com/es/fis/" target="_blank">AWS Fault Injection Simulator</a></li>
+<li><a href="https://www.mturk.com/" target="_blank">Amazon Mechanical Turk</a></li>
+<li><a href="https://status.cloud.google.com/incident/zall/20013" target="_blank">Google Incident 14-12-2020</a></li>
+<li><a href="https://es.wikipedia.org/wiki/Teorema_CAP" target="_blank">Teorema CAP</a></li>
+</ul>
+
+<p><strong>ERRATA:</strong> En el minuto 49:20, Ignasi menciona haber asistido a una conferencia llamada Distributed
+Matters. La conferencia es Distributed Teams Conf 2020.</p>
+              </section>
+
+              <footer class="post-footer">
+                  <div class="post-tags">
             
-        </span>
-        
-        
-        <span class="menu-list-item">
-            <i class="fas fa-donate"></i>
-            <a href="/ayudanos.html">Ayúdanos</a>
+                  </div>
+                
+                    <div class="post-share">
+                        <a href="https://twitter.com/share?text=Podcast%2060%3a%20Incidentes%20en%20el%20cloud%2c%20Servicios%20de%20AWS%20y%20equipos%20distribuidos&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-60.html"
+                           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <i class="fab fa-twitter"/></i><span>Twitter</span>
+                        </a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-60.html&title=Podcast%2060%3a%20Incidentes%20en%20el%20cloud%2c%20Servicios%20de%20AWS%20y%20equipos%20distribuidos&summary=En%20este%20episodio%20del%20podcast%20hablaremos%20de%20incidentes%20en%20el%20cloud%2c%20servicios%20de%20AWS%20y%20equipos%20distribuidos.%0a%0a"
+                           onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
+                        </a>
+                    </div>
             
-        </span>
-        
-    </div>
-
-
-		
-		
-		<div class="header-cover blured-image" style="background-color: #19a0d7; background-image: url(/images/cover.low.jpg)" data-src="/images/cover.jpg"></div>
-		
-	</header>
-
-	<div id="post-index" class="container">
-
-		<main class="content" role="main">
-
-			<div class="post-list">
-				<div id="push">
+              </footer>
 
             
+                <aside class="post-comments">
+    
+    
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+</aside>
 
-			
-			  
-<article class="post posts">
+            
+            </div>
 
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/sdn-nfv-wtf.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">22 Jul 2014</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/sdn-nfv-wtf.html">SDN... NFV... ¿WTF?</a></h2>
-		<p class="post-excerpt"><div class="document">
+            <nav class="post-nav">
+                
+                
+                    <a class="post-nav-item post-nav-prev" href="https://www.entredevyops.es/podcasts/podcast-59.html">
+                        <section class="post-nav-teaser">
+                            <span class="post-nav-icon"><i class="fas fa-chevron-right"></i></span>
+                            <span class="post-nav-info">
+                                <h4 class="post-nav-title">Podcast 59: Microkernels con Sergio López</h4>
+                            </span>
+                        </section>
+                    </a>
+                
+                <div class="clear"></div>
+            </nav>
 
-
-<p>¿WTF? Esas serán probablemente las tres consonantes con las que alguien nos responderá si le empezamos a hablar de NFV. O puede que nos contesten “no tomo drogas, gracias“ si nos acercamos a contarle las bondades del SDN. En realidad, ambos grupos de consonantes son siglas relacionadas con una serie de conceptos en auge en el mundo del networking y muy cercanos a la filosofía DevOps, conceptos sobre los cuales queremos arrojar algo de luz con una serie de artículos que empezamos hoy.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/sdn-nfv-wtf.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/digitalocean-nueva-region-londres.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">15 Jul 2014</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/digitalocean-nueva-region-londres.html">DigitalOcean anuncia nueva región en Londres</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<img alt="Digital Ocean" class="align-right" src="/images/digitalocean_logo.png" style="width: 200px; height: 122px;" />
-<p><a class="reference external" href="http://www.digitalocean.com">DigitalOcean</a> ha anunciado hoy <a class="reference external" href="https://www.digitalocean.com/company/blog/introducing-our-london-region/">en su blog</a> la disponibilidad de una nueva región para la creación de <a class="reference external" href="https://www.digitalocean.com/help/technical/general/">droplets</a> (denominación de este servicio para instancias de servidores), esta nueva región ubicada en Londres es la tercera que este servicio dispone ya en Europa, junto a las dos existentes en Amsterdam.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/digitalocean-nueva-region-londres.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/primeros-pasos-openstack.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">9 Jul 2014</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/primeros-pasos-openstack.html">Primeros pasos con OpenStack</a></h2>
-		<p class="post-excerpt"><p>Continuando con nuestro pequeño laboratorio OpenStack necesitamos crear las nuevas redes.</p>
-
-<p></p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/primeros-pasos-openstack.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/ssh-acceso-remoto-servidores.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">5 Jul 2014</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/ssh-acceso-remoto-servidores.html">SSH: Acceso remoto a servidores</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<p>Este artículo es el primero de una serie dedicada al protocolo <a class="reference external" href="https://es.wikipedia.org/wiki/Secure_Shell">SSH o Secure Shell</a>, un protocolo de acceso remoto a servidores altamente extendido en sistemas UN*X como GNU/Linux o FreeBSD. En los artículos trataremos de explicar el uso básico de este protocolo e iremos profundizando más en las capacidades avanzadas disponibles.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/ssh-acceso-remoto-servidores.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2014.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">5 Jul 2014</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2014.html">Anuncio de la NoSQL matters BCN 2014</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<img alt="NoSQL matters" class="align-left" src="/images/logo_nosqlmatters.png" />
-<p>¡<a class="reference external" href="http://2014.nosql-matters.org/cgn/">NoSQL matters</a> te da la bienvenida a la tercera edición de nuestra conferencia en Barcelona! El 21 y 22 de noviembre la hermosa <a class="reference external" href="http://www.uab-casaconvalescencia.org/en/index.php">Casa de la Convalescència</a> abrirá sus puertas a nuestros participantes hambrientos de aventura. ¡Acércate y disfruta de este gran evento con nosotros! Como conferencia consistente en un día de formación interactiva y otro día de charlas informativas, <a class="reference external" href="http://2014.nosql-matters.org/bcn/">NoSQL matters Barcelona</a> es el evento ideal para desarrolladores, arquitectos y <em>geeks</em>. Tendrás la oportunidad de contactar con los expertos líderes en NoSQL de todo el mundo, disfrutar de excitantes conversaciones o simplemente pasártelo en grande hackeando con otros participantes.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2014.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/laboratorio-pruebas.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">2 Jul 2014</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/laboratorio-pruebas.html">Laboratorio de pruebas</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<p>Vamos a empezar una serie de artículos que en los que vamos a realizar instalaciones y pruebas, para poder empezar necesitaremos crear nuestro laboratorio, en este caso vamos a utilizar un ordenador físico, un pequeño servidor al cual le vamos a instalar un <a class="reference external" href="https://www.openstack.org">OpenStack</a> siguiendo el sistema de <a class="reference external" href="http://openstack.redhat.com">Packstack</a> de Redhat que permite instalar todos los componentes de OpenStack en una única máquina prácticamente sin dolor.</p>
-<p></p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/laboratorio-pruebas.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-
-				</div>
-			</div>
-
-			<nav id="pagination" class="pagination" role="pagination">
-	<div class="inner">
-	
-    <a class="pagination-item pagination-next" href="https://www.entredevyops.es/page/21.html"><i class="fas fa-chevron-left"></i> <span>Anterior</span></a>
-	
-		<span class="pagination-info">Página 22 de 34</span>
-	
-    <a class="pagination-item pagination-prev" href="https://www.entredevyops.es/page/23.html"><span>Siguiente</span> <i class="fas fa-chevron-right"></i></a>
-	
-		<div class="clear"></div>
-	</div>
-</nav>
-
-
-		</main>
-
-	</div>
+        </div>
+    </article>
+</main>
 
                 <div id="body-class" style="display: none;"></div>
                 <footer id="footer">
