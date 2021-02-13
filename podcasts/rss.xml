@@ -6,10 +6,21 @@
     <description>Recent content in Podcasts on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 05 Feb 2021 16:20:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Feb 2021 19:32:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Píldora 16: Elastic vs AWS, guerra de licencias</title>
+      <link>https://www.entredevyops.es/podcasts/pildora-16.html</link>
+      <pubDate>Sat, 13 Feb 2021 19:32:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/pildora-16.html</guid>
+      <description>&lt;p&gt;En la píldora 16 del podcast hablaremos sobre el cambio en las licencias de Elastic y la respuesta de AWS.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 61: Trabajando durante la pandemia</title>
