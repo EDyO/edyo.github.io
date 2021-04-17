@@ -6,10 +6,21 @@
     <description>Recent content in Podcasts on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 28 Feb 2021 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Apr 2021 01:45:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 62: KrakenD</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-62.html</link>
+      <pubDate>Sat, 17 Apr 2021 01:45:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-62.html</guid>
+      <description>&lt;p&gt;En el episodio 62 del podcast hablaremos con Albert Lombarte y Daniel Ortiz de KrakenD.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Píldora 17: FOSDEM 2021</title>
