@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sat, 17 Apr 2021 01:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jun 2021 14:40:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 63: Cambios en Basecamp</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-63.html</link>
+      <pubDate>Wed, 02 Jun 2021 14:40:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-63.html</guid>
+      <description>&lt;p&gt;En el episodio 63 del podcast hablaremos de los cambios en las políticas internas de Basecamp.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 62: KrakenD</title>
