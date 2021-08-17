@@ -1,21 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="es-es">
 
     <head>
-	<meta name="generator" content="Hugo 0.42.1" />
 
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <meta property="og:title" content="Entre Dev y Ops &middot; Entre Dev y Ops" />
+        <meta property="og:title" content="Podcast 64: Policy as Code &middot; Entre Dev y Ops" />
         <meta property="og:site_name" content="Entre Dev y Ops" />
-        <meta property="og:url" content="https://www.entredevyops.es/" />
+        <meta property="og:url" content="https://www.entredevyops.es/podcasts/podcast-64.html" />
 
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2021-08-17T22:00:00Z" />
+        <meta property="og:image" content="https://www.entredevyops.es/images/opa-logo.png" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@entredevyops" />
+        <meta name="twitter:creator" content="@entredevyops" />
+        <meta name="twitter:title" content="Podcast 64: Policy as Code" />
+        
+          <meta name="twitter:image" content="https://www.entredevyops.es/images/opa-logo.png" />
+        
+        <meta name="twitter:description" content="En el episodio 64 del podcast hablaremos de Política como código.
+
+" />
+        <meta name="twitter:url" content="https://www.entredevyops.es/podcasts/podcast-64.html" />
+        <meta name="telegram:channel" content="@entredevyops" />
     
 
-        <title> Entre Dev y Ops &middot;  Entre Dev y Ops</title>
+        <title> Podcast 64: Policy as Code &middot;  Entre Dev y Ops</title>
 
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
@@ -49,10 +65,54 @@
     
 
     
-        <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Entre Dev y Ops &middot; Entre Dev y Ops" />
-    
-        <link rel="canonical" href="https://www.entredevyops.es/" />
+        <link rel="canonical" href="https://www.entredevyops.es/podcasts/podcast-64.html" />
 
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.entredevyops.es/podcasts/podcast-64.html"
+        },
+        "headline": "Podcast 64: Policy as Code",
+        "description": "",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.entredevyops.es/",
+          "name": "Entre Dev y Ops",
+          "url": "https://www.entredevyops.es/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.entredevyops.es/opa-logo.png",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2021-08-17",
+        "dateModified": "2021-08-17",
+        "wordCount": 53,
+        
+    }
+    </script>
 
 
     
@@ -60,9 +120,9 @@
     
     
       var disqus_shortname = 'edyo';
-      var disqus_identifier = 'https:\/\/www.entredevyops.es\/';
-      var disqus_title = 'Entre Dev y Ops';
-      var disqus_url = 'https:\/\/www.entredevyops.es\/';
+      var disqus_identifier = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-64.html';
+      var disqus_title = 'Podcast 64: Policy as Code';
+      var disqus_url = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-64.html';
     
     </script>
     
@@ -135,6 +195,8 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <input type="submit" value="Buscar">
               </form>
               
+                
+              
               
                 <a id="main-menu-button" class="menu" data-action="menu" data-target="menu"
                     title="Menú"><i class="fas fa-bars"></i></a>
@@ -143,205 +205,104 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
           </nav>
 
 
-	<header id="header" class="header has-cover">
-		<div class="inner">
-			<a class="header-title" href="https://www.entredevyops.es/">
-				<h1 class="header-name">Entre Dev y Ops</h1>
-				
-					<span class="header-description">El podcast en el que hablamos sobre desarrollo de aplicaciones, operaciones de sistemas informáticos y todo lo relacionado con la filosofía DevOps</span>
-				
-			</a>
-		</div>
-		
-			
-    <div id="front-page-menu" class="inner">
-        
-        
-        <span class="menu-list-item">
-            <i class="fas fa-rss"></i>
-            <a href="/suscribete.html">Suscríbete</a>
+<main class="content" role="main">
+    <article class="post">
+        <div class="inner">
+
+            <div id="push">
+
+                <header class="post-header">
+                
+                    <span class="post-meta">
+                        <span class="post-date">17 Aug 2021</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">53</span> palabras)</span></span>
+                    </span>
+                <div class="clear"></div>
+                
+                <h1 class="post-title">Podcast 64: Policy as Code</h1>
+              </header>
+
+              <section class="post-content">
+                
+                    <audio controls="" class="podcast-player">
+                        <source src="https://podcast.edyo.es/podcast/edyo-64.mp3" type="audio/mpeg" />
+                        <a href="https://podcast.edyo.es/podcast/edyo-64.mp3">Podcast 64: Policy as Code</a>
+                    </audio>
+                
+                  <p>En el episodio 64 del podcast hablaremos de Política como código.</p>
+
+<p></p>
+
+<p>Enlaces comentados:</p>
+
+<ul>
+<li><a href="https://docs.hashicorp.com/sentinel/concepts/policy-as-code" target="_blank">Definición de Policy as Code by Hashicorp</a></li>
+<li><a href="https://docs.hashicorp.com/sentinel" target="_blank">Hashicorp Sentinel</a></li>
+<li><a href="https://aws.amazon.com/es/blogs/mt/introducing-aws-cloudformation-guard-2-0/" target="_blank">AWS CloudFormation Guard</a></li>
+<li><a href="https://github.com/aws-cloudformation/cloudformation-guard" target="_blank">AWS CloudFormation Guard GitHub repo</a></li>
+<li><a href="https://www.openpolicyagent.org/" target="_blank">Open Policy Agent</a></li>
+<li><a href="https://www.cisecurity.org/benchmark/amazon_web_services/" target="_blank">CIS AWS </a></li>
+<li><a href="https://aws.amazon.com/es/cdk/" target="_blank">AWS CDK</a></li>
+<li><a href="https://aws.amazon.com/es/cloudformation/" target="_blank">AWS Cloudformation</a></li>
+<li><a href="https://www.terraform.io/" target="_blank">Terraform</a></li>
+<li><a href="https://www.envoyproxy.io/docs/envoy/latest/intro/what_is_envoy" target="_blank">Envoy</a></li>
+<li><a href="https://landscape.cncf.io/" target="_blank">Cloud Native Foundation Landscape</a></li>
+<li><a href="https://www.redhat.com/es/topics/devops/what-is-gitops" target="_blank">GitOps</a></li>
+<li><a href="https://twitter.com/ciberado/status/1422464468492169219" target="_blank">Tweet de Javier Moreno</a></li>
+<li><a href="https://twitter.com/hashtag/Infinidash" target="_blank">Infinidash</a></li>
+<li><a href="https://cfripper.readthedocs.io/" target="_blank">CFRipper</a></li>
+<li><a href="https://www.conftest.dev/" target="_blank">Conftest</a></li>
+</ul>
+              </section>
+
+              <footer class="post-footer">
+                  <div class="post-tags">
             
-        </span>
-        
-        
-        <span class="menu-list-item">
-            <i class="fas fa-donate"></i>
-            <a href="/ayudanos.html">Ayúdanos</a>
+                  </div>
+                
+                    <div class="post-share">
+                        <a href="https://twitter.com/share?text=Podcast%2064%3a%20Policy%20as%20Code&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-64.html"
+                           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <i class="fab fa-twitter"/></i><span>Twitter</span>
+                        </a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-64.html&title=Podcast%2064%3a%20Policy%20as%20Code&summary=En%20el%20episodio%2064%20del%20podcast%20hablaremos%20de%20Pol%c3%adtica%20como%20c%c3%b3digo.%0a%0a"
+                           onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
+                        </a>
+                    </div>
             
-        </span>
-        
-    </div>
-
-
-		
-		
-		<div class="header-cover blured-image" style="background-color: #19a0d7; background-image: url(/images/cover.low.jpg)" data-src="/images/cover.jpg"></div>
-		
-	</header>
-
-	<div id="post-index" class="container">
-
-		<main class="content" role="main">
-
-			<div class="post-list">
-				<div id="push">
+              </footer>
 
             
+                <aside class="post-comments">
+    
+    
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+</aside>
 
-			
-			  
-<article class="post podcasts">
+            
+            </div>
 
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/pildora-13.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/pildora-13.html"><img src="/images/web-project.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">20 Oct 2019</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/pildora-13.html">Píldora 13: Charla Deliveritis Aguda de Carlos Buenosvinos</a></h2>
-		<p class="post-excerpt"><p>En la píldora 13 del podcast hablaremos de la charla de Carlos Buenosvinos titulada Deliveritis Aguda que dió en el CTO Summit 2019.</p>
+            <nav class="post-nav">
+                
+                
+                    <a class="post-nav-item post-nav-prev" href="https://www.entredevyops.es/podcasts/podcast-63.html">
+                        <section class="post-nav-teaser">
+                            <span class="post-nav-icon"><i class="fas fa-chevron-right"></i></span>
+                            <span class="post-nav-info">
+                                <h4 class="post-nav-title">Podcast 63: Cambios en Basecamp</h4>
+                            </span>
+                        </section>
+                    </a>
+                
+                <div class="clear"></div>
+            </nav>
 
-<p></p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/pildora-13.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-50.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-50.html"><img src="/images/leader.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">25 Sep 2019</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-50.html">Podcast 50: ¿Quiero ser manager?</a></h2>
-		<p class="post-excerpt"><p>En este episodio número 50, debatimos sobre el rol del manager o team lead.</p>
-
-<p></p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-50.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/pildora-12.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/pildora-12.html"><img src="/images/logo-dtp.png" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">18 Aug 2019</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/pildora-12.html">Píldora 12: Data Transfer Project</a></h2>
-		<p class="post-excerpt"><p>En la píldora 12 de nuestro podcast hablamos sobre el Data Transfer Project.</p>
-
-<p></p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/pildora-12.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-49.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-49.html"><img src="/images/board.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">17 Apr 2019</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-49.html">Podcast 49: Agile con Jaume Jornet</a></h2>
-		<p class="post-excerpt"><p>En este episodio, el número 49, hablamos de Agile con Jaume Jornet.</p>
-
-<p></p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-49.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/pildora-11.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/pildora-11.html"><img src="/images/f5_nginx.png" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">17 Mar 2019</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/pildora-11.html">Píldora 11: F5 compra NGINX</a></h2>
-		<p class="post-excerpt"><p>En esta píldora del podcast de <a href="https://www.entredevyops.es/" target="_blank">https://www.entredevyops.es/</a> hablamos sobre la compra de NGINX por parte de F5.</p>
-
-<p></p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/pildora-11.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-48.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-48.html"><img src="/images/datacenter-lights.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">10 Mar 2019</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-48.html">Podcast 48: ¿Se te ha roto producción?</a></h2>
-		<p class="post-excerpt"><p>En el episodio 48 del podcast de <a href="https://www.entredevyops.es/" target="_blank">https://www.entredevyops.es/</a> hablamos sobre la gestión de incidentes.</p>
-
-<p></p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-48.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-
-				</div>
-			</div>
-
-			<nav id="pagination" class="pagination" role="pagination">
-	<div class="inner">
-	
-    <a class="pagination-item pagination-next" href="https://www.entredevyops.es/page/3.html"><i class="fas fa-chevron-left"></i> <span>Anterior</span></a>
-	
-		<span class="pagination-info">Página 4 de 35</span>
-	
-    <a class="pagination-item pagination-prev" href="https://www.entredevyops.es/page/5.html"><span>Siguiente</span> <i class="fas fa-chevron-right"></i></a>
-	
-		<div class="clear"></div>
-	</div>
-</nav>
-
-
-		</main>
-
-	</div>
+        </div>
+    </article>
+</main>
 
                 <div id="body-class" style="display: none;"></div>
                 <footer id="footer">
