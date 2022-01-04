@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 17 Aug 2021 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Jan 2022 17:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 65: Confidential Computing</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-65.html</link>
+      <pubDate>Tue, 04 Jan 2022 17:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-65.html</guid>
+      <description>&lt;p&gt;En el episodio 65 del podcast de Entre Dev y Ops hablaremos sobre Confidential Computing con Sergio López.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 64: Policy as Code</title>
