@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es-es">
 
@@ -6,15 +7,31 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <meta property="og:title" content="Podcasts &middot; Entre Dev y Ops" />
+        <meta property="og:title" content="Podcast 66: ¿Qué ha pasado con mis dependencias? &middot; Entre Dev y Ops" />
         <meta property="og:site_name" content="Entre Dev y Ops" />
-        <meta property="og:url" content="https://www.entredevyops.es/podcasts.html" />
+        <meta property="og:url" content="https://www.entredevyops.es/podcasts/podcast-66.html" />
 
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2022-01-15T00:30:00Z" />
+        <meta property="og:image" content="https://www.entredevyops.es/images/domino.jpg" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@entredevyops" />
+        <meta name="twitter:creator" content="@entredevyops" />
+        <meta name="twitter:title" content="Podcast 66: ¿Qué ha pasado con mis dependencias?" />
+        
+          <meta name="twitter:image" content="https://www.entredevyops.es/images/domino.jpg" />
+        
+        <meta name="twitter:description" content="En el episodio 66 del podcast de Entre Dev y Ops hablaremos sobre lo que ha ocurrido recientemente con color.js y faker.js.
+
+" />
+        <meta name="twitter:url" content="https://www.entredevyops.es/podcasts/podcast-66.html" />
+        <meta name="telegram:channel" content="@entredevyops" />
     
 
-        <title> Podcasts &middot;  Entre Dev y Ops</title>
+        <title> Podcast 66: ¿Qué ha pasado con mis dependencias? &middot;  Entre Dev y Ops</title>
 
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
@@ -48,10 +65,54 @@
     
 
     
-        <link href="/podcasts/rss.xml" rel="alternate" type="application/rss+xml" title="Podcasts &middot; Entre Dev y Ops" />
-    
-        <link rel="canonical" href="https://www.entredevyops.es/podcasts.html" />
+        <link rel="canonical" href="https://www.entredevyops.es/podcasts/podcast-66.html" />
 
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.entredevyops.es/podcasts/podcast-66.html"
+        },
+        "headline": "Podcast 66: ¿Qué ha pasado con mis dependencias?",
+        "description": "",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.entredevyops.es/",
+          "name": "Entre Dev y Ops",
+          "url": "https://www.entredevyops.es/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.entredevyops.es/domino.jpg",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2022-01-15",
+        "dateModified": "2022-01-15",
+        "wordCount": 94,
+        
+    }
+    </script>
 
 
     
@@ -59,9 +120,9 @@
     
     
       var disqus_shortname = 'edyo';
-      var disqus_identifier = 'https:\/\/www.entredevyops.es\/podcasts.html';
-      var disqus_title = 'Podcasts';
-      var disqus_url = 'https:\/\/www.entredevyops.es\/podcasts.html';
+      var disqus_identifier = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-66.html';
+      var disqus_title = 'Podcast 66: ¿Qué ha pasado con mis dependencias?';
+      var disqus_url = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-66.html';
     
     </script>
     
@@ -134,6 +195,8 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <input type="submit" value="Buscar">
               </form>
               
+                
+              
               
                 <a id="main-menu-button" class="menu" data-action="menu" data-target="menu"
                     title="Menú"><i class="fas fa-bars"></i></a>
@@ -142,180 +205,99 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
           </nav>
 
 
-<header id="header" class="header has-cover">
-	<div class="inner">
-		<a class="header-title" href="https://www.entredevyops.es/">
-			<h1 class="header-name">Podcasts</h1>
-		</a>
-	</div>
-	
-	<div class="header-cover" style="background-image: url(/images/cover.jpg)"></div>
-	
-</header>
+<main class="content" role="main">
+    <article class="post">
+        <div class="inner">
 
-	<div id="post-index" class="container">
+            <div id="push">
 
-		<main class="content" role="main">
+                <header class="post-header">
+                
+                    <span class="post-meta">
+                        <span class="post-date">15 Jan 2022</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">94</span> palabras)</span></span>
+                    </span>
+                <div class="clear"></div>
+                
+                <h1 class="post-title">Podcast 66: ¿Qué ha pasado con mis dependencias?</h1>
+              </header>
 
-			<div class="post-list">
-				<div id="push">
+              <section class="post-content">
+                
+                    <audio controls="" class="podcast-player">
+                        <source src="https://podcast.edyo.es/podcast/edyo-66.mp3" type="audio/mpeg" />
+                        <a href="https://podcast.edyo.es/podcast/edyo-66.mp3">Podcast 66: ¿Qué ha pasado con mis dependencias?</a>
+                    </audio>
+                
+                  <p>En el episodio 66 del podcast de Entre Dev y Ops hablaremos sobre lo que ha ocurrido recientemente con color.js y faker.js.</p>
 
-			
+<p></p>
 
-			
-			  
-<article class="post podcasts">
+<p>Enlaces comentados:</p>
 
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-42.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-42.html"><img src="/images/salary.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">15 Jul 2018</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-42.html">Podcast 42: Tenemos que hablar</a></h2>
-		<p class="post-excerpt"><p>En el episodio 42 del podcast de <a href="http://www.entredevyops.es/" target="_blank">http://www.entredevyops.es/</a> hablaremos sobre el sistema de retribución en el mundo IT.</p>
+<ul>
+<li><a href="https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/" target="_blank">Artículo en Bleeping Computer</a></li>
+<li><a href="https://twitter.com/marak/status/1479200803948830724" target="_blank">Tweet de Marak al tener su cuenta en GitHub bloqueada</a></li>
+<li><a href="https://docs.github.com/es/github/site-policy/github-terms-of-service#c-acceptable-use" target="_blank">Términos de servicio de GitHub</a></li>
+<li><a href="https://docs.github.com/es/github/site-policy/github-community-guidelines" target="_blank">Pautas de la comunidad de GitHub</a></li>
+<li><a href="https://qz.com/646467/how-one-programmer-broke-the-internet-by-deleting-a-tiny-piece-of-code/" target="_blank">Artículo sobre el caso de leftpad</a></li>
+<li><a href="https://techlog360.com/youtube-dl-removed-from-github/" target="_blank">Artículo sobre la eliminación de youtube-dl de GitHub</a></li>
+<li><a href="https://www.theverge.com/2020/11/17/21571473/github-youtube-dl-downloader-riaa-copyright-1201-takedown-reinstated#:~:text=The%20Recording%20Industry%20Association%20of,the%20Digital%20Millennium%20Copyright%20Act." target="_blank">Artículo sobre la reinstauración de youtube-dl en GitHub</a></li>
+<li><a href="https://es.wikipedia.org/wiki/Aaron_Swartz" target="_blank">Artículo de la wikipedia sobre Aaron Swartz</a></li>
+<li><a href="https://www.youtube.com/watch?v=yzlcV-BMK6I " target="_blank">Reportaje La historia de Aaron Swartz</a></li>
+<li><a href="https://lucumr.pocoo.org/2022/1/10/dependency-risk-and-funding/" target="_blank">Post de Armin Ronacher sobre el asunto</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Log4Shell" target="_blank">Log4j, vulnerabilidad Log4Shell</a></li>
+</ul>
+              </section>
 
-<p></p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-42.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
+              <footer class="post-footer">
+                  <div class="post-tags">
+            
+                  </div>
+                
+                    <div class="post-share">
+                        <a href="https://twitter.com/share?text=Podcast%2066%3a%20%c2%bfQu%c3%a9%20ha%20pasado%20con%20mis%20dependencias%3f&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-66.html"
+                           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <i class="fab fa-twitter"/></i><span>Twitter</span>
+                        </a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-66.html&title=Podcast%2066%3a%20%c2%bfQu%c3%a9%20ha%20pasado%20con%20mis%20dependencias%3f&summary=En%20el%20episodio%2066%20del%20podcast%20de%20Entre%20Dev%20y%20Ops%20hablaremos%20sobre%20lo%20que%20ha%20ocurrido%20recientemente%20con%20color.js%20y%20faker.js.%0a%0a"
+                           onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
+                        </a>
+                    </div>
+            
+              </footer>
 
-			
-			  
-<article class="post podcasts">
+            
+                <aside class="post-comments">
+    
+    
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+</aside>
 
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-pildora-5.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-pildora-5.html"><img src="/images/developer.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">30 Jun 2018</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-pildora-5.html">Píldora 5 - NoOps</a></h2>
-		<p class="post-excerpt"><p>En la quinta píldora del podcast de Entre Dev y Ops debatimos sobre NoOps.</p>
+            
+            </div>
 
-<p></p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-pildora-5.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
+            <nav class="post-nav">
+                
+                
+                    <a class="post-nav-item post-nav-prev" href="https://www.entredevyops.es/podcasts/podcast-65.html">
+                        <section class="post-nav-teaser">
+                            <span class="post-nav-icon"><i class="fas fa-chevron-right"></i></span>
+                            <span class="post-nav-info">
+                                <h4 class="post-nav-title">Podcast 65: Confidential Computing</h4>
+                            </span>
+                        </section>
+                    </a>
+                
+                <div class="clear"></div>
+            </nav>
 
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-41.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-41.html"><img src="/images/wifi.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">16 Jun 2018</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-41.html">Podcast 41: Guifi.net</a></h2>
-		<p class="post-excerpt"><p>En el episodio 41 del podcast de <a href="http://www.entredevyops.es/" target="_blank">http://www.entredevyops.es/</a> entrevistamos a miembros de la Guifi.net para conocer un poco mejor esta fundación y sus actividades.</p>
-
-<p></p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-41.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-pildora-4.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-pildora-4.html"><img src="/images/stock-market.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">9 Jun 2018</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-pildora-4.html">Píldora 4 - Microsoft compra GitHub</a></h2>
-		<p class="post-excerpt"><p>En nuestra cuarta píldora, hablamos sobre la compra de GitHub por parte de Microsoft, y de las reacciones que ha causado.</p>
-
-<p></p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-pildora-4.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-40.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-40.html"><img src="/images/bitcoin.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">3 Jun 2018</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-40.html">Podcast 40: Las guerras de Bitcoin</a></h2>
-		<p class="post-excerpt"><p>En el episodio 40 del podcast hacemos un repaso de los forks nacidos de Bitcoin y sus diferentes filosofías.</p>
-
-<p></p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-40.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-39.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-39.html"><img src="/images/interview.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">16 May 2018</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-39.html">Podcast 39: Entrevistas de trabajo</a></h2>
-		<p class="post-excerpt"><p>En el episodio 39 del podcast hablamos sobre las entrevistas de trabajo, tanto desde el punto de vista del entrevistado como del entrevistador.</p>
-
-<p></p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-39.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-
-				</div>
-			</div>
-
-			<nav id="pagination" class="pagination" role="pagination">
-	<div class="inner">
-	
-    <a class="pagination-item pagination-next" href="https://www.entredevyops.es/podcasts/page/6.html"><i class="fas fa-chevron-left"></i> <span>Anterior</span></a>
-	
-		<span class="pagination-info">Página 7 de 13</span>
-	
-    <a class="pagination-item pagination-prev" href="https://www.entredevyops.es/podcasts/page/8.html"><span>Siguiente</span> <i class="fas fa-chevron-right"></i></a>
-	
-		<div class="clear"></div>
-	</div>
-</nav>
-
-
-		</main>
-
-	</div>
+        </div>
+    </article>
+</main>
 
                 <div id="body-class" style="display: none;"></div>
                 <footer id="footer">

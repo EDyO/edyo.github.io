@@ -6,10 +6,21 @@
     <description>Recent content on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 04 Jan 2022 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jan 2022 00:30:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Podcast 66: ¿Qué ha pasado con mis dependencias?</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-66.html</link>
+      <pubDate>Sat, 15 Jan 2022 00:30:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-66.html</guid>
+      <description>&lt;p&gt;En el episodio 66 del podcast de Entre Dev y Ops hablaremos sobre lo que ha ocurrido recientemente con color.js y faker.js.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Podcast 65: Confidential Computing</title>
