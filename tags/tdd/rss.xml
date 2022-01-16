@@ -18,11 +18,17 @@
       <pubDate>Sun, 19 Jan 2014 19:45:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+
+        <div class="document">
 
 
-&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
-&lt;p&gt;Como la semana pasada no se publicaron noticias, las hemos unido, por lo que en esta entrega, tenemos bastantes noticias: La publicación del manual del administrador de &lt;a class=&#34;reference external&#34; href=&#34;http://debian.org&#34;&gt;Debian&lt;/a&gt;, una nueva librería para gestionar recursos en &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/ec2/&#34;&gt;EC2&lt;/a&gt; desde Python, una presentación sobre &lt;a class=&#34;reference external&#34; href=&#34;http://flapjack.io/&#34;&gt;Flapjack&lt;/a&gt;, otra para hacer pruebas sobre navegadores con JavaScript, otra plataforma de monitorización que se integra con &lt;a class=&#34;reference external&#34; href=&#34;http://graphite.wikidot.com/&#34;&gt;Graphite&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://jenkins-ci.org&#34;&gt;Jenkins&lt;/a&gt;, otra más que permite exponer un directorio con guiones de &lt;em&gt;bash&lt;/em&gt; como API REST, y la adición de nuevas localizaciones a los servicios de &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/cloudfront/&#34;&gt;CloudFront&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/route53/&#34;&gt;Route 53&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description>
+<img alt="La información semanal sobre lo que te interesa" class="border align-left" src="/images/Weekly-Newspaper.jpg" style="width: 213px; height: 141px;" />
+<p>Como la semana pasada no se publicaron noticias, las hemos unido, por lo que en esta entrega, tenemos bastantes noticias: La publicación del manual del administrador de <a class="reference external" href="http://debian.org">Debian</a>, una nueva librería para gestionar recursos en <a class="reference external" href="http://aws.amazon.com/es/ec2/">EC2</a> desde Python, una presentación sobre <a class="reference external" href="http://flapjack.io/">Flapjack</a>, otra para hacer pruebas sobre navegadores con JavaScript, otra plataforma de monitorización que se integra con <a class="reference external" href="http://graphite.wikidot.com/">Graphite</a> y <a class="reference external" href="http://jenkins-ci.org">Jenkins</a>, otra más que permite exponer un directorio con guiones de <em>bash</em> como API REST, y la adición de nuevas localizaciones a los servicios de <a class="reference external" href="http://aws.amazon.com/es/cloudfront/">CloudFront</a> y <a class="reference external" href="http://aws.amazon.com/es/route53/">Route 53</a>.</p></div>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -31,11 +37,17 @@
       <pubDate>Tue, 07 Jan 2014 21:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/noticias-semanales-enero-2014-1.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+
+        <div class="document">
 
 
-&lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
-&lt;p&gt;En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, los encuentros familiares y los regalos, aquí están las primeras noticias de 2014. Podréis encontrar herramientas, como una especie de &lt;a class=&#34;reference external&#34; href=&#34;http://vagrantup.com&#34;&gt;Vagrant&lt;/a&gt; para &lt;a class=&#34;reference external&#34; href=&#34;https://docker.io&#34;&gt;Docker&lt;/a&gt;, un servicio complementario para vuestro &lt;a class=&#34;reference external&#34; href=&#34;http://www.nagios.org/&#34;&gt;Nagios&lt;/a&gt; y vuestra cuenta de &lt;a class=&#34;reference external&#34; href=&#34;http://www.pagerduty.com/&#34;&gt;Pagerduty&lt;/a&gt;, o un nuevo panel para &lt;a class=&#34;reference external&#34; href=&#34;http://graphite.wikidot.com/&#34;&gt;Graphite&lt;/a&gt;, así como explicaciones sobre cobertura de testeo de código para &lt;a class=&#34;reference external&#34; href=&#34;http://www.getchef.com/chef/&#34;&gt;Chef&lt;/a&gt; o un interesante blog sobre lo último de &lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com/&#34;&gt;Puppet&lt;/a&gt;, junto con artículos sobre &lt;a class=&#34;reference external&#34; href=&#34;http://en.wikipedia.org/wiki/Software-defined_networking&#34;&gt;SDN&lt;/a&gt;, el despliegue contínuo agresivo o la importancia de la infraestructura como código para la automatización. Disfrutad del commienzo de año.&lt;/p&gt;&lt;/div&gt;</description>
+<img alt="La información semanal sobre lo que te interesa" class="border align-right" src="/images/Weekly-Newspaper.jpg" style="width: 213px; height: 141px;" />
+<p>En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, los encuentros familiares y los regalos, aquí están las primeras noticias de 2014. Podréis encontrar herramientas, como una especie de <a class="reference external" href="http://vagrantup.com">Vagrant</a> para <a class="reference external" href="https://docker.io">Docker</a>, un servicio complementario para vuestro <a class="reference external" href="http://www.nagios.org/">Nagios</a> y vuestra cuenta de <a class="reference external" href="http://www.pagerduty.com/">Pagerduty</a>, o un nuevo panel para <a class="reference external" href="http://graphite.wikidot.com/">Graphite</a>, así como explicaciones sobre cobertura de testeo de código para <a class="reference external" href="http://www.getchef.com/chef/">Chef</a> o un interesante blog sobre lo último de <a class="reference external" href="http://puppetlabs.com/">Puppet</a>, junto con artículos sobre <a class="reference external" href="http://en.wikipedia.org/wiki/Software-defined_networking">SDN</a>, el despliegue contínuo agresivo o la importancia de la infraestructura como código para la automatización. Disfrutad del commienzo de año.</p></div>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -44,11 +56,17 @@
       <pubDate>Mon, 11 Nov 2013 07:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/bcndevcon-2013-segundo-dia.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+
+        <div class="document">
 
 
-&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
-&lt;p&gt;El segundo día de la &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon&lt;/a&gt;&#39;13 estuvo plagado de charlas y actividades, el final del &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/hackathon/&#34;&gt;Hackathon for education&lt;/a&gt;, Los concursos de Mario Kart y Street Fighter. El salón de &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/retrobarcelona/&#34;&gt;RetroBarcelona&lt;/a&gt; fue muy visitado y la &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/activities/agile-station/&#34;&gt;Agile Station&lt;/a&gt;, coordinada por la gente de &lt;a class=&#34;reference external&#34; href=&#34;http://barcelona.agile-spain.org/&#34;&gt;Agile BCN&lt;/a&gt;, tuvo una actividad frenética, como el día anterior.&lt;/p&gt;&lt;/div&gt;</description>
+<img alt="BcnDevCon13" class="border align-right" src="/images/bcndevcon13.jpeg" style="width: 125px; height: 125px;" />
+<p>El segundo día de la <a class="reference external" href="http://bcndevcon.org">BcnDevCon</a>'13 estuvo plagado de charlas y actividades, el final del <a class="reference external" href="http://bcndevcon.org/hackathon/">Hackathon for education</a>, Los concursos de Mario Kart y Street Fighter. El salón de <a class="reference external" href="http://bcndevcon.org/retrobarcelona/">RetroBarcelona</a> fue muy visitado y la <a class="reference external" href="http://bcndevcon.org/activities/agile-station/">Agile Station</a>, coordinada por la gente de <a class="reference external" href="http://barcelona.agile-spain.org/">Agile BCN</a>, tuvo una actividad frenética, como el día anterior.</p></div>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -57,12 +75,18 @@
       <pubDate>Sat, 09 Nov 2013 12:40:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+
+        <div class="document">
 
 
-&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
-&lt;p&gt;Ayer, día 8 de noviembre, ha tenido su inicio el &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon13&lt;/a&gt;. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en &lt;em&gt;cloud&lt;/em&gt;, móvil, robótica y &lt;em&gt;open source&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.&lt;/p&gt;&lt;/div&gt;</description>
+<img alt="BcnDevCon13" class="border align-right" src="/images/bcndevcon13.jpeg" style="width: 125px; height: 125px;" />
+<p>Ayer, día 8 de noviembre, ha tenido su inicio el <a class="reference external" href="http://bcndevcon.org">BcnDevCon13</a>. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en <em>cloud</em>, móvil, robótica y <em>open source</em>.</p>
+<p>En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.</p></div>
+        ]]>
+       </description>
     </item>
     
   </channel>

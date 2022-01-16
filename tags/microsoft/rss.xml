@@ -18,10 +18,16 @@
       <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/sla-cloud-aws-azure.html</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;A raíz del incidente de &lt;a href=&#34;https://aws.amazon.com/es/message/41926/&#34;&gt;AWS S3 del pasado 28 de Febrero&lt;/a&gt;  he oído, y no en pocas ocasiones, frases del estilo “pero esto del cloud no se caía, no?”, “hasta el cloud tiene caídas de servicio” y similares.
-Si hablamos con personas que conozcan que es el cloud seguramente tendrán una opinión similar: una de las ventajas de migrar hacia el cloud es que nunca tendrás caídas de servicio.&lt;/p&gt;
-&lt;p&gt;Lamentablemente eso no es del todo verdad y las empresas que ofrecen servicios de cloud lo saben.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+
+        <!-- raw HTML omitted -->
+<p>A raíz del incidente de <a href="https://aws.amazon.com/es/message/41926/">AWS S3 del pasado 28 de Febrero</a>  he oído, y no en pocas ocasiones, frases del estilo “pero esto del cloud no se caía, no?”, “hasta el cloud tiene caídas de servicio” y similares.
+Si hablamos con personas que conozcan que es el cloud seguramente tendrán una opinión similar: una de las ventajas de migrar hacia el cloud es que nunca tendrás caídas de servicio.</p>
+<p>Lamentablemente eso no es del todo verdad y las empresas que ofrecen servicios de cloud lo saben.</p>
+        ]]>
+       </description>
     </item>
     
   </channel>

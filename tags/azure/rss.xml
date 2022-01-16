@@ -18,10 +18,16 @@
       <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/sla-cloud-aws-azure.html</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;A raíz del incidente de &lt;a href=&#34;https://aws.amazon.com/es/message/41926/&#34;&gt;AWS S3 del pasado 28 de Febrero&lt;/a&gt;  he oído, y no en pocas ocasiones, frases del estilo “pero esto del cloud no se caía, no?”, “hasta el cloud tiene caídas de servicio” y similares.
-Si hablamos con personas que conozcan que es el cloud seguramente tendrán una opinión similar: una de las ventajas de migrar hacia el cloud es que nunca tendrás caídas de servicio.&lt;/p&gt;
-&lt;p&gt;Lamentablemente eso no es del todo verdad y las empresas que ofrecen servicios de cloud lo saben.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+
+        <!-- raw HTML omitted -->
+<p>A raíz del incidente de <a href="https://aws.amazon.com/es/message/41926/">AWS S3 del pasado 28 de Febrero</a>  he oído, y no en pocas ocasiones, frases del estilo “pero esto del cloud no se caía, no?”, “hasta el cloud tiene caídas de servicio” y similares.
+Si hablamos con personas que conozcan que es el cloud seguramente tendrán una opinión similar: una de las ventajas de migrar hacia el cloud es que nunca tendrás caídas de servicio.</p>
+<p>Lamentablemente eso no es del todo verdad y las empresas que ofrecen servicios de cloud lo saben.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -30,8 +36,14 @@ Si hablamos con personas que conozcan que es el cloud seguramente tendrán una o
       <pubDate>Thu, 16 Mar 2017 03:14:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/comparando-serverless.html</guid>
-      <description>&lt;p&gt;El líder indiscutible del cloud es AWS, pero tiene un competidor que le sigue de cerca. Bueno, siendo realistas no tan de cerca, pero que se ha acercado mucho en estos últimos tiempos.&lt;/p&gt;
-&lt;p&gt;Hemos visto el avance de &lt;a href=&#34;https://aws.amazon.com/es/lambda/details/&#34;&gt;Lambda&lt;/a&gt;, y como pasó de ser un anuncio en el re:Invent del 2014, a ocupar varias charlas en el re:Invent del año pasado. Teniendo en cuenta que ahora mismo, tenemos el sistema distribuido entre: el lambda de siempre, en el &lt;a href=&#34;https://aws.amazon.com/es/snowball/details/&#34;&gt;snowball&lt;/a&gt; y próximamente en  la ejecución lambda de los &lt;a href=&#34;https://pages.awscloud.com/lambda-at-edge-preview.html&#34;&gt;nodos edge de cloudfront&lt;/a&gt;  y en los productos que usen &lt;a href=&#34;https://aws.amazon.com/es/greengrass/&#34;&gt;AWS Greengrass&lt;/a&gt;,  pero la pregunta es: ¿cual es la herramienta de Azure para combatir Lambda?&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+
+        <p>El líder indiscutible del cloud es AWS, pero tiene un competidor que le sigue de cerca. Bueno, siendo realistas no tan de cerca, pero que se ha acercado mucho en estos últimos tiempos.</p>
+<p>Hemos visto el avance de <a href="https://aws.amazon.com/es/lambda/details/">Lambda</a>, y como pasó de ser un anuncio en el re:Invent del 2014, a ocupar varias charlas en el re:Invent del año pasado. Teniendo en cuenta que ahora mismo, tenemos el sistema distribuido entre: el lambda de siempre, en el <a href="https://aws.amazon.com/es/snowball/details/">snowball</a> y próximamente en  la ejecución lambda de los <a href="https://pages.awscloud.com/lambda-at-edge-preview.html">nodos edge de cloudfront</a>  y en los productos que usen <a href="https://aws.amazon.com/es/greengrass/">AWS Greengrass</a>,  pero la pregunta es: ¿cual es la herramienta de Azure para combatir Lambda?</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -40,10 +52,16 @@ Si hablamos con personas que conozcan que es el cloud seguramente tendrán una o
       <pubDate>Sun, 13 Nov 2016 12:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/que-sabes-del-cloud.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+
+        <div class="document">
 
 
-&lt;p&gt;El &lt;em&gt;cloud&lt;/em&gt;, es la denominación de un conjunto de servicios, productos e infraestructuras que se ofrecen habitualmente en internet. ¿Pero qué sabemos de ello? ¿cómo podemos demostrar que tenemos conocimiento sobre la materia?. Podemos realizar muchos cursos o tener muchas horas de uso en determinadas tecnologías. Una de las formas para poder acreditar un conocimiento es superar unas pruebas estándar. En este punto es donde intervienen las certificaciones.&lt;/p&gt;&lt;/div&gt;</description>
+<p>El <em>cloud</em>, es la denominación de un conjunto de servicios, productos e infraestructuras que se ofrecen habitualmente en internet. ¿Pero qué sabemos de ello? ¿cómo podemos demostrar que tenemos conocimiento sobre la materia?. Podemos realizar muchos cursos o tener muchas horas de uso en determinadas tecnologías. Una de las formas para poder acreditar un conocimiento es superar unas pruebas estándar. En este punto es donde intervienen las certificaciones.</p></div>
+        ]]>
+       </description>
     </item>
     
   </channel>

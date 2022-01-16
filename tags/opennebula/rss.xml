@@ -18,10 +18,16 @@
       <pubDate>Tue, 10 Nov 2015 21:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/opennebula_2015.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+
+        <div class="document">
 
 
-&lt;p&gt;Del 20 al 22 de octubre del 2015 tuvo lugar en Barcelona el &lt;a class=&#34;reference external&#34; href=&#34;http://2015.opennebulaconf.com&#34;&gt;OpenNebulaConf 2015&lt;/a&gt;. Antes de nada me gustaría aclarar que esta no es una simple noticia, sino que se trata de un artículo de opinión ya que pude assistir los tres días gracias a la invitación que nos ofreció la organización y por mucho que quisiera, no podría separar mis experiencias de lo que formalmente sería la noticia, una vez aclarado este tema, relataré sin hacer un resumen exhaustivo de las charlas, haciendo una separación entre el taller del primer día y los dos días siguientes que fueron las charlas en sí.&lt;/p&gt;&lt;/div&gt;</description>
+<p>Del 20 al 22 de octubre del 2015 tuvo lugar en Barcelona el <a class="reference external" href="http://2015.opennebulaconf.com">OpenNebulaConf 2015</a>. Antes de nada me gustaría aclarar que esta no es una simple noticia, sino que se trata de un artículo de opinión ya que pude assistir los tres días gracias a la invitación que nos ofreció la organización y por mucho que quisiera, no podría separar mis experiencias de lo que formalmente sería la noticia, una vez aclarado este tema, relataré sin hacer un resumen exhaustivo de las charlas, haciendo una separación entre el taller del primer día y los dos días siguientes que fueron las charlas en sí.</p></div>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -30,10 +36,16 @@
       <pubDate>Tue, 29 Sep 2015 22:30:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/opennebulaconf_2015.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+
+        <div class="document">
 
 
-&lt;p&gt;El próximo 20 de octubre se inicia en Barcelona la Conferencia de &lt;a class=&#34;reference external&#34; href=&#34;http://2015.opennebulaconf.com&#34;&gt;OpenNebulaConf 2015&lt;/a&gt; en el Hotel Barceló Sants en Barcelona. Se trata del evento anual que permite conocer las últimas novedades y el futuro de &lt;a class=&#34;reference external&#34; href=&#34;http://opennebula.org&#34;&gt;OpenNebula&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+<p>El próximo 20 de octubre se inicia en Barcelona la Conferencia de <a class="reference external" href="http://2015.opennebulaconf.com">OpenNebulaConf 2015</a> en el Hotel Barceló Sants en Barcelona. Se trata del evento anual que permite conocer las últimas novedades y el futuro de <a class="reference external" href="http://opennebula.org">OpenNebula</a></p></div>
+        ]]>
+       </description>
     </item>
     
   </channel>

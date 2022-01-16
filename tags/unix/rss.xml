@@ -18,11 +18,17 @@
       <pubDate>Mon, 23 Jun 2014 03:14:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/analisis-rendimiento-linux.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+
+        <div class="document">
 
 
-&lt;img alt=&#34;resumen de herramientas de Brendan Gregg&#34; class=&#34;border align-center&#34; src=&#34;https://www.entredevyops.es/images/linuxperftools_1000.png&#34; style=&#34;width: 650px; height: 376px;&#34; /&gt;
-&lt;p&gt;Brendan Gregg ha escrito una serie de artículos y documentos agrupados en &lt;a class=&#34;reference external&#34; href=&#34;http://www.brendangregg.com/linuxperf.html&#34;&gt;Linux Performance&lt;/a&gt; donde se investigan los cuellos de botella de los sistemas Unix y Linux.&lt;/p&gt;&lt;/div&gt;</description>
+<img alt="resumen de herramientas de Brendan Gregg" class="border align-center" src="/images/linuxperftools_1000.png" style="width: 650px; height: 376px;" />
+<p>Brendan Gregg ha escrito una serie de artículos y documentos agrupados en <a class="reference external" href="http://www.brendangregg.com/linuxperf.html">Linux Performance</a> donde se investigan los cuellos de botella de los sistemas Unix y Linux.</p></div>
+        ]]>
+       </description>
     </item>
     
   </channel>

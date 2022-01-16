@@ -18,9 +18,15 @@
       <pubDate>Tue, 23 Aug 2016 19:55:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/amazon-linux-si-o-no.html</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Seguro que todos los que usáis o habéis usado Amazon Web Services (AWS para abreviar) alguna vez habréis probado, o usado de forma productiva &lt;a href=&#34;https://aws.amazon.com/es/amazon-linux-ami/&#34;&gt;Amazon Linux&lt;/a&gt;, la versión de Linux basada en RedHat/CentOS preparada por ellos y &amp;ldquo;equipada&amp;rdquo; para funcionar perfectamente en su servicio EC2.&lt;/p&gt;
-&lt;p&gt;Personalmente, mi predilección en cuanto a distribuciones tiende a las de la familia Debian, como la propia Debian o Ubuntu; es algo personal, quizás romántico, llevo muchos años con ellas y me siento más cómodo, no hay motivos técnicos que me liguen a ellas especialmente. A lo largo de mi carrera he trabajado con muchas distribuciones, y todas tienen cosas buenas y malas, no creo que exista la &lt;em&gt;silver bullet&lt;/em&gt; de las distribucciones de Linux, nada más lejos de la realidad. Quede claro que el objetivo de este artículo no es entrar en guerras o discusiones en si es mejor usar Debian, Ubuntu, RedHat o CentOS, el quid de la cuestión aquí es la existencia de Amazon Linux, con sus ventajes e inconvenientes. Así que vamos al lío.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+
+        <!-- raw HTML omitted -->
+<p>Seguro que todos los que usáis o habéis usado Amazon Web Services (AWS para abreviar) alguna vez habréis probado, o usado de forma productiva <a href="https://aws.amazon.com/es/amazon-linux-ami/">Amazon Linux</a>, la versión de Linux basada en RedHat/CentOS preparada por ellos y &ldquo;equipada&rdquo; para funcionar perfectamente en su servicio EC2.</p>
+<p>Personalmente, mi predilección en cuanto a distribuciones tiende a las de la familia Debian, como la propia Debian o Ubuntu; es algo personal, quizás romántico, llevo muchos años con ellas y me siento más cómodo, no hay motivos técnicos que me liguen a ellas especialmente. A lo largo de mi carrera he trabajado con muchas distribuciones, y todas tienen cosas buenas y malas, no creo que exista la <em>silver bullet</em> de las distribucciones de Linux, nada más lejos de la realidad. Quede claro que el objetivo de este artículo no es entrar en guerras o discusiones en si es mejor usar Debian, Ubuntu, RedHat o CentOS, el quid de la cuestión aquí es la existencia de Amazon Linux, con sus ventajes e inconvenientes. Así que vamos al lío.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -29,11 +35,17 @@
       <pubDate>Mon, 23 Jun 2014 03:14:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/analisis-rendimiento-linux.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+
+        <div class="document">
 
 
-&lt;img alt=&#34;resumen de herramientas de Brendan Gregg&#34; class=&#34;border align-center&#34; src=&#34;https://www.entredevyops.es/images/linuxperftools_1000.png&#34; style=&#34;width: 650px; height: 376px;&#34; /&gt;
-&lt;p&gt;Brendan Gregg ha escrito una serie de artículos y documentos agrupados en &lt;a class=&#34;reference external&#34; href=&#34;http://www.brendangregg.com/linuxperf.html&#34;&gt;Linux Performance&lt;/a&gt; donde se investigan los cuellos de botella de los sistemas Unix y Linux.&lt;/p&gt;&lt;/div&gt;</description>
+<img alt="resumen de herramientas de Brendan Gregg" class="border align-center" src="/images/linuxperftools_1000.png" style="width: 650px; height: 376px;" />
+<p>Brendan Gregg ha escrito una serie de artículos y documentos agrupados en <a class="reference external" href="http://www.brendangregg.com/linuxperf.html">Linux Performance</a> donde se investigan los cuellos de botella de los sistemas Unix y Linux.</p></div>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -42,11 +54,17 @@
       <pubDate>Fri, 14 Mar 2014 23:45:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/minidebconf-bcn-2014.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+
+        <div class="document">
 
 
-&lt;img alt=&#34;Debian Women Project&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/dw.png&#34; style=&#34;width: 82px; height: 140px;&#34; /&gt;
-&lt;p&gt;Este fin de semana se celebra en Barcelona la &lt;a class=&#34;reference external&#34; href=&#34;http://bcn2014.mini.debconf.org/&#34;&gt;MiniDebConf 2014&lt;/a&gt;, una conferencia sobre Debian organizada por &lt;a class=&#34;reference external&#34; href=&#34;http://debian-es.org/&#34;&gt;Debian-Es&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;https://www.debian.org/women/&#34;&gt;The Debian Women Project&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description>
+<img alt="Debian Women Project" class="align-left" src="/images/dw.png" style="width: 82px; height: 140px;" />
+<p>Este fin de semana se celebra en Barcelona la <a class="reference external" href="http://bcn2014.mini.debconf.org/">MiniDebConf 2014</a>, una conferencia sobre Debian organizada por <a class="reference external" href="http://debian-es.org/">Debian-Es</a> y <a class="reference external" href="https://www.debian.org/women/">The Debian Women Project</a>.</p></div>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -55,10 +73,16 @@
       <pubDate>Tue, 11 Mar 2014 00:20:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+
+        <div class="document">
 
 
-&lt;p&gt;Vía &lt;a class=&#34;reference external&#34; href=&#34;http://barrapunto.com/articles/14/03/09/1255225.shtml&#34;&gt;Barrapunto&lt;/a&gt; me entero que la &lt;a class=&#34;reference external&#34; href=&#34;http://www.linuxfoundation.org/&#34;&gt;Linux Foundation&lt;/a&gt; ofrecerá su &lt;a class=&#34;reference external&#34; href=&#34;http://training.linuxfoundation.org/linux-courses/introduction-to-linux/outline&#34;&gt;curso de Introducción a Linux&lt;/a&gt; de forma gratuita en la plataforma &lt;a class=&#34;reference external&#34; href=&#34;https://www.edx.org/&#34;&gt;edX&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description>
+<p>Vía <a class="reference external" href="http://barrapunto.com/articles/14/03/09/1255225.shtml">Barrapunto</a> me entero que la <a class="reference external" href="http://www.linuxfoundation.org/">Linux Foundation</a> ofrecerá su <a class="reference external" href="http://training.linuxfoundation.org/linux-courses/introduction-to-linux/outline">curso de Introducción a Linux</a> de forma gratuita en la plataforma <a class="reference external" href="https://www.edx.org/">edX</a>.</p></div>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -67,10 +91,16 @@
       <pubDate>Tue, 19 Nov 2013 00:30:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+
+        <div class="document">
 
 
-&lt;p&gt;Normalmente, los administradores de sistemas UNIX/Linux suelen recurrir a la consola de comandos para la mayoría de la tareas de gestión, sobretodo cuando se realizan de forma remota por SSH, por poner un ejemplo. También son muchos los desarrolladores que dejan de lado las herramientas gráficas (normalmente IDE&#39;s) y utilizan la consola para determinadas tareas que en cierta manera pueden ser ejecutadas con mayor eficacia de esta forma, un ejemplo sería el uso de sistemas de control de versiones como pueden ser Git o Mercurial.&lt;/p&gt;&lt;/div&gt;</description>
+<p>Normalmente, los administradores de sistemas UNIX/Linux suelen recurrir a la consola de comandos para la mayoría de la tareas de gestión, sobretodo cuando se realizan de forma remota por SSH, por poner un ejemplo. También son muchos los desarrolladores que dejan de lado las herramientas gráficas (normalmente IDE's) y utilizan la consola para determinadas tareas que en cierta manera pueden ser ejecutadas con mayor eficacia de esta forma, un ejemplo sería el uso de sistemas de control de versiones como pueden ser Git o Mercurial.</p></div>
+        ]]>
+       </description>
     </item>
     
   </channel>

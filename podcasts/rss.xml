@@ -18,7 +18,17 @@
       <pubDate>Sat, 15 Jan 2022 00:30:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-66.html</guid>
-      <description>&lt;p&gt;En el episodio 66 del podcast de Entre Dev y Ops hablaremos sobre lo que ha ocurrido recientemente con color.js y faker.js.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/domino.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 66 del podcast de Entre Dev y Ops hablaremos sobre lo que ha ocurrido recientemente con color.js y faker.js.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -27,7 +37,17 @@
       <pubDate>Tue, 04 Jan 2022 17:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-65.html</guid>
-      <description>&lt;p&gt;En el episodio 65 del podcast de Entre Dev y Ops hablaremos sobre Confidential Computing con Sergio López.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/confidential-computing.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 65 del podcast de Entre Dev y Ops hablaremos sobre Confidential Computing con Sergio López.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -36,7 +56,17 @@
       <pubDate>Tue, 17 Aug 2021 22:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-64.html</guid>
-      <description>&lt;p&gt;En el episodio 64 del podcast hablaremos de Política como código.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/opa-logo.png"/>
+            </p>
+        
+
+        <p>En el episodio 64 del podcast hablaremos de Política como código.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -45,7 +75,17 @@
       <pubDate>Wed, 02 Jun 2021 14:40:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-63.html</guid>
-      <description>&lt;p&gt;En el episodio 63 del podcast hablaremos de los cambios en las políticas internas de Basecamp.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/basecamp-logo.png"/>
+            </p>
+        
+
+        <p>En el episodio 63 del podcast hablaremos de los cambios en las políticas internas de Basecamp.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -54,7 +94,17 @@
       <pubDate>Sat, 17 Apr 2021 01:45:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-62.html</guid>
-      <description>&lt;p&gt;En el episodio 62 del podcast hablaremos con Albert Lombarte y Daniel Ortiz de KrakenD.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/krakend.png"/>
+            </p>
+        
+
+        <p>En el episodio 62 del podcast hablaremos con Albert Lombarte y Daniel Ortiz de KrakenD.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -63,7 +113,17 @@
       <pubDate>Sun, 28 Feb 2021 22:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/pildora-17.html</guid>
-      <description>&lt;p&gt;En la píldora 17 del podcast hablaremos del FOSDEM 2021.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/beer_desk.jpg"/>
+            </p>
+        
+
+        <p>En la píldora 17 del podcast hablaremos del FOSDEM 2021.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -72,7 +132,17 @@
       <pubDate>Sat, 13 Feb 2021 19:32:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/pildora-16.html</guid>
-      <description>&lt;p&gt;En la píldora 16 del podcast hablaremos sobre el cambio en las licencias de Elastic y la respuesta de AWS.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/copyright.png"/>
+            </p>
+        
+
+        <p>En la píldora 16 del podcast hablaremos sobre el cambio en las licencias de Elastic y la respuesta de AWS.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -81,7 +151,17 @@
       <pubDate>Fri, 05 Feb 2021 16:20:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-61.html</guid>
-      <description>&lt;p&gt;En el episodio 61 del podcast hablaremos sobre trabajo en remoto, equipos distribuidos y descentralización.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/work_from_home.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 61 del podcast hablaremos sobre trabajo en remoto, equipos distribuidos y descentralización.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -90,8 +170,18 @@
       <pubDate>Sun, 27 Dec 2020 22:52:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-60.html</guid>
-      <description>&lt;p&gt;En este episodio del podcast hablaremos de incidentes en el cloud, servicios de AWS y equipos
-distribuidos.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/newspaper_and_laptop.jpg"/>
+            </p>
+        
+
+        <p>En este episodio del podcast hablaremos de incidentes en el cloud, servicios de AWS y equipos
+distribuidos.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -100,7 +190,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Wed, 07 Oct 2020 11:45:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-59.html</guid>
-      <description>&lt;p&gt;En el episodio 59 del podcast hablaremos de Microkernels con Sergio López.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/processor.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 59 del podcast hablaremos de Microkernels con Sergio López.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -109,7 +209,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Mon, 17 Aug 2020 21:35:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-58.html</guid>
-      <description>&lt;p&gt;En el episodio 58 del podcast hablaremos de COBOL con Joan Trench.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/cobol_hello_world.png"/>
+            </p>
+        
+
+        <p>En el episodio 58 del podcast hablaremos de COBOL con Joan Trench.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -118,7 +228,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Mon, 06 Jul 2020 15:15:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-57.html</guid>
-      <description>&lt;p&gt;En el episodio 57 del podcast hablaremos con Nicolás Demarchi sobre la organización de un evento online como la EuroPython 2020.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/europython_2020_online.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 57 del podcast hablaremos con Nicolás Demarchi sobre la organización de un evento online como la EuroPython 2020.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -127,7 +247,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Tue, 09 Jun 2020 19:30:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-56.html</guid>
-      <description>&lt;p&gt;En el episodio 56 del podcast hablaremos con Jose Miguel Parrella, Principal Program Manager de la oficina del CTO de Azure.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/ms_love_linux.png"/>
+            </p>
+        
+
+        <p>En el episodio 56 del podcast hablaremos con Jose Miguel Parrella, Principal Program Manager de la oficina del CTO de Azure.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -136,7 +266,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Fri, 15 May 2020 18:30:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-55.html</guid>
-      <description>&lt;p&gt;En el episodio 55 del podcast hablaremos con Alberto Martí y Rubén Santiago de OpenNebula.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/opennebula.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 55 del podcast hablaremos con Alberto Martí y Rubén Santiago de OpenNebula.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -145,7 +285,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sat, 09 May 2020 18:20:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-54.html</guid>
-      <description>&lt;p&gt;En el episodio 54 del podcast hablaremos sobre el career path (plan de desarrollo) de un sysadmin.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/road-sign-career.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 54 del podcast hablaremos sobre el career path (plan de desarrollo) de un sysadmin.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -154,7 +304,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sat, 18 Apr 2020 16:45:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-53.html</guid>
-      <description>&lt;p&gt;En la episodio 53 del podcast hablaremos sobre Terraform.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/terraform.png"/>
+            </p>
+        
+
+        <p>En la episodio 53 del podcast hablaremos sobre Terraform.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -163,7 +323,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Mon, 13 Apr 2020 14:15:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-52.html</guid>
-      <description>&lt;p&gt;En la episodio 52 del podcast hablaremos de cómo ha evolucionado el &lt;strong&gt;DevOps&lt;/strong&gt; estos últimos años.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/devops-reloaded.png"/>
+            </p>
+        
+
+        <p>En la episodio 52 del podcast hablaremos de cómo ha evolucionado el <strong>DevOps</strong> estos últimos años.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -172,7 +342,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Fri, 03 Apr 2020 23:10:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/pildora-15.html</guid>
-      <description>&lt;p&gt;En la píldora 15 del podcast hablamos del teletrabajo.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/home-office.jpg"/>
+            </p>
+        
+
+        <p>En la píldora 15 del podcast hablamos del teletrabajo.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -181,7 +361,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sun, 09 Feb 2020 19:20:20 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-51.html</guid>
-      <description>&lt;p&gt;En el episodio 51 del podcast hablaremos sobre el FOSDEM 2020.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/fosdem_20years.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 51 del podcast hablaremos sobre el FOSDEM 2020.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -190,7 +380,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Fri, 27 Dec 2019 12:13:14 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/pildora-14.html</guid>
-      <description>&lt;p&gt;En la píldora 14 del podcast comentaremos el informe de Datadog sobre el uso de contenedores.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/containers.jpg"/>
+            </p>
+        
+
+        <p>En la píldora 14 del podcast comentaremos el informe de Datadog sobre el uso de contenedores.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -199,7 +399,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sun, 20 Oct 2019 16:55:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/pildora-13.html</guid>
-      <description>&lt;p&gt;En la píldora 13 del podcast hablaremos de la charla de Carlos Buenosvinos titulada Deliveritis Aguda que dió en el CTO Summit 2019.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/web-project.jpg"/>
+            </p>
+        
+
+        <p>En la píldora 13 del podcast hablaremos de la charla de Carlos Buenosvinos titulada Deliveritis Aguda que dió en el CTO Summit 2019.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -208,7 +418,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Wed, 25 Sep 2019 16:45:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-50.html</guid>
-      <description>&lt;p&gt;En este episodio número 50, debatimos sobre el rol del manager o team lead.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/leader.jpg"/>
+            </p>
+        
+
+        <p>En este episodio número 50, debatimos sobre el rol del manager o team lead.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -217,7 +437,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sun, 18 Aug 2019 21:50:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/pildora-12.html</guid>
-      <description>&lt;p&gt;En la píldora 12 de nuestro podcast hablamos sobre el Data Transfer Project.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/logo-dtp.png"/>
+            </p>
+        
+
+        <p>En la píldora 12 de nuestro podcast hablamos sobre el Data Transfer Project.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -226,7 +456,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Wed, 17 Apr 2019 22:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-49.html</guid>
-      <description>&lt;p&gt;En este episodio, el número 49, hablamos de Agile con Jaume Jornet.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/board.jpg"/>
+            </p>
+        
+
+        <p>En este episodio, el número 49, hablamos de Agile con Jaume Jornet.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -235,7 +475,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sun, 17 Mar 2019 13:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/pildora-11.html</guid>
-      <description>&lt;p&gt;En esta píldora del podcast de &lt;a href=&#34;https://www.entredevyops.es/&#34;&gt;https://www.entredevyops.es/&lt;/a&gt; hablamos sobre la compra de NGINX por parte de F5.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/f5_nginx.png"/>
+            </p>
+        
+
+        <p>En esta píldora del podcast de <a href="https://www.entredevyops.es/">https://www.entredevyops.es/</a> hablamos sobre la compra de NGINX por parte de F5.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -244,7 +494,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sun, 10 Mar 2019 13:15:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-48.html</guid>
-      <description>&lt;p&gt;En el episodio 48 del podcast de &lt;a href=&#34;https://www.entredevyops.es/&#34;&gt;https://www.entredevyops.es/&lt;/a&gt; hablamos sobre la gestión de incidentes.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/datacenter-lights.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 48 del podcast de <a href="https://www.entredevyops.es/">https://www.entredevyops.es/</a> hablamos sobre la gestión de incidentes.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -253,7 +513,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Thu, 14 Feb 2019 22:30:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-47.html</guid>
-      <description>&lt;p&gt;En el episodio 47 del podcast de &lt;a href=&#34;https://www.entredevyops.es/&#34;&gt;https://www.entredevyops.es/&lt;/a&gt; hablamos de los nuevos paradigmas del networking con Christian Adell.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/world-net.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 47 del podcast de <a href="https://www.entredevyops.es/">https://www.entredevyops.es/</a> hablamos de los nuevos paradigmas del networking con Christian Adell.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -262,7 +532,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sun, 10 Feb 2019 18:20:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-46.html</guid>
-      <description>&lt;p&gt;En el episodio 46 del podcast de &lt;a href=&#34;https://www.entredevyops.es/&#34;&gt;https://www.entredevyops.es/&lt;/a&gt; nos juntamos en persona para discutir varios temas: feedback Fosdem, estado actual Open Source&amp;hellip;&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/playmobil-party.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 46 del podcast de <a href="https://www.entredevyops.es/">https://www.entredevyops.es/</a> nos juntamos en persona para discutir varios temas: feedback Fosdem, estado actual Open Source&hellip;</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -271,7 +551,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Thu, 31 Jan 2019 02:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-45.html</guid>
-      <description>&lt;p&gt;En el episodio 45 del podcast de &lt;a href=&#34;http://www.entredevyops.es/&#34;&gt;http://www.entredevyops.es/&lt;/a&gt; hablamos sobre normas, estándares y flujos de trabajo.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/know-the-rules.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 45 del podcast de <a href="http://www.entredevyops.es/">http://www.entredevyops.es/</a> hablamos sobre normas, estándares y flujos de trabajo.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -280,7 +570,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sat, 19 Jan 2019 21:50:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/pildora-10.html</guid>
-      <description>&lt;p&gt;En la píldora 10 de nuestro podcast repasamos los hechos más destacables de nuestro podcast durante el 2018.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/recap-2018.jpg"/>
+            </p>
+        
+
+        <p>En la píldora 10 de nuestro podcast repasamos los hechos más destacables de nuestro podcast durante el 2018.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -289,7 +589,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Thu, 20 Dec 2018 10:15:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-44.html</guid>
-      <description>&lt;p&gt;En el episodio 44 del podcast de &lt;a href=&#34;http://www.entredevyops.es/&#34;&gt;http://www.entredevyops.es/&lt;/a&gt; hablamos sobre BGP Hijacking.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/globalisation.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 44 del podcast de <a href="http://www.entredevyops.es/">http://www.entredevyops.es/</a> hablamos sobre BGP Hijacking.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -298,7 +608,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Mon, 10 Dec 2018 21:15:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-43.html</guid>
-      <description>&lt;p&gt;En el episodio 43 del podcast de &lt;a href=&#34;http://www.entredevyops.es/&#34;&gt;http://www.entredevyops.es/&lt;/a&gt; hablamos sobre Kubernetes (K8s).&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/kubernetes.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 43 del podcast de <a href="http://www.entredevyops.es/">http://www.entredevyops.es/</a> hablamos sobre Kubernetes (K8s).</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -307,7 +627,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sat, 10 Nov 2018 13:25:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/pildora-9.html</guid>
-      <description>&lt;p&gt;En nuestra novena píldora hablaremos sobre la compra de Red Hat por parte de IBM.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/ibm-supercomputer.jpg"/>
+            </p>
+        
+
+        <p>En nuestra novena píldora hablaremos sobre la compra de Red Hat por parte de IBM.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -316,7 +646,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sun, 30 Sep 2018 18:45:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/pildora-8.html</guid>
-      <description>&lt;p&gt;En nuestra octava píldora hablaremos sobre la &lt;a href=&#34;https://hacktoberfest.digitalocean.com/&#34;&gt;Hacktoberfest&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/logo-hacktoberfest-2018.png"/>
+            </p>
+        
+
+        <p>En nuestra octava píldora hablaremos sobre la <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a>.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -325,7 +665,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Mon, 27 Aug 2018 22:50:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/pildora-7.html</guid>
-      <description>&lt;p&gt;Nos volvemos a animar este Agosto para grabar otra píldora. En esta ocasión hablaremos de los trucos y puntos a tener en cuenta si decidís ir al &lt;a href=&#34;https://www.fosdem.org&#34;&gt;FOSDEM&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/waiting-train.jpg"/>
+            </p>
+        
+
+        <p>Nos volvemos a animar este Agosto para grabar otra píldora. En esta ocasión hablaremos de los trucos y puntos a tener en cuenta si decidís ir al <a href="https://www.fosdem.org">FOSDEM</a>.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -334,7 +684,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sat, 28 Jul 2018 00:35:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/pildora-6.html</guid>
-      <description>&lt;p&gt;En la sexta píldora del podcast de &lt;a href=&#34;http://www.entredevyops.es/&#34;&gt;http://www.entredevyops.es/&lt;/a&gt; hablaremos sobre la reciente multa a Google.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/multa.jpg"/>
+            </p>
+        
+
+        <p>En la sexta píldora del podcast de <a href="http://www.entredevyops.es/">http://www.entredevyops.es/</a> hablaremos sobre la reciente multa a Google.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -343,7 +703,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sun, 15 Jul 2018 19:35:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-42.html</guid>
-      <description>&lt;p&gt;En el episodio 42 del podcast de &lt;a href=&#34;http://www.entredevyops.es/&#34;&gt;http://www.entredevyops.es/&lt;/a&gt; hablaremos sobre el sistema de retribución en el mundo IT.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/salary.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 42 del podcast de <a href="http://www.entredevyops.es/">http://www.entredevyops.es/</a> hablaremos sobre el sistema de retribución en el mundo IT.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -352,7 +722,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sat, 30 Jun 2018 23:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-pildora-5.html</guid>
-      <description>&lt;p&gt;En la quinta píldora del podcast de Entre Dev y Ops debatimos sobre NoOps.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/developer.jpg"/>
+            </p>
+        
+
+        <p>En la quinta píldora del podcast de Entre Dev y Ops debatimos sobre NoOps.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -361,7 +741,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sat, 16 Jun 2018 22:35:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-41.html</guid>
-      <description>&lt;p&gt;En el episodio 41 del podcast de &lt;a href=&#34;http://www.entredevyops.es/&#34;&gt;http://www.entredevyops.es/&lt;/a&gt; entrevistamos a miembros de la Guifi.net para conocer un poco mejor esta fundación y sus actividades.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/wifi.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 41 del podcast de <a href="http://www.entredevyops.es/">http://www.entredevyops.es/</a> entrevistamos a miembros de la Guifi.net para conocer un poco mejor esta fundación y sus actividades.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -370,7 +760,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sat, 09 Jun 2018 23:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-pildora-4.html</guid>
-      <description>&lt;p&gt;En nuestra cuarta píldora, hablamos sobre la compra de GitHub por parte de Microsoft, y de las reacciones que ha causado.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/stock-market.jpg"/>
+            </p>
+        
+
+        <p>En nuestra cuarta píldora, hablamos sobre la compra de GitHub por parte de Microsoft, y de las reacciones que ha causado.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -379,7 +779,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Sun, 03 Jun 2018 12:35:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-40.html</guid>
-      <description>&lt;p&gt;En el episodio 40 del podcast hacemos un repaso de los forks nacidos de Bitcoin y sus diferentes filosofías.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/bitcoin.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 40 del podcast hacemos un repaso de los forks nacidos de Bitcoin y sus diferentes filosofías.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -388,7 +798,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Wed, 16 May 2018 22:35:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-39.html</guid>
-      <description>&lt;p&gt;En el episodio 39 del podcast hablamos sobre las entrevistas de trabajo, tanto desde el punto de vista del entrevistado como del entrevistador.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/interview.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 39 del podcast hablamos sobre las entrevistas de trabajo, tanto desde el punto de vista del entrevistado como del entrevistador.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -397,7 +817,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Tue, 01 May 2018 12:25:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-pildora-3.html</guid>
-      <description>&lt;p&gt;En esta tercera píldora del podcast, David y Daniel nos cuentan cómo vivieron la conferencia &lt;a href=&#34;https://devops.barcelona&#34;&gt;DevOps Barcelona&lt;/a&gt;; los demás les troleamos lo que podemos.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/devops-barcelona-logo.jpg"/>
+            </p>
+        
+
+        <p>En esta tercera píldora del podcast, David y Daniel nos cuentan cómo vivieron la conferencia <a href="https://devops.barcelona">DevOps Barcelona</a>; los demás les troleamos lo que podemos.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -406,7 +836,17 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Thu, 05 Apr 2018 19:40:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-38.html</guid>
-      <description>&lt;p&gt;En este episodio entrevistamos a &lt;a href=&#34;https://twitter.com/as0ler&#34;&gt;Alex Soler&lt;/a&gt;, CTO de &lt;a href=&#34;https://ackcent.com/&#34;&gt;Ackcent&lt;/a&gt;, para que nos ponga al día sobre seguridad.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/hacker.jpg"/>
+            </p>
+        
+
+        <p>En este episodio entrevistamos a <a href="https://twitter.com/as0ler">Alex Soler</a>, CTO de <a href="https://ackcent.com/">Ackcent</a>, para que nos ponga al día sobre seguridad.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -415,8 +855,18 @@ distribuidos.&lt;/p&gt;</description>
       <pubDate>Fri, 30 Mar 2018 18:15:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-colaboracion-1.html</guid>
-      <description>&lt;p&gt;Estrenamos nuevo formato, colaboraciones, y empezamos con una de José Miguel Parrella (&lt;a href=&#34;https://twitter.com/bureado&#34;&gt;@bureado&lt;/a&gt;) en la que
-nos explica el evento &lt;a href=&#34;https://events.linuxfoundation.org/events/open-source-leadership-summit-2018/&#34;&gt;Open Source Leadership Summit 2018 (OSLS)&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/Open_Source_Leadership_Summit_2018.jpg"/>
+            </p>
+        
+
+        <p>Estrenamos nuevo formato, colaboraciones, y empezamos con una de José Miguel Parrella (<a href="https://twitter.com/bureado">@bureado</a>) en la que
+nos explica el evento <a href="https://events.linuxfoundation.org/events/open-source-leadership-summit-2018/">Open Source Leadership Summit 2018 (OSLS)</a>.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -425,7 +875,17 @@ nos explica el evento &lt;a href=&#34;https://events.linuxfoundation.org/events/
       <pubDate>Thu, 15 Mar 2018 23:30:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-37.html</guid>
-      <description>&lt;p&gt;En el podcast de hoy vamos a debatir y compartir nuestras opiniones acerca de las tecnologías legacy.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/old-computers.jpg"/>
+            </p>
+        
+
+        <p>En el podcast de hoy vamos a debatir y compartir nuestras opiniones acerca de las tecnologías legacy.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -434,7 +894,17 @@ nos explica el evento &lt;a href=&#34;https://events.linuxfoundation.org/events/
       <pubDate>Wed, 14 Feb 2018 23:45:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-36.html</guid>
-      <description>&lt;p&gt;En el podcast de hoy os contamos lo que hemos visto y vivido en la FOSDEM 2018&amp;hellip; Si no lo conocéis, debéis; y si no habéis ido, es muy recomendable! Disfrutad!&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/fosdem-2018.jpg"/>
+            </p>
+        
+
+        <p>En el podcast de hoy os contamos lo que hemos visto y vivido en la FOSDEM 2018&hellip; Si no lo conocéis, debéis; y si no habéis ido, es muy recomendable! Disfrutad!</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -443,7 +913,17 @@ nos explica el evento &lt;a href=&#34;https://events.linuxfoundation.org/events/
       <pubDate>Tue, 30 Jan 2018 20:45:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-pildora-2.html</guid>
-      <description>&lt;p&gt;En esta segunda píldora del &lt;a href=&#34;http://www.entredevyops.es/&#34;&gt;podcast&lt;/a&gt; hablamos sobre nuestra experiencia al migrar nuestra web a Hugo.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/hugo-logo.png"/>
+            </p>
+        
+
+        <p>En esta segunda píldora del <a href="http://www.entredevyops.es/">podcast</a> hablamos sobre nuestra experiencia al migrar nuestra web a Hugo.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -452,10 +932,20 @@ nos explica el evento &lt;a href=&#34;https://events.linuxfoundation.org/events/
       <pubDate>Wed, 17 Jan 2018 19:40:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-35.html</guid>
-      <description>&lt;p&gt;En el podcast de hoy hemos hablado sobre sistemas de control de versiones,
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/git-github.png"/>
+            </p>
+        
+
+        <p>En el podcast de hoy hemos hablado sobre sistemas de control de versiones,
 Git, GitHub, algunos conceptos básicos, sus flujos de trabajo, algunos consejos
-y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
-&lt;p&gt;En fin, esperamos que os guste!&lt;/p&gt;</description>
+y buenas prácticas, GUIs e integraciones con editores&hellip;</p>
+<p>En fin, esperamos que os guste!</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -464,7 +954,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Wed, 20 Dec 2017 13:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-34.html</guid>
-      <description>&lt;p&gt;En el &lt;a href=&#34;http://podcast.edyo.es/podcast/edyo-34.mp3&#34;&gt;episodio de hoy&lt;/a&gt; vamos a hablar de Blockchain, sus orígenes, aplicaciones, cómo funciona, etc.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/blockchain.png"/>
+            </p>
+        
+
+        <p>En el <a href="http://podcast.edyo.es/podcast/edyo-34.mp3">episodio de hoy</a> vamos a hablar de Blockchain, sus orígenes, aplicaciones, cómo funciona, etc.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -473,7 +973,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Thu, 07 Dec 2017 21:15:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-33.html</guid>
-      <description>&lt;p&gt;En el podcast de hoy hemos hablado sobre CI/CD: intentando explicar que es, requisitos para implementarlo y posibles herramientas a utilizar.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/ci-cd.png"/>
+            </p>
+        
+
+        <p>En el podcast de hoy hemos hablado sobre CI/CD: intentando explicar que es, requisitos para implementarlo y posibles herramientas a utilizar.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -482,7 +992,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Sat, 25 Nov 2017 20:20:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-32.html</guid>
-      <description>&lt;p&gt;En el episodio de hoy vamos a hablar de Infraestructura como código (también conocida como IaC).&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/server.jpg"/>
+            </p>
+        
+
+        <p>En el episodio de hoy vamos a hablar de Infraestructura como código (también conocida como IaC).</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -491,7 +1011,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Tue, 31 Oct 2017 01:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-31.html</guid>
-      <description>&lt;p&gt;Hoy tenemos con nosotros a un par de invitados que trabajan en un lugar único en el mundo, donde se dedican a acelerar partículas a velocidades lumínicas y luego a colisionarlas para ver qué pasa. No hay que dar muchas más pistas para que sepáis de qué hablamos, no? Sobretodo cuando en el propio título tenéis el spoiler… estamos hablando del Consejo Europeo para la Investigación Nuclear, más conocido como CERN.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/cern.jpg"/>
+            </p>
+        
+
+        <p>Hoy tenemos con nosotros a un par de invitados que trabajan en un lugar único en el mundo, donde se dedican a acelerar partículas a velocidades lumínicas y luego a colisionarlas para ver qué pasa. No hay que dar muchas más pistas para que sepáis de qué hablamos, no? Sobretodo cuando en el propio título tenéis el spoiler… estamos hablando del Consejo Europeo para la Investigación Nuclear, más conocido como CERN.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -500,7 +1030,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Mon, 23 Oct 2017 17:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-30.html</guid>
-      <description>&lt;p&gt;Hoy os presentamos el episodio 30 de nuestro podcast, analizando cómo nos mantenemos al día en este mundo tan cambiante.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/learn.jpg"/>
+            </p>
+        
+
+        <p>Hoy os presentamos el episodio 30 de nuestro podcast, analizando cómo nos mantenemos al día en este mundo tan cambiante.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -509,7 +1049,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Mon, 25 Sep 2017 12:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-pildora-1.html</guid>
-      <description>&lt;p&gt;Hoy os presentamos la píldora 1 de nuestro podcast, analizando el artículo sobre la seguridad de la web del referendum catalán.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/web-referendum-1O.png"/>
+            </p>
+        
+
+        <p>Hoy os presentamos la píldora 1 de nuestro podcast, analizando el artículo sobre la seguridad de la web del referendum catalán.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -518,7 +1068,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Tue, 19 Sep 2017 09:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-29.html</guid>
-      <description>&lt;p&gt;En el episodio 29 del podcast hemos dado respuesta a la petición de un oyente, y os explicamos las herramientas que utilizamos en nuestro día a día: equipos, sistemas operativos, editores, etc.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/laptop.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 29 del podcast hemos dado respuesta a la petición de un oyente, y os explicamos las herramientas que utilizamos en nuestro día a día: equipos, sistemas operativos, editores, etc.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -527,8 +1087,18 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Sun, 20 Aug 2017 09:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-28.html</guid>
-      <description>&lt;p&gt;Hemos hecho un paréntesis en nuestras vacaciones de verano para ponernos detrás de los micrófonos una vez más y traeros &lt;a href=&#34;http://podcast.edyo.es/podcast/edyo-28.mp3&#34;&gt;nuestro episodio número 28.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;En esta ocasión os explicamos todas las herramientas (algunas desarrolladas por nosotros) y servicios de terceros que utilizamos.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/code.jpg"/>
+            </p>
+        
+
+        <p>Hemos hecho un paréntesis en nuestras vacaciones de verano para ponernos detrás de los micrófonos una vez más y traeros <a href="http://podcast.edyo.es/podcast/edyo-28.mp3">nuestro episodio número 28.</a></p>
+<p>En esta ocasión os explicamos todas las herramientas (algunas desarrolladas por nosotros) y servicios de terceros que utilizamos.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -537,7 +1107,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Tue, 01 Aug 2017 13:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-27.html</guid>
-      <description>&lt;p&gt;Antes de irnos de vacaciones hemos querido dejaros una pequeña joya, &lt;a href=&#34;http://podcast.edyo.es/podcast/edyo-27.mp3&#34;&gt;el episodio 27 de nuestro podcast&lt;/a&gt; donde comparamos AWS y Azure con &lt;a href=&#34;https://twitter.com/ciberado&#34;&gt;Javi Moreno&lt;/a&gt;, Resident Futurist &amp;amp; Evangelist en &lt;a href=&#34;https://www.capside.com/&#34;&gt;CAPSiDE&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/javi-moreno.jpg"/>
+            </p>
+        
+
+        <p>Antes de irnos de vacaciones hemos querido dejaros una pequeña joya, <a href="http://podcast.edyo.es/podcast/edyo-27.mp3">el episodio 27 de nuestro podcast</a> donde comparamos AWS y Azure con <a href="https://twitter.com/ciberado">Javi Moreno</a>, Resident Futurist &amp; Evangelist en <a href="https://www.capside.com/">CAPSiDE</a>.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -546,7 +1126,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Wed, 14 Jun 2017 13:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-26.html</guid>
-      <description>&lt;p&gt;Ya tenéis disponible &lt;a href=&#34;http://podcast.edyo.es/podcast/edyo-26.mp3&#34;&gt;el episodio 26 de nuestro podcast&lt;/a&gt; donde hablamos de Big Data con José Mena.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/big-data.jpg"/>
+            </p>
+        
+
+        <p>Ya tenéis disponible <a href="http://podcast.edyo.es/podcast/edyo-26.mp3">el episodio 26 de nuestro podcast</a> donde hablamos de Big Data con José Mena.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -555,7 +1145,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Thu, 01 Jun 2017 01:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-25.html</guid>
-      <description>&lt;p&gt;Ya tenéis disponible &lt;a href=&#34;http://podcast.edyo.es/podcast/edyo-25.mp3&#34;&gt;el episodio 25 de nuestro podcast&lt;/a&gt; donde hablamos sobre la organización del PyData Barcelona 2017.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/pydata.png"/>
+            </p>
+        
+
+        <p>Ya tenéis disponible <a href="http://podcast.edyo.es/podcast/edyo-25.mp3">el episodio 25 de nuestro podcast</a> donde hablamos sobre la organización del PyData Barcelona 2017.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -564,7 +1164,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Tue, 23 May 2017 13:30:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-24.html</guid>
-      <description>&lt;p&gt;Ya tenéis disponible &lt;a href=&#34;http://podcast.edyo.es/podcast/edyo-24.mp3&#34;&gt;el episodio 24 de nuestro podcast&lt;/a&gt; donde hablamos sobre el virus WannaCry.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/wana_decrypt0r.jpg"/>
+            </p>
+        
+
+        <p>Ya tenéis disponible <a href="http://podcast.edyo.es/podcast/edyo-24.mp3">el episodio 24 de nuestro podcast</a> donde hablamos sobre el virus WannaCry.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -573,7 +1183,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Thu, 18 May 2017 11:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-23.html</guid>
-      <description>&lt;p&gt;Ya tenéis disponible &lt;a href=&#34;http://podcast.edyo.es/podcast/edyo-23.mp3&#34;&gt;el episodio 23 de nuestro podcast&lt;/a&gt; donde hablamos de una Vulnerabilidad de Wordpress, comentamos qué son los generadores de contenido estáticos y hacemos una pequeña comparativa entre servicios para almacenar ficheros, destacando a Amazon Drive.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/download.png"/>
+            </p>
+        
+
+        <p>Ya tenéis disponible <a href="http://podcast.edyo.es/podcast/edyo-23.mp3">el episodio 23 de nuestro podcast</a> donde hablamos de una Vulnerabilidad de Wordpress, comentamos qué son los generadores de contenido estáticos y hacemos una pequeña comparativa entre servicios para almacenar ficheros, destacando a Amazon Drive.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -582,7 +1202,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Tue, 28 Mar 2017 23:35:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-22.html</guid>
-      <description>&lt;p&gt;En este podcast hablamos de la Orchestrate 2017 y PyData 2017. Por otro lado comentamos la caída S3, la Vulnerabilidad de CloudFlare y el impacto de Vault7.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/broken-window.jpg"/>
+            </p>
+        
+
+        <p>En este podcast hablamos de la Orchestrate 2017 y PyData 2017. Por otro lado comentamos la caída S3, la Vulnerabilidad de CloudFlare y el impacto de Vault7.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -591,7 +1221,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Fri, 24 Feb 2017 08:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-21.html</guid>
-      <description>&lt;p&gt;En este podcast debatimos sobre el incidente que el pasado 31 de Enero del 2017 dejó a &lt;a href=&#34;https://gitlab.com&#34;&gt;Gitlab&lt;/a&gt; sin servicio unos 18 horas.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/gitlab-infrastructure-avatar.png"/>
+            </p>
+        
+
+        <p>En este podcast debatimos sobre el incidente que el pasado 31 de Enero del 2017 dejó a <a href="https://gitlab.com">Gitlab</a> sin servicio unos 18 horas.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -600,7 +1240,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Tue, 29 Nov 2016 10:15:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-20.html</guid>
-      <description>&lt;p&gt;En este episodio entrevistamos a David Monreal, fundador de Skylab Coders Academy, para hablar un poco de formación y aprendizaje.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/skylab-logo.png"/>
+            </p>
+        
+
+        <p>En este episodio entrevistamos a David Monreal, fundador de Skylab Coders Academy, para hablar un poco de formación y aprendizaje.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -609,7 +1259,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Tue, 18 Oct 2016 10:15:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-19.html</guid>
-      <description>&lt;p&gt;En este episodio debatimos sobre serverless: qué es, para qué sirve y diferentes casos de usos. También presentamos dos secciones nuevas: preguntas y recomendaciones.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/aws-lambda.png"/>
+            </p>
+        
+
+        <p>En este episodio debatimos sobre serverless: qué es, para qué sirve y diferentes casos de usos. También presentamos dos secciones nuevas: preguntas y recomendaciones.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -618,7 +1278,17 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Fri, 30 Sep 2016 21:15:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-18.html</guid>
-      <description>&lt;p&gt;Otro episodio listo para descargar de nuestro podcast, en esta ocasión entrevistamos a &lt;a href=&#34;http://xavisb.com&#34;&gt;Xavier Soler&lt;/a&gt;, Ingeniero de Sistemas en &lt;a href=&#34;https://www.typeform.com&#34;&gt;Typeform&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/xsb.png"/>
+            </p>
+        
+
+        <p>Otro episodio listo para descargar de nuestro podcast, en esta ocasión entrevistamos a <a href="http://xavisb.com">Xavier Soler</a>, Ingeniero de Sistemas en <a href="https://www.typeform.com">Typeform</a>.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -627,10 +1297,20 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Wed, 22 Jun 2016 23:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-17.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/chat.png"/>
+            </p>
+        
+
+        <div class="document">
 
 
-&lt;p&gt;Nuevo episodio listo para escuhar de nuestro podcast en el que hemos debatido sobre ChatOps.&lt;/p&gt;&lt;/div&gt;</description>
+<p>Nuevo episodio listo para escuhar de nuestro podcast en el que hemos debatido sobre ChatOps.</p></div>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -639,11 +1319,21 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Thu, 24 Mar 2016 23:30:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-15.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/binary.jpg"/>
+            </p>
+        
+
+        <div class="document">
 
 
-&lt;p&gt;Ya está disponible para escuchar en vuestro reproductor favorito un nuevo episodio de nuestro &lt;a class=&#34;reference external&#34; href=&#34;http://www.entredevyops.es/podcast.html&#34;&gt;podcast&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;En esta ocasión, hablamos sobre novedades en Spotify y Microsoft, y sobre el cloud de IBM, Bluemix, además de otros temas.&lt;/p&gt;&lt;/div&gt;</description>
+<p>Ya está disponible para escuchar en vuestro reproductor favorito un nuevo episodio de nuestro <a class="reference external" href="http://www.entredevyops.es/podcast.html">podcast</a>.</p>
+<p>En esta ocasión, hablamos sobre novedades en Spotify y Microsoft, y sobre el cloud de IBM, Bluemix, además de otros temas.</p></div>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -652,12 +1342,22 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Thu, 08 Oct 2015 08:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-14.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/pyss15_logo.png"/>
+            </p>
+        
+
+        <div class="document">
 
 
-&lt;p&gt;En este podcast repasaremos próximos eventos y hablaremos con Alexandre Savio co-organizador de la &lt;a class=&#34;reference external&#34; href=&#34;http://europython.eu&#34;&gt;EuroPython 2015&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://pyss15.pyss.org/en/&#34;&gt;Python San Sebastian 2015&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Como siempre podréis encontrar este, y el resto de episodios, en nuestra sección de &lt;a class=&#34;reference external&#34; href=&#34;http://feedpress.me/edyo&#34;&gt;podcast&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Esperamos que os guste.&lt;/p&gt;&lt;/div&gt;</description>
+<p>En este podcast repasaremos próximos eventos y hablaremos con Alexandre Savio co-organizador de la <a class="reference external" href="http://europython.eu">EuroPython 2015</a> y <a class="reference external" href="http://pyss15.pyss.org/en/">Python San Sebastian 2015</a>.</p>
+<p>Como siempre podréis encontrar este, y el resto de episodios, en nuestra sección de <a class="reference external" href="http://feedpress.me/edyo">podcast</a>.</p>
+<p>Esperamos que os guste.</p></div>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -666,11 +1366,21 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Fri, 18 Sep 2015 15:14:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-13.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/europython-2015-logo.png"/>
+            </p>
+        
+
+        <div class="document">
 
 
-&lt;p&gt;En este podcast repasaremos próximos eventos, las noticias relevantes de los últimos dos meses y discutiremos sobre temas diversos: grupo de &lt;a class=&#34;reference external&#34; href=&#34;http://www.meetup.com/es/devops-bcn-group/&#34;&gt;DevOps BCN&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://europython.eu&#34;&gt;EuroPython 2015&lt;/a&gt; y &amp;quot;Se busca DevOps&amp;quot;.&lt;/p&gt;
-&lt;p&gt;Esperamos que os guste.&lt;/p&gt;&lt;/div&gt;</description>
+<p>En este podcast repasaremos próximos eventos, las noticias relevantes de los últimos dos meses y discutiremos sobre temas diversos: grupo de <a class="reference external" href="http://www.meetup.com/es/devops-bcn-group/">DevOps BCN</a>, <a class="reference external" href="http://europython.eu">EuroPython 2015</a> y &quot;Se busca DevOps&quot;.</p>
+<p>Esperamos que os guste.</p></div>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -679,8 +1389,18 @@ y buenas prácticas, GUIs e integraciones con editores&amp;hellip;&lt;/p&gt;
       <pubDate>Mon, 13 Apr 2015 02:14:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-12.html</guid>
-      <description>En este podcast entrevistamos a los organizadores de la EuroPython 2015. Ésta entrevista fue gravada el día 15 de Marzo, pero por razones técnicas no hemos podido publicarla hasta ahora. En la entrevista también se habla de la enseñanza a investigadores, concretamente de la Software Carpentry.
-Esperamos que os guste.</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/europython-2015-logo.png"/>
+            </p>
+        
+
+        En este podcast entrevistamos a los organizadores de la EuroPython 2015. Ésta entrevista fue gravada el día 15 de Marzo, pero por razones técnicas no hemos podido publicarla hasta ahora. En la entrevista también se habla de la enseñanza a investigadores, concretamente de la Software Carpentry.
+Esperamos que os guste.
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -689,8 +1409,18 @@ Esperamos que os guste.</description>
       <pubDate>Mon, 16 Feb 2015 22:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-11.html</guid>
-      <description>En este podcast hablamos del Curso Scrum, DevOps y Lean IT en la UPC 17 Marzo y del Curso oficial Scrum.org en itnove 26 Marzo, pero también de la nueva vulnerabilidad GHOST, y de cómo fue la FOSDEM.
-Esperamos que os guste.</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/ghost-vulnerability.jpg"/>
+            </p>
+        
+
+        En este podcast hablamos del Curso Scrum, DevOps y Lean IT en la UPC 17 Marzo y del Curso oficial Scrum.org en itnove 26 Marzo, pero también de la nueva vulnerabilidad GHOST, y de cómo fue la FOSDEM.
+Esperamos que os guste.
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -699,11 +1429,21 @@ Esperamos que os guste.</description>
       <pubDate>Tue, 27 Jan 2015 20:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-10.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/fosdem_2015.png"/>
+            </p>
+        
+
+        <div class="document">
 
 
-&lt;p&gt;En este podcast tratamos sobre eventos. Explicamos los Conding Dojos que organiza pyBCN de manera regular en Barcelona, la EuroPython 2015 que será en Bilbao el próximo Julio y el Fosdem 2015 que se celebrará el día 30/01 y 01/02 en Bruselas.&lt;/p&gt;
-&lt;p&gt;Sobre este último aprovechamos para daros unos consejos que, si estáis pensado en acudir, os pueden ser útiles.&lt;/p&gt;&lt;/div&gt;</description>
+<p>En este podcast tratamos sobre eventos. Explicamos los Conding Dojos que organiza pyBCN de manera regular en Barcelona, la EuroPython 2015 que será en Bilbao el próximo Julio y el Fosdem 2015 que se celebrará el día 30/01 y 01/02 en Bruselas.</p>
+<p>Sobre este último aprovechamos para daros unos consejos que, si estáis pensado en acudir, os pueden ser útiles.</p></div>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -712,8 +1452,18 @@ Esperamos que os guste.</description>
       <pubDate>Wed, 31 Dec 2014 18:46:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-9.html</guid>
-      <description>Acabamos de publicar el noveno episodio de nuestro podcast, el último del año, por los pelos!!!!
-En él, encontraréis algunos comentarios sobre las conferencias que tuvieron lugar durante Noviembre, en Barcelona, como la VelocityConf, y hablaremos un poco sobre los microservicios.</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/seats.jpg"/>
+            </p>
+        
+
+        Acabamos de publicar el noveno episodio de nuestro podcast, el último del año, por los pelos!!!!
+En él, encontraréis algunos comentarios sobre las conferencias que tuvieron lugar durante Noviembre, en Barcelona, como la VelocityConf, y hablaremos un poco sobre los microservicios.
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -722,8 +1472,18 @@ En él, encontraréis algunos comentarios sobre las conferencias que tuvieron lu
       <pubDate>Sun, 23 Nov 2014 21:04:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-8.html</guid>
-      <description>Aunque con algo de retraso, os anunciamos la disponibilidad del octavo episodio de nuestro podcast, que publicamos hace unos días.
-Tras la publicación de las vulnerabilidades Shellshock y Poodle, grabamos un debate sobre las vulnerabilidades y la reacción a ellas, que os ofrecemos en este episodio.</description>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/shellshock.png"/>
+            </p>
+        
+
+        Aunque con algo de retraso, os anunciamos la disponibilidad del octavo episodio de nuestro podcast, que publicamos hace unos días.
+Tras la publicación de las vulnerabilidades Shellshock y Poodle, grabamos un debate sobre las vulnerabilidades y la reacción a ellas, que os ofrecemos en este episodio.
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -732,11 +1492,21 @@ Tras la publicación de las vulnerabilidades Shellshock y Poodle, grabamos un de
       <pubDate>Thu, 16 Oct 2014 01:14:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-7.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/mic.jpg"/>
+            </p>
+        
+
+        <div class="document">
 
 
-&lt;p&gt;Hoy hemos publicado el episodio número 7 de nuestro podcast. Esta vez nos hemos pasado un poco y el episodio es un poco largo, prometemos no repetirlo en el futuro, o partirlo en dos.&lt;/p&gt;
-&lt;p&gt;En esta ocasión hemos entrevistado a Josep Pla, administrador de sistemas en &lt;a class=&#34;reference external&#34; href=&#34;http://www.upptalk.com/&#34;&gt;Upptalk&lt;/a&gt;, sobre algunas herramientas que usan, entre otros temas.&lt;/p&gt;&lt;/div&gt;</description>
+<p>Hoy hemos publicado el episodio número 7 de nuestro podcast. Esta vez nos hemos pasado un poco y el episodio es un poco largo, prometemos no repetirlo en el futuro, o partirlo en dos.</p>
+<p>En esta ocasión hemos entrevistado a Josep Pla, administrador de sistemas en <a class="reference external" href="http://www.upptalk.com/">Upptalk</a>, sobre algunas herramientas que usan, entre otros temas.</p></div>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -745,11 +1515,21 @@ Tras la publicación de las vulnerabilidades Shellshock y Poodle, grabamos un de
       <pubDate>Sun, 28 Sep 2014 19:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/podcasts/podcast-episodio-6.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/david-poblador.jpg"/>
+            </p>
+        
+
+        <div class="document">
 
 
-&lt;p&gt;El pasado 25 de Agosto publicamos el episodio número 6 de nuestro podcast.&lt;/p&gt;
-&lt;p&gt;En esta última entrada tenemos el placer de realizar una entrevista a &lt;a class=&#34;reference external&#34; href=&#34;https://davidpoblador.com/&#34;&gt;David Poblador&lt;/a&gt;, jefe de SRE de &lt;a class=&#34;reference external&#34; href=&#34;https://www.spotify.com&#34;&gt;Spotify&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description>
+<p>El pasado 25 de Agosto publicamos el episodio número 6 de nuestro podcast.</p>
+<p>En esta última entrada tenemos el placer de realizar una entrevista a <a class="reference external" href="https://davidpoblador.com/">David Poblador</a>, jefe de SRE de <a class="reference external" href="https://www.spotify.com">Spotify</a>.</p></div>
+        ]]>
+       </description>
     </item>
     
   </channel>

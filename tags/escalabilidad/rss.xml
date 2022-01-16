@@ -18,11 +18,17 @@
       <pubDate>Mon, 11 Nov 2013 07:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/bcndevcon-2013-segundo-dia.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+
+        <div class="document">
 
 
-&lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
-&lt;p&gt;El segundo día de la &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon&lt;/a&gt;&#39;13 estuvo plagado de charlas y actividades, el final del &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/hackathon/&#34;&gt;Hackathon for education&lt;/a&gt;, Los concursos de Mario Kart y Street Fighter. El salón de &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/retrobarcelona/&#34;&gt;RetroBarcelona&lt;/a&gt; fue muy visitado y la &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/activities/agile-station/&#34;&gt;Agile Station&lt;/a&gt;, coordinada por la gente de &lt;a class=&#34;reference external&#34; href=&#34;http://barcelona.agile-spain.org/&#34;&gt;Agile BCN&lt;/a&gt;, tuvo una actividad frenética, como el día anterior.&lt;/p&gt;&lt;/div&gt;</description>
+<img alt="BcnDevCon13" class="border align-right" src="/images/bcndevcon13.jpeg" style="width: 125px; height: 125px;" />
+<p>El segundo día de la <a class="reference external" href="http://bcndevcon.org">BcnDevCon</a>'13 estuvo plagado de charlas y actividades, el final del <a class="reference external" href="http://bcndevcon.org/hackathon/">Hackathon for education</a>, Los concursos de Mario Kart y Street Fighter. El salón de <a class="reference external" href="http://bcndevcon.org/retrobarcelona/">RetroBarcelona</a> fue muy visitado y la <a class="reference external" href="http://bcndevcon.org/activities/agile-station/">Agile Station</a>, coordinada por la gente de <a class="reference external" href="http://barcelona.agile-spain.org/">Agile BCN</a>, tuvo una actividad frenética, como el día anterior.</p></div>
+        ]]>
+       </description>
     </item>
     
   </channel>

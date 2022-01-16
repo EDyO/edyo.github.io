@@ -18,9 +18,15 @@
       <pubDate>Thu, 08 Sep 2016 15:30:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/fail2ban-ssh.html</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Hace poco realizando tareas de mantenimiento en mi servidor personal vi varios mensajes en los logs que no me gustaron nada: &lt;em&gt;Failed password for root from 121.18.238.22 port 40618 ssh2&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Claramente mi servidor estaba bajo un ataque para conseguir acceso SSH.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+
+        <!-- raw HTML omitted -->
+<p>Hace poco realizando tareas de mantenimiento en mi servidor personal vi varios mensajes en los logs que no me gustaron nada: <em>Failed password for root from 121.18.238.22 port 40618 ssh2</em>.</p>
+<p>Claramente mi servidor estaba bajo un ataque para conseguir acceso SSH.</p>
+        ]]>
+       </description>
     </item>
     
   </channel>

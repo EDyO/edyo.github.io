@@ -18,8 +18,14 @@
       <pubDate>Thu, 16 Mar 2017 03:14:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/comparando-serverless.html</guid>
-      <description>&lt;p&gt;El líder indiscutible del cloud es AWS, pero tiene un competidor que le sigue de cerca. Bueno, siendo realistas no tan de cerca, pero que se ha acercado mucho en estos últimos tiempos.&lt;/p&gt;
-&lt;p&gt;Hemos visto el avance de &lt;a href=&#34;https://aws.amazon.com/es/lambda/details/&#34;&gt;Lambda&lt;/a&gt;, y como pasó de ser un anuncio en el re:Invent del 2014, a ocupar varias charlas en el re:Invent del año pasado. Teniendo en cuenta que ahora mismo, tenemos el sistema distribuido entre: el lambda de siempre, en el &lt;a href=&#34;https://aws.amazon.com/es/snowball/details/&#34;&gt;snowball&lt;/a&gt; y próximamente en  la ejecución lambda de los &lt;a href=&#34;https://pages.awscloud.com/lambda-at-edge-preview.html&#34;&gt;nodos edge de cloudfront&lt;/a&gt;  y en los productos que usen &lt;a href=&#34;https://aws.amazon.com/es/greengrass/&#34;&gt;AWS Greengrass&lt;/a&gt;,  pero la pregunta es: ¿cual es la herramienta de Azure para combatir Lambda?&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+
+        <p>El líder indiscutible del cloud es AWS, pero tiene un competidor que le sigue de cerca. Bueno, siendo realistas no tan de cerca, pero que se ha acercado mucho en estos últimos tiempos.</p>
+<p>Hemos visto el avance de <a href="https://aws.amazon.com/es/lambda/details/">Lambda</a>, y como pasó de ser un anuncio en el re:Invent del 2014, a ocupar varias charlas en el re:Invent del año pasado. Teniendo en cuenta que ahora mismo, tenemos el sistema distribuido entre: el lambda de siempre, en el <a href="https://aws.amazon.com/es/snowball/details/">snowball</a> y próximamente en  la ejecución lambda de los <a href="https://pages.awscloud.com/lambda-at-edge-preview.html">nodos edge de cloudfront</a>  y en los productos que usen <a href="https://aws.amazon.com/es/greengrass/">AWS Greengrass</a>,  pero la pregunta es: ¿cual es la herramienta de Azure para combatir Lambda?</p>
+        ]]>
+       </description>
     </item>
     
   </channel>

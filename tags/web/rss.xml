@@ -18,11 +18,17 @@
       <pubDate>Sun, 02 Oct 2016 23:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/publicacion-estatica-ii.html</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Han pasado casi tres meses desde que se publicó el &lt;a href=&#34;http://www.entredevyops.es/posts/publicacion-estatica.html&#34;&gt;primer artículo sobre publicación estática&lt;/a&gt; en &lt;a href=&#34;http://www.entredevyops.es&#34;&gt;EntreDevYOps&lt;/a&gt;, en el que se prometía un ejemplo&amp;hellip;
+      <description>
+        <![CDATA[
+        
+
+        <!-- raw HTML omitted -->
+<p>Han pasado casi tres meses desde que se publicó el <a href="http://www.entredevyops.es/posts/publicacion-estatica.html">primer artículo sobre publicación estática</a> en <a href="http://www.entredevyops.es">EntreDevYOps</a>, en el que se prometía un ejemplo&hellip;
 Lo prometido es deuda.
-Espero que el interés sobre el tema aún siga vigente&amp;hellip;&lt;/p&gt;
-&lt;p&gt;En este artículo, se muestra, paso a paso, y con un ejemplo real, cómo realizar una publicación estática, con &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, usando &lt;a href=&#34;http://travis-ci.org&#34;&gt;Travis&lt;/a&gt;, en &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;</description>
+Espero que el interés sobre el tema aún siga vigente&hellip;</p>
+<p>En este artículo, se muestra, paso a paso, y con un ejemplo real, cómo realizar una publicación estática, con <a href="http://gohugo.io">Hugo</a>, usando <a href="http://travis-ci.org">Travis</a>, en <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -31,10 +37,16 @@ Espero que el interés sobre el tema aún siga vigente&amp;hellip;&lt;/p&gt;
       <pubDate>Sun, 04 Sep 2016 12:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/paginas-estaticas-amazon-2.html</guid>
-      <description>&lt;p&gt;Continuamos con el curso de páginas estáticas de Amazon, pero esta vez vamos a
+      <description>
+        <![CDATA[
+        
+
+        <p>Continuamos con el curso de páginas estáticas de Amazon, pero esta vez vamos a
 subir las páginas a Amazon. Elegimos un sistema de generación de contenido
-estático. En la siguiente &lt;a href=&#34;https://staticsitegenerators.net&#34;&gt;página&lt;/a&gt; hay un
-listado muy extenso de este tipo de software.&lt;/p&gt;</description>
+estático. En la siguiente <a href="https://staticsitegenerators.net">página</a> hay un
+listado muy extenso de este tipo de software.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -43,7 +55,13 @@ listado muy extenso de este tipo de software.&lt;/p&gt;</description>
       <pubDate>Tue, 26 Jul 2016 12:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/paginas-estaticas-amazon-1.html</guid>
-      <description>&lt;p&gt;Tal como comentamos el pasado artículo &lt;a href=&#34;http://www.entredevyops.es/posts/publicacion-estatica.html&#34;&gt;&lt;em&gt;Publicación estática&lt;/em&gt;&lt;/a&gt; el uso de sitios estáticos es cada vez más habitual por seguridad o por su eficiencia tal como comentaba &lt;em&gt;Ersiko&lt;/em&gt; en ese mismo artículo, por otro lado tenemos a Amazon como proveedor y líder indiscutible en servicios de computación y en este artículo los vamos a unir.&lt;/p&gt;</description>
+      <description>
+        <![CDATA[
+        
+
+        <p>Tal como comentamos el pasado artículo <a href="http://www.entredevyops.es/posts/publicacion-estatica.html"><em>Publicación estática</em></a> el uso de sitios estáticos es cada vez más habitual por seguridad o por su eficiencia tal como comentaba <em>Ersiko</em> en ese mismo artículo, por otro lado tenemos a Amazon como proveedor y líder indiscutible en servicios de computación y en este artículo los vamos a unir.</p>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -52,12 +70,18 @@ listado muy extenso de este tipo de software.&lt;/p&gt;</description>
       <pubDate>Mon, 11 Jul 2016 12:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/publicacion-estatica.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+
+        <div class="document">
 
 
-&lt;p&gt;Muy probablemente, muchos de vosotros ya sabréis lo que es un sitio estático.
+<p>Muy probablemente, muchos de vosotros ya sabréis lo que es un sitio estático.
 Seguramente, también tendréis o trabajaréis con alguno.
-Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticamente.&lt;/p&gt;&lt;/div&gt;</description>
+Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticamente.</p></div>
+        ]]>
+       </description>
     </item>
     
     <item>
@@ -66,11 +90,17 @@ Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticament
       <pubDate>Thu, 30 Oct 2014 18:50:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/html5-finalizado.html</guid>
-      <description>&lt;div class=&#34;document&#34;&gt;
+      <description>
+        <![CDATA[
+        
+
+        <div class="document">
 
 
-&lt;img alt=&#34;HTML5&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/html5.png&#34; /&gt;
-&lt;p&gt;A pesar de llevar años entre nosotros, sobretodo, gracias al empuje de Google con su &amp;quot;joven&amp;quot; navegador Chrome, a la fundación Mozilla con Firefox, y al rápido crecimiento y cada vez uso más generalizado de &lt;em&gt;smartphones&lt;/em&gt;, el &lt;a class=&#34;reference external&#34; href=&#34;http://www.w3.org/blog/news/archives/4167&#34;&gt;pasado día 28 de Octubre&lt;/a&gt;, el &lt;a class=&#34;reference external&#34; href=&#34;http://www.w3.org/&#34;&gt;W3C&lt;/a&gt; dio por finalizado el estándar &lt;a class=&#34;reference external&#34; href=&#34;http://www.w3.org/TR/2014/REC-html5-20141028/&#34;&gt;HTML5&lt;/a&gt; pasándolo al estado de recomendación.&lt;/p&gt;&lt;/div&gt;</description>
+<img alt="HTML5" class="align-right" src="/images/html5.png" />
+<p>A pesar de llevar años entre nosotros, sobretodo, gracias al empuje de Google con su &quot;joven&quot; navegador Chrome, a la fundación Mozilla con Firefox, y al rápido crecimiento y cada vez uso más generalizado de <em>smartphones</em>, el <a class="reference external" href="http://www.w3.org/blog/news/archives/4167">pasado día 28 de Octubre</a>, el <a class="reference external" href="http://www.w3.org/">W3C</a> dio por finalizado el estándar <a class="reference external" href="http://www.w3.org/TR/2014/REC-html5-20141028/">HTML5</a> pasándolo al estado de recomendación.</p></div>
+        ]]>
+       </description>
     </item>
     
   </channel>
