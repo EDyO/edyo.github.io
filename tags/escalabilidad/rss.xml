@@ -4,6 +4,11 @@
     <title>Escalabilidad on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/escalabilidad.html</link>
     <description>Recent content in Escalabilidad on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/escalabilidad.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Mon, 11 Nov 2013 07:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/escalabilidad/rss.xml" rel="self" type="application/rss+xml" />
@@ -18,11 +23,6 @@
 
 &lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
 &lt;p&gt;El segundo día de la &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon&lt;/a&gt;&#39;13 estuvo plagado de charlas y actividades, el final del &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/hackathon/&#34;&gt;Hackathon for education&lt;/a&gt;, Los concursos de Mario Kart y Street Fighter. El salón de &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/retrobarcelona/&#34;&gt;RetroBarcelona&lt;/a&gt; fue muy visitado y la &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/activities/agile-station/&#34;&gt;Agile Station&lt;/a&gt;, coordinada por la gente de &lt;a class=&#34;reference external&#34; href=&#34;http://barcelona.agile-spain.org/&#34;&gt;Agile BCN&lt;/a&gt;, tuvo una actividad frenética, como el día anterior.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Segundo día en la BcnDevCon&#39;13</title>
-        <link>https://www.entredevyops.es/posts/bcndevcon-2013-segundo-dia.html</link>
-      </image>
     </item>
     
   </channel>

@@ -4,6 +4,11 @@
     <title>Seguridad on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/seguridad.html</link>
     <description>Recent content in Seguridad on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/seguridad.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Fri, 22 Sep 2017 22:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/seguridad/rss.xml" rel="self" type="application/rss+xml" />
@@ -15,11 +20,6 @@
       <guid>https://www.entredevyops.es/posts/referendum-votar.html</guid>
       <description>&lt;p&gt;&amp;lt;img src=&#39;https://www.entredevyops.es/images/30765928-56c56350-9ff2-11e7-85a8-cc8fad0d7947.jpg&#39; alt=&amp;lsquo;yes-no&amp;rsquo; class=&amp;lsquo;align-left height=&amp;lsquo;200&amp;rsquo; width=&amp;lsquo;200&amp;rsquo;/&amp;gt;&lt;/p&gt;
 &lt;p&gt;No, no nos hemos vuelto locos, en Edyo seguimos hablando de tecnología. Sabemos también que últimamente no publicamos más que podcasts; a pesar de ello, mantenemos el blog para cosas que se cuentan mejor escritas que narradas. Hoy os traemos un análisis técnico que no puede ser más de actualidad: la web de consulta del censo para el referendum del 1-O. Os prometo que vale la pena.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Referendum 1-O: ¿Dónde votar?</title>
-        <link>https://www.entredevyops.es/posts/referendum-votar.html</link>
-      </image>
     </item>
     
     <item>
@@ -33,11 +33,6 @@
 cosas)&lt;/a&gt; Amazon nos presenta un producto que combina hardware y software con el objetivo de ofrecernos una nueva asistenta virtual del hogar que viene a romper las reglas, pero yo me lo
 pensaría dos veces antes de dejarla entrar en mi casa.&lt;/p&gt;
 &lt;p&gt;A continuación, os explico mis motivos.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>¿Dejarías entrar a Alexa en tu casa?</title>
-        <link>https://www.entredevyops.es/posts/seguridad-alexa.html</link>
-      </image>
     </item>
     
     <item>
@@ -50,11 +45,6 @@ pensaría dos veces antes de dejarla entrar en mi casa.&lt;/p&gt;
 &lt;p&gt;El grupo de trabajo de IETF encargado de crear la versión 1.3 de TLS lleva trabajando en él desde abril de 2014.
 Llevan ya &lt;a href=&#34;https://tools.ietf.org/html/draft-ietf-tls-tls13-16&#34;&gt;16 borradores&lt;/a&gt;, el último de este mismo septiembre, así que la publicación del estándar definitivo
 es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>TLS: de estándares y lobbies</title>
-        <link>https://www.entredevyops.es/posts/tls-estandares-lobbies.html</link>
-      </image>
     </item>
     
     <item>
@@ -68,11 +58,6 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;
 
 &lt;img alt=&#34;Securidad&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/security.jpg&#34; /&gt;
 &lt;p&gt;Este año 2014 se ha convertido en un verdadero calvario para los administradores de sistemas y los responsables de seguridad de muchas empresas, sobretodo las que proporcionan servicios en Internet. A falta de dos meses para que finalice el año, ya son tres las vulnerabilidades graves detectadas que nos han puesto en jaque. Hablamos de &lt;a class=&#34;reference external&#34; href=&#34;https://en.wikipedia.org/wiki/Heartbleed&#34;&gt;Heartbleed&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://en.wikipedia.org/wiki/Shellshock_(software_bug)&#34;&gt;Shellshock&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;https://en.wikipedia.org/wiki/Transport_Layer_Security#POODLE_attack&#34;&gt;Poodle&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>2014, el año de las vulnerabilidades</title>
-        <link>https://www.entredevyops.es/posts/2014-vulnerabilidades.html</link>
-      </image>
     </item>
     
     <item>
@@ -86,11 +71,6 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;
 
 &lt;img alt=&#34;Bucle de retroalimentación&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/estandarizacion.jpg&#34; /&gt;
 &lt;p&gt;Para finalizar esta serie de &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim&#34;&gt;Gene Kim&lt;/a&gt;, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>11 cosas sobre DevOps (11): Mi tercer patrón DevOps favorito</title>
-        <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-11.html</link>
-      </image>
     </item>
     
     <item>
@@ -104,11 +84,6 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;
 
 &lt;img alt=&#34;Bucle de retroalimentación&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/Feedback_Loop.png&#34; /&gt;
 &lt;p&gt;La penúltima entrega de &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim&#34;&gt;Gene Kim&lt;/a&gt;, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>11 cosas sobre DevOps (10): Mi segundo patrón DevOps favorito</title>
-        <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-10.html</link>
-      </image>
     </item>
     
     <item>
@@ -122,11 +97,6 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;
 
 &lt;img alt=&#34;Automatización&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/automation.jpeg&#34; /&gt;
 &lt;p&gt;En el noveno punto, &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>11 cosas sobre DevOps (9): Mi primer patrón DevOps favorito</title>
-        <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-9.html</link>
-      </image>
     </item>
     
     <item>
@@ -140,11 +110,6 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;
 
 &lt;img alt=&#34;Chaos Monkey&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/chaos-monkey.png&#34; /&gt;
 &lt;p&gt;El octavo punto de &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; sobre DevOps trata sobre cómo se integran las áreas de Seguridad informática y calidad en los flujos de trabajo de DevOps. Aunque parezca algo muy complejo de hacer, es también algo que conviene comprender correctamente para poder realizar de la forma más adecuada. Es decir, sin perder el sentido de tener procesos de calidad y seguridad, ni afectar al esfuerzo realizado para disponer de las funcionalidades en el tiempo requerido para mantener la competitividad de la organización.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>11 cosas sobre DevOps (8): Infosec y QA</title>
-        <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-8.html</link>
-      </image>
     </item>
     
     <item>
@@ -158,11 +123,6 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;
 
 &lt;img alt=&#34;Seguridad mejorada en Amazon WS IAM&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/iam.jpg&#34; style=&#34;width: 183px; height: 123px;&#34; /&gt;
 &lt;p&gt;Esta semana &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt; ha publicado una nueva funcionalidad para su servicio &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/iam/&#34;&gt;IAM&lt;/a&gt;, con el que intenta mejorar el despliegue de configuraciones de seguridad algo más complejas, asegurando que no afecten al funcionamiento de la infraestructura. El servicio &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/iam/&#34;&gt;IAM&lt;/a&gt; es el que permite administrar el modo en que los usuarios se autentican y acceden a los servicios que se hayan contratado con &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/&#34;&gt;Amazon WS&lt;/a&gt;. La aplicación de políticas complejas pueden poner en peligro el funcionamiento del sistema desplegado.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Amazon WS ha presentado el simulador de políticas de IAM</title>
-        <link>https://www.entredevyops.es/posts/amazon-ws-presenta-iam-policy-simulator.html</link>
-      </image>
     </item>
     
     <item>
@@ -176,11 +136,6 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.&lt;
 
 &lt;img alt=&#34;Algo que el usuario posea, en el móvil, por ejemplo.&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/Simple-Mobile-based.jpg&#34; style=&#34;width: 206px; height: 97px;&#34; /&gt;
 &lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com&#34;&gt;Amazon Web Services&lt;/a&gt; anunció ayer, viernes día 18, el &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/mfa&#34;&gt;soporte&lt;/a&gt; para la autenticación multifactor, o &lt;a class=&#34;reference external&#34; href=&#34;http://en.wikipedia.org/wiki/Multi-factor_authentication&#34;&gt;MFA&lt;/a&gt;, de sus siglas en inglés.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Amazon WS anuncia soporte para autenticación multifactor</title>
-        <link>https://www.entredevyops.es/posts/amazon-ws-aws-soporte-mfa-autenticacion-multifactor.html</link>
-      </image>
     </item>
     
   </channel>

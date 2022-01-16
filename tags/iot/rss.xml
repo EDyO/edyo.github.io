@@ -4,6 +4,11 @@
     <title>IoT on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/iot.html</link>
     <description>Recent content in IoT on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/iot.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Tue, 10 Jan 2017 23:25:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/iot/rss.xml" rel="self" type="application/rss+xml" />
@@ -18,11 +23,6 @@
 cosas)&lt;/a&gt; Amazon nos presenta un producto que combina hardware y software con el objetivo de ofrecernos una nueva asistenta virtual del hogar que viene a romper las reglas, pero yo me lo
 pensaría dos veces antes de dejarla entrar en mi casa.&lt;/p&gt;
 &lt;p&gt;A continuación, os explico mis motivos.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>¿Dejarías entrar a Alexa en tu casa?</title>
-        <link>https://www.entredevyops.es/posts/seguridad-alexa.html</link>
-      </image>
     </item>
     
   </channel>

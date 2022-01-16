@@ -4,6 +4,11 @@
     <title>Básicos on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/b%C3%A1sicos.html</link>
     <description>Recent content in Básicos on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/b%C3%A1sicos.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Fri, 17 Feb 2017 10:35:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/b%C3%A1sicos/rss.xml" rel="self" type="application/rss+xml" />
@@ -18,11 +23,6 @@
 Nadie está exento de equivocarse, pero aprender de esos mismos errores es aquello que permite mejorar y avanzar.&lt;/p&gt;
 &lt;p&gt;Reflexionar partiendo de errores que se han cometido, por nosotros mismos o otros; Identificar causas, medidas, incluso otros errores cometidos en su resolución, es una tarea difícil y, a veces, dura.
 Pero resistirse a hacerlo por &lt;!-- raw HTML omitted --&gt;el orgullo de algunos&lt;!-- raw HTML omitted --&gt; cualquier motivo, es un error mucho mayor que cualquier otro.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>#TrueStories que no me contó ningún amigo</title>
-        <link>https://www.entredevyops.es/posts/true-stories.html</link>
-      </image>
     </item>
     
     <item>
@@ -38,11 +38,6 @@ Pero resistirse a hacerlo por &lt;!-- raw HTML omitted --&gt;el orgullo de algun
 &lt;p&gt;Imaginad un grupo de alumnos que toma apuntes en clase, anotando todo lo que un profesor dice.
 Este profesor, a menos que le indiquen lo contrario, no se detiene y asume que sus palabras llegan correctamente a todos los estudiantes.
 Si hay algún despistado, siempre puede preguntar al de al lado &lt;em&gt;(&amp;quot;oye, ¿qué acaba de decir?&amp;quot;)&lt;/em&gt; sin interrumpir la clase.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>¿Hay consenso en el consenso?</title>
-        <link>https://www.entredevyops.es/posts/hay-consenso-consenso.html</link>
-      </image>
     </item>
     
     <item>
@@ -55,11 +50,6 @@ Si hay algún despistado, siempre puede preguntar al de al lado &lt;em&gt;(&amp;
 
 
 &lt;p&gt;Mi mujer siempre me repite, medio en broma medio en serio, que visto como si cobrara la mitad de lo que cobro. Es un buen resumen de mi sensibilidad hacia el mundo de la moda, y os debería dejar claro que, a pesar del título, este post no va a tratar sobre imagen personal.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>El fondo de armario de un ingeniero</title>
-        <link>https://www.entredevyops.es/posts/fondo-armario-ingeniero.html</link>
-      </image>
     </item>
     
   </channel>

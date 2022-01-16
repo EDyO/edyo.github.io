@@ -4,6 +4,11 @@
     <title>SSH on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/ssh.html</link>
     <description>Recent content in SSH on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/ssh.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Wed, 23 Nov 2016 00:25:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/ssh/rss.xml" rel="self" type="application/rss+xml" />
@@ -15,11 +20,6 @@
       <guid>https://www.entredevyops.es/posts/ssh-2fa.html</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Tal como comenté en mi &lt;a href=&#34;http://www.entredevyops.es/posts/fail2ban-ssh.html&#34;&gt;pasado artículo en este mismo blog&lt;/a&gt; hace poco detecté que alguna mala persona estaba intentando acceder a mi servidor privado mediante fuerza bruta por SSH. En el artículo de hoy vamos a explicar cómo activar el 2FA (doble factor de autenticación) para acceso SSH con &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&#34;&gt;Google Authenticator&lt;/a&gt;.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Habilitar la autenticación en dos pasos para SSH con Google Authenticator</title>
-        <link>https://www.entredevyops.es/posts/ssh-2fa.html</link>
-      </image>
     </item>
     
     <item>
@@ -31,11 +31,6 @@
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Hace poco realizando tareas de mantenimiento en mi servidor personal vi varios mensajes en los logs que no me gustaron nada: &lt;em&gt;Failed password for root from 121.18.238.22 port 40618 ssh2&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Claramente mi servidor estaba bajo un ataque para conseguir acceso SSH.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Usando Fail2Ban para securizar SSH</title>
-        <link>https://www.entredevyops.es/posts/fail2ban-ssh.html</link>
-      </image>
     </item>
     
     <item>
@@ -48,11 +43,6 @@
 
 
 &lt;p&gt;Este artículo es el primero de una serie dedicada al protocolo &lt;a class=&#34;reference external&#34; href=&#34;https://es.wikipedia.org/wiki/Secure_Shell&#34;&gt;SSH o Secure Shell&lt;/a&gt;, un protocolo de acceso remoto a servidores altamente extendido en sistemas UN*X como GNU/Linux o FreeBSD. En los artículos trataremos de explicar el uso básico de este protocolo e iremos profundizando más en las capacidades avanzadas disponibles.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>SSH: Acceso remoto a servidores</title>
-        <link>https://www.entredevyops.es/posts/ssh-acceso-remoto-servidores.html</link>
-      </image>
     </item>
     
   </channel>

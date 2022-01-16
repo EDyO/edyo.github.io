@@ -4,6 +4,11 @@
     <title>Shell script on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/shell-script.html</link>
     <description>Recent content in Shell script on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/shell-script.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Mon, 20 Feb 2017 23:25:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/shell-script/rss.xml" rel="self" type="application/rss+xml" />
@@ -16,11 +21,6 @@
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Llevo un tiempo dándole vueltas a migrar de mi servidor virtual privado hacia el cloud, en concreto hacia AWS, pero uno de los motivos que más me echan para atrás es todos los scripts, la mayor parte en shell script, que tengo programados para ejecutarse diariamente en mi servidor y que realizan tareas de lo más útiles. De todos ellos destacaría el que tengo para que cada día me &amp;ldquo;recolecte&amp;rdquo; el libro electrónico gratuito que publica &lt;a href=&#34;https://www.packtpub.com&#34;&gt;Packtpub&lt;/a&gt;. Pues bien, parece que este impedimento ha llegado a su fin, ya que utilizando un pequeño truco se pueden ejecutar shell scripts en Lambda.&lt;/p&gt;
 &lt;p&gt;A continuación, os explico cómo he migrado mis shell scripts a Lambda.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Ejecutando shell script en AWS Lambda</title>
-        <link>https://www.entredevyops.es/posts/shellscript-lambda.html</link>
-      </image>
     </item>
     
   </channel>

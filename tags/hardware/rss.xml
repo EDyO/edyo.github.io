@@ -4,6 +4,11 @@
     <title>Hardware on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/hardware.html</link>
     <description>Recent content in Hardware on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/hardware.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Fri, 22 Jul 2016 12:15:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/hardware/rss.xml" rel="self" type="application/rss+xml" />
@@ -16,11 +21,6 @@
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Que el fenómeno &lt;a href=&#34;https://es.wikipedia.org/wiki/Internet_de_las_cosas&#34;&gt;&lt;em&gt;Internet of Things&lt;/em&gt;&lt;/a&gt; (también conocido en su forma abreviada como IoT) está de moda es más que un hecho, este nuevo concepto está aquí para quedarse, y por bastante tiempo.&lt;/p&gt;
 &lt;p&gt;Pensaréis, ¿y todo esto, a qué viene?, pues esta semana se celebra el &lt;a href=&#34;https://europython.eu&#34;&gt;EuroPython&lt;/a&gt;, que por segundo año consecutivo se emplaza en Bilbao (bonita ciudad donde las haya, y que recomiendo visitar si no lo habéis hecho aún), y en esta edición, además de entregar la bolsa de bienvenida de rigor, han regalado una &lt;a href=&#34;https://www.microbit.co.uk/&#34;&gt;BBC micro:bit&lt;/a&gt;, no sin antes haberla dado a conocer en varias charlas, que pronto estarán disponibles en vídeo.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>BBC micro:bit</title>
-        <link>https://www.entredevyops.es/posts/bbc-micro-bit.html</link>
-      </image>
     </item>
     
   </channel>

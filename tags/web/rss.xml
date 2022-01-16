@@ -4,6 +4,11 @@
     <title>Web on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/web.html</link>
     <description>Recent content in Web on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/web.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Sun, 02 Oct 2016 23:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/web/rss.xml" rel="self" type="application/rss+xml" />
@@ -18,11 +23,6 @@
 Lo prometido es deuda.
 Espero que el interés sobre el tema aún siga vigente&amp;hellip;&lt;/p&gt;
 &lt;p&gt;En este artículo, se muestra, paso a paso, y con un ejemplo real, cómo realizar una publicación estática, con &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, usando &lt;a href=&#34;http://travis-ci.org&#34;&gt;Travis&lt;/a&gt;, en &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Publicación estática (II)</title>
-        <link>https://www.entredevyops.es/posts/publicacion-estatica-ii.html</link>
-      </image>
     </item>
     
     <item>
@@ -35,11 +35,6 @@ Espero que el interés sobre el tema aún siga vigente&amp;hellip;&lt;/p&gt;
 subir las páginas a Amazon. Elegimos un sistema de generación de contenido
 estático. En la siguiente &lt;a href=&#34;https://staticsitegenerators.net&#34;&gt;página&lt;/a&gt; hay un
 listado muy extenso de este tipo de software.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Páginas estáticas en Amazon - 2</title>
-        <link>https://www.entredevyops.es/posts/paginas-estaticas-amazon-2.html</link>
-      </image>
     </item>
     
     <item>
@@ -49,11 +44,6 @@ listado muy extenso de este tipo de software.&lt;/p&gt;</description>
       
       <guid>https://www.entredevyops.es/posts/paginas-estaticas-amazon-1.html</guid>
       <description>&lt;p&gt;Tal como comentamos el pasado artículo &lt;a href=&#34;http://www.entredevyops.es/posts/publicacion-estatica.html&#34;&gt;&lt;em&gt;Publicación estática&lt;/em&gt;&lt;/a&gt; el uso de sitios estáticos es cada vez más habitual por seguridad o por su eficiencia tal como comentaba &lt;em&gt;Ersiko&lt;/em&gt; en ese mismo artículo, por otro lado tenemos a Amazon como proveedor y líder indiscutible en servicios de computación y en este artículo los vamos a unir.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Páginas estáticas en Amazon - 1</title>
-        <link>https://www.entredevyops.es/posts/paginas-estaticas-amazon-1.html</link>
-      </image>
     </item>
     
     <item>
@@ -68,11 +58,6 @@ listado muy extenso de este tipo de software.&lt;/p&gt;</description>
 &lt;p&gt;Muy probablemente, muchos de vosotros ya sabréis lo que es un sitio estático.
 Seguramente, también tendréis o trabajaréis con alguno.
 Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticamente.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Publicación estática</title>
-        <link>https://www.entredevyops.es/posts/publicacion-estatica.html</link>
-      </image>
     </item>
     
     <item>
@@ -86,11 +71,6 @@ Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticament
 
 &lt;img alt=&#34;HTML5&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/html5.png&#34; /&gt;
 &lt;p&gt;A pesar de llevar años entre nosotros, sobretodo, gracias al empuje de Google con su &amp;quot;joven&amp;quot; navegador Chrome, a la fundación Mozilla con Firefox, y al rápido crecimiento y cada vez uso más generalizado de &lt;em&gt;smartphones&lt;/em&gt;, el &lt;a class=&#34;reference external&#34; href=&#34;http://www.w3.org/blog/news/archives/4167&#34;&gt;pasado día 28 de Octubre&lt;/a&gt;, el &lt;a class=&#34;reference external&#34; href=&#34;http://www.w3.org/&#34;&gt;W3C&lt;/a&gt; dio por finalizado el estándar &lt;a class=&#34;reference external&#34; href=&#34;http://www.w3.org/TR/2014/REC-html5-20141028/&#34;&gt;HTML5&lt;/a&gt; pasándolo al estado de recomendación.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>HTML5 finalizado</title>
-        <link>https://www.entredevyops.es/posts/html5-finalizado.html</link>
-      </image>
     </item>
     
   </channel>

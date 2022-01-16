@@ -4,6 +4,11 @@
     <title>Git on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/git.html</link>
     <description>Recent content in Git on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/git.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Mon, 16 Jun 2014 03:14:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/git/rss.xml" rel="self" type="application/rss+xml" />
@@ -15,11 +20,6 @@
       <guid>https://www.entredevyops.es/posts/recursos-git.html</guid>
       <description>Unos cuantos recursos interesantes de git:
 A hacker&#39;s guide to Git Git Is Simpler Than You Think A successful Git branching model  De todos los links anteriores, especialmente el último creo que es muy interesante ya que en su simplicidad de uso de las ramas en git permite poder hacer cualquier tipo operaciones con ello, ya sean fixes o la creación de nuevas features.</description>
-      <image>
-        <url>/images/</url>
-        <title>Recursos Git</title>
-        <link>https://www.entredevyops.es/posts/recursos-git.html</link>
-      </image>
     </item>
     
   </channel>

@@ -4,6 +4,11 @@
     <title>Sistemas Operativos on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/sistemas-operativos.html</link>
     <description>Recent content in Sistemas Operativos on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/sistemas-operativos.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Tue, 23 Aug 2016 19:55:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/sistemas-operativos/rss.xml" rel="self" type="application/rss+xml" />
@@ -16,11 +21,6 @@
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Seguro que todos los que usáis o habéis usado Amazon Web Services (AWS para abreviar) alguna vez habréis probado, o usado de forma productiva &lt;a href=&#34;https://aws.amazon.com/es/amazon-linux-ami/&#34;&gt;Amazon Linux&lt;/a&gt;, la versión de Linux basada en RedHat/CentOS preparada por ellos y &amp;ldquo;equipada&amp;rdquo; para funcionar perfectamente en su servicio EC2.&lt;/p&gt;
 &lt;p&gt;Personalmente, mi predilección en cuanto a distribuciones tiende a las de la familia Debian, como la propia Debian o Ubuntu; es algo personal, quizás romántico, llevo muchos años con ellas y me siento más cómodo, no hay motivos técnicos que me liguen a ellas especialmente. A lo largo de mi carrera he trabajado con muchas distribuciones, y todas tienen cosas buenas y malas, no creo que exista la &lt;em&gt;silver bullet&lt;/em&gt; de las distribucciones de Linux, nada más lejos de la realidad. Quede claro que el objetivo de este artículo no es entrar en guerras o discusiones en si es mejor usar Debian, Ubuntu, RedHat o CentOS, el quid de la cuestión aquí es la existencia de Amazon Linux, con sus ventajes e inconvenientes. Así que vamos al lío.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Amazon Linux, ¿sí o no?</title>
-        <link>https://www.entredevyops.es/posts/amazon-linux-si-o-no.html</link>
-      </image>
     </item>
     
     <item>
@@ -34,11 +34,6 @@
 
 &lt;img alt=&#34;resumen de herramientas de Brendan Gregg&#34; class=&#34;border align-center&#34; src=&#34;https://www.entredevyops.es/images/linuxperftools_1000.png&#34; style=&#34;width: 650px; height: 376px;&#34; /&gt;
 &lt;p&gt;Brendan Gregg ha escrito una serie de artículos y documentos agrupados en &lt;a class=&#34;reference external&#34; href=&#34;http://www.brendangregg.com/linuxperf.html&#34;&gt;Linux Performance&lt;/a&gt; donde se investigan los cuellos de botella de los sistemas Unix y Linux.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Análisis de rendimiento de Linux</title>
-        <link>https://www.entredevyops.es/posts/analisis-rendimiento-linux.html</link>
-      </image>
     </item>
     
     <item>
@@ -51,11 +46,6 @@
 
 
 &lt;p&gt;Vía &lt;a class=&#34;reference external&#34; href=&#34;http://barrapunto.com/articles/14/03/09/1255225.shtml&#34;&gt;Barrapunto&lt;/a&gt; me entero que la &lt;a class=&#34;reference external&#34; href=&#34;http://www.linuxfoundation.org/&#34;&gt;Linux Foundation&lt;/a&gt; ofrecerá su &lt;a class=&#34;reference external&#34; href=&#34;http://training.linuxfoundation.org/linux-courses/introduction-to-linux/outline&#34;&gt;curso de Introducción a Linux&lt;/a&gt; de forma gratuita en la plataforma &lt;a class=&#34;reference external&#34; href=&#34;https://www.edx.org/&#34;&gt;edX&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Curso de Introducción a Linux gratuito en edX</title>
-        <link>https://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</link>
-      </image>
     </item>
     
   </channel>

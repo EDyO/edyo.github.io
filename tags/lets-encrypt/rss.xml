@@ -4,6 +4,11 @@
     <title>Let&#39;s Encrypt on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/lets-encrypt.html</link>
     <description>Recent content in Let&#39;s Encrypt on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/lets-encrypt.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Wed, 23 Dec 2015 16:30:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/lets-encrypt/rss.xml" rel="self" type="application/rss+xml" />
@@ -16,11 +21,6 @@
       <description>&lt;p&gt;&lt;img src=&#34;https://www.entredevyops.es/images/c3198b70-ad60-11e5-8736-57bd99ad0ca3.jpg&#34; alt=&#34;Lets Encrypt&#34;&gt;&lt;/p&gt;
 &lt;p&gt;El pasado día 03/12/2015 &lt;a href=&#34;https://letsencrypt.org/&#34;&gt;Let&amp;rsquo;s Encrypt&lt;/a&gt; entró en fase beta pública. La idea con la cual nace este proyecto es la de ofrecer &lt;strong&gt;gratuitamente&lt;/strong&gt; certificados X.509 para encriptación TLS a través de procesos automáticos, eliminando los complejos y engorrosos procesos de creación, validación, firma, instalación y renovación de los certificados para la securización de sitios web.&lt;/p&gt;
 &lt;p&gt;A continuación paso a detallar la prueba que hice.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Probando Let&#39;s Encrypt: certificados SSL para todos!</title>
-        <link>https://www.entredevyops.es/posts/laboratorio_lets_encrypt.html</link>
-      </image>
     </item>
     
   </channel>

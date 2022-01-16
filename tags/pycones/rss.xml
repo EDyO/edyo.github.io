@@ -4,6 +4,11 @@
     <title>PyConES on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/pycones.html</link>
     <description>Recent content in PyConES on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/pycones.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Thu, 09 Jan 2014 15:45:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/pycones/rss.xml" rel="self" type="application/rss+xml" />
@@ -17,11 +22,6 @@
 
 
 &lt;p&gt;El pasado mes de Noviembre de 2013 durante los días 23 y 24, se celebró la primera conferencia sobre el lenguaje Python en España, la &lt;a class=&#34;reference external&#34; href=&#34;http://2013.es.pycon.org/&#34;&gt;PyConES&lt;/a&gt;, organizada por la asociación &lt;a class=&#34;reference external&#34; href=&#34;http://www.es.python.org/&#34;&gt;Python España&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Disponibles los vídeos de las charlas de la PyConES 2013</title>
-        <link>https://www.entredevyops.es/posts/disponibles-videos-pycones-2013.html</link>
-      </image>
     </item>
     
   </channel>

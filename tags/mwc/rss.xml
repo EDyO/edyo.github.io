@@ -4,6 +4,11 @@
     <title>MWC on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/mwc.html</link>
     <description>Recent content in MWC on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/mwc.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Sun, 23 Feb 2014 21:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/mwc/rss.xml" rel="self" type="application/rss+xml" />
@@ -18,11 +23,6 @@
 
 &lt;p&gt;Mañana empieza el &lt;a class=&#34;reference external&#34; href=&#34;http://www.mobileworldcongress.com&#34;&gt;Mobile World Congress&lt;/a&gt; y hasta el próximo día 27 abrirá sus puertas en Barcelona, esta tarde nos hemos dado una vuelta cerca de sus instalaciones y hemos visto multitud de gente que se aproximaba para realizar los registros y ultimar los preparativos de la inauguración de mañana.&lt;/p&gt;
 &lt;p&gt;Y estas son las fotografías que hemos tomado:&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Mañana empieza el mobile world congress</title>
-        <link>https://www.entredevyops.es/posts/inicio-mobile-world-congress.html</link>
-      </image>
     </item>
     
   </channel>

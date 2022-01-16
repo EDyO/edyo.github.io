@@ -4,6 +4,11 @@
     <title>Laboratorio on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/laboratorio.html</link>
     <description>Recent content in Laboratorio on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/laboratorio.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Wed, 23 Dec 2015 16:30:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/laboratorio/rss.xml" rel="self" type="application/rss+xml" />
@@ -16,11 +21,6 @@
       <description>&lt;p&gt;&lt;img src=&#34;https://www.entredevyops.es/images/c3198b70-ad60-11e5-8736-57bd99ad0ca3.jpg&#34; alt=&#34;Lets Encrypt&#34;&gt;&lt;/p&gt;
 &lt;p&gt;El pasado día 03/12/2015 &lt;a href=&#34;https://letsencrypt.org/&#34;&gt;Let&amp;rsquo;s Encrypt&lt;/a&gt; entró en fase beta pública. La idea con la cual nace este proyecto es la de ofrecer &lt;strong&gt;gratuitamente&lt;/strong&gt; certificados X.509 para encriptación TLS a través de procesos automáticos, eliminando los complejos y engorrosos procesos de creación, validación, firma, instalación y renovación de los certificados para la securización de sitios web.&lt;/p&gt;
 &lt;p&gt;A continuación paso a detallar la prueba que hice.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Probando Let&#39;s Encrypt: certificados SSL para todos!</title>
-        <link>https://www.entredevyops.es/posts/laboratorio_lets_encrypt.html</link>
-      </image>
     </item>
     
     <item>
@@ -31,11 +31,6 @@
       <guid>https://www.entredevyops.es/posts/laboratorio-sslh.html</guid>
       <description>&lt;p&gt;En muchas redes corporativas me estoy encontrado que una manera que tienen los administradores de controlar la actividad de sus usuarios es bloquear el acceso de los clientes a ciertos puertos mediante reglas de firewall (por ejemplo denegar toda conexión al puerto 22 o solo permitir conexiones al puerto 80 o 443). Medida para nada afectiva, ya que no garantiza que el usuario no se conecte al servicio no deseado, sino que no se conecte al puerto por defecto de dicho servicio. Para saltarse esta restricción es tan sencillo como configurar el servicio en uno de los puertos permitidos.&lt;/p&gt;
 &lt;p&gt;Si bien es cierto que puede ser bastante molesto, ya que obliga a modificar configuraciones, puede suponer un problema si ya tenemos un servicio activo en el puerto requerido. Esto me motivó a buscar la manera de, a través de un único puerto de un servidor, se pudiera acceder a diversos servicios.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Laboratorio de sslh: Un puerto para dominarlos a todos</title>
-        <link>https://www.entredevyops.es/posts/laboratorio-sslh.html</link>
-      </image>
     </item>
     
     <item>
@@ -45,11 +40,6 @@
       
       <guid>https://www.entredevyops.es/posts/primeros-pasos-openstack.html</guid>
       <description>&lt;p&gt;Continuando con nuestro pequeño laboratorio OpenStack necesitamos crear las nuevas redes.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Primeros pasos con OpenStack</title>
-        <link>https://www.entredevyops.es/posts/primeros-pasos-openstack.html</link>
-      </image>
     </item>
     
     <item>
@@ -62,11 +52,6 @@
 
 
 &lt;p&gt;Vamos a empezar una serie de artículos que en los que vamos a realizar instalaciones y pruebas, para poder empezar necesitaremos crear nuestro laboratorio, en este caso vamos a utilizar un ordenador físico, un pequeño servidor al cual le vamos a instalar un &lt;a class=&#34;reference external&#34; href=&#34;https://www.openstack.org&#34;&gt;OpenStack&lt;/a&gt; siguiendo el sistema de &lt;a class=&#34;reference external&#34; href=&#34;http://openstack.redhat.com&#34;&gt;Packstack&lt;/a&gt; de Redhat que permite instalar todos los componentes de OpenStack en una única máquina prácticamente sin dolor.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Laboratorio de pruebas</title>
-        <link>https://www.entredevyops.es/posts/laboratorio-pruebas.html</link>
-      </image>
     </item>
     
   </channel>

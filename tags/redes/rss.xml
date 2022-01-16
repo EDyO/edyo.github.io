@@ -4,6 +4,11 @@
     <title>Redes on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/redes.html</link>
     <description>Recent content in Redes on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/redes.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Wed, 18 Feb 2015 10:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/redes/rss.xml" rel="self" type="application/rss+xml" />
@@ -19,11 +24,6 @@
 &lt;img alt=&#34;OpenFlow&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/OpenFlow-Logo-Small.jpg&#34; /&gt;
 &lt;p&gt;Más vale tarde que nunca: si hace ya un tiempo nos arrancamos con una &lt;a class=&#34;reference external&#34; href=&#34;http://www.entredevyops.es/posts/sdn-nfv-wtf.html&#34;&gt;introducción teórica&lt;/a&gt; a las diferentes filosofías de virtualización de red, hoy retomamos el tema para ahondar en conceptos más específicos.&lt;/p&gt;
 &lt;p&gt;Hablemos de OpenFlow, probablemente la tecnología SDN más popular hoy en día.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>OpenFlow, democratizando SDN</title>
-        <link>https://www.entredevyops.es/posts/openflow-sdn.html</link>
-      </image>
     </item>
     
     <item>
@@ -40,11 +40,6 @@
 &lt;p&gt;¿Os iba mal Internet ayer? No estabais solos. En algún momento de la mañana empezaron a haber problemas graves en la mayoría de los ISPs de todo el mundo, que afectaron tanto a empresas como a particulares.&lt;/p&gt;
 &lt;p&gt;El mundo de la tecnología está lleno de ejemplos de diseños que, o bien por limitaciones del momento, o bien por no imaginar crecimientos exponenciales, provocan problemas de escalabilidad en el futuro; algunos de los más conocidos son el &lt;strong&gt;efecto 2000&lt;/strong&gt; o el &lt;strong&gt;agotamiento de direcciones IPv4&lt;/strong&gt;. A esta lista de umbrales superados ya podemos añadir uno nuevo: ayer, por primera vez en la historia, se superaron las &lt;strong&gt;512000 entradas en la tabla de rutas de Internet&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;No obstante, antes de seguir hablando de dicha tabla necesitamos hablar de cómo está organizado Internet.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>512000 es el número que se contará...</title>
-        <link>https://www.entredevyops.es/posts/512000-numero-contara.html</link>
-      </image>
     </item>
     
     <item>
@@ -57,11 +52,6 @@
 
 
 &lt;p&gt;¿WTF? Esas serán probablemente las tres consonantes con las que alguien nos responderá si le empezamos a hablar de NFV. O puede que nos contesten “no tomo drogas, gracias“ si nos acercamos a contarle las bondades del SDN. En realidad, ambos grupos de consonantes son siglas relacionadas con una serie de conceptos en auge en el mundo del networking y muy cercanos a la filosofía DevOps, conceptos sobre los cuales queremos arrojar algo de luz con una serie de artículos que empezamos hoy.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>SDN... NFV... ¿WTF?</title>
-        <link>https://www.entredevyops.es/posts/sdn-nfv-wtf.html</link>
-      </image>
     </item>
     
   </channel>

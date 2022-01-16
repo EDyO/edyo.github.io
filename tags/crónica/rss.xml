@@ -4,6 +4,11 @@
     <title>Crónica on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/cr%C3%B3nica.html</link>
     <description>Recent content in Crónica on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/cr%C3%B3nica.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Fri, 17 Feb 2017 10:35:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/cr%C3%B3nica/rss.xml" rel="self" type="application/rss+xml" />
@@ -18,11 +23,6 @@
 Nadie está exento de equivocarse, pero aprender de esos mismos errores es aquello que permite mejorar y avanzar.&lt;/p&gt;
 &lt;p&gt;Reflexionar partiendo de errores que se han cometido, por nosotros mismos o otros; Identificar causas, medidas, incluso otros errores cometidos en su resolución, es una tarea difícil y, a veces, dura.
 Pero resistirse a hacerlo por &lt;!-- raw HTML omitted --&gt;el orgullo de algunos&lt;!-- raw HTML omitted --&gt; cualquier motivo, es un error mucho mayor que cualquier otro.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>#TrueStories que no me contó ningún amigo</title>
-        <link>https://www.entredevyops.es/posts/true-stories.html</link>
-      </image>
     </item>
     
     <item>
@@ -37,11 +37,6 @@ Pero resistirse a hacerlo por &lt;!-- raw HTML omitted --&gt;el orgullo de algun
 &lt;img alt=&#34;Logo del FOSDEM&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/fosdem.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;
 &lt;p&gt;Como muchos ya sabréis, solemos ir cada año a la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt;, que tiene lugar el primer fin de semana de Febrero en Bruselas. No vamos a ponernos a explicar qué es la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt;, hemos hablado mucho describiéndola, tanto en nuestros podcasts, como en nuestros posts, como en muchos otros lugares... Tampoco vamos a explicaros que hizo mucho frío, que hubo mucha gente, o que bebimos mucha cerv..., digooooo, que hizo mucho frío, que hubo mucha gente, ...&lt;/p&gt;
 &lt;p&gt;Podríamos contaros que apareció por ahí &lt;a class=&#34;reference external&#34; href=&#34;https://stallman.org/&#34;&gt;Richard Stallman&lt;/a&gt; repartiendo &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/images/octavilla_Stallman_FOSDEM_2015.jpg&#34;&gt;octavillas&lt;/a&gt; destacando que la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; había dejado de definirse como un evento de software libre, o que hubo bastante barullo sobre el establecimiento de un &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/fosdem/status/561885201383821312&#34;&gt;código de conducta&lt;/a&gt; para la siguiente edición... No obstante, como sabemos lo que os importa, os detallamos, en este artículo, algunas de las charlas que más nos gustaron.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Viaje a la FOSDEM 2015</title>
-        <link>https://www.entredevyops.es/posts/fosdem-2015.html</link>
-      </image>
     </item>
     
     <item>
@@ -58,11 +53,6 @@ Pero resistirse a hacerlo por &lt;!-- raw HTML omitted --&gt;el orgullo de algun
 &lt;p&gt;¿Os iba mal Internet ayer? No estabais solos. En algún momento de la mañana empezaron a haber problemas graves en la mayoría de los ISPs de todo el mundo, que afectaron tanto a empresas como a particulares.&lt;/p&gt;
 &lt;p&gt;El mundo de la tecnología está lleno de ejemplos de diseños que, o bien por limitaciones del momento, o bien por no imaginar crecimientos exponenciales, provocan problemas de escalabilidad en el futuro; algunos de los más conocidos son el &lt;strong&gt;efecto 2000&lt;/strong&gt; o el &lt;strong&gt;agotamiento de direcciones IPv4&lt;/strong&gt;. A esta lista de umbrales superados ya podemos añadir uno nuevo: ayer, por primera vez en la historia, se superaron las &lt;strong&gt;512000 entradas en la tabla de rutas de Internet&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;No obstante, antes de seguir hablando de dicha tabla necesitamos hablar de cómo está organizado Internet.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>512000 es el número que se contará...</title>
-        <link>https://www.entredevyops.es/posts/512000-numero-contara.html</link>
-      </image>
     </item>
     
     <item>
@@ -77,11 +67,6 @@ Pero resistirse a hacerlo por &lt;!-- raw HTML omitted --&gt;el orgullo de algun
 &lt;img alt=&#34;Logo del FOSDEM&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/fosdem.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;
 &lt;p&gt;Como ya viene siendo tradición, el equipo completo de EDyO tiene una cita obligada con el más importante evento de Software Libre que se produce en Europa: el Free Open source Software Developers European Meeting (FOSDEM).&lt;/p&gt;
 &lt;p&gt;En este post no me voy a centrar en las conferencias en si (que seguro que mis compañeros de blog nos regalarán más de un articulo sobre las charlas más destacadas), sino sobre los pormenores del viaje y de lo que pasa más allá de dicho evento.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>FOSDEM 2014 - Crónica de un viaje al Open Source</title>
-        <link>https://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html</link>
-      </image>
     </item>
     
   </channel>

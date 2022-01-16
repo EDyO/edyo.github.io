@@ -4,6 +4,11 @@
     <title>Tags on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags.html</link>
     <description>Recent content in Tags on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Fri, 22 Sep 2017 22:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/rss.xml" rel="self" type="application/rss+xml" />
@@ -14,11 +19,6 @@
       
       <guid>https://www.entredevyops.es/tags/javascript.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>JavaScript</title>
-        <link>https://www.entredevyops.es/tags/javascript.html</link>
-      </image>
     </item>
     
     <item>
@@ -28,11 +28,6 @@
       
       <guid>https://www.entredevyops.es/tags/seguridad.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Seguridad</title>
-        <link>https://www.entredevyops.es/tags/seguridad.html</link>
-      </image>
     </item>
     
     <item>
@@ -42,11 +37,6 @@
       
       <guid>https://www.entredevyops.es/tags/amazon.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Amazon</title>
-        <link>https://www.entredevyops.es/tags/amazon.html</link>
-      </image>
     </item>
     
     <item>
@@ -56,11 +46,6 @@
       
       <guid>https://www.entredevyops.es/tags/aws.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>AWS</title>
-        <link>https://www.entredevyops.es/tags/aws.html</link>
-      </image>
     </item>
     
     <item>
@@ -70,11 +55,6 @@
       
       <guid>https://www.entredevyops.es/tags/azure.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Azure</title>
-        <link>https://www.entredevyops.es/tags/azure.html</link>
-      </image>
     </item>
     
     <item>
@@ -84,11 +64,6 @@
       
       <guid>https://www.entredevyops.es/tags/cloud.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Cloud</title>
-        <link>https://www.entredevyops.es/tags/cloud.html</link>
-      </image>
     </item>
     
     <item>
@@ -98,11 +73,6 @@
       
       <guid>https://www.entredevyops.es/tags/microsoft.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Microsoft</title>
-        <link>https://www.entredevyops.es/tags/microsoft.html</link>
-      </image>
     </item>
     
     <item>
@@ -112,11 +82,6 @@
       
       <guid>https://www.entredevyops.es/tags/sla.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>SLA</title>
-        <link>https://www.entredevyops.es/tags/sla.html</link>
-      </image>
     </item>
     
     <item>
@@ -126,11 +91,6 @@
       
       <guid>https://www.entredevyops.es/tags/devops.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>DevOps</title>
-        <link>https://www.entredevyops.es/tags/devops.html</link>
-      </image>
     </item>
     
     <item>
@@ -140,11 +100,6 @@
       
       <guid>https://www.entredevyops.es/tags/eventos.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Eventos</title>
-        <link>https://www.entredevyops.es/tags/eventos.html</link>
-      </image>
     </item>
     
     <item>
@@ -154,11 +109,6 @@
       
       <guid>https://www.entredevyops.es/tags/herramientas.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Herramientas</title>
-        <link>https://www.entredevyops.es/tags/herramientas.html</link>
-      </image>
     </item>
     
     <item>
@@ -168,11 +118,6 @@
       
       <guid>https://www.entredevyops.es/tags/integraci%C3%B3n-cont%C3%ADnua.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Integración Contínua</title>
-        <link>https://www.entredevyops.es/tags/integraci%C3%B3n-cont%C3%ADnua.html</link>
-      </image>
     </item>
     
     <item>
@@ -182,11 +127,6 @@
       
       <guid>https://www.entredevyops.es/tags/orchestrate.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Orchestrate</title>
-        <link>https://www.entredevyops.es/tags/orchestrate.html</link>
-      </image>
     </item>
     
     <item>
@@ -196,11 +136,6 @@
       
       <guid>https://www.entredevyops.es/tags/amazon-ws.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Amazon WS</title>
-        <link>https://www.entredevyops.es/tags/amazon-ws.html</link>
-      </image>
     </item>
     
     <item>
@@ -210,11 +145,6 @@
       
       <guid>https://www.entredevyops.es/tags/servesless.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Servesless</title>
-        <link>https://www.entredevyops.es/tags/servesless.html</link>
-      </image>
     </item>
     
     <item>
@@ -224,11 +154,6 @@
       
       <guid>https://www.entredevyops.es/tags/filosof%C3%ADa.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Filosofía</title>
-        <link>https://www.entredevyops.es/tags/filosof%C3%ADa.html</link>
-      </image>
     </item>
     
     <item>
@@ -238,11 +163,6 @@
       
       <guid>https://www.entredevyops.es/tags/formaci%C3%B3n.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Formación</title>
-        <link>https://www.entredevyops.es/tags/formaci%C3%B3n.html</link>
-      </image>
     </item>
     
     <item>
@@ -252,11 +172,6 @@
       
       <guid>https://www.entredevyops.es/tags/opini%C3%B3n.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Opinión</title>
-        <link>https://www.entredevyops.es/tags/opini%C3%B3n.html</link>
-      </image>
     </item>
     
     <item>
@@ -266,11 +181,6 @@
       
       <guid>https://www.entredevyops.es/tags/lambda.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Lambda</title>
-        <link>https://www.entredevyops.es/tags/lambda.html</link>
-      </image>
     </item>
     
     <item>
@@ -280,11 +190,6 @@
       
       <guid>https://www.entredevyops.es/tags/shell-script.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Shell script</title>
-        <link>https://www.entredevyops.es/tags/shell-script.html</link>
-      </image>
     </item>
     
     <item>
@@ -294,11 +199,6 @@
       
       <guid>https://www.entredevyops.es/tags/automatizaci%C3%B3n.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Automatización</title>
-        <link>https://www.entredevyops.es/tags/automatizaci%C3%B3n.html</link>
-      </image>
     </item>
     
     <item>
@@ -308,11 +208,6 @@
       
       <guid>https://www.entredevyops.es/tags/b%C3%A1sicos.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Básicos</title>
-        <link>https://www.entredevyops.es/tags/b%C3%A1sicos.html</link>
-      </image>
     </item>
     
     <item>
@@ -322,11 +217,6 @@
       
       <guid>https://www.entredevyops.es/tags/cr%C3%B3nica.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Crónica</title>
-        <link>https://www.entredevyops.es/tags/cr%C3%B3nica.html</link>
-      </image>
     </item>
     
     <item>
@@ -336,11 +226,6 @@
       
       <guid>https://www.entredevyops.es/tags/empresa.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Empresa</title>
-        <link>https://www.entredevyops.es/tags/empresa.html</link>
-      </image>
     </item>
     
     <item>
@@ -350,11 +235,6 @@
       
       <guid>https://www.entredevyops.es/tags/alexa.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Alexa</title>
-        <link>https://www.entredevyops.es/tags/alexa.html</link>
-      </image>
     </item>
     
     <item>
@@ -364,11 +244,6 @@
       
       <guid>https://www.entredevyops.es/tags/iot.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>IoT</title>
-        <link>https://www.entredevyops.es/tags/iot.html</link>
-      </image>
     </item>
     
     <item>
@@ -378,11 +253,6 @@
       
       <guid>https://www.entredevyops.es/tags/2fa.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>2FA</title>
-        <link>https://www.entredevyops.es/tags/2fa.html</link>
-      </image>
     </item>
     
     <item>
@@ -392,11 +262,6 @@
       
       <guid>https://www.entredevyops.es/tags/google-authenticator.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Google Authenticator</title>
-        <link>https://www.entredevyops.es/tags/google-authenticator.html</link>
-      </image>
     </item>
     
     <item>
@@ -406,11 +271,6 @@
       
       <guid>https://www.entredevyops.es/tags/ssh.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>SSH</title>
-        <link>https://www.entredevyops.es/tags/ssh.html</link>
-      </image>
     </item>
     
     <item>
@@ -420,11 +280,6 @@
       
       <guid>https://www.entredevyops.es/tags/est%C3%A1ndares.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Estándares</title>
-        <link>https://www.entredevyops.es/tags/est%C3%A1ndares.html</link>
-      </image>
     </item>
     
     <item>
@@ -434,11 +289,6 @@
       
       <guid>https://www.entredevyops.es/tags/web.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Web</title>
-        <link>https://www.entredevyops.es/tags/web.html</link>
-      </image>
     </item>
     
     <item>
@@ -448,11 +298,6 @@
       
       <guid>https://www.entredevyops.es/tags/fail2ban.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Fail2Ban</title>
-        <link>https://www.entredevyops.es/tags/fail2ban.html</link>
-      </image>
     </item>
     
     <item>
@@ -462,11 +307,6 @@
       
       <guid>https://www.entredevyops.es/tags/infraestructura.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Infraestructura</title>
-        <link>https://www.entredevyops.es/tags/infraestructura.html</link>
-      </image>
     </item>
     
     <item>
@@ -476,11 +316,6 @@
       
       <guid>https://www.entredevyops.es/tags/linux.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Linux</title>
-        <link>https://www.entredevyops.es/tags/linux.html</link>
-      </image>
     </item>
     
     <item>
@@ -490,11 +325,6 @@
       
       <guid>https://www.entredevyops.es/tags/sistemas-operativos.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Sistemas Operativos</title>
-        <link>https://www.entredevyops.es/tags/sistemas-operativos.html</link>
-      </image>
     </item>
     
     <item>
@@ -504,11 +334,6 @@
       
       <guid>https://www.entredevyops.es/tags/algoritmos.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Algoritmos</title>
-        <link>https://www.entredevyops.es/tags/algoritmos.html</link>
-      </image>
     </item>
     
     <item>
@@ -518,11 +343,6 @@
       
       <guid>https://www.entredevyops.es/tags/desarrollo.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Desarrollo</title>
-        <link>https://www.entredevyops.es/tags/desarrollo.html</link>
-      </image>
     </item>
     
     <item>
@@ -532,11 +352,6 @@
       
       <guid>https://www.entredevyops.es/tags/hardware.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Hardware</title>
-        <link>https://www.entredevyops.es/tags/hardware.html</link>
-      </image>
     </item>
     
     <item>
@@ -546,11 +361,6 @@
       
       <guid>https://www.entredevyops.es/tags/internet-of-things.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Internet of Things</title>
-        <link>https://www.entredevyops.es/tags/internet-of-things.html</link>
-      </image>
     </item>
     
     <item>
@@ -560,11 +370,6 @@
       
       <guid>https://www.entredevyops.es/tags/python.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Python</title>
-        <link>https://www.entredevyops.es/tags/python.html</link>
-      </image>
     </item>
     
     <item>
@@ -574,11 +379,6 @@
       
       <guid>https://www.entredevyops.es/tags/full-stack-engineer.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Full Stack Engineer</title>
-        <link>https://www.entredevyops.es/tags/full-stack-engineer.html</link>
-      </image>
     </item>
     
     <item>
@@ -588,11 +388,6 @@
       
       <guid>https://www.entredevyops.es/tags/scott-lowe.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Scott Lowe</title>
-        <link>https://www.entredevyops.es/tags/scott-lowe.html</link>
-      </image>
     </item>
     
     <item>
@@ -602,11 +397,6 @@
       
       <guid>https://www.entredevyops.es/tags/laboratorio.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Laboratorio</title>
-        <link>https://www.entredevyops.es/tags/laboratorio.html</link>
-      </image>
     </item>
     
     <item>
@@ -616,11 +406,6 @@
       
       <guid>https://www.entredevyops.es/tags/lets-encrypt.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Let&#39;s Encrypt</title>
-        <link>https://www.entredevyops.es/tags/lets-encrypt.html</link>
-      </image>
     </item>
     
     <item>
@@ -630,11 +415,6 @@
       
       <guid>https://www.entredevyops.es/tags/opennebula.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>OpenNebula</title>
-        <link>https://www.entredevyops.es/tags/opennebula.html</link>
-      </image>
     </item>
     
     <item>
@@ -644,11 +424,6 @@
       
       <guid>https://www.entredevyops.es/tags/free-software.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Free Software</title>
-        <link>https://www.entredevyops.es/tags/free-software.html</link>
-      </image>
     </item>
     
     <item>
@@ -658,11 +433,6 @@
       
       <guid>https://www.entredevyops.es/tags/go.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Go</title>
-        <link>https://www.entredevyops.es/tags/go.html</link>
-      </image>
     </item>
     
     <item>
@@ -672,11 +442,6 @@
       
       <guid>https://www.entredevyops.es/tags/open-source.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Open Source</title>
-        <link>https://www.entredevyops.es/tags/open-source.html</link>
-      </image>
     </item>
     
     <item>
@@ -686,11 +451,6 @@
       
       <guid>https://www.entredevyops.es/tags/nosql.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>NoSQL</title>
-        <link>https://www.entredevyops.es/tags/nosql.html</link>
-      </image>
     </item>
     
     <item>
@@ -700,11 +460,6 @@
       
       <guid>https://www.entredevyops.es/tags/openstack.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>OpenStack</title>
-        <link>https://www.entredevyops.es/tags/openstack.html</link>
-      </image>
     </item>
     
     <item>
@@ -714,11 +469,6 @@
       
       <guid>https://www.entredevyops.es/tags/redes.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Redes</title>
-        <link>https://www.entredevyops.es/tags/redes.html</link>
-      </image>
     </item>
     
     <item>
@@ -728,11 +478,6 @@
       
       <guid>https://www.entredevyops.es/tags/sdn.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>SDN</title>
-        <link>https://www.entredevyops.es/tags/sdn.html</link>
-      </image>
     </item>
     
     <item>
@@ -742,11 +487,6 @@
       
       <guid>https://www.entredevyops.es/tags/virtualizaci%C3%B3n.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Virtualización</title>
-        <link>https://www.entredevyops.es/tags/virtualizaci%C3%B3n.html</link>
-      </image>
     </item>
     
     <item>
@@ -756,11 +496,6 @@
       
       <guid>https://www.entredevyops.es/tags/fosdem.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>FOSDEM</title>
-        <link>https://www.entredevyops.es/tags/fosdem.html</link>
-      </image>
     </item>
     
     <item>
@@ -770,11 +505,6 @@
       
       <guid>https://www.entredevyops.es/tags/viaje.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Viaje</title>
-        <link>https://www.entredevyops.es/tags/viaje.html</link>
-      </image>
     </item>
     
     <item>
@@ -784,11 +514,6 @@
       
       <guid>https://www.entredevyops.es/tags/agile.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Agile</title>
-        <link>https://www.entredevyops.es/tags/agile.html</link>
-      </image>
     </item>
     
     <item>
@@ -798,11 +523,6 @@
       
       <guid>https://www.entredevyops.es/tags/scrum.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Scrum</title>
-        <link>https://www.entredevyops.es/tags/scrum.html</link>
-      </image>
     </item>
     
     <item>
@@ -812,11 +532,6 @@
       
       <guid>https://www.entredevyops.es/tags/rendimiento.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Rendimiento</title>
-        <link>https://www.entredevyops.es/tags/rendimiento.html</link>
-      </image>
     </item>
     
     <item>
@@ -826,11 +541,6 @@
       
       <guid>https://www.entredevyops.es/tags/internet.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Internet</title>
-        <link>https://www.entredevyops.es/tags/internet.html</link>
-      </image>
     </item>
     
     <item>
@@ -840,11 +550,6 @@
       
       <guid>https://www.entredevyops.es/tags/entrega-cont%C3%ADnua.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Entrega Contínua</title>
-        <link>https://www.entredevyops.es/tags/entrega-cont%C3%ADnua.html</link>
-      </image>
     </item>
     
     <item>
@@ -854,11 +559,6 @@
       
       <guid>https://www.entredevyops.es/tags/pruebas.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Pruebas</title>
-        <link>https://www.entredevyops.es/tags/pruebas.html</link>
-      </image>
     </item>
     
     <item>
@@ -868,11 +568,6 @@
       
       <guid>https://www.entredevyops.es/tags/qa.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>QA</title>
-        <link>https://www.entredevyops.es/tags/qa.html</link>
-      </image>
     </item>
     
     <item>
@@ -882,11 +577,6 @@
       
       <guid>https://www.entredevyops.es/tags/sslh.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>sslh</title>
-        <link>https://www.entredevyops.es/tags/sslh.html</link>
-      </image>
     </item>
     
     <item>
@@ -896,11 +586,6 @@
       
       <guid>https://www.entredevyops.es/tags/digital-ocean.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Digital Ocean</title>
-        <link>https://www.entredevyops.es/tags/digital-ocean.html</link>
-      </image>
     </item>
     
     <item>
@@ -910,11 +595,6 @@
       
       <guid>https://www.entredevyops.es/tags/gu%C3%ADas.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Guías</title>
-        <link>https://www.entredevyops.es/tags/gu%C3%ADas.html</link>
-      </image>
     </item>
     
     <item>
@@ -924,11 +604,6 @@
       
       <guid>https://www.entredevyops.es/tags/unix.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Unix</title>
-        <link>https://www.entredevyops.es/tags/unix.html</link>
-      </image>
     </item>
     
     <item>
@@ -938,11 +613,6 @@
       
       <guid>https://www.entredevyops.es/tags/libros.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Libros</title>
-        <link>https://www.entredevyops.es/tags/libros.html</link>
-      </image>
     </item>
     
     <item>
@@ -952,11 +622,6 @@
       
       <guid>https://www.entredevyops.es/tags/rese%C3%B1a.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Reseña</title>
-        <link>https://www.entredevyops.es/tags/rese%C3%B1a.html</link>
-      </image>
     </item>
     
     <item>
@@ -966,11 +631,6 @@
       
       <guid>https://www.entredevyops.es/tags/git.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Git</title>
-        <link>https://www.entredevyops.es/tags/git.html</link>
-      </image>
     </item>
     
     <item>
@@ -980,11 +640,6 @@
       
       <guid>https://www.entredevyops.es/tags/ebook.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Ebook</title>
-        <link>https://www.entredevyops.es/tags/ebook.html</link>
-      </image>
     </item>
     
     <item>
@@ -994,11 +649,6 @@
       
       <guid>https://www.entredevyops.es/tags/mongodb.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>MongoDB</title>
-        <link>https://www.entredevyops.es/tags/mongodb.html</link>
-      </image>
     </item>
     
     <item>
@@ -1008,11 +658,6 @@
       
       <guid>https://www.entredevyops.es/tags/debian.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Debian</title>
-        <link>https://www.entredevyops.es/tags/debian.html</link>
-      </image>
     </item>
     
     <item>
@@ -1022,11 +667,6 @@
       
       <guid>https://www.entredevyops.es/tags/mwc.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>MWC</title>
-        <link>https://www.entredevyops.es/tags/mwc.html</link>
-      </image>
     </item>
     
     <item>
@@ -1036,11 +676,6 @@
       
       <guid>https://www.entredevyops.es/tags/chef.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Chef</title>
-        <link>https://www.entredevyops.es/tags/chef.html</link>
-      </image>
     </item>
     
     <item>
@@ -1050,11 +685,6 @@
       
       <guid>https://www.entredevyops.es/tags/monitorizaci%C3%B3n.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Monitorización</title>
-        <link>https://www.entredevyops.es/tags/monitorizaci%C3%B3n.html</link>
-      </image>
     </item>
     
     <item>
@@ -1064,11 +694,6 @@
       
       <guid>https://www.entredevyops.es/tags/tdd.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>TDD</title>
-        <link>https://www.entredevyops.es/tags/tdd.html</link>
-      </image>
     </item>
     
     <item>
@@ -1078,11 +703,6 @@
       
       <guid>https://www.entredevyops.es/tags/pycones.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>PyConES</title>
-        <link>https://www.entredevyops.es/tags/pycones.html</link>
-      </image>
     </item>
     
     <item>
@@ -1092,11 +712,6 @@
       
       <guid>https://www.entredevyops.es/tags/puppet.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Puppet</title>
-        <link>https://www.entredevyops.es/tags/puppet.html</link>
-      </image>
     </item>
     
     <item>
@@ -1106,11 +721,6 @@
       
       <guid>https://www.entredevyops.es/tags/recursos.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Recursos</title>
-        <link>https://www.entredevyops.es/tags/recursos.html</link>
-      </image>
     </item>
     
     <item>
@@ -1120,11 +730,6 @@
       
       <guid>https://www.entredevyops.es/tags/paper.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Paper</title>
-        <link>https://www.entredevyops.es/tags/paper.html</link>
-      </image>
     </item>
     
     <item>
@@ -1134,11 +739,6 @@
       
       <guid>https://www.entredevyops.es/tags/bcndevcon.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>BcnDevCon</title>
-        <link>https://www.entredevyops.es/tags/bcndevcon.html</link>
-      </image>
     </item>
     
     <item>
@@ -1148,11 +748,6 @@
       
       <guid>https://www.entredevyops.es/tags/escalabilidad.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Escalabilidad</title>
-        <link>https://www.entredevyops.es/tags/escalabilidad.html</link>
-      </image>
     </item>
     
     <item>
@@ -1162,11 +757,6 @@
       
       <guid>https://www.entredevyops.es/tags/m%C3%B3viles.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Móviles</title>
-        <link>https://www.entredevyops.es/tags/m%C3%B3viles.html</link>
-      </image>
     </item>
     
     <item>
@@ -1176,11 +766,6 @@
       
       <guid>https://www.entredevyops.es/tags/ansible.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Ansible</title>
-        <link>https://www.entredevyops.es/tags/ansible.html</link>
-      </image>
     </item>
     
     <item>
@@ -1190,11 +775,6 @@
       
       <guid>https://www.entredevyops.es/tags/sudoers-bcn.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Sudoers BCN</title>
-        <link>https://www.entredevyops.es/tags/sudoers-bcn.html</link>
-      </image>
     </item>
     
     <item>
@@ -1204,11 +784,6 @@
       
       <guid>https://www.entredevyops.es/tags/devops-summit.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>DevOps Summit</title>
-        <link>https://www.entredevyops.es/tags/devops-summit.html</link>
-      </image>
     </item>
     
     <item>
@@ -1218,11 +793,6 @@
       
       <guid>https://www.entredevyops.es/tags/aix.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>AIX</title>
-        <link>https://www.entredevyops.es/tags/aix.html</link>
-      </image>
     </item>
     
     <item>
@@ -1232,11 +802,6 @@
       
       <guid>https://www.entredevyops.es/tags/ibm.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>IBM</title>
-        <link>https://www.entredevyops.es/tags/ibm.html</link>
-      </image>
     </item>
     
     <item>
@@ -1246,11 +811,6 @@
       
       <guid>https://www.entredevyops.es/tags/autenticaci%C3%B3n.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Autenticación</title>
-        <link>https://www.entredevyops.es/tags/autenticaci%C3%B3n.html</link>
-      </image>
     </item>
     
     <item>
@@ -1260,11 +820,6 @@
       
       <guid>https://www.entredevyops.es/tags/barcelona-jug.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Barcelona JUG</title>
-        <link>https://www.entredevyops.es/tags/barcelona-jug.html</link>
-      </image>
     </item>
     
     <item>
@@ -1274,11 +829,6 @@
       
       <guid>https://www.entredevyops.es/tags/devopsdays.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>devopsdays</title>
-        <link>https://www.entredevyops.es/tags/devopsdays.html</link>
-      </image>
     </item>
     
     <item>
@@ -1288,11 +838,6 @@
       
       <guid>https://www.entredevyops.es/tags/apache-cloudstack.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Apache CloudStack</title>
-        <link>https://www.entredevyops.es/tags/apache-cloudstack.html</link>
-      </image>
     </item>
     
     <item>
@@ -1302,11 +847,6 @@
       
       <guid>https://www.entredevyops.es/tags/jenkins.html</guid>
       <description></description>
-      <image>
-        <url>/images/</url>
-        <title>Jenkins</title>
-        <link>https://www.entredevyops.es/tags/jenkins.html</link>
-      </image>
     </item>
     
   </channel>

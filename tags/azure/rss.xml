@@ -4,6 +4,11 @@
     <title>Azure on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/azure.html</link>
     <description>Recent content in Azure on Entre Dev y Ops</description>
+    <image>
+      <url>/images/edyo-logo.png</url>
+      <title>Entre Dev y Ops</title>
+      <link>https://www.entredevyops.es/tags/azure.html</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <lastBuildDate>Wed, 17 May 2017 13:35:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/azure/rss.xml" rel="self" type="application/rss+xml" />
@@ -17,11 +22,6 @@
 &lt;p&gt;A raíz del incidente de &lt;a href=&#34;https://aws.amazon.com/es/message/41926/&#34;&gt;AWS S3 del pasado 28 de Febrero&lt;/a&gt;  he oído, y no en pocas ocasiones, frases del estilo “pero esto del cloud no se caía, no?”, “hasta el cloud tiene caídas de servicio” y similares.
 Si hablamos con personas que conozcan que es el cloud seguramente tendrán una opinión similar: una de las ventajas de migrar hacia el cloud es que nunca tendrás caídas de servicio.&lt;/p&gt;
 &lt;p&gt;Lamentablemente eso no es del todo verdad y las empresas que ofrecen servicios de cloud lo saben.&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>El SLA del Cloud</title>
-        <link>https://www.entredevyops.es/posts/sla-cloud-aws-azure.html</link>
-      </image>
     </item>
     
     <item>
@@ -32,11 +32,6 @@ Si hablamos con personas que conozcan que es el cloud seguramente tendrán una o
       <guid>https://www.entredevyops.es/posts/comparando-serverless.html</guid>
       <description>&lt;p&gt;El líder indiscutible del cloud es AWS, pero tiene un competidor que le sigue de cerca. Bueno, siendo realistas no tan de cerca, pero que se ha acercado mucho en estos últimos tiempos.&lt;/p&gt;
 &lt;p&gt;Hemos visto el avance de &lt;a href=&#34;https://aws.amazon.com/es/lambda/details/&#34;&gt;Lambda&lt;/a&gt;, y como pasó de ser un anuncio en el re:Invent del 2014, a ocupar varias charlas en el re:Invent del año pasado. Teniendo en cuenta que ahora mismo, tenemos el sistema distribuido entre: el lambda de siempre, en el &lt;a href=&#34;https://aws.amazon.com/es/snowball/details/&#34;&gt;snowball&lt;/a&gt; y próximamente en  la ejecución lambda de los &lt;a href=&#34;https://pages.awscloud.com/lambda-at-edge-preview.html&#34;&gt;nodos edge de cloudfront&lt;/a&gt;  y en los productos que usen &lt;a href=&#34;https://aws.amazon.com/es/greengrass/&#34;&gt;AWS Greengrass&lt;/a&gt;,  pero la pregunta es: ¿cual es la herramienta de Azure para combatir Lambda?&lt;/p&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>Comparando Serverless</title>
-        <link>https://www.entredevyops.es/posts/comparando-serverless.html</link>
-      </image>
     </item>
     
     <item>
@@ -49,11 +44,6 @@ Si hablamos con personas que conozcan que es el cloud seguramente tendrán una o
 
 
 &lt;p&gt;El &lt;em&gt;cloud&lt;/em&gt;, es la denominación de un conjunto de servicios, productos e infraestructuras que se ofrecen habitualmente en internet. ¿Pero qué sabemos de ello? ¿cómo podemos demostrar que tenemos conocimiento sobre la materia?. Podemos realizar muchos cursos o tener muchas horas de uso en determinadas tecnologías. Una de las formas para poder acreditar un conocimiento es superar unas pruebas estándar. En este punto es donde intervienen las certificaciones.&lt;/p&gt;&lt;/div&gt;</description>
-      <image>
-        <url>/images/</url>
-        <title>¿Qué sabes del Cloud?</title>
-        <link>https://www.entredevyops.es/posts/que-sabes-del-cloud.html</link>
-      </image>
     </item>
     
   </channel>
