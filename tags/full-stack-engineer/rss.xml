@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Full Stack Engineer on Entre Dev y Ops</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Full Stack Engineer on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 04 Jul 2016 12:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/full-stack-engineer/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 04 Jul 2016 12:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/full-stack-engineer/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>El fondo de armario de un ingeniero</title>
       <link>https://www.entredevyops.es/posts/fondo-armario-ingeniero.html</link>
@@ -20,8 +16,12 @@
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;p&gt;Mi mujer siempre me repite, medio en broma medio en serio, que visto como si cobrara la mitad de lo que cobro. Es un buen resumen de mi sensibilidad hacia el mundo de la moda, y os debería dejar claro que, a pesar del título, este post no va a tratar sobre imagen personal.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;Mi mujer siempre me repite, medio en broma medio en serio, que visto como si cobrara la mitad de lo que cobro. Es un buen resumen de mi sensibilidad hacia el mundo de la moda, y os debería dejar claro que, a pesar del título, este post no va a tratar sobre imagen personal.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>El fondo de armario de un ingeniero</title>
+        <link>https://www.entredevyops.es/posts/fondo-armario-ingeniero.html</link>
+      </image>
     </item>
     
     <item>
@@ -34,8 +34,12 @@
 
 
 &lt;p&gt;Me confieso fan de Scott Lowe y sigo &lt;a class=&#34;reference external&#34; href=&#34;http://blog.scottlowe.org&#34;&gt;su blog&lt;/a&gt; desde hace tiempo. Sus entradas sobre virtualización de red son de un altísimo nivel técnico, y sus &lt;a class=&#34;reference external&#34; href=&#34;http://blog.scottlowe.org/2016/02/12/technology-short-take-61/&#34;&gt;Technology Short Takes&lt;/a&gt; periódicos una excelente forma de no perderse nada de lo que ocurre en el estado del arte del mundo IT.&lt;/p&gt;
-&lt;p&gt;Ahora, una razón más para seguir a Scott es el reciente estreno de su podcast, &lt;a class=&#34;reference external&#34; href=&#34;https://itunes.apple.com/us/podcast/full-stack-journey/id1073172158&#34;&gt;“Full Stack Journey”&lt;/a&gt; . Aunque por ahora sólo hay dos episodios publicados, hay dos cosas que me encantan.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;Ahora, una razón más para seguir a Scott es el reciente estreno de su podcast, &lt;a class=&#34;reference external&#34; href=&#34;https://itunes.apple.com/us/podcast/full-stack-journey/id1073172158&#34;&gt;“Full Stack Journey”&lt;/a&gt; . Aunque por ahora sólo hay dos episodios publicados, hay dos cosas que me encantan.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Corred, insensatos!</title>
+        <link>https://www.entredevyops.es/posts/full_stack_engineer.html</link>
+      </image>
     </item>
     
   </channel>

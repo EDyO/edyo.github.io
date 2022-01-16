@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Entre Dev y Ops</title>
@@ -6,729 +6,19 @@
     <description>Recent content in Tags on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 23 Nov 2016 00:25:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 22 Sep 2017 22:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/rss.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2fa</title>
-      <link>https://www.entredevyops.es/tags/2fa.html</link>
-      <pubDate>Wed, 23 Nov 2016 00:25:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/2fa.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Agile</title>
-      <link>https://www.entredevyops.es/tags/agile.html</link>
-      <pubDate>Tue, 10 Feb 2015 20:05:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/agile.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aix</title>
-      <link>https://www.entredevyops.es/tags/aix.html</link>
-      <pubDate>Wed, 23 Oct 2013 00:01:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/aix.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Alexa</title>
-      <link>https://www.entredevyops.es/tags/alexa.html</link>
-      <pubDate>Tue, 10 Jan 2017 23:25:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/alexa.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Algoritmos</title>
-      <link>https://www.entredevyops.es/tags/algoritmos.html</link>
-      <pubDate>Thu, 11 Aug 2016 09:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/algoritmos.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Amazon</title>
-      <link>https://www.entredevyops.es/tags/amazon.html</link>
-      <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/amazon.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Amazon Ws</title>
-      <link>https://www.entredevyops.es/tags/amazon-ws.html</link>
-      <pubDate>Thu, 16 Mar 2017 03:14:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/amazon-ws.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ansible</title>
-      <link>https://www.entredevyops.es/tags/ansible.html</link>
-      <pubDate>Wed, 06 Nov 2013 20:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/ansible.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Apache Cloudstack</title>
-      <link>https://www.entredevyops.es/tags/apache-cloudstack.html</link>
-      <pubDate>Sun, 03 Feb 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/apache-cloudstack.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Autenticación</title>
-      <link>https://www.entredevyops.es/tags/autenticaci%C3%B3n.html</link>
-      <pubDate>Sat, 19 Oct 2013 10:45:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/autenticaci%C3%B3n.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Automatización</title>
-      <link>https://www.entredevyops.es/tags/automatizaci%C3%B3n.html</link>
-      <pubDate>Fri, 17 Feb 2017 10:35:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/automatizaci%C3%B3n.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aws</title>
-      <link>https://www.entredevyops.es/tags/aws.html</link>
-      <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/aws.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Azure</title>
-      <link>https://www.entredevyops.es/tags/azure.html</link>
-      <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/azure.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Barcelona Jug</title>
-      <link>https://www.entredevyops.es/tags/barcelona-jug.html</link>
-      <pubDate>Wed, 16 Oct 2013 00:55:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/barcelona-jug.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bcndevcon</title>
-      <link>https://www.entredevyops.es/tags/bcndevcon.html</link>
-      <pubDate>Mon, 11 Nov 2013 20:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/bcndevcon.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Básicos</title>
-      <link>https://www.entredevyops.es/tags/b%C3%A1sicos.html</link>
-      <pubDate>Fri, 17 Feb 2017 10:35:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/b%C3%A1sicos.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chef</title>
-      <link>https://www.entredevyops.es/tags/chef.html</link>
-      <pubDate>Sun, 19 Jan 2014 19:45:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/chef.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud</title>
-      <link>https://www.entredevyops.es/tags/cloud.html</link>
-      <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/cloud.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Crónica</title>
-      <link>https://www.entredevyops.es/tags/cr%C3%B3nica.html</link>
-      <pubDate>Fri, 17 Feb 2017 10:35:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/cr%C3%B3nica.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Debian</title>
-      <link>https://www.entredevyops.es/tags/debian.html</link>
-      <pubDate>Fri, 14 Mar 2014 23:45:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/debian.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Desarrollo</title>
-      <link>https://www.entredevyops.es/tags/desarrollo.html</link>
-      <pubDate>Fri, 22 Jul 2016 12:15:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/desarrollo.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Devops</title>
-      <link>https://www.entredevyops.es/tags/devops.html</link>
-      <pubDate>Sat, 29 Apr 2017 19:50:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/devops.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Devops Summit</title>
-      <link>https://www.entredevyops.es/tags/devops-summit.html</link>
-      <pubDate>Sun, 03 Nov 2013 20:20:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/devops-summit.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Devopsdays</title>
-      <link>https://www.entredevyops.es/tags/devopsdays.html</link>
-      <pubDate>Sat, 12 Oct 2013 20:13:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/devopsdays.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Digital Ocean</title>
-      <link>https://www.entredevyops.es/tags/digital-ocean.html</link>
-      <pubDate>Tue, 15 Jul 2014 23:40:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/digital-ocean.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ebook</title>
-      <link>https://www.entredevyops.es/tags/ebook.html</link>
-      <pubDate>Mon, 07 Apr 2014 20:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/ebook.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Empresa</title>
-      <link>https://www.entredevyops.es/tags/empresa.html</link>
-      <pubDate>Fri, 17 Feb 2017 10:35:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/empresa.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Entrega Contínua</title>
-      <link>https://www.entredevyops.es/tags/entrega-cont%C3%ADnua.html</link>
-      <pubDate>Mon, 08 Sep 2014 08:30:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/entrega-cont%C3%ADnua.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Escalabilidad</title>
-      <link>https://www.entredevyops.es/tags/escalabilidad.html</link>
-      <pubDate>Mon, 11 Nov 2013 07:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/escalabilidad.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Estándares</title>
-      <link>https://www.entredevyops.es/tags/est%C3%A1ndares.html</link>
-      <pubDate>Fri, 07 Oct 2016 23:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/est%C3%A1ndares.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Eventos</title>
-      <link>https://www.entredevyops.es/tags/eventos.html</link>
-      <pubDate>Sat, 29 Apr 2017 19:50:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/eventos.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fail2ban</title>
-      <link>https://www.entredevyops.es/tags/fail2ban.html</link>
-      <pubDate>Thu, 08 Sep 2016 15:30:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/fail2ban.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Filosofía</title>
-      <link>https://www.entredevyops.es/tags/filosof%C3%ADa.html</link>
-      <pubDate>Wed, 01 Mar 2017 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/filosof%C3%ADa.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Formación</title>
-      <link>https://www.entredevyops.es/tags/formaci%C3%B3n.html</link>
-      <pubDate>Wed, 01 Mar 2017 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/formaci%C3%B3n.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fosdem</title>
-      <link>https://www.entredevyops.es/tags/fosdem.html</link>
-      <pubDate>Wed, 11 Feb 2015 12:05:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/fosdem.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Free Software</title>
-      <link>https://www.entredevyops.es/tags/free-software.html</link>
-      <pubDate>Sat, 26 Sep 2015 15:40:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/free-software.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Full Stack Engineer</title>
-      <link>https://www.entredevyops.es/tags/full-stack-engineer.html</link>
-      <pubDate>Mon, 04 Jul 2016 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/full-stack-engineer.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://www.entredevyops.es/tags/git.html</link>
-      <pubDate>Mon, 16 Jun 2014 03:14:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/git.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go</title>
-      <link>https://www.entredevyops.es/tags/go.html</link>
-      <pubDate>Sat, 26 Sep 2015 15:40:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/go.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google Authenticator</title>
-      <link>https://www.entredevyops.es/tags/google-authenticator.html</link>
-      <pubDate>Wed, 23 Nov 2016 00:25:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/google-authenticator.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Guías</title>
-      <link>https://www.entredevyops.es/tags/gu%C3%ADas.html</link>
-      <pubDate>Sat, 05 Jul 2014 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/gu%C3%ADas.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hardware</title>
-      <link>https://www.entredevyops.es/tags/hardware.html</link>
-      <pubDate>Fri, 22 Jul 2016 12:15:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/hardware.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Herramientas</title>
-      <link>https://www.entredevyops.es/tags/herramientas.html</link>
-      <pubDate>Sat, 29 Apr 2017 19:50:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/herramientas.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ibm</title>
-      <link>https://www.entredevyops.es/tags/ibm.html</link>
-      <pubDate>Wed, 23 Oct 2013 00:01:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/ibm.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Infraestructura</title>
-      <link>https://www.entredevyops.es/tags/infraestructura.html</link>
-      <pubDate>Tue, 23 Aug 2016 19:55:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/infraestructura.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Integración Contínua</title>
-      <link>https://www.entredevyops.es/tags/integraci%C3%B3n-cont%C3%ADnua.html</link>
-      <pubDate>Sat, 29 Apr 2017 19:50:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/integraci%C3%B3n-cont%C3%ADnua.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internet</title>
-      <link>https://www.entredevyops.es/tags/internet.html</link>
-      <pubDate>Thu, 30 Oct 2014 18:50:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/internet.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internet of Things</title>
-      <link>https://www.entredevyops.es/tags/internet-of-things.html</link>
-      <pubDate>Fri, 22 Jul 2016 12:15:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/internet-of-things.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Iot</title>
-      <link>https://www.entredevyops.es/tags/iot.html</link>
-      <pubDate>Tue, 10 Jan 2017 23:25:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/iot.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Javascript</title>
+      <title>JavaScript</title>
       <link>https://www.entredevyops.es/tags/javascript.html</link>
       <pubDate>Fri, 22 Sep 2017 22:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/tags/javascript.html</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Jenkins</title>
-      <link>https://www.entredevyops.es/tags/jenkins.html</link>
-      <pubDate>Sat, 02 Feb 2013 16:45:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/jenkins.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Laboratorio</title>
-      <link>https://www.entredevyops.es/tags/laboratorio.html</link>
-      <pubDate>Wed, 23 Dec 2015 16:30:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/laboratorio.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lambda</title>
-      <link>https://www.entredevyops.es/tags/lambda.html</link>
-      <pubDate>Mon, 20 Feb 2017 23:25:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/lambda.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lets Encrypt</title>
-      <link>https://www.entredevyops.es/tags/lets-encrypt.html</link>
-      <pubDate>Wed, 23 Dec 2015 16:30:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/lets-encrypt.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Libros</title>
-      <link>https://www.entredevyops.es/tags/libros.html</link>
-      <pubDate>Wed, 18 Jun 2014 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/libros.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://www.entredevyops.es/tags/linux.html</link>
-      <pubDate>Tue, 23 Aug 2016 19:55:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/linux.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Microsoft</title>
-      <link>https://www.entredevyops.es/tags/microsoft.html</link>
-      <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/microsoft.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mongodb</title>
-      <link>https://www.entredevyops.es/tags/mongodb.html</link>
-      <pubDate>Wed, 19 Mar 2014 22:20:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/mongodb.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Monitorización</title>
-      <link>https://www.entredevyops.es/tags/monitorizaci%C3%B3n.html</link>
-      <pubDate>Sun, 19 Jan 2014 19:45:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/monitorizaci%C3%B3n.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mwc</title>
-      <link>https://www.entredevyops.es/tags/mwc.html</link>
-      <pubDate>Sun, 23 Feb 2014 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/mwc.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Móviles</title>
-      <link>https://www.entredevyops.es/tags/m%C3%B3viles.html</link>
-      <pubDate>Sat, 09 Nov 2013 12:40:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/m%C3%B3viles.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nosql</title>
-      <link>https://www.entredevyops.es/tags/nosql.html</link>
-      <pubDate>Sun, 20 Sep 2015 12:05:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/nosql.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Source</title>
-      <link>https://www.entredevyops.es/tags/open-source.html</link>
-      <pubDate>Sat, 26 Sep 2015 15:40:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/open-source.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opennebula</title>
-      <link>https://www.entredevyops.es/tags/opennebula.html</link>
-      <pubDate>Tue, 10 Nov 2015 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/opennebula.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Openstack</title>
-      <link>https://www.entredevyops.es/tags/openstack.html</link>
-      <pubDate>Wed, 13 May 2015 23:30:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/openstack.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opinión</title>
-      <link>https://www.entredevyops.es/tags/opini%C3%B3n.html</link>
-      <pubDate>Wed, 01 Mar 2017 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/opini%C3%B3n.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Orchestrate</title>
-      <link>https://www.entredevyops.es/tags/orchestrate.html</link>
-      <pubDate>Tue, 21 Mar 2017 14:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/orchestrate.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paper</title>
-      <link>https://www.entredevyops.es/tags/paper.html</link>
-      <pubDate>Sat, 07 Dec 2013 20:14:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/paper.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pruebas</title>
-      <link>https://www.entredevyops.es/tags/pruebas.html</link>
-      <pubDate>Mon, 08 Sep 2014 08:30:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/pruebas.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Puppet</title>
-      <link>https://www.entredevyops.es/tags/puppet.html</link>
-      <pubDate>Tue, 07 Jan 2014 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/puppet.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pycones</title>
-      <link>https://www.entredevyops.es/tags/pycones.html</link>
-      <pubDate>Thu, 09 Jan 2014 15:45:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/pycones.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://www.entredevyops.es/tags/python.html</link>
-      <pubDate>Fri, 22 Jul 2016 12:15:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/python.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Qa</title>
-      <link>https://www.entredevyops.es/tags/qa.html</link>
-      <pubDate>Mon, 08 Sep 2014 08:30:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/qa.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recursos</title>
-      <link>https://www.entredevyops.es/tags/recursos.html</link>
-      <pubDate>Tue, 07 Jan 2014 21:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/recursos.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Redes</title>
-      <link>https://www.entredevyops.es/tags/redes.html</link>
-      <pubDate>Wed, 18 Feb 2015 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/redes.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rendimiento</title>
-      <link>https://www.entredevyops.es/tags/rendimiento.html</link>
-      <pubDate>Sun, 30 Nov 2014 12:14:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/rendimiento.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reseña</title>
-      <link>https://www.entredevyops.es/tags/rese%C3%B1a.html</link>
-      <pubDate>Wed, 18 Jun 2014 08:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/rese%C3%B1a.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scott Lowe</title>
-      <link>https://www.entredevyops.es/tags/scott-lowe.html</link>
-      <pubDate>Mon, 07 Mar 2016 09:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/scott-lowe.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scrum</title>
-      <link>https://www.entredevyops.es/tags/scrum.html</link>
-      <pubDate>Tue, 10 Feb 2015 20:05:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/scrum.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sdn</title>
-      <link>https://www.entredevyops.es/tags/sdn.html</link>
-      <pubDate>Wed, 18 Feb 2015 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/sdn.html</guid>
-      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>JavaScript</title>
+        <link>https://www.entredevyops.es/tags/javascript.html</link>
+      </image>
     </item>
     
     <item>
@@ -738,6 +28,179 @@
       
       <guid>https://www.entredevyops.es/tags/seguridad.html</guid>
       <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Seguridad</title>
+        <link>https://www.entredevyops.es/tags/seguridad.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Amazon</title>
+      <link>https://www.entredevyops.es/tags/amazon.html</link>
+      <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/amazon.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Amazon</title>
+        <link>https://www.entredevyops.es/tags/amazon.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>AWS</title>
+      <link>https://www.entredevyops.es/tags/aws.html</link>
+      <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/aws.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>AWS</title>
+        <link>https://www.entredevyops.es/tags/aws.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Azure</title>
+      <link>https://www.entredevyops.es/tags/azure.html</link>
+      <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/azure.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Azure</title>
+        <link>https://www.entredevyops.es/tags/azure.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>https://www.entredevyops.es/tags/cloud.html</link>
+      <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/cloud.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Cloud</title>
+        <link>https://www.entredevyops.es/tags/cloud.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Microsoft</title>
+      <link>https://www.entredevyops.es/tags/microsoft.html</link>
+      <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/microsoft.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Microsoft</title>
+        <link>https://www.entredevyops.es/tags/microsoft.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>SLA</title>
+      <link>https://www.entredevyops.es/tags/sla.html</link>
+      <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/sla.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>SLA</title>
+        <link>https://www.entredevyops.es/tags/sla.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://www.entredevyops.es/tags/devops.html</link>
+      <pubDate>Sat, 29 Apr 2017 19:50:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/devops.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>DevOps</title>
+        <link>https://www.entredevyops.es/tags/devops.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Eventos</title>
+      <link>https://www.entredevyops.es/tags/eventos.html</link>
+      <pubDate>Sat, 29 Apr 2017 19:50:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/eventos.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Eventos</title>
+        <link>https://www.entredevyops.es/tags/eventos.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Herramientas</title>
+      <link>https://www.entredevyops.es/tags/herramientas.html</link>
+      <pubDate>Sat, 29 Apr 2017 19:50:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/herramientas.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Herramientas</title>
+        <link>https://www.entredevyops.es/tags/herramientas.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Integración Contínua</title>
+      <link>https://www.entredevyops.es/tags/integraci%C3%B3n-cont%C3%ADnua.html</link>
+      <pubDate>Sat, 29 Apr 2017 19:50:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/integraci%C3%B3n-cont%C3%ADnua.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Integración Contínua</title>
+        <link>https://www.entredevyops.es/tags/integraci%C3%B3n-cont%C3%ADnua.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Orchestrate</title>
+      <link>https://www.entredevyops.es/tags/orchestrate.html</link>
+      <pubDate>Tue, 21 Mar 2017 14:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/orchestrate.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Orchestrate</title>
+        <link>https://www.entredevyops.es/tags/orchestrate.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Amazon WS</title>
+      <link>https://www.entredevyops.es/tags/amazon-ws.html</link>
+      <pubDate>Thu, 16 Mar 2017 03:14:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/amazon-ws.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Amazon WS</title>
+        <link>https://www.entredevyops.es/tags/amazon-ws.html</link>
+      </image>
     </item>
     
     <item>
@@ -747,96 +210,221 @@
       
       <guid>https://www.entredevyops.es/tags/servesless.html</guid>
       <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Servesless</title>
+        <link>https://www.entredevyops.es/tags/servesless.html</link>
+      </image>
     </item>
     
     <item>
-      <title>Shell Script</title>
+      <title>Filosofía</title>
+      <link>https://www.entredevyops.es/tags/filosof%C3%ADa.html</link>
+      <pubDate>Wed, 01 Mar 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/filosof%C3%ADa.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Filosofía</title>
+        <link>https://www.entredevyops.es/tags/filosof%C3%ADa.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Formación</title>
+      <link>https://www.entredevyops.es/tags/formaci%C3%B3n.html</link>
+      <pubDate>Wed, 01 Mar 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/formaci%C3%B3n.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Formación</title>
+        <link>https://www.entredevyops.es/tags/formaci%C3%B3n.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Opinión</title>
+      <link>https://www.entredevyops.es/tags/opini%C3%B3n.html</link>
+      <pubDate>Wed, 01 Mar 2017 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/opini%C3%B3n.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Opinión</title>
+        <link>https://www.entredevyops.es/tags/opini%C3%B3n.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Lambda</title>
+      <link>https://www.entredevyops.es/tags/lambda.html</link>
+      <pubDate>Mon, 20 Feb 2017 23:25:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/lambda.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Lambda</title>
+        <link>https://www.entredevyops.es/tags/lambda.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Shell script</title>
       <link>https://www.entredevyops.es/tags/shell-script.html</link>
       <pubDate>Mon, 20 Feb 2017 23:25:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/tags/shell-script.html</guid>
       <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Shell script</title>
+        <link>https://www.entredevyops.es/tags/shell-script.html</link>
+      </image>
     </item>
     
     <item>
-      <title>Sistemas Operativos</title>
-      <link>https://www.entredevyops.es/tags/sistemas-operativos.html</link>
-      <pubDate>Tue, 23 Aug 2016 19:55:00 +0000</pubDate>
+      <title>Automatización</title>
+      <link>https://www.entredevyops.es/tags/automatizaci%C3%B3n.html</link>
+      <pubDate>Fri, 17 Feb 2017 10:35:00 +0000</pubDate>
       
-      <guid>https://www.entredevyops.es/tags/sistemas-operativos.html</guid>
+      <guid>https://www.entredevyops.es/tags/automatizaci%C3%B3n.html</guid>
       <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Automatización</title>
+        <link>https://www.entredevyops.es/tags/automatizaci%C3%B3n.html</link>
+      </image>
     </item>
     
     <item>
-      <title>Sla</title>
-      <link>https://www.entredevyops.es/tags/sla.html</link>
-      <pubDate>Wed, 17 May 2017 13:35:00 +0000</pubDate>
+      <title>Básicos</title>
+      <link>https://www.entredevyops.es/tags/b%C3%A1sicos.html</link>
+      <pubDate>Fri, 17 Feb 2017 10:35:00 +0000</pubDate>
       
-      <guid>https://www.entredevyops.es/tags/sla.html</guid>
+      <guid>https://www.entredevyops.es/tags/b%C3%A1sicos.html</guid>
       <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Básicos</title>
+        <link>https://www.entredevyops.es/tags/b%C3%A1sicos.html</link>
+      </image>
     </item>
     
     <item>
-      <title>Ssh</title>
+      <title>Crónica</title>
+      <link>https://www.entredevyops.es/tags/cr%C3%B3nica.html</link>
+      <pubDate>Fri, 17 Feb 2017 10:35:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/cr%C3%B3nica.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Crónica</title>
+        <link>https://www.entredevyops.es/tags/cr%C3%B3nica.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Empresa</title>
+      <link>https://www.entredevyops.es/tags/empresa.html</link>
+      <pubDate>Fri, 17 Feb 2017 10:35:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/empresa.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Empresa</title>
+        <link>https://www.entredevyops.es/tags/empresa.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Alexa</title>
+      <link>https://www.entredevyops.es/tags/alexa.html</link>
+      <pubDate>Tue, 10 Jan 2017 23:25:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/alexa.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Alexa</title>
+        <link>https://www.entredevyops.es/tags/alexa.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>IoT</title>
+      <link>https://www.entredevyops.es/tags/iot.html</link>
+      <pubDate>Tue, 10 Jan 2017 23:25:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/iot.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>IoT</title>
+        <link>https://www.entredevyops.es/tags/iot.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>2FA</title>
+      <link>https://www.entredevyops.es/tags/2fa.html</link>
+      <pubDate>Wed, 23 Nov 2016 00:25:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/2fa.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>2FA</title>
+        <link>https://www.entredevyops.es/tags/2fa.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Google Authenticator</title>
+      <link>https://www.entredevyops.es/tags/google-authenticator.html</link>
+      <pubDate>Wed, 23 Nov 2016 00:25:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/google-authenticator.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Google Authenticator</title>
+        <link>https://www.entredevyops.es/tags/google-authenticator.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>SSH</title>
       <link>https://www.entredevyops.es/tags/ssh.html</link>
       <pubDate>Wed, 23 Nov 2016 00:25:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/tags/ssh.html</guid>
       <description></description>
+      <image>
+        <url>/images/</url>
+        <title>SSH</title>
+        <link>https://www.entredevyops.es/tags/ssh.html</link>
+      </image>
     </item>
     
     <item>
-      <title>Sslh</title>
-      <link>https://www.entredevyops.es/tags/sslh.html</link>
-      <pubDate>Wed, 27 Aug 2014 19:55:00 +0000</pubDate>
+      <title>Estándares</title>
+      <link>https://www.entredevyops.es/tags/est%C3%A1ndares.html</link>
+      <pubDate>Fri, 07 Oct 2016 23:00:00 +0000</pubDate>
       
-      <guid>https://www.entredevyops.es/tags/sslh.html</guid>
+      <guid>https://www.entredevyops.es/tags/est%C3%A1ndares.html</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Sudoers Bcn</title>
-      <link>https://www.entredevyops.es/tags/sudoers-bcn.html</link>
-      <pubDate>Wed, 06 Nov 2013 20:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/sudoers-bcn.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tdd</title>
-      <link>https://www.entredevyops.es/tags/tdd.html</link>
-      <pubDate>Sun, 19 Jan 2014 19:45:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/tdd.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unix</title>
-      <link>https://www.entredevyops.es/tags/unix.html</link>
-      <pubDate>Mon, 23 Jun 2014 03:14:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/unix.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Viaje</title>
-      <link>https://www.entredevyops.es/tags/viaje.html</link>
-      <pubDate>Wed, 11 Feb 2015 12:05:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/viaje.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Virtualización</title>
-      <link>https://www.entredevyops.es/tags/virtualizaci%C3%B3n.html</link>
-      <pubDate>Wed, 18 Feb 2015 10:00:00 +0000</pubDate>
-      
-      <guid>https://www.entredevyops.es/tags/virtualizaci%C3%B3n.html</guid>
-      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Estándares</title>
+        <link>https://www.entredevyops.es/tags/est%C3%A1ndares.html</link>
+      </image>
     </item>
     
     <item>
@@ -846,6 +434,879 @@
       
       <guid>https://www.entredevyops.es/tags/web.html</guid>
       <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Web</title>
+        <link>https://www.entredevyops.es/tags/web.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Fail2Ban</title>
+      <link>https://www.entredevyops.es/tags/fail2ban.html</link>
+      <pubDate>Thu, 08 Sep 2016 15:30:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/fail2ban.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Fail2Ban</title>
+        <link>https://www.entredevyops.es/tags/fail2ban.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Infraestructura</title>
+      <link>https://www.entredevyops.es/tags/infraestructura.html</link>
+      <pubDate>Tue, 23 Aug 2016 19:55:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/infraestructura.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Infraestructura</title>
+        <link>https://www.entredevyops.es/tags/infraestructura.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://www.entredevyops.es/tags/linux.html</link>
+      <pubDate>Tue, 23 Aug 2016 19:55:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/linux.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Linux</title>
+        <link>https://www.entredevyops.es/tags/linux.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Sistemas Operativos</title>
+      <link>https://www.entredevyops.es/tags/sistemas-operativos.html</link>
+      <pubDate>Tue, 23 Aug 2016 19:55:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/sistemas-operativos.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Sistemas Operativos</title>
+        <link>https://www.entredevyops.es/tags/sistemas-operativos.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Algoritmos</title>
+      <link>https://www.entredevyops.es/tags/algoritmos.html</link>
+      <pubDate>Thu, 11 Aug 2016 09:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/algoritmos.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Algoritmos</title>
+        <link>https://www.entredevyops.es/tags/algoritmos.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Desarrollo</title>
+      <link>https://www.entredevyops.es/tags/desarrollo.html</link>
+      <pubDate>Fri, 22 Jul 2016 12:15:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/desarrollo.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Desarrollo</title>
+        <link>https://www.entredevyops.es/tags/desarrollo.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Hardware</title>
+      <link>https://www.entredevyops.es/tags/hardware.html</link>
+      <pubDate>Fri, 22 Jul 2016 12:15:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/hardware.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Hardware</title>
+        <link>https://www.entredevyops.es/tags/hardware.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Internet of Things</title>
+      <link>https://www.entredevyops.es/tags/internet-of-things.html</link>
+      <pubDate>Fri, 22 Jul 2016 12:15:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/internet-of-things.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Internet of Things</title>
+        <link>https://www.entredevyops.es/tags/internet-of-things.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://www.entredevyops.es/tags/python.html</link>
+      <pubDate>Fri, 22 Jul 2016 12:15:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/python.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Python</title>
+        <link>https://www.entredevyops.es/tags/python.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Full Stack Engineer</title>
+      <link>https://www.entredevyops.es/tags/full-stack-engineer.html</link>
+      <pubDate>Mon, 04 Jul 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/full-stack-engineer.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Full Stack Engineer</title>
+        <link>https://www.entredevyops.es/tags/full-stack-engineer.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Scott Lowe</title>
+      <link>https://www.entredevyops.es/tags/scott-lowe.html</link>
+      <pubDate>Mon, 07 Mar 2016 09:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/scott-lowe.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Scott Lowe</title>
+        <link>https://www.entredevyops.es/tags/scott-lowe.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Laboratorio</title>
+      <link>https://www.entredevyops.es/tags/laboratorio.html</link>
+      <pubDate>Wed, 23 Dec 2015 16:30:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/laboratorio.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Laboratorio</title>
+        <link>https://www.entredevyops.es/tags/laboratorio.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Encrypt</title>
+      <link>https://www.entredevyops.es/tags/lets-encrypt.html</link>
+      <pubDate>Wed, 23 Dec 2015 16:30:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/lets-encrypt.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Let&#39;s Encrypt</title>
+        <link>https://www.entredevyops.es/tags/lets-encrypt.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>OpenNebula</title>
+      <link>https://www.entredevyops.es/tags/opennebula.html</link>
+      <pubDate>Tue, 10 Nov 2015 21:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/opennebula.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>OpenNebula</title>
+        <link>https://www.entredevyops.es/tags/opennebula.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Free Software</title>
+      <link>https://www.entredevyops.es/tags/free-software.html</link>
+      <pubDate>Sat, 26 Sep 2015 15:40:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/free-software.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Free Software</title>
+        <link>https://www.entredevyops.es/tags/free-software.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://www.entredevyops.es/tags/go.html</link>
+      <pubDate>Sat, 26 Sep 2015 15:40:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/go.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Go</title>
+        <link>https://www.entredevyops.es/tags/go.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>https://www.entredevyops.es/tags/open-source.html</link>
+      <pubDate>Sat, 26 Sep 2015 15:40:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/open-source.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Open Source</title>
+        <link>https://www.entredevyops.es/tags/open-source.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>NoSQL</title>
+      <link>https://www.entredevyops.es/tags/nosql.html</link>
+      <pubDate>Sun, 20 Sep 2015 12:05:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/nosql.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>NoSQL</title>
+        <link>https://www.entredevyops.es/tags/nosql.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>OpenStack</title>
+      <link>https://www.entredevyops.es/tags/openstack.html</link>
+      <pubDate>Wed, 13 May 2015 23:30:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/openstack.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>OpenStack</title>
+        <link>https://www.entredevyops.es/tags/openstack.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Redes</title>
+      <link>https://www.entredevyops.es/tags/redes.html</link>
+      <pubDate>Wed, 18 Feb 2015 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/redes.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Redes</title>
+        <link>https://www.entredevyops.es/tags/redes.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>SDN</title>
+      <link>https://www.entredevyops.es/tags/sdn.html</link>
+      <pubDate>Wed, 18 Feb 2015 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/sdn.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>SDN</title>
+        <link>https://www.entredevyops.es/tags/sdn.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Virtualización</title>
+      <link>https://www.entredevyops.es/tags/virtualizaci%C3%B3n.html</link>
+      <pubDate>Wed, 18 Feb 2015 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/virtualizaci%C3%B3n.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Virtualización</title>
+        <link>https://www.entredevyops.es/tags/virtualizaci%C3%B3n.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>FOSDEM</title>
+      <link>https://www.entredevyops.es/tags/fosdem.html</link>
+      <pubDate>Wed, 11 Feb 2015 12:05:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/fosdem.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>FOSDEM</title>
+        <link>https://www.entredevyops.es/tags/fosdem.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Viaje</title>
+      <link>https://www.entredevyops.es/tags/viaje.html</link>
+      <pubDate>Wed, 11 Feb 2015 12:05:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/viaje.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Viaje</title>
+        <link>https://www.entredevyops.es/tags/viaje.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Agile</title>
+      <link>https://www.entredevyops.es/tags/agile.html</link>
+      <pubDate>Tue, 10 Feb 2015 20:05:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/agile.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Agile</title>
+        <link>https://www.entredevyops.es/tags/agile.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Scrum</title>
+      <link>https://www.entredevyops.es/tags/scrum.html</link>
+      <pubDate>Tue, 10 Feb 2015 20:05:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/scrum.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Scrum</title>
+        <link>https://www.entredevyops.es/tags/scrum.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Rendimiento</title>
+      <link>https://www.entredevyops.es/tags/rendimiento.html</link>
+      <pubDate>Sun, 30 Nov 2014 12:14:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/rendimiento.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Rendimiento</title>
+        <link>https://www.entredevyops.es/tags/rendimiento.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Internet</title>
+      <link>https://www.entredevyops.es/tags/internet.html</link>
+      <pubDate>Thu, 30 Oct 2014 18:50:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/internet.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Internet</title>
+        <link>https://www.entredevyops.es/tags/internet.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Entrega Contínua</title>
+      <link>https://www.entredevyops.es/tags/entrega-cont%C3%ADnua.html</link>
+      <pubDate>Mon, 08 Sep 2014 08:30:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/entrega-cont%C3%ADnua.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Entrega Contínua</title>
+        <link>https://www.entredevyops.es/tags/entrega-cont%C3%ADnua.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Pruebas</title>
+      <link>https://www.entredevyops.es/tags/pruebas.html</link>
+      <pubDate>Mon, 08 Sep 2014 08:30:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/pruebas.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Pruebas</title>
+        <link>https://www.entredevyops.es/tags/pruebas.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>QA</title>
+      <link>https://www.entredevyops.es/tags/qa.html</link>
+      <pubDate>Mon, 08 Sep 2014 08:30:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/qa.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>QA</title>
+        <link>https://www.entredevyops.es/tags/qa.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>sslh</title>
+      <link>https://www.entredevyops.es/tags/sslh.html</link>
+      <pubDate>Wed, 27 Aug 2014 19:55:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/sslh.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>sslh</title>
+        <link>https://www.entredevyops.es/tags/sslh.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Digital Ocean</title>
+      <link>https://www.entredevyops.es/tags/digital-ocean.html</link>
+      <pubDate>Tue, 15 Jul 2014 23:40:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/digital-ocean.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Digital Ocean</title>
+        <link>https://www.entredevyops.es/tags/digital-ocean.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Guías</title>
+      <link>https://www.entredevyops.es/tags/gu%C3%ADas.html</link>
+      <pubDate>Sat, 05 Jul 2014 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/gu%C3%ADas.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Guías</title>
+        <link>https://www.entredevyops.es/tags/gu%C3%ADas.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Unix</title>
+      <link>https://www.entredevyops.es/tags/unix.html</link>
+      <pubDate>Mon, 23 Jun 2014 03:14:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/unix.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Unix</title>
+        <link>https://www.entredevyops.es/tags/unix.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Libros</title>
+      <link>https://www.entredevyops.es/tags/libros.html</link>
+      <pubDate>Wed, 18 Jun 2014 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/libros.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Libros</title>
+        <link>https://www.entredevyops.es/tags/libros.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Reseña</title>
+      <link>https://www.entredevyops.es/tags/rese%C3%B1a.html</link>
+      <pubDate>Wed, 18 Jun 2014 08:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/rese%C3%B1a.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Reseña</title>
+        <link>https://www.entredevyops.es/tags/rese%C3%B1a.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://www.entredevyops.es/tags/git.html</link>
+      <pubDate>Mon, 16 Jun 2014 03:14:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/git.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Git</title>
+        <link>https://www.entredevyops.es/tags/git.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Ebook</title>
+      <link>https://www.entredevyops.es/tags/ebook.html</link>
+      <pubDate>Mon, 07 Apr 2014 20:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/ebook.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Ebook</title>
+        <link>https://www.entredevyops.es/tags/ebook.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>MongoDB</title>
+      <link>https://www.entredevyops.es/tags/mongodb.html</link>
+      <pubDate>Wed, 19 Mar 2014 22:20:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/mongodb.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>MongoDB</title>
+        <link>https://www.entredevyops.es/tags/mongodb.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Debian</title>
+      <link>https://www.entredevyops.es/tags/debian.html</link>
+      <pubDate>Fri, 14 Mar 2014 23:45:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/debian.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Debian</title>
+        <link>https://www.entredevyops.es/tags/debian.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>MWC</title>
+      <link>https://www.entredevyops.es/tags/mwc.html</link>
+      <pubDate>Sun, 23 Feb 2014 21:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/mwc.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>MWC</title>
+        <link>https://www.entredevyops.es/tags/mwc.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Chef</title>
+      <link>https://www.entredevyops.es/tags/chef.html</link>
+      <pubDate>Sun, 19 Jan 2014 19:45:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/chef.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Chef</title>
+        <link>https://www.entredevyops.es/tags/chef.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Monitorización</title>
+      <link>https://www.entredevyops.es/tags/monitorizaci%C3%B3n.html</link>
+      <pubDate>Sun, 19 Jan 2014 19:45:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/monitorizaci%C3%B3n.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Monitorización</title>
+        <link>https://www.entredevyops.es/tags/monitorizaci%C3%B3n.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>TDD</title>
+      <link>https://www.entredevyops.es/tags/tdd.html</link>
+      <pubDate>Sun, 19 Jan 2014 19:45:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/tdd.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>TDD</title>
+        <link>https://www.entredevyops.es/tags/tdd.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>PyConES</title>
+      <link>https://www.entredevyops.es/tags/pycones.html</link>
+      <pubDate>Thu, 09 Jan 2014 15:45:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/pycones.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>PyConES</title>
+        <link>https://www.entredevyops.es/tags/pycones.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Puppet</title>
+      <link>https://www.entredevyops.es/tags/puppet.html</link>
+      <pubDate>Tue, 07 Jan 2014 21:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/puppet.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Puppet</title>
+        <link>https://www.entredevyops.es/tags/puppet.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Recursos</title>
+      <link>https://www.entredevyops.es/tags/recursos.html</link>
+      <pubDate>Tue, 07 Jan 2014 21:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/recursos.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Recursos</title>
+        <link>https://www.entredevyops.es/tags/recursos.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Paper</title>
+      <link>https://www.entredevyops.es/tags/paper.html</link>
+      <pubDate>Sat, 07 Dec 2013 20:14:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/paper.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Paper</title>
+        <link>https://www.entredevyops.es/tags/paper.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>BcnDevCon</title>
+      <link>https://www.entredevyops.es/tags/bcndevcon.html</link>
+      <pubDate>Mon, 11 Nov 2013 20:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/bcndevcon.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>BcnDevCon</title>
+        <link>https://www.entredevyops.es/tags/bcndevcon.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Escalabilidad</title>
+      <link>https://www.entredevyops.es/tags/escalabilidad.html</link>
+      <pubDate>Mon, 11 Nov 2013 07:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/escalabilidad.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Escalabilidad</title>
+        <link>https://www.entredevyops.es/tags/escalabilidad.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Móviles</title>
+      <link>https://www.entredevyops.es/tags/m%C3%B3viles.html</link>
+      <pubDate>Sat, 09 Nov 2013 12:40:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/m%C3%B3viles.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Móviles</title>
+        <link>https://www.entredevyops.es/tags/m%C3%B3viles.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Ansible</title>
+      <link>https://www.entredevyops.es/tags/ansible.html</link>
+      <pubDate>Wed, 06 Nov 2013 20:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/ansible.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Ansible</title>
+        <link>https://www.entredevyops.es/tags/ansible.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Sudoers BCN</title>
+      <link>https://www.entredevyops.es/tags/sudoers-bcn.html</link>
+      <pubDate>Wed, 06 Nov 2013 20:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/sudoers-bcn.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Sudoers BCN</title>
+        <link>https://www.entredevyops.es/tags/sudoers-bcn.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>DevOps Summit</title>
+      <link>https://www.entredevyops.es/tags/devops-summit.html</link>
+      <pubDate>Sun, 03 Nov 2013 20:20:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/devops-summit.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>DevOps Summit</title>
+        <link>https://www.entredevyops.es/tags/devops-summit.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>AIX</title>
+      <link>https://www.entredevyops.es/tags/aix.html</link>
+      <pubDate>Wed, 23 Oct 2013 00:01:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/aix.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>AIX</title>
+        <link>https://www.entredevyops.es/tags/aix.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>IBM</title>
+      <link>https://www.entredevyops.es/tags/ibm.html</link>
+      <pubDate>Wed, 23 Oct 2013 00:01:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/ibm.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>IBM</title>
+        <link>https://www.entredevyops.es/tags/ibm.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Autenticación</title>
+      <link>https://www.entredevyops.es/tags/autenticaci%C3%B3n.html</link>
+      <pubDate>Sat, 19 Oct 2013 10:45:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/autenticaci%C3%B3n.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Autenticación</title>
+        <link>https://www.entredevyops.es/tags/autenticaci%C3%B3n.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Barcelona JUG</title>
+      <link>https://www.entredevyops.es/tags/barcelona-jug.html</link>
+      <pubDate>Wed, 16 Oct 2013 00:55:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/barcelona-jug.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Barcelona JUG</title>
+        <link>https://www.entredevyops.es/tags/barcelona-jug.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>devopsdays</title>
+      <link>https://www.entredevyops.es/tags/devopsdays.html</link>
+      <pubDate>Sat, 12 Oct 2013 20:13:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/devopsdays.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>devopsdays</title>
+        <link>https://www.entredevyops.es/tags/devopsdays.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Apache CloudStack</title>
+      <link>https://www.entredevyops.es/tags/apache-cloudstack.html</link>
+      <pubDate>Sun, 03 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/apache-cloudstack.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Apache CloudStack</title>
+        <link>https://www.entredevyops.es/tags/apache-cloudstack.html</link>
+      </image>
+    </item>
+    
+    <item>
+      <title>Jenkins</title>
+      <link>https://www.entredevyops.es/tags/jenkins.html</link>
+      <pubDate>Sat, 02 Feb 2013 16:45:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/tags/jenkins.html</guid>
+      <description></description>
+      <image>
+        <url>/images/</url>
+        <title>Jenkins</title>
+        <link>https://www.entredevyops.es/tags/jenkins.html</link>
+      </image>
     </item>
     
   </channel>

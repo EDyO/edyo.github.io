@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Formación on Entre Dev y Ops</title>
@@ -6,21 +6,20 @@
     <description>Recent content in Formación on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 01 Mar 2017 12:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/formaci%C3%B3n/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 01 Mar 2017 12:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/formaci%C3%B3n/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>¿Eres lo suficientemente bueno?</title>
       <link>https://www.entredevyops.es/posts/eres-suficientemente-bueno.html</link>
       <pubDate>Wed, 01 Mar 2017 12:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/eres-suficientemente-bueno.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/c94c4a6a-f24b-11e6-83f9-d81dc988b9da.jpg&#39; alt=&#39;Impostor&#39; class=&#39;align-right&#39; height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Hay momentos en los que pienso que soy un impostor y que solamente es cuestión de tiempo el que me descubran.
-&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Hay momentos en los que pienso que soy un impostor y que solamente es cuestión de tiempo el que me descubran.&lt;/p&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>¿Eres lo suficientemente bueno?</title>
+        <link>https://www.entredevyops.es/posts/eres-suficientemente-bueno.html</link>
+      </image>
     </item>
     
     <item>
@@ -29,15 +28,16 @@
       <pubDate>Fri, 17 Feb 2017 10:35:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/true-stories.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/669fab80-f108-11e6-8519-f9af43643c67.jpg&#39; alt=&#39;Mitsakes&#39; class=&#39;align-left height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&amp;lt;img src=&#39;https://www.entredevyops.es/images/669fab80-f108-11e6-8519-f9af43643c67.jpg&#39; alt=&amp;lsquo;Mitsakes&amp;rsquo; class=&amp;lsquo;align-left height=&amp;lsquo;200&amp;rsquo; width=&amp;lsquo;200&amp;rsquo;/&amp;gt;&lt;/p&gt;
 &lt;p&gt;Son muchas las citas y reflexiones que se han dicho y escrito sobre los errores y sus consecuencias.
 Nadie está exento de equivocarse, pero aprender de esos mismos errores es aquello que permite mejorar y avanzar.&lt;/p&gt;
-
 &lt;p&gt;Reflexionar partiendo de errores que se han cometido, por nosotros mismos o otros; Identificar causas, medidas, incluso otros errores cometidos en su resolución, es una tarea difícil y, a veces, dura.
-Pero resistirse a hacerlo por &lt;s&gt;el orgullo de algunos&lt;/s&gt; cualquier motivo, es un error mucho mayor que cualquier otro.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+Pero resistirse a hacerlo por &lt;!-- raw HTML omitted --&gt;el orgullo de algunos&lt;!-- raw HTML omitted --&gt; cualquier motivo, es un error mucho mayor que cualquier otro.&lt;/p&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>#TrueStories que no me contó ningún amigo</title>
+        <link>https://www.entredevyops.es/posts/true-stories.html</link>
+      </image>
     </item>
     
     <item>
@@ -52,8 +52,12 @@ Pero resistirse a hacerlo por &lt;s&gt;el orgullo de algunos&lt;/s&gt; cualquier
 &lt;img alt=&#34;AWS&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/AmazonWebservices.png&#34; style=&#34;width: 200px; height: 80px;&#34; /&gt;
 &lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.hp.com/es/es&#34;&gt;AWS&lt;/a&gt; está poniéndose las pilas en cuanto a formación se refiere.
 Este mes de septiembre propone una serie de webinarios sobre diferentes servicios, entre ellos, algunos de los más nuevos.
-Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34;reference external&#34; href=&#34;http://www.hp.com/es/es&#34;&gt;AWS&lt;/a&gt; ofrece como &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/redshift/&#34;&gt;Redshift&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/lambda/&#34;&gt;Lambda&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/dynamodb/&#34;&gt;DynamoDB&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/glacier/&#34;&gt;Glacier&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/ecs/details/&#34;&gt;EC2 Container Service&lt;/a&gt; y otros.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34;reference external&#34; href=&#34;http://www.hp.com/es/es&#34;&gt;AWS&lt;/a&gt; ofrece como &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/redshift/&#34;&gt;Redshift&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/lambda/&#34;&gt;Lambda&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/dynamodb/&#34;&gt;DynamoDB&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/glacier/&#34;&gt;Glacier&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;https://aws.amazon.com/es/ecs/details/&#34;&gt;EC2 Container Service&lt;/a&gt; y otros.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Webinarios de AWS para septiembre</title>
+        <link>https://www.entredevyops.es/posts/webinarios-aws-septiembre.html</link>
+      </image>
     </item>
     
     <item>
@@ -68,8 +72,12 @@ Muy recomendables si os interesa trabajar con los servicios que &lt;a class=&#34
 &lt;img alt=&#34;HP&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/81814a0c-5a6f-11e5-928d-8f899736a0cb.jpg&#34; style=&#34;width: 120px;&#34; /&gt;
 &lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.hp.com/es/es&#34;&gt;HP&lt;/a&gt; ha estado presentando su plataforma &lt;a class=&#34;reference external&#34; href=&#34;http://www8.hp.com/es/es/cloud/helion-overview.html&#34;&gt;Helion&lt;/a&gt;, basada en &lt;a class=&#34;reference external&#34; href=&#34;http://www.openstack.org&#34;&gt;OpenStack&lt;/a&gt;, para permanecer en el mercado de la computación en la nube.
 Por ello están llevando a cabo una campaña de divulgación de la plataforma, de la que forman parte &lt;a class=&#34;reference external&#34; href=&#34;http://hphelion.bemyapp.com/meetup/&#34;&gt;estos cinco webinarios&lt;/a&gt; que presentan.
-Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis a punto para inscribiros en el resto.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis a punto para inscribiros en el resto.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Webinarios sobre la plataforma HP Helion</title>
+        <link>https://www.entredevyops.es/posts/webinarios-hp-helion.html</link>
+      </image>
     </item>
     
     <item>
@@ -80,6 +88,11 @@ Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis
       <guid>https://www.entredevyops.es/posts/cursos-scrum-devops-lean-it.html</guid>
       <description>¿Qué puede haber mejor para empezar el año nuevo que apuntarse a un curso? Bueno, posiblemente, bastantes otras cosas, pero por si estáis planteándoos un cambio o sentís la necesidad de aprender, en este post os damos la referencia de dos cursos.
 Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Management, Scrum, DevOps y Lean IT, como el impartido el curso pasado, y que comenzará el próximo 17 de Marzo.</description>
+      <image>
+        <url>/images/</url>
+        <title>Cursos sobre Scrum, DevOps y Lean IT</title>
+        <link>https://www.entredevyops.es/posts/cursos-scrum-devops-lean-it.html</link>
+      </image>
     </item>
     
     <item>
@@ -93,8 +106,12 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Man
 
 &lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
 &lt;p&gt;Aunque hace unos días que pasó la &lt;a class=&#34;reference external&#34; href=&#34;http://velocityconf.com/velocityeu2014&#34;&gt;VelocityConf Europe 2014&lt;/a&gt;, publicamos este artículo para destacar algunas de las charlas que se dieron en el evento.
-En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que resultaban muy accesibles, eran también autores de libros de &lt;a class=&#34;reference external&#34; href=&#34;http://www.oreilly.com&#34;&gt;O&#39;Reilly&lt;/a&gt;, tanto de la talla de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/Souders&#34;&gt;Steve Souders&lt;/a&gt; o &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/allspaw&#34;&gt;John Allspaw&lt;/a&gt; como de la relevancia de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/igrigorik&#34;&gt;Ilya Grigorik&lt;/a&gt;. Durante los dos primeros días, hubo algunas firmas de libros, que regalaban a los veinte primeros.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que resultaban muy accesibles, eran también autores de libros de &lt;a class=&#34;reference external&#34; href=&#34;http://www.oreilly.com&#34;&gt;O&#39;Reilly&lt;/a&gt;, tanto de la talla de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/Souders&#34;&gt;Steve Souders&lt;/a&gt; o &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/allspaw&#34;&gt;John Allspaw&lt;/a&gt; como de la relevancia de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/igrigorik&#34;&gt;Ilya Grigorik&lt;/a&gt;. Durante los dos primeros días, hubo algunas firmas de libros, que regalaban a los veinte primeros.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Dos días en la VelocityConf</title>
+        <link>https://www.entredevyops.es/posts/dos-dias-velocity-conf.html</link>
+      </image>
     </item>
     
     <item>
@@ -107,8 +124,12 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
 
 
 &lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
-&lt;p&gt;En este artículo continuamos con el detalle de lo que depara la &lt;a class=&#34;reference external&#34; href=&#34;http://velocityconf.com/velocityeu2014&#34;&gt;VelocityConf Europe 2014&lt;/a&gt;, que empieza mañana. Os recordamos que podéis acceder a los &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/posts/concurso-velocity.html&#34;&gt;descuentos&lt;/a&gt; que publicamos para las entradas.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;En este artículo continuamos con el detalle de lo que depara la &lt;a class=&#34;reference external&#34; href=&#34;http://velocityconf.com/velocityeu2014&#34;&gt;VelocityConf Europe 2014&lt;/a&gt;, que empieza mañana. Os recordamos que podéis acceder a los &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/posts/concurso-velocity.html&#34;&gt;descuentos&lt;/a&gt; que publicamos para las entradas.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Sobre la VelocityConf (II)</title>
+        <link>https://www.entredevyops.es/posts/sobre-la-velocity-conf-2.html</link>
+      </image>
     </item>
     
     <item>
@@ -121,8 +142,12 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
 
 
 &lt;img alt=&#34;VelocityConf 2014&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/velocity14_logo.png&#34; style=&#34;width: 363px; height: 99px;&#34; /&gt;
-&lt;p&gt;Con el &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/posts/concurso-velocity.html&#34;&gt;sorteo de una entrada&lt;/a&gt; para los dos primeros días de la &lt;a class=&#34;reference external&#34; href=&#34;http://velocityconf.com/velocityeu2014&#34;&gt;VelocityConf Europe 2014&lt;/a&gt; en marcha, hemos pensado que sería una buena idea dar una idea de lo que se avecina, a ver si os animáis a participar un poco más. Os recordamos que además del sorteo, también podéis acceder a un descuento de 250 euros para las entradas de 2 y 3 días, y otro del 20%, útil para la de un día.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;Con el &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/posts/concurso-velocity.html&#34;&gt;sorteo de una entrada&lt;/a&gt; para los dos primeros días de la &lt;a class=&#34;reference external&#34; href=&#34;http://velocityconf.com/velocityeu2014&#34;&gt;VelocityConf Europe 2014&lt;/a&gt; en marcha, hemos pensado que sería una buena idea dar una idea de lo que se avecina, a ver si os animáis a participar un poco más. Os recordamos que además del sorteo, también podéis acceder a un descuento de 250 euros para las entradas de 2 y 3 días, y otro del 20%, útil para la de un día.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Sobre la VelocityConf (I)</title>
+        <link>https://www.entredevyops.es/posts/sobre-la-velocity-conf-1.html</link>
+      </image>
     </item>
     
     <item>
@@ -134,8 +159,12 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;p&gt;Vía &lt;a class=&#34;reference external&#34; href=&#34;http://barrapunto.com/articles/14/03/09/1255225.shtml&#34;&gt;Barrapunto&lt;/a&gt; me entero que la &lt;a class=&#34;reference external&#34; href=&#34;http://www.linuxfoundation.org/&#34;&gt;Linux Foundation&lt;/a&gt; ofrecerá su &lt;a class=&#34;reference external&#34; href=&#34;http://training.linuxfoundation.org/linux-courses/introduction-to-linux/outline&#34;&gt;curso de Introducción a Linux&lt;/a&gt; de forma gratuita en la plataforma &lt;a class=&#34;reference external&#34; href=&#34;https://www.edx.org/&#34;&gt;edX&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;Vía &lt;a class=&#34;reference external&#34; href=&#34;http://barrapunto.com/articles/14/03/09/1255225.shtml&#34;&gt;Barrapunto&lt;/a&gt; me entero que la &lt;a class=&#34;reference external&#34; href=&#34;http://www.linuxfoundation.org/&#34;&gt;Linux Foundation&lt;/a&gt; ofrecerá su &lt;a class=&#34;reference external&#34; href=&#34;http://training.linuxfoundation.org/linux-courses/introduction-to-linux/outline&#34;&gt;curso de Introducción a Linux&lt;/a&gt; de forma gratuita en la plataforma &lt;a class=&#34;reference external&#34; href=&#34;https://www.edx.org/&#34;&gt;edX&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Curso de Introducción a Linux gratuito en edX</title>
+        <link>https://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</link>
+      </image>
     </item>
     
   </channel>

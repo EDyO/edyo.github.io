@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Automatización on Entre Dev y Ops</title>
@@ -6,26 +6,23 @@
     <description>Recent content in Automatización on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 17 Feb 2017 10:35:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/automatizaci%C3%B3n/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 17 Feb 2017 10:35:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/automatizaci%C3%B3n/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>#TrueStories que no me contó ningún amigo</title>
       <link>https://www.entredevyops.es/posts/true-stories.html</link>
       <pubDate>Fri, 17 Feb 2017 10:35:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/true-stories.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/669fab80-f108-11e6-8519-f9af43643c67.jpg&#39; alt=&#39;Mitsakes&#39; class=&#39;align-left height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&amp;lt;img src=&#39;https://www.entredevyops.es/images/669fab80-f108-11e6-8519-f9af43643c67.jpg&#39; alt=&amp;lsquo;Mitsakes&amp;rsquo; class=&amp;lsquo;align-left height=&amp;lsquo;200&amp;rsquo; width=&amp;lsquo;200&amp;rsquo;/&amp;gt;&lt;/p&gt;
 &lt;p&gt;Son muchas las citas y reflexiones que se han dicho y escrito sobre los errores y sus consecuencias.
 Nadie está exento de equivocarse, pero aprender de esos mismos errores es aquello que permite mejorar y avanzar.&lt;/p&gt;
-
 &lt;p&gt;Reflexionar partiendo de errores que se han cometido, por nosotros mismos o otros; Identificar causas, medidas, incluso otros errores cometidos en su resolución, es una tarea difícil y, a veces, dura.
-Pero resistirse a hacerlo por &lt;s&gt;el orgullo de algunos&lt;/s&gt; cualquier motivo, es un error mucho mayor que cualquier otro.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+Pero resistirse a hacerlo por &lt;!-- raw HTML omitted --&gt;el orgullo de algunos&lt;!-- raw HTML omitted --&gt; cualquier motivo, es un error mucho mayor que cualquier otro.&lt;/p&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>#TrueStories que no me contó ningún amigo</title>
+        <link>https://www.entredevyops.es/posts/true-stories.html</link>
+      </image>
     </item>
     
     <item>
@@ -34,15 +31,16 @@ Pero resistirse a hacerlo por &lt;s&gt;el orgullo de algunos&lt;/s&gt; cualquier
       <pubDate>Sun, 02 Oct 2016 23:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/publicacion-estatica-ii.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.entredevyops.es/images/publicacion-estatica-header.png&#34; class=&#34;align-left&#34; alt=&#34;Publicación estática&#34; height=&#34;180&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Han pasado casi tres meses desde que se publicó el &lt;a href=&#34;http://www.entredevyops.es/posts/publicacion-estatica.html&#34; target=&#34;_blank&#34;&gt;primer artículo sobre publicación estática&lt;/a&gt; en &lt;a href=&#34;http://www.entredevyops.es&#34; target=&#34;_blank&#34;&gt;EntreDevYOps&lt;/a&gt;, en el que se prometía un ejemplo&amp;hellip;
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Han pasado casi tres meses desde que se publicó el &lt;a href=&#34;http://www.entredevyops.es/posts/publicacion-estatica.html&#34;&gt;primer artículo sobre publicación estática&lt;/a&gt; en &lt;a href=&#34;http://www.entredevyops.es&#34;&gt;EntreDevYOps&lt;/a&gt;, en el que se prometía un ejemplo&amp;hellip;
 Lo prometido es deuda.
 Espero que el interés sobre el tema aún siga vigente&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;En este artículo, se muestra, paso a paso, y con un ejemplo real, cómo realizar una publicación estática, con &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;, usando &lt;a href=&#34;http://travis-ci.org&#34; target=&#34;_blank&#34;&gt;Travis&lt;/a&gt;, en &lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;En este artículo, se muestra, paso a paso, y con un ejemplo real, cómo realizar una publicación estática, con &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, usando &lt;a href=&#34;http://travis-ci.org&#34;&gt;Travis&lt;/a&gt;, en &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Publicación estática (II)</title>
+        <link>https://www.entredevyops.es/posts/publicacion-estatica-ii.html</link>
+      </image>
     </item>
     
     <item>
@@ -53,10 +51,13 @@ Espero que el interés sobre el tema aún siga vigente&amp;hellip;&lt;/p&gt;
       <guid>https://www.entredevyops.es/posts/paginas-estaticas-amazon-2.html</guid>
       <description>&lt;p&gt;Continuamos con el curso de páginas estáticas de Amazon, pero esta vez vamos a
 subir las páginas a Amazon. Elegimos un sistema de generación de contenido
-estático. En la siguiente &lt;a href=&#34;https://staticsitegenerators.net&#34; target=&#34;_blank&#34;&gt;página&lt;/a&gt; hay un
-listado muy extenso de este tipo de software.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+estático. En la siguiente &lt;a href=&#34;https://staticsitegenerators.net&#34;&gt;página&lt;/a&gt; hay un
+listado muy extenso de este tipo de software.&lt;/p&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Páginas estáticas en Amazon - 2</title>
+        <link>https://www.entredevyops.es/posts/paginas-estaticas-amazon-2.html</link>
+      </image>
     </item>
     
     <item>
@@ -65,9 +66,12 @@ listado muy extenso de este tipo de software.&lt;/p&gt;
       <pubDate>Tue, 26 Jul 2016 12:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/paginas-estaticas-amazon-1.html</guid>
-      <description>&lt;p&gt;Tal como comentamos el pasado artículo &lt;a href=&#34;http://www.entredevyops.es/posts/publicacion-estatica.html&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Publicación estática&lt;/em&gt;&lt;/a&gt; el uso de sitios estáticos es cada vez más habitual por seguridad o por su eficiencia tal como comentaba &lt;em&gt;Ersiko&lt;/em&gt; en ese mismo artículo, por otro lado tenemos a Amazon como proveedor y líder indiscutible en servicios de computación y en este artículo los vamos a unir.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Tal como comentamos el pasado artículo &lt;a href=&#34;http://www.entredevyops.es/posts/publicacion-estatica.html&#34;&gt;&lt;em&gt;Publicación estática&lt;/em&gt;&lt;/a&gt; el uso de sitios estáticos es cada vez más habitual por seguridad o por su eficiencia tal como comentaba &lt;em&gt;Ersiko&lt;/em&gt; en ese mismo artículo, por otro lado tenemos a Amazon como proveedor y líder indiscutible en servicios de computación y en este artículo los vamos a unir.&lt;/p&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Páginas estáticas en Amazon - 1</title>
+        <link>https://www.entredevyops.es/posts/paginas-estaticas-amazon-1.html</link>
+      </image>
     </item>
     
     <item>
@@ -81,8 +85,12 @@ listado muy extenso de este tipo de software.&lt;/p&gt;
 
 &lt;p&gt;Muy probablemente, muchos de vosotros ya sabréis lo que es un sitio estático.
 Seguramente, también tendréis o trabajaréis con alguno.
-Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticamente.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticamente.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Publicación estática</title>
+        <link>https://www.entredevyops.es/posts/publicacion-estatica.html</link>
+      </image>
     </item>
     
     <item>
@@ -95,8 +103,12 @@ Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticament
 
 
 &lt;img alt=&#34;Visible Ops Handbook&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/visible-ops.jpg&#34; /&gt;
-&lt;p&gt;Aunque con retraso, aquí está el cuarto punto que es necesario conocer, según &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt;, sobre DevOps. En esta ocasión, compara DevOps con lo que describió en el libro que coescribió, titulado &lt;a class=&#34;reference external&#34; href=&#34;http://www.amazon.com/The-Visible-Ops-Handbook-Implementing/dp/0975568612&#34;&gt;Visible Ops Handbook&lt;/a&gt;. Como en las anteriores ocasiones, para comentar podéis utilizar el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;Aunque con retraso, aquí está el cuarto punto que es necesario conocer, según &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt;, sobre DevOps. En esta ocasión, compara DevOps con lo que describió en el libro que coescribió, titulado &lt;a class=&#34;reference external&#34; href=&#34;http://www.amazon.com/The-Visible-Ops-Handbook-Implementing/dp/0975568612&#34;&gt;Visible Ops Handbook&lt;/a&gt;. Como en las anteriores ocasiones, para comentar podéis utilizar el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>11 cosas sobre DevOps (4): Cómo encaja con Visible Ops</title>
+        <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-4.html</link>
+      </image>
     </item>
     
     <item>
@@ -110,8 +122,12 @@ Hay muchas suites para hacerlos, y muchas formas de desplegarlos automáticament
 
 &lt;img alt=&#34;Change vs Trouble&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/bridge-building.png&#34; /&gt;
 &lt;p&gt;El tercer punto sobre DevOps que propone &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt; es la relación con &lt;a class=&#34;reference external&#34; href=&#34;http://es.wikipedia.org/wiki/Information_Technology_Infrastructure_Library&#34;&gt;ITIL&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://es.wikipedia.org/wiki/Gesti%C3%B3n_de_servicios_de_tecnolog%C3%ADas_de_la_informaci%C3%B3n&#34;&gt;ITSM&lt;/a&gt;, dos conjuntos de prácticas y disciplinas para la gestión de operaciones IT, muy extendidas, especialmente en las grandes empresas.
-Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitter, con el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitter, con el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>11 cosas sobre DevOps (3): En qué difiere de ITIL o de ITSM</title>
+        <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-3.html</link>
+      </image>
     </item>
     
     <item>
@@ -125,8 +141,12 @@ Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitte
 
 &lt;img alt=&#34;Change vs Trouble&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/change-trouble.jpg&#34; /&gt;
 &lt;p&gt;Ya está aquí la segunda entrega de las 11 cosas que necesitas saber sobre DevOps, por &lt;a class=&#34;reference external&#34; href=&#34;http://itrevolution.com/authors/gene-kim/&#34;&gt;Gene Kim&lt;/a&gt;. En esta ocasión, se comenta sobre la relación con las metodologías ágiles, y sus efectos en los ciclos de desarrollo de aplicaciones. En este apartado, explica cómo la aplicación de las metodologías ágiles ayudan a la aparición de gran parte del movimiento DevOps, explicando cómo se relacionan y qué aportan al negocio.
-Como ya se indicó la semana pasada, creemos que es una buena excusa para iniciar un debate en Twitter con el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+Como ya se indicó la semana pasada, creemos que es una buena excusa para iniciar un debate en Twitter con el &lt;em&gt;hashtag&lt;/em&gt; &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/search?q=%2311cosasdevops&#34;&gt;#11cosasdevops&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>11 cosas sobre DevOps (2): En qué difiere de Agile</title>
+        <link>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-2.html</link>
+      </image>
     </item>
     
     <item>
@@ -139,8 +159,12 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
 
 
 &lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
-&lt;p&gt;En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, los encuentros familiares y los regalos, aquí están las primeras noticias de 2014. Podréis encontrar herramientas, como una especie de &lt;a class=&#34;reference external&#34; href=&#34;http://vagrantup.com&#34;&gt;Vagrant&lt;/a&gt; para &lt;a class=&#34;reference external&#34; href=&#34;https://docker.io&#34;&gt;Docker&lt;/a&gt;, un servicio complementario para vuestro &lt;a class=&#34;reference external&#34; href=&#34;http://www.nagios.org/&#34;&gt;Nagios&lt;/a&gt; y vuestra cuenta de &lt;a class=&#34;reference external&#34; href=&#34;http://www.pagerduty.com/&#34;&gt;Pagerduty&lt;/a&gt;, o un nuevo panel para &lt;a class=&#34;reference external&#34; href=&#34;http://graphite.wikidot.com/&#34;&gt;Graphite&lt;/a&gt;, así como explicaciones sobre cobertura de testeo de código para &lt;a class=&#34;reference external&#34; href=&#34;http://www.getchef.com/chef/&#34;&gt;Chef&lt;/a&gt; o un interesante blog sobre lo último de &lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com/&#34;&gt;Puppet&lt;/a&gt;, junto con artículos sobre &lt;a class=&#34;reference external&#34; href=&#34;http://en.wikipedia.org/wiki/Software-defined_networking&#34;&gt;SDN&lt;/a&gt;, el despliegue contínuo agresivo o la importancia de la infraestructura como código para la automatización. Disfrutad del commienzo de año.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, los encuentros familiares y los regalos, aquí están las primeras noticias de 2014. Podréis encontrar herramientas, como una especie de &lt;a class=&#34;reference external&#34; href=&#34;http://vagrantup.com&#34;&gt;Vagrant&lt;/a&gt; para &lt;a class=&#34;reference external&#34; href=&#34;https://docker.io&#34;&gt;Docker&lt;/a&gt;, un servicio complementario para vuestro &lt;a class=&#34;reference external&#34; href=&#34;http://www.nagios.org/&#34;&gt;Nagios&lt;/a&gt; y vuestra cuenta de &lt;a class=&#34;reference external&#34; href=&#34;http://www.pagerduty.com/&#34;&gt;Pagerduty&lt;/a&gt;, o un nuevo panel para &lt;a class=&#34;reference external&#34; href=&#34;http://graphite.wikidot.com/&#34;&gt;Graphite&lt;/a&gt;, así como explicaciones sobre cobertura de testeo de código para &lt;a class=&#34;reference external&#34; href=&#34;http://www.getchef.com/chef/&#34;&gt;Chef&lt;/a&gt; o un interesante blog sobre lo último de &lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com/&#34;&gt;Puppet&lt;/a&gt;, junto con artículos sobre &lt;a class=&#34;reference external&#34; href=&#34;http://en.wikipedia.org/wiki/Software-defined_networking&#34;&gt;SDN&lt;/a&gt;, el despliegue contínuo agresivo o la importancia de la infraestructura como código para la automatización. Disfrutad del commienzo de año.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Noticias semanales (Ene I)</title>
+        <link>https://www.entredevyops.es/posts/noticias-semanales-enero-2014-1.html</link>
+      </image>
     </item>
     
     <item>
@@ -153,8 +177,12 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
 
 
 &lt;img alt=&#34;¿DevOps? ¿Y eso qué es?&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/show-me-the-devops.png&#34; style=&#34;width: 250px; height: 135px;&#34; /&gt;
-&lt;p&gt;Desde la primera vez que oí hablar de DevOps, hace casi 3 años, pasó cierto tiempo en el que, en mi mente, se formaban ideas equivocadas sobre a lo que se refería. Con el tiempo, he ido comprendiendo el concepto pero, al mismo tiempo, cada vez he ido conociendo a más gente con el mismo problema. Este artículo intenta aclarar el concepto para que nadie más se pregunte &lt;em&gt;¿Qué es esto del DevOps?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;Desde la primera vez que oí hablar de DevOps, hace casi 3 años, pasó cierto tiempo en el que, en mi mente, se formaban ideas equivocadas sobre a lo que se refería. Con el tiempo, he ido comprendiendo el concepto pero, al mismo tiempo, cada vez he ido conociendo a más gente con el mismo problema. Este artículo intenta aclarar el concepto para que nadie más se pregunte &lt;em&gt;¿Qué es esto del DevOps?&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>¿Qué es DevOps?</title>
+        <link>https://www.entredevyops.es/posts/que-es-devops.html</link>
+      </image>
     </item>
     
   </channel>

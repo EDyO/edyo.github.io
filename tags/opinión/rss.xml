@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Opinión on Entre Dev y Ops</title>
@@ -6,21 +6,20 @@
     <description>Recent content in Opinión on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 01 Mar 2017 12:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/opini%C3%B3n/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 01 Mar 2017 12:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/opini%C3%B3n/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>¿Eres lo suficientemente bueno?</title>
       <link>https://www.entredevyops.es/posts/eres-suficientemente-bueno.html</link>
       <pubDate>Wed, 01 Mar 2017 12:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/eres-suficientemente-bueno.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/c94c4a6a-f24b-11e6-83f9-d81dc988b9da.jpg&#39; alt=&#39;Impostor&#39; class=&#39;align-right&#39; height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Hay momentos en los que pienso que soy un impostor y que solamente es cuestión de tiempo el que me descubran.
-&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Hay momentos en los que pienso que soy un impostor y que solamente es cuestión de tiempo el que me descubran.&lt;/p&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>¿Eres lo suficientemente bueno?</title>
+        <link>https://www.entredevyops.es/posts/eres-suficientemente-bueno.html</link>
+      </image>
     </item>
     
     <item>
@@ -29,13 +28,14 @@
       <pubDate>Tue, 23 Aug 2016 19:55:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/amazon-linux-si-o-no.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/AmazonWebservices.png&#39; alt=&#39;Amazon Web Services&#39; class=&#39;align-left&#39; height=&#39;80&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Seguro que todos los que usáis o habéis usado Amazon Web Services (AWS para abreviar) alguna vez habréis probado, o usado de forma productiva &lt;a href=&#34;https://aws.amazon.com/es/amazon-linux-ami/&#34; target=&#34;_blank&#34;&gt;Amazon Linux&lt;/a&gt;, la versión de Linux basada en RedHat/CentOS preparada por ellos y &amp;ldquo;equipada&amp;rdquo; para funcionar perfectamente en su servicio EC2.&lt;/p&gt;
-
-&lt;p&gt;Personalmente, mi predilección en cuanto a distribuciones tiende a las de la familia Debian, como la propia Debian o Ubuntu; es algo personal, quizás romántico, llevo muchos años con ellas y me siento más cómodo, no hay motivos técnicos que me liguen a ellas especialmente. A lo largo de mi carrera he trabajado con muchas distribuciones, y todas tienen cosas buenas y malas, no creo que exista la &lt;em&gt;silver bullet&lt;/em&gt; de las distribucciones de Linux, nada más lejos de la realidad. Quede claro que el objetivo de este artículo no es entrar en guerras o discusiones en si es mejor usar Debian, Ubuntu, RedHat o CentOS, el quid de la cuestión aquí es la existencia de Amazon Linux, con sus ventajes e inconvenientes. Así que vamos al lío.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Seguro que todos los que usáis o habéis usado Amazon Web Services (AWS para abreviar) alguna vez habréis probado, o usado de forma productiva &lt;a href=&#34;https://aws.amazon.com/es/amazon-linux-ami/&#34;&gt;Amazon Linux&lt;/a&gt;, la versión de Linux basada en RedHat/CentOS preparada por ellos y &amp;ldquo;equipada&amp;rdquo; para funcionar perfectamente en su servicio EC2.&lt;/p&gt;
+&lt;p&gt;Personalmente, mi predilección en cuanto a distribuciones tiende a las de la familia Debian, como la propia Debian o Ubuntu; es algo personal, quizás romántico, llevo muchos años con ellas y me siento más cómodo, no hay motivos técnicos que me liguen a ellas especialmente. A lo largo de mi carrera he trabajado con muchas distribuciones, y todas tienen cosas buenas y malas, no creo que exista la &lt;em&gt;silver bullet&lt;/em&gt; de las distribucciones de Linux, nada más lejos de la realidad. Quede claro que el objetivo de este artículo no es entrar en guerras o discusiones en si es mejor usar Debian, Ubuntu, RedHat o CentOS, el quid de la cuestión aquí es la existencia de Amazon Linux, con sus ventajes e inconvenientes. Así que vamos al lío.&lt;/p&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Amazon Linux, ¿sí o no?</title>
+        <link>https://www.entredevyops.es/posts/amazon-linux-si-o-no.html</link>
+      </image>
     </item>
     
     <item>
@@ -48,8 +48,12 @@
 
 
 &lt;img alt=&#34;Money&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/cc4fbf3a-5912-11e6-87b6-e220d5f81ecb.jpg&#34; style=&#34;width: 120px; height: 80px;&#34; /&gt;
-&lt;p&gt;No os engañéis, todos, del primero al último, estamos aquí por el dinero, y el que diga lo contrario está muy equivocado.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;No os engañéis, todos, del primero al último, estamos aquí por el dinero, y el que diga lo contrario está muy equivocado.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Todos estamos aquí por el dinero</title>
+        <link>https://www.entredevyops.es/posts/estamos-aqui-por-dinero.html</link>
+      </image>
     </item>
     
     <item>
@@ -63,8 +67,12 @@
 
 &lt;img alt=&#34;Logo del FOSDEM&#34; class=&#34;align-right&#34; src=&#34;https://www.entredevyops.es/images/fosdem.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;
 &lt;p&gt;Como muchos ya sabréis, solemos ir cada año a la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt;, que tiene lugar el primer fin de semana de Febrero en Bruselas. No vamos a ponernos a explicar qué es la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt;, hemos hablado mucho describiéndola, tanto en nuestros podcasts, como en nuestros posts, como en muchos otros lugares... Tampoco vamos a explicaros que hizo mucho frío, que hubo mucha gente, o que bebimos mucha cerv..., digooooo, que hizo mucho frío, que hubo mucha gente, ...&lt;/p&gt;
-&lt;p&gt;Podríamos contaros que apareció por ahí &lt;a class=&#34;reference external&#34; href=&#34;https://stallman.org/&#34;&gt;Richard Stallman&lt;/a&gt; repartiendo &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/images/octavilla_Stallman_FOSDEM_2015.jpg&#34;&gt;octavillas&lt;/a&gt; destacando que la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; había dejado de definirse como un evento de software libre, o que hubo bastante barullo sobre el establecimiento de un &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/fosdem/status/561885201383821312&#34;&gt;código de conducta&lt;/a&gt; para la siguiente edición... No obstante, como sabemos lo que os importa, os detallamos, en este artículo, algunas de las charlas que más nos gustaron.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;Podríamos contaros que apareció por ahí &lt;a class=&#34;reference external&#34; href=&#34;https://stallman.org/&#34;&gt;Richard Stallman&lt;/a&gt; repartiendo &lt;a class=&#34;reference external&#34; href=&#34;http://entredevyops.es/images/octavilla_Stallman_FOSDEM_2015.jpg&#34;&gt;octavillas&lt;/a&gt; destacando que la &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; había dejado de definirse como un evento de software libre, o que hubo bastante barullo sobre el establecimiento de un &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/fosdem/status/561885201383821312&#34;&gt;código de conducta&lt;/a&gt; para la siguiente edición... No obstante, como sabemos lo que os importa, os detallamos, en este artículo, algunas de las charlas que más nos gustaron.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Viaje a la FOSDEM 2015</title>
+        <link>https://www.entredevyops.es/posts/fosdem-2015.html</link>
+      </image>
     </item>
     
     <item>
@@ -78,8 +86,12 @@
 
 &lt;img alt=&#34;Podcast&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/manager.jpg&#34; style=&#34;width: 230px; height: 150px;&#34; /&gt;
 &lt;p&gt;Muchas veces en mi trabajo oigo frases provenientes de los técnicos, hacia los gestores, del estilo “no sé qué trabajo hacéis los gestores” o “no hacen más que reunirse todo el día y hacer reenvíos de emails, no hacen nada”, y así puedo enumerar cientos de ellas.&lt;/p&gt;
-&lt;p&gt;¿Qué hay de cierto en estos comentarios? En este breve post intento plasmar mi visión de cual es el trabajo de un gestor, recogida desde mi corta experiencia,  de un técnico que ha pasado a gestor dentro del ámbito de una empresa tecnológica.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;¿Qué hay de cierto en estos comentarios? En este breve post intento plasmar mi visión de cual es el trabajo de un gestor, recogida desde mi corta experiencia,  de un técnico que ha pasado a gestor dentro del ámbito de una empresa tecnológica.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>¿Cuál es el trabajo de un gestor?</title>
+        <link>https://www.entredevyops.es/posts/cual-es-el-trabajo-de-un-gestor.html</link>
+      </image>
     </item>
     
     <item>
@@ -92,8 +104,12 @@
 
 
 &lt;img alt=&#34;El límite de los técnicos&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/stop.jpg&#34; style=&#34;width: 203px; height: 172px;&#34; /&gt;
-&lt;p&gt;En el pasado &lt;a class=&#34;reference external&#34; href=&#34;http://sudoers-barcelona.wikia.com/wiki/Sudoers_Barcelona_Wiki&#34;&gt;Sudoers BCN&lt;/a&gt;, más concretamente en las cervezas post sudoers, mantuve una interesante conversación con una persona que actualmente trabaja como administrador de sistemas freelance. Durante la conversación me contó que antiguamente trabajaba para una gran empresa como técnico, pero que llegado a cierto punto, para poder seguir evolucionando (tanto económicamente como profesionalmente) se le requería que cambiase su rol a un perfil de gestión. Este tipo de cambio no le gustó, y fue el detonante por el cual decidió hacerse administrador de sistemas freelance, y así dedicarse en su totalidad al mundo técnico sin tener ningún tipo de limitación impuesta por terceros.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;En el pasado &lt;a class=&#34;reference external&#34; href=&#34;http://sudoers-barcelona.wikia.com/wiki/Sudoers_Barcelona_Wiki&#34;&gt;Sudoers BCN&lt;/a&gt;, más concretamente en las cervezas post sudoers, mantuve una interesante conversación con una persona que actualmente trabaja como administrador de sistemas freelance. Durante la conversación me contó que antiguamente trabajaba para una gran empresa como técnico, pero que llegado a cierto punto, para poder seguir evolucionando (tanto económicamente como profesionalmente) se le requería que cambiase su rol a un perfil de gestión. Este tipo de cambio no le gustó, y fue el detonante por el cual decidió hacerse administrador de sistemas freelance, y así dedicarse en su totalidad al mundo técnico sin tener ningún tipo de limitación impuesta por terceros.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>El límite de los técnicos</title>
+        <link>https://www.entredevyops.es/posts/el-limite-de-los-tecnicos.html</link>
+      </image>
     </item>
     
     <item>
@@ -108,8 +124,12 @@
 &lt;img alt=&#34;The Dream Team Nightmare&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/dream_team.jpg&#34; /&gt;
 &lt;p&gt;En el viaje al &lt;a class=&#34;reference external&#34; href=&#34;http://fosdem.org&#34;&gt;FOSDEM&lt;/a&gt; que realizamos el pasado mes de Febrero (podéis encontrar la crónica del viaje &lt;a class=&#34;reference external&#34; href=&#34;http://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html&#34;&gt;aquí&lt;/a&gt;) siempre es visita obligatoria el stand de &lt;a class=&#34;reference external&#34; href=&#34;http://www.oreilly.com/&#34;&gt;O&#39;Reilly&lt;/a&gt; para aprovechar el descuento que se aplica por comprar en el Fosdem y hacerme con alguna pequeña joya.&lt;/p&gt;
 &lt;p&gt;La vista siempre se me va hacia libros de temática relacionada con mi bien amado Linux, pero últimamente también estoy cayendo en libros relacionados con  Agile, DevOps, Metodologías de gestión de proyectos y equipos, etc... De entre todos los libros que me llamaron la atención encontré uno que destacó, primero por su temática (Agile)  y luego por su formato.&lt;/p&gt;
-&lt;p&gt;El libro del que os estoy hablando es &lt;a class=&#34;reference external&#34; href=&#34;http://pragprog.com/book/ptdream/the-dream-team-nightmare&#34;&gt;The Dream Team Nightmare&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;El libro del que os estoy hablando es &lt;a class=&#34;reference external&#34; href=&#34;http://pragprog.com/book/ptdream/the-dream-team-nightmare&#34;&gt;The Dream Team Nightmare&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>The Dream Team Nightmare</title>
+        <link>https://www.entredevyops.es/posts/the-dream-team-nightmare.html</link>
+      </image>
     </item>
     
     <item>
@@ -122,8 +142,12 @@
 
 
 &lt;p&gt;Mañana empieza el &lt;a class=&#34;reference external&#34; href=&#34;http://www.mobileworldcongress.com&#34;&gt;Mobile World Congress&lt;/a&gt; y hasta el próximo día 27 abrirá sus puertas en Barcelona, esta tarde nos hemos dado una vuelta cerca de sus instalaciones y hemos visto multitud de gente que se aproximaba para realizar los registros y ultimar los preparativos de la inauguración de mañana.&lt;/p&gt;
-&lt;p&gt;Y estas son las fotografías que hemos tomado:&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;Y estas son las fotografías que hemos tomado:&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Mañana empieza el mobile world congress</title>
+        <link>https://www.entredevyops.es/posts/inicio-mobile-world-congress.html</link>
+      </image>
     </item>
     
     <item>
@@ -137,8 +161,12 @@
 
 &lt;img alt=&#34;Logo del FOSDEM&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/fosdem.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;
 &lt;p&gt;Como ya viene siendo tradición, el equipo completo de EDyO tiene una cita obligada con el más importante evento de Software Libre que se produce en Europa: el Free Open source Software Developers European Meeting (FOSDEM).&lt;/p&gt;
-&lt;p&gt;En este post no me voy a centrar en las conferencias en si (que seguro que mis compañeros de blog nos regalarán más de un articulo sobre las charlas más destacadas), sino sobre los pormenores del viaje y de lo que pasa más allá de dicho evento.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;En este post no me voy a centrar en las conferencias en si (que seguro que mis compañeros de blog nos regalarán más de un articulo sobre las charlas más destacadas), sino sobre los pormenores del viaje y de lo que pasa más allá de dicho evento.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>FOSDEM 2014 - Crónica de un viaje al Open Source</title>
+        <link>https://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html</link>
+      </image>
     </item>
     
     <item>
@@ -152,8 +180,12 @@
 
 &lt;img alt=&#34;Paper What Is DevOps?&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/what_is_devops_paper.jpg&#34; style=&#34;width: 93px; height: 125px;&#34; /&gt;
 &lt;p&gt;Buscando por Amazon libros sobre DevOps fui a dar un con un paper que tanto su título y precio enseguida llamaron mi atención. El paper en cuestión es &lt;a class=&#34;reference external&#34; href=&#34;http://www.amazon.com/What-DevOps-Mike-Loukides-ebook/dp/B0084HJB56/ref=sr_1_2?s=digital-text&amp;amp;ie=UTF8&amp;amp;qid=1386441697&amp;amp;sr=1-2&#34;&gt;What Is DevOps?&lt;/a&gt; de Mike Loukides y su precio es 0 €.&lt;/p&gt;
-&lt;p&gt;Es un paper ameno, haciendo referencia a diversas fuentes, que para los dominadores de la lengua de Shakespeare se lee de manera rápida en apenas 15 minutos.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;Es un paper ameno, haciendo referencia a diversas fuentes, que para los dominadores de la lengua de Shakespeare se lee de manera rápida en apenas 15 minutos.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Review del paper What Is DevOps?</title>
+        <link>https://www.entredevyops.es/posts/review-paper-what-is-devops.html</link>
+      </image>
     </item>
     
   </channel>

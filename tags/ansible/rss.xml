@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ansible on Entre Dev y Ops</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Ansible on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 06 Nov 2013 20:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/ansible/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 06 Nov 2013 20:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/ansible/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reunión de Sudoers BCN de Noviembre</title>
       <link>https://www.entredevyops.es/posts/reunion-sudoers-noviembre.html</link>
@@ -21,8 +17,12 @@
 
 
 &lt;img alt=&#34;sudo make me a sandwich&#34; class=&#34;align-left&#34; src=&#34;https://www.entredevyops.es/images/SudoersBCN.png&#34; style=&#34;width: 180px; height: 150px;&#34; /&gt;
-&lt;p&gt;En la charla de este mes, &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/codehead&#34;&gt;Javier Arturo Rodríguez&lt;/a&gt; habló sobre &lt;a class=&#34;reference external&#34; href=&#34;http://www.ansibleworks.com/&#34;&gt;Ansible&lt;/a&gt;, otra herramienta para la gestión de configuración. Aunque bien podría compararse en funcionalidad con &lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com/&#34;&gt;Puppet&lt;/a&gt; o &lt;a class=&#34;reference external&#34; href=&#34;http://www.opscode.com/chef/&#34;&gt;Chef&lt;/a&gt;, su diseño y las técnicas utilizadas la convierten en una herramienta muy sencilla, completa e interesante, incluso para sustituir a otras herramientas como &lt;a class=&#34;reference external&#34; href=&#34;http://docs.fabfile.org/en/1.8/&#34;&gt;Fabric&lt;/a&gt; o &lt;a class=&#34;reference external&#34; href=&#34;http://www.capistranorb.com/&#34;&gt;Capistrano&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;En la charla de este mes, &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/codehead&#34;&gt;Javier Arturo Rodríguez&lt;/a&gt; habló sobre &lt;a class=&#34;reference external&#34; href=&#34;http://www.ansibleworks.com/&#34;&gt;Ansible&lt;/a&gt;, otra herramienta para la gestión de configuración. Aunque bien podría compararse en funcionalidad con &lt;a class=&#34;reference external&#34; href=&#34;http://puppetlabs.com/&#34;&gt;Puppet&lt;/a&gt; o &lt;a class=&#34;reference external&#34; href=&#34;http://www.opscode.com/chef/&#34;&gt;Chef&lt;/a&gt;, su diseño y las técnicas utilizadas la convierten en una herramienta muy sencilla, completa e interesante, incluso para sustituir a otras herramientas como &lt;a class=&#34;reference external&#34; href=&#34;http://docs.fabfile.org/en/1.8/&#34;&gt;Fabric&lt;/a&gt; o &lt;a class=&#34;reference external&#34; href=&#34;http://www.capistranorb.com/&#34;&gt;Capistrano&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Reunión de Sudoers BCN de Noviembre</title>
+        <link>https://www.entredevyops.es/posts/reunion-sudoers-noviembre.html</link>
+      </image>
     </item>
     
   </channel>

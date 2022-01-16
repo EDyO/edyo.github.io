@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Opennebula on Entre Dev y Ops</title>
+    <title>OpenNebula on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/opennebula.html</link>
-    <description>Recent content in Opennebula on Entre Dev y Ops</description>
+    <description>Recent content in OpenNebula on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 10 Nov 2015 21:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/opennebula/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 10 Nov 2015 21:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/opennebula/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Las conferencias OpenNebulaConf 2015</title>
       <link>https://www.entredevyops.es/posts/opennebula_2015.html</link>
@@ -20,8 +16,12 @@
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;p&gt;Del 20 al 22 de octubre del 2015 tuvo lugar en Barcelona el &lt;a class=&#34;reference external&#34; href=&#34;http://2015.opennebulaconf.com&#34;&gt;OpenNebulaConf 2015&lt;/a&gt;. Antes de nada me gustaría aclarar que esta no es una simple noticia, sino que se trata de un artículo de opinión ya que pude assistir los tres días gracias a la invitación que nos ofreció la organización y por mucho que quisiera, no podría separar mis experiencias de lo que formalmente sería la noticia, una vez aclarado este tema, relataré sin hacer un resumen exhaustivo de las charlas, haciendo una separación entre el taller del primer día y los dos días siguientes que fueron las charlas en sí.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;Del 20 al 22 de octubre del 2015 tuvo lugar en Barcelona el &lt;a class=&#34;reference external&#34; href=&#34;http://2015.opennebulaconf.com&#34;&gt;OpenNebulaConf 2015&lt;/a&gt;. Antes de nada me gustaría aclarar que esta no es una simple noticia, sino que se trata de un artículo de opinión ya que pude assistir los tres días gracias a la invitación que nos ofreció la organización y por mucho que quisiera, no podría separar mis experiencias de lo que formalmente sería la noticia, una vez aclarado este tema, relataré sin hacer un resumen exhaustivo de las charlas, haciendo una separación entre el taller del primer día y los dos días siguientes que fueron las charlas en sí.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Las conferencias OpenNebulaConf 2015</title>
+        <link>https://www.entredevyops.es/posts/opennebula_2015.html</link>
+      </image>
     </item>
     
     <item>
@@ -33,8 +33,12 @@
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;p&gt;El próximo 20 de octubre se inicia en Barcelona la Conferencia de &lt;a class=&#34;reference external&#34; href=&#34;http://2015.opennebulaconf.com&#34;&gt;OpenNebulaConf 2015&lt;/a&gt; en el Hotel Barceló Sants en Barcelona. Se trata del evento anual que permite conocer las últimas novedades y el futuro de &lt;a class=&#34;reference external&#34; href=&#34;http://opennebula.org&#34;&gt;OpenNebula&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;El próximo 20 de octubre se inicia en Barcelona la Conferencia de &lt;a class=&#34;reference external&#34; href=&#34;http://2015.opennebulaconf.com&#34;&gt;OpenNebulaConf 2015&lt;/a&gt; en el Hotel Barceló Sants en Barcelona. Se trata del evento anual que permite conocer las últimas novedades y el futuro de &lt;a class=&#34;reference external&#34; href=&#34;http://opennebula.org&#34;&gt;OpenNebula&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>OpenNebulaConf 2015</title>
+        <link>https://www.entredevyops.es/posts/opennebulaconf_2015.html</link>
+      </image>
     </item>
     
   </channel>

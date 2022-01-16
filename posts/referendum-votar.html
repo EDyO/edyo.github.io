@@ -24,7 +24,8 @@
         <meta name="twitter:creator" content="@entredevyops" />
         <meta name="twitter:title" content="Referendum 1-O: ¿Dónde votar?" />
         
-        <meta name="twitter:description" content="" />
+        <meta name="twitter:description" content="&lt;img src=&#39;/images/30765928-56c56350-9ff2-11e7-85a8-cc8fad0d7947.jpg&#39; alt=&lsquo;yes-no&rsquo; class=&lsquo;align-left height=&lsquo;200&rsquo; width=&lsquo;200&rsquo;/&gt;
+No, no nos hemos vuelto locos, en Edyo seguimos hablando de tecnología. Sabemos también que últimamente no publicamos más que podcasts; a pesar de ello, mantenemos el blog para cosas que se cuentan mejor escritas que narradas. Hoy os traemos un análisis técnico que no puede ser más de actualidad: la web de consulta del censo para el referendum del 1-O. Os prometo que vale la pena." />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/referendum-votar.html" />
         <meta name="telegram:channel" content="@entredevyops" />
     
@@ -72,7 +73,7 @@
         "@type": "BlogPosting",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://www.entredevyops.es/posts/referendum-votar.html"
+          "@id": "https:\/\/www.entredevyops.es\/posts\/referendum-votar.html"
         },
         "headline": "Referendum 1-O: ¿Dónde votar?",
         "description": "",
@@ -89,9 +90,9 @@
         },
         "publisher": {
           "@type": "Organization",
-          "@id": "https://www.entredevyops.es/",
+          "@id": "https:\/\/www.entredevyops.es\/",
           "name": "Entre Dev y Ops",
-          "url": "https://www.entredevyops.es/",
+          "url": "https:\/\/www.entredevyops.es\/",
           "logo": {
             "@type": "ImageObject",
             "url": "https:",
@@ -108,8 +109,8 @@
         },
         "datePublished": "2017-09-22",
         "dateModified": "2017-09-22",
-        "wordCount": 1787,
-        "keywords": ["Seguridad","JavaScript"] 
+        "wordCount":  1793 ,
+        "keywords": "[\"Seguridad\",\"JavaScript\"]" 
     }
     </script>
 
@@ -213,7 +214,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">22 Sep 2017</span> <span class="reading-time">| <span class="estimated-reading-time">9 min.</span> (<span class="word-count">1787</span> palabras)</span></span>
+                        <span class="post-date">22 Sep 2017</span> <span class="reading-time">| <span class="estimated-reading-time">9 min.</span> (<span class="word-count">1793</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -222,54 +223,33 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <p><img src='/images/30765928-56c56350-9ff2-11e7-85a8-cc8fad0d7947.jpg' alt='yes-no' class='align-left height='200' width='200'/></p>
-
+                  <p>&lt;img src='/images/30765928-56c56350-9ff2-11e7-85a8-cc8fad0d7947.jpg' alt=&lsquo;yes-no&rsquo; class=&lsquo;align-left height=&lsquo;200&rsquo; width=&lsquo;200&rsquo;/&gt;</p>
 <p>No, no nos hemos vuelto locos, en Edyo seguimos hablando de tecnología. Sabemos también que últimamente no publicamos más que podcasts; a pesar de ello, mantenemos el blog para cosas que se cuentan mejor escritas que narradas. Hoy os traemos un análisis técnico que no puede ser más de actualidad: la web de consulta del censo para el referendum del 1-O. Os prometo que vale la pena.</p>
-
-<p></p>
-
 <p>Hace apenas un par de días que ha empezado a circular, sobre todo por redes sociales y de mensajería, la URL para que los ciudadanos consulten el colegio electoral que tienen asignado en el referendum del día 1 de Octubre:</p>
-
-<p><a href="https://onvotar.garantiespelreferendum.com/on-votar/index.html" target="_blank">https://onvotar.garantiespelreferendum.com/on-votar/index.html</a></p>
-
+<p><a href="https://onvotar.garantiespelreferendum.com/on-votar/index.html">https://onvotar.garantiespelreferendum.com/on-votar/index.html</a></p>
 <p>En la página encontraréis un formulario donde, introduciendo DNI, fecha de nacimiento y código postal, podemos consultar la mesa electoral que nos corresponde. Hay ciertas cosas que no puedo evitar en esta vida: pedir tiramisú de postre si lo veo en la carta, llevar la contraria, y esnifar tráfico de red cuando hago submit en un formulario.</p>
-
 <p>En este caso, un primer vistazo nos indica que las cosas parecen estar haciéndose bien: la web dispone de un certificado SSL emitido por Comodo, y SSLlabs le otorga la máxima nota (grado A) en todos sus tests:</p>
-
-<p><a href="https://www.ssllabs.com/ssltest/analyze.html?d=onvotar.garantiespelreferendum.com" target="_blank">https://www.ssllabs.com/ssltest/analyze.html?d=onvotar.garantiespelreferendum.com</a></p>
-
-<p>¡Bien por los admins! Podemos estar tranquilos, los datos personales que mandemos van a circular por un canal seguro. No obstante, sigo queriendo ver dónde y cómo se mandan mis datos al hacer click en el botón de buscar. Preparo el escenario: abro las <a href="https://developer.chrome.com/devtools" target="_blank">Chrome Developer Tools</a>, relleno mis datos, pulso el botón de buscar. Bien, la web me responde con los datos del colegio electoral donde siempre me toca ir. No obstante, al echarle un ojo al tráfico http capturado llegan las primeras sorpresas&hellip;</p>
-
+<p><a href="https://www.ssllabs.com/ssltest/analyze.html?d=onvotar.garantiespelreferendum.com">https://www.ssllabs.com/ssltest/analyze.html?d=onvotar.garantiespelreferendum.com</a></p>
+<p>¡Bien por los admins! Podemos estar tranquilos, los datos personales que mandemos van a circular por un canal seguro. No obstante, sigo queriendo ver dónde y cómo se mandan mis datos al hacer click en el botón de buscar. Preparo el escenario: abro las <a href="https://developer.chrome.com/devtools">Chrome Developer Tools</a>, relleno mis datos, pulso el botón de buscar. Bien, la web me responde con los datos del colegio electoral donde siempre me toca ir. No obstante, al echarle un ojo al tráfico http capturado llegan las primeras sorpresas&hellip;</p>
 <h2 id="dónde-están-mis-datos">¿Dónde están mis datos?</h2>
-
 <p>Estoy muy acostumbrado a ver un <code>POST</code> como forma estándar de subir datos hacia un servidor. En este caso, no obstante, no veo aparecer más que un solitario <code>GET</code> en mi pantalla al hacer submit del formulario&hellip; No es tan habitual, pero subir información a través de una petición <code>GET</code> incorporando los datos en variables en la propia URL, o quizás en cookies, también es una práctica común. Echémosle un ojo a esa petición:</p>
-
-<pre><code>Request URL:https://onvotar.garantiespelreferendum.com/db/c3/a1.db
+<pre tabindex="0"><code>Request URL:https://onvotar.garantiespelreferendum.com/db/c3/a1.db
 Request Method:GET
 Status Code:200
 Remote Address:104.18.36.145:443
 Referrer Policy:no-referrer-when-downgrade
 Origin:null
 User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-</code></pre>
-
-<p>Un momento. ¿Y mis datos? No están en la URL. No hay ninguna cookie en la petición. No hay ninguna cabecera http fuera de lo normal. Y además, esa URI tan extraña&hellip;. <code>/db/c3/a1.db</code>. Pruebo a cargarla y obtengo lo siguiente:</p>
-
-<pre><code>1febc7fc1f60ae314b424303ea516a290f305a36c0bab4f3dbc98d810f2ee162e59878057968a22bbaa69a9dc066414f1506a8d10dfa1d73130b3ee2f4bf9037c7ab8642528c9b0c5c157b4ea0dd9bbb1815c5b2bd4519852e59c4bac040599db36127f0f52530b7f45455f9d4fa55798a9918a65391c49a0181c677da360346da22e7b0c33b05bfcbb55a4ee75820fe1f9fbdd532b40ccac4c6ba85d610679b66bad2a43fbb2a418eec58c4772a42113b3fa25052c2435c5c4a5ffe8bcaf2896d220eaa4c446f19c62b26ccefd3
+</code></pre><p>Un momento. ¿Y mis datos? No están en la URL. No hay ninguna cookie en la petición. No hay ninguna cabecera http fuera de lo normal. Y además, esa URI tan extraña&hellip;. <code>/db/c3/a1.db</code>. Pruebo a cargarla y obtengo lo siguiente:</p>
+<pre tabindex="0"><code>1febc7fc1f60ae314b424303ea516a290f305a36c0bab4f3dbc98d810f2ee162e59878057968a22bbaa69a9dc066414f1506a8d10dfa1d73130b3ee2f4bf9037c7ab8642528c9b0c5c157b4ea0dd9bbb1815c5b2bd4519852e59c4bac040599db36127f0f52530b7f45455f9d4fa55798a9918a65391c49a0181c677da360346da22e7b0c33b05bfcbb55a4ee75820fe1f9fbdd532b40ccac4c6ba85d610679b66bad2a43fbb2a418eec58c4772a42113b3fa25052c2435c5c4a5ffe8bcaf2896d220eaa4c446f19c62b26ccefd3
 e4d353eeb673c351f84276fb8c159381ff641775b9e0a17925245f39bedd33661212588b3ca926ee31a49859055f901382279a24c291076660b3e80e65de8ec66e948bc64b5120ae09dd56f955302e1323ef8afdd29143269f2b7c3a8e6c02ebc70d0c9d949092ca19246d5cba3b0c69c314bf7d7a4222326fd7b78c8768e029e4e5ef1175ed5dd457ce3fc88840f9ce941eeb2bd28521ac5eb8be1be9faf1b40ee3f2f81683be3c3a93f1b806aaa5ff7761b873a725ff470a67983d3d827bbbdfcb228c4ec505b4347945c39ab9
 2fd03efea47e19d24331a4b6b0ffa9988efda433d5ad5a31c10d2b0b849ee2013e7be6ccb75336147a600c7f542b702289d843d683156797e32e360a5e96f499c0350ba3de76fbe91694463381b9ff1fbf4820ab215b03da5cf604b5523530c9d21ca7f84e150e8ad3cd08d06f05c6cf81c9e87ee49ee60d709496a1ca35a5a742992cb9736bcbf64295a0103b44c3cb7ea0e923a0a1bd3540abb6a0ec78bf56f94967b2ec92ab8000bec75d4dddcb12f0651d062693c068714cd449e45692eb3ef3821db6c1302ff5e57d572d1d
 ...
-</code></pre>
-
-<p>Decenas de líneas con strings de lo que parece ser hexadecimal, y de ancho fijo (412 caracteres exactamente). Sr. Puigdemont, definitivamente ha captado usted mi atención.</p>
-
+</code></pre><p>Decenas de líneas con strings de lo que parece ser hexadecimal, y de ancho fijo (412 caracteres exactamente). Sr. Puigdemont, definitivamente ha captado usted mi atención.</p>
 <h2 id="el-referendum-serverless">El referendum serverless</h2>
-
 <p>Ya lo dijo Mahoma: si mis datos no viajan al servidor, tiene que ser el &lsquo;servidor&rsquo; el que viaja hacia mis datos. Efectivamente, parece que estamos ante un caso de contenido estático en servidor y proceso de datos en local. ¿Alguien ha dicho Javascript?</p>
-
 <p>¡Bingo! En <code>index.html</code> tenemos a la madre del cordero:</p>
-
-<pre><code>&lt;script type=&quot;text/javascript&quot; src=&quot;../js/bundleV9.js&quot;&gt;&lt;/script&gt;
+<pre tabindex="0"><code>&lt;script type=&quot;text/javascript&quot; src=&quot;../js/bundleV9.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
 function calcula() {
   document.querySelector(&quot;#stepLoad&quot;).style.display=&quot;inline&quot;
@@ -298,17 +278,11 @@ function calcula() {
    })
 }
 &lt;/script&gt;
-</code></pre>
-
-<p>Esencialmente, esta pieza de código recoge nuestros datos (DNI, fecha de nacimiento y código postal), los normaliza (reescribe la fecha en formato AAAAMMDD, por ejemplo) y los pasa a la función <code>onvoto.calcular</code>. Esta función devuelve la información de la mesa electoral lista para mostrar o, en su defecto, el string &lsquo;not-found&rsquo; que aparentemente indicaría que no se han encontrado coincidencias.</p>
-
+</code></pre><p>Esencialmente, esta pieza de código recoge nuestros datos (DNI, fecha de nacimiento y código postal), los normaliza (reescribe la fecha en formato AAAAMMDD, por ejemplo) y los pasa a la función <code>onvoto.calcular</code>. Esta función devuelve la información de la mesa electoral lista para mostrar o, en su defecto, el string &lsquo;not-found&rsquo; que aparentemente indicaría que no se han encontrado coincidencias.</p>
 <p>Nuestro siguiente paso debe ser analizar lo que ocurre en <code>onvoto.calcular</code>, cuyo código podremos encontrar en el fichero <code>/js/bundleV9.js</code>.</p>
-
 <h2 id="los-ficheros-del-censo">Los ficheros del censo</h2>
-
 <p>Nuestra misteriosa función empieza en la línea 69058 del mencionado fichero, y enseguida empezamos a entender de qué va todo esto (puntos suspensivos indican partes no relevantes omitidas):</p>
-
-<pre><code>var calcular = function (d, dn, cp, cb){
+<pre tabindex="0"><code>var calcular = function (d, dn, cp, cb){
     ...
     var key = dni + data_naixement + codi_postal;
     var firstSha256 = hash(bucleHash(key,BUCLE));
@@ -321,26 +295,16 @@ function calcula() {
 
     request( url, function (error, response, body) {
     ...
-</code></pre>
-
-<p>La función toma nuestros datos y los concatena en la variable <code>key</code>. A partir de ese valor, crea dos hashes SHA256 (si seguís las funciones a las que se llaman, veréis que el primero se calcula realizando un bucle de hashes de ¡1714 iteraciones! - guiño guiño) y los almacena en <code>firstSha256</code> y <code>secondSha256</code> en formato hexadecimal. Y aquí empezamos a entender ciertas cosas: las siguientes líneas construyen la misteriosa URI <code>/db/xy/zw.db</code> a partir de los cuatro primeros caracteres de <code>secondSha256</code> (dos para la carpeta y dos para el nombre del fichero). Una vez construida la URI, la función <code>request</code> se encarga de hacer la petición http correspondiente para descargarla.</p>
-
+</code></pre><p>La función toma nuestros datos y los concatena en la variable <code>key</code>. A partir de ese valor, crea dos hashes SHA256 (si seguís las funciones a las que se llaman, veréis que el primero se calcula realizando un bucle de hashes de ¡1714 iteraciones! - guiño guiño) y los almacena en <code>firstSha256</code> y <code>secondSha256</code> en formato hexadecimal. Y aquí empezamos a entender ciertas cosas: las siguientes líneas construyen la misteriosa URI <code>/db/xy/zw.db</code> a partir de los cuatro primeros caracteres de <code>secondSha256</code> (dos para la carpeta y dos para el nombre del fichero). Una vez construida la URI, la función <code>request</code> se encarga de hacer la petición http correspondiente para descargarla.</p>
 <p>Resumiendo lo anterior, estamos ante una especie de database sharding: a partir de nuestro dni, fecha de nacimiento y código postal se construye una URI única a través de la cual se descarga un fichero que supuestamente contiene la información que solicitamos.</p>
-
 <p>Aquí se me activa de inmediato mi sentido arácnido. Ese fichero debe contener no solo mis datos censales sino los de muchas otras personas. El hecho de que haya decenas de líneas hace pensar en un registro/censo por línea, y por otro lado el hecho de truncar el mapeo a cuatro caracteres hexadecimales hace inevitable que se produzcan colisiones.</p>
-
 <p>De hecho, unos cálculos rápidos nos revelan que efectivamente estamos en el caso de un registro censal por línea. Cuatro caracteres hexadecimales nos ofrecen 16^4 combinaciones, o ficheros existentes. Empíricamente he observado unos 70 registros por fichero de media, así que podemos estimar un total de
 algo más de 4.5 millones de registros (que bien podría ser el número de catalanes en edad de votar en Catalunya).</p>
-
 <p>De hecho, no es difícil construir un script que recorra el espacio muestral que va de <code>/db/00/00.db</code> a <code>/db/ff/ff.db</code> y descargar los cuatro millones y medio de registros en no demasiado tiempo. Esto debería ponernos inmediatamente en alerta: ¿acabamos de descargar datos del censo de todos los catalanes en edad de voto? ¿Qué datos contienen exactamente esos ficheros y en qué formato? ¿Va la Guardia Civil a llamar a mi puerta en breve?</p>
-
 <p>Para responder a las preguntas anteriores, sigamos investigando qué es lo que la función <code>onvoto.calcular</code> hace con ese fichero una vez descargado.</p>
-
 <h2 id="gracias-criptografía">Gracias, criptografía</h2>
-
 <p>El cuerpo de la función <code>request</code> es el siguiente:</p>
-
-<pre><code>      var found = false;
+<pre tabindex="0"><code>      var found = false;
       if (error){
         console.log(&quot;Error: &quot; + error);
         return;
@@ -356,33 +320,19 @@ algo más de 4.5 millones de registros (que bien podría ser el número de catal
       if (!found) {
         cb(&quot;not-found&quot;);
       }
-</code></pre>
-
-<p>La función es básicamente un bucle donde se analiza cada línea del fichero. Si los 60 primeros caracteres hexadecimales coinciden con los 60 últimos caracteres de <code>secondSha256</code> (recordad que son 64 en total y los 4 primeros se usaban para construir la URI), aplicamos la función <code>decrypt</code> al resto de la línea, y el resultado lo devolvemos por callback en forma de array. Si no hay coincidencia, pasamos a la siguiente línea, y si se acaban las líneas contestamos con un &lsquo;not-found&rsquo;.</p>
-
+</code></pre><p>La función es básicamente un bucle donde se analiza cada línea del fichero. Si los 60 primeros caracteres hexadecimales coinciden con los 60 últimos caracteres de <code>secondSha256</code> (recordad que son 64 en total y los 4 primeros se usaban para construir la URI), aplicamos la función <code>decrypt</code> al resto de la línea, y el resultado lo devolvemos por callback en forma de array. Si no hay coincidencia, pasamos a la siguiente línea, y si se acaban las líneas contestamos con un &lsquo;not-found&rsquo;.</p>
 <p>Por lo que parece, cada línea de registro no es más que un mapa clave - valor: la clave es un hash de nuestros datos personales, y el valor sería una cadena encriptada con los datos censales. Si seguimos la implementación de la función <code>decrypt</code>, veremos que la cadena está cifrada con criptografía de clave simétrica, concretamente <code>aes-256-cbc</code>. Cifrado de grado militar.</p>
-
 <p>¿Y cuál es la clave? Pues lo vemos en los parámetros de la llamada: <code>firstSha256</code>. Recordemos que esta cadena es el resultado de aplicar sha256 1714 veces recursivamente a la cadena dni+fechanacimiento+codigopostal, algo realmente imposible de revertir. Nuestros datos personales están en los ficheros, pero en forma de hashes irreversibles.</p>
-
 <h2 id="datos-censales">Datos censales</h2>
-
 <p>Prestad de nuevo atención a la línea donde desencriptamos:</p>
-
-<pre><code>var info = decrypt(line.substring(60),firstSha256).split('#');
-</code></pre>
-
-<p>Y refresquemos ahora la sección que recoge esos datos y los pinta en el html original:</p>
-
-<pre><code>document.querySelector(&quot;#response&quot;).innerHTML = i[0] + &quot;\n&quot; + i[1] + &quot;\n&quot; + i[2] + &quot;\n\n&quot;
+<pre tabindex="0"><code>var info = decrypt(line.substring(60),firstSha256).split('#');
+</code></pre><p>Y refresquemos ahora la sección que recoge esos datos y los pinta en el html original:</p>
+<pre tabindex="0"><code>document.querySelector(&quot;#response&quot;).innerHTML = i[0] + &quot;\n&quot; + i[1] + &quot;\n&quot; + i[2] + &quot;\n\n&quot;
                                               + &quot;Districte:&quot; + i[3] + &quot;\n&quot; + &quot;Secció:&quot; + i[4] + &quot;\n&quot;
                                               + 'Mesa: ' + i[5];
-</code></pre>
-
-<p>La cadena desencriptada contiene varios campos (al menos seis, numerados del cero al cinco), donde la almohadilla actúa de separador. Se puede comprobar fácilmente que los campos, en orden, son los siguientes: nombre del colegio electoral, dirección, población, distrito, sección y mesa. Aún así, quise echarle un vistazo al string original. Descargué el fichero js original, añadí un <code>console.log</code> para que me mostrara la cadena desencriptada, hice unas llamadas en local y&hellip;</p>
-
+</code></pre><p>La cadena desencriptada contiene varios campos (al menos seis, numerados del cero al cinco), donde la almohadilla actúa de separador. Se puede comprobar fácilmente que los campos, en orden, son los siguientes: nombre del colegio electoral, dirección, población, distrito, sección y mesa. Aún así, quise echarle un vistazo al string original. Descargué el fichero js original, añadí un <code>console.log</code> para que me mostrara la cadena desencriptada, hice unas llamadas en local y&hellip;</p>
 <p>&hellip; otra sorpresa. Hay un séptimo campo que no se muestra en el html de resultado. Esto es lo que me muestra mi consola javascript de Chrome:</p>
-
-<pre><code>0:&quot;ESCOLA PUBLICA xxxxxxxxx&quot;
+<pre tabindex="0"><code>0:&quot;ESCOLA PUBLICA xxxxxxxxx&quot;
 1:&quot;[Direccion postal]&quot;
 2:&quot;[Poblacion]&quot;
 3:&quot;1&quot;
@@ -390,14 +340,9 @@ algo más de 4.5 millones de registros (que bien podría ser el número de catal
 5:&quot;0A&quot;
 6:&quot;cb6e1fbbb81e69d9d213e80bebaf946fe3b2520a2c9eb4a0f4cbb72de1a5d0a530556d98d91ee63ac6ddca456388856f7bf01s03&quot;
 length:7
-</code></pre>
-
-<p>El campo número 6 es una cadena hexadecimal de 105 caracteres. No se repite en el resto del fichero. He intentado infructuosamente desencriptarla usando la misma clave simétrica que desencripta los campos anteriores, pero no muestra nada con sentido. Y aquí me rindo, amigos lectores; si habéis llegado hasta aquí os animo a que continuéis la investigación y desveléis qué puede significar este séptimo campo.</p>
-
+</code></pre><p>El campo número 6 es una cadena hexadecimal de 105 caracteres. No se repite en el resto del fichero. He intentado infructuosamente desencriptarla usando la misma clave simétrica que desencripta los campos anteriores, pero no muestra nada con sentido. Y aquí me rindo, amigos lectores; si habéis llegado hasta aquí os animo a que continuéis la investigación y desveléis qué puede significar este séptimo campo.</p>
 <h2 id="conclusiones">Conclusiones</h2>
-
 <p>El diseño de la web del referendum es francamente ingenioso, y merece mi más sincero aplauso. El creador ha logrado una arquitectura con contenido estático que no depende de backends para funcionar, ya que traslada toda la lógica al lado cliente con javascript. A la vez, ha logrado almacenar datos sensibles de una forma criptográficamente segura y sin penalizar eficiencia gracias a una ingeniosa técnica de sharding. La arquitectura claramente responde a la necesidad de replicar la web de una forma rápida y funcional ante las más que previsibles órdenes judiciales de bloqueo de hostings que irán llegando.</p>
-
 <p>Y por último, si por casualidad eres uno de los diseñadores y este post ha llegado a ti, por favor cuéntanos: ¿Qué leches es el campo número seis?</p>
               </section>
 
@@ -417,7 +362,7 @@ length:7
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2freferendum-votar.html&title=Referendum%201-O%3a%20%c2%bfD%c3%b3nde%20votar%3f&summary=No%2c%20no%20nos%20hemos%20vuelto%20locos%2c%20en%20Edyo%20seguimos%20hablando%20de%20tecnolog%c3%ada.%20Sabemos%20tambi%c3%a9n%20que%20%c3%baltimamente%20no%20publicamos%20m%c3%a1s%20que%20podcasts%3b%20a%20pesar%20de%20ello%2c%20mantenemos%20el%20blog%20para%20cosas%20que%20se%20cuentan%20mejor%20escritas%20que%20narradas.%20Hoy%20os%20traemos%20un%20an%c3%a1lisis%20t%c3%a9cnico%20que%20no%20puede%20ser%20m%c3%a1s%20de%20actualidad%3a%20la%20web%20de%20consulta%20del%20censo%20para%20el%20referendum%20del%201-O.%20Os%20prometo%20que%20vale%20la%20pena.%0a%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2freferendum-votar.html&title=Referendum%201-O%3a%20%c2%bfD%c3%b3nde%20votar%3f&summary=%26lt%3bimg%20src%3d%27%2fimages%2f30765928-56c56350-9ff2-11e7-85a8-cc8fad0d7947.jpg%27%20alt%3d%26lsquo%3byes-no%26rsquo%3b%20class%3d%26lsquo%3balign-left%20height%3d%26lsquo%3b200%26rsquo%3b%20width%3d%26lsquo%3b200%26rsquo%3b%2f%26gt%3b%0aNo%2c%20no%20nos%20hemos%20vuelto%20locos%2c%20en%20Edyo%20seguimos%20hablando%20de%20tecnolog%c3%ada.%20Sabemos%20tambi%c3%a9n%20que%20%c3%baltimamente%20no%20publicamos%20m%c3%a1s%20que%20podcasts%3b%20a%20pesar%20de%20ello%2c%20mantenemos%20el%20blog%20para%20cosas%20que%20se%20cuentan%20mejor%20escritas%20que%20narradas.%20Hoy%20os%20traemos%20un%20an%c3%a1lisis%20t%c3%a9cnico%20que%20no%20puede%20ser%20m%c3%a1s%20de%20actualidad%3a%20la%20web%20de%20consulta%20del%20censo%20para%20el%20referendum%20del%201-O.%20Os%20prometo%20que%20vale%20la%20pena.%0a"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

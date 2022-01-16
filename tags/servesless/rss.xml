@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Servesless on Entre Dev y Ops</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Servesless on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 16 Mar 2017 03:14:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/servesless/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 16 Mar 2017 03:14:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/servesless/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Comparando Serverless</title>
       <link>https://www.entredevyops.es/posts/comparando-serverless.html</link>
@@ -18,10 +14,12 @@
       
       <guid>https://www.entredevyops.es/posts/comparando-serverless.html</guid>
       <description>&lt;p&gt;El líder indiscutible del cloud es AWS, pero tiene un competidor que le sigue de cerca. Bueno, siendo realistas no tan de cerca, pero que se ha acercado mucho en estos últimos tiempos.&lt;/p&gt;
-
-&lt;p&gt;Hemos visto el avance de &lt;a href=&#34;https://aws.amazon.com/es/lambda/details/&#34; target=&#34;_blank&#34;&gt;Lambda&lt;/a&gt;, y como pasó de ser un anuncio en el re:Invent del 2014, a ocupar varias charlas en el re:Invent del año pasado. Teniendo en cuenta que ahora mismo, tenemos el sistema distribuido entre: el lambda de siempre, en el &lt;a href=&#34;https://aws.amazon.com/es/snowball/details/&#34; target=&#34;_blank&#34;&gt;snowball&lt;/a&gt; y próximamente en  la ejecución lambda de los &lt;a href=&#34;https://pages.awscloud.com/lambda-at-edge-preview.html&#34; target=&#34;_blank&#34;&gt;nodos edge de cloudfront&lt;/a&gt;  y en los productos que usen &lt;a href=&#34;https://aws.amazon.com/es/greengrass/&#34; target=&#34;_blank&#34;&gt;AWS Greengrass&lt;/a&gt;,  pero la pregunta es: ¿cual es la herramienta de Azure para combatir Lambda?&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Hemos visto el avance de &lt;a href=&#34;https://aws.amazon.com/es/lambda/details/&#34;&gt;Lambda&lt;/a&gt;, y como pasó de ser un anuncio en el re:Invent del 2014, a ocupar varias charlas en el re:Invent del año pasado. Teniendo en cuenta que ahora mismo, tenemos el sistema distribuido entre: el lambda de siempre, en el &lt;a href=&#34;https://aws.amazon.com/es/snowball/details/&#34;&gt;snowball&lt;/a&gt; y próximamente en  la ejecución lambda de los &lt;a href=&#34;https://pages.awscloud.com/lambda-at-edge-preview.html&#34;&gt;nodos edge de cloudfront&lt;/a&gt;  y en los productos que usen &lt;a href=&#34;https://aws.amazon.com/es/greengrass/&#34;&gt;AWS Greengrass&lt;/a&gt;,  pero la pregunta es: ¿cual es la herramienta de Azure para combatir Lambda?&lt;/p&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Comparando Serverless</title>
+        <link>https://www.entredevyops.es/posts/comparando-serverless.html</link>
+      </image>
     </item>
     
   </channel>

@@ -1,27 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Javascript on Entre Dev y Ops</title>
+    <title>JavaScript on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/javascript.html</link>
-    <description>Recent content in Javascript on Entre Dev y Ops</description>
+    <description>Recent content in JavaScript on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 22 Sep 2017 22:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/javascript/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 22 Sep 2017 22:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/javascript/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Referendum 1-O: ¿Dónde votar?</title>
       <link>https://www.entredevyops.es/posts/referendum-votar.html</link>
       <pubDate>Fri, 22 Sep 2017 22:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/referendum-votar.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/30765928-56c56350-9ff2-11e7-85a8-cc8fad0d7947.jpg&#39; alt=&#39;yes-no&#39; class=&#39;align-left height=&#39;200&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
-
-&lt;p&gt;No, no nos hemos vuelto locos, en Edyo seguimos hablando de tecnología. Sabemos también que últimamente no publicamos más que podcasts; a pesar de ello, mantenemos el blog para cosas que se cuentan mejor escritas que narradas. Hoy os traemos un análisis técnico que no puede ser más de actualidad: la web de consulta del censo para el referendum del 1-O. Os prometo que vale la pena.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&amp;lt;img src=&#39;https://www.entredevyops.es/images/30765928-56c56350-9ff2-11e7-85a8-cc8fad0d7947.jpg&#39; alt=&amp;lsquo;yes-no&amp;rsquo; class=&amp;lsquo;align-left height=&amp;lsquo;200&amp;rsquo; width=&amp;lsquo;200&amp;rsquo;/&amp;gt;&lt;/p&gt;
+&lt;p&gt;No, no nos hemos vuelto locos, en Edyo seguimos hablando de tecnología. Sabemos también que últimamente no publicamos más que podcasts; a pesar de ello, mantenemos el blog para cosas que se cuentan mejor escritas que narradas. Hoy os traemos un análisis técnico que no puede ser más de actualidad: la web de consulta del censo para el referendum del 1-O. Os prometo que vale la pena.&lt;/p&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Referendum 1-O: ¿Dónde votar?</title>
+        <link>https://www.entredevyops.es/posts/referendum-votar.html</link>
+      </image>
     </item>
     
     <item>
@@ -35,8 +33,12 @@
 
 &lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
 &lt;p&gt;Ayer, día 8 de noviembre, ha tenido su inicio el &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon13&lt;/a&gt;. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en &lt;em&gt;cloud&lt;/em&gt;, móvil, robótica y &lt;em&gt;open source&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Primer día en la BcnDevCon&#39;13</title>
+        <link>https://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</link>
+      </image>
     </item>
     
   </channel>

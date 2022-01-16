@@ -1,1642 +1,927 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-66.html</loc>
-    <lastmod>2022-01-15T00:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-65.html</loc>
-    <lastmod>2022-01-04T17:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-64.html</loc>
-    <lastmod>2021-08-17T22:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-63.html</loc>
-    <lastmod>2021-06-02T14:40:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-62.html</loc>
-    <lastmod>2021-04-17T01:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/pildora-17.html</loc>
-    <lastmod>2021-02-28T22:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/pildora-16.html</loc>
-    <lastmod>2021-02-13T19:32:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-61.html</loc>
-    <lastmod>2021-02-05T16:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-60.html</loc>
-    <lastmod>2020-12-27T22:52:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-59.html</loc>
-    <lastmod>2020-10-07T11:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-58.html</loc>
-    <lastmod>2020-08-17T21:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-57.html</loc>
-    <lastmod>2020-07-06T15:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-56.html</loc>
-    <lastmod>2020-06-09T19:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-55.html</loc>
-    <lastmod>2020-05-15T18:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-54.html</loc>
-    <lastmod>2020-05-09T18:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-53.html</loc>
-    <lastmod>2020-04-18T16:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-52.html</loc>
-    <lastmod>2020-04-13T14:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/pildora-15.html</loc>
-    <lastmod>2020-04-03T23:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-51.html</loc>
-    <lastmod>2020-02-09T19:20:20+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/pildora-14.html</loc>
-    <lastmod>2019-12-27T12:13:14+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/pildora-13.html</loc>
-    <lastmod>2019-10-20T16:55:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-50.html</loc>
-    <lastmod>2019-09-25T16:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/pildora-12.html</loc>
-    <lastmod>2019-08-18T21:50:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-49.html</loc>
-    <lastmod>2019-04-17T22:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/pildora-11.html</loc>
-    <lastmod>2019-03-17T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-48.html</loc>
-    <lastmod>2019-03-10T13:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-47.html</loc>
-    <lastmod>2019-02-14T22:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-46.html</loc>
-    <lastmod>2019-02-10T18:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-45.html</loc>
-    <lastmod>2019-01-31T02:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/pildora-10.html</loc>
-    <lastmod>2019-01-19T21:50:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-44.html</loc>
-    <lastmod>2018-12-20T10:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-43.html</loc>
-    <lastmod>2018-12-10T21:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/pildora-9.html</loc>
-    <lastmod>2018-11-10T13:25:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/pildora-8.html</loc>
-    <lastmod>2018-09-30T18:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/pildora-7.html</loc>
-    <lastmod>2018-08-27T22:50:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/pildora-6.html</loc>
-    <lastmod>2018-07-28T00:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-42.html</loc>
-    <lastmod>2018-07-15T19:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-pildora-5.html</loc>
-    <lastmod>2018-06-30T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-41.html</loc>
-    <lastmod>2018-06-16T22:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/inteligencia-artificial.html</loc>
-    <lastmod>2018-06-13T22:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-pildora-4.html</loc>
-    <lastmod>2018-06-09T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/la-promesa-incompleta.html</loc>
-    <lastmod>2018-06-05T22:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-40.html</loc>
-    <lastmod>2018-06-03T12:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-39.html</loc>
-    <lastmod>2018-05-16T22:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-pildora-3.html</loc>
-    <lastmod>2018-05-01T12:25:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-38.html</loc>
-    <lastmod>2018-04-05T19:40:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-colaboracion-1.html</loc>
-    <lastmod>2018-03-30T18:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-37.html</loc>
-    <lastmod>2018-03-15T23:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-36.html</loc>
-    <lastmod>2018-02-14T23:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-pildora-2.html</loc>
-    <lastmod>2018-01-30T20:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-35.html</loc>
-    <lastmod>2018-01-17T19:40:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-34.html</loc>
-    <lastmod>2017-12-20T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-33.html</loc>
-    <lastmod>2017-12-07T21:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-32.html</loc>
-    <lastmod>2017-11-25T20:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-31.html</loc>
-    <lastmod>2017-10-31T01:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-30.html</loc>
-    <lastmod>2017-10-23T17:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-pildora-1.html</loc>
-    <lastmod>2017-09-25T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/referendum-votar.html</loc>
-    <lastmod>2017-09-22T22:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-29.html</loc>
-    <lastmod>2017-09-19T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-28.html</loc>
-    <lastmod>2017-08-20T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-27.html</loc>
-    <lastmod>2017-08-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-26.html</loc>
-    <lastmod>2017-06-14T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-25.html</loc>
-    <lastmod>2017-06-01T01:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-24.html</loc>
-    <lastmod>2017-05-23T13:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-23.html</loc>
-    <lastmod>2017-05-18T11:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/sla-cloud-aws-azure.html</loc>
-    <lastmod>2017-05-17T13:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/cronica-orchestrate-2017.html</loc>
-    <lastmod>2017-04-29T19:50:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-22.html</loc>
-    <lastmod>2017-03-28T23:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/orchestrate-2017.html</loc>
-    <lastmod>2017-03-21T14:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/comparando-serverless.html</loc>
-    <lastmod>2017-03-16T03:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/eres-suficientemente-bueno.html</loc>
-    <lastmod>2017-03-01T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-21.html</loc>
-    <lastmod>2017-02-24T08:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/shellscript-lambda.html</loc>
-    <lastmod>2017-02-20T23:25:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/true-stories.html</loc>
-    <lastmod>2017-02-17T10:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/seguridad-alexa.html</loc>
-    <lastmod>2017-01-10T23:25:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-20.html</loc>
-    <lastmod>2016-11-29T10:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/ssh-2fa.html</loc>
-    <lastmod>2016-11-23T00:25:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/que-sabes-del-cloud.html</loc>
-    <lastmod>2016-11-13T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-19.html</loc>
-    <lastmod>2016-10-18T10:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/tls-estandares-lobbies.html</loc>
-    <lastmod>2016-10-07T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/publicacion-estatica-ii.html</loc>
-    <lastmod>2016-10-02T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-18.html</loc>
-    <lastmod>2016-09-30T21:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/fail2ban-ssh.html</loc>
-    <lastmod>2016-09-08T15:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/paginas-estaticas-amazon-2.html</loc>
-    <lastmod>2016-09-04T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/amazon-linux-si-o-no.html</loc>
-    <lastmod>2016-08-23T19:55:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/hay-consenso-consenso.html</loc>
-    <lastmod>2016-08-11T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/estamos-aqui-por-dinero.html</loc>
-    <lastmod>2016-08-02T23:55:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/paginas-estaticas-amazon-1.html</loc>
-    <lastmod>2016-07-26T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/bbc-micro-bit.html</loc>
-    <lastmod>2016-07-22T12:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/publicacion-estatica.html</loc>
-    <lastmod>2016-07-11T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/fondo-armario-ingeniero.html</loc>
-    <lastmod>2016-07-04T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-17.html</loc>
-    <lastmod>2016-06-22T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-15.html</loc>
-    <lastmod>2016-03-24T23:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/full_stack_engineer.html</loc>
-    <lastmod>2016-03-07T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/laboratorio_lets_encrypt.html</loc>
-    <lastmod>2015-12-23T16:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/opennebula_2015.html</loc>
-    <lastmod>2015-11-10T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-14.html</loc>
-    <lastmod>2015-10-08T08:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/opennebulaconf_2015.html</loc>
-    <lastmod>2015-09-29T22:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/vuelve-dotgo-2015.html</loc>
-    <lastmod>2015-09-26T15:40:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/novedades-distributed-matters-bcn-2015.html</loc>
-    <lastmod>2015-09-20T12:05:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-13.html</loc>
-    <lastmod>2015-09-18T15:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/webinarios-aws-septiembre.html</loc>
-    <lastmod>2015-05-14T00:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/webinarios-hp-helion.html</loc>
-    <lastmod>2015-05-13T23:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2015.html</loc>
-    <lastmod>2015-05-11T21:25:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-12.html</loc>
-    <lastmod>2015-04-13T02:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/openflow-sdn.html</loc>
-    <lastmod>2015-02-18T10:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-11.html</loc>
-    <lastmod>2015-02-16T22:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/fosdem-2015.html</loc>
-    <lastmod>2015-02-11T12:05:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/cursos-scrum-devops-lean-it.html</loc>
-    <lastmod>2015-02-10T20:05:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-10.html</loc>
-    <lastmod>2015-01-27T20:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/cual-es-el-trabajo-de-un-gestor.html</loc>
-    <lastmod>2015-01-07T18:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-9.html</loc>
-    <lastmod>2014-12-31T18:46:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/nosql-matters-bcn-2014.html</loc>
-    <lastmod>2014-11-30T22:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/dos-dias-velocity-conf.html</loc>
-    <lastmod>2014-11-30T12:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-8.html</loc>
-    <lastmod>2014-11-23T21:04:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/sobre-la-velocity-conf-2.html</loc>
-    <lastmod>2014-11-03T22:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/noticias-sobre-aws-interact-redis-frankfurt.html</loc>
-    <lastmod>2014-11-03T01:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/html5-finalizado.html</loc>
-    <lastmod>2014-10-30T18:50:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/sobre-la-velocity-conf-1.html</loc>
-    <lastmod>2014-10-29T02:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/coding-dojo-python-noviembre.html</loc>
-    <lastmod>2014-10-27T23:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/2014-vulnerabilidades.html</loc>
-    <lastmod>2014-10-26T21:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-7.html</loc>
-    <lastmod>2014-10-16T01:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/concurso-velocity.html</loc>
-    <lastmod>2014-10-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/todo-listo-nosql-matters-bcn-2014.html</loc>
-    <lastmod>2014-10-05T22:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-6.html</loc>
-    <lastmod>2014-09-28T19:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/el-limite-de-los-tecnicos.html</loc>
-    <lastmod>2014-09-24T08:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/descuentos-talleres-conferenciantes-nosql-matters-bcn-2014.html</loc>
-    <lastmod>2014-09-23T00:16:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-11.html</loc>
-    <lastmod>2014-09-08T08:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/laboratorio-sslh.html</loc>
-    <lastmod>2014-08-27T19:55:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/tiquets-primeros-ponentes-nosql-matters-bcn-2014.html</loc>
-    <lastmod>2014-08-26T22:16:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/cas2014-cfp-y-early-birds.html</loc>
-    <lastmod>2014-08-24T00:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/512000-numero-contara.html</loc>
-    <lastmod>2014-08-13T20:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-10.html</loc>
-    <lastmod>2014-07-27T00:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/anuncio-dotgo-2014.html</loc>
-    <lastmod>2014-07-26T02:40:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/sdn-nfv-wtf.html</loc>
-    <lastmod>2014-07-22T21:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/digitalocean-nueva-region-londres.html</loc>
-    <lastmod>2014-07-15T23:40:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/primeros-pasos-openstack.html</loc>
-    <lastmod>2014-07-09T04:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/ssh-acceso-remoto-servidores.html</loc>
-    <lastmod>2014-07-05T10:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2014.html</loc>
-    <lastmod>2014-07-05T01:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/laboratorio-pruebas.html</loc>
-    <lastmod>2014-07-02T03:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-9.html</loc>
-    <lastmod>2014-06-29T03:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/analisis-rendimiento-linux.html</loc>
-    <lastmod>2014-06-23T03:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/the-dream-team-nightmare.html</loc>
-    <lastmod>2014-06-18T08:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/recursos-git.html</loc>
-    <lastmod>2014-06-16T03:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-8.html</loc>
-    <lastmod>2014-06-08T03:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/evento-agile-open-spain-2014.html</loc>
-    <lastmod>2014-05-28T01:50:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-7.html</loc>
-    <lastmod>2014-05-07T01:05:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-6.html</loc>
-    <lastmod>2014-05-03T23:25:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-5.html</loc>
-    <lastmod>2014-04-21T01:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-4.html</loc>
-    <lastmod>2014-04-10T01:55:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/resena-articulo-5-unsung-tools-of-devops.html</loc>
-    <lastmod>2014-04-07T20:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-3.html</loc>
-    <lastmod>2014-04-01T09:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-2.html</loc>
-    <lastmod>2014-03-25T09:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/evento-mongodb-barcelona.html</loc>
-    <lastmod>2014-03-19T22:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-1.html</loc>
-    <lastmod>2014-03-18T09:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/dotscale.html</loc>
-    <lastmod>2014-03-16T13:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/minidebconf-bcn-2014.html</loc>
-    <lastmod>2014-03-14T23:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</loc>
-    <lastmod>2014-03-11T00:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/creando-cultura-devops-capside.html</loc>
-    <lastmod>2014-03-09T11:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/inicio-mobile-world-congress.html</loc>
-    <lastmod>2014-02-23T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html</loc>
-    <lastmod>2014-02-19T20:22:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html</loc>
-    <lastmod>2014-01-19T19:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/disponibles-videos-pycones-2013.html</loc>
-    <lastmod>2014-01-09T15:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/noticias-semanales-enero-2014-1.html</loc>
-    <lastmod>2014-01-07T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-4.html</loc>
-    <lastmod>2013-12-30T20:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-3.html</loc>
-    <lastmod>2013-12-24T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/review-paper-what-is-devops.html</loc>
-    <lastmod>2013-12-07T20:14:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/amazon-ws-iam-soporta-federacion-saml.html</loc>
-    <lastmod>2013-11-28T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/reinvent-2013-amazon-ws.html</loc>
-    <lastmod>2013-11-25T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/amazon-ws-ec2-runinstances-permisos-nivel-recursos.html</loc>
-    <lastmod>2013-11-23T12:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/editorconfig-manten-codigo-uniforme.html</loc>
-    <lastmod>2013-11-21T22:25:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</loc>
-    <lastmod>2013-11-19T00:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/puppet-labs-libro-ebook-entrega-continua-continuous-delivery.html</loc>
-    <lastmod>2013-11-14T07:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/traduccion-de-las-tres-vias.html</loc>
-    <lastmod>2013-11-13T21:25:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/curso-scrum-devops-lean-it-barcelona-bcn.html</loc>
-    <lastmod>2013-11-12T20:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/bcndevcon-2013-tercer-dia.html</loc>
-    <lastmod>2013-11-11T20:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/bcndevcon-2013-segundo-dia.html</loc>
-    <lastmod>2013-11-11T07:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/amazon-ws-elb-balancea-entre-zonas.html</loc>
-    <lastmod>2013-11-10T08:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/curso-puppet-fundamentals-bcn-2013.html</loc>
-    <lastmod>2013-11-10T07:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</loc>
-    <lastmod>2013-11-09T12:40:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/amazon-ws-presenta-iam-policy-simulator.html</loc>
-    <lastmod>2013-11-06T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/the-phoenix-project.html</loc>
-    <lastmod>2013-11-06T22:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/curso-openstack-barcelona.html</loc>
-    <lastmod>2013-11-06T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/reunion-sudoers-noviembre.html</loc>
-    <lastmod>2013-11-06T20:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/certificaciones-oficiales-mongodb.html</loc>
-    <lastmod>2013-11-06T01:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/nuevas-funcionalidades-amazon-ws.html</loc>
-    <lastmod>2013-11-05T00:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/devops-summit-amsterdam.html</loc>
-    <lastmod>2013-11-03T20:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/que-es-devops.html</loc>
-    <lastmod>2013-11-02T10:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/introduccion-openstack-midokura.html</loc>
-    <lastmod>2013-10-29T16:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/europython-2014-berlin.html</loc>
-    <lastmod>2013-10-28T16:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/rendimiento-web-real-user-experience.html</loc>
-    <lastmod>2013-10-28T16:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/aws-summit-barcelona-2013.html</loc>
-    <lastmod>2013-10-27T20:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/ibm-y-el-devops.html</loc>
-    <lastmod>2013-10-23T00:01:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/semanarios-devops-nosql.html</loc>
-    <lastmod>2013-10-21T16:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/amazon-ws-aws-soporte-mfa-autenticacion-multifactor.html</loc>
-    <lastmod>2013-10-19T10:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/introduccion-amazon-ws-barcelona-jug.html</loc>
-    <lastmod>2013-10-16T00:55:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/nosql-matters-cologne-2014.html</loc>
-    <lastmod>2013-10-15T21:13:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html</loc>
-    <lastmod>2013-10-12T20:13:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/devopsdays-barcelona-2013.html</loc>
-    <lastmod>2013-10-10T21:35:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/reunion-de-junio-de-sudoers-bcn.html</loc>
-    <lastmod>2013-06-04T20:37:37+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/empresa-moderna-y-los-cambios.html</loc>
-    <lastmod>2013-06-03T16:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/agile-python-bcn-meetup.html</loc>
-    <lastmod>2013-05-29T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/testing-automatizacion-fosdem.html</loc>
-    <lastmod>2013-02-17T19:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/openstack-arquitectura-operaciones-nube-aplicaciones-siglo-xxi.html</loc>
-    <lastmod>2013-02-03T10:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/apache-cloudstack-funcionalidades-herramientas.html</loc>
-    <lastmod>2013-02-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/devops-jenkins.html</loc>
-    <lastmod>2013-02-02T16:45:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/posts/empaquetado-continuo.html</loc>
-    <lastmod>2013-02-02T16:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/2fa.html</loc>
-    <lastmod>2016-11-23T00:25:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/agile.html</loc>
-    <lastmod>2015-02-10T20:05:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/aix.html</loc>
-    <lastmod>2013-10-23T00:01:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/alexa.html</loc>
-    <lastmod>2017-01-10T23:25:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/algoritmos.html</loc>
-    <lastmod>2016-08-11T09:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/amazon.html</loc>
-    <lastmod>2017-05-17T13:35:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/amazon-ws.html</loc>
-    <lastmod>2017-03-16T03:14:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/ansible.html</loc>
-    <lastmod>2013-11-06T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/apache-cloudstack.html</loc>
-    <lastmod>2013-02-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/autenticaci%C3%B3n.html</loc>
-    <lastmod>2013-10-19T10:45:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/automatizaci%C3%B3n.html</loc>
-    <lastmod>2017-02-17T10:35:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/aws.html</loc>
-    <lastmod>2017-05-17T13:35:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/azure.html</loc>
-    <lastmod>2017-05-17T13:35:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/barcelona-jug.html</loc>
-    <lastmod>2013-10-16T00:55:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/bcndevcon.html</loc>
-    <lastmod>2013-11-11T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/b%C3%A1sicos.html</loc>
-    <lastmod>2017-02-17T10:35:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/chef.html</loc>
-    <lastmod>2014-01-19T19:45:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/cloud.html</loc>
-    <lastmod>2017-05-17T13:35:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/cr%C3%B3nica.html</loc>
-    <lastmod>2017-02-17T10:35:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/codigo-conducta.html</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/debian.html</loc>
-    <lastmod>2014-03-14T23:45:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/desarrollo.html</loc>
-    <lastmod>2016-07-22T12:15:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/devops.html</loc>
-    <lastmod>2017-04-29T19:50:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/devops-summit.html</loc>
-    <lastmod>2013-11-03T20:20:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/devopsdays.html</loc>
-    <lastmod>2013-10-12T20:13:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/digital-ocean.html</loc>
-    <lastmod>2014-07-15T23:40:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/ebook.html</loc>
-    <lastmod>2014-04-07T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/empresa.html</loc>
-    <lastmod>2017-02-17T10:35:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
   <url>
     <loc>https://www.entredevyops.es/</loc>
     <lastmod>2022-01-15T00:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/entrega-cont%C3%ADnua.html</loc>
-    <lastmod>2014-09-08T08:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/equipo.html</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/escalabilidad.html</loc>
-    <lastmod>2013-11-11T07:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/est%C3%A1ndares.html</loc>
-    <lastmod>2016-10-07T23:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/eventos.html</loc>
-    <lastmod>2017-04-29T19:50:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/fail2ban.html</loc>
-    <lastmod>2016-09-08T15:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/filosof%C3%ADa.html</loc>
-    <lastmod>2017-03-01T12:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/formaci%C3%B3n.html</loc>
-    <lastmod>2017-03-01T12:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/fosdem.html</loc>
-    <lastmod>2015-02-11T12:05:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/free-software.html</loc>
-    <lastmod>2015-09-26T15:40:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/full-stack-engineer.html</loc>
-    <lastmod>2016-07-04T12:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/git.html</loc>
-    <lastmod>2014-06-16T03:14:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/go.html</loc>
-    <lastmod>2015-09-26T15:40:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/google-authenticator.html</loc>
-    <lastmod>2016-11-23T00:25:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/gu%C3%ADas.html</loc>
-    <lastmod>2014-07-05T10:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/hardware.html</loc>
-    <lastmod>2016-07-22T12:15:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/herramientas.html</loc>
-    <lastmod>2017-04-29T19:50:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/ibm.html</loc>
-    <lastmod>2013-10-23T00:01:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/infraestructura.html</loc>
-    <lastmod>2016-08-23T19:55:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/integraci%C3%B3n-cont%C3%ADnua.html</loc>
-    <lastmod>2017-04-29T19:50:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/internet.html</loc>
-    <lastmod>2014-10-30T18:50:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/internet-of-things.html</loc>
-    <lastmod>2016-07-22T12:15:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/iot.html</loc>
-    <lastmod>2017-01-10T23:25:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/javascript.html</loc>
-    <lastmod>2017-09-22T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/jenkins.html</loc>
-    <lastmod>2013-02-02T16:45:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/laboratorio.html</loc>
-    <lastmod>2015-12-23T16:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/lambda.html</loc>
-    <lastmod>2017-02-20T23:25:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/lets-encrypt.html</loc>
-    <lastmod>2015-12-23T16:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/libros.html</loc>
-    <lastmod>2014-06-18T08:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/linux.html</loc>
-    <lastmod>2016-08-23T19:55:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/microsoft.html</loc>
-    <lastmod>2017-05-17T13:35:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/mongodb.html</loc>
-    <lastmod>2014-03-19T22:20:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/monitorizaci%C3%B3n.html</loc>
-    <lastmod>2014-01-19T19:45:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/mwc.html</loc>
-    <lastmod>2014-02-23T21:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/m%C3%B3viles.html</loc>
-    <lastmod>2013-11-09T12:40:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/nosql.html</loc>
-    <lastmod>2015-09-20T12:05:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/open-source.html</loc>
-    <lastmod>2015-09-26T15:40:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/opennebula.html</loc>
-    <lastmod>2015-11-10T21:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/openstack.html</loc>
-    <lastmod>2015-05-13T23:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/opini%C3%B3n.html</loc>
-    <lastmod>2017-03-01T12:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/orchestrate.html</loc>
-    <lastmod>2017-03-21T14:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/paper.html</loc>
-    <lastmod>2013-12-07T20:14:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-66.html</loc>
+    <lastmod>2022-01-15T00:30:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.entredevyops.es/podcasts.html</loc>
     <lastmod>2022-01-15T00:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/politica-cookies.html</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-65.html</loc>
+    <lastmod>2022-01-04T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-64.html</loc>
+    <lastmod>2021-08-17T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-63.html</loc>
+    <lastmod>2021-06-02T14:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-62.html</loc>
+    <lastmod>2021-04-17T01:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/pildora-17.html</loc>
+    <lastmod>2021-02-28T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/pildora-16.html</loc>
+    <lastmod>2021-02-13T19:32:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-61.html</loc>
+    <lastmod>2021-02-05T16:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-60.html</loc>
+    <lastmod>2020-12-27T22:52:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-59.html</loc>
+    <lastmod>2020-10-07T11:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-58.html</loc>
+    <lastmod>2020-08-17T21:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-57.html</loc>
+    <lastmod>2020-07-06T15:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-56.html</loc>
+    <lastmod>2020-06-09T19:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-55.html</loc>
+    <lastmod>2020-05-15T18:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-54.html</loc>
+    <lastmod>2020-05-09T18:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-53.html</loc>
+    <lastmod>2020-04-18T16:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-52.html</loc>
+    <lastmod>2020-04-13T14:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/pildora-15.html</loc>
+    <lastmod>2020-04-03T23:10:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-51.html</loc>
+    <lastmod>2020-02-09T19:20:20+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/pildora-14.html</loc>
+    <lastmod>2019-12-27T12:13:14+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/pildora-13.html</loc>
+    <lastmod>2019-10-20T16:55:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-50.html</loc>
+    <lastmod>2019-09-25T16:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/pildora-12.html</loc>
+    <lastmod>2019-08-18T21:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-49.html</loc>
+    <lastmod>2019-04-17T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/pildora-11.html</loc>
+    <lastmod>2019-03-17T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-48.html</loc>
+    <lastmod>2019-03-10T13:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-47.html</loc>
+    <lastmod>2019-02-14T22:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-46.html</loc>
+    <lastmod>2019-02-10T18:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-45.html</loc>
+    <lastmod>2019-01-31T02:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/pildora-10.html</loc>
+    <lastmod>2019-01-19T21:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-44.html</loc>
+    <lastmod>2018-12-20T10:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-43.html</loc>
+    <lastmod>2018-12-10T21:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/pildora-9.html</loc>
+    <lastmod>2018-11-10T13:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/pildora-8.html</loc>
+    <lastmod>2018-09-30T18:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/pildora-7.html</loc>
+    <lastmod>2018-08-27T22:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/pildora-6.html</loc>
+    <lastmod>2018-07-28T00:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-42.html</loc>
+    <lastmod>2018-07-15T19:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-pildora-5.html</loc>
+    <lastmod>2018-06-30T23:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-41.html</loc>
+    <lastmod>2018-06-16T22:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/inteligencia-artificial.html</loc>
+    <lastmod>2018-06-13T22:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.entredevyops.es/posts.html</loc>
     <lastmod>2018-06-13T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/pruebas.html</loc>
-    <lastmod>2014-09-08T08:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/puppet.html</loc>
-    <lastmod>2014-01-07T21:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/pycones.html</loc>
-    <lastmod>2014-01-09T15:45:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/python.html</loc>
-    <lastmod>2016-07-22T12:15:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/qa.html</loc>
-    <lastmod>2014-09-08T08:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/recursos.html</loc>
-    <lastmod>2014-01-07T21:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/redes.html</loc>
-    <lastmod>2015-02-18T10:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/rendimiento.html</loc>
-    <lastmod>2014-11-30T12:14:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/rese%C3%B1a.html</loc>
-    <lastmod>2014-06-18T08:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/scott-lowe.html</loc>
-    <lastmod>2016-03-07T09:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/scrum.html</loc>
-    <lastmod>2015-02-10T20:05:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/sdn.html</loc>
-    <lastmod>2015-02-18T10:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-pildora-4.html</loc>
+    <lastmod>2018-06-09T23:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/la-promesa-incompleta.html</loc>
+    <lastmod>2018-06-05T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-40.html</loc>
+    <lastmod>2018-06-03T12:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-39.html</loc>
+    <lastmod>2018-05-16T22:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-pildora-3.html</loc>
+    <lastmod>2018-05-01T12:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-38.html</loc>
+    <lastmod>2018-04-05T19:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-colaboracion-1.html</loc>
+    <lastmod>2018-03-30T18:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-37.html</loc>
+    <lastmod>2018-03-15T23:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-36.html</loc>
+    <lastmod>2018-02-14T23:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-pildora-2.html</loc>
+    <lastmod>2018-01-30T20:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-35.html</loc>
+    <lastmod>2018-01-17T19:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-34.html</loc>
+    <lastmod>2017-12-20T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-33.html</loc>
+    <lastmod>2017-12-07T21:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-32.html</loc>
+    <lastmod>2017-11-25T20:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-31.html</loc>
+    <lastmod>2017-10-31T01:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-30.html</loc>
+    <lastmod>2017-10-23T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-pildora-1.html</loc>
+    <lastmod>2017-09-25T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/javascript.html</loc>
+    <lastmod>2017-09-22T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/referendum-votar.html</loc>
+    <lastmod>2017-09-22T22:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.entredevyops.es/tags/seguridad.html</loc>
     <lastmod>2017-09-22T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/servesless.html</loc>
-    <lastmod>2017-03-16T03:14:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/shell-script.html</loc>
-    <lastmod>2017-02-20T23:25:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/sistemas-operativos.html</loc>
-    <lastmod>2016-08-23T19:55:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags.html</loc>
+    <lastmod>2017-09-22T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-29.html</loc>
+    <lastmod>2017-09-19T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-28.html</loc>
+    <lastmod>2017-08-20T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-27.html</loc>
+    <lastmod>2017-08-01T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-26.html</loc>
+    <lastmod>2017-06-14T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-25.html</loc>
+    <lastmod>2017-06-01T01:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-24.html</loc>
+    <lastmod>2017-05-23T13:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-23.html</loc>
+    <lastmod>2017-05-18T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/amazon.html</loc>
+    <lastmod>2017-05-17T13:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/aws.html</loc>
+    <lastmod>2017-05-17T13:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/azure.html</loc>
+    <lastmod>2017-05-17T13:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/cloud.html</loc>
+    <lastmod>2017-05-17T13:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/sla-cloud-aws-azure.html</loc>
+    <lastmod>2017-05-17T13:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/microsoft.html</loc>
+    <lastmod>2017-05-17T13:35:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.entredevyops.es/tags/sla.html</loc>
     <lastmod>2017-05-17T13:35:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/cronica-orchestrate-2017.html</loc>
+    <lastmod>2017-04-29T19:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/devops.html</loc>
+    <lastmod>2017-04-29T19:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/eventos.html</loc>
+    <lastmod>2017-04-29T19:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/herramientas.html</loc>
+    <lastmod>2017-04-29T19:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/integraci%C3%B3n-cont%C3%ADnua.html</loc>
+    <lastmod>2017-04-29T19:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-22.html</loc>
+    <lastmod>2017-03-28T23:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/orchestrate.html</loc>
+    <lastmod>2017-03-21T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/orchestrate-2017.html</loc>
+    <lastmod>2017-03-21T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/amazon-ws.html</loc>
+    <lastmod>2017-03-16T03:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/comparando-serverless.html</loc>
+    <lastmod>2017-03-16T03:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/servesless.html</loc>
+    <lastmod>2017-03-16T03:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/filosof%C3%ADa.html</loc>
+    <lastmod>2017-03-01T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/formaci%C3%B3n.html</loc>
+    <lastmod>2017-03-01T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/opini%C3%B3n.html</loc>
+    <lastmod>2017-03-01T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/eres-suficientemente-bueno.html</loc>
+    <lastmod>2017-03-01T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-21.html</loc>
+    <lastmod>2017-02-24T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/shellscript-lambda.html</loc>
+    <lastmod>2017-02-20T23:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/lambda.html</loc>
+    <lastmod>2017-02-20T23:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/shell-script.html</loc>
+    <lastmod>2017-02-20T23:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/true-stories.html</loc>
+    <lastmod>2017-02-17T10:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/automatizaci%C3%B3n.html</loc>
+    <lastmod>2017-02-17T10:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/b%C3%A1sicos.html</loc>
+    <lastmod>2017-02-17T10:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/cr%C3%B3nica.html</loc>
+    <lastmod>2017-02-17T10:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/empresa.html</loc>
+    <lastmod>2017-02-17T10:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/alexa.html</loc>
+    <lastmod>2017-01-10T23:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/iot.html</loc>
+    <lastmod>2017-01-10T23:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/seguridad-alexa.html</loc>
+    <lastmod>2017-01-10T23:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-20.html</loc>
+    <lastmod>2016-11-29T10:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/2fa.html</loc>
+    <lastmod>2016-11-23T00:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/google-authenticator.html</loc>
+    <lastmod>2016-11-23T00:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/ssh-2fa.html</loc>
+    <lastmod>2016-11-23T00:25:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.entredevyops.es/tags/ssh.html</loc>
     <lastmod>2016-11-23T00:25:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/sslh.html</loc>
-    <lastmod>2014-08-27T19:55:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/sudoers-bcn.html</loc>
-    <lastmod>2013-11-06T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/suscribete.html</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags.html</loc>
-    <lastmod>2016-11-23T00:25:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/tdd.html</loc>
-    <lastmod>2014-01-19T19:45:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/unix.html</loc>
-    <lastmod>2014-06-23T03:14:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/viaje.html</loc>
-    <lastmod>2015-02-11T12:05:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.entredevyops.es/tags/virtualizaci%C3%B3n.html</loc>
-    <lastmod>2015-02-18T10:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/que-sabes-del-cloud.html</loc>
+    <lastmod>2016-11-13T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-19.html</loc>
+    <lastmod>2016-10-18T10:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/est%C3%A1ndares.html</loc>
+    <lastmod>2016-10-07T23:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/tls-estandares-lobbies.html</loc>
+    <lastmod>2016-10-07T23:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/publicacion-estatica-ii.html</loc>
+    <lastmod>2016-10-02T23:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.entredevyops.es/tags/web.html</loc>
     <lastmod>2016-10-02T23:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-18.html</loc>
+    <lastmod>2016-09-30T21:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/fail2ban.html</loc>
+    <lastmod>2016-09-08T15:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/fail2ban-ssh.html</loc>
+    <lastmod>2016-09-08T15:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/paginas-estaticas-amazon-2.html</loc>
+    <lastmod>2016-09-04T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/amazon-linux-si-o-no.html</loc>
+    <lastmod>2016-08-23T19:55:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/infraestructura.html</loc>
+    <lastmod>2016-08-23T19:55:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/linux.html</loc>
+    <lastmod>2016-08-23T19:55:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/sistemas-operativos.html</loc>
+    <lastmod>2016-08-23T19:55:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/algoritmos.html</loc>
+    <lastmod>2016-08-11T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/hay-consenso-consenso.html</loc>
+    <lastmod>2016-08-11T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/estamos-aqui-por-dinero.html</loc>
+    <lastmod>2016-08-02T23:55:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/paginas-estaticas-amazon-1.html</loc>
+    <lastmod>2016-07-26T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/bbc-micro-bit.html</loc>
+    <lastmod>2016-07-22T12:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/desarrollo.html</loc>
+    <lastmod>2016-07-22T12:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/hardware.html</loc>
+    <lastmod>2016-07-22T12:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/internet-of-things.html</loc>
+    <lastmod>2016-07-22T12:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/python.html</loc>
+    <lastmod>2016-07-22T12:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/publicacion-estatica.html</loc>
+    <lastmod>2016-07-11T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/fondo-armario-ingeniero.html</loc>
+    <lastmod>2016-07-04T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/full-stack-engineer.html</loc>
+    <lastmod>2016-07-04T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-17.html</loc>
+    <lastmod>2016-06-22T23:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-15.html</loc>
+    <lastmod>2016-03-24T23:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/full_stack_engineer.html</loc>
+    <lastmod>2016-03-07T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/scott-lowe.html</loc>
+    <lastmod>2016-03-07T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/laboratorio.html</loc>
+    <lastmod>2015-12-23T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/lets-encrypt.html</loc>
+    <lastmod>2015-12-23T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/laboratorio_lets_encrypt.html</loc>
+    <lastmod>2015-12-23T16:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/opennebula_2015.html</loc>
+    <lastmod>2015-11-10T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/opennebula.html</loc>
+    <lastmod>2015-11-10T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-14.html</loc>
+    <lastmod>2015-10-08T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/opennebulaconf_2015.html</loc>
+    <lastmod>2015-09-29T22:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/free-software.html</loc>
+    <lastmod>2015-09-26T15:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/go.html</loc>
+    <lastmod>2015-09-26T15:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/open-source.html</loc>
+    <lastmod>2015-09-26T15:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/vuelve-dotgo-2015.html</loc>
+    <lastmod>2015-09-26T15:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/nosql.html</loc>
+    <lastmod>2015-09-20T12:05:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/novedades-distributed-matters-bcn-2015.html</loc>
+    <lastmod>2015-09-20T12:05:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-13.html</loc>
+    <lastmod>2015-09-18T15:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/webinarios-aws-septiembre.html</loc>
+    <lastmod>2015-05-14T00:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/openstack.html</loc>
+    <lastmod>2015-05-13T23:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/webinarios-hp-helion.html</loc>
+    <lastmod>2015-05-13T23:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2015.html</loc>
+    <lastmod>2015-05-11T21:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-12.html</loc>
+    <lastmod>2015-04-13T02:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/openflow-sdn.html</loc>
+    <lastmod>2015-02-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/redes.html</loc>
+    <lastmod>2015-02-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/sdn.html</loc>
+    <lastmod>2015-02-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/virtualizaci%C3%B3n.html</loc>
+    <lastmod>2015-02-18T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-11.html</loc>
+    <lastmod>2015-02-16T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/fosdem.html</loc>
+    <lastmod>2015-02-11T12:05:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/viaje.html</loc>
+    <lastmod>2015-02-11T12:05:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/fosdem-2015.html</loc>
+    <lastmod>2015-02-11T12:05:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/agile.html</loc>
+    <lastmod>2015-02-10T20:05:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/cursos-scrum-devops-lean-it.html</loc>
+    <lastmod>2015-02-10T20:05:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/scrum.html</loc>
+    <lastmod>2015-02-10T20:05:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-10.html</loc>
+    <lastmod>2015-01-27T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/cual-es-el-trabajo-de-un-gestor.html</loc>
+    <lastmod>2015-01-07T18:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-9.html</loc>
+    <lastmod>2014-12-31T18:46:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/nosql-matters-bcn-2014.html</loc>
+    <lastmod>2014-11-30T22:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/dos-dias-velocity-conf.html</loc>
+    <lastmod>2014-11-30T12:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/rendimiento.html</loc>
+    <lastmod>2014-11-30T12:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-8.html</loc>
+    <lastmod>2014-11-23T21:04:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/sobre-la-velocity-conf-2.html</loc>
+    <lastmod>2014-11-03T22:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/noticias-sobre-aws-interact-redis-frankfurt.html</loc>
+    <lastmod>2014-11-03T01:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/html5-finalizado.html</loc>
+    <lastmod>2014-10-30T18:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/internet.html</loc>
+    <lastmod>2014-10-30T18:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/sobre-la-velocity-conf-1.html</loc>
+    <lastmod>2014-10-29T02:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/coding-dojo-python-noviembre.html</loc>
+    <lastmod>2014-10-27T23:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/2014-vulnerabilidades.html</loc>
+    <lastmod>2014-10-26T21:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-7.html</loc>
+    <lastmod>2014-10-16T01:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/concurso-velocity.html</loc>
+    <lastmod>2014-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/todo-listo-nosql-matters-bcn-2014.html</loc>
+    <lastmod>2014-10-05T22:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/podcasts/podcast-episodio-6.html</loc>
+    <lastmod>2014-09-28T19:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/el-limite-de-los-tecnicos.html</loc>
+    <lastmod>2014-09-24T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/descuentos-talleres-conferenciantes-nosql-matters-bcn-2014.html</loc>
+    <lastmod>2014-09-23T00:16:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-11.html</loc>
+    <lastmod>2014-09-08T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/entrega-cont%C3%ADnua.html</loc>
+    <lastmod>2014-09-08T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/pruebas.html</loc>
+    <lastmod>2014-09-08T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/qa.html</loc>
+    <lastmod>2014-09-08T08:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/laboratorio-sslh.html</loc>
+    <lastmod>2014-08-27T19:55:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/sslh.html</loc>
+    <lastmod>2014-08-27T19:55:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/tiquets-primeros-ponentes-nosql-matters-bcn-2014.html</loc>
+    <lastmod>2014-08-26T22:16:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/cas2014-cfp-y-early-birds.html</loc>
+    <lastmod>2014-08-24T00:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/512000-numero-contara.html</loc>
+    <lastmod>2014-08-13T20:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-10.html</loc>
+    <lastmod>2014-07-27T00:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/anuncio-dotgo-2014.html</loc>
+    <lastmod>2014-07-26T02:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/sdn-nfv-wtf.html</loc>
+    <lastmod>2014-07-22T21:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/digital-ocean.html</loc>
+    <lastmod>2014-07-15T23:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/digitalocean-nueva-region-londres.html</loc>
+    <lastmod>2014-07-15T23:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/primeros-pasos-openstack.html</loc>
+    <lastmod>2014-07-09T04:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/gu%C3%ADas.html</loc>
+    <lastmod>2014-07-05T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/ssh-acceso-remoto-servidores.html</loc>
+    <lastmod>2014-07-05T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/anuncio-nosql-matters-bcn-2014.html</loc>
+    <lastmod>2014-07-05T01:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/laboratorio-pruebas.html</loc>
+    <lastmod>2014-07-02T03:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-9.html</loc>
+    <lastmod>2014-06-29T03:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/analisis-rendimiento-linux.html</loc>
+    <lastmod>2014-06-23T03:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/unix.html</loc>
+    <lastmod>2014-06-23T03:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/libros.html</loc>
+    <lastmod>2014-06-18T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/rese%C3%B1a.html</loc>
+    <lastmod>2014-06-18T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/the-dream-team-nightmare.html</loc>
+    <lastmod>2014-06-18T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/git.html</loc>
+    <lastmod>2014-06-16T03:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/recursos-git.html</loc>
+    <lastmod>2014-06-16T03:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-8.html</loc>
+    <lastmod>2014-06-08T03:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/evento-agile-open-spain-2014.html</loc>
+    <lastmod>2014-05-28T01:50:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-7.html</loc>
+    <lastmod>2014-05-07T01:05:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-6.html</loc>
+    <lastmod>2014-05-03T23:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-5.html</loc>
+    <lastmod>2014-04-21T01:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-4.html</loc>
+    <lastmod>2014-04-10T01:55:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/ebook.html</loc>
+    <lastmod>2014-04-07T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/resena-articulo-5-unsung-tools-of-devops.html</loc>
+    <lastmod>2014-04-07T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-3.html</loc>
+    <lastmod>2014-04-01T09:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-2.html</loc>
+    <lastmod>2014-03-25T09:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/evento-mongodb-barcelona.html</loc>
+    <lastmod>2014-03-19T22:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/mongodb.html</loc>
+    <lastmod>2014-03-19T22:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/11-cosas-necesitas-saber-devops-1.html</loc>
+    <lastmod>2014-03-18T09:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/dotscale.html</loc>
+    <lastmod>2014-03-16T13:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/debian.html</loc>
+    <lastmod>2014-03-14T23:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/minidebconf-bcn-2014.html</loc>
+    <lastmod>2014-03-14T23:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/curso-introduccion-linux-edx.html</loc>
+    <lastmod>2014-03-11T00:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/creando-cultura-devops-capside.html</loc>
+    <lastmod>2014-03-09T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/inicio-mobile-world-congress.html</loc>
+    <lastmod>2014-02-23T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/mwc.html</loc>
+    <lastmod>2014-02-23T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html</loc>
+    <lastmod>2014-02-19T20:22:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/chef.html</loc>
+    <lastmod>2014-01-19T19:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/monitorizaci%C3%B3n.html</loc>
+    <lastmod>2014-01-19T19:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html</loc>
+    <lastmod>2014-01-19T19:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/tdd.html</loc>
+    <lastmod>2014-01-19T19:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/disponibles-videos-pycones-2013.html</loc>
+    <lastmod>2014-01-09T15:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/pycones.html</loc>
+    <lastmod>2014-01-09T15:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/noticias-semanales-enero-2014-1.html</loc>
+    <lastmod>2014-01-07T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/puppet.html</loc>
+    <lastmod>2014-01-07T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/recursos.html</loc>
+    <lastmod>2014-01-07T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-4.html</loc>
+    <lastmod>2013-12-30T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-3.html</loc>
+    <lastmod>2013-12-24T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/paper.html</loc>
+    <lastmod>2013-12-07T20:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/review-paper-what-is-devops.html</loc>
+    <lastmod>2013-12-07T20:14:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/amazon-ws-iam-soporta-federacion-saml.html</loc>
+    <lastmod>2013-11-28T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/reinvent-2013-amazon-ws.html</loc>
+    <lastmod>2013-11-25T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/amazon-ws-ec2-runinstances-permisos-nivel-recursos.html</loc>
+    <lastmod>2013-11-23T12:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/editorconfig-manten-codigo-uniforme.html</loc>
+    <lastmod>2013-11-21T22:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/finalterm-terminal-definitivo.html</loc>
+    <lastmod>2013-11-19T00:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/puppet-labs-libro-ebook-entrega-continua-continuous-delivery.html</loc>
+    <lastmod>2013-11-14T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/traduccion-de-las-tres-vias.html</loc>
+    <lastmod>2013-11-13T21:25:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/curso-scrum-devops-lean-it-barcelona-bcn.html</loc>
+    <lastmod>2013-11-12T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/bcndevcon.html</loc>
+    <lastmod>2013-11-11T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/bcndevcon-2013-tercer-dia.html</loc>
+    <lastmod>2013-11-11T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/escalabilidad.html</loc>
+    <lastmod>2013-11-11T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/bcndevcon-2013-segundo-dia.html</loc>
+    <lastmod>2013-11-11T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/amazon-ws-elb-balancea-entre-zonas.html</loc>
+    <lastmod>2013-11-10T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/curso-puppet-fundamentals-bcn-2013.html</loc>
+    <lastmod>2013-11-10T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/m%C3%B3viles.html</loc>
+    <lastmod>2013-11-09T12:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</loc>
+    <lastmod>2013-11-09T12:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/amazon-ws-presenta-iam-policy-simulator.html</loc>
+    <lastmod>2013-11-06T23:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/the-phoenix-project.html</loc>
+    <lastmod>2013-11-06T22:10:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/curso-openstack-barcelona.html</loc>
+    <lastmod>2013-11-06T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/ansible.html</loc>
+    <lastmod>2013-11-06T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/reunion-sudoers-noviembre.html</loc>
+    <lastmod>2013-11-06T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/sudoers-bcn.html</loc>
+    <lastmod>2013-11-06T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/certificaciones-oficiales-mongodb.html</loc>
+    <lastmod>2013-11-06T01:10:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/nuevas-funcionalidades-amazon-ws.html</loc>
+    <lastmod>2013-11-05T00:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/devops-summit.html</loc>
+    <lastmod>2013-11-03T20:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/devops-summit-amsterdam.html</loc>
+    <lastmod>2013-11-03T20:20:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/que-es-devops.html</loc>
+    <lastmod>2013-11-02T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/introduccion-openstack-midokura.html</loc>
+    <lastmod>2013-10-29T16:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/europython-2014-berlin.html</loc>
+    <lastmod>2013-10-28T16:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/rendimiento-web-real-user-experience.html</loc>
+    <lastmod>2013-10-28T16:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/aws-summit-barcelona-2013.html</loc>
+    <lastmod>2013-10-27T20:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/aix.html</loc>
+    <lastmod>2013-10-23T00:01:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/ibm.html</loc>
+    <lastmod>2013-10-23T00:01:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/ibm-y-el-devops.html</loc>
+    <lastmod>2013-10-23T00:01:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/semanarios-devops-nosql.html</loc>
+    <lastmod>2013-10-21T16:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/amazon-ws-aws-soporte-mfa-autenticacion-multifactor.html</loc>
+    <lastmod>2013-10-19T10:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/autenticaci%C3%B3n.html</loc>
+    <lastmod>2013-10-19T10:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/barcelona-jug.html</loc>
+    <lastmod>2013-10-16T00:55:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/introduccion-amazon-ws-barcelona-jug.html</loc>
+    <lastmod>2013-10-16T00:55:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/nosql-matters-cologne-2014.html</loc>
+    <lastmod>2013-10-15T21:13:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html</loc>
+    <lastmod>2013-10-12T20:13:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/devopsdays.html</loc>
+    <lastmod>2013-10-12T20:13:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/devopsdays-barcelona-2013.html</loc>
+    <lastmod>2013-10-10T21:35:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/reunion-de-junio-de-sudoers-bcn.html</loc>
+    <lastmod>2013-06-04T20:37:37+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/empresa-moderna-y-los-cambios.html</loc>
+    <lastmod>2013-06-03T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/agile-python-bcn-meetup.html</loc>
+    <lastmod>2013-05-29T23:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/testing-automatizacion-fosdem.html</loc>
+    <lastmod>2013-02-17T19:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/openstack-arquitectura-operaciones-nube-aplicaciones-siglo-xxi.html</loc>
+    <lastmod>2013-02-03T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/apache-cloudstack.html</loc>
+    <lastmod>2013-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/apache-cloudstack-funcionalidades-herramientas.html</loc>
+    <lastmod>2013-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/devops-jenkins.html</loc>
+    <lastmod>2013-02-02T16:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/tags/jenkins.html</loc>
+    <lastmod>2013-02-02T16:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/posts/empaquetado-continuo.html</loc>
+    <lastmod>2013-02-02T16:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.entredevyops.es/codigo-conducta.html</loc>
+  </url><url>
+    <loc>https://www.entredevyops.es/equipo.html</loc>
+  </url><url>
+    <loc>https://www.entredevyops.es/politica-cookies.html</loc>
+  </url><url>
+    <loc>https://www.entredevyops.es/suscribete.html</loc>
+  </url><url>
     <loc>https://www.entredevyops.es/ayudanos.html</loc>
   </url>
-  
 </urlset>

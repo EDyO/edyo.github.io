@@ -25,10 +25,7 @@
         <meta name="twitter:title" content="Laboratorio de sslh: Un puerto para dominarlos a todos" />
         
         <meta name="twitter:description" content="En muchas redes corporativas me estoy encontrado que una manera que tienen los administradores de controlar la actividad de sus usuarios es bloquear el acceso de los clientes a ciertos puertos mediante reglas de firewall (por ejemplo denegar toda conexión al puerto 22 o solo permitir conexiones al puerto 80 o 443). Medida para nada afectiva, ya que no garantiza que el usuario no se conecte al servicio no deseado, sino que no se conecte al puerto por defecto de dicho servicio. Para saltarse esta restricción es tan sencillo como configurar el servicio en uno de los puertos permitidos.
-
-Si bien es cierto que puede ser bastante molesto, ya que obliga a modificar configuraciones, puede suponer un problema si ya tenemos un servicio activo en el puerto requerido. Esto me motivó a buscar la manera de, a través de un único puerto de un servidor, se pudiera acceder a diversos servicios.
-
-" />
+Si bien es cierto que puede ser bastante molesto, ya que obliga a modificar configuraciones, puede suponer un problema si ya tenemos un servicio activo en el puerto requerido. Esto me motivó a buscar la manera de, a través de un único puerto de un servidor, se pudiera acceder a diversos servicios." />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/laboratorio-sslh.html" />
         <meta name="telegram:channel" content="@entredevyops" />
     
@@ -76,7 +73,7 @@ Si bien es cierto que puede ser bastante molesto, ya que obliga a modificar conf
         "@type": "BlogPosting",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://www.entredevyops.es/posts/laboratorio-sslh.html"
+          "@id": "https:\/\/www.entredevyops.es\/posts\/laboratorio-sslh.html"
         },
         "headline": "Laboratorio de sslh: Un puerto para dominarlos a todos",
         "description": "",
@@ -93,9 +90,9 @@ Si bien es cierto que puede ser bastante molesto, ya que obliga a modificar conf
         },
         "publisher": {
           "@type": "Organization",
-          "@id": "https://www.entredevyops.es/",
+          "@id": "https:\/\/www.entredevyops.es\/",
           "name": "Entre Dev y Ops",
-          "url": "https://www.entredevyops.es/",
+          "url": "https:\/\/www.entredevyops.es\/",
           "logo": {
             "@type": "ImageObject",
             "url": "https:",
@@ -112,8 +109,8 @@ Si bien es cierto que puede ser bastante molesto, ya que obliga a modificar conf
         },
         "datePublished": "2014-08-27",
         "dateModified": "2014-08-27",
-        "wordCount": 628,
-        "keywords": ["Laboratorio","sslh"] 
+        "wordCount":  628 ,
+        "keywords": "[\"Laboratorio\",\"sslh\"]" 
     }
     </script>
 
@@ -227,55 +224,46 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
               <section class="post-content">
                 
                   <p>En muchas redes corporativas me estoy encontrado que una manera que tienen los administradores de controlar la actividad de sus usuarios es bloquear el acceso de los clientes a ciertos puertos mediante reglas de firewall (por ejemplo denegar toda conexión al puerto 22 o solo permitir conexiones al puerto 80 o 443). Medida para nada afectiva, ya que no garantiza que el usuario no se conecte al servicio no deseado, sino que no se conecte al puerto por defecto de dicho servicio. Para saltarse esta restricción es tan sencillo como configurar el servicio en uno de los puertos permitidos.</p>
-
 <p>Si bien es cierto que puede ser bastante molesto, ya que obliga a modificar configuraciones, puede suponer un problema si ya tenemos un servicio activo en el puerto requerido. Esto me motivó a buscar la manera de, a través de un único puerto de un servidor, se pudiera acceder a diversos servicios.</p>
-
-<p></p>
-
 <p>Después de unas búsquedas localicé diversas opciones, pero casi todas ellas
 implicaban complejas configuraciones de iptables, cosa poco práctica.
 Finalmente encontré la respuesta a todas mis oraciones:
-<a href="https://github.com/yrutschle/sslh" target="_blank">sslh</a>.</p>
-
-<p>sslh es un programa desarrollado en <a href="http://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)" target="_blank">C</a> por <a href="http://www.rutschle.net/" target="_blank">Yves
+<a href="https://github.com/yrutschle/sslh">sslh</a>.</p>
+<p>sslh es un programa desarrollado en <a href="http://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)">C</a> por <a href="http://www.rutschle.net/">Yves
 Rütschlé</a>. La manera de funcionar es &ldquo;simple&rdquo;: se queda escuchando en un puerto y cuando recibe una conexión va probando los diversos servicios que tiene configurados hasta dar con el adecuado. Actualmente soporta de manera nativa los siguientes: ssh, openvpn, tinc, xmpp, http, ssl y tls. También es posible especificar otros protocolos en el fichero de configuración mediante expresiones regulares.</p>
-
-<p>Podéis localizar la última versión del programa en <a href="https://github.com/yrutschle/sslh" target="_blank">el repositorio de
+<p>Podéis localizar la última versión del programa en <a href="https://github.com/yrutschle/sslh">el repositorio de
 Github</a>.</p>
-
 <p>A continuación os vamos a detallar, paso a paso, como realizar la instalación
 de esta herramienta. En el ejemplo hemos utilizado una
-<a href="https://www.centos.org" target="_blank">CentOS</a> 6.5.</p>
-
+<a href="https://www.centos.org">CentOS</a> 6.5.</p>
 <p>Primero instalaremos las dependencias de librerías y el compilador gcc:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">yum install -y libconfig libconfig-devel gcc git</code></pre></div>
-<p>Bajamos la última versión del código fuente de github (p.e. en la carpeta opt):</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir /opt/sslh
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">yum install -y libconfig libconfig-devel gcc git
+</code></pre></div><p>Bajamos la última versión del código fuente de github (p.e. en la carpeta opt):</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir /opt/sslh
 cd /opt/sslh
 git init
-git pull https://github.com/yrutschle/sslh</code></pre></div>
-<p>Y realizamos la compilación:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">make install</code></pre></div>
-<p>Ahora copiaremos el script de arranque al init.d para poder realizar un arranque automático del servicio en runlevel 3:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cp scripts/etc.rc.d.init.d.sslh.centos /etc/rc.d/init.d/sslh
+git pull https://github.com/yrutschle/sslh
+</code></pre></div><p>Y realizamos la compilación:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">make install
+</code></pre></div><p>Ahora copiaremos el script de arranque al init.d para poder realizar un arranque automático del servicio en runlevel 3:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cp scripts/etc.rc.d.init.d.sslh.centos /etc/rc.d/init.d/sslh
 ln -s /usr/local/sbin/sslh /usr/sbin/sslh-select
 chkconfig --add sslh
-chkconfig --level 3 sslh on</code></pre></div>
-<p>Y por último pondremos el fichero de configuración:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cp basic.cfg /etc/sslh.cfg</code></pre></div>
-<p>Dentro de dicho fichero modificaremos los parámetros que necesitemos, en este caso los siguientes:</p>
-
+chkconfig --level 3 sslh on
+</code></pre></div><p>Y por último pondremos el fichero de configuración:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cp basic.cfg /etc/sslh.cfg
+</code></pre></div><p>Dentro de dicho fichero modificaremos los parámetros que necesitemos, en este caso los siguientes:</p>
 <ul>
 <li>Sección listen: indicaremos una sola línea con la IP/HOST de nuestro interfaz de red y el puerto al cual queremos que el servicio esté escuchando:</li>
 </ul>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">listen:
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">listen:
 (
     { host: <span style="color:#a31515">&#34;192.168.10.224&#34;</span>; port: <span style="color:#a31515">&#34;8081&#34;</span>; }
-);</code></pre></div>
-<ul>
+);
+</code></pre></div><ul>
 <li>Sección protocols: indicaremos una línea por cada servicio que queramos ofrecer y actualizaremos los campos host y port para cada uno de ellos, poniendo localhost si es un servicio local o la ip/hostname del servidor destino si es un servicio externo. En el caso que nos ocupa lo ofrecerá nuestro servidor, por tanto lo dejaremos tal cual lo muestra el ejemplo:</li>
 </ul>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">protocols:
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">protocols:
 (
     { name: <span style="color:#a31515">&#34;ssh&#34;</span>; service: <span style="color:#a31515">&#34;ssh&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;22&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; },
     { name: <span style="color:#a31515">&#34;openvpn&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;1194&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; },
@@ -283,13 +271,12 @@ chkconfig --level 3 sslh on</code></pre></div>
     { name: <span style="color:#a31515">&#34;http&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;80&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; },
     { name: <span style="color:#a31515">&#34;ssl&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;443&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; },
     { name: <span style="color:#a31515">&#34;anyprot&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;443&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; }
-);</code></pre></div>
-<p>Tan solo queda arrancar el servicio:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/etc/init.d/sslh start</code></pre></div>
-<p>Para probar si el servicio funciona podemos realizar una conexión desde otra máquina a cualquiera de los servicios definidos al puerto 8081 (tal como hemos configurado). En nuestro ejemplo realizaremos una conexión ssh de prueba desde otra máquina:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ssh -p 8081 root@192.168.10.224</code></pre></div>
-<p>Y si habéis seguido todos los pasos correctamente os habréis podido conectar sin problemas.</p>
-
+);
+</code></pre></div><p>Tan solo queda arrancar el servicio:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/etc/init.d/sslh start
+</code></pre></div><p>Para probar si el servicio funciona podemos realizar una conexión desde otra máquina a cualquiera de los servicios definidos al puerto 8081 (tal como hemos configurado). En nuestro ejemplo realizaremos una conexión ssh de prueba desde otra máquina:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ssh -p 8081 root@192.168.10.224
+</code></pre></div><p>Y si habéis seguido todos los pasos correctamente os habréis podido conectar sin problemas.</p>
 <p><strong>NOTA:</strong> Verificad que no existe ningún servicio (p.e. iptables, etc&hellip;) que esté bloqueando el acceso.</p>
               </section>
 
@@ -309,7 +296,7 @@ chkconfig --level 3 sslh on</code></pre></div>
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2flaboratorio-sslh.html&title=Laboratorio%20de%20sslh%3a%20Un%20puerto%20para%20dominarlos%20a%20todos&summary=En%20muchas%20redes%20corporativas%20me%20estoy%20encontrado%20que%20una%20manera%20que%20tienen%20los%20administradores%20de%20controlar%20la%20actividad%20de%20sus%20usuarios%20es%20bloquear%20el%20acceso%20de%20los%20clientes%20a%20ciertos%20puertos%20mediante%20reglas%20de%20firewall%20%28por%20ejemplo%20denegar%20toda%20conexi%c3%b3n%20al%20puerto%2022%20o%20solo%20permitir%20conexiones%20al%20puerto%2080%20o%20443%29.%20Medida%20para%20nada%20afectiva%2c%20ya%20que%20no%20garantiza%20que%20el%20usuario%20no%20se%20conecte%20al%20servicio%20no%20deseado%2c%20sino%20que%20no%20se%20conecte%20al%20puerto%20por%20defecto%20de%20dicho%20servicio.%20Para%20saltarse%20esta%20restricci%c3%b3n%20es%20tan%20sencillo%20como%20configurar%20el%20servicio%20en%20uno%20de%20los%20puertos%20permitidos.%0aSi%20bien%20es%20cierto%20que%20puede%20ser%20bastante%20molesto%2c%20ya%20que%20obliga%20a%20modificar%20configuraciones%2c%20puede%20suponer%20un%20problema%20si%20ya%20tenemos%20un%20servicio%20activo%20en%20el%20puerto%20requerido.%20Esto%20me%20motiv%c3%b3%20a%20buscar%20la%20manera%20de%2c%20a%20trav%c3%a9s%20de%20un%20%c3%banico%20puerto%20de%20un%20servidor%2c%20se%20pudiera%20acceder%20a%20diversos%20servicios.%0a%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2flaboratorio-sslh.html&title=Laboratorio%20de%20sslh%3a%20Un%20puerto%20para%20dominarlos%20a%20todos&summary=En%20muchas%20redes%20corporativas%20me%20estoy%20encontrado%20que%20una%20manera%20que%20tienen%20los%20administradores%20de%20controlar%20la%20actividad%20de%20sus%20usuarios%20es%20bloquear%20el%20acceso%20de%20los%20clientes%20a%20ciertos%20puertos%20mediante%20reglas%20de%20firewall%20%28por%20ejemplo%20denegar%20toda%20conexi%c3%b3n%20al%20puerto%2022%20o%20solo%20permitir%20conexiones%20al%20puerto%2080%20o%20443%29.%20Medida%20para%20nada%20afectiva%2c%20ya%20que%20no%20garantiza%20que%20el%20usuario%20no%20se%20conecte%20al%20servicio%20no%20deseado%2c%20sino%20que%20no%20se%20conecte%20al%20puerto%20por%20defecto%20de%20dicho%20servicio.%20Para%20saltarse%20esta%20restricci%c3%b3n%20es%20tan%20sencillo%20como%20configurar%20el%20servicio%20en%20uno%20de%20los%20puertos%20permitidos.%0aSi%20bien%20es%20cierto%20que%20puede%20ser%20bastante%20molesto%2c%20ya%20que%20obliga%20a%20modificar%20configuraciones%2c%20puede%20suponer%20un%20problema%20si%20ya%20tenemos%20un%20servicio%20activo%20en%20el%20puerto%20requerido.%20Esto%20me%20motiv%c3%b3%20a%20buscar%20la%20manera%20de%2c%20a%20trav%c3%a9s%20de%20un%20%c3%banico%20puerto%20de%20un%20servidor%2c%20se%20pudiera%20acceder%20a%20diversos%20servicios.%0a"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

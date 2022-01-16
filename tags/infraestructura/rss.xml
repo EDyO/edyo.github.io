@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Infraestructura on Entre Dev y Ops</title>
@@ -6,24 +6,21 @@
     <description>Recent content in Infraestructura on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 23 Aug 2016 19:55:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/infraestructura/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 23 Aug 2016 19:55:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/infraestructura/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Amazon Linux, ¿sí o no?</title>
       <link>https://www.entredevyops.es/posts/amazon-linux-si-o-no.html</link>
       <pubDate>Tue, 23 Aug 2016 19:55:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/amazon-linux-si-o-no.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/AmazonWebservices.png&#39; alt=&#39;Amazon Web Services&#39; class=&#39;align-left&#39; height=&#39;80&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Seguro que todos los que usáis o habéis usado Amazon Web Services (AWS para abreviar) alguna vez habréis probado, o usado de forma productiva &lt;a href=&#34;https://aws.amazon.com/es/amazon-linux-ami/&#34; target=&#34;_blank&#34;&gt;Amazon Linux&lt;/a&gt;, la versión de Linux basada en RedHat/CentOS preparada por ellos y &amp;ldquo;equipada&amp;rdquo; para funcionar perfectamente en su servicio EC2.&lt;/p&gt;
-
-&lt;p&gt;Personalmente, mi predilección en cuanto a distribuciones tiende a las de la familia Debian, como la propia Debian o Ubuntu; es algo personal, quizás romántico, llevo muchos años con ellas y me siento más cómodo, no hay motivos técnicos que me liguen a ellas especialmente. A lo largo de mi carrera he trabajado con muchas distribuciones, y todas tienen cosas buenas y malas, no creo que exista la &lt;em&gt;silver bullet&lt;/em&gt; de las distribucciones de Linux, nada más lejos de la realidad. Quede claro que el objetivo de este artículo no es entrar en guerras o discusiones en si es mejor usar Debian, Ubuntu, RedHat o CentOS, el quid de la cuestión aquí es la existencia de Amazon Linux, con sus ventajes e inconvenientes. Así que vamos al lío.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Seguro que todos los que usáis o habéis usado Amazon Web Services (AWS para abreviar) alguna vez habréis probado, o usado de forma productiva &lt;a href=&#34;https://aws.amazon.com/es/amazon-linux-ami/&#34;&gt;Amazon Linux&lt;/a&gt;, la versión de Linux basada en RedHat/CentOS preparada por ellos y &amp;ldquo;equipada&amp;rdquo; para funcionar perfectamente en su servicio EC2.&lt;/p&gt;
+&lt;p&gt;Personalmente, mi predilección en cuanto a distribuciones tiende a las de la familia Debian, como la propia Debian o Ubuntu; es algo personal, quizás romántico, llevo muchos años con ellas y me siento más cómodo, no hay motivos técnicos que me liguen a ellas especialmente. A lo largo de mi carrera he trabajado con muchas distribuciones, y todas tienen cosas buenas y malas, no creo que exista la &lt;em&gt;silver bullet&lt;/em&gt; de las distribucciones de Linux, nada más lejos de la realidad. Quede claro que el objetivo de este artículo no es entrar en guerras o discusiones en si es mejor usar Debian, Ubuntu, RedHat o CentOS, el quid de la cuestión aquí es la existencia de Amazon Linux, con sus ventajes e inconvenientes. Así que vamos al lío.&lt;/p&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Amazon Linux, ¿sí o no?</title>
+        <link>https://www.entredevyops.es/posts/amazon-linux-si-o-no.html</link>
+      </image>
     </item>
     
     <item>
@@ -37,8 +34,12 @@
 
 &lt;img alt=&#34;5 Unsung Tools of DevOps&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/5-unsung-tools.jpg&#34; style=&#34;width: 93px; height: 125px;&#34; /&gt;
 &lt;p&gt;A través de un boletín de Amazon me llegó la noticia de un libro gratuito en formato de EBook con un título que me llamó la atención: &lt;a class=&#34;reference external&#34; href=&#34;http://newrelic.com/devops/unsung-devops-tools&#34;&gt;5 Unsung Tools of DevOps&lt;/a&gt;. Dicho libro no deja de ser un artículo de &lt;a class=&#34;reference external&#34; href=&#34;https://twitter.com/jthurman42&#34;&gt;Jonathan Thurman&lt;/a&gt; sobre una serie de herramientas que él aconseja utilizar en el ámbito de la infraestructura para poder aplicar DeVOps.&lt;/p&gt;
-&lt;p&gt;El autor hace un repaso del uso que él hace sobre dichas herramientas e incluso entra en algunos aspectos de configuración.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;El autor hace un repaso del uso que él hace sobre dichas herramientas e incluso entra en algunos aspectos de configuración.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Reseña del artículo 5 Unsung Tools of DevOps</title>
+        <link>https://www.entredevyops.es/posts/resena-articulo-5-unsung-tools-of-devops.html</link>
+      </image>
     </item>
     
   </channel>

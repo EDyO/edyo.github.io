@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Orchestrate on Entre Dev y Ops</title>
@@ -6,26 +6,22 @@
     <description>Recent content in Orchestrate on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 21 Mar 2017 14:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/orchestrate/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 21 Mar 2017 14:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/orchestrate/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Orchestrate 2017</title>
       <link>https://www.entredevyops.es/posts/orchestrate-2017.html</link>
       <pubDate>Tue, 21 Mar 2017 14:00:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/orchestrate-2017.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/bb4decaa-0e40-11e7-9007-41080697e259.png&#39; alt=&#39;AWS Lambda&#39; class=&#39;align-right&#39; height=&#39;75&#39; width=&#39;200&#39;/&gt;&lt;/p&gt;
-
-&lt;p&gt;El próximo día 06 de Abril de 2017 tiene lugar en Barcelona,, de la mano de &lt;a href=&#34;https://blended.io&#34; target=&#34;_blank&#34;&gt;blended.io&lt;/a&gt;, el &lt;a href=&#34;https://ti.to/blended/orchestrate-2017/en&#34; target=&#34;_blank&#34;&gt;Orchestrate 2017&lt;/a&gt;, un evento sobre DevOps, orquestación y temas relacionados. Tendrá lugar en las oficinas de &lt;a href=&#34;https://codeworks.me&#34; target=&#34;_blank&#34;&gt;Codeworks&lt;/a&gt; y contará tanto de conferencias, ofrecidas por ponentes de renombre, como de talleres.&lt;/p&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;El próximo día 06 de Abril de 2017 tiene lugar en Barcelona,, de la mano de &lt;a href=&#34;https://blended.io&#34;&gt;blended.io&lt;/a&gt;, el &lt;a href=&#34;https://ti.to/blended/orchestrate-2017/en&#34;&gt;Orchestrate 2017&lt;/a&gt;, un evento sobre DevOps, orquestación y temas relacionados. Tendrá lugar en las oficinas de &lt;a href=&#34;https://codeworks.me&#34;&gt;Codeworks&lt;/a&gt; y contará tanto de conferencias, ofrecidas por ponentes de renombre, como de talleres.&lt;/p&gt;
 &lt;p&gt;Algunas de las tecnologías que se hablarán serán Docker, Kubernetes y Tensorflow.&lt;/p&gt;
-
-&lt;p&gt;Nos complace anunciar que ** la organización del Orchestrate ha puesto a disposición de entredevyops una entrada para sortear entre todos nuestros seguidores.**&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Nos complace anunciar que ** la organización del Orchestrate ha puesto a disposición de entredevyops una entrada para sortear entre todos nuestros seguidores.**&lt;/p&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Orchestrate 2017</title>
+        <link>https://www.entredevyops.es/posts/orchestrate-2017.html</link>
+      </image>
     </item>
     
   </channel>

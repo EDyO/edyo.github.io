@@ -25,12 +25,9 @@
         <meta name="twitter:title" content="TLS: de estándares y lobbies" />
         
         <meta name="twitter:description" content="
-
 El grupo de trabajo de IETF encargado de crear la versión 1.3 de TLS lleva trabajando en él desde abril de 2014.
 Llevan ya 16 borradores, el último de este mismo septiembre, así que la publicación del estándar definitivo
-es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.
-
-" />
+es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro." />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/tls-estandares-lobbies.html" />
         <meta name="telegram:channel" content="@entredevyops" />
     
@@ -78,7 +75,7 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.
         "@type": "BlogPosting",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://www.entredevyops.es/posts/tls-estandares-lobbies.html"
+          "@id": "https:\/\/www.entredevyops.es\/posts\/tls-estandares-lobbies.html"
         },
         "headline": "TLS: de estándares y lobbies",
         "description": "",
@@ -95,9 +92,9 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.
         },
         "publisher": {
           "@type": "Organization",
-          "@id": "https://www.entredevyops.es/",
+          "@id": "https:\/\/www.entredevyops.es\/",
           "name": "Entre Dev y Ops",
-          "url": "https://www.entredevyops.es/",
+          "url": "https:\/\/www.entredevyops.es\/",
           "logo": {
             "@type": "ImageObject",
             "url": "https:",
@@ -114,8 +111,8 @@ es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.
         },
         "datePublished": "2016-10-07",
         "dateModified": "2016-10-07",
-        "wordCount": 753,
-        "keywords": ["Seguridad","Estándares"] 
+        "wordCount":  773 ,
+        "keywords": "[\"Seguridad\",\"Estándares\"]" 
     }
     </script>
 
@@ -219,7 +216,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">7 Oct 2016</span> <span class="reading-time">| <span class="estimated-reading-time">4 min.</span> (<span class="word-count">753</span> palabras)</span></span>
+                        <span class="post-date">7 Oct 2016</span> <span class="reading-time">| <span class="estimated-reading-time">4 min.</span> (<span class="word-count">773</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -228,99 +225,110 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <p><img src='/images/b782e002-8ceb-11e6-8121-7860d9049fab.png' alt='TLS' class='align-right' height='100' width='150'/></p>
-
+                  <!-- raw HTML omitted -->
 <p>El grupo de trabajo de IETF encargado de crear la versión 1.3 de TLS lleva trabajando en él desde abril de 2014.
-Llevan ya <a href="https://tools.ietf.org/html/draft-ietf-tls-tls13-16" target="_blank">16 borradores</a>, el último de este mismo septiembre, así que la publicación del estándar definitivo
+Llevan ya <a href="https://tools.ietf.org/html/draft-ietf-tls-tls13-16">16 borradores</a>, el último de este mismo septiembre, así que la publicación del estándar definitivo
 es cuestión de poco tiempo. Siempre que ciertos lobbies lo permitan, claro.</p>
-
-<p></p>
-
 <p>TLS (Transport Layer Security) es el sustituto del antiguo SSL, cuyo uso ya no se recomienda por ser considerado inseguro.
 TLS regula el establecimiento de canales seguros en Internet; dicta cómo cliente y servidor se autentican mutuamente,
 cómo intercambian claves y qué algoritmo de cifrado van a usar. El ejemplo más ubicuo lo encontramos en https, que no es más
 que http sobre un canal TLS.</p>
-
-<p>Uno de los primeros puntos de <a href="https://www.ietf.org/mail-archive/web/tls/current/msg12266.html" target="_blank">consenso</a> del grupo de trabajo del TLS 1.3 fue la eliminación de las suites de cifrado
+<p>Uno de los primeros puntos de <a href="https://www.ietf.org/mail-archive/web/tls/current/msg12266.html">consenso</a> del grupo de trabajo del TLS 1.3 fue la eliminación de las suites de cifrado
 basadas en RSA. Sin entrar en detalles técnicos, lo que pretende el estándar es priorizar las suites de cifrado
-más modernas y seguras, que ofrecen <a href="una característica que permite que, aunque 
-un atacante comprometa las claves de una comunicación determinada, no pueda descifrar comunicaciones anteriores" target="_blank">Perfect Forward Secrecy</a>.</p>
-
+más modernas y seguras, que ofrecen <a href="https://es.wikipedia.org/wiki/Perfect_forward_secrecy">Perfect Forward Secrecy</a> (una característica que permite que, aunque
+un atacante comprometa las claves de una comunicación determinada, no pueda descifrar comunicaciones anteriores).</p>
 <p>En este contexto (llegamos por fin a lo que me motivó a escribir esta entrada), el pasado 22 de septiembre
 se envió un interesante email a la lista de distribución del grupo de trabajo de TLS 1.3.
-<a href="https://www.ietf.org/mail-archive/web/tls/current/msg21278.html" target="_blank">Aquí</a> tenéis el enlace original, y bajo estas líneas una traducción libre de los mejores fragmentos. No tiene desperdicio.</p>
-
+<a href="https://www.ietf.org/mail-archive/web/tls/current/msg21278.html">Aquí</a> tenéis el enlace original, y bajo estas líneas una traducción libre de los mejores fragmentos. No tiene desperdicio.</p>
 <blockquote>
 <p>Asunto: Preocupaciones de la industria respecto a TLS 1.3</p>
-
+</blockquote>
+<blockquote>
 <p>Mi nombre es Andrew Kennedy y trabajo en BITS, la división tecnológica de Financial Services Roundtable
-(<a href="http://www.fsroundtable.org/bits" target="_blank">http://www.fsroundtable.org/bits</a>). Mi organización representa aproximadamente 100 de las 150 mayores compañías
+(<a href="http://www.fsroundtable.org/bits)">http://www.fsroundtable.org/bits)</a>. Mi organización representa aproximadamente 100 de las 150 mayores compañías
 estadounidenses de servicios financieros incluyendo bancos, seguros, financieras domésticas y gestión de activos.</p>
-
+</blockquote>
+<blockquote>
 <p>(&hellip;)</p>
-
+</blockquote>
+<blockquote>
 <p>Soy consciente y apoyo totalmente la gran contribución que este grupo de trabajo ha realizado a favor de la seguridad
 en Internet en estos últimos años. No obstante, he sabido recientemente de un cambio propuesto que afectaría a muchas
 de las instituciones que forman parte de mi organización: la discontinuación del intercambio de claves RSA.</p>
-
+</blockquote>
+<blockquote>
 <p>Dicha discontinuación (&hellip;) causará problemas significativos en las instituciones financieras, la mayor parte
 de las cuales utiliza TLS internamente y posee inversiones significativas en tecnologías de descifrado fuera de banda.</p>
-
+</blockquote>
+<blockquote>
 <p>(&hellip;)</p>
-
+</blockquote>
+<blockquote>
 <p>A diferencia de otros sectores, las instituciones financieras se apoyan en el descifrado de tráfico TLS para implementar
 monitorización de fraude y vigilancia de empleados supervisados. Los productos que soportan esas capacidades tendrán
 que ser reemplazados o sustancialmente rediseñados con un coste y pérdida de escalabilidad significativos para poder
 continuar soportando la funcionalidad que las instituciones financieras y sus reguladores requieren.</p>
-
+</blockquote>
+<blockquote>
 <p>El impacto en la supervisión será particularmente severo. A las instituciones financieras se les requiere por ley
 almacenar las comunicaciones de ciertos empleados (incluyendo brokers/dealers) de forma que se asegure que puede
 recuperarse y leerse en caso de que se inicie una investigación sobre comportamiento impropio.Las regulaciones que
 requieren dicha retención de las comunicaciones se enfocaron inicialmente en correo físico y electrónico, pero ahora
 se extienden a muchas otras formas de comunicación incluyendo mensajería instantánea, redes sociales y aplicaciones
 colaborativas. Todas esas comunicaciones están protegidos por TLS.</p>
-
+</blockquote>
+<blockquote>
 <p>(&hellip;)</p>
-
+</blockquote>
+<blockquote>
 <p>Actualmente, las soluciones que ofrece TLS 1.3 a problemas como fuga de datos, detección de intrusiones,
 mitigación de ataques de denegación de servicio, detección de malware, y monitorización de empleados regulados parecen
 ser o bien inmaduras o directamente inexistentes.</p>
-
+</blockquote>
+<blockquote>
 <p>(&hellip;)</p>
-
+</blockquote>
+<blockquote>
 <p>Hasta que estos asuntos críticos relacionados con la seguridad corporativa, la supervisión de empleados y la visibilidad
 de red sean solucionados (&hellip;) pido en nombre de nuestros miembros que el grupo de trabajo TLS 1.3 retrase esta decisión
 hasta que se identifique y se examine una solución viable y escalable, y en última instancia se incluya en el estándar.</p>
-
+</blockquote>
+<blockquote>
 <p>Sinceramente,</p>
-
+</blockquote>
+<blockquote>
 <p>Andrew</p>
 </blockquote>
-
-<p>Respuesta de <a href="http://www.isg.rhul.ac.uk/~kp/" target="_blank">Kenny Patterson</a>, uno de los miembros del grupo de trabajo:</p>
-
+<p>Respuesta de <a href="http://www.isg.rhul.ac.uk/~kp/">Kenny Patterson</a>, uno de los miembros del grupo de trabajo:</p>
 <blockquote>
 <p>Asunto: Re: Preocupaciones de la industria respecto a TLS 1.3</p>
-
+</blockquote>
+<blockquote>
 <p>Hola Andrew,</p>
-
+</blockquote>
+<blockquote>
 <p>Mi opinión acerca de tu petición: no.</p>
-
+</blockquote>
+<blockquote>
 <p>Razón: estamos intentando construir un internet más seguro.</p>
-
+</blockquote>
+<blockquote>
 <p>Meta-comentario:</p>
-
+</blockquote>
+<blockquote>
 <p>Llegas un poco tarde a la fiesta. Metafóricamente hablando, estamos ya vaciando los ceniceros y
 rebuscando entre las latas de cerveza medio vacías.</p>
-
+</blockquote>
+<blockquote>
 <p>Más en detalle, estamos ya en el borrador 15 y el transporte de claves RSA desapareció de las especificaciones
 hace una docena de borradores. Sabía que en la banca sois un poquito lentos, pero esto se lleva la palma.</p>
-
+</blockquote>
+<blockquote>
 <p>Saludos,</p>
-
+</blockquote>
+<blockquote>
 <p>Kenny</p>
 </blockquote>
-
 <p>Dejando de lado el ¡zasca! nivel épico que nuestro amigo de la banca recibe, hay tanta chicha y subtexto en estos dos
 mails que no sé ni por dónde empezar. Lo voy a dejar aquí y sigo en los comentarios.</p>
               </section>
@@ -341,7 +349,7 @@ mails que no sé ni por dónde empezar. Lo voy a dejar aquí y sigo en los comen
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2ftls-estandares-lobbies.html&title=TLS%3a%20de%20est%c3%a1ndares%20y%20lobbies&summary=El%20grupo%20de%20trabajo%20de%20IETF%20encargado%20de%20crear%20la%20versi%c3%b3n%201.3%20de%20TLS%20lleva%20trabajando%20en%20%c3%a9l%20desde%20abril%20de%202014.%20Llevan%20ya%2016%20borradores%2c%20el%20%c3%baltimo%20de%20este%20mismo%20septiembre%2c%20as%c3%ad%20que%20la%20publicaci%c3%b3n%20del%20est%c3%a1ndar%20definitivo%20es%20cuesti%c3%b3n%20de%20poco%20tiempo.%20Siempre%20que%20ciertos%20lobbies%20lo%20permitan%2c%20claro.%0a%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2ftls-estandares-lobbies.html&title=TLS%3a%20de%20est%c3%a1ndares%20y%20lobbies&summary=El%20grupo%20de%20trabajo%20de%20IETF%20encargado%20de%20crear%20la%20versi%c3%b3n%201.3%20de%20TLS%20lleva%20trabajando%20en%20%c3%a9l%20desde%20abril%20de%202014.%20Llevan%20ya%2016%20borradores%2c%20el%20%c3%baltimo%20de%20este%20mismo%20septiembre%2c%20as%c3%ad%20que%20la%20publicaci%c3%b3n%20del%20est%c3%a1ndar%20definitivo%20es%20cuesti%c3%b3n%20de%20poco%20tiempo.%20Siempre%20que%20ciertos%20lobbies%20lo%20permitan%2c%20claro.%0a"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

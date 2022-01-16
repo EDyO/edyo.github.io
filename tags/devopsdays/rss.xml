@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Devopsdays on Entre Dev y Ops</title>
+    <title>devopsdays on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/devopsdays.html</link>
-    <description>Recent content in Devopsdays on Entre Dev y Ops</description>
+    <description>Recent content in devopsdays on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sat, 12 Oct 2013 20:13:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/devopsdays/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 12 Oct 2013 20:13:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/devopsdays/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Charlas en el DevOpsDays Barcelona 2013</title>
       <link>https://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html</link>
@@ -23,8 +19,12 @@
 &lt;div class=&#34;section&#34; id=&#34;devops-days-barcelona-2013&#34;&gt;
 &lt;h2&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://devopsdays.org/events/2013-barcelona/&#34;&gt;devops days Barcelona 2013&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Como decíamos en nuestro último post, éstos dos últimos días, jueves y viernes, se ha celebrado en la &lt;a class=&#34;reference external&#34; href=&#34;https://plus.google.com/100068709387237553942/about?gl=ES&amp;amp;hl=en-ES&#34;&gt;Fábrica de la Moritz&lt;/a&gt; de Barcelona, el evento &lt;a class=&#34;reference external&#34; href=&#34;http://devopsdays.org&#34;&gt;devops days&lt;/a&gt; en su edición de 2013. El evento en sí ha estado muy bien y bastante interesante. Con muchos asistentes, se podría decir que cerca de 100 personas, la posibilidad de hacer networking era muy interesante. Podréis encontrar todos los vídeos en &lt;a class=&#34;reference external&#34; href=&#34;http://vimeo.com/album/2565361&#34;&gt;la página de vimeo&lt;/a&gt;.
-El evento lo ha organizado &lt;a class=&#34;reference external&#34; href=&#34;http://rhommell.com/&#34;&gt;Rhommel Lamas&lt;/a&gt;, y ha contado con el patrocinio de &lt;a class=&#34;reference external&#34; href=&#34;http://www.moritz.com/&#34;&gt;Moritz&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.strsistemas.com/&#34;&gt;STR Sistemas&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.rakuten.co.jp/&#34;&gt;Rakuten&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.ca.com/es/lpg/appvelocity/home.aspx&#34;&gt;CA&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.tid.es/&#34;&gt;Telefónica I+D&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.3scale.net/&#34;&gt;3Scale&lt;/a&gt;, y &lt;a class=&#34;reference external&#34; href=&#34;http://github.com/&#34;&gt;GitHub&lt;/a&gt;. Realmente, conviene que este evento se repita y crezca, tanto en cantidad de asistentes, como de ponentes.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+El evento lo ha organizado &lt;a class=&#34;reference external&#34; href=&#34;http://rhommell.com/&#34;&gt;Rhommel Lamas&lt;/a&gt;, y ha contado con el patrocinio de &lt;a class=&#34;reference external&#34; href=&#34;http://www.moritz.com/&#34;&gt;Moritz&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.strsistemas.com/&#34;&gt;STR Sistemas&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.rakuten.co.jp/&#34;&gt;Rakuten&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.ca.com/es/lpg/appvelocity/home.aspx&#34;&gt;CA&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.tid.es/&#34;&gt;Telefónica I+D&lt;/a&gt;, &lt;a class=&#34;reference external&#34; href=&#34;http://www.3scale.net/&#34;&gt;3Scale&lt;/a&gt;, y &lt;a class=&#34;reference external&#34; href=&#34;http://github.com/&#34;&gt;GitHub&lt;/a&gt;. Realmente, conviene que este evento se repita y crezca, tanto en cantidad de asistentes, como de ponentes.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Charlas en el DevOpsDays Barcelona 2013</title>
+        <link>https://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html</link>
+      </image>
     </item>
     
     <item>
@@ -34,6 +34,11 @@ El evento lo ha organizado &lt;a class=&#34;reference external&#34; href=&#34;ht
       
       <guid>https://www.entredevyops.es/posts/devopsdays-barcelona-2013.html</guid>
       <description>devops days Barcelona 2013 Hoy y mañana, en la Fábrica de la Moritz, en Barcelona, tiene lugar la edición de devops days correspondiente a 2013. En los próximos días podréis encontrar artículos sobre las charlas más interesantes que se han hecho.</description>
+      <image>
+        <url>/images/</url>
+        <title>DevOpsDays Barcelona 2013</title>
+        <link>https://www.entredevyops.es/posts/devopsdays-barcelona-2013.html</link>
+      </image>
     </item>
     
   </channel>

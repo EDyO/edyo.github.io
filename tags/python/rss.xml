@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Entre Dev y Ops</title>
@@ -6,24 +6,21 @@
     <description>Recent content in Python on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 22 Jul 2016 12:15:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/python/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 22 Jul 2016 12:15:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/python/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BBC micro:bit</title>
       <link>https://www.entredevyops.es/posts/bbc-micro-bit.html</link>
       <pubDate>Fri, 22 Jul 2016 12:15:00 +0000</pubDate>
       
       <guid>https://www.entredevyops.es/posts/bbc-micro-bit.html</guid>
-      <description>&lt;p&gt;&lt;img src=&#39;https://www.entredevyops.es/images/bbc-microbit.jpg&#39; alt=&#39;BBC micro:bit&#39; class=&#39;border align-right&#39; height=&#39;180&#39; width=&#39;240&#39;/&gt;&lt;/p&gt;
-
-&lt;p&gt;Que el fenómeno &lt;a href=&#34;https://es.wikipedia.org/wiki/Internet_de_las_cosas&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Internet of Things&lt;/em&gt;&lt;/a&gt; (también conocido en su forma abreviada como IoT) está de moda es más que un hecho, este nuevo concepto está aquí para quedarse, y por bastante tiempo.&lt;/p&gt;
-
-&lt;p&gt;Pensaréis, ¿y todo esto, a qué viene?, pues esta semana se celebra el &lt;a href=&#34;https://europython.eu&#34; target=&#34;_blank&#34;&gt;EuroPython&lt;/a&gt;, que por segundo año consecutivo se emplaza en Bilbao (bonita ciudad donde las haya, y que recomiendo visitar si no lo habéis hecho aún), y en esta edición, además de entregar la bolsa de bienvenida de rigor, han regalado una &lt;a href=&#34;https://www.microbit.co.uk/&#34; target=&#34;_blank&#34;&gt;BBC micro:bit&lt;/a&gt;, no sin antes haberla dado a conocer en varias charlas, que pronto estarán disponibles en vídeo.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Que el fenómeno &lt;a href=&#34;https://es.wikipedia.org/wiki/Internet_de_las_cosas&#34;&gt;&lt;em&gt;Internet of Things&lt;/em&gt;&lt;/a&gt; (también conocido en su forma abreviada como IoT) está de moda es más que un hecho, este nuevo concepto está aquí para quedarse, y por bastante tiempo.&lt;/p&gt;
+&lt;p&gt;Pensaréis, ¿y todo esto, a qué viene?, pues esta semana se celebra el &lt;a href=&#34;https://europython.eu&#34;&gt;EuroPython&lt;/a&gt;, que por segundo año consecutivo se emplaza en Bilbao (bonita ciudad donde las haya, y que recomiendo visitar si no lo habéis hecho aún), y en esta edición, además de entregar la bolsa de bienvenida de rigor, han regalado una &lt;a href=&#34;https://www.microbit.co.uk/&#34;&gt;BBC micro:bit&lt;/a&gt;, no sin antes haberla dado a conocer en varias charlas, que pronto estarán disponibles en vídeo.&lt;/p&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>BBC micro:bit</title>
+        <link>https://www.entredevyops.es/posts/bbc-micro-bit.html</link>
+      </image>
     </item>
     
     <item>
@@ -33,6 +30,11 @@
       
       <guid>https://www.entredevyops.es/posts/coding-dojo-python-noviembre.html</guid>
       <description>El próximo sábado, 15 de noviembre, se celebrará un Coding Dojo del grupo de Python BCN, en el que se practicará con la técnica de mocking. El evento tendrá lugar en el Punt Multimèdia del Parc de l&#39;Espanya Industrial, en Barcelona. Si queréis asistir, debéis apuntaros.</description>
+      <image>
+        <url>/images/</url>
+        <title>Coding Dojo en Python</title>
+        <link>https://www.entredevyops.es/posts/coding-dojo-python-noviembre.html</link>
+      </image>
     </item>
     
     <item>
@@ -45,8 +47,12 @@
 
 
 &lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
-&lt;p&gt;Como la semana pasada no se publicaron noticias, las hemos unido, por lo que en esta entrega, tenemos bastantes noticias: La publicación del manual del administrador de &lt;a class=&#34;reference external&#34; href=&#34;http://debian.org&#34;&gt;Debian&lt;/a&gt;, una nueva librería para gestionar recursos en &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/ec2/&#34;&gt;EC2&lt;/a&gt; desde Python, una presentación sobre &lt;a class=&#34;reference external&#34; href=&#34;http://flapjack.io/&#34;&gt;Flapjack&lt;/a&gt;, otra para hacer pruebas sobre navegadores con JavaScript, otra plataforma de monitorización que se integra con &lt;a class=&#34;reference external&#34; href=&#34;http://graphite.wikidot.com/&#34;&gt;Graphite&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://jenkins-ci.org&#34;&gt;Jenkins&lt;/a&gt;, otra más que permite exponer un directorio con guiones de &lt;em&gt;bash&lt;/em&gt; como API REST, y la adición de nuevas localizaciones a los servicios de &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/cloudfront/&#34;&gt;CloudFront&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/route53/&#34;&gt;Route 53&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;Como la semana pasada no se publicaron noticias, las hemos unido, por lo que en esta entrega, tenemos bastantes noticias: La publicación del manual del administrador de &lt;a class=&#34;reference external&#34; href=&#34;http://debian.org&#34;&gt;Debian&lt;/a&gt;, una nueva librería para gestionar recursos en &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/ec2/&#34;&gt;EC2&lt;/a&gt; desde Python, una presentación sobre &lt;a class=&#34;reference external&#34; href=&#34;http://flapjack.io/&#34;&gt;Flapjack&lt;/a&gt;, otra para hacer pruebas sobre navegadores con JavaScript, otra plataforma de monitorización que se integra con &lt;a class=&#34;reference external&#34; href=&#34;http://graphite.wikidot.com/&#34;&gt;Graphite&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://jenkins-ci.org&#34;&gt;Jenkins&lt;/a&gt;, otra más que permite exponer un directorio con guiones de &lt;em&gt;bash&lt;/em&gt; como API REST, y la adición de nuevas localizaciones a los servicios de &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/cloudfront/&#34;&gt;CloudFront&lt;/a&gt; y &lt;a class=&#34;reference external&#34; href=&#34;http://aws.amazon.com/es/route53/&#34;&gt;Route 53&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Noticias semanales (Ene II y III)</title>
+        <link>https://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html</link>
+      </image>
     </item>
     
     <item>
@@ -58,8 +64,12 @@
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;p&gt;El pasado mes de Noviembre de 2013 durante los días 23 y 24, se celebró la primera conferencia sobre el lenguaje Python en España, la &lt;a class=&#34;reference external&#34; href=&#34;http://2013.es.pycon.org/&#34;&gt;PyConES&lt;/a&gt;, organizada por la asociación &lt;a class=&#34;reference external&#34; href=&#34;http://www.es.python.org/&#34;&gt;Python España&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;El pasado mes de Noviembre de 2013 durante los días 23 y 24, se celebró la primera conferencia sobre el lenguaje Python en España, la &lt;a class=&#34;reference external&#34; href=&#34;http://2013.es.pycon.org/&#34;&gt;PyConES&lt;/a&gt;, organizada por la asociación &lt;a class=&#34;reference external&#34; href=&#34;http://www.es.python.org/&#34;&gt;Python España&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Disponibles los vídeos de las charlas de la PyConES 2013</title>
+        <link>https://www.entredevyops.es/posts/disponibles-videos-pycones-2013.html</link>
+      </image>
     </item>
     
     <item>
@@ -72,8 +82,12 @@
 
 
 &lt;img alt=&#34;La información semanal sobre lo que te interesa&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/Weekly-Newspaper.jpg&#34; style=&#34;width: 213px; height: 141px;&#34; /&gt;
-&lt;p&gt;Debido a que el ritmo de publicación de noticias se había incrementado hasta el punto de casi no tener tiempo para escribir nada más, en Entre Dev Y Ops vamos a probar publicar un sólo post semanal con las noticias más interesantes de cada semana.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;Debido a que el ritmo de publicación de noticias se había incrementado hasta el punto de casi no tener tiempo para escribir nada más, en Entre Dev Y Ops vamos a probar publicar un sólo post semanal con las noticias más interesantes de cada semana.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Noticias semanales (Dic III)</title>
+        <link>https://www.entredevyops.es/posts/noticias-semanales-diciembre-2013-3.html</link>
+      </image>
     </item>
     
     <item>
@@ -86,8 +100,12 @@
 
 
 &lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
-&lt;p&gt;El segundo día de la &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon&lt;/a&gt;&#39;13 estuvo plagado de charlas y actividades, el final del &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/hackathon/&#34;&gt;Hackathon for education&lt;/a&gt;, Los concursos de Mario Kart y Street Fighter. El salón de &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/retrobarcelona/&#34;&gt;RetroBarcelona&lt;/a&gt; fue muy visitado y la &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/activities/agile-station/&#34;&gt;Agile Station&lt;/a&gt;, coordinada por la gente de &lt;a class=&#34;reference external&#34; href=&#34;http://barcelona.agile-spain.org/&#34;&gt;Agile BCN&lt;/a&gt;, tuvo una actividad frenética, como el día anterior.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;El segundo día de la &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon&lt;/a&gt;&#39;13 estuvo plagado de charlas y actividades, el final del &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/hackathon/&#34;&gt;Hackathon for education&lt;/a&gt;, Los concursos de Mario Kart y Street Fighter. El salón de &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/retrobarcelona/&#34;&gt;RetroBarcelona&lt;/a&gt; fue muy visitado y la &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org/activities/agile-station/&#34;&gt;Agile Station&lt;/a&gt;, coordinada por la gente de &lt;a class=&#34;reference external&#34; href=&#34;http://barcelona.agile-spain.org/&#34;&gt;Agile BCN&lt;/a&gt;, tuvo una actividad frenética, como el día anterior.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Segundo día en la BcnDevCon&#39;13</title>
+        <link>https://www.entredevyops.es/posts/bcndevcon-2013-segundo-dia.html</link>
+      </image>
     </item>
     
     <item>
@@ -101,8 +119,12 @@
 
 &lt;img alt=&#34;BcnDevCon13&#34; class=&#34;border align-right&#34; src=&#34;https://www.entredevyops.es/images/bcndevcon13.jpeg&#34; style=&#34;width: 125px; height: 125px;&#34; /&gt;
 &lt;p&gt;Ayer, día 8 de noviembre, ha tenido su inicio el &lt;a class=&#34;reference external&#34; href=&#34;http://bcndevcon.org&#34;&gt;BcnDevCon13&lt;/a&gt;. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en &lt;em&gt;cloud&lt;/em&gt;, móvil, robótica y &lt;em&gt;open source&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Primer día en la BcnDevCon&#39;13</title>
+        <link>https://www.entredevyops.es/posts/bcndevcon-2013-primer-dia.html</link>
+      </image>
     </item>
     
     <item>
@@ -112,6 +134,11 @@
       
       <guid>https://www.entredevyops.es/posts/europython-2014-berlin.html</guid>
       <description>Se han hecho públicas las fechas para la EuroPython del año que viene. Como ya era conocido, ésta se celebrará en Berlín. Lo que se comunicó el pasado día 24, es que tendrá lugar del 21 al 27 de julio y el lugar es el Berlin Congress Center.</description>
+      <image>
+        <url>/images/</url>
+        <title>EuroPython 2014 en Berlín</title>
+        <link>https://www.entredevyops.es/posts/europython-2014-berlin.html</link>
+      </image>
     </item>
     
     <item>
@@ -123,8 +150,12 @@
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;p&gt;El grupo de &lt;a class=&#34;reference external&#34; href=&#34;http://www.meetup.com/python-185/&#34;&gt;Python Barcelona&lt;/a&gt; de &lt;a class=&#34;reference external&#34; href=&#34;http://www.meetup.com&#34;&gt;Meetup&lt;/a&gt; organiza reuniones monográficas sobre temas relacionados con &lt;a class=&#34;reference external&#34; href=&#34;http://www.python.org/&#34;&gt;Python&lt;/a&gt;. En esta ocasión, se hicieron presentaciones sobre metodologías de desarrollo.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;El grupo de &lt;a class=&#34;reference external&#34; href=&#34;http://www.meetup.com/python-185/&#34;&gt;Python Barcelona&lt;/a&gt; de &lt;a class=&#34;reference external&#34; href=&#34;http://www.meetup.com&#34;&gt;Meetup&lt;/a&gt; organiza reuniones monográficas sobre temas relacionados con &lt;a class=&#34;reference external&#34; href=&#34;http://www.python.org/&#34;&gt;Python&lt;/a&gt;. En esta ocasión, se hicieron presentaciones sobre metodologías de desarrollo.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Encuentro Agile-Python BCN</title>
+        <link>https://www.entredevyops.es/posts/agile-python-bcn-meetup.html</link>
+      </image>
     </item>
     
   </channel>

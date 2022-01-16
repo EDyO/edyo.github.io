@@ -26,14 +26,10 @@
         <meta name="twitter:title" content="¿Dejarías entrar a Alexa en tu casa?" />
         
         <meta name="twitter:description" content="
-
 En pleno auge del IoT (Intenet de las
 cosas) Amazon nos presenta un producto que combina hardware y software con el objetivo de ofrecernos una nueva asistenta virtual del hogar que viene a romper las reglas, pero yo me lo
 pensaría dos veces antes de dejarla entrar en mi casa.
-
-A continuación, os explico mis motivos.
-
-" />
+A continuación, os explico mis motivos." />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/seguridad-alexa.html" />
         <meta name="telegram:channel" content="@entredevyops" />
     
@@ -81,7 +77,7 @@ A continuación, os explico mis motivos.
         "@type": "BlogPosting",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://www.entredevyops.es/posts/seguridad-alexa.html"
+          "@id": "https:\/\/www.entredevyops.es\/posts\/seguridad-alexa.html"
         },
         "headline": "¿Dejarías entrar a Alexa en tu casa?",
         "description": "",
@@ -98,9 +94,9 @@ A continuación, os explico mis motivos.
         },
         "publisher": {
           "@type": "Organization",
-          "@id": "https://www.entredevyops.es/",
+          "@id": "https:\/\/www.entredevyops.es\/",
           "name": "Entre Dev y Ops",
-          "url": "https://www.entredevyops.es/",
+          "url": "https:\/\/www.entredevyops.es\/",
           "logo": {
             "@type": "ImageObject",
             "url": "https:",
@@ -117,8 +113,8 @@ A continuación, os explico mis motivos.
         },
         "datePublished": "2017-01-10",
         "dateModified": "2017-01-10",
-        "wordCount": 608,
-        "keywords": ["Alexa","Seguridad","IoT"] 
+        "wordCount":  608 ,
+        "keywords": "[\"Alexa\",\"Seguridad\",\"IoT\"]" 
     }
     </script>
 
@@ -231,87 +227,68 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <p><img src='/images/eaad251a-d759-11e6-9484-fcae118cc767.png' alt='Ssh Google Authenticator' class='align-right' height='200' width='200'/></p>
-
-<p>En pleno auge del <a href="https://es.wikipedia.org/wiki/Internet_de_las_cosas" target="_blank">IoT (Intenet de las
+                  <!-- raw HTML omitted -->
+<p>En pleno auge del <a href="https://es.wikipedia.org/wiki/Internet_de_las_cosas">IoT (Intenet de las
 cosas)</a> Amazon nos presenta un producto que combina hardware y software con el objetivo de ofrecernos una nueva asistenta virtual del hogar que viene a romper las reglas, pero yo me lo
 pensaría dos veces antes de dejarla entrar en mi casa.</p>
-
 <p>A continuación, os explico mis motivos.</p>
-
-<p></p>
-
 <p>Amazon ha sacado dos servicios que vienen a
-cambiar nuestra vida: <a href="https://www.youtube.com/watch?v=KkOCeAtKHIc" target="_blank">Amazon Echo</a> y  <a href="https://youtu.be/UOEIH2l9z7c" target="_blank">Alexa Voice Service</a>.</p>
-
-<p><a href="https://www.youtube.com/watch?v=KkOCeAtKHIc" target="_blank">Amazon Echo</a> es el sistema de
+cambiar nuestra vida: <a href="https://www.youtube.com/watch?v=KkOCeAtKHIc">Amazon Echo</a> y  <a href="https://youtu.be/UOEIH2l9z7c">Alexa Voice Service</a>.</p>
+<p><a href="https://www.youtube.com/watch?v=KkOCeAtKHIc">Amazon Echo</a> es el sistema de
 comandos de voz de Amazon.com, del estilo asistente virtual como Siri o
-Cortana, pero con un enfoque claramente al hogar. Echo utiliza  <a href="https://youtu.be/UOEIH2l9z7c" target="_blank">Alexa Voice Service</a>
+Cortana, pero con un enfoque claramente al hogar. Echo utiliza  <a href="https://youtu.be/UOEIH2l9z7c">Alexa Voice Service</a>
 como interfaz de voz para que podamos gestionar e interactuar con el dispositivo.</p>
-
 <p>La combinación de dichos servicios/productos quieren revolucionar nuestra vida
-al más puro estilo <a href="https://www.youtube.com/watch?v=Wx7RCJvoCMc" target="_blank">Jarvis de
+al más puro estilo <a href="https://www.youtube.com/watch?v=Wx7RCJvoCMc">Jarvis de
 Ironman</a> pudiendo solicitar a
 nuestro asistente virtual Alexa que reproduzca música, apague las luces, nos
 diga las cantidades de ingredientes de una receta, cierre la puerta del garaje,
 la previsión del tiempo, nuestro balance bancario, haga la compra, etc..
 <strong>Básicamente es la ama de llaves virtual que todo el mundo querría tener.</strong></p>
-
 <p>Pero cuidado, no todo es tan bonito como lo pintan.</p>
-
 <p>No me mal interpretéis, creo que tenemos que evolucionar y en un futuro no muy
 lejano este tipo de asistentes será un accesorio imprescindible en todos los
-hogares, y más <a href="https://github.com/alexa/alexa-avs-sample-app" target="_blank">viendo el empeño que está poniendo Amazon para facilitar la
+hogares, y más <a href="https://github.com/alexa/alexa-avs-sample-app">viendo el empeño que está poniendo Amazon para facilitar la
 integración de todo tipo de
 dispositivos</a>, pero los primeros
 usuarios han puesto de manifiesto algunos detalles que tenemos que tener en
 cuenta si queremos adquirir uno de estos productos para nuestra casa:</p>
-
 <ul>
 <li><strong>Alexa siempre escucha</strong></li>
 </ul>
-
 <p>Alexa deja activado los micrófonos de Echo a la espera de recibir la orden de
 comando de voz “Alexa…”. Según Amazon esto no es un problema ya que solo se
 enviará información a sus servidores una vez que se detecte dicho comando, y el
 dispositivo ignorará el resto de las conversaciones.</p>
-
 <p>En este punto podemos ponernos en modo paranoico y preguntarnos qué garantía
 tenemos que esto sea así. Ya no estoy hablando de las buenas intenciones de
 Amazon (que estoy seguro que existen) si no de la posibilidad que exista un
 fallo en el software que dé acceso a terceros a escuchar todas nuestras
 conversaciones.</p>
-
 <ul>
 <li><strong>Alexa no distingue las voces</strong></li>
 </ul>
-
 <p>Alexa no tiene capacidad para diferenciar o identificar la voz, esto
 significa que cualquiera puede activar Alexa y darle órdenes. La verdad es
 que no me siento muy cómodo que una persona que se encuentre en mi casa
 pueda preguntarle a Alexa cuanto saldo tengo en mi cuenta bancaria.</p>
-
 <ul>
 <li><strong>Por defecto está activada la opción de compra directa a través de Alexa</strong></li>
 </ul>
-
 <p>Una de las características más potentes es el hecho de poder solicitar a Alexa
 que nos haga la compra a través de Amazon, contrate un desplazamiento a través
 de Uber, etc… El problema viene cuando porque Alexa tiene habilitada por defecto
 la opción de compra directa en Amazon (existe la opción de protegerla por código
 o hacer requerir de una confirmación por la app) y utiliza nuestra
 configuración por predeterminada para realizar el pago y la entrega. Esto, añadido al
-punto anterior puede dar situaciones surrealistas como el caso de <a href="http://www.microsiervos.com/archivo/gadgets/locutora-tv-compro-montones-casas-munecas-alexa-espectadores.html" target="_blank">una
+punto anterior puede dar situaciones surrealistas como el caso de <a href="http://www.microsiervos.com/archivo/gadgets/locutora-tv-compro-montones-casas-munecas-alexa-espectadores.html">una
 presentadora de televisión que hizo comprar montones de casa de muñecas a sus
 espectadores a través de
 Alexa</a></p>
-
 <p>Yo seguramente en unos años dejaré entrar a Alexa (o similar) en mi casa, pero
 creo que este tipo de tecnología todavía tiene que mejorar en temas de seguridad
 y privacidad.</p>
-
 <p>¿Qué opináis?, ¿creéis que esta tecnología está suficientemente madura, todavía le falta recorrido o simplemente lo que comento es fruto de una mala configuración?</p>
-
 <p>Espero vuestros comentarios.</p>
               </section>
 
@@ -333,7 +310,7 @@ y privacidad.</p>
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fseguridad-alexa.html&title=%c2%bfDejar%c3%adas%20entrar%20a%20Alexa%20en%20tu%20casa%3f&summary=En%20pleno%20auge%20del%20IoT%20%28Intenet%20de%20las%20cosas%29%20Amazon%20nos%20presenta%20un%20producto%20que%20combina%20hardware%20y%20software%20con%20el%20objetivo%20de%20ofrecernos%20una%20nueva%20asistenta%20virtual%20del%20hogar%20que%20viene%20a%20romper%20las%20reglas%2c%20pero%20yo%20me%20lo%20pensar%c3%ada%20dos%20veces%20antes%20de%20dejarla%20entrar%20en%20mi%20casa.%0aA%20continuaci%c3%b3n%2c%20os%20explico%20mis%20motivos.%0a%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fseguridad-alexa.html&title=%c2%bfDejar%c3%adas%20entrar%20a%20Alexa%20en%20tu%20casa%3f&summary=En%20pleno%20auge%20del%20IoT%20%28Intenet%20de%20las%20cosas%29%20Amazon%20nos%20presenta%20un%20producto%20que%20combina%20hardware%20y%20software%20con%20el%20objetivo%20de%20ofrecernos%20una%20nueva%20asistenta%20virtual%20del%20hogar%20que%20viene%20a%20romper%20las%20reglas%2c%20pero%20yo%20me%20lo%20pensar%c3%ada%20dos%20veces%20antes%20de%20dejarla%20entrar%20en%20mi%20casa.%0aA%20continuaci%c3%b3n%2c%20os%20explico%20mis%20motivos.%0a"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mongodb on Entre Dev y Ops</title>
+    <title>MongoDB on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/mongodb.html</link>
-    <description>Recent content in Mongodb on Entre Dev y Ops</description>
+    <description>Recent content in MongoDB on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 19 Mar 2014 22:20:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/mongodb/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 19 Mar 2014 22:20:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/mongodb/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Evento de MongoDB en Barcelona</title>
       <link>https://www.entredevyops.es/posts/evento-mongodb-barcelona.html</link>
@@ -20,8 +16,12 @@
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.mongodb.com/&#34;&gt;MongoDB, Inc.&lt;/a&gt;, la empresa detrás de la popular Base de Datos NoSQL y con la que comparte nombre, organiza un evento en Barcelona.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.mongodb.com/&#34;&gt;MongoDB, Inc.&lt;/a&gt;, la empresa detrás de la popular Base de Datos NoSQL y con la que comparte nombre, organiza un evento en Barcelona.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Evento de MongoDB en Barcelona</title>
+        <link>https://www.entredevyops.es/posts/evento-mongodb-barcelona.html</link>
+      </image>
     </item>
     
     <item>
@@ -33,8 +33,12 @@
       <description>&lt;div class=&#34;document&#34;&gt;
 
 
-&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.mongodb.com/&#34;&gt;MongoDB, Inc.&lt;/a&gt;, (antes conocida como 10gen), acaba de lanzar su programa oficial de &lt;a class=&#34;reference external&#34; href=&#34;https://www.mongodb.com/products/training/certification&#34;&gt;certificaciones&lt;/a&gt; para su Base de Datos NoSQL conocida por el mismo nombre, &lt;a class=&#34;reference external&#34; href=&#34;http://www.mongodb.org/&#34;&gt;MongoDB&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://www.mongodb.com/&#34;&gt;MongoDB, Inc.&lt;/a&gt;, (antes conocida como 10gen), acaba de lanzar su programa oficial de &lt;a class=&#34;reference external&#34; href=&#34;https://www.mongodb.com/products/training/certification&#34;&gt;certificaciones&lt;/a&gt; para su Base de Datos NoSQL conocida por el mismo nombre, &lt;a class=&#34;reference external&#34; href=&#34;http://www.mongodb.org/&#34;&gt;MongoDB&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Certificaciones oficiales en MongoDB</title>
+        <link>https://www.entredevyops.es/posts/certificaciones-oficiales-mongodb.html</link>
+      </image>
     </item>
     
     <item>
@@ -48,8 +52,12 @@
 
 &lt;div class=&#34;section&#34; id=&#34;sudoers-bcn&#34;&gt;
 &lt;h2&gt;&lt;a class=&#34;reference external&#34; href=&#34;http://sudoers-barcelona.wikia.com/wiki/Sudoers_Barcelona_Wiki&#34;&gt;Sudoers BCN&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;De nuevo, como cada mes, se realizó la reunión del grupo de Sudoers BCN, en la que Jordi Soucheiron habló sobre MongoDB, y Ignacio Torres hizo lo propio sobre Go.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;De nuevo, como cada mes, se realizó la reunión del grupo de Sudoers BCN, en la que Jordi Soucheiron habló sobre MongoDB, y Ignacio Torres hizo lo propio sobre Go.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Reunión de Junio de Sudoers BCN</title>
+        <link>https://www.entredevyops.es/posts/reunion-de-junio-de-sudoers-bcn.html</link>
+      </image>
     </item>
     
   </channel>

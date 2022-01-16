@@ -26,12 +26,8 @@
         <meta name="twitter:title" content="Ejecutando shell script en AWS Lambda" />
         
         <meta name="twitter:description" content="
-
 Llevo un tiempo dándole vueltas a migrar de mi servidor virtual privado hacia el cloud, en concreto hacia AWS, pero uno de los motivos que más me echan para atrás es todos los scripts, la mayor parte en shell script, que tengo programados para ejecutarse diariamente en mi servidor y que realizan tareas de lo más útiles. De todos ellos destacaría el que tengo para que cada día me &ldquo;recolecte&rdquo; el libro electrónico gratuito que publica Packtpub. Pues bien, parece que este impedimento ha llegado a su fin, ya que utilizando un pequeño truco se pueden ejecutar shell scripts en Lambda.
-
-A continuación, os explico cómo he migrado mis shell scripts a Lambda.
-
-" />
+A continuación, os explico cómo he migrado mis shell scripts a Lambda." />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/shellscript-lambda.html" />
         <meta name="telegram:channel" content="@entredevyops" />
     
@@ -79,7 +75,7 @@ A continuación, os explico cómo he migrado mis shell scripts a Lambda.
         "@type": "BlogPosting",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://www.entredevyops.es/posts/shellscript-lambda.html"
+          "@id": "https:\/\/www.entredevyops.es\/posts\/shellscript-lambda.html"
         },
         "headline": "Ejecutando shell script en AWS Lambda",
         "description": "",
@@ -96,9 +92,9 @@ A continuación, os explico cómo he migrado mis shell scripts a Lambda.
         },
         "publisher": {
           "@type": "Organization",
-          "@id": "https://www.entredevyops.es/",
+          "@id": "https:\/\/www.entredevyops.es\/",
           "name": "Entre Dev y Ops",
-          "url": "https://www.entredevyops.es/",
+          "url": "https:\/\/www.entredevyops.es\/",
           "logo": {
             "@type": "ImageObject",
             "url": "https:",
@@ -115,8 +111,8 @@ A continuación, os explico cómo he migrado mis shell scripts a Lambda.
         },
         "datePublished": "2017-02-20",
         "dateModified": "2017-02-20",
-        "wordCount": 907,
-        "keywords": ["AWS","Lambda","Shell script"] 
+        "wordCount":  907 ,
+        "keywords": "[\"AWS\",\"Lambda\",\"Shell script\"]" 
     }
     </script>
 
@@ -229,128 +225,87 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <p><img src='/images/da5bb104-f243-11e6-96e0-f7d9341c64a3.png' alt='AWS Lambda' class='align-right' height='200' width='200'/></p>
-
-<p>Llevo un tiempo dándole vueltas a migrar de mi servidor virtual privado hacia el cloud, en concreto hacia AWS, pero uno de los motivos que más me echan para atrás es todos los scripts, la mayor parte en shell script, que tengo programados para ejecutarse diariamente en mi servidor y que realizan tareas de lo más útiles. De todos ellos destacaría el que tengo para que cada día me &ldquo;recolecte&rdquo; el libro electrónico gratuito que publica <a href="https://www.packtpub.com" target="_blank">Packtpub</a>. Pues bien, parece que este impedimento ha llegado a su fin, ya que utilizando un pequeño truco se pueden ejecutar shell scripts en Lambda.</p>
-
+                  <!-- raw HTML omitted -->
+<p>Llevo un tiempo dándole vueltas a migrar de mi servidor virtual privado hacia el cloud, en concreto hacia AWS, pero uno de los motivos que más me echan para atrás es todos los scripts, la mayor parte en shell script, que tengo programados para ejecutarse diariamente en mi servidor y que realizan tareas de lo más útiles. De todos ellos destacaría el que tengo para que cada día me &ldquo;recolecte&rdquo; el libro electrónico gratuito que publica <a href="https://www.packtpub.com">Packtpub</a>. Pues bien, parece que este impedimento ha llegado a su fin, ya que utilizando un pequeño truco se pueden ejecutar shell scripts en Lambda.</p>
 <p>A continuación, os explico cómo he migrado mis shell scripts a Lambda.</p>
-
-<p></p>
-
 <p>Si habéis trabajado un poco con Lambda ya sabréis que los lenguajes que admite son C#, Java 8, Edge Node y Python, pero en ningún caso permite la ejecución de shell script. Entonces, ¿cómo vamos a ejecutar nuestros scripts?</p>
-
-<p>Pues es bien sencillo, si no conocéis cómo funciona <a href="https://aws.amazon.com/es/lambda/" target="_blank">AWS Lambda</a> os diré que se basa en tecnología de contenedores, esto significa que el proceso cree que está corriendo en un servidor Linux de manera totalmente aislada, por tanto nada nos impide hacer llamadas al sistema operativo y ejecutar comandos como ls, cd, cp, etc&hellip; y como alguno de vosotros ya habrá deducido tampoco nos impide ejecutar ficheros .sh.</p>
-
+<p>Pues es bien sencillo, si no conocéis cómo funciona <a href="https://aws.amazon.com/es/lambda/">AWS Lambda</a> os diré que se basa en tecnología de contenedores, esto significa que el proceso cree que está corriendo en un servidor Linux de manera totalmente aislada, por tanto nada nos impide hacer llamadas al sistema operativo y ejecutar comandos como ls, cd, cp, etc&hellip; y como alguno de vosotros ya habrá deducido tampoco nos impide ejecutar ficheros .sh.</p>
 <p>La última parte que nos quedaría es ver cómo realizamos la subida de dichos ficheros, ya que no existe ningún mecanismo estándar de transferencia (ftp, sftp, etc&hellip;). Subiremos los ficheros junto los ficheros que contenga el código de la aplicación.</p>
-
-<p>Os voy a relatar cómo he realizado la instalación del script que cada día se conecta a Packtpub y &ldquo;compra&rdquo; el libro gratuito. El código lo podéis localizar en <a href="https://github.com/dacacioa/packtpub_lambda" target="_blank">este repositorio de Github</a> (importante: tendríais que adaptar el fichero .sh con vuestras credenciales de Packtpub, es decir, con vuestro email y contraseña)</p>
-
+<p>Os voy a relatar cómo he realizado la instalación del script que cada día se conecta a Packtpub y &ldquo;compra&rdquo; el libro gratuito. El código lo podéis localizar en <a href="https://github.com/dacacioa/packtpub_lambda">este repositorio de Github</a> (importante: tendríais que adaptar el fichero .sh con vuestras credenciales de Packtpub, es decir, con vuestro email y contraseña)</p>
 <p>Dejadme que os cuente, a modo de guía paso a paso, cómo ejecutar scripts de manera planificada, emulando lo que haríamos editando el crontab de nuestro servidor Linux.</p>
-
 <ul>
-<li>Lo primero que haremos será descargar los ficheros del <a href="https://github.com/dacacioa/packtpub_lambda" target="_blank">repositorio de Github</a> que básicamente son:</li>
-</ul>
-
+<li>
+<p>Lo primero que haremos será descargar los ficheros del <a href="https://github.com/dacacioa/packtpub_lambda">repositorio de Github</a> que básicamente son:</p>
 <p>1.- El fichero .py que se encagará de ejecutar la llamada a sistema lanzado un shell para cargar el fichero .sh</p>
-
-<pre><code>  from __future__ import print_function
+</li>
+</ul>
+<pre tabindex="0"><code>  from __future__ import print_function
 
   import commands
 
   def lambda_handler(event, context):
       if commands.getstatusoutput('sh ./packtpub.sh')[0] == 0 :
           return &quot;Ok, enjoy your free book&quot;
-</code></pre>
-
-<p>2.- El fichero .sh que ejecutará un curl en el contenedor donde se ejecute el código. Dicho curl ya está preparada para hacer login con las credenciales que indiquemos (email y contraseña), buscará el enlace del libro gratuito y simulará un click sobre dicho enalce.</p>
-
-<pre><code>  rm /tmp/user.cookie; curl -b /tmp/user.cookie https://www.packtpub.com$(curl -L -k -d 'email=your%40email.com&amp;password=yourpassword&amp;op=Login&amp;form_build_id=form-29b891c23331f6a85f502eef8b133303&amp;form_id=packt_user_login_form' -b /tmp/user.cookie -c /tmp/user.cookie 'https://www.packtpub.com/packt/offers/free-learning' | grep -i 'freelearning-claim' | awk '{print $2}' | cut -d'&quot;' -f2)
-</code></pre>
-
-<p>Es importante adaptar el fichero .sh con las credenciales correctas para que todo funcione. Una vez hecho esto generaremos un .zip que contenga los dos ficheros, el .py y el .sh.</p>
-
+</code></pre><p>2.- El fichero .sh que ejecutará un curl en el contenedor donde se ejecute el código. Dicho curl ya está preparada para hacer login con las credenciales que indiquemos (email y contraseña), buscará el enlace del libro gratuito y simulará un click sobre dicho enalce.</p>
+<pre tabindex="0"><code>rm /tmp/user.cookie; curl -b /tmp/user.cookie https://www.packtpub.com$(curl -L -k -d 'email=your%40email.com&amp;password=yourpassword&amp;op=Login&amp;form_build_id=form-29b891c23331f6a85f502eef8b133303&amp;form_id=packt_user_login_form' -b /tmp/user.cookie -c /tmp/user.cookie 'https://www.packtpub.com/packt/offers/free-learning' | grep -i 'freelearning-claim' | awk '{print $2}' | cut -d'&quot;' -f2)
+</code></pre><p>Es importante adaptar el fichero .sh con las credenciales correctas para que todo funcione. Una vez hecho esto generaremos un .zip que contenga los dos ficheros, el .py y el .sh.</p>
 <ul>
 <li>Nos conectaremos al panel de control de AWS y accederemos a la sección de Lambda:</li>
 </ul>
-
-<p><img src='/images/00270f48-efa9-11e6-9475-840f0de06438.png' alt='AWS Lambda' class='align-center' /></p>
-
+<!-- raw HTML omitted -->
 <ul>
 <li>Pulsamos el botón &ldquo;Get Started Now&rdquo; y aparecerá una pantalla para seleccionar plantilla. seleccionamos &ldquo;Blank Function&rdquo;:</li>
 </ul>
-
-<p><img src='/images/46ea81d0-efa9-11e6-9521-182ee85c93f2.png' alt='AWS Lambda Function' class='align-center' /></p>
-
+<!-- raw HTML omitted -->
 <ul>
 <li>En la pantalla de configuración de Triggers hacemos click sobre el recuadro con el contorno discontinuo y seleccionamos el trigger &ldquo;CloudWatch Events - Schedule&rdquo;:</li>
 </ul>
-
-<p><img src='/images/57ca4c10-efa9-11e6-8a7d-ae37e800d8a0.png' alt='CloudWatch Events' class='align-center' /></p>
-
+<!-- raw HTML omitted -->
 <ul>
 <li>En el apartado de configuración seleccionamos que solo se ejecute una vez al día:
-
 <ul>
 <li>En el apartado &ldquo;Rule Name&rdquo; indicamos una vez al día.</li>
 <li>La descripción la dejamos por defecto.</li>
 <li>Confirmamos que la expresión de planificación es rate(1 day)</li>
 <li>Por último, seleccionamos la casilla de &ldquo;Enable trigger&rdquo; para activar la regla.</li>
-</ul></li>
 </ul>
-
-<p><img src='/images/c5ac3126-efa9-11e6-9fb5-a3ff77b2da98.png' alt='Lambda Definition' class='align-center' /></p>
-
+</li>
+</ul>
+<!-- raw HTML omitted -->
 <ul>
 <li>En la siguiente pantalla configuraremos el entorno de ejecución de nuestra función:
-
 <ul>
 <li>En el campo nombre insertaremos un nombre identificativo de la función.</li>
 <li>La descripción que creamos apropiada.</li>
 <li>Y en el campo &ldquo;Runtime&rdquo; seleccionaremos Python 2.7.</li>
 <li>Como &ldquo;Code entry type&rdquo; indicamos &ldquo;Upload a .ZIP file&rdquo; y subiremos el fichero .zip generado en el primer punto.</li>
-</ul></li>
 </ul>
-
-<p><img src='/images/d0e6f754-efb5-11e6-9973-0c1428dde6ef.png' alt='AWS Lambda Code' class='align-center' /></p>
-
+</li>
+</ul>
+<!-- raw HTML omitted -->
 <ul>
-<li>En el apartado de &ldquo;Lambda Function Handler&rdquo; indicaremos lo siguiente:
-
-<ul>
+<li>En el apartado de &ldquo;Lambda Function Handler&rdquo; indicaremos lo siguiente:</li>
 <li>Insertaremos en el campo &ldquo;Handler&rdquo; el nombre del fichero .py más el nombre de la función que se tendrá que ejecutar. Si hemos seguido el procedimiento sin modificar ningún nombre de fichero tendríamos que indicar packtpub.lambda_handler .</li>
 <li>&ldquo;Role&rdquo;: Seleccionamos &ldquo;Choose a existing role&rdquo;.</li>
 <li>&ldquo;Existing Role&rdquo;: &ldquo;service-role/lamda_crontab_rol&rdquo;.</li>
-</ul></li>
 <li>En el apartado &ldquo;Advenced settings&rdquo; modificaremos el timeout a 5 segundos, ya que en ocasiones Packtpub tarda algo en responder y el timeout por defecto de 3 segundos se queda algo corto. Una vez hecha esta modificación podemos pulsar el botón de &ldquo;Next&rdquo;.</li>
 </ul>
-
-<p><img src='/images/080ed6c0-efb6-11e6-8695-9a9baa8e20dd.png' alt='AWS Lambda Code 2' class='align-center' /></p>
-
+<!-- raw HTML omitted -->
 <ul>
 <li>Si todo ha funcionado correctamente tendríamos que ver una pantalla similar a esta:</li>
 </ul>
-
-<p><img src='/images/2c5b6ac0-efb6-11e6-8eee-6185ae5d5457.png' alt='AWS Lambda Final' class='align-center' /></p>
-
+<!-- raw HTML omitted -->
 <ul>
-<li>Pulsaremos el botón de &ldquo;Test&rdquo; para ver que funciona correctamente:
-
-<ul>
+<li>Pulsaremos el botón de &ldquo;Test&rdquo; para ver que funciona correctamente:</li>
 <li>Seleccionamos &ldquo;Scheduled Event&rdquo;</li>
 <li>Y pulsamos &ldquo;Save and Test&rdquo;</li>
-</ul></li>
 </ul>
-
-<p><img src='/images/f2be5f80-f24d-11e6-899a-db037f1c581b.png' alt='AWS Test Event' width=80% class='align-center' /></p>
-
+<!-- raw HTML omitted -->
 <ul>
 <li>Nos tendría que aparecer una pantalla similar a la que pongo a continuación con el mensaje &ldquo;Ok, enjoy your free book&rdquo;. Importante: Packtpub limita a un libro al día, por tanto, por muchas veces que lo ejecutemos sólo tendremos disponible en nuestra cuenta de Packtpub una copia del libro).</li>
 </ul>
-
-<p><img src='/images/95b7f822-f24e-11e6-873a-11c441259996.png' alt='AWS Lambda TEst Ok' width=80% class='align-center' /></p>
-
+<!-- raw HTML omitted -->
 <p>¡Enhorabuena! Ya tenéis funcionando en Lambda una tarea programada que se ejecuta cada día y lanza un shell script para &ldquo;recolectar&rdquo; de manera automática los libros gratuitos de Packtpub. Y por cierto, todo a coste 0, ya que el consumo de ejecutar estos procesos es tan bajo que lo cubre la capa gratuita de AWS.</p>
-
 <p>Espero que os sea útil y lo extrapoléis a otros escenarios.</p>
               </section>
 
@@ -372,7 +327,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fshellscript-lambda.html&title=Ejecutando%20shell%20script%20en%20AWS%20Lambda&summary=Llevo%20un%20tiempo%20d%c3%a1ndole%20vueltas%20a%20migrar%20de%20mi%20servidor%20virtual%20privado%20hacia%20el%20cloud%2c%20en%20concreto%20hacia%20AWS%2c%20pero%20uno%20de%20los%20motivos%20que%20m%c3%a1s%20me%20echan%20para%20atr%c3%a1s%20es%20todos%20los%20scripts%2c%20la%20mayor%20parte%20en%20shell%20script%2c%20que%20tengo%20programados%20para%20ejecutarse%20diariamente%20en%20mi%20servidor%20y%20que%20realizan%20tareas%20de%20lo%20m%c3%a1s%20%c3%batiles.%20De%20todos%20ellos%20destacar%c3%ada%20el%20que%20tengo%20para%20que%20cada%20d%c3%ada%20me%20%26ldquo%3brecolecte%26rdquo%3b%20el%20libro%20electr%c3%b3nico%20gratuito%20que%20publica%20Packtpub.%20Pues%20bien%2c%20parece%20que%20este%20impedimento%20ha%20llegado%20a%20su%20fin%2c%20ya%20que%20utilizando%20un%20peque%c3%b1o%20truco%20se%20pueden%20ejecutar%20shell%20scripts%20en%20Lambda.%0aA%20continuaci%c3%b3n%2c%20os%20explico%20c%c3%b3mo%20he%20migrado%20mis%20shell%20scripts%20a%20Lambda.%0a%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fshellscript-lambda.html&title=Ejecutando%20shell%20script%20en%20AWS%20Lambda&summary=Llevo%20un%20tiempo%20d%c3%a1ndole%20vueltas%20a%20migrar%20de%20mi%20servidor%20virtual%20privado%20hacia%20el%20cloud%2c%20en%20concreto%20hacia%20AWS%2c%20pero%20uno%20de%20los%20motivos%20que%20m%c3%a1s%20me%20echan%20para%20atr%c3%a1s%20es%20todos%20los%20scripts%2c%20la%20mayor%20parte%20en%20shell%20script%2c%20que%20tengo%20programados%20para%20ejecutarse%20diariamente%20en%20mi%20servidor%20y%20que%20realizan%20tareas%20de%20lo%20m%c3%a1s%20%c3%batiles.%20De%20todos%20ellos%20destacar%c3%ada%20el%20que%20tengo%20para%20que%20cada%20d%c3%ada%20me%20%26ldquo%3brecolecte%26rdquo%3b%20el%20libro%20electr%c3%b3nico%20gratuito%20que%20publica%20Packtpub.%20Pues%20bien%2c%20parece%20que%20este%20impedimento%20ha%20llegado%20a%20su%20fin%2c%20ya%20que%20utilizando%20un%20peque%c3%b1o%20truco%20se%20pueden%20ejecutar%20shell%20scripts%20en%20Lambda.%0aA%20continuaci%c3%b3n%2c%20os%20explico%20c%c3%b3mo%20he%20migrado%20mis%20shell%20scripts%20a%20Lambda.%0a"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

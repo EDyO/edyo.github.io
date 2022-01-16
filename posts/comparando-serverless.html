@@ -26,10 +26,7 @@
         <meta name="twitter:title" content="Comparando Serverless" />
         
         <meta name="twitter:description" content="El líder indiscutible del cloud es AWS, pero tiene un competidor que le sigue de cerca. Bueno, siendo realistas no tan de cerca, pero que se ha acercado mucho en estos últimos tiempos.
-
-Hemos visto el avance de Lambda, y como pasó de ser un anuncio en el re:Invent del 2014, a ocupar varias charlas en el re:Invent del año pasado. Teniendo en cuenta que ahora mismo, tenemos el sistema distribuido entre: el lambda de siempre, en el snowball y próximamente en  la ejecución lambda de los nodos edge de cloudfront  y en los productos que usen AWS Greengrass,  pero la pregunta es: ¿cual es la herramienta de Azure para combatir Lambda?
-
-" />
+Hemos visto el avance de Lambda, y como pasó de ser un anuncio en el re:Invent del 2014, a ocupar varias charlas en el re:Invent del año pasado. Teniendo en cuenta que ahora mismo, tenemos el sistema distribuido entre: el lambda de siempre, en el snowball y próximamente en  la ejecución lambda de los nodos edge de cloudfront  y en los productos que usen AWS Greengrass,  pero la pregunta es: ¿cual es la herramienta de Azure para combatir Lambda?" />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/comparando-serverless.html" />
         <meta name="telegram:channel" content="@entredevyops" />
     
@@ -77,7 +74,7 @@ Hemos visto el avance de Lambda, y como pasó de ser un anuncio en el re:Invent 
         "@type": "BlogPosting",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://www.entredevyops.es/posts/comparando-serverless.html"
+          "@id": "https:\/\/www.entredevyops.es\/posts\/comparando-serverless.html"
         },
         "headline": "Comparando Serverless",
         "description": "",
@@ -94,9 +91,9 @@ Hemos visto el avance de Lambda, y como pasó de ser un anuncio en el re:Invent 
         },
         "publisher": {
           "@type": "Organization",
-          "@id": "https://www.entredevyops.es/",
+          "@id": "https:\/\/www.entredevyops.es\/",
           "name": "Entre Dev y Ops",
-          "url": "https://www.entredevyops.es/",
+          "url": "https:\/\/www.entredevyops.es\/",
           "logo": {
             "@type": "ImageObject",
             "url": "https:",
@@ -113,8 +110,8 @@ Hemos visto el avance de Lambda, y como pasó de ser un anuncio en el re:Invent 
         },
         "datePublished": "2017-03-16",
         "dateModified": "2017-03-16",
-        "wordCount": 615,
-        "keywords": ["Servesless","Amazon WS","Azure"] 
+        "wordCount":  615 ,
+        "keywords": "[\"Servesless\",\"Amazon WS\",\"Azure\"]" 
     }
     </script>
 
@@ -228,37 +225,20 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
               <section class="post-content">
                 
                   <p>El líder indiscutible del cloud es AWS, pero tiene un competidor que le sigue de cerca. Bueno, siendo realistas no tan de cerca, pero que se ha acercado mucho en estos últimos tiempos.</p>
-
-<p>Hemos visto el avance de <a href="https://aws.amazon.com/es/lambda/details/" target="_blank">Lambda</a>, y como pasó de ser un anuncio en el re:Invent del 2014, a ocupar varias charlas en el re:Invent del año pasado. Teniendo en cuenta que ahora mismo, tenemos el sistema distribuido entre: el lambda de siempre, en el <a href="https://aws.amazon.com/es/snowball/details/" target="_blank">snowball</a> y próximamente en  la ejecución lambda de los <a href="https://pages.awscloud.com/lambda-at-edge-preview.html" target="_blank">nodos edge de cloudfront</a>  y en los productos que usen <a href="https://aws.amazon.com/es/greengrass/" target="_blank">AWS Greengrass</a>,  pero la pregunta es: ¿cual es la herramienta de Azure para combatir Lambda?</p>
-
-<p></p>
-
-<p>Azure tiene 2 servicios que son denominados serverless <a href="https://azure.microsoft.com/es-es/services/functions/" target="_blank">Functions</a> y <a href="https://azure.microsoft.com/es-es/services/logic-apps/" target="_blank">Logic Apps</a></p>
-
-<p>Funtions es una aproximación más cercana a lambda ya que los dos ejecutan funciones en cambio LogicApps, recuerda más a un workflow de <a href="https://ifttt.com" target="_blank">IFTTT</a>.</p>
-
-<p>El funcionamiento de LogicApps se basa en un entorno visual donde se encadenan conectores con actuadores, por ejemplo: si aparece un fichero nuevo en un SFTP conectarme a <a href="https://trello.com" target="_blank">Trello</a> añadir una nueva tarjeta, y enviar un mail. Esta orientado a la facilidad de conectividad con distintos servicios.</p>
-
-<p>Funtions es un sistema mucho más similar a Lambda. Soporta: JavaScript, C# y F#, Python, PHP, Bash, Batch y PowerShell. Mientras que Lambda soporta: Java, Node.js, C# y Python oficialmente, aunque de forma no directa se pueden ejecutar múltiples lenguajes como comenta David en el artículo: <a href="http://www.entredevyops.es/posts/shellscript-lambda.html" target="_blank">Ejecutando shell script en AWS Lambda</a></p>
-
+<p>Hemos visto el avance de <a href="https://aws.amazon.com/es/lambda/details/">Lambda</a>, y como pasó de ser un anuncio en el re:Invent del 2014, a ocupar varias charlas en el re:Invent del año pasado. Teniendo en cuenta que ahora mismo, tenemos el sistema distribuido entre: el lambda de siempre, en el <a href="https://aws.amazon.com/es/snowball/details/">snowball</a> y próximamente en  la ejecución lambda de los <a href="https://pages.awscloud.com/lambda-at-edge-preview.html">nodos edge de cloudfront</a>  y en los productos que usen <a href="https://aws.amazon.com/es/greengrass/">AWS Greengrass</a>,  pero la pregunta es: ¿cual es la herramienta de Azure para combatir Lambda?</p>
+<p>Azure tiene 2 servicios que son denominados serverless <a href="https://azure.microsoft.com/es-es/services/functions/">Functions</a> y <a href="https://azure.microsoft.com/es-es/services/logic-apps/">Logic Apps</a></p>
+<p>Funtions es una aproximación más cercana a lambda ya que los dos ejecutan funciones en cambio LogicApps, recuerda más a un workflow de <a href="https://ifttt.com">IFTTT</a>.</p>
+<p>El funcionamiento de LogicApps se basa en un entorno visual donde se encadenan conectores con actuadores, por ejemplo: si aparece un fichero nuevo en un SFTP conectarme a <a href="https://trello.com">Trello</a> añadir una nueva tarjeta, y enviar un mail. Esta orientado a la facilidad de conectividad con distintos servicios.</p>
+<p>Funtions es un sistema mucho más similar a Lambda. Soporta: JavaScript, C# y F#, Python, PHP, Bash, Batch y PowerShell. Mientras que Lambda soporta: Java, Node.js, C# y Python oficialmente, aunque de forma no directa se pueden ejecutar múltiples lenguajes como comenta David en el artículo: <a href="http://www.entredevyops.es/posts/shellscript-lambda.html">Ejecutando shell script en AWS Lambda</a></p>
 <p>Lambda tiene como disparadores los siguientes eventos: S3, DynamoDB, Kinesis Streams, SNS, SES, Cognito, CloudFormation, CloudWatch Log, CloudWatch Events, CodeCommit, Scheduled Events , AWS Config, Amazon Echo, Amazon Lex y Amazon API Gateway</p>
-
 <p>Y Azure tiene los siguientes eventos: Temporizador, petición http, Blob storage, Azure Event Hubs, Azure Storage queue, Azure Service Bus.</p>
-
 <p>Con estos disparadores tanto Azure directamente, como Lambda a través de API Gateway pueden servir páginas desde serverless.</p>
-
-<p>Otro de los puntos a revisar son los recursos usados por Lambda que van desde los 128 MB a los 1.5Gb. De la misma forma que Azure, aunque estos han cambiado el calculo de recursos desde  noviembre pasado, por lo que no se ha de calcular el tamaño de memoria de las ejecuciones sino que son calculadas y cambiadas <a href="https://blogs.msdn.microsoft.com/appserviceteam/2016/11/15/making-azure-functions-more-serverless/" target="_blank">automáticamente</a>.</p>
-
-<p>Uno de los problemas que plantea AWS es que no siempre el menor consumo de RAM es más barato, ya que las peticiones de más RAM se ejecutan en maquinas más rápidas , por lo que si se tiene un proceso que tarda 10 segundos en 128Mb de RAM es un consumo de 1280Mb , en cambio si lo ejecutamos en 320Mb y tarda 2 segundos el consumo es de 640Mb. Más información en <a href="https://serverless.zone/my-accidental-3-5x-speed-increase-of-aws-lambda-functions-6d95351197f3#.xcf9f6af3" target="_blank">esta página</a></p>
-
+<p>Otro de los puntos a revisar son los recursos usados por Lambda que van desde los 128 MB a los 1.5Gb. De la misma forma que Azure, aunque estos han cambiado el calculo de recursos desde  noviembre pasado, por lo que no se ha de calcular el tamaño de memoria de las ejecuciones sino que son calculadas y cambiadas <a href="https://blogs.msdn.microsoft.com/appserviceteam/2016/11/15/making-azure-functions-more-serverless/">automáticamente</a>.</p>
+<p>Uno de los problemas que plantea AWS es que no siempre el menor consumo de RAM es más barato, ya que las peticiones de más RAM se ejecutan en maquinas más rápidas , por lo que si se tiene un proceso que tarda 10 segundos en 128Mb de RAM es un consumo de 1280Mb , en cambio si lo ejecutamos en 320Mb y tarda 2 segundos el consumo es de 640Mb. Más información en <a href="https://serverless.zone/my-accidental-3-5x-speed-increase-of-aws-lambda-functions-6d95351197f3#.xcf9f6af3">esta página</a></p>
 <p>El precio es un factor que no tenemos que despreciar pero es muy difícil de asegurar ya que los cálculos son complejos de realizar sin saber el consumo de memoria por segundo que vamos a realizar. Los precios extraídos de las páginas web se puede ver que son muy similares.</p>
-
 <p>Azure cuesta €0,000013/GB/s pero dan 400.000 GB/s gratis al mes y aparte del gasto de recursos también se cuenta 0,17€ por millón de ejecuciones (el primer millón al mes gratuito).</p>
-
 <p>La capa gratuita de Lambda comprende un millón de solicitudes gratuitas al mes y 400 000 GB/segundo de tiempo de computación al mes. A partir de ahí, 0,20 USD por cada millón de solicitudes.</p>
-
 <p>Como resumen: sobre papel los entornos son muy similares. La ventaja que AWS puede tener al ser los primeros puede estar siendo recortada con la implantación de las LogicApp (que son visuales), o con el debug remoto en Functions a través de Visual Code.</p>
-
 <p>Espero vuestros comentarios.</p>
               </section>
 
@@ -280,7 +260,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fcomparando-serverless.html&title=Comparando%20Serverless&summary=El%20l%c3%adder%20indiscutible%20del%20cloud%20es%20AWS%2c%20pero%20tiene%20un%20competidor%20que%20le%20sigue%20de%20cerca.%20Bueno%2c%20siendo%20realistas%20no%20tan%20de%20cerca%2c%20pero%20que%20se%20ha%20acercado%20mucho%20en%20estos%20%c3%baltimos%20tiempos.%0aHemos%20visto%20el%20avance%20de%20Lambda%2c%20y%20como%20pas%c3%b3%20de%20ser%20un%20anuncio%20en%20el%20re%3aInvent%20del%202014%2c%20a%20ocupar%20varias%20charlas%20en%20el%20re%3aInvent%20del%20a%c3%b1o%20pasado.%20Teniendo%20en%20cuenta%20que%20ahora%20mismo%2c%20tenemos%20el%20sistema%20distribuido%20entre%3a%20el%20lambda%20de%20siempre%2c%20en%20el%20snowball%20y%20pr%c3%b3ximamente%20en%20la%20ejecuci%c3%b3n%20lambda%20de%20los%20nodos%20edge%20de%20cloudfront%20y%20en%20los%20productos%20que%20usen%20AWS%20Greengrass%2c%20pero%20la%20pregunta%20es%3a%20%c2%bfcual%20es%20la%20herramienta%20de%20Azure%20para%20combatir%20Lambda%3f%0a%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fcomparando-serverless.html&title=Comparando%20Serverless&summary=El%20l%c3%adder%20indiscutible%20del%20cloud%20es%20AWS%2c%20pero%20tiene%20un%20competidor%20que%20le%20sigue%20de%20cerca.%20Bueno%2c%20siendo%20realistas%20no%20tan%20de%20cerca%2c%20pero%20que%20se%20ha%20acercado%20mucho%20en%20estos%20%c3%baltimos%20tiempos.%0aHemos%20visto%20el%20avance%20de%20Lambda%2c%20y%20como%20pas%c3%b3%20de%20ser%20un%20anuncio%20en%20el%20re%3aInvent%20del%202014%2c%20a%20ocupar%20varias%20charlas%20en%20el%20re%3aInvent%20del%20a%c3%b1o%20pasado.%20Teniendo%20en%20cuenta%20que%20ahora%20mismo%2c%20tenemos%20el%20sistema%20distribuido%20entre%3a%20el%20lambda%20de%20siempre%2c%20en%20el%20snowball%20y%20pr%c3%b3ximamente%20en%20la%20ejecuci%c3%b3n%20lambda%20de%20los%20nodos%20edge%20de%20cloudfront%20y%20en%20los%20productos%20que%20usen%20AWS%20Greengrass%2c%20pero%20la%20pregunta%20es%3a%20%c2%bfcual%20es%20la%20herramienta%20de%20Azure%20para%20combatir%20Lambda%3f%0a"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

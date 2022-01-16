@@ -24,9 +24,7 @@
         <meta name="twitter:creator" content="@entredevyops" />
         <meta name="twitter:title" content="Primeros pasos con OpenStack" />
         
-        <meta name="twitter:description" content="Continuando con nuestro pequeño laboratorio OpenStack necesitamos crear las nuevas redes.
-
-" />
+        <meta name="twitter:description" content="Continuando con nuestro pequeño laboratorio OpenStack necesitamos crear las nuevas redes." />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/primeros-pasos-openstack.html" />
         <meta name="telegram:channel" content="@entredevyops" />
     
@@ -74,7 +72,7 @@
         "@type": "BlogPosting",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://www.entredevyops.es/posts/primeros-pasos-openstack.html"
+          "@id": "https:\/\/www.entredevyops.es\/posts\/primeros-pasos-openstack.html"
         },
         "headline": "Primeros pasos con OpenStack",
         "description": "",
@@ -91,9 +89,9 @@
         },
         "publisher": {
           "@type": "Organization",
-          "@id": "https://www.entredevyops.es/",
+          "@id": "https:\/\/www.entredevyops.es\/",
           "name": "Entre Dev y Ops",
-          "url": "https://www.entredevyops.es/",
+          "url": "https:\/\/www.entredevyops.es\/",
           "logo": {
             "@type": "ImageObject",
             "url": "https:",
@@ -110,8 +108,8 @@
         },
         "datePublished": "2014-07-09",
         "dateModified": "2014-07-09",
-        "wordCount": 520,
-        "keywords": ["OpenStack","Laboratorio"] 
+        "wordCount":  521 ,
+        "keywords": "[\"OpenStack\",\"Laboratorio\"]" 
     }
     </script>
 
@@ -215,7 +213,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">9 Jul 2014</span> <span class="reading-time">| <span class="estimated-reading-time">3 min.</span> (<span class="word-count">520</span> palabras)</span></span>
+                        <span class="post-date">9 Jul 2014</span> <span class="reading-time">| <span class="estimated-reading-time">3 min.</span> (<span class="word-count">521</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -225,40 +223,37 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
               <section class="post-content">
                 
                   <p>Continuando con nuestro pequeño laboratorio OpenStack necesitamos crear las nuevas redes.</p>
-
-<p></p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source /root/keystonerc_demo
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source /root/keystonerc_demo
 neutron router-create router
 neutron net-create private
 neutron subnet-create private 10.0.0.0/24 --name private_subnet
 neutron router-interface-add router private_subnet
 neutron net-create public --router:external=True
 neutron subnet-create public 192.168.0.0/24 --name public_subnet --enable_dhcp=False --allocation-pool start=192.168.0.129,end=192.168.0.254 --gateway=192.168.0.1
-neutron router-gateway-set router public</code></pre></div>
-<p>Una vez ya tenemos redes, una externa (192.168.0.0/24) que pertenece a nuestra red exterior y una interna (10.0.0.0/24) para uso de las instancias de OpenStack. Una vez creadas las redes añadimos los permisos del SSH y del ping a la configuración de seguridad. Los <em>security groups</em> son firewalls que actúan sobre el objeto al que hagamos referencia, es decir, tanto se puede aplicar a un puerto como a una máquina.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source /root/keystonerc_demo
+neutron router-gateway-set router public
+</code></pre></div><p>Una vez ya tenemos redes, una externa (192.168.0.0/24) que pertenece a nuestra red exterior y una interna (10.0.0.0/24) para uso de las instancias de OpenStack. Una vez creadas las redes añadimos los permisos del SSH y del ping a la configuración de seguridad. Los <em>security groups</em> son firewalls que actúan sobre el objeto al que hagamos referencia, es decir, tanto se puede aplicar a un puerto como a una máquina.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source /root/keystonerc_demo
 neutron security-group-rule-create --protocol icmp --direction ingress default
-neutron security-group-rule-create --protocol tcp --port-range-min 22 --port-range-max 22 --direction ingress default</code></pre></div>
-<p>El comando <em>source</em> no es necesario si ya se ha ejecutado en la misma sesión. ya que se trata de variables de entorno.</p>
-
+neutron security-group-rule-create --protocol tcp --port-range-min 22 --port-range-max 22 --direction ingress default
+</code></pre></div><p>El comando <em>source</em> no es necesario si ya se ha ejecutado en la misma sesión. ya que se trata de variables de entorno.</p>
 <p>También necesitamos crear las imágenes, las imágenes son los modelos en los que se van a copiar creando instancias del modelo base. En mi caso en vez de crear nuevas imágenes me bajo 2 creadas:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wget http://download.cirros-cloud.net/0.3.2~pre2/cirros-0.3.2~pre2-x86_64-disk.img
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wget http://download.cirros-cloud.net/0.3.2~pre2/cirros-0.3.2~pre2-x86_64-disk.img
 glance image-create --name CirrOS --disk-format qcow2 --container-format bare --is-public true &lt; cirros-0.3.2*
 
 wget http://repos.fedorapeople.org/repos/openstack/guest-images/centos-6.5-20140117.0.x86_64.qcow2
-glance image-create --name <span style="color:#a31515">&#34;CentOS 6.5&#34;</span> --disk-format qcow2 --container-format bare --is-public true &lt; centos-6.5*</code></pre></div>
-<p>CirrOS es un minisistema creado para realizar test en sistemas cloud, como OpenStack. CentOS es un sistema similar a RedHat y va a ser el sistema base que voy ha utilizar de momento.</p>
-
+glance image-create --name <span style="color:#a31515">&#34;CentOS 6.5&#34;</span> --disk-format qcow2 --container-format bare --is-public true &lt; centos-6.5*
+</code></pre></div><p>CirrOS es un minisistema creado para realizar test en sistemas cloud, como OpenStack. CentOS es un sistema similar a RedHat y va a ser el sistema base que voy ha utilizar de momento.</p>
 <p>Y ya estamos preparados para realizar la primera prueba con los comandos. El primero llama al fichero <em>lab1.yaml</em> que se trata del listado abajo.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">SUBNET_UUID_PRIVATE=<span style="color:#a31515">`</span>neutron subnet-list| grep private| awk <span style="color:#a31515">&#39;{print $2 }&#39;</span><span style="color:#a31515">`</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">SUBNET_UUID_PRIVATE=<span style="color:#a31515">`</span>neutron subnet-list| grep private| awk <span style="color:#a31515">&#39;{print $2 }&#39;</span><span style="color:#a31515">`</span>
 NET_UUID_PRIVATE=<span style="color:#a31515">`</span>neutron net-list| grep private| awk <span style="color:#a31515">&#39;{print $2 }&#39;</span><span style="color:#a31515">`</span>
 SUBNET_UUID_PUBLIC=<span style="color:#a31515">`</span>neutron subnet-list| grep public| awk <span style="color:#a31515">&#39;{print $2 }&#39;</span><span style="color:#a31515">`</span>
 NET_UUID_PUBLIC=<span style="color:#a31515">`</span>neutron net-list| grep public| awk <span style="color:#a31515">&#39;{print $2 }&#39;</span><span style="color:#a31515">`</span>
 
-heat stack-create lab1 --template-file=lab1.yaml --parameters=<span style="color:#a31515">&#34;image=CentOS 6.5;flavor=m1.small;key_name=cloud;public_net_id=</span>$NET_UUID_PUBLIC<span style="color:#a31515">;private_net_id=</span>$NET_UUID_PRIVATE<span style="color:#a31515">;private_subnet_id=</span>$SUBNET_UUID_PRIVATE<span style="color:#a31515">&#34;</span></code></pre></div><div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">heat_template_version: 2013-05-23
+heat stack-create lab1 --template-file=lab1.yaml --parameters=<span style="color:#a31515">&#34;image=CentOS 6.5;flavor=m1.small;key_name=cloud;public_net_id=</span>$NET_UUID_PUBLIC<span style="color:#a31515">;private_net_id=</span>$NET_UUID_PRIVATE<span style="color:#a31515">;private_subnet_id=</span>$SUBNET_UUID_PRIVATE<span style="color:#a31515">&#34;</span>
+</code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">heat_template_version: 2013-05-23
 
-description: <span style="color:#a31515">&gt;
-</span><span style="color:#a31515">  HOT template to deploy my first server</span>
+description: &gt;<span style="color:#a31515">
+</span><span style="color:#a31515">  </span>  HOT template to deploy my first server
 
 parameters:
   key_name:
@@ -272,8 +267,8 @@ parameters:
     description: Flavor to use for servers
   public_net_id:
     type: string
-    description: <span style="color:#a31515">&gt;
-</span><span style="color:#a31515">      ID of public network for which floating IP addresses will be allocated</span>
+    description: &gt;<span style="color:#a31515">
+</span><span style="color:#a31515">      </span>      ID of public network for which floating IP addresses will be allocated
   private_net_id:
     type: string
     description: ID of private network into which servers get deployed
@@ -312,9 +307,10 @@ outputs:
     value: { get_attr: [ server1, first_address ] }
   server1_public_ip:
     description: Floating IP address of server1 in public network
-    value: { get_attr: [ server1_floating_ip, floating_ip_address ] }</code></pre></div>
-<p>Una vez ejecutado el script veremos el progreso de la creación del stack mediante el comando:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">heat stack-list</code></pre></div>
+    value: { get_attr: [ server1_floating_ip, floating_ip_address ] }
+</code></pre></div><p>Una vez ejecutado el script veremos el progreso de la creación del stack mediante el comando:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">heat stack-list
+</code></pre></div>
               </section>
 
               <footer class="post-footer">
@@ -333,7 +329,7 @@ outputs:
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fprimeros-pasos-openstack.html&title=Primeros%20pasos%20con%20OpenStack&summary=Continuando%20con%20nuestro%20peque%c3%b1o%20laboratorio%20OpenStack%20necesitamos%20crear%20las%20nuevas%20redes.%0a%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fprimeros-pasos-openstack.html&title=Primeros%20pasos%20con%20OpenStack&summary=Continuando%20con%20nuestro%20peque%c3%b1o%20laboratorio%20OpenStack%20necesitamos%20crear%20las%20nuevas%20redes.%0a"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

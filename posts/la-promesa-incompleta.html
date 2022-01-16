@@ -24,7 +24,10 @@
         
           <meta name="twitter:image" content="https://www.entredevyops.es/images/rocket-launch.jpg" />
         
-        <meta name="twitter:description" content="" />
+        <meta name="twitter:description" content="&lt;img src=&#39;/images/noops.jpg&#39; alt=&lsquo;noops&rsquo; class=&lsquo;align-left height=&lsquo;200&rsquo; width=&lsquo;200&rsquo;/&gt;
+Hace unos días, con un compañero desarrollador comentábamos un artículo sobre un producto implementado usando sólo Serverless y que, por lo tanto, es NoOps.
+Durante la conversación, me llamó la atención lo fácil que es confundir el significado de NoOps, así que decidí escribir este post.
+Aunque es largo, espero que os guste ;)" />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/la-promesa-incompleta.html" />
         <meta name="telegram:channel" content="@entredevyops" />
     
@@ -72,7 +75,7 @@
         "@type": "BlogPosting",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://www.entredevyops.es/posts/la-promesa-incompleta.html"
+          "@id": "https:\/\/www.entredevyops.es\/posts\/la-promesa-incompleta.html"
         },
         "headline": "La promesa incompleta",
         "description": "",
@@ -89,9 +92,9 @@
         },
         "publisher": {
           "@type": "Organization",
-          "@id": "https://www.entredevyops.es/",
+          "@id": "https:\/\/www.entredevyops.es\/",
           "name": "Entre Dev y Ops",
-          "url": "https://www.entredevyops.es/",
+          "url": "https:\/\/www.entredevyops.es\/",
           "logo": {
             "@type": "ImageObject",
             "url": "https:",
@@ -101,13 +104,13 @@
         },
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.entredevyops.es/rocket-launch.jpg",
+          "url": "https:\/\/www.entredevyops.es\/rocket-launch.jpg",
           "height": 133,
           "width": 200
         },
         "datePublished": "2018-06-05",
         "dateModified": "2018-06-05",
-        "wordCount": 922,
+        "wordCount":  928 ,
         
     }
     </script>
@@ -212,7 +215,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">5 Jun 2018</span> <span class="reading-time">| <span class="estimated-reading-time">5 min.</span> (<span class="word-count">922</span> palabras)</span></span>
+                        <span class="post-date">5 Jun 2018</span> <span class="reading-time">| <span class="estimated-reading-time">5 min.</span> (<span class="word-count">928</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -221,97 +224,68 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <p><img src='/images/noops.jpg' alt='noops' class='align-left height='200' width='200'/></p>
-
-<p>Hace unos días, con un compañero desarrollador comentábamos un <a href="https://medium.freecodecamp.org/how-we-serve-25m-api-calls-from-10-scalable-global-endpoints-for-150-a-month-911002703280" target="_blank">artículo</a> sobre un producto implementado usando sólo Serverless y que, por lo tanto, es NoOps.
+                  <p>&lt;img src='/images/noops.jpg' alt=&lsquo;noops&rsquo; class=&lsquo;align-left height=&lsquo;200&rsquo; width=&lsquo;200&rsquo;/&gt;</p>
+<p>Hace unos días, con un compañero desarrollador comentábamos un <a href="https://medium.freecodecamp.org/how-we-serve-25m-api-calls-from-10-scalable-global-endpoints-for-150-a-month-911002703280">artículo</a> sobre un producto implementado usando sólo Serverless y que, por lo tanto, es NoOps.
 Durante la conversación, me llamó la atención lo fácil que es confundir el significado de NoOps, así que decidí escribir este post.</p>
-
 <p>Aunque es largo, espero que os guste ;)</p>
-
-<p></p>
-
 <h2 id="la-importancia-de-la-definición">La importancia de la definición</h2>
-
 <p>Si se busca NoOps en Internet y se lee con atención las explicaciones de lo que es, es fácil encontrarse con muchas definiciones, algunas diciendo más o menos lo mismo, pero otras poniendo matices o incluso significados muy personalizados y alejados de la realidad.</p>
-
-<p>NoOps es un término que, al parecer, fue acuñado por <a href="https://twitter.com/mgualtieri" target="_blank">Mike Gualtieri</a>, Vicepresidente de <a href="https://go.forrester.com/" target="_blank">Forrester</a>, por allá en 2011… desde aquello ha llovido bastante.
-Lo expuso en un <a href="https://go.forrester.com/blogs/11-02-07-i_dont_want_devops_i_want_noops/" target="_blank">artículo</a> bastante controvertido, en el que proponía el término como <em>&ldquo;No&rdquo; + &ldquo;Ops&rdquo; = &ldquo;NoOps&rdquo;</em>.
+<p>NoOps es un término que, al parecer, fue acuñado por <a href="https://twitter.com/mgualtieri">Mike Gualtieri</a>, Vicepresidente de <a href="https://go.forrester.com/">Forrester</a>, por allá en 2011… desde aquello ha llovido bastante.
+Lo expuso en un <a href="https://go.forrester.com/blogs/11-02-07-i_dont_want_devops_i_want_noops/">artículo</a> bastante controvertido, en el que proponía el término como <em>&ldquo;No&rdquo; + &ldquo;Ops&rdquo; = &ldquo;NoOps&rdquo;</em>.
 No parecía una declaración de paz.</p>
-
 <p>Aunque explicaba que, aunque los esfuerzos de los ingenieros de sistema que hacían funcionar la aplicaciones eran críticos, los desarrolladores de las aplicaciones deberían invertir más tiempo en acercarse al negocio, no al hardware.</p>
-
 <p>Reconocía la necesidad de despliegues más rápidos y más seguros, pero él creía que DevOps era, en realidad, un paso atrás, y, en su lugar, proponía <em>NoOps</em>, con la misma meta de mejorar los despliegues pero implicando que los desarrolladores de las aplicaciones no necesitan mantener conversaciones con los ingenieros de operaciones… <strong>nunca</strong>.</p>
-
 <p>Su plan implicaba que los, entonces novedosos, conceptos como <em>IaaS</em> y <em>PaaS</em> debían permitir a los desarrolladores no sólo levantar las instancias o VMs necesarias, sino gestionar las <em>releases</em>.</p>
-
 <p>Esto fue la génesis de un debate que aún dura hoy, pero veamos un poco cómo evolucionó.</p>
-
 <h2 id="la-primera-fase-de-noops">La primera fase de NoOps</h2>
-
 <p>Como suele pasar, Internet hirvió con discusiones sobre el tema, y gurúes de aquí y allá salían defendiendo unas u otras opiniones.
 Ni siquiera había dos bandos.</p>
-
-<p>Incluso, algunos eran citados hablando del tema, a menudo, fuera de contexto. Por ejemplo, un año después, <a href="https://twitter.com/adrianco?lang=es" target="_blank">Adrian Cockcroft</a> <a href="http://perfcap.blogspot.com/2012/03/ops-devops-and-noops-at-netflix.html" target="_blank">publicó un artículo</a> en su blog aclarando que Netflix sí que seguía teniendo un equipo de operaciones, sólo que el funcionamiento había evolucionado con el pasar del tiempo.</p>
-
-<p>O, otro ejemplo, <a href="https://twitter.com/cardmagic?lang=es" target="_blank">Lucas Carlson</a>, fundador de la, pronto extinta, <a href="https://www.ctl.io/appfog/" target="_blank">AppFog</a>, en 2012 <a href="https://gigaom.com/2012/01/31/why-2013-is-the-year-of-noops-for-programmers-infographic/" target="_blank">predecía</a> que 2013 sería el año del NoOps.</p>
-
-<p>Un poco más tarde, algunos <a href="https://devops.com/noops-devops-disaster-waiting-happen/" target="_blank">defendían</a> la necesidad de mantener equipos de operaciones, eso sí con títulos del estilo de los del <a href="https://es.wikipedia.org/wiki/Problema_del_a%C3%B1o_2000" target="_blank">Y2K</a>.</p>
-
+<p>Incluso, algunos eran citados hablando del tema, a menudo, fuera de contexto. Por ejemplo, un año después, <a href="https://twitter.com/adrianco?lang=es">Adrian Cockcroft</a> <a href="http://perfcap.blogspot.com/2012/03/ops-devops-and-noops-at-netflix.html">publicó un artículo</a> en su blog aclarando que Netflix sí que seguía teniendo un equipo de operaciones, sólo que el funcionamiento había evolucionado con el pasar del tiempo.</p>
+<p>O, otro ejemplo, <a href="https://twitter.com/cardmagic?lang=es">Lucas Carlson</a>, fundador de la, pronto extinta, <a href="https://www.ctl.io/appfog/">AppFog</a>, en 2012 <a href="https://gigaom.com/2012/01/31/why-2013-is-the-year-of-noops-for-programmers-infographic/">predecía</a> que 2013 sería el año del NoOps.</p>
+<p>Un poco más tarde, algunos <a href="https://devops.com/noops-devops-disaster-waiting-happen/">defendían</a> la necesidad de mantener equipos de operaciones, eso sí con títulos del estilo de los del <a href="https://es.wikipedia.org/wiki/Problema_del_a%C3%B1o_2000">Y2K</a>.</p>
 <h2 id="la-segunda-fase-de-noops">La segunda fase de NoOps</h2>
-
-<p>Mientras algunos <a href="https://devops.com/future-devops-lie-noops/" target="_blank">buscaban puntos intermedios</a>, otros empezaron a <a href="https://thenewstack.io/serverless-computing-growing-quickly/" target="_blank">ver en el Serverless</a> el camino hacia el NoOps, y otros tantos <a href="https://blog.appdynamics.com/engineering/is-noops-the-end-of-devops-think-again/" target="_blank">seguían defendiendo</a> la permanencia del concepto DevOps.</p>
-
+<p>Mientras algunos <a href="https://devops.com/future-devops-lie-noops/">buscaban puntos intermedios</a>, otros empezaron a <a href="https://thenewstack.io/serverless-computing-growing-quickly/">ver en el Serverless</a> el camino hacia el NoOps, y otros tantos <a href="https://blog.appdynamics.com/engineering/is-noops-the-end-of-devops-think-again/">seguían defendiendo</a> la permanencia del concepto DevOps.</p>
 <h2 id="el-concepto">El concepto</h2>
-
-<p>Tal y como ocurrió con DevOps, NoOps ha sido definido, <a href="https://www.techrepublic.com/article/noops-how-serverless-architecture-introduces-a-third-mode-of-it-operations/" target="_blank">redefinido</a> y <a href="https://www.bmc.com/blogs/itops-devops-and-noops-oh-my/" target="_blank">asimilado</a> de formas muy distintas.
+<p>Tal y como ocurrió con DevOps, NoOps ha sido definido, <a href="https://www.techrepublic.com/article/noops-how-serverless-architecture-introduces-a-third-mode-of-it-operations/">redefinido</a> y <a href="https://www.bmc.com/blogs/itops-devops-and-noops-oh-my/">asimilado</a> de formas muy distintas.
 En muchos casos, parece que ser NoOps, según la variable interpretación de quien lo usa para ello, es un beneficio de negocio.</p>
-
-<p>Igualmente que con DevOps, no es una solución, no es una <a href="https://www.ibm.com/blogs/bluemix/2016/06/moving-devops-noops-microservice-architecture-bluemix/" target="_blank">herramienta</a>, sólo es una forma de trabajar en equipo.
-Y, por supuesto, no significa que no haya nadie a cargo de las operaciones, sólo significa que es otra forma de llevarlas a cabo, que implica cambios en la forma de trabajar de <a href="https://medium.com/@copyconstruct/the-death-of-ops-is-greatly-exaggerated-ff3bd4a67f24" target="_blank">mucha gente</a>.
+<p>Igualmente que con DevOps, no es una solución, no es una <a href="https://www.ibm.com/blogs/bluemix/2016/06/moving-devops-noops-microservice-architecture-bluemix/">herramienta</a>, sólo es una forma de trabajar en equipo.
+Y, por supuesto, no significa que no haya nadie a cargo de las operaciones, sólo significa que es otra forma de llevarlas a cabo, que implica cambios en la forma de trabajar de <a href="https://medium.com/@copyconstruct/the-death-of-ops-is-greatly-exaggerated-ff3bd4a67f24">mucha gente</a>.
 No sólo para los ingenieros de sistemas, sino también para los desarrolladores.</p>
-
 <h2 id="confusiones-y-errores">Confusiones y errores</h2>
-
 <p>Sólo por poner algunas cosas claras:</p>
-
 <ul>
 <li>DevOps no es <strong>sólo</strong> desplegar. NoOps, tampoco.</li>
-<li>NoOps no es <a href="https://www.youtube.com/watch?v=ajT90pC3ris" target="_blank">impopular entre los ingenieros de sistemas</a>.</li>
+<li>NoOps no es <a href="https://www.youtube.com/watch?v=ajT90pC3ris">impopular entre los ingenieros de sistemas</a>.</li>
 <li>DevOps, como NoOps, defienden la automatización, pero hay que ir con cuidado con las abstracciones.</li>
 <li>Seguro que hay negocios que pueden adoptar NoOps. Pero eso no significa que todos puedan.</li>
 </ul>
-
 <h2 id="conclusión">Conclusión</h2>
-
 <p>Uno no se siente capacitado para predecir si el cielo, en el futuro, va a ser de un color o de otro.
 La experiencia nos debería decir que lo que existió, aunque hoy no sea necesario, no siempre desaparece del todo.
 Si no, que se lo cuenten a los programadores de Cobol y RPG, o a los operadores de AS400.</p>
-
 <p>Lo que sí que da la sensación es que estos cambios son evolutivos, no revolucionarios.
 Y probablemente, no serán los últimos.</p>
-
 <h2 id="referencias">Referencias</h2>
-
 <ul>
-<li><a href="https://techbeacon.com/7-arguments-against-noops" target="_blank">7 arguments against NoOps (Travis Greene, ?)</a></li>
-<li><a href="https://www.rundeck.com/blog/reports-of-the-impending-demise-of-ops-are-greatly-exaggerated" target="_blank">Reports Of The Impending Demise Of Operations Are Greatly Exaggerated (Damon Edwards, May 21, 2018)</a></li>
-<li><a href="https://www.spindox.it/en/blog/noops-devops-dawn-new-methodology" target="_blank">NoOps and DevOps: The dawn of a new methodology? (Vanessa Perciballi, Feb 1, 2018)</a></li>
-<li><a href="https://www.techrepublic.com/article/noops-how-serverless-architecture-introduces-a-third-mode-of-it-operations/" target="_blank">NoOps: How serverless architecture introduces a third mode of IT operations (Keith Townsend, Jan 19, 2018)</a></li>
-<li><a href="https://www.criticalcase.com/blog/devops-vs-noops.html" target="_blank">DevOps vs NoOps (Irene Maida, Jan 18, 2018)</a></li>
-<li><a href="https://www.ca.com/us/modern-software-factory/content/what-is-noops-and-is-it-real.html" target="_blank">What is NoOps and is It Real? (Peter Matthews, Aug 3, 2017)</a></li>
-<li><a href="https://medium.com/buttercloud-labs/the-best-devops-is-noops-e99c83d4fdf0" target="_blank">The Best DevOps is NoOps (Feras Hirzalla, Jul 31, 2017)</a></li>
-<li><a href="https://medium.com/@copyconstruct/the-death-of-ops-is-greatly-exaggerated-ff3bd4a67f24" target="_blank">Everyone is not Ops (Cindy Sridharan, Jul 29, 2017)</a></li>
-<li><a href="https://www.bmc.com/blogs/itops-devops-and-noops-oh-my/" target="_blank">ITOps, DevOps, and NoOps Explained (Stephen Watts, May 31, 2017)</a></li>
-<li><a href="https://blog.appdynamics.com/engineering/is-noops-the-end-of-devops-think-again/" target="_blank">Is NoOps the End of DevOps? Think Again (Jordan Bach, Apr 11, 2017)</a></li>
-<li><a href="https://www.stratoscale.com/blog/devops/noops-end-devops-know/" target="_blank">NoOps - Is this the end of DevOps as we know it? (Rotem Dafni, Oct 31, 2016)</a></li>
-<li><a href="https://www.youtube.com/watch?v=ajT90pC3ris" target="_blank">NoOps (Kelsey Hightower @ DevOpsDays Portlang, Aug 21 2016)</a></li>
-<li><a href="https://www.ibm.com/blogs/bluemix/2016/06/moving-devops-noops-microservice-architecture-bluemix/" target="_blank">Moving from DevOps to NoOps with a Microservice Architecture on Bluemix (Christopher Hambridge, Jun 29, 2016)</a></li>
-<li><a href="https://thenewstack.io/serverless-computing-growing-quickly/" target="_blank">The Road to NoOps: Serverless Computing is Quickly Gaining Momentum (Mark Boyd, May 18, 2016)</a></li>
-<li><a href="https://devops.com/future-devops-lie-noops/" target="_blank">Does the Future of Devops Lie in NoOps? (Michael Schmidt, Apr 28, 2016)</a></li>
-<li><a href="https://devops.com/noops-devops-disaster-waiting-happen/" target="_blank">Why NoOps is a DevOps disaster waiting to happen (Peter Waterhouse, Dec 1, 2015)</a></li>
-<li><a href="https://gigaom.com/2012/01/31/why-2013-is-the-year-of-noops-for-programmers-infographic/" target="_blank">Why 2013 is the year of &lsquo;NoOps&rsquo; for programmers (Derrick Harris, Jan 31, 2012)</a></li>
-<li><a href="http://perfcap.blogspot.com/2012/03/ops-devops-and-noops-at-netflix.html" target="_blank">Ops, DevOps and PaaS (NoOps) at Netflix (Adrian Cockcroft, Mar 19, 2012)</a></li>
-<li><a href="https://go.forrester.com/blogs/11-02-07-i_dont_want_devops_i_want_noops/" target="_blank">I Don&rsquo;t Want DevOps. I Want NoOps (Mike Gualtieri, Feb 8, 2011)</a></li>
+<li><a href="https://techbeacon.com/7-arguments-against-noops">7 arguments against NoOps (Travis Greene, ?)</a></li>
+<li><a href="https://www.rundeck.com/blog/reports-of-the-impending-demise-of-ops-are-greatly-exaggerated">Reports Of The Impending Demise Of Operations Are Greatly Exaggerated (Damon Edwards, May 21, 2018)</a></li>
+<li><a href="https://www.spindox.it/en/blog/noops-devops-dawn-new-methodology">NoOps and DevOps: The dawn of a new methodology? (Vanessa Perciballi, Feb 1, 2018)</a></li>
+<li><a href="https://www.techrepublic.com/article/noops-how-serverless-architecture-introduces-a-third-mode-of-it-operations/">NoOps: How serverless architecture introduces a third mode of IT operations (Keith Townsend, Jan 19, 2018)</a></li>
+<li><a href="https://www.criticalcase.com/blog/devops-vs-noops.html">DevOps vs NoOps (Irene Maida, Jan 18, 2018)</a></li>
+<li><a href="https://www.ca.com/us/modern-software-factory/content/what-is-noops-and-is-it-real.html">What is NoOps and is It Real? (Peter Matthews, Aug 3, 2017)</a></li>
+<li><a href="https://medium.com/buttercloud-labs/the-best-devops-is-noops-e99c83d4fdf0">The Best DevOps is NoOps (Feras Hirzalla, Jul 31, 2017)</a></li>
+<li><a href="https://medium.com/@copyconstruct/the-death-of-ops-is-greatly-exaggerated-ff3bd4a67f24">Everyone is not Ops (Cindy Sridharan, Jul 29, 2017)</a></li>
+<li><a href="https://www.bmc.com/blogs/itops-devops-and-noops-oh-my/">ITOps, DevOps, and NoOps Explained (Stephen Watts, May 31, 2017)</a></li>
+<li><a href="https://blog.appdynamics.com/engineering/is-noops-the-end-of-devops-think-again/">Is NoOps the End of DevOps? Think Again (Jordan Bach, Apr 11, 2017)</a></li>
+<li><a href="https://www.stratoscale.com/blog/devops/noops-end-devops-know/">NoOps - Is this the end of DevOps as we know it? (Rotem Dafni, Oct 31, 2016)</a></li>
+<li><a href="https://www.youtube.com/watch?v=ajT90pC3ris">NoOps (Kelsey Hightower @ DevOpsDays Portlang, Aug 21 2016)</a></li>
+<li><a href="https://www.ibm.com/blogs/bluemix/2016/06/moving-devops-noops-microservice-architecture-bluemix/">Moving from DevOps to NoOps with a Microservice Architecture on Bluemix (Christopher Hambridge, Jun 29, 2016)</a></li>
+<li><a href="https://thenewstack.io/serverless-computing-growing-quickly/">The Road to NoOps: Serverless Computing is Quickly Gaining Momentum (Mark Boyd, May 18, 2016)</a></li>
+<li><a href="https://devops.com/future-devops-lie-noops/">Does the Future of Devops Lie in NoOps? (Michael Schmidt, Apr 28, 2016)</a></li>
+<li><a href="https://devops.com/noops-devops-disaster-waiting-happen/">Why NoOps is a DevOps disaster waiting to happen (Peter Waterhouse, Dec 1, 2015)</a></li>
+<li><a href="https://gigaom.com/2012/01/31/why-2013-is-the-year-of-noops-for-programmers-infographic/">Why 2013 is the year of &lsquo;NoOps&rsquo; for programmers (Derrick Harris, Jan 31, 2012)</a></li>
+<li><a href="http://perfcap.blogspot.com/2012/03/ops-devops-and-noops-at-netflix.html">Ops, DevOps and PaaS (NoOps) at Netflix (Adrian Cockcroft, Mar 19, 2012)</a></li>
+<li><a href="https://go.forrester.com/blogs/11-02-07-i_dont_want_devops_i_want_noops/">I Don&rsquo;t Want DevOps. I Want NoOps (Mike Gualtieri, Feb 8, 2011)</a></li>
 </ul>
               </section>
 
@@ -325,7 +299,7 @@ Y probablemente, no serán los últimos.</p>
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fla-promesa-incompleta.html&title=La%20promesa%20incompleta&summary=Hace%20unos%20d%c3%adas%2c%20con%20un%20compa%c3%b1ero%20desarrollador%20coment%c3%a1bamos%20un%20art%c3%adculo%20sobre%20un%20producto%20implementado%20usando%20s%c3%b3lo%20Serverless%20y%20que%2c%20por%20lo%20tanto%2c%20es%20NoOps.%20Durante%20la%20conversaci%c3%b3n%2c%20me%20llam%c3%b3%20la%20atenci%c3%b3n%20lo%20f%c3%a1cil%20que%20es%20confundir%20el%20significado%20de%20NoOps%2c%20as%c3%ad%20que%20decid%c3%ad%20escribir%20este%20post.%0aAunque%20es%20largo%2c%20espero%20que%20os%20guste%20%3b%29%0a%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fla-promesa-incompleta.html&title=La%20promesa%20incompleta&summary=%26lt%3bimg%20src%3d%27%2fimages%2fnoops.jpg%27%20alt%3d%26lsquo%3bnoops%26rsquo%3b%20class%3d%26lsquo%3balign-left%20height%3d%26lsquo%3b200%26rsquo%3b%20width%3d%26lsquo%3b200%26rsquo%3b%2f%26gt%3b%0aHace%20unos%20d%c3%adas%2c%20con%20un%20compa%c3%b1ero%20desarrollador%20coment%c3%a1bamos%20un%20art%c3%adculo%20sobre%20un%20producto%20implementado%20usando%20s%c3%b3lo%20Serverless%20y%20que%2c%20por%20lo%20tanto%2c%20es%20NoOps.%20Durante%20la%20conversaci%c3%b3n%2c%20me%20llam%c3%b3%20la%20atenci%c3%b3n%20lo%20f%c3%a1cil%20que%20es%20confundir%20el%20significado%20de%20NoOps%2c%20as%c3%ad%20que%20decid%c3%ad%20escribir%20este%20post.%0aAunque%20es%20largo%2c%20espero%20que%20os%20guste%20%3b%29%0a"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

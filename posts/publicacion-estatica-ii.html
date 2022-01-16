@@ -26,14 +26,10 @@
         <meta name="twitter:title" content="Publicación estática (II)" />
         
         <meta name="twitter:description" content="
-
 Han pasado casi tres meses desde que se publicó el primer artículo sobre publicación estática en EntreDevYOps, en el que se prometía un ejemplo&hellip;
 Lo prometido es deuda.
 Espero que el interés sobre el tema aún siga vigente&hellip;
-
-En este artículo, se muestra, paso a paso, y con un ejemplo real, cómo realizar una publicación estática, con Hugo, usando Travis, en GitHub Pages.
-
-" />
+En este artículo, se muestra, paso a paso, y con un ejemplo real, cómo realizar una publicación estática, con Hugo, usando Travis, en GitHub Pages." />
         <meta name="twitter:url" content="https://www.entredevyops.es/posts/publicacion-estatica-ii.html" />
         <meta name="telegram:channel" content="@entredevyops" />
     
@@ -81,7 +77,7 @@ En este artículo, se muestra, paso a paso, y con un ejemplo real, cómo realiza
         "@type": "BlogPosting",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://www.entredevyops.es/posts/publicacion-estatica-ii.html"
+          "@id": "https:\/\/www.entredevyops.es\/posts\/publicacion-estatica-ii.html"
         },
         "headline": "Publicación estática (II)",
         "description": "",
@@ -98,9 +94,9 @@ En este artículo, se muestra, paso a paso, y con un ejemplo real, cómo realiza
         },
         "publisher": {
           "@type": "Organization",
-          "@id": "https://www.entredevyops.es/",
+          "@id": "https:\/\/www.entredevyops.es\/",
           "name": "Entre Dev y Ops",
-          "url": "https://www.entredevyops.es/",
+          "url": "https:\/\/www.entredevyops.es\/",
           "logo": {
             "@type": "ImageObject",
             "url": "https:",
@@ -117,8 +113,8 @@ En este artículo, se muestra, paso a paso, y con un ejemplo real, cómo realiza
         },
         "datePublished": "2016-10-02",
         "dateModified": "2016-10-02",
-        "wordCount": 1051,
-        "keywords": ["Automatización","Herramientas","Web"] 
+        "wordCount":  1050 ,
+        "keywords": "[\"Automatización\",\"Herramientas\",\"Web\"]" 
     }
     </script>
 
@@ -222,7 +218,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <header class="post-header">
                 
                     <span class="post-meta">
-                        <span class="post-date">2 Oct 2016</span> <span class="reading-time">| <span class="estimated-reading-time">5 min.</span> (<span class="word-count">1051</span> palabras)</span></span>
+                        <span class="post-date">2 Oct 2016</span> <span class="reading-time">| <span class="estimated-reading-time">5 min.</span> (<span class="word-count">1050</span> palabras)</span></span>
                     </span>
                 <div class="clear"></div>
                 
@@ -231,62 +227,47 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <p><img src="/images/publicacion-estatica-header.png" class="align-left" alt="Publicación estática" height="180" /></p>
-
-<p>Han pasado casi tres meses desde que se publicó el <a href="http://www.entredevyops.es/posts/publicacion-estatica.html" target="_blank">primer artículo sobre publicación estática</a> en <a href="http://www.entredevyops.es" target="_blank">EntreDevYOps</a>, en el que se prometía un ejemplo&hellip;
+                  <!-- raw HTML omitted -->
+<p>Han pasado casi tres meses desde que se publicó el <a href="http://www.entredevyops.es/posts/publicacion-estatica.html">primer artículo sobre publicación estática</a> en <a href="http://www.entredevyops.es">EntreDevYOps</a>, en el que se prometía un ejemplo&hellip;
 Lo prometido es deuda.
 Espero que el interés sobre el tema aún siga vigente&hellip;</p>
-
-<p>En este artículo, se muestra, paso a paso, y con un ejemplo real, cómo realizar una publicación estática, con <a href="http://gohugo.io" target="_blank">Hugo</a>, usando <a href="http://travis-ci.org" target="_blank">Travis</a>, en <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
-
-<p></p>
-
-<p>El resultado será un sitio web con una sola página, una especie de <a href="https://about.me/" target="_blank">about.me</a>, cuyas actualizaciones se harán mediante <code>push</code> a un repositorio, que provocarán, de forma automática, su publicación en <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
-
+<p>En este artículo, se muestra, paso a paso, y con un ejemplo real, cómo realizar una publicación estática, con <a href="http://gohugo.io">Hugo</a>, usando <a href="http://travis-ci.org">Travis</a>, en <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+<p>El resultado será un sitio web con una sola página, una especie de <a href="https://about.me/">about.me</a>, cuyas actualizaciones se harán mediante <code>push</code> a un repositorio, que provocarán, de forma automática, su publicación en <a href="https://pages.github.com/">GitHub Pages</a>.</p>
 <h1 id="requisitos">Requisitos</h1>
-
 <p>Los requisitos son los siguientes:</p>
-
 <ul>
 <li>Dominio: En el caso expuesto, se utiliza <code>midominio.es</code>.</li>
-<li>Cuenta de <a href="https://github.com/" target="_blank">GitHub</a>: El artículo trabaja con la cuenta <code>cuenta</code>.</li>
-<li>Acceso a <a href="http://travis-ci.org" target="_blank">Travis</a>.</li>
-<li><a href="http://golang.org" target="_blank">Go</a> instalado.</li>
-<li>Cuenta en <a href="https://analytics.google.com" target="_blank">Google Analytics</a>, aunque sería opcional.</li>
+<li>Cuenta de <a href="https://github.com/">GitHub</a>: El artículo trabaja con la cuenta <code>cuenta</code>.</li>
+<li>Acceso a <a href="http://travis-ci.org">Travis</a>.</li>
+<li><a href="http://golang.org">Go</a> instalado.</li>
+<li>Cuenta en <a href="https://analytics.google.com">Google Analytics</a>, aunque sería opcional.</li>
 </ul>
-
 <h1 id="instalar-hugo">Instalar hugo</h1>
-
-<p>Como con cualquier herramienta en <a href="http://golang.org" target="_blank">Go</a>, instalar <a href="http://gohugo.io" target="_blank">Hugo</a> es tan sencillo como usar <code>go get</code>:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">go get -u -v git@github.com/spf13/hugo</code></pre></div>
-<h1 id="creación-del-nuevo-sitio">Creación del nuevo sitio</h1>
-
-<p>Para usar <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, con una cuenta de usuario o de organización, hay que usar el nombre <code>cuenta.github.io</code>.
-Crear un nuevo sitio con <a href="http://gohugo.io" target="_blank">Hugo</a>, es muy sencillo:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo new site cuenta.github.io</code></pre></div>
-<p>A continuación, se convierte la estructura creada por <a href="http://gohugo.io" target="_blank">Hugo</a>, en un repositorio <code>git</code>.
-Como <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, para usuarios y organizaciones, utiliza la rama <code>master</code>, convendrá crear una rama distinta donde utilizar <a href="http://gohugo.io" target="_blank">Hugo</a>:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd cuenta.github.io
+<p>Como con cualquier herramienta en <a href="http://golang.org">Go</a>, instalar <a href="http://gohugo.io">Hugo</a> es tan sencillo como usar <code>go get</code>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">go get -u -v git@github.com/spf13/hugo
+</code></pre></div><h1 id="creación-del-nuevo-sitio">Creación del nuevo sitio</h1>
+<p>Para usar <a href="https://pages.github.com/">GitHub Pages</a>, con una cuenta de usuario o de organización, hay que usar el nombre <code>cuenta.github.io</code>.
+Crear un nuevo sitio con <a href="http://gohugo.io">Hugo</a>, es muy sencillo:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo new site cuenta.github.io
+</code></pre></div><p>A continuación, se convierte la estructura creada por <a href="http://gohugo.io">Hugo</a>, en un repositorio <code>git</code>.
+Como <a href="https://pages.github.com/">GitHub Pages</a>, para usuarios y organizaciones, utiliza la rama <code>master</code>, convendrá crear una rama distinta donde utilizar <a href="http://gohugo.io">Hugo</a>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd cuenta.github.io
 git init .
-git checkout -b edition</code></pre></div>
-<h1 id="instalar-el-tema">Instalar el tema</h1>
-
-<p>Para el ejemplo utilizado, se ha elegido un tema de <a href="http://gohugo.io" target="_blank">Hugo</a>, llamado <a href="http://themes.gohugo.io/hugo-identity-theme/" target="_blank">Identity</a>, que ya incluye un <code>config.toml</code> base, pero <a href="http://themes.gohugo.io/" target="_blank">hay muchos otros temas disponibles</a>.
-Además, la instalación se hace usando <a href="https://github.com/blog/2104-working-with-submodules" target="_blank">submódulos de git</a>:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir themes
+git checkout -b edition
+</code></pre></div><h1 id="instalar-el-tema">Instalar el tema</h1>
+<p>Para el ejemplo utilizado, se ha elegido un tema de <a href="http://gohugo.io">Hugo</a>, llamado <a href="http://themes.gohugo.io/hugo-identity-theme/">Identity</a>, que ya incluye un <code>config.toml</code> base, pero <a href="http://themes.gohugo.io/">hay muchos otros temas disponibles</a>.
+Además, la instalación se hace usando <a href="https://github.com/blog/2104-working-with-submodules">submódulos de git</a>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir themes
 git submodule add https://github.com/aerohub/hugo-identity-theme themes/hugo-identity-theme
-cp themes/hugo-identity-theme/exampleSite/config.toml .</code></pre></div>
-<h1 id="ver-la-versión-local">Ver la versión local</h1>
-
-<p>Mientras se edite el sitio localmente, se puede visualizar con el subcomando <code>server</code> de <a href="http://gohugo.io" target="_blank">Hugo</a>:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo server -t hugo-identity-theme</code></pre></div>
-<p>Una vez ejecutándose, se puede visitar la versión local apuntando un navegador a <code>http://localhost:1313</code>.
+cp themes/hugo-identity-theme/exampleSite/config.toml .
+</code></pre></div><h1 id="ver-la-versión-local">Ver la versión local</h1>
+<p>Mientras se edite el sitio localmente, se puede visualizar con el subcomando <code>server</code> de <a href="http://gohugo.io">Hugo</a>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo server -t hugo-identity-theme
+</code></pre></div><p>Una vez ejecutándose, se puede visitar la versión local apuntando un navegador a <code>http://localhost:1313</code>.
 Como con otras herramientas similares, este comando refresca automáticamente los cambios en el código.</p>
-
 <h1 id="configurar-la-pubicación-automática">Configurar la pubicación automática</h1>
-
-<p>A continuación, se configura el repositorio para ser usado con <a href="http://travis-ci.org" target="_blank">Travis</a>, añadiendo el fichero <code>.travis.yml</code> con el contenido siguiente:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">language: go
+<p>A continuación, se configura el repositorio para ser usado con <a href="http://travis-ci.org">Travis</a>, añadiendo el fichero <code>.travis.yml</code> con el contenido siguiente:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">language: go
 sudo: <span style="color:#00f">false</span>
 branches:
   only:
@@ -301,92 +282,78 @@ install:
 script:
   - rm -rf public
   - hugo -t hugo-identity-theme
-  - git config --global user.email <span style="color:#a31515">&#34;cuenta+travis@gmail.com&#34;</span>
-  - git config --global user.name <span style="color:#a31515">&#34;Travis for midominio.es&#34;</span>
+  - git config --global user.email &#34;cuenta+travis@gmail.com&#34;
+  - git config --global user.name &#34;Travis for midominio.es&#34;
   - git checkout --orphan master
   - cp -R public/* .
   - rm -rf public bin content static .gitignore .travis.yml config.toml README.md themes
-  - echo <span style="color:#a31515">&#34;www.midominio.es&#34;</span> <span style="color:#a31515">&gt; CNAME
-</span><span style="color:#a31515">  - git add .
-</span><span style="color:#a31515">  - git rm -rf content themes config.toml .gitmodules .travis.yml
-</span><span style="color:#a31515">  - git commit -m &#34;Publishing&#34;
-</span><span style="color:#a31515">  - git push &#34;https://${GH_TOKEN}@github.com/cuenta/cuenta.github.io.git&#34; master -f &gt;/dev/null 2&gt;&amp;1</span></code></pre></div>
-<p>El contenido del fichero <code>.travis.yml</code> detalla que para el despliegue, se utilizará <a href="http://golang.org" target="_blank">Go</a> 1.6, la rama <code>edition</code>, <a href="http://gohugo.io" target="_blank">Hugo</a>, que habrá que instalar, y los pasos necesarios para construir el contenido estático con el tema elegido, publicando el resultado en la rama <code>master</code> y añadiendo el fichero <code>CNAME</code> con el dominio elegido.</p>
-
-<p>Ahora, ya se puede hacer el primer <code>commit</code>, incluyendo la carpeta <code>content</code>, necesaria para que <a href="http://gohugo.io" target="_blank">Hugo</a> se ejecute sin problemas:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">touch content/.placeholder
+  - echo &#34;www.midominio.es&#34; &gt; CNAME
+  - git add .
+  - git rm -rf content themes config.toml .gitmodules .travis.yml
+  - git commit -m &#34;Publishing&#34;
+  - git push &#34;https://${GH_TOKEN}@github.com/cuenta/cuenta.github.io.git&#34; master -f &gt;/dev/null 2&gt;&amp;1
+</code></pre></div><p>El contenido del fichero <code>.travis.yml</code> detalla que para el despliegue, se utilizará <a href="http://golang.org">Go</a> 1.6, la rama <code>edition</code>, <a href="http://gohugo.io">Hugo</a>, que habrá que instalar, y los pasos necesarios para construir el contenido estático con el tema elegido, publicando el resultado en la rama <code>master</code> y añadiendo el fichero <code>CNAME</code> con el dominio elegido.</p>
+<p>Ahora, ya se puede hacer el primer <code>commit</code>, incluyendo la carpeta <code>content</code>, necesaria para que <a href="http://gohugo.io">Hugo</a> se ejecute sin problemas:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">touch content/.placeholder
 git add .
-git commit -am <span style="color:#a31515">&#34;Initial cuenta.github.io commit&#34;</span></code></pre></div>
-<p>El siguiente paso, consiste en crear el repositorio <code>cuenta.github.io</code> en la cuenta de <a href="https://github.com/" target="_blank">GitHub</a> que se vaya a utilizar.
+git commit -am <span style="color:#a31515">&#34;Initial cuenta.github.io commit&#34;</span>
+</code></pre></div><p>El siguiente paso, consiste en crear el repositorio <code>cuenta.github.io</code> en la cuenta de <a href="https://github.com/">GitHub</a> que se vaya a utilizar.
 Conviene que se cree con un fichero <code>README.md</code> para forzar la existencia sin necesitar nada más.
-Una vez creado el repositorio en <a href="https://github.com/" target="_blank">GitHub</a>, ya es posible enlazarlo con la copia local:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote add origin git@github:cuenta/cuenta.github.io.git
+Una vez creado el repositorio en <a href="https://github.com/">GitHub</a>, ya es posible enlazarlo con la copia local:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote add origin git@github:cuenta/cuenta.github.io.git
 git fetch
-git push --set-upstream origin edition</code></pre></div>
-<p>Para configurar la ejecución mediante <a href="http://travis-ci.org" target="_blank">Travis</a>, primero hay que conseguir un token de la cuenta de <a href="https://github.com/" target="_blank">GitHub</a>.
+git push --set-upstream origin edition
+</code></pre></div><p>Para configurar la ejecución mediante <a href="http://travis-ci.org">Travis</a>, primero hay que conseguir un token de la cuenta de <a href="https://github.com/">GitHub</a>.
 El token sólo necesita tener permiso para operar sobre los repositorios públicos.</p>
-
-<p><img src="/images/publicacion-estatica-token.png" alt="Permisos del token de GitHub" height="180" /></p>
-
-<p>El siguiente paso es crear la configuración para el repositorio en <a href="http://travis-ci.org" target="_blank">Travis</a>.
+<!-- raw HTML omitted -->
+<p>El siguiente paso es crear la configuración para el repositorio en <a href="http://travis-ci.org">Travis</a>.
 En la configuración hay que marcar que ejecute el código siempre que haya el fichero <code>.travis.yml</code>, y en todos los <code>push</code>.
-Es importante crear la variable de entorno <code>GH_TOKEN</code>, con el token que se ha obtenido de <a href="https://github.com/" target="_blank">GitHub</a>, indicando que no muestre el valor.</p>
-
-<p><img src="/images/publicacion-estatica-travis.png" alt="Configuración del proyecto en Travis" height="360" /></p>
-
+Es importante crear la variable de entorno <code>GH_TOKEN</code>, con el token que se ha obtenido de <a href="https://github.com/">GitHub</a>, indicando que no muestre el valor.</p>
+<!-- raw HTML omitted -->
 <h1 id="configurar-dominio">Configurar dominio</h1>
-
-<p>En el DNS del dominio que se quiera utilizar, hay que crear dos registros:
-* Un registro <code>CNAME</code> de <code>www.midominio.es</code> que apunte a <code>cuenta.github.io</code>.
-* Un registro <code>A</code> de <code>midominio.es</code> que apunte a <code>174.129.25.170</code>.</p>
-
-<p>Éste último registro a punta a un servicio gratuito de <a href="http://wwwizer.com/naked-domain-redirect" target="_blank">WWWizer</a> que automáticamente redirige el dominio <em>APEX</em> al host <code>www</code>.</p>
-
+<p>En el DNS del dominio que se quiera utilizar, hay que crear dos registros:</p>
+<ul>
+<li>Un registro <code>CNAME</code> de <code>www.midominio.es</code> que apunte a <code>cuenta.github.io</code>.</li>
+<li>Un registro <code>A</code> de <code>midominio.es</code> que apunte a <code>174.129.25.170</code>.</li>
+</ul>
+<p>Éste último registro a punta a un servicio gratuito de <a href="http://wwwizer.com/naked-domain-redirect">WWWizer</a> que automáticamente redirige el dominio <em>APEX</em> al host <code>www</code>.</p>
 <h1 id="primera-publicación">Primera publicación</h1>
-
 <p>A continuación, se modifican las primeras líneas del fichero <code>config.toml</code>, con los valores apropiados:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">baseurl = <span style="color:#a31515">&#34;http://www.midominio.es&#34;</span> <span style="color:#008000">#without ending slash</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">baseurl = <span style="color:#a31515">&#34;http://www.midominio.es&#34;</span> <span style="color:#008000">#without ending slash</span>
 languageCode = <span style="color:#a31515">&#34;es-es&#34;</span>
 theme = <span style="color:#a31515">&#34;hugo-identity-theme&#34;</span>
-title = <span style="color:#a31515">&#34;Nombre del sitio&#34;</span></code></pre></div>
-<p>Para hacer la publicación de este cambio, basta con hacer el <code>commit</code> y el <code>push</code>:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git commit -am <span style="color:#a31515">&#34;First publication&#34;</span>
-git push</code></pre></div>
-<p>Conviene observar que el build se realiza correctamente en <a href="http://travis-ci.org" target="_blank">Travis</a>.</p>
-
+title = <span style="color:#a31515">&#34;Nombre del sitio&#34;</span>
+</code></pre></div><p>Para hacer la publicación de este cambio, basta con hacer el <code>commit</code> y el <code>push</code>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git commit -am <span style="color:#a31515">&#34;First publication&#34;</span>
+git push
+</code></pre></div><p>Conviene observar que el build se realiza correctamente en <a href="http://travis-ci.org">Travis</a>.</p>
 <h1 id="ajustes">Ajustes</h1>
-
 <p>Finalmente, se pueden ajustar ciertos aspectos de forma muy sencilla.
 Hay que recordar publicar bien tras cada cambio, o una sola vez tras todos los cambios, según se prefiera:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add .
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add .
 git commit -m <span style="color:#a31515">&#34;Add my own information&#34;</span>
-git push</code></pre></div>
-<h2 id="sobreescribir-el-icono-del-sitio">Sobreescribir el icono del sitio</h2>
-
-<p>El tema <a href="http://themes.gohugo.io/hugo-identity-theme/" target="_blank">Identity</a> incluye un icono para el sitio, que probablemente se desee cambiar.
-Lo más directo, en lugar de editar el tema, o hacer una bifurcación, o <code>fork</code>, es utilizar la funcionalidad de sobreescritura de <a href="http://gohugo.io" target="_blank">Hugo</a>:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir -p static/images/icons
-cp /tmp/favicon.ico static/images/icons/.</code></pre></div>
-<p>Así, creamos el directorio que corresponde a los iconos, tal y como está definido en el tema, y ponemos el icono con el mismo nombre.</p>
-
+git push
+</code></pre></div><h2 id="sobreescribir-el-icono-del-sitio">Sobreescribir el icono del sitio</h2>
+<p>El tema <a href="http://themes.gohugo.io/hugo-identity-theme/">Identity</a> incluye un icono para el sitio, que probablemente se desee cambiar.
+Lo más directo, en lugar de editar el tema, o hacer una bifurcación, o <code>fork</code>, es utilizar la funcionalidad de sobreescritura de <a href="http://gohugo.io">Hugo</a>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir -p static/images/icons
+cp /tmp/favicon.ico static/images/icons/.
+</code></pre></div><p>Así, creamos el directorio que corresponde a los iconos, tal y como está definido en el tema, y ponemos el icono con el mismo nombre.</p>
 <h2 id="añadir-avatar-propio">Añadir avatar propio</h2>
-
 <p>De forma similar, se puede configurar el avatar que se quiere usar, con la diferencia de que en este caso se indica el nombre del fichero en la configuración</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir -p static/images/avatars
-cp /tmp/mi_avatar.png static/images/avatars/.</code></pre></div><div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">avatar = <span style="color:#a31515">&#34;mi_avatar.png&#34;</span></code></pre></div>
-<h2 id="añadir-código-google-analytics">Añadir código Google Analytics</h2>
-
-<p>El tema <a href="http://themes.gohugo.io/hugo-identity-theme/" target="_blank">Identity</a>, incluye la inserción del código para <a href="https://analytics.google.com" target="_blank">Google Analytics</a>, por lo que, disponiendo del código para el sitio, basta con editar el fichero <code>config.toml</code>, dejando el código deseado:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">googleAnalytics = <span style="color:#a31515">&#34;UA-########-#&#34;</span></code></pre></div>
-<h2 id="configurar-enlaces-a-redes-sociales">Configurar enlaces a redes sociales</h2>
-
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir -p static/images/avatars
+cp /tmp/mi_avatar.png static/images/avatars/.
+</code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">avatar = <span style="color:#a31515">&#34;mi_avatar.png&#34;</span>
+</code></pre></div><h2 id="añadir-código-google-analytics">Añadir código Google Analytics</h2>
+<p>El tema <a href="http://themes.gohugo.io/hugo-identity-theme/">Identity</a>, incluye la inserción del código para <a href="https://analytics.google.com">Google Analytics</a>, por lo que, disponiendo del código para el sitio, basta con editar el fichero <code>config.toml</code>, dejando el código deseado:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">googleAnalytics = <span style="color:#a31515">&#34;UA-########-#&#34;</span>
+</code></pre></div><h2 id="configurar-enlaces-a-redes-sociales">Configurar enlaces a redes sociales</h2>
 <p>Otra funcionalidad del tema, es la inserción de iconos de redes sociales. Por ejemplo, Para insertar la <code>cuenta</code> de Twitter, hay que modificar el fichero <code>config.toml</code>, para que tenga las siguientes líneas:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[[params.social]]
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[[params.social]]
     title = <span style="color:#a31515">&#34;Twitter&#34;</span>
     icon = <span style="color:#a31515">&#34;fa-twitter&#34;</span>
-    link = <span style="color:#a31515">&#34;https://twitter.com/cuenta&#34;</span></code></pre></div>
-<h2 id="otras-configuraciones-en-config-toml">Otras configuraciones en <code>config.toml</code></h2>
-
+    link = <span style="color:#a31515">&#34;https://twitter.com/cuenta&#34;</span>
+</code></pre></div><h2 id="otras-configuraciones-en-configtoml">Otras configuraciones en <code>config.toml</code></h2>
 <p>Otros valores que se pueden modificar en el <code>config.toml</code>, son <code>name</code>, <code>position</code>, o <code>copyright</code></p>
               </section>
 
@@ -408,7 +375,7 @@ cp /tmp/mi_avatar.png static/images/avatars/.</code></pre></div><div class="high
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fpublicacion-estatica-ii.html&title=Publicaci%c3%b3n%20est%c3%a1tica%20%28II%29&summary=Han%20pasado%20casi%20tres%20meses%20desde%20que%20se%20public%c3%b3%20el%20primer%20art%c3%adculo%20sobre%20publicaci%c3%b3n%20est%c3%a1tica%20en%20EntreDevYOps%2c%20en%20el%20que%20se%20promet%c3%ada%20un%20ejemplo%26hellip%3b%20Lo%20prometido%20es%20deuda.%20Espero%20que%20el%20inter%c3%a9s%20sobre%20el%20tema%20a%c3%ban%20siga%20vigente%26hellip%3b%0aEn%20este%20art%c3%adculo%2c%20se%20muestra%2c%20paso%20a%20paso%2c%20y%20con%20un%20ejemplo%20real%2c%20c%c3%b3mo%20realizar%20una%20publicaci%c3%b3n%20est%c3%a1tica%2c%20con%20Hugo%2c%20usando%20Travis%2c%20en%20GitHub%20Pages.%0a%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fpublicacion-estatica-ii.html&title=Publicaci%c3%b3n%20est%c3%a1tica%20%28II%29&summary=Han%20pasado%20casi%20tres%20meses%20desde%20que%20se%20public%c3%b3%20el%20primer%20art%c3%adculo%20sobre%20publicaci%c3%b3n%20est%c3%a1tica%20en%20EntreDevYOps%2c%20en%20el%20que%20se%20promet%c3%ada%20un%20ejemplo%26hellip%3b%20Lo%20prometido%20es%20deuda.%20Espero%20que%20el%20inter%c3%a9s%20sobre%20el%20tema%20a%c3%ban%20siga%20vigente%26hellip%3b%0aEn%20este%20art%c3%adculo%2c%20se%20muestra%2c%20paso%20a%20paso%2c%20y%20con%20un%20ejemplo%20real%2c%20c%c3%b3mo%20realizar%20una%20publicaci%c3%b3n%20est%c3%a1tica%2c%20con%20Hugo%2c%20usando%20Travis%2c%20en%20GitHub%20Pages.%0a"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paper on Entre Dev y Ops</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Paper on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sat, 07 Dec 2013 20:14:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/paper/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 07 Dec 2013 20:14:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/paper/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Review del paper What Is DevOps?</title>
       <link>https://www.entredevyops.es/posts/review-paper-what-is-devops.html</link>
@@ -22,8 +18,12 @@
 
 &lt;img alt=&#34;Paper What Is DevOps?&#34; class=&#34;border align-left&#34; src=&#34;https://www.entredevyops.es/images/what_is_devops_paper.jpg&#34; style=&#34;width: 93px; height: 125px;&#34; /&gt;
 &lt;p&gt;Buscando por Amazon libros sobre DevOps fui a dar un con un paper que tanto su título y precio enseguida llamaron mi atención. El paper en cuestión es &lt;a class=&#34;reference external&#34; href=&#34;http://www.amazon.com/What-DevOps-Mike-Loukides-ebook/dp/B0084HJB56/ref=sr_1_2?s=digital-text&amp;amp;ie=UTF8&amp;amp;qid=1386441697&amp;amp;sr=1-2&#34;&gt;What Is DevOps?&lt;/a&gt; de Mike Loukides y su precio es 0 €.&lt;/p&gt;
-&lt;p&gt;Es un paper ameno, haciendo referencia a diversas fuentes, que para los dominadores de la lengua de Shakespeare se lee de manera rápida en apenas 15 minutos.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</description>
+&lt;p&gt;Es un paper ameno, haciendo referencia a diversas fuentes, que para los dominadores de la lengua de Shakespeare se lee de manera rápida en apenas 15 minutos.&lt;/p&gt;&lt;/div&gt;</description>
+      <image>
+        <url>/images/</url>
+        <title>Review del paper What Is DevOps?</title>
+        <link>https://www.entredevyops.es/posts/review-paper-what-is-devops.html</link>
+      </image>
     </item>
     
   </channel>

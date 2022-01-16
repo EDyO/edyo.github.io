@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on Entre Dev y Ops</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Git on Entre Dev y Ops</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 16 Jun 2014 03:14:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.entredevyops.es/tags/git/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 16 Jun 2014 03:14:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/tags/git/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recursos Git</title>
       <link>https://www.entredevyops.es/posts/recursos-git.html</link>
@@ -19,6 +15,11 @@
       <guid>https://www.entredevyops.es/posts/recursos-git.html</guid>
       <description>Unos cuantos recursos interesantes de git:
 A hacker&#39;s guide to Git Git Is Simpler Than You Think A successful Git branching model  De todos los links anteriores, especialmente el último creo que es muy interesante ya que en su simplicidad de uso de las ramas en git permite poder hacer cualquier tipo operaciones con ello, ya sean fixes o la creación de nuevas features.</description>
+      <image>
+        <url>/images/</url>
+        <title>Recursos Git</title>
+        <link>https://www.entredevyops.es/posts/recursos-git.html</link>
+      </image>
     </item>
     
   </channel>
