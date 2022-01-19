@@ -229,13 +229,13 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <!-- raw HTML omitted -->
+                  <img src='/images/743e78a4-370b-11e7-9d3d-e8321c7d49c9.jpg' alt='SLA' class='align-left'/>
 <p>A raíz del incidente de <a href="https://aws.amazon.com/es/message/41926/">AWS S3 del pasado 28 de Febrero</a>  he oído, y no en pocas ocasiones, frases del estilo “pero esto del cloud no se caía, no?”, “hasta el cloud tiene caídas de servicio” y similares.
 Si hablamos con personas que conozcan que es el cloud seguramente tendrán una opinión similar: una de las ventajas de migrar hacia el cloud es que nunca tendrás caídas de servicio.</p>
 <p>Lamentablemente eso no es del todo verdad y las empresas que ofrecen servicios de cloud lo saben.</p>
 <p>Si bien es cierto que con un buen diseño de infraestructura podemos minimizar el riesgo de pérdida de servicio, todo proveedor sabe que existe una posibilidad de indisponibilidad y se indica a nivel contractual con el <a href="https://en.wikipedia.org/wiki/Service-level_agreement">SLA</a>. Para mí, el sla es cuánto se fía nuestro proveedor de su infraestructura y el compromiso que está dispuesto a asumir con sus clientes así como las compensaciones (normalmente económicas).</p>
 <p>He querido revisar el SLA ofrecido por los líderes actuales en IaaS, que según gartner son Amazon y Microsoft:</p>
-<!-- raw HTML omitted -->
+<img src='/images/743c5f88-370b-11e7-9959-272f9beae788.png' alt='SLA' width=80% class='align-center'>
 <h2 id="amazon">Amazon</h2>
 <blockquote>
 <h3 id="ec2">EC2</h3>
@@ -256,7 +256,7 @@ Si hablamos con personas que conozcan que es el cloud seguramente tendrán una o
 </blockquote>
 <h2 id="conclusiones">Conclusiones</h2>
 <p>Os hago un pequeño resumen en una tabla:</p>
-<!-- raw HTML omitted -->
+<img src='/images/7b06ed92-407a-11e7-8478-ec88fce16a49.png' alt='SLA' class='align-center'>
 <p>Os recomiendo que dentro de cada página del SLA de cada servicio , echéis un vistazo a la manera de realizar el cálculo de dicho SLA, porque habitualmente se tienen en cuenta varias variables, no únicamente el uptime de los servicios. Si esto es positivo o negativo lo dejo a vuestro criterio.</p>
 <p>Como conclusión decir que los niveles de servicio que ofrecen ambos proveedores en sus principales productos son muy parecidos. Aquí la clave es valorar el coste de generar una infraestructura que nos cubra sobre estas posibles indisponibilidades contra el beneficio que obtendríamos teniendo nuestra infraestructura funcionando durante ese periodo.</p>
               </section>

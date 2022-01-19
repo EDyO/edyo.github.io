@@ -224,7 +224,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <!-- raw HTML omitted -->
+                  <img src='/images/4c54eb54-9466-11e6-8a7b-4aa4459dc02f.png' alt='Ssh Google Authenticator' class='align-right' height='150' width='150'/>
 <p>Tal como comenté en mi <a href="http://www.entredevyops.es/posts/fail2ban-ssh.html">pasado artículo en este mismo blog</a> hace poco detecté que alguna mala persona estaba intentando acceder a mi servidor privado mediante fuerza bruta por SSH. En el artículo de hoy vamos a explicar cómo activar el 2FA (doble factor de autenticación) para acceso SSH con <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2">Google Authenticator</a>.</p>
 <p>La demostración la vamos a realizar sobre una máquina virtual en mi PC basada en Ubuntu Server 16.04.01.</p>
 <p>Lo primero que vamos a necesitar es la instalación del paquete que habilite en el PAM (el sistema que gestiona la autentificación de la máquina) el módulo de Google Authenticator:</p>
@@ -242,7 +242,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
 Do you want authentication tokens to be time-based (y/n) y
 https://www.google.com/chart?chs=200x200&amp;chld=M|0&amp;cht=qr&amp;chl=otpauth://totp/mitch@ubuntu%3Fsecret%3D3HXRVMUFOOTJP3OL
-</code></pre></div><!-- raw HTML omitted -->
+</code></pre></div><img src='/images/1c056f0e-9458-11e6-83d3-4092efbe9dfc.jpg' class='align-center' height='400' width='400'/>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Your new secret key is: 3HXRVMUFOOTJP3OL
 Your verification code is 561744
 Your emergency scratch codes are:
@@ -269,7 +269,7 @@ login attempts, you can enable rate-limiting <span style="color:#00f">for</span>
 By default, this limits attackers to no more than 3 login attempts every 30s.
 Do you want to enable rate-limiting (y/n) y
 </code></pre></div><p>En este punto tenemos que escanear el código de barras (o introducir los códigos facilitados) y nos aparecerá una nueva entrada en nuestra aplicación móvil:</p>
-<!-- raw HTML omitted -->
+<img src='/images/cdccac0a-a9fe-11e6-9cd4-09cdf981ec34.png' class='align-center' height='300' width='200'/>
 <p>Como podéis observar aparece una entrada para mitch@ubuntu, que es la correspondiente a mi máquina. La otra entrada que aparece es la relativa a mi servicio de Dropbox.</p>
 <p>Llegados a este punto ya estamos en disposición de probar si funciona. Abrimos un nuevo terminal y ejecutamos SSH contra nuestro servidor e introducimos usuario y password:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">login as: mitch

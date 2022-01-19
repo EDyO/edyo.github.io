@@ -225,7 +225,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <!-- raw HTML omitted -->
+                  <img src='/images/da5bb104-f243-11e6-96e0-f7d9341c64a3.png' alt='AWS Lambda' class='align-right' height='200' width='200'/>
 <p>Llevo un tiempo dándole vueltas a migrar de mi servidor virtual privado hacia el cloud, en concreto hacia AWS, pero uno de los motivos que más me echan para atrás es todos los scripts, la mayor parte en shell script, que tengo programados para ejecutarse diariamente en mi servidor y que realizan tareas de lo más útiles. De todos ellos destacaría el que tengo para que cada día me &ldquo;recolecte&rdquo; el libro electrónico gratuito que publica <a href="https://www.packtpub.com">Packtpub</a>. Pues bien, parece que este impedimento ha llegado a su fin, ya que utilizando un pequeño truco se pueden ejecutar shell scripts en Lambda.</p>
 <p>A continuación, os explico cómo he migrado mis shell scripts a Lambda.</p>
 <p>Si habéis trabajado un poco con Lambda ya sabréis que los lenguajes que admite son C#, Java 8, Edge Node y Python, pero en ningún caso permite la ejecución de shell script. Entonces, ¿cómo vamos a ejecutar nuestros scripts?</p>
@@ -252,15 +252,15 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 <ul>
 <li>Nos conectaremos al panel de control de AWS y accederemos a la sección de Lambda:</li>
 </ul>
-<!-- raw HTML omitted -->
+<img src='/images/00270f48-efa9-11e6-9475-840f0de06438.png' alt='AWS Lambda' class='align-center' />
 <ul>
 <li>Pulsamos el botón &ldquo;Get Started Now&rdquo; y aparecerá una pantalla para seleccionar plantilla. seleccionamos &ldquo;Blank Function&rdquo;:</li>
 </ul>
-<!-- raw HTML omitted -->
+<img src='/images/46ea81d0-efa9-11e6-9521-182ee85c93f2.png' alt='AWS Lambda Function' class='align-center' />
 <ul>
 <li>En la pantalla de configuración de Triggers hacemos click sobre el recuadro con el contorno discontinuo y seleccionamos el trigger &ldquo;CloudWatch Events - Schedule&rdquo;:</li>
 </ul>
-<!-- raw HTML omitted -->
+<img src='/images/57ca4c10-efa9-11e6-8a7d-ae37e800d8a0.png' alt='CloudWatch Events' class='align-center' />
 <ul>
 <li>En el apartado de configuración seleccionamos que solo se ejecute una vez al día:
 <ul>
@@ -271,7 +271,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 </ul>
 </li>
 </ul>
-<!-- raw HTML omitted -->
+<img src='/images/c5ac3126-efa9-11e6-9fb5-a3ff77b2da98.png' alt='Lambda Definition' class='align-center' />
 <ul>
 <li>En la siguiente pantalla configuraremos el entorno de ejecución de nuestra función:
 <ul>
@@ -282,7 +282,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 </ul>
 </li>
 </ul>
-<!-- raw HTML omitted -->
+<img src='/images/d0e6f754-efb5-11e6-9973-0c1428dde6ef.png' alt='AWS Lambda Code' class='align-center' />
 <ul>
 <li>En el apartado de &ldquo;Lambda Function Handler&rdquo; indicaremos lo siguiente:</li>
 <li>Insertaremos en el campo &ldquo;Handler&rdquo; el nombre del fichero .py más el nombre de la función que se tendrá que ejecutar. Si hemos seguido el procedimiento sin modificar ningún nombre de fichero tendríamos que indicar packtpub.lambda_handler .</li>
@@ -290,21 +290,21 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 <li>&ldquo;Existing Role&rdquo;: &ldquo;service-role/lamda_crontab_rol&rdquo;.</li>
 <li>En el apartado &ldquo;Advenced settings&rdquo; modificaremos el timeout a 5 segundos, ya que en ocasiones Packtpub tarda algo en responder y el timeout por defecto de 3 segundos se queda algo corto. Una vez hecha esta modificación podemos pulsar el botón de &ldquo;Next&rdquo;.</li>
 </ul>
-<!-- raw HTML omitted -->
+<img src='/images/080ed6c0-efb6-11e6-8695-9a9baa8e20dd.png' alt='AWS Lambda Code 2' class='align-center' />
 <ul>
 <li>Si todo ha funcionado correctamente tendríamos que ver una pantalla similar a esta:</li>
 </ul>
-<!-- raw HTML omitted -->
+ <img src='/images/2c5b6ac0-efb6-11e6-8eee-6185ae5d5457.png' alt='AWS Lambda Final' class='align-center' />
 <ul>
 <li>Pulsaremos el botón de &ldquo;Test&rdquo; para ver que funciona correctamente:</li>
 <li>Seleccionamos &ldquo;Scheduled Event&rdquo;</li>
 <li>Y pulsamos &ldquo;Save and Test&rdquo;</li>
 </ul>
-<!-- raw HTML omitted -->
+  <img src='/images/f2be5f80-f24d-11e6-899a-db037f1c581b.png' alt='AWS Test Event' width=80% class='align-center' />
 <ul>
 <li>Nos tendría que aparecer una pantalla similar a la que pongo a continuación con el mensaje &ldquo;Ok, enjoy your free book&rdquo;. Importante: Packtpub limita a un libro al día, por tanto, por muchas veces que lo ejecutemos sólo tendremos disponible en nuestra cuenta de Packtpub una copia del libro).</li>
 </ul>
-<!-- raw HTML omitted -->
+ <img src='/images/95b7f822-f24e-11e6-873a-11c441259996.png' alt='AWS Lambda TEst Ok' width=80% class='align-center' />
 <p>¡Enhorabuena! Ya tenéis funcionando en Lambda una tarea programada que se ejecuta cada día y lanza un shell script para &ldquo;recolectar&rdquo; de manera automática los libros gratuitos de Packtpub. Y por cierto, todo a coste 0, ya que el consumo de ejecutar estos procesos es tan bajo que lo cubre la capa gratuita de AWS.</p>
 <p>Espero que os sea útil y lo extrapoléis a otros escenarios.</p>
               </section>

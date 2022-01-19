@@ -227,7 +227,7 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 
               <section class="post-content">
                 
-                  <!-- raw HTML omitted -->
+                  <img src="/images/publicacion-estatica-header.png" class="align-left" alt="Publicación estática" height="180" />
 <p>Han pasado casi tres meses desde que se publicó el <a href="http://www.entredevyops.es/posts/publicacion-estatica.html">primer artículo sobre publicación estática</a> en <a href="http://www.entredevyops.es">EntreDevYOps</a>, en el que se prometía un ejemplo&hellip;
 Lo prometido es deuda.
 Espero que el interés sobre el tema aún siga vigente&hellip;</p>
@@ -305,11 +305,11 @@ git fetch
 git push --set-upstream origin edition
 </code></pre></div><p>Para configurar la ejecución mediante <a href="http://travis-ci.org">Travis</a>, primero hay que conseguir un token de la cuenta de <a href="https://github.com/">GitHub</a>.
 El token sólo necesita tener permiso para operar sobre los repositorios públicos.</p>
-<!-- raw HTML omitted -->
+<img src="/images/publicacion-estatica-token.png" alt="Permisos del token de GitHub" height="180" />
 <p>El siguiente paso es crear la configuración para el repositorio en <a href="http://travis-ci.org">Travis</a>.
 En la configuración hay que marcar que ejecute el código siempre que haya el fichero <code>.travis.yml</code>, y en todos los <code>push</code>.
 Es importante crear la variable de entorno <code>GH_TOKEN</code>, con el token que se ha obtenido de <a href="https://github.com/">GitHub</a>, indicando que no muestre el valor.</p>
-<!-- raw HTML omitted -->
+<img src="/images/publicacion-estatica-travis.png" alt="Configuración del proyecto en Travis" height="360" />
 <h1 id="configurar-dominio">Configurar dominio</h1>
 <p>En el DNS del dominio que se quiera utilizar, hay que crear dos registros:</p>
 <ul>

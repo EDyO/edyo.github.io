@@ -22,7 +22,7 @@
         <![CDATA[
         
 
-        <!-- raw HTML omitted -->
+        <img src='/images/da5bb104-f243-11e6-96e0-f7d9341c64a3.png' alt='AWS Lambda' class='align-right' height='200' width='200'/>
 <p>Llevo un tiempo dándole vueltas a migrar de mi servidor virtual privado hacia el cloud, en concreto hacia AWS, pero uno de los motivos que más me echan para atrás es todos los scripts, la mayor parte en shell script, que tengo programados para ejecutarse diariamente en mi servidor y que realizan tareas de lo más útiles. De todos ellos destacaría el que tengo para que cada día me &ldquo;recolecte&rdquo; el libro electrónico gratuito que publica <a href="https://www.packtpub.com">Packtpub</a>. Pues bien, parece que este impedimento ha llegado a su fin, ya que utilizando un pequeño truco se pueden ejecutar shell scripts en Lambda.</p>
 <p>A continuación, os explico cómo he migrado mis shell scripts a Lambda.</p>
         ]]>
