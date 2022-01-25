@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sat, 15 Jan 2022 00:30:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jan 2022 23:30:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast 67: Rust</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-67.html</link>
+      <pubDate>Tue, 25 Jan 2022 23:30:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-67.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/rust.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 67 del podcast de Entre Dev y Ops hablaremos sobre Rust con Alberto Ruiz.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 66: ¿Qué ha pasado con mis dependencias?</title>
       <link>https://www.entredevyops.es/podcasts/podcast-66.html</link>

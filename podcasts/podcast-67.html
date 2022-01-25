@@ -1,21 +1,35 @@
+
 <!DOCTYPE html>
 <html lang="es-es">
 
     <head>
-	<meta name="generator" content="Hugo 0.91.2" />
 
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <meta property="og:title" content="Entre Dev y Ops &middot; Entre Dev y Ops" />
+        <meta property="og:title" content="Podcast 67: Rust &middot; Entre Dev y Ops" />
         <meta property="og:site_name" content="Entre Dev y Ops" />
-        <meta property="og:url" content="https://www.entredevyops.es/" />
+        <meta property="og:url" content="https://www.entredevyops.es/podcasts/podcast-67.html" />
 
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2022-01-25T23:30:00Z" />
+        <meta property="og:image" content="https://www.entredevyops.es/images/rust.jpg" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@entredevyops" />
+        <meta name="twitter:creator" content="@entredevyops" />
+        <meta name="twitter:title" content="Podcast 67: Rust" />
+        
+          <meta name="twitter:image" content="https://www.entredevyops.es/images/rust.jpg" />
+        
+        <meta name="twitter:description" content="En el episodio 67 del podcast de Entre Dev y Ops hablaremos sobre Rust con Alberto Ruiz." />
+        <meta name="twitter:url" content="https://www.entredevyops.es/podcasts/podcast-67.html" />
+        <meta name="telegram:channel" content="@entredevyops" />
     
 
-        <title> Entre Dev y Ops &middot;  Entre Dev y Ops</title>
+        <title> Podcast 67: Rust &middot;  Entre Dev y Ops</title>
 
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
@@ -49,10 +63,54 @@
     
 
     
-        <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Entre Dev y Ops &middot; Entre Dev y Ops" />
-    
-        <link rel="canonical" href="https://www.entredevyops.es/" />
+        <link rel="canonical" href="https://www.entredevyops.es/podcasts/podcast-67.html" />
 
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/www.entredevyops.es\/podcasts\/podcast-67.html"
+        },
+        "headline": "Podcast 67: Rust",
+        "description": "",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https:\/\/www.entredevyops.es\/",
+          "name": "Entre Dev y Ops",
+          "url": "https:\/\/www.entredevyops.es\/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https:\/\/www.entredevyops.es\/rust.jpg",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2022-01-25",
+        "dateModified": "2022-01-25",
+        "wordCount":  72 ,
+        
+    }
+    </script>
 
 
     
@@ -60,9 +118,9 @@
     
     
       var disqus_shortname = 'edyo';
-      var disqus_identifier = 'https:\/\/www.entredevyops.es\/';
-      var disqus_title = 'Entre Dev y Ops';
-      var disqus_url = 'https:\/\/www.entredevyops.es\/';
+      var disqus_identifier = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-67.html';
+      var disqus_title = 'Podcast 67: Rust';
+      var disqus_url = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-67.html';
     
     </script>
     
@@ -135,6 +193,8 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <input type="submit" value="Buscar">
               </form>
               
+                
+              
               
                 <a id="main-menu-button" class="menu" data-action="menu" data-target="menu"
                     title="Menú"><i class="fas fa-bars"></i></a>
@@ -143,186 +203,105 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
           </nav>
 
 
-	<header id="header" class="header has-cover">
-		<div class="inner">
-			<a class="header-title" href="https://www.entredevyops.es/">
-				<h1 class="header-name">Entre Dev y Ops</h1>
-				
-					<span class="header-description">El podcast en el que hablamos sobre desarrollo de aplicaciones, operaciones de sistemas informáticos y todo lo relacionado con la filosofía DevOps</span>
-				
-			</a>
-		</div>
-		
-			
-    <div id="front-page-menu" class="inner">
-        
-        
-        <span class="menu-list-item">
-            <i class="fas fa-rss"></i>
-            <a href="/suscribete.html">Suscríbete</a>
+<main class="content" role="main">
+    <article class="post">
+        <div class="inner">
+
+            <div id="push">
+
+                <header class="post-header">
+                
+                    <span class="post-meta">
+                        <span class="post-date">25 Jan 2022</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">72</span> palabras)</span></span>
+                    </span>
+                <div class="clear"></div>
+                
+                <h1 class="post-title">Podcast 67: Rust</h1>
+              </header>
+
+              <section class="post-content">
+                
+                    <audio controls="" class="podcast-player">
+                        <source src="https://podcast.edyo.es/podcast/edyo-67.mp3" type="audio/mpeg" />
+                        <a href="https://podcast.edyo.es/podcast/edyo-67.mp3">Podcast 67: Rust</a>
+                    </audio>
+                
+                  <p>En el episodio 67 del podcast de Entre Dev y Ops hablaremos sobre Rust con Alberto Ruiz.</p>
+<p>Enlaces comentados:</p>
+<ul>
+<li><a href="http://radioskylab.es/">Podcast Radio Skylab</a></li>
+<li><a href="https://gnomehispano.org/">GNOME Hispano</a></li>
+<li><a href="https://events.gnome.org/event/9/">GUADEC</a></li>
+<li><a href="https://www.gnome.org/">GNOME</a></li>
+<li><a href="https://www.mono-project.com/">Mono</a></li>
+<li><a href="https://siliconislandblog.wordpress.com/2016/10/31/thoughts-on-dx-gnome-and-rust/">Thoughts on DX: GNOME and Rust</a></li>
+<li><a href="https://people.gnome.org/~federico/news-2017-04.html#rust-gnome-hackfest-1">The Rust+GNOME Hackfest in Mexico City</a></li>
+<li><a href="https://github.com/Rust-for-Linux/linux">Rust en Linux</a></li>
+<li><a href="https://doc.rust-lang.org/cargo/">cargo</a></li>
+<li><a href="https://crates.io/">crates</a></li>
+<li><a href="https://conan.io/">Conan, the C/C++ Package Manager</a></li>
+<li><a href="https://firecracker-microvm.github.io/">firecracker, el hipervisor EC2 en Rust</a></li>
+<li><a href="https://oxide.computer/">Oxide Computer</a></li>
+<li><a href="http://dtrace.org/">dtrace</a></li>
+<li><a href="https://github.com/oxidecomputer/hubris">hubris</a></li>
+<li><a href="https://katacontainers.io/">Kata Containers</a></li>
+<li><a href="https://chromium.googlesource.com/chromiumos/platform/crosvm/">CrosVM</a></li>
+<li><a href="https://gitlab.gnome.org/GNOME/librsvg">LibRSVG</a></li>
+<li><a href="https://people.gnome.org/~federico/blog/index.html">Blog de Federico Mena</a></li>
+<li><a href="https://doc.rust-lang.org/book/title-page.html">Libro oficial Rust</a></li>
+<li><a href="https://twitter.com/acruiz">Twitter @acruiz</a></li>
+</ul>
+              </section>
+
+              <footer class="post-footer">
+                  <div class="post-tags">
             
-        </span>
-        
-        
-        <span class="menu-list-item">
-            <i class="fas fa-donate"></i>
-            <a href="/ayudanos.html">Ayúdanos</a>
+                  </div>
+                
+                    <div class="post-share">
+                        <a href="https://twitter.com/share?text=Podcast%2067%3a%20Rust&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-67.html"
+                           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <i class="fab fa-twitter"/></i><span>Twitter</span>
+                        </a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-67.html&title=Podcast%2067%3a%20Rust&summary=En%20el%20episodio%2067%20del%20podcast%20de%20Entre%20Dev%20y%20Ops%20hablaremos%20sobre%20Rust%20con%20Alberto%20Ruiz.%0a"
+                           onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
+                        </a>
+                    </div>
             
-        </span>
-        
-    </div>
-
-
-		
-		
-		<div class="header-cover blured-image" style="background-color: #19a0d7; background-image: url(/images/cover.low.jpg)" data-src="/images/cover.jpg"></div>
-		
-	</header>
-
-	<div id="post-index" class="container">
-
-		<main class="content" role="main">
-
-			<div class="post-list">
-				<div id="push">
+              </footer>
 
             
+                <aside class="post-comments">
+    
+    
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+</aside>
 
-			
-			  
-<article class="post posts">
+            
+            </div>
 
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/introduccion-amazon-ws-barcelona-jug.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">16 Oct 2013</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/introduccion-amazon-ws-barcelona-jug.html">Introducción a Amazon WS por el Barcelona JUG</a></h2>
-		<p class="post-excerpt"><div class="document">
+            <nav class="post-nav">
+                
+                
+                    <a class="post-nav-item post-nav-prev" href="https://www.entredevyops.es/podcasts/podcast-66.html">
+                        <section class="post-nav-teaser">
+                            <span class="post-nav-icon"><i class="fas fa-chevron-right"></i></span>
+                            <span class="post-nav-info">
+                                <h4 class="post-nav-title">Podcast 66: ¿Qué ha pasado con mis dependencias?</h4>
+                            </span>
+                        </section>
+                    </a>
+                
+                <div class="clear"></div>
+            </nav>
 
-
-<p><a class="reference external" href="https://twitter.com/alfonsnic">Alfons Nonell</a>, Dr. en Química Computacional y CEO de <a class="reference external" href="https://www.mindthebyte.com/">Mind the Byte</a>, nos brindó ayer en un evento organizado por el <a class="reference external" href="http://www.barcelonajug.org/">Barcelona JUG</a> con una <a class="reference external" href="http://www.barcelonajug.org/2013/10/introduccion-amazon-aws.html">presentación sobre Amazon WS</a>.</p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/introduccion-amazon-ws-barcelona-jug.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/nosql-matters-cologne-2014.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">15 Oct 2013</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/nosql-matters-cologne-2014.html">Fechas para la NoSQL matters Cologne 2014</a></h2>
-		<p class="post-excerpt">NoSQL matters La NoSQL matters es una conferencia sobre bases de datos NoSQL, que se celebra con carácter semestral, hasta ahora en Colonia y Barcelona, en ediciones alternativas, siendo la primera de cada año en Colonia. Las sesiones se celebran en dos jornadas, una primera opcional con sesiones de formación, y la segunda en la que se celebra la conferencia en sí misma. La próxima edición será en Barcelona, los días 29 y 30 de Noviembre, pero ya se han hecho oficales las fechas para la siguiente edición en Colonia, el año que viene: 22 y 23 de Mayo.</p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/nosql-matters-cologne-2014.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">12 Oct 2013</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html">Charlas en el DevOpsDays Barcelona 2013</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<div class="section" id="devops-days-barcelona-2013">
-<h2><a class="reference external" href="http://devopsdays.org/events/2013-barcelona/">devops days Barcelona 2013</a></h2>
-<p>Como decíamos en nuestro último post, éstos dos últimos días, jueves y viernes, se ha celebrado en la <a class="reference external" href="https://plus.google.com/100068709387237553942/about?gl=ES&amp;hl=en-ES">Fábrica de la Moritz</a> de Barcelona, el evento <a class="reference external" href="http://devopsdays.org">devops days</a> en su edición de 2013. El evento en sí ha estado muy bien y bastante interesante. Con muchos asistentes, se podría decir que cerca de 100 personas, la posibilidad de hacer networking era muy interesante. Podréis encontrar todos los vídeos en <a class="reference external" href="http://vimeo.com/album/2565361">la página de vimeo</a>.
-El evento lo ha organizado <a class="reference external" href="http://rhommell.com/">Rhommel Lamas</a>, y ha contado con el patrocinio de <a class="reference external" href="http://www.moritz.com/">Moritz</a>, <a class="reference external" href="http://www.strsistemas.com/">STR Sistemas</a>, <a class="reference external" href="http://www.rakuten.co.jp/">Rakuten</a>, <a class="reference external" href="http://www.ca.com/es/lpg/appvelocity/home.aspx">CA</a>, <a class="reference external" href="http://www.tid.es/">Telefónica I+D</a>, <a class="reference external" href="http://www.3scale.net/">3Scale</a>, y <a class="reference external" href="http://github.com/">GitHub</a>. Realmente, conviene que este evento se repita y crezca, tanto en cantidad de asistentes, como de ponentes.</p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/charlas-devopsdays-barcelona-2013.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/devopsdays-barcelona-2013.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">10 Oct 2013</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/devopsdays-barcelona-2013.html">DevOpsDays Barcelona 2013</a></h2>
-		<p class="post-excerpt">devops days Barcelona 2013 Hoy y mañana, en la Fábrica de la Moritz, en Barcelona, tiene lugar la edición de devops days correspondiente a 2013. En los próximos días podréis encontrar artículos sobre las charlas más interesantes que se han hecho.</p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/devopsdays-barcelona-2013.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/reunion-de-junio-de-sudoers-bcn.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">4 Jun 2013</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/reunion-de-junio-de-sudoers-bcn.html">Reunión de Junio de Sudoers BCN</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<div class="section" id="sudoers-bcn">
-<h2><a class="reference external" href="http://sudoers-barcelona.wikia.com/wiki/Sudoers_Barcelona_Wiki">Sudoers BCN</a></h2>
-<p>De nuevo, como cada mes, se realizó la reunión del grupo de Sudoers BCN, en la que Jordi Soucheiron habló sobre MongoDB, y Ignacio Torres hizo lo propio sobre Go.</p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/reunion-de-junio-de-sudoers-bcn.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/empresa-moderna-y-los-cambios.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">3 Jun 2013</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/empresa-moderna-y-los-cambios.html">La empresa moderna y los cambios</a></h2>
-		<p class="post-excerpt"><div class="document" id="la-empresa-moderna-y-los-cambios">
-<h1 class="title">La empresa moderna y los cambios</h1>
-
-<p>La empresa informática es una empresa que hereda los antiguos comportamientos de las empresas de la ingeniería y, en su defecto, se puede trazar un gran paralelismo entre la arquitectura y el desarrollo del software.</p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/empresa-moderna-y-los-cambios.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-
-				</div>
-			</div>
-
-			<nav id="pagination" class="pagination" role="pagination">
-	<div class="inner">
-	
-    <a class="pagination-item pagination-next" href="https://www.entredevyops.es/page/33.html"><i class="fas fa-chevron-left"></i> <span>Anterior</span></a>
-	
-		<span class="pagination-info">Página 34 de 35</span>
-	
-    <a class="pagination-item pagination-prev" href="https://www.entredevyops.es/page/35.html"><span>Siguiente</span> <i class="fas fa-chevron-right"></i></a>
-	
-		<div class="clear"></div>
-	</div>
-</nav>
-
-
-		</main>
-
-	</div>
+        </div>
+    </article>
+</main>
 
                 <div id="body-class" style="display: none;"></div>
                 <footer id="footer">
