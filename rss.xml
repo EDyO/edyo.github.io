@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 25 Jan 2022 23:30:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Feb 2022 00:50:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Píldora 18: Aportaciones de la comunidad</title>
+      <link>https://www.entredevyops.es/podcasts/pildora-18.html</link>
+      <pubDate>Fri, 04 Feb 2022 00:50:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/pildora-18.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/lego-minis.jpg"/>
+            </p>
+        
+
+        <p>En la píldora 18 del podcast de Entre Dev y Ops hablaremos sobre las aportaciones de la comunidad de EDyO.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 67: Rust</title>
       <link>https://www.entredevyops.es/podcasts/podcast-67.html</link>
