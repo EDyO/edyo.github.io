@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 08 Mar 2022 11:20:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Mar 2022 14:29:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast 70: Big Data, 5 años después</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-70.html</link>
+      <pubDate>Mon, 28 Mar 2022 14:29:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-70.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/data-charts.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 70 del podcast de Entre Dev y Ops hablaremos sobre la evolución de Big Data estos últimos 5 años.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 69: PyCamp España</title>
       <link>https://www.entredevyops.es/podcasts/podcast-69.html</link>
