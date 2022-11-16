@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 20 Jul 2022 10:30:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Nov 2022 23:58:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast 73 - Escalabilidad de equipos y DevOps en hyper growth con João Alves</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-73.html</link>
+      <pubDate>Wed, 16 Nov 2022 23:58:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-73.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/team_work.png"/>
+            </p>
+        
+
+        <p>En el episodio 73 del podcast de Entre Dev y Ops hablaremos de escalabilidad de equipos y cómo escalar las prácticas DevOps en un entorno de hyper growth con nuestro invitado João Alves.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 72: Más allá de GNOME con Federico Mena Quintero</title>
       <link>https://www.entredevyops.es/podcasts/podcast-72.html</link>
