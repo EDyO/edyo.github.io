@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sat, 26 Nov 2022 01:25:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Dec 2022 23:30:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast 75: Hablando de Platform Engineering</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-75.html</link>
+      <pubDate>Wed, 21 Dec 2022 23:30:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-75.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/engine_room.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 75 del podcast de Entre Dev y Ops hablaremos sobre el rol de Platform Engineering.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 74: Posgrado en Cloud Computing de la UPC</title>
       <link>https://www.entredevyops.es/podcasts/podcast-74.html</link>
