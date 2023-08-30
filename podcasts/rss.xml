@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 23 Aug 2023 14:11:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Aug 2023 14:35:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast 80: </title>
+      <link>https://www.entredevyops.es/podcasts/podcast-80.html</link>
+      <pubDate>Wed, 30 Aug 2023 14:35:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-80.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/hashicorp-meme.png"/>
+            </p>
+        
+
+        <p>En el episodio 80 del podcast de Entre Dev y Ops hablaremos del nuevo rumbo de Hashicorp al adoptar la licencia BUSL 1.1.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 79: Red Hat y el “Open Source”</title>
       <link>https://www.entredevyops.es/podcasts/podcast-79.html</link>
