@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 30 Aug 2023 14:35:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Oct 2023 14:20:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Píldora 21: OpenTofu</title>
+      <link>https://www.entredevyops.es/podcasts/pildora-21.html</link>
+      <pubDate>Tue, 03 Oct 2023 14:20:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/pildora-21.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/opentofu.png"/>
+            </p>
+        
+
+        <p>En la píldora 21 del podcast de Entre Dev y Ops hablaremos de OpenTofu.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 80: Hashicorp adopta la BUSL 1.1</title>
       <link>https://www.entredevyops.es/podcasts/podcast-80.html</link>
