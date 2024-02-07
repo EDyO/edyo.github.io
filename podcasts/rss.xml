@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 29 Jan 2024 18:15:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Feb 2024 23:45:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast 84: FOSDEM 2024</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-84.html</link>
+      <pubDate>Wed, 07 Feb 2024 23:45:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-84.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/fosdem-2024.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 84 del podcast de Entre Dev y Ops hablaremos de nuestra experiencia en el FOSDEM 2024.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 83: Recap de 2023</title>
       <link>https://www.entredevyops.es/podcasts/podcast-83.html</link>
