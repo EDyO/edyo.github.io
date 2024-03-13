@@ -1,15 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="es-es">
 
     <head>
-	<meta name="generator" content="Hugo 0.91.2" />
 
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <meta property="og:title" content="Entre Dev y Ops &middot; Entre Dev y Ops" />
+        <meta property="og:title" content="Podcast 85: FinOps con Ferran Grau &middot; Entre Dev y Ops" />
         <meta property="og:site_name" content="Entre Dev y Ops" />
-        <meta property="og:url" content="https://www.entredevyops.es/" />
+        <meta property="og:url" content="https://www.entredevyops.es/podcasts/podcast-85.html" />
 
     
         <link rel="me" href="https://mastodon.online/@entredevyops">
@@ -17,10 +17,24 @@
 
 
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2024-03-12T10:10:00Z" />
+        <meta property="og:image" content="https://www.entredevyops.es/images/bill.png" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@entredevyops" />
+        <meta name="twitter:creator" content="@entredevyops" />
+        <meta name="twitter:title" content="Podcast 85: FinOps con Ferran Grau" />
+        
+          <meta name="twitter:image" content="https://www.entredevyops.es/images/bill.png" />
+        
+        <meta name="twitter:description" content="En el episodio 85 del podcast de Entre Dev y Ops hablaremos sobre FinOps con Ferran Grau." />
+        <meta name="twitter:url" content="https://www.entredevyops.es/podcasts/podcast-85.html" />
+        <meta name="telegram:channel" content="@entredevyops" />
     
 
-        <title> Entre Dev y Ops &middot;  Entre Dev y Ops</title>
+        <title> Podcast 85: FinOps con Ferran Grau &middot;  Entre Dev y Ops</title>
 
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
@@ -53,10 +67,54 @@
     
 
     
-        <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Entre Dev y Ops &middot; Entre Dev y Ops" />
-    
-        <link rel="canonical" href="https://www.entredevyops.es/" />
+        <link rel="canonical" href="https://www.entredevyops.es/podcasts/podcast-85.html" />
 
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/www.entredevyops.es\/podcasts\/podcast-85.html"
+        },
+        "headline": "Podcast 85: FinOps con Ferran Grau",
+        "description": "",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https:\/\/www.entredevyops.es\/",
+          "name": "Entre Dev y Ops",
+          "url": "https:\/\/www.entredevyops.es\/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https:\/\/www.entredevyops.es\/bill.png",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2024-03-12",
+        "dateModified": "2024-03-12",
+        "wordCount":  38 ,
+        
+    }
+    </script>
 
 
     
@@ -64,9 +122,9 @@
     
     
       var disqus_shortname = 'edyo';
-      var disqus_identifier = 'https:\/\/www.entredevyops.es\/';
-      var disqus_title = 'Entre Dev y Ops';
-      var disqus_url = 'https:\/\/www.entredevyops.es\/';
+      var disqus_identifier = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-85.html';
+      var disqus_title = 'Podcast 85: FinOps con Ferran Grau';
+      var disqus_url = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-85.html';
     
     </script>
     
@@ -147,6 +205,8 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <input type="submit" value="Buscar">
               </form>
               
+                
+              
               
                 <a id="main-menu-button" class="menu" data-action="menu" data-target="menu"
                     title="Menú"><i class="fas fa-bars"></i></a>
@@ -155,191 +215,90 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
           </nav>
 
 
-	<header id="header" class="header has-cover">
-		<div class="inner">
-			<a class="header-title" href="https://www.entredevyops.es/">
-				<h1 class="header-name">Entre Dev y Ops</h1>
-				
-					<span class="header-description">El podcast donde no solo hablamos sobre desarrollo de aplicaciones, operaciones de sistemas informáticos y todo lo relacionado con la filosofía DevOps</span>
-				
-			</a>
-		</div>
-		
-			
-    <div id="front-page-menu" class="inner">
-        
-        
-        <span class="menu-list-item">
-            <i class="fas fa-rss"></i>
-            <a href="/suscribete.html">Suscríbete</a>
+<main class="content" role="main">
+    <article class="post">
+        <div class="inner">
+
+            <div id="push">
+
+                <header class="post-header">
+                
+                    <span class="post-meta">
+                        <span class="post-date">12 Mar 2024</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">38</span> palabras)</span></span>
+                    </span>
+                <div class="clear"></div>
+                
+                <h1 class="post-title">Podcast 85: FinOps con Ferran Grau</h1>
+              </header>
+
+              <section class="post-content">
+                
+                    <audio controls="" class="podcast-player">
+                        <source src="https://podcast.edyo.es/podcast/edyo-85.mp3" type="audio/mpeg" />
+                        <a href="https://podcast.edyo.es/podcast/edyo-85.mp3">Podcast 85: FinOps con Ferran Grau</a>
+                    </audio>
+                
+                  <p>En el episodio 85 del podcast de Entre Dev y Ops hablaremos sobre FinOps con Ferran Grau.</p>
+<p>Enlaces comentados:</p>
+<ul>
+<li><a href="https://www.linkedin.com/in/ferran-grau-horta-29922413/">LinkedIn Ferran</a></li>
+<li><a href="https://www.finops.org/">FinOps Foundation</a></li>
+<li><a href="https://docs.aws.amazon.com/wellarchitected/latest/management-and-governance-guide/cloudfinancialmanagement.html">AWS Cloud Financial Management</a></li>
+<li><a href="https://www.amazon.es/Cloud-FinOps-Collaborative-real-time-management/dp/1492054623">Cloud FinOps: Collaborative, Real-Time Cloud Financial Management</a></li>
+<li><a href="https://cloudhealth.vmware.com/">CloudHealth</a></li>
+<li><a href="https://aws.amazon.com/aws-cost-management/aws-cost-explorer/">AWS Cost Explorer</a></li>
+</ul>
+              </section>
+
+              <footer class="post-footer">
+                  <div class="post-tags">
             
-        </span>
-        
-        
-        <span class="menu-list-item">
-            <i class="fas fa-donate"></i>
-            <a href="/ayudanos.html">Ayúdanos</a>
+                  </div>
+                
+                    <div class="post-share">
+                        <a href="https://twitter.com/share?text=Podcast%2085%3a%20FinOps%20con%20Ferran%20Grau&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-85.html"
+                           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <i class="fab fa-twitter"/></i><span>Twitter</span>
+                        </a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-85.html&title=Podcast%2085%3a%20FinOps%20con%20Ferran%20Grau&summary=En%20el%20episodio%2085%20del%20podcast%20de%20Entre%20Dev%20y%20Ops%20hablaremos%20sobre%20FinOps%20con%20Ferran%20Grau.%0a"
+                           onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
+                        </a>
+                    </div>
             
-        </span>
-        
-    </div>
-
-
-		
-		
-		<div class="header-cover blured-image" style="background-color: #19a0d7; background-image: url(/images/cover.low.jpg)" data-src="/images/cover.jpg"></div>
-		
-	</header>
-
-	<div id="post-index" class="container">
-
-		<main class="content" role="main">
-
-			<div class="post-list">
-				<div id="push">
+              </footer>
 
             
+                <aside class="post-comments">
+    
+    
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+</aside>
 
-			
-			  
-<article class="post posts">
+            
+            </div>
 
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/curso-introduccion-linux-edx.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">11 Mar 2014</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/curso-introduccion-linux-edx.html">Curso de Introducción a Linux gratuito en edX</a></h2>
-		<p class="post-excerpt"><div class="document">
+            <nav class="post-nav">
+                
+                
+                    <a class="post-nav-item post-nav-prev" href="https://www.entredevyops.es/podcasts/podcast-84.html">
+                        <section class="post-nav-teaser">
+                            <span class="post-nav-icon"><i class="fas fa-chevron-right"></i></span>
+                            <span class="post-nav-info">
+                                <h4 class="post-nav-title">Podcast 84: FOSDEM 2024</h4>
+                            </span>
+                        </section>
+                    </a>
+                
+                <div class="clear"></div>
+            </nav>
 
-
-<p>Vía <a class="reference external" href="http://barrapunto.com/articles/14/03/09/1255225.shtml">Barrapunto</a> me entero que la <a class="reference external" href="http://www.linuxfoundation.org/">Linux Foundation</a> ofrecerá su <a class="reference external" href="http://training.linuxfoundation.org/linux-courses/introduction-to-linux/outline">curso de Introducción a Linux</a> de forma gratuita en la plataforma <a class="reference external" href="https://www.edx.org/">edX</a>.</p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/curso-introduccion-linux-edx.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/creando-cultura-devops-capside.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">9 Mar 2014</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/creando-cultura-devops-capside.html">Charla “Creando una cultura de DevOps” en Capside</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<p>El pasado lunes 3 de Marzo en <a class="reference external" href="https://capside.com/">Capside</a> se realizó una charla con el título “Creando un cultura de DevOps”. El objetivo era presentar en que consiste el DevOps y los beneficios que puede aportar.</p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/creando-cultura-devops-capside.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/inicio-mobile-world-congress.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">23 Feb 2014</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/inicio-mobile-world-congress.html">Mañana empieza el mobile world congress</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<p>Mañana empieza el <a class="reference external" href="http://www.mobileworldcongress.com">Mobile World Congress</a> y hasta el próximo día 27 abrirá sus puertas en Barcelona, esta tarde nos hemos dado una vuelta cerca de sus instalaciones y hemos visto multitud de gente que se aproximaba para realizar los registros y ultimar los preparativos de la inauguración de mañana.</p>
-<p>Y estas son las fotografías que hemos tomado:</p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/inicio-mobile-world-congress.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">19 Feb 2014</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html">FOSDEM 2014 - Crónica de un viaje al Open Source</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<img alt="Logo del FOSDEM" class="align-left" src="/images/fosdem.png" style="width: 100px; height: 100px;" />
-<p>Como ya viene siendo tradición, el equipo completo de EDyO tiene una cita obligada con el más importante evento de Software Libre que se produce en Europa: el Free Open source Software Developers European Meeting (FOSDEM).</p>
-<p>En este post no me voy a centrar en las conferencias en si (que seguro que mis compañeros de blog nos regalarán más de un articulo sobre las charlas más destacadas), sino sobre los pormenores del viaje y de lo que pasa más allá de dicho evento.</p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">19 Jan 2014</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html">Noticias semanales (Ene II y III)</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<img alt="La información semanal sobre lo que te interesa" class="border align-left" src="/images/Weekly-Newspaper.jpg" style="width: 213px; height: 141px;" />
-<p>Como la semana pasada no se publicaron noticias, las hemos unido, por lo que en esta entrega, tenemos bastantes noticias: La publicación del manual del administrador de <a class="reference external" href="http://debian.org">Debian</a>, una nueva librería para gestionar recursos en <a class="reference external" href="http://aws.amazon.com/es/ec2/">EC2</a> desde Python, una presentación sobre <a class="reference external" href="http://flapjack.io/">Flapjack</a>, otra para hacer pruebas sobre navegadores con JavaScript, otra plataforma de monitorización que se integra con <a class="reference external" href="http://graphite.wikidot.com/">Graphite</a> y <a class="reference external" href="http://jenkins-ci.org">Jenkins</a>, otra más que permite exponer un directorio con guiones de <em>bash</em> como API REST, y la adición de nuevas localizaciones a los servicios de <a class="reference external" href="http://aws.amazon.com/es/cloudfront/">CloudFront</a> y <a class="reference external" href="http://aws.amazon.com/es/route53/">Route 53</a>.</p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/noticias-semanales-enero-2014-21.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post posts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/posts/disponibles-videos-pycones-2013.html"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">9 Jan 2014</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/posts/disponibles-videos-pycones-2013.html">Disponibles los vídeos de las charlas de la PyConES 2013</a></h2>
-		<p class="post-excerpt"><div class="document">
-
-
-<p>El pasado mes de Noviembre de 2013 durante los días 23 y 24, se celebró la primera conferencia sobre el lenguaje Python en España, la <a class="reference external" href="http://2013.es.pycon.org/">PyConES</a>, organizada por la asociación <a class="reference external" href="http://www.es.python.org/">Python España</a>.</p></div></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/posts/disponibles-videos-pycones-2013.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-
-				</div>
-			</div>
-
-			<nav id="pagination" class="pagination" role="pagination">
-	<div class="inner">
-	
-    <a class="pagination-item pagination-next" href="https://www.entredevyops.es/page/30.html"><i class="fas fa-chevron-left"></i> <span>Anterior</span></a>
-	
-		<span class="pagination-info">Página 31 de 39</span>
-	
-    <a class="pagination-item pagination-prev" href="https://www.entredevyops.es/page/32.html"><span>Siguiente</span> <i class="fas fa-chevron-right"></i></a>
-	
-		<div class="clear"></div>
-	</div>
-</nav>
-
-
-		</main>
-
-	</div>
+        </div>
+    </article>
+</main>
 
                 <div id="body-class" style="display: none;"></div>
                 <footer id="footer">
