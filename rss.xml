@@ -11,7 +11,27 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 12 Mar 2024 10:10:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Apr 2024 18:40:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast 86: Bajarse de la nube</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-86.html</link>
+      <pubDate>Sun, 07 Apr 2024 18:40:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-86.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/cloud.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 86 del podcast de Entre Dev y Ops hablaremos sobre la tendencia de mover cargas de
+trabajo del cloud a on-premise.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 85: FinOps con Ferran Grau</title>
       <link>https://www.entredevyops.es/podcasts/podcast-85.html</link>
