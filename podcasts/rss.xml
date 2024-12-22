@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 09 Dec 2024 22:56:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Dec 2024 18:30:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast 94: Programando videojuegos en los 80 con Juan Carlos Sánchez</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-94.html</link>
+      <pubDate>Sun, 22 Dec 2024 18:30:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-94.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/bloddy-paws.png"/>
+            </p>
+        
+
+        <p>En el episodio 94 del podcast de Entre Dev y Ops hablaremos cómo se programaban los videojuegos en los 80 con Juan Carlos Sánchez.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 93: IA en 2024 con Roger Oriol</title>
       <link>https://www.entredevyops.es/podcasts/podcast-93.html</link>
