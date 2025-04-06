@@ -1,15 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="es-es">
 
     <head>
-	<meta name="generator" content="Hugo 0.91.2" />
 
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <meta property="og:title" content="Entre Dev y Ops &middot; Entre Dev y Ops" />
+        <meta property="og:title" content="Podcast 97: Crossplane con Pere Alcoberro &middot; Entre Dev y Ops" />
         <meta property="og:site_name" content="Entre Dev y Ops" />
-        <meta property="og:url" content="https://www.entredevyops.es/" />
+        <meta property="og:url" content="https://www.entredevyops.es/podcasts/podcast-97.html" />
 
     
         <link rel="me" href="https://mastodon.online/@entredevyops">
@@ -17,10 +17,24 @@
 
 
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2025-03-06T16:30:00Z" />
+        <meta property="og:image" content="https://www.entredevyops.es/images/crossplane-diagram.png" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@entredevyops" />
+        <meta name="twitter:creator" content="@entredevyops" />
+        <meta name="twitter:title" content="Podcast 97: Crossplane con Pere Alcoberro" />
+        
+          <meta name="twitter:image" content="https://www.entredevyops.es/images/crossplane-diagram.png" />
+        
+        <meta name="twitter:description" content="En el episodio 97 del podcast de Entre Dev y Ops hablaremos de Crossplane con Pere Alcoberro." />
+        <meta name="twitter:url" content="https://www.entredevyops.es/podcasts/podcast-97.html" />
+        <meta name="telegram:channel" content="@entredevyops" />
     
 
-        <title> Entre Dev y Ops &middot;  Entre Dev y Ops</title>
+        <title> Podcast 97: Crossplane con Pere Alcoberro &middot;  Entre Dev y Ops</title>
 
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
@@ -53,10 +67,54 @@
     
 
     
-        <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Entre Dev y Ops &middot; Entre Dev y Ops" />
-    
-        <link rel="canonical" href="https://www.entredevyops.es/" />
+        <link rel="canonical" href="https://www.entredevyops.es/podcasts/podcast-97.html" />
 
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/www.entredevyops.es\/podcasts\/podcast-97.html"
+        },
+        "headline": "Podcast 97: Crossplane con Pere Alcoberro",
+        "description": "",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https:\/\/www.entredevyops.es\/",
+          "name": "Entre Dev y Ops",
+          "url": "https:\/\/www.entredevyops.es\/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https:\/\/www.entredevyops.es\/crossplane-diagram.png",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2025-03-06",
+        "dateModified": "2025-03-06",
+        "wordCount":  37 ,
+        
+    }
+    </script>
 
 
     
@@ -64,9 +122,9 @@
     
     
       var disqus_shortname = 'edyo';
-      var disqus_identifier = 'https:\/\/www.entredevyops.es\/';
-      var disqus_title = 'Entre Dev y Ops';
-      var disqus_url = 'https:\/\/www.entredevyops.es\/';
+      var disqus_identifier = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-97.html';
+      var disqus_title = 'Podcast 97: Crossplane con Pere Alcoberro';
+      var disqus_url = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-97.html';
     
     </script>
     
@@ -147,6 +205,8 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <input type="submit" value="Buscar">
               </form>
               
+                
+              
               
                 <a id="main-menu-button" class="menu" data-action="menu" data-target="menu"
                     title="Menú"><i class="fas fa-bars"></i></a>
@@ -155,191 +215,91 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
           </nav>
 
 
-	<header id="header" class="header has-cover">
-		<div class="inner">
-			<a class="header-title" href="https://www.entredevyops.es/">
-				<h1 class="header-name">Entre Dev y Ops</h1>
-				
-					<span class="header-description">El podcast donde no solo hablamos sobre desarrollo de aplicaciones, operaciones de sistemas informáticos y todo lo relacionado con la filosofía DevOps</span>
-				
-			</a>
-		</div>
-		
-			
-    <div id="front-page-menu" class="inner">
-        
-        
-        <span class="menu-list-item">
-            <i class="fas fa-rss"></i>
-            <a href="/suscribete.html">Suscríbete</a>
+<main class="content" role="main">
+    <article class="post">
+        <div class="inner">
+
+            <div id="push">
+
+                <header class="post-header">
+                
+                    <span class="post-meta">
+                        <span class="post-date">6 Mar 2025</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">37</span> palabras)</span></span>
+                    </span>
+                <div class="clear"></div>
+                
+                <h1 class="post-title">Podcast 97: Crossplane con Pere Alcoberro</h1>
+              </header>
+
+              <section class="post-content">
+                
+                    <audio controls="" class="podcast-player">
+                        <source src="https://podcast.edyo.es/podcast/edyo-97.mp3" type="audio/mpeg" />
+                        <a href="https://podcast.edyo.es/podcast/edyo-97.mp3">Podcast 97: Crossplane con Pere Alcoberro</a>
+                    </audio>
+                
+                  <p>En el episodio 97 del podcast de Entre Dev y Ops hablaremos de Crossplane con Pere Alcoberro.</p>
+<p>Enlaces comentados:</p>
+<ul>
+<li><a href="https://www.crossplane.io/">Crossplane</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/">kubernetes CRD</a></li>
+<li><a href="https://docs.crossplane.io/latest/concepts/compositions/">Crossplane Composition</a></li>
+<li><a href="https://www.runatlantis.io/">Atlantis</a></li>
+<li><a href="https://www.techtarget.com/searchitoperations/tip/How-to-create-a-DevOps-self-service-portal">Self Service Portal</a></li>
+<li><a href="https://www.linkedin.com/in/pere-alcoberro-b0439026">Pere Alcoberro</a></li>
+<li><a href="https://www.youtube.com/watch?v=BxO4cW8OGRY">Infrastructure deployments with ArgoCD HA and Crossplane</a></li>
+</ul>
+              </section>
+
+              <footer class="post-footer">
+                  <div class="post-tags">
             
-        </span>
-        
-        
-        <span class="menu-list-item">
-            <i class="fas fa-donate"></i>
-            <a href="/ayudanos.html">Ayúdanos</a>
+                  </div>
+                
+                    <div class="post-share">
+                        <a href="https://twitter.com/share?text=Podcast%2097%3a%20Crossplane%20con%20Pere%20Alcoberro&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-97.html"
+                           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <i class="fab fa-twitter"/></i><span>Twitter</span>
+                        </a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-97.html&title=Podcast%2097%3a%20Crossplane%20con%20Pere%20Alcoberro&summary=En%20el%20episodio%2097%20del%20podcast%20de%20Entre%20Dev%20y%20Ops%20hablaremos%20de%20Crossplane%20con%20Pere%20Alcoberro.%0a"
+                           onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
+                        </a>
+                    </div>
             
-        </span>
-        
-    </div>
-
-
-		
-		
-		<div class="header-cover blured-image" style="background-color: #19a0d7; background-image: url(/images/cover.low.jpg)" data-src="/images/cover.jpg"></div>
-		
-	</header>
-
-	<div id="post-index" class="container">
-
-		<main class="content" role="main">
-
-			<div class="post-list">
-				<div id="push">
+              </footer>
 
             
+                <aside class="post-comments">
+    
+    
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+</aside>
 
-			
-			  
-<article class="post podcasts">
+            
+            </div>
 
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-97.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-97.html"><img src="/images/crossplane-diagram.png" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">6 Mar 2025</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-97.html">Podcast 97: Crossplane con Pere Alcoberro</a></h2>
-		<p class="post-excerpt"><p>En el episodio 97 del podcast de Entre Dev y Ops hablaremos de Crossplane con Pere Alcoberro.</p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-97.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
+            <nav class="post-nav">
+                
+                
+                    <a class="post-nav-item post-nav-prev" href="https://www.entredevyops.es/podcasts/podcast-96.html">
+                        <section class="post-nav-teaser">
+                            <span class="post-nav-icon"><i class="fas fa-chevron-right"></i></span>
+                            <span class="post-nav-info">
+                                <h4 class="post-nav-title">Podcast 96: Fosdem 2025</h4>
+                            </span>
+                        </section>
+                    </a>
+                
+                <div class="clear"></div>
+            </nav>
 
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-96.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-96.html"><img src="/images/fosdem-2025.png" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">5 Mar 2025</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-96.html">Podcast 96: Fosdem 2025</a></h2>
-		<p class="post-excerpt"><p>En el episodio 96 del podcast de Entre Dev y Ops hablaremos del veinticinco aniversario de la FOSDEM.</p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-96.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-95.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-95.html"><img src="/images/medir-productividad.png" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">14 Feb 2025</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-95.html">Podcast 95: Midiendo la productividad con Toni Tassani</a></h2>
-		<p class="post-excerpt"><p>En el episodio 95 del podcast de Entre Dev y Ops hablaremos de nuevo sobre métricas de productividad con Toni Tassani.</p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-95.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-94.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-94.html"><img src="/images/bloddy-paws.png" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">22 Dec 2024</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-94.html">Podcast 94: Programando videojuegos en los 80 con Juan Carlos Sánchez</a></h2>
-		<p class="post-excerpt"><p>En el episodio 94 del podcast de Entre Dev y Ops hablaremos cómo se programaban los videojuegos en los 80 con Juan Carlos Sánchez.</p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-94.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-93.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-93.html"><img src="/images/ia-2024.png" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">9 Dec 2024</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-93.html">Podcast 93: IA en 2024 con Roger Oriol</a></h2>
-		<p class="post-excerpt"><p>En el episodio 93 del podcast de Entre Dev y Ops volvemos a hablar de IA con Roger Oriol.</p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-93.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-92.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-92.html"><img src="/images/telegram.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">12 Nov 2024</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-92.html">Podcast 92: Recap de la comunidad</a></h2>
-		<p class="post-excerpt"><p>En el episodio 92 del podcast de Entre Dev y Ops hablaremos sobre los enlaces compartidos en nuestra comunidad de Telegram.</p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-92.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-
-				</div>
-			</div>
-
-			<nav id="pagination" class="pagination" role="pagination">
-	<div class="inner">
-	
-		<span class="pagination-info">Página 1 de 41</span>
-	
-    <a class="pagination-item pagination-prev" href="https://www.entredevyops.es/page/2.html"><span>Siguiente</span> <i class="fas fa-chevron-right"></i></a>
-	
-		<div class="clear"></div>
-	</div>
-</nav>
-
-
-		</main>
-
-	</div>
+        </div>
+    </article>
+</main>
 
                 <div id="body-class" style="display: none;"></div>
                 <footer id="footer">

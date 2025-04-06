@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 05 Mar 2025 23:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Mar 2025 16:30:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast 97: Crossplane con Pere Alcoberro</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-97.html</link>
+      <pubDate>Thu, 06 Mar 2025 16:30:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-97.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/crossplane-diagram.png"/>
+            </p>
+        
+
+        <p>En el episodio 97 del podcast de Entre Dev y Ops hablaremos de Crossplane con Pere Alcoberro.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 96: Fosdem 2025</title>
       <link>https://www.entredevyops.es/podcasts/podcast-96.html</link>
