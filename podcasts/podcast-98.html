@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es-es">
 
@@ -6,9 +7,9 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <meta property="og:title" content="Podcasts &middot; Entre Dev y Ops" />
+        <meta property="og:title" content="Podcast 98: Rust en Linux &middot; Entre Dev y Ops" />
         <meta property="og:site_name" content="Entre Dev y Ops" />
-        <meta property="og:url" content="https://www.entredevyops.es/podcasts.html" />
+        <meta property="og:url" content="https://www.entredevyops.es/podcasts/podcast-98.html" />
 
     
         <link rel="me" href="https://mastodon.online/@entredevyops">
@@ -16,10 +17,24 @@
 
 
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2025-05-28T22:00:00Z" />
+        <meta property="og:image" content="https://www.entredevyops.es/images/rustlinux.png" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@entredevyops" />
+        <meta name="twitter:creator" content="@entredevyops" />
+        <meta name="twitter:title" content="Podcast 98: Rust en Linux" />
+        
+          <meta name="twitter:image" content="https://www.entredevyops.es/images/rustlinux.png" />
+        
+        <meta name="twitter:description" content="En el episodio 98 del podcast de Entre Dev y Ops hablaremos del camino y el estado de la adopción de Rust en Linux." />
+        <meta name="twitter:url" content="https://www.entredevyops.es/podcasts/podcast-98.html" />
+        <meta name="telegram:channel" content="@entredevyops" />
     
 
-        <title> Podcasts &middot;  Entre Dev y Ops</title>
+        <title> Podcast 98: Rust en Linux &middot;  Entre Dev y Ops</title>
 
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
         <script defer src="//use.fontawesome.com/releases/v5.0.13/js/brands.js" integrity="sha384-G/XjSSGjG98ANkPn82CYar6ZFqo7iCeZwVZIbNWhAmvCF2l+9b5S21K4udM7TGNu" crossorigin="anonymous"></script>
@@ -52,10 +67,54 @@
     
 
     
-        <link href="/podcasts/rss.xml" rel="alternate" type="application/rss+xml" title="Podcasts &middot; Entre Dev y Ops" />
-    
-        <link rel="canonical" href="https://www.entredevyops.es/podcasts.html" />
+        <link rel="canonical" href="https://www.entredevyops.es/podcasts/podcast-98.html" />
 
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/www.entredevyops.es\/podcasts\/podcast-98.html"
+        },
+        "headline": "Podcast 98: Rust en Linux",
+        "description": "",
+        "author": {
+            "@type": "Person",
+            "name": " ",
+            "url": "http://profiles.google.com/?rel=author",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https:",
+              "height": 80,
+              "width": 80
+            }
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https:\/\/www.entredevyops.es\/",
+          "name": "Entre Dev y Ops",
+          "url": "https:\/\/www.entredevyops.es\/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https:",
+            "height": 80,
+            "width": 80
+          }
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https:\/\/www.entredevyops.es\/rustlinux.png",
+          "height": 133,
+          "width": 200
+        },
+        "datePublished": "2025-05-28",
+        "dateModified": "2025-05-28",
+        "wordCount":  173 ,
+        
+    }
+    </script>
 
 
     
@@ -63,9 +122,9 @@
     
     
       var disqus_shortname = 'edyo';
-      var disqus_identifier = 'https:\/\/www.entredevyops.es\/podcasts.html';
-      var disqus_title = 'Podcasts';
-      var disqus_url = 'https:\/\/www.entredevyops.es\/podcasts.html';
+      var disqus_identifier = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-98.html';
+      var disqus_title = 'Podcast 98: Rust en Linux';
+      var disqus_url = 'https:\/\/www.entredevyops.es\/podcasts\/podcast-98.html';
     
     </script>
     
@@ -146,6 +205,8 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
                 <input type="submit" value="Buscar">
               </form>
               
+                
+              
               
                 <a id="main-menu-button" class="menu" data-action="menu" data-target="menu"
                     title="Menú"><i class="fas fa-bars"></i></a>
@@ -154,168 +215,216 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
           </nav>
 
 
-<header id="header" class="header has-cover">
-	<div class="inner">
-		<a class="header-title" href="https://www.entredevyops.es/">
-			<h1 class="header-name">Podcasts</h1>
-		</a>
-	</div>
-	
-	<div class="header-cover" style="background-image: url(/images/cover.jpg)"></div>
-	
-</header>
+<main class="content" role="main">
+    <article class="post">
+        <div class="inner">
 
-	<div id="post-index" class="container">
+            <div id="push">
 
-		<main class="content" role="main">
+                <header class="post-header">
+                
+                    <span class="post-meta">
+                        <span class="post-date">28 May 2025</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">173</span> palabras)</span></span>
+                    </span>
+                <div class="clear"></div>
+                
+                <h1 class="post-title">Podcast 98: Rust en Linux</h1>
+              </header>
 
-			<div class="post-list">
-				<div id="push">
+              <section class="post-content">
+                
+                    <audio controls="" class="podcast-player">
+                        <source src="https://podcast.edyo.es/podcast/edyo-98.mp3" type="audio/mpeg" />
+                        <a href="https://podcast.edyo.es/podcast/edyo-98.mp3">Podcast 98: Rust en Linux</a>
+                    </audio>
+                
+                  <p>En el episodio 98 del podcast de Entre Dev y Ops hablaremos del camino y el estado de la adopción de Rust en Linux.</p>
+<p>Enlaces comentados:</p>
+<ul>
+<li>
+<p><a href="https://fosdem.org/2025/">Fosdem 2025</a></p>
+</li>
+<li>
+<p><a href="https://fosdem.org/2025/news/2025-01-30-treasure-hunt/">Fosdem Treasure Hunt</a></p>
+</li>
+<li>
+<p><a href="https://curl.se/">Curl</a></p>
+</li>
+<li>
+<p><a href="https://www.luanti.org/">Luanti (formerly Minetest)</a></p>
+</li>
+<li>
+<p><a href="https://play0ad.com">0 A.D.</a>/</p>
+</li>
+<li>
+<p><a href="https://www.wesnoth.org">The Battle for Wesnoth</a></p>
+</li>
+<li>
+<p><a href="https://fosdem.org/2025/schedule/event/fosdem-2025-4391-how-to-lose-weight-optimising-memory-usage-in-javascript-and-beyond/">Charla optimización JavaScript</a></p>
+</li>
+<li>
+<p><a href="https://fosdem.org/2025/schedule/event/fosdem-2025-4135-empowering-data-analytics-high-performance-graph-queries-in-duckdb-with-duckpgq/">Charla DuckDB y graph queries</a></p>
+</li>
+<li>
+<p><a href="https://fosdem.org/2025/schedule/event/fosdem-2025-6542-building-your-local-llm-second-brain/">Charla segundo cerebro</a></p>
+</li>
+<li>
+<p><a href="https://fosdem.org/2025/schedule/event/fosdem-2025-6341-hugging-face-ecosystem-for-local-ai-ml/">Charla ecosistema Huggingface</a></p>
+</li>
+<li>
+<p><a href="https://duckdb.org">DuckDB</a></p>
+</li>
+<li>
+<p><a href="https://duckdb.org/events/2025/01/31/duckcon6/">DuckDB Con en Amsterdam</a></p>
+</li>
+<li>
+<p><a href="https://fosdem.org/2025/schedule/event/fosdem-2025-4941-was-leslie-lamport-right-/">Charla Leslie Lamport</a></p>
+</li>
+<li>
+<p><a href="https://www.scs.stanford.edu/17au-cs244b/labs/projects/clow_jiang.pdf">Paper sobre consistencia</a></p>
+</li>
+<li>
+<p><a href="https://immich.app/">immich</a></p>
+</li>
+<li>
+<p><a href="https://furilabs.com/">FuriLabs</a></p>
+</li>
+<li>
+<p><a href="https://tinygo.org">TinyGo</a></p>
+</li>
+<li>
+<p><a href="https://gopherbadge.com/">Gopher Badge</a></p>
+</li>
+<li>
+<p><a href="https://fastht.ml/">FastHMTL</a></p>
+</li>
+<li>
+<p><a href="https://docs.fastht.ml/llms-ctx.txt">Contexto de FastHTML para LLMs</a></p>
+</li>
+<li>
+<p><a href="https://www.xwiki.org">Xwiki</a></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Tactical-Multi-Tool-Utility-Screwdriver-Touchscreen/dp/B0BGQXVCFD">EL BOLI de la discordia</a></p>
+</li>
+<li>
+<p><a href="https://groups.google.com/g/comp.os.minix/c/dlNtH7RRrGA/m/SwRavCzVE7gJ">Inicio de Linux</a></p>
+</li>
+<li>
+<p><a href="https://lkml.org/lkml/2021/4/14/1023">Request for comment</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=WiPp9YEBV0Q&amp;t=1529s">Filesystems en rust</a></p>
+</li>
+<li>
+<p><a href="https://lwn.net/Articles/978738/">Articulo sobre el evento</a></p>
+</li>
+<li>
+<p><a href="https://lore.kernel.org/lkml/20240828211117.9422-1-wedsonaf@gmail.com/">Wedson abandona</a></p>
+</li>
+<li>
+<p><a href="https://airlied.blogspot.com/2024/08/on-rust-linux-developers-maintainers.html">Respuesta al abandono de Wedson</a></p>
+</li>
+<li>
+<p><a href="https://lwn.net/Articles/987817/">Respuesta al abandono de Wedson</a></p>
+</li>
+<li>
+<p><a href="https://www.theregister.com/2024/09/02/rust_for_linux_maintainer_steps_down/">Respuesta al abandono de Wedson</a></p>
+</li>
+<li>
+<p><a href="https://lore.kernel.org/all/2024101835-tiptop-blip-09ed@gregkh/">Eliminación de mantainers rusos</a></p>
+</li>
+<li>
+<p><a href="https://lore.kernel.org/rust-for-linux/20250108122825.136021-1-abdiel.janulgue@gmail.com/">Request Enero</a></p>
+</li>
+<li>
+<p><a href="https://lore.kernel.org/all/20250207-rm-maint-v1-1-10f069a24f3d@marcan.st/">Hector Martin abandona el kernel</a></p>
+</li>
+<li>
+<p><a href="https://lore.kernel.org/rust-for-linux/4c143b85-063a-4413-a6ca-e9d80e26da96@marcan.st/">Hector Martin abandona el kernel</a></p>
+</li>
+<li>
+<p><a href="https://rust-for-linux.com/rust-kernel-policy">Kernel policy</a></p>
+</li>
+<li>
+<p><a href="https://lore.kernel.org/rust-for-linux/CANiq72m-R0tOakf=j7BZ78jDHdy=9-fvZbAT8j91Je2Bxy0sFg@mail.gmail.com/">Kernel policy en la lista del kernel</a></p>
+</li>
+<li>
+<p><a href="https://marcan.st/2025/02/resigning-as-asahi-linux-project-lead/">Miguel Martin abandona Asahi linux</a></p>
+</li>
+<li>
+<p><a href="https://lore.kernel.org/rust-for-linux/CAHk-=wgLbz1Bm8QhmJ4dJGSmTuV5w_R0Gwvg5kHrYr4Ko9dUHQ@mail.gmail.com/">Bronca de Linus</a></p>
+</li>
+<li>
+<p><a href="https://lore.kernel.org/rust-for-linux/CAHk-=wie_Winz7CtRCM62S2b1pWKN2Jt2wdGHgFBv=aBU8qwqg@mail.gmail.com/">Rust se queda</a></p>
+</li>
+<li>
+<p><a href="https://lore.kernel.org/rust-for-linux/20250224115007.2072043-1-abdiel.janulgue@gmail.com/">Repetición del patch</a></p>
+</li>
+<li>
+<p><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f7d5db965f3e">Christoph Hellwig abandona</a></p>
+</li>
+<li>
+<p><a href="https://docs.kernel.org/process/development-process.html">A guide to the Kernel Development Process</a></p>
+</li>
+<li>
+<p><a href="https://github.com/Rust-for-Linux/linux/issues/2">Listado de “features” necesarias en rust para el kernel</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Redox_(operating_system)">Redox OS</a></p>
+</li>
+</ul>
+              </section>
 
-			
+              <footer class="post-footer">
+                  <div class="post-tags">
+            
+                  </div>
+                
+                    <div class="post-share">
+                        <a href="https://twitter.com/share?text=Podcast%2098%3a%20Rust%20en%20Linux&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-98.html"
+                           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                            <i class="fab fa-twitter"/></i><span>Twitter</span>
+                        </a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fpodcasts%2fpodcast-98.html&title=Podcast%2098%3a%20Rust%20en%20Linux&summary=En%20el%20episodio%2098%20del%20podcast%20de%20Entre%20Dev%20y%20Ops%20hablaremos%20del%20camino%20y%20el%20estado%20de%20la%20adopci%c3%b3n%20de%20Rust%20en%20Linux.%0a"
+                           onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
+                            <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
+                        </a>
+                    </div>
+            
+              </footer>
 
-			
-			  
-<article class="post podcasts">
+            
+                <aside class="post-comments">
+    
+    
+    <div id="disqus_thread"></div>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+</aside>
 
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-56.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-56.html"><img src="/images/ms_love_linux.png" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">9 Jun 2020</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-56.html">Podcast 56: Entrevista a JM Parrella</a></h2>
-		<p class="post-excerpt"><p>En el episodio 56 del podcast hablaremos con Jose Miguel Parrella, Principal Program Manager de la oficina del CTO de Azure.</p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-56.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
+            
+            </div>
 
-			
-			  
-<article class="post podcasts">
+            <nav class="post-nav">
+                
+                
+                    <a class="post-nav-item post-nav-prev" href="https://www.entredevyops.es/podcasts/podcast-97.html">
+                        <section class="post-nav-teaser">
+                            <span class="post-nav-icon"><i class="fas fa-chevron-right"></i></span>
+                            <span class="post-nav-info">
+                                <h4 class="post-nav-title">Podcast 97: Crossplane con Pere Alcoberro</h4>
+                            </span>
+                        </section>
+                    </a>
+                
+                <div class="clear"></div>
+            </nav>
 
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-55.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-55.html"><img src="/images/opennebula.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">15 May 2020</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-55.html">Podcast 55: OpenNebula</a></h2>
-		<p class="post-excerpt"><p>En el episodio 55 del podcast hablaremos con Alberto Martí y Rubén Santiago de OpenNebula.</p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-55.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-54.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-54.html"><img src="/images/road-sign-career.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">9 May 2020</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-54.html">Podcast 54: Career path</a></h2>
-		<p class="post-excerpt"><p>En el episodio 54 del podcast hablaremos sobre el career path (plan de desarrollo) de un sysadmin.</p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-54.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-53.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-53.html"><img src="/images/terraform.png" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">18 Apr 2020</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-53.html">Podcast 53: Terraform</a></h2>
-		<p class="post-excerpt"><p>En la episodio 53 del podcast hablaremos sobre Terraform.</p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-53.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/podcast-52.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/podcast-52.html"><img src="/images/devops-reloaded.png" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">13 Apr 2020</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/podcast-52.html">Podcast 52: Devops Reloaded</a></h2>
-		<p class="post-excerpt"><p>En la episodio 52 del podcast hablaremos de cómo ha evolucionado el <strong>DevOps</strong> estos últimos años.</p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/podcast-52.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-			  
-<article class="post podcasts">
-
-	<div class="inner">
-		<a class="post-link" href="https://www.entredevyops.es/podcasts/pildora-15.html"></a>
-		
-		<figure class="post-image">
-			<a href="https://www.entredevyops.es/podcasts/pildora-15.html"><img src="/images/home-office.jpg" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">3 Apr 2020</span>
-		</span>
-		<h2 class="post-title"><a href="https://www.entredevyops.es/podcasts/pildora-15.html">Píldora 15: EDyO en casa</a></h2>
-		<p class="post-excerpt"><p>En la píldora 15 del podcast hablamos del teletrabajo.</p></p>
-		<span class="post-more"><a href="https://www.entredevyops.es/podcasts/pildora-15.html">Seguir leyendo <i class="fas fa-angle-right"></i></a></span>
-	</div>
-</article>
-
-			
-
-				</div>
-			</div>
-
-			<nav id="pagination" class="pagination" role="pagination">
-	<div class="inner">
-	
-    <a class="pagination-item pagination-next" href="https://www.entredevyops.es/podcasts/page/8.html"><i class="fas fa-chevron-left"></i> <span>Anterior</span></a>
-	
-		<span class="pagination-info">Página 9 de 19</span>
-	
-    <a class="pagination-item pagination-prev" href="https://www.entredevyops.es/podcasts/page/10.html"><span>Siguiente</span> <i class="fas fa-chevron-right"></i></a>
-	
-		<div class="clear"></div>
-	</div>
-</nav>
-
-
-		</main>
-
-	</div>
+        </div>
+    </article>
+</main>
 
                 <div id="body-class" style="display: none;"></div>
                 <footer id="footer">
