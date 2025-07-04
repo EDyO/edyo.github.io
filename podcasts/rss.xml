@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 28 May 2025 22:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jul 2025 20:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast 99: ¿Cómo nos ha afectado la IA en nuestro día a día?</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-99.html</link>
+      <pubDate>Fri, 04 Jul 2025 20:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-99.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/edy99-ia.png"/>
+            </p>
+        
+
+        <p>En el episodio 99 del podcast de Entre Dev y Ops hablaremos de cómo se han integrado en nuestro día a día laboral los diferentes modelos de lA.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 98: Rust en Linux</title>
       <link>https://www.entredevyops.es/podcasts/podcast-98.html</link>
