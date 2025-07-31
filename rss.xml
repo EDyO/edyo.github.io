@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 04 Jul 2025 20:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Jul 2025 20:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast 100: Especial episodio 100</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-100.html</link>
+      <pubDate>Thu, 31 Jul 2025 20:00:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-100.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/edyo100.png"/>
+            </p>
+        
+
+        <p>En el episodio 100 del podcast de Entre Dev y Ops hablaremos sobre cómo hemos vivido estos 100 episodios.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 99: ¿Cómo nos ha afectado la IA en nuestro día a día?</title>
       <link>https://www.entredevyops.es/podcasts/podcast-99.html</link>
