@@ -38,7 +38,7 @@
         <![CDATA[
         
 
-        <p>&lt;img src='/images/669fab80-f108-11e6-8519-f9af43643c67.jpg' alt=&lsquo;Mitsakes&rsquo; class=&lsquo;align-left height=&lsquo;200&rsquo; width=&lsquo;200&rsquo;/&gt;</p>
+        <p>&lt;img src=&rsquo;/images/669fab80-f108-11e6-8519-f9af43643c67.jpg&rsquo; alt=&lsquo;Mitsakes&rsquo; class=&lsquo;align-left height=&lsquo;200&rsquo; width=&lsquo;200&rsquo;/&gt;</p>
 <p>Son muchas las citas y reflexiones que se han dicho y escrito sobre los errores y sus consecuencias.
 Nadie está exento de equivocarse, pero aprender de esos mismos errores es aquello que permite mejorar y avanzar.</p>
 <p>Reflexionar partiendo de errores que se han cometido, por nosotros mismos o otros; Identificar causas, medidas, incluso otros errores cometidos en su resolución, es una tarea difícil y, a veces, dura.
@@ -62,7 +62,8 @@ Pero resistirse a hacerlo por <s>el orgullo de algunos</s> cualquier motivo, es 
 
 <img alt="VelocityConf 2014" class="align-right" src="/images/velocity14_logo.png" style="width: 363px; height: 99px;" />
 <p>Aunque hace unos días que pasó la <a class="reference external" href="http://velocityconf.com/velocityeu2014">VelocityConf Europe 2014</a>, publicamos este artículo para destacar algunas de las charlas que se dieron en el evento.
-En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que resultaban muy accesibles, eran también autores de libros de <a class="reference external" href="http://www.oreilly.com">O'Reilly</a>, tanto de la talla de <a class="reference external" href="https://twitter.com/Souders">Steve Souders</a> o <a class="reference external" href="https://twitter.com/allspaw">John Allspaw</a> como de la relevancia de <a class="reference external" href="https://twitter.com/igrigorik">Ilya Grigorik</a>. Durante los dos primeros días, hubo algunas firmas de libros, que regalaban a los veinte primeros.</p></div>
+En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que resultaban muy accesibles, eran también autores de libros de <a class="reference external" href="http://www.oreilly.com">O'Reilly</a>, tanto de la talla de <a class="reference external" href="https://twitter.com/Souders">Steve Souders</a> o <a class="reference external" href="https://twitter.com/allspaw">John Allspaw</a> como de la relevancia de <a class="reference external" href="https://twitter.com/igrigorik">Ilya Grigorik</a>. Durante los dos primeros días, hubo algunas firmas de libros, que regalaban a los veinte primeros.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -81,7 +82,8 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
 
 
 <img alt="VelocityConf 2014" class="align-right" src="/images/velocity14_logo.png" style="width: 363px; height: 99px;" />
-<p>En este artículo continuamos con el detalle de lo que depara la <a class="reference external" href="http://velocityconf.com/velocityeu2014">VelocityConf Europe 2014</a>, que empieza mañana. Os recordamos que podéis acceder a los <a class="reference external" href="http://entredevyops.es/posts/concurso-velocity.html">descuentos</a> que publicamos para las entradas.</p></div>
+<p>En este artículo continuamos con el detalle de lo que depara la <a class="reference external" href="http://velocityconf.com/velocityeu2014">VelocityConf Europe 2014</a>, que empieza mañana. Os recordamos que podéis acceder a los <a class="reference external" href="http://entredevyops.es/posts/concurso-velocity.html">descuentos</a> que publicamos para las entradas.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -100,7 +102,8 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
 
 
 <img alt="VelocityConf 2014" class="align-left" src="/images/velocity14_logo.png" style="width: 363px; height: 99px;" />
-<p>Con el <a class="reference external" href="http://entredevyops.es/posts/concurso-velocity.html">sorteo de una entrada</a> para los dos primeros días de la <a class="reference external" href="http://velocityconf.com/velocityeu2014">VelocityConf Europe 2014</a> en marcha, hemos pensado que sería una buena idea dar una idea de lo que se avecina, a ver si os animáis a participar un poco más. Os recordamos que además del sorteo, también podéis acceder a un descuento de 250 euros para las entradas de 2 y 3 días, y otro del 20%, útil para la de un día.</p></div>
+<p>Con el <a class="reference external" href="http://entredevyops.es/posts/concurso-velocity.html">sorteo de una entrada</a> para los dos primeros días de la <a class="reference external" href="http://velocityconf.com/velocityeu2014">VelocityConf Europe 2014</a> en marcha, hemos pensado que sería una buena idea dar una idea de lo que se avecina, a ver si os animáis a participar un poco más. Os recordamos que además del sorteo, también podéis acceder a un descuento de 250 euros para las entradas de 2 y 3 días, y otro del 20%, útil para la de un día.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -119,7 +122,8 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
 
 
 <img alt="DevOps Gears" class="align-left" src="/images/gears1.jpg" style="width: 130px; height: 120px;" />
-<p><a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a>, autor de <a class="reference external" href="http://itrevolution.com/books/phoenix-project-devops-book/">The Phoenix Project</a>, <a class="reference external" href="http://itrevolution.com/books/devops-cookbook/">The DevOps Cookbook</a> junto con otros, de quien ya hemos hablado en este blog, tiene publicado un documento llamado <a class="reference external" href="http://itrevolution.com/11devops/">The Top 11 Things You Need To Know About DevOps</a>. Dado que los puntos que detalla son bastante interesantes, vamos a iniciar una serie de artículos semanales, en los que traduciremos uno a uno cada punto de la lista. A continuación, encontraréis el primero, que consiste en una visión histórica del concepto de DevOps. Esperamos vuestras reacciones en Twitter con el <em>hashtag</em> #11cosasdevops.</p></div>
+<p><a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a>, autor de <a class="reference external" href="http://itrevolution.com/books/phoenix-project-devops-book/">The Phoenix Project</a>, <a class="reference external" href="http://itrevolution.com/books/devops-cookbook/">The DevOps Cookbook</a> junto con otros, de quien ya hemos hablado en este blog, tiene publicado un documento llamado <a class="reference external" href="http://itrevolution.com/11devops/">The Top 11 Things You Need To Know About DevOps</a>. Dado que los puntos que detalla son bastante interesantes, vamos a iniciar una serie de artículos semanales, en los que traduciremos uno a uno cada punto de la lista. A continuación, encontraréis el primero, que consiste en una visión histórica del concepto de DevOps. Esperamos vuestras reacciones en Twitter con el <em>hashtag</em> #11cosasdevops.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -137,7 +141,8 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
         <div class="document">
 
 
-<p>El pasado lunes 3 de Marzo en <a class="reference external" href="https://capside.com/">Capside</a> se realizó una charla con el título “Creando un cultura de DevOps”. El objetivo era presentar en que consiste el DevOps y los beneficios que puede aportar.</p></div>
+<p>El pasado lunes 3 de Marzo en <a class="reference external" href="https://capside.com/">Capside</a> se realizó una charla con el título “Creando un cultura de DevOps”. El objetivo era presentar en que consiste el DevOps y los beneficios que puede aportar.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -156,7 +161,8 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
 
 
 <p>A raíz de la lectura de <a class="reference external" href="http://itrevolution.com/books/phoenix-project-devops-book/">The Phoenix Project</a> (del cual hicimos una <a class="reference external" href="http://www.entredevyops.es/posts/the-phoenix-project.html">reseña</a>) buscamos más información sobre Las Tres Vías (The Three Ways) y fuimos a dar con un post de <a class="reference external" href="https://twitter.com/RealGeneKim">Gene Kim</a> (co-autor del libro) donde hace una breve introducción a estas.</p>
-<p>A continuación adjuntamos una traducción del post (podéis encontrar el post original <a class="reference external" href="http://itrevolution.com/the-three-ways-principles-underpinning-devops/">aquí</a>).</p></div>
+<p>A continuación adjuntamos una traducción del post (podéis encontrar el post original <a class="reference external" href="http://itrevolution.com/the-three-ways-principles-underpinning-devops/">aquí</a>).</p>
+</div>
         ]]>
        </description>
     </item>
@@ -175,7 +181,8 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
 
 
 <img alt="¿DevOps? ¿Y eso qué es?" class="border align-right" src="/images/show-me-the-devops.png" style="width: 250px; height: 135px;" />
-<p>Desde la primera vez que oí hablar de DevOps, hace casi 3 años, pasó cierto tiempo en el que, en mi mente, se formaban ideas equivocadas sobre a lo que se refería. Con el tiempo, he ido comprendiendo el concepto pero, al mismo tiempo, cada vez he ido conociendo a más gente con el mismo problema. Este artículo intenta aclarar el concepto para que nadie más se pregunte <em>¿Qué es esto del DevOps?</em></p></div>
+<p>Desde la primera vez que oí hablar de DevOps, hace casi 3 años, pasó cierto tiempo en el que, en mi mente, se formaban ideas equivocadas sobre a lo que se refería. Con el tiempo, he ido comprendiendo el concepto pero, al mismo tiempo, cada vez he ido conociendo a más gente con el mismo problema. Este artículo intenta aclarar el concepto para que nadie más se pregunte <em>¿Qué es esto del DevOps?</em></p>
+</div>
         ]]>
        </description>
     </item>
@@ -193,7 +200,7 @@ En líneas generales, el evento estuvo muy bien. Muchos de los ponentes, que res
         <div class="document" id="la-empresa-moderna-y-los-cambios">
 <h1 class="title">La empresa moderna y los cambios</h1>
 
-<p>La empresa informática es una empresa que hereda los antiguos comportamientos de las empresas de la ingeniería y, en su defecto, se puede trazar un gran paralelismo entre la arquitectura y el desarrollo del software.</p></div>
+<p>La empresa informática es una empresa que hereda los antiguos comportamientos de las empresas de la ingeniería y, en su defecto, se puede trazar un gran paralelismo entre la arquitectura y el desarrollo del software.</p>
         ]]>
        </description>
     </item>

@@ -274,13 +274,13 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 <img src='/images/paginas-estaticas-amazon-10.png' class='border align-center' alt='s3 bucket permisos' />
 <p>y al acceder a <em>Add bucket policy</em> nos aparecerá un recuadro donde tenemos que poner el siguiente texto:</p>
 <pre tabindex="0"><code>{
-  &quot;Version&quot;:&quot;2012-10-17&quot;,
-  &quot;Statement&quot;:[{
-	&quot;Sid&quot;:&quot;PublicReadGetObject&quot;,
-        &quot;Effect&quot;:&quot;Allow&quot;,
-	  &quot;Principal&quot;: &quot;*&quot;,
-      &quot;Action&quot;:[&quot;s3:GetObject&quot;],
-      &quot;Resource&quot;:[&quot;arn:aws:s3:::dondever.es/*&quot;
+  &#34;Version&#34;:&#34;2012-10-17&#34;,
+  &#34;Statement&#34;:[{
+	&#34;Sid&#34;:&#34;PublicReadGetObject&#34;,
+        &#34;Effect&#34;:&#34;Allow&#34;,
+	  &#34;Principal&#34;: &#34;*&#34;,
+      &#34;Action&#34;:[&#34;s3:GetObject&#34;],
+      &#34;Resource&#34;:[&#34;arn:aws:s3:::dondever.es/*&#34;
       ]
     }
   ]

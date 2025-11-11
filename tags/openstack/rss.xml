@@ -28,7 +28,8 @@
 <img alt="HP" class="align-left" src="/images/81814a0c-5a6f-11e5-928d-8f899736a0cb.jpg" style="width: 120px;" />
 <p><a class="reference external" href="http://www.hp.com/es/es">HP</a> ha estado presentando su plataforma <a class="reference external" href="http://www8.hp.com/es/es/cloud/helion-overview.html">Helion</a>, basada en <a class="reference external" href="http://www.openstack.org">OpenStack</a>, para permanecer en el mercado de la computación en la nube.
 Por ello están llevando a cabo una campaña de divulgación de la plataforma, de la que forman parte <a class="reference external" href="http://hphelion.bemyapp.com/meetup/">estos cinco webinarios</a> que presentan.
-Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis a punto para inscribiros en el resto.</p></div>
+Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis a punto para inscribiros en el resto.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -61,7 +62,8 @@ Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis
         <div class="document">
 
 
-<p>Vamos a empezar una serie de artículos que en los que vamos a realizar instalaciones y pruebas, para poder empezar necesitaremos crear nuestro laboratorio, en este caso vamos a utilizar un ordenador físico, un pequeño servidor al cual le vamos a instalar un <a class="reference external" href="https://www.openstack.org">OpenStack</a> siguiendo el sistema de <a class="reference external" href="http://openstack.redhat.com">Packstack</a> de Redhat que permite instalar todos los componentes de OpenStack en una única máquina prácticamente sin dolor.</p></div>
+<p>Vamos a empezar una serie de artículos que en los que vamos a realizar instalaciones y pruebas, para poder empezar necesitaremos crear nuestro laboratorio, en este caso vamos a utilizar un ordenador físico, un pequeño servidor al cual le vamos a instalar un <a class="reference external" href="https://www.openstack.org">OpenStack</a> siguiendo el sistema de <a class="reference external" href="http://openstack.redhat.com">Packstack</a> de Redhat que permite instalar todos los componentes de OpenStack en una única máquina prácticamente sin dolor.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -79,7 +81,8 @@ Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis
         <div class="document">
 
 
-<p>La empresa <a class="reference external" href="http://flossystems.com">FLOSSystems</a> ofrece una edición de su curso de <a class="reference external" href="http://openstack.org">OpenStack</a> en Barcelona los próximos días 29 y 30 de noviembre y 13 y 14 de diciembre. Con un total de 20 horas, cubrirán los módulos más significativos.</p></div>
+<p>La empresa <a class="reference external" href="http://flossystems.com">FLOSSystems</a> ofrece una edición de su curso de <a class="reference external" href="http://openstack.org">OpenStack</a> en Barcelona los próximos días 29 y 30 de noviembre y 13 y 14 de diciembre. Con un total de 20 horas, cubrirán los módulos más significativos.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -94,7 +97,11 @@ Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis
         <![CDATA[
         
 
-        El grupo de Meetup OpenStack Barcelona, celebró el pasado viernes su primer evento, en la sede de la empresa Midokura. La sesión fue llevada por la organizadora del grupo, Rossella Sblendido, que trabaja en Midokura. La introducción se basó en la versión Havana de OpenStack, que es la que actualmente está en desarrollo. Hubo cierto énfasis en el componente llamado Neutron que consiste en el servicio de virtualización de red, para el cual Midokura desarrolla módulos.
+        <div class="document">
+
+
+<img alt="OpenStack" class="align-left" src="/images/openstack.png" style="width: 157px; height: 157px;" />
+<p>El grupo de <a class="reference external" href="http://meetup.com">Meetup</a> <a class="reference external" href="http://www.meetup.com/OpenStack-Barcelona/">OpenStack Barcelona</a>, celebró el pasado viernes su primer evento, en la sede de la empresa <a class="reference external" href="http://www.midokura.com/">Midokura</a>. La sesión fue llevada por la organizadora del grupo, <a class="reference external" href="http://www.meetup.com/OpenStack-Barcelona/member/98693932/">Rossella Sblendido</a>, que trabaja en <a class="reference external" href="http://www.midokura.com/">Midokura</a>. La introducción se basó en la versión <em>Havana</em> de OpenStack, que es la que actualmente está en desarrollo. Hubo cierto énfasis en el componente llamado <em>Neutron</em> que consiste en el servicio de virtualización de red, para el cual <a class="reference external" href="http://www.midokura.com/">Midokura</a> desarrolla módulos. Estos módulos conforman la infrastructura necesaria para poder crear una red de <em>overlay</em> sobe la red física, sea cual sea su naturaleza. También se produjo un diálogo en el que se plantearon las capacidades de distribución de los servicios.</p></div>
         ]]>
        </description>
     </item>
@@ -112,7 +119,7 @@ Aunque ya se ha celebrado el primero, que era de introducción, todavía estáis
         <div class="document" id="openstack-arquitectura-y-operaciones-para-la-nube-y-las-aplicaciones-del-siglo-xxi">
 <h1 class="title">OpenStack: Arquitectura y operaciones para la nube y las aplicaciones del siglo XXI</h1>
 
-<p>En esta <a class="reference external" href="https://fosdem.org/2013/schedule/event/openstack_app_arch/">charla</a>, Mark McLoughlin, de Red Hat, explicó algunos detalles sobre <a class="reference external" href="http://www.openstack.org/">OpenStack</a>. OpenStack es un conjunto de componentes orientados a construir una infrastructura de nube, similar a la que Amazon tiene bajo el nombre de Web Services (<a class="reference external" href="http://aws.amazon.com/es/">AWS</a>).</p></div>
+<p>En esta <a class="reference external" href="https://fosdem.org/2013/schedule/event/openstack_app_arch/">charla</a>, Mark McLoughlin, de Red Hat, explicó algunos detalles sobre <a class="reference external" href="http://www.openstack.org/">OpenStack</a>. OpenStack es un conjunto de componentes orientados a construir una infrastructura de nube, similar a la que Amazon tiene bajo el nombre de Web Services (<a class="reference external" href="http://aws.amazon.com/es/">AWS</a>).</p>
         ]]>
        </description>
     </item>

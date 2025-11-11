@@ -252,169 +252,169 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 <p>#Instalación</p>
 <p>A continuación os paso a explicar el proceso de instalación y una pequeña introducción a la configuración para proteger el servicio SSH. El taller lo iré realizando en una máquina virtual CentOS 6.8 pero la iré complementando con salidas y configuraciones de mi máquina pública para que se pueda ver el resultado en un entorno &ldquo;real&rdquo;. Todos los comandos tienen que ser realizados con el usuario root.</p>
 <p><a href="http://www.fail2ban.org">Fail2Ban</a> no se encuentra disponible en los repositorios base CentOS y será necesario que configuremos los repositorios de EPEL con el siguiente comando:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">[root@localhost ~]<span style="color:#008000"># rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm</span>
-Recuperando http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
-advertencia:/var/tmp/rpm-tmp.bkyK0z: CabeceraV3 RSA/SHA256 Signature, ID de clave 0608b895: NOKEY
-Preparando...               <span style="color:#008000">########################################### [100%]</span>
-   1:epel-release           <span style="color:#008000">########################################### [100%]</span>
-</code></pre></div><p>Ahora ya podemos ejecutar la instalación con yum</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">[root@localhost ~]<span style="color:#008000"># yum install fail2ban -y</span>
-Complementos cargados:fastestmirror
-Configurando el proceso de instalación
-Loading mirror speeds from cached hostfile
-epel/metalink                                                                                                                                                                                                      |  21 kB     00:00
- * base: centos.cadt.com
- * epel: epel.besthosting.ua
- * extras: centos.cadt.com
- * updates: centos.cadt.com
-epel                                                                                                                                                                                                               | 4.3 kB     00:00
-epel/primary_db                                                                                                                                                                                                    | 5.0 MB     00:12
-Resolviendo dependencias
---&gt; Ejecutando prueba de transacción
----&gt; Package fail2ban.noarch 0:0.9.3-1.el6.1 will be instalado
---&gt; Procesando dependencias: python-inotify para el paquete: fail2ban-0.9.3-1.el6.1.noarch
---&gt; Procesando dependencias: ipset para el paquete: fail2ban-0.9.3-1.el6.1.noarch
---&gt; Procesando dependencias: gamin-python para el paquete: fail2ban-0.9.3-1.el6.1.noarch
---&gt; Procesando dependencias: ed para el paquete: fail2ban-0.9.3-1.el6.1.noarch
---&gt; Ejecutando prueba de transacción
----&gt; Package ed.i686 0:1.1-3.3.el6 will be instalado
----&gt; Package gamin-python.i686 0:0.1.10-9.el6 will be instalado
----&gt; Package ipset.i686 0:6.11-4.el6 will be instalado
---&gt; Procesando dependencias: libmnl.so.0(LIBMNL_1.0) para el paquete: ipset-6.11-4.el6.i686
---&gt; Procesando dependencias: libmnl.so.0 para el paquete: ipset-6.11-4.el6.i686
----&gt; Package python-inotify.noarch 0:0.9.1-1.el6 will be instalado
---&gt; Ejecutando prueba de transacción
----&gt; Package libmnl.i686 0:1.0.2-3.el6 will be instalado
---&gt; Resolución de dependencias finalizada
-
-Dependencias resueltas
-
-==========================================================================================================================================================================================================================================
- Paquete                                                      Arquitectura                                         Versión                                                       Repositorio                                        Tamaño
-==========================================================================================================================================================================================================================================
-Instalando:
- fail2ban                                                     noarch                                               0.9.3-1.el6.1                                                 epel                                               419 k
-Instalando para las dependencias:
- ed                                                           i686                                                 1.1-3.3.el6                                                   base                                                70 k
- gamin-python                                                 i686                                                 0.1.10-9.el6                                                  base                                                33 k
- ipset                                                        i686                                                 6.11-4.el6                                                    base                                                63 k
- libmnl                                                       i686                                                 1.0.2-3.el6                                                   base                                                22 k
- python-inotify                                               noarch                                               0.9.1-1.el6                                                   epel                                                50 k
-
-Resumen de la transacción
-==========================================================================================================================================================================================================================================
-Instalar       6 Paquete(s)
-
-Tamaño total de la descarga: 656 k
-Tamaño instalado: 2.0 M
-Descargando paquetes:
-(1/6): ed-1.1-3.3.el6.i686.rpm                                                                                                                                                                                     |  70 kB     00:00
-(2/6): fail2ban-0.9.3-1.el6.1.noarch.rpm                                                                                                                                                                           | 419 kB     00:01
-(3/6): gamin-python-0.1.10-9.el6.i686.rpm                                                                                                                                                                          |  33 kB     00:00
-(4/6): ipset-6.11-4.el6.i686.rpm                                                                                                                                                                                   |  63 kB     00:00
-(5/6): libmnl-1.0.2-3.el6.i686.rpm                                                                                                                                                                                 |  22 kB     00:00
-(6/6): python-inotify-0.9.1-1.el6.noarch.rpm                                                                                                                                                                       |  50 kB     00:00
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Total                                                                                                                                                                                                     154 kB/s | 656 kB     00:04
-advertencia:rpmts_HdrFromFdno: CabeceraV3 RSA/SHA1 Signature, ID de clave c105b9de: NOKEY
-Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
-Importing GPG key 0xC105B9DE:
- Userid : CentOS-6 Key (CentOS 6 Official Signing Key) &lt;centos-6-key@centos.org&gt;
- Package: centos-release-6-8.el6.centos.12.3.i686 (@anaconda-CentOS-201605211917.i386/6.8)
- From   : /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
-warning: rpmts_HdrFromFdno: Header V3 RSA/SHA256 Signature, key ID 0608b895: NOKEY
-Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
-Importing GPG key 0x0608B895:
- Userid : EPEL (6) &lt;epel@fedoraproject.org&gt;
- Package: epel-release-6-8.noarch (installed)
- From   : /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
-Ejecutando el rpm_check_debug
-Ejecutando prueba de transacción
-La prueba de transacción ha sido exitosa
-Ejecutando transacción
-Advertencia: Las bases de datos (RPMDB) han sido modificadas por un elemento ajeno a yum.
-  Instalando    : python-inotify-0.9.1-1.el6.noarch                                                                                                                                                                                   1/6
-  Instalando    : ed-1.1-3.3.el6.i686                                                                                                                                                                                                 2/6
-  Instalando    : gamin-python-0.1.10-9.el6.i686                                                                                                                                                                                      3/6
-  Instalando    : libmnl-1.0.2-3.el6.i686                                                                                                                                                                                             4/6
-  Instalando    : ipset-6.11-4.el6.i686                                                                                                                                                                                               5/6
-  Instalando    : fail2ban-0.9.3-1.el6.1.noarch                                                                                                                                                                                       6/6
-  Verifying     : libmnl-1.0.2-3.el6.i686                                                                                                                                                                                             1/6
-  Verifying     : fail2ban-0.9.3-1.el6.1.noarch                                                                                                                                                                                       2/6
-  Verifying     : gamin-python-0.1.10-9.el6.i686                                                                                                                                                                                      3/6
-  Verifying     : ipset-6.11-4.el6.i686                                                                                                                                                                                               4/6
-  Verifying     : python-inotify-0.9.1-1.el6.noarch                                                                                                                                                                                   5/6
-  Verifying     : ed-1.1-3.3.el6.i686                                                                                                                                                                                                 6/6
-
-Instalado:
-  fail2ban.noarch 0:0.9.3-1.el6.1
-
-Dependencia(s) instalada(s):
-  ed.i686 0:1.1-3.3.el6                   gamin-python.i686 0:0.1.10-9.el6                   ipset.i686 0:6.11-4.el6                   libmnl.i686 0:1.0.2-3.el6                   python-inotify.noarch 0:0.9.1-1.el6
-
-¡Listo!
-</code></pre></div><p>El programa se compone de dos partes importantes:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>[root@localhost ~]<span style="color:#008000"># rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm</span>
+</span></span><span style="display:flex;"><span>Recuperando http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+</span></span><span style="display:flex;"><span>advertencia:/var/tmp/rpm-tmp.bkyK0z: CabeceraV3 RSA/SHA256 Signature, ID de clave 0608b895: NOKEY
+</span></span><span style="display:flex;"><span>Preparando...               <span style="color:#008000">########################################### [100%]</span>
+</span></span><span style="display:flex;"><span>   1:epel-release           <span style="color:#008000">########################################### [100%]</span>
+</span></span></code></pre></div><p>Ahora ya podemos ejecutar la instalación con yum</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>[root@localhost ~]<span style="color:#008000"># yum install fail2ban -y</span>
+</span></span><span style="display:flex;"><span>Complementos cargados:fastestmirror
+</span></span><span style="display:flex;"><span>Configurando el proceso de instalación
+</span></span><span style="display:flex;"><span>Loading mirror speeds from cached hostfile
+</span></span><span style="display:flex;"><span>epel/metalink                                                                                                                                                                                                      |  21 kB     00:00
+</span></span><span style="display:flex;"><span> * base: centos.cadt.com
+</span></span><span style="display:flex;"><span> * epel: epel.besthosting.ua
+</span></span><span style="display:flex;"><span> * extras: centos.cadt.com
+</span></span><span style="display:flex;"><span> * updates: centos.cadt.com
+</span></span><span style="display:flex;"><span>epel                                                                                                                                                                                                               | 4.3 kB     00:00
+</span></span><span style="display:flex;"><span>epel/primary_db                                                                                                                                                                                                    | 5.0 MB     00:12
+</span></span><span style="display:flex;"><span>Resolviendo dependencias
+</span></span><span style="display:flex;"><span>--&gt; Ejecutando prueba de transacción
+</span></span><span style="display:flex;"><span>---&gt; Package fail2ban.noarch 0:0.9.3-1.el6.1 will be instalado
+</span></span><span style="display:flex;"><span>--&gt; Procesando dependencias: python-inotify para el paquete: fail2ban-0.9.3-1.el6.1.noarch
+</span></span><span style="display:flex;"><span>--&gt; Procesando dependencias: ipset para el paquete: fail2ban-0.9.3-1.el6.1.noarch
+</span></span><span style="display:flex;"><span>--&gt; Procesando dependencias: gamin-python para el paquete: fail2ban-0.9.3-1.el6.1.noarch
+</span></span><span style="display:flex;"><span>--&gt; Procesando dependencias: ed para el paquete: fail2ban-0.9.3-1.el6.1.noarch
+</span></span><span style="display:flex;"><span>--&gt; Ejecutando prueba de transacción
+</span></span><span style="display:flex;"><span>---&gt; Package ed.i686 0:1.1-3.3.el6 will be instalado
+</span></span><span style="display:flex;"><span>---&gt; Package gamin-python.i686 0:0.1.10-9.el6 will be instalado
+</span></span><span style="display:flex;"><span>---&gt; Package ipset.i686 0:6.11-4.el6 will be instalado
+</span></span><span style="display:flex;"><span>--&gt; Procesando dependencias: libmnl.so.0(LIBMNL_1.0) para el paquete: ipset-6.11-4.el6.i686
+</span></span><span style="display:flex;"><span>--&gt; Procesando dependencias: libmnl.so.0 para el paquete: ipset-6.11-4.el6.i686
+</span></span><span style="display:flex;"><span>---&gt; Package python-inotify.noarch 0:0.9.1-1.el6 will be instalado
+</span></span><span style="display:flex;"><span>--&gt; Ejecutando prueba de transacción
+</span></span><span style="display:flex;"><span>---&gt; Package libmnl.i686 0:1.0.2-3.el6 will be instalado
+</span></span><span style="display:flex;"><span>--&gt; Resolución de dependencias finalizada
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Dependencias resueltas
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>==========================================================================================================================================================================================================================================
+</span></span><span style="display:flex;"><span> Paquete                                                      Arquitectura                                         Versión                                                       Repositorio                                        Tamaño
+</span></span><span style="display:flex;"><span>==========================================================================================================================================================================================================================================
+</span></span><span style="display:flex;"><span>Instalando:
+</span></span><span style="display:flex;"><span> fail2ban                                                     noarch                                               0.9.3-1.el6.1                                                 epel                                               419 k
+</span></span><span style="display:flex;"><span>Instalando para las dependencias:
+</span></span><span style="display:flex;"><span> ed                                                           i686                                                 1.1-3.3.el6                                                   base                                                70 k
+</span></span><span style="display:flex;"><span> gamin-python                                                 i686                                                 0.1.10-9.el6                                                  base                                                33 k
+</span></span><span style="display:flex;"><span> ipset                                                        i686                                                 6.11-4.el6                                                    base                                                63 k
+</span></span><span style="display:flex;"><span> libmnl                                                       i686                                                 1.0.2-3.el6                                                   base                                                22 k
+</span></span><span style="display:flex;"><span> python-inotify                                               noarch                                               0.9.1-1.el6                                                   epel                                                50 k
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Resumen de la transacción
+</span></span><span style="display:flex;"><span>==========================================================================================================================================================================================================================================
+</span></span><span style="display:flex;"><span>Instalar       6 Paquete(s)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Tamaño total de la descarga: 656 k
+</span></span><span style="display:flex;"><span>Tamaño instalado: 2.0 M
+</span></span><span style="display:flex;"><span>Descargando paquetes:
+</span></span><span style="display:flex;"><span>(1/6): ed-1.1-3.3.el6.i686.rpm                                                                                                                                                                                     |  70 kB     00:00
+</span></span><span style="display:flex;"><span>(2/6): fail2ban-0.9.3-1.el6.1.noarch.rpm                                                                                                                                                                           | 419 kB     00:01
+</span></span><span style="display:flex;"><span>(3/6): gamin-python-0.1.10-9.el6.i686.rpm                                                                                                                                                                          |  33 kB     00:00
+</span></span><span style="display:flex;"><span>(4/6): ipset-6.11-4.el6.i686.rpm                                                                                                                                                                                   |  63 kB     00:00
+</span></span><span style="display:flex;"><span>(5/6): libmnl-1.0.2-3.el6.i686.rpm                                                                                                                                                                                 |  22 kB     00:00
+</span></span><span style="display:flex;"><span>(6/6): python-inotify-0.9.1-1.el6.noarch.rpm                                                                                                                                                                       |  50 kB     00:00
+</span></span><span style="display:flex;"><span>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</span></span><span style="display:flex;"><span>Total                                                                                                                                                                                                     154 kB/s | 656 kB     00:04
+</span></span><span style="display:flex;"><span>advertencia:rpmts_HdrFromFdno: CabeceraV3 RSA/SHA1 Signature, ID de clave c105b9de: NOKEY
+</span></span><span style="display:flex;"><span>Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+</span></span><span style="display:flex;"><span>Importing GPG key 0xC105B9DE:
+</span></span><span style="display:flex;"><span> Userid : CentOS-6 Key (CentOS 6 Official Signing Key) &lt;centos-6-key@centos.org&gt;
+</span></span><span style="display:flex;"><span> Package: centos-release-6-8.el6.centos.12.3.i686 (@anaconda-CentOS-201605211917.i386/6.8)
+</span></span><span style="display:flex;"><span> From   : /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+</span></span><span style="display:flex;"><span>warning: rpmts_HdrFromFdno: Header V3 RSA/SHA256 Signature, key ID 0608b895: NOKEY
+</span></span><span style="display:flex;"><span>Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
+</span></span><span style="display:flex;"><span>Importing GPG key 0x0608B895:
+</span></span><span style="display:flex;"><span> Userid : EPEL (6) &lt;epel@fedoraproject.org&gt;
+</span></span><span style="display:flex;"><span> Package: epel-release-6-8.noarch (installed)
+</span></span><span style="display:flex;"><span> From   : /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
+</span></span><span style="display:flex;"><span>Ejecutando el rpm_check_debug
+</span></span><span style="display:flex;"><span>Ejecutando prueba de transacción
+</span></span><span style="display:flex;"><span>La prueba de transacción ha sido exitosa
+</span></span><span style="display:flex;"><span>Ejecutando transacción
+</span></span><span style="display:flex;"><span>Advertencia: Las bases de datos (RPMDB) han sido modificadas por un elemento ajeno a yum.
+</span></span><span style="display:flex;"><span>  Instalando    : python-inotify-0.9.1-1.el6.noarch                                                                                                                                                                                   1/6
+</span></span><span style="display:flex;"><span>  Instalando    : ed-1.1-3.3.el6.i686                                                                                                                                                                                                 2/6
+</span></span><span style="display:flex;"><span>  Instalando    : gamin-python-0.1.10-9.el6.i686                                                                                                                                                                                      3/6
+</span></span><span style="display:flex;"><span>  Instalando    : libmnl-1.0.2-3.el6.i686                                                                                                                                                                                             4/6
+</span></span><span style="display:flex;"><span>  Instalando    : ipset-6.11-4.el6.i686                                                                                                                                                                                               5/6
+</span></span><span style="display:flex;"><span>  Instalando    : fail2ban-0.9.3-1.el6.1.noarch                                                                                                                                                                                       6/6
+</span></span><span style="display:flex;"><span>  Verifying     : libmnl-1.0.2-3.el6.i686                                                                                                                                                                                             1/6
+</span></span><span style="display:flex;"><span>  Verifying     : fail2ban-0.9.3-1.el6.1.noarch                                                                                                                                                                                       2/6
+</span></span><span style="display:flex;"><span>  Verifying     : gamin-python-0.1.10-9.el6.i686                                                                                                                                                                                      3/6
+</span></span><span style="display:flex;"><span>  Verifying     : ipset-6.11-4.el6.i686                                                                                                                                                                                               4/6
+</span></span><span style="display:flex;"><span>  Verifying     : python-inotify-0.9.1-1.el6.noarch                                                                                                                                                                                   5/6
+</span></span><span style="display:flex;"><span>  Verifying     : ed-1.1-3.3.el6.i686                                                                                                                                                                                                 6/6
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Instalado:
+</span></span><span style="display:flex;"><span>  fail2ban.noarch 0:0.9.3-1.el6.1
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Dependencia(s) instalada(s):
+</span></span><span style="display:flex;"><span>  ed.i686 0:1.1-3.3.el6                   gamin-python.i686 0:0.1.10-9.el6                   ipset.i686 0:6.11-4.el6                   libmnl.i686 0:1.0.2-3.el6                   python-inotify.noarch 0:0.9.1-1.el6
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>¡Listo!
+</span></span></code></pre></div><p>El programa se compone de dos partes importantes:</p>
 <ul>
 <li>La parte de servidor (daemon), que estará vigilando los diferentes ficheros de log en busca de patrones y creando los bloqueos necesarios.</li>
 <li>La parte cliente, que servirá para interactuar con el servidor y hacer consultas (p.e. número de bloqueos) o incluso aplicar configuraciones &ldquo;en caliente&rdquo;.</li>
 </ul>
 <p>La estructura de directorios y ficheros que genera la instalación es la siguiente:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">[root@localhost /]<span style="color:#008000"># ls -lrt /etc/fail2ban/</span>
-total 60
--rw-r--r--. 1 root root   290 ago  1  2015 paths-osx.conf
--rw-r--r--. 1 root root  1174 ago  1  2015 paths-freebsd.conf
--rw-r--r--. 1 root root   743 ago  1  2015 paths-fedora.conf
--rw-r--r--. 1 root root   642 ago  1  2015 paths-debian.conf
--rw-r--r--. 1 root root  1939 ago  1  2015 paths-common.conf
--rw-r--r--. 1 root root 18558 oct 17  2015 jail.conf
--rw-r--r--. 1 root root  2313 oct 17  2015 fail2ban.conf
-drwxr-xr-x. 2 root root  4096 oct 17  2015 jail.d
-drwxr-xr-x. 2 root root  4096 oct 17  2015 fail2ban.d
-drwxr-xr-x. 3 root root  4096 sep  5 15:13 filter.d
-drwxr-xr-x. 2 root root  4096 sep  5 15:13 action.d
-</code></pre></div><p>Ahora ha llegado el momento de configurar una prisión (jail en <a href="http://www.fail2ban.org">Fail2Ban</a>) que básicamente consiste en definir un servicio a monitorizar y unas acciones a realizar. Como he dicho nos interesa controlar el SSH, para esto crearemos el fichero jail.local en la misma ruta:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">touch /etc/fail2ban/jail.local
-</code></pre></div><p>Y pondremos el siguiente contenido:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">[DEFAULT]
-<span style="color:#008000"># Tiempo que bloqueramos la IP: 3600 segundos (1 hora)</span>
-bantime = 3600
-
-<span style="color:#008000"># La acción que de bloqueo será a traves del firewall interno (iptables)</span>
-banaction = iptables-multiport
-
-[sshd] <span style="color:#008000">#activamos el jail para el demonio de ssh</span>
-enabled = true
-</code></pre></div><p>Arrancamos el demonio:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">[root@localhost /]<span style="color:#008000"># /etc/init.d/fail2ban start</span>
-Iniciando fail2ban:                                        [  OK  ]
-</code></pre></div><p>Consultamos, a través del cliente, que jails tenemos activos:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">[root@localhost /]<span style="color:#008000"># fail2ban-client status</span>
-Status
-|- Number of jail:      1
-<span style="color:#a31515">`</span>- Jail list:   sshd
-</code></pre></div><p>Y podemos consultar en detalle el estado de ese jail:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">[root@localhost /]<span style="color:#008000"># fail2ban-client status sshd</span>
-Status <span style="color:#00f">for</span> the jail: sshd
-|- Filter
-|  |- Currently failed: 0
-|  |- Total failed:     0
-|  <span style="color:#a31515">`</span>- File list:        /var/log/secure
-<span style="color:#a31515">`</span>- Actions
-   |- Currently banned: 0
-   |- Total banned:     0
-   <span style="color:#a31515">`</span>- Banned IP list:
-</code></pre></div><p>En este caso nos indica que no ha localizado ningún fallo de autentificación, que monitoriza el fichero /var/log/secure (donde deja las trazas por defecto el demonio sshd) y que no ha realizado ninguna acción.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>[root@localhost /]<span style="color:#008000"># ls -lrt /etc/fail2ban/</span>
+</span></span><span style="display:flex;"><span>total 60
+</span></span><span style="display:flex;"><span>-rw-r--r--. 1 root root   290 ago  1  2015 paths-osx.conf
+</span></span><span style="display:flex;"><span>-rw-r--r--. 1 root root  1174 ago  1  2015 paths-freebsd.conf
+</span></span><span style="display:flex;"><span>-rw-r--r--. 1 root root   743 ago  1  2015 paths-fedora.conf
+</span></span><span style="display:flex;"><span>-rw-r--r--. 1 root root   642 ago  1  2015 paths-debian.conf
+</span></span><span style="display:flex;"><span>-rw-r--r--. 1 root root  1939 ago  1  2015 paths-common.conf
+</span></span><span style="display:flex;"><span>-rw-r--r--. 1 root root 18558 oct 17  2015 jail.conf
+</span></span><span style="display:flex;"><span>-rw-r--r--. 1 root root  2313 oct 17  2015 fail2ban.conf
+</span></span><span style="display:flex;"><span>drwxr-xr-x. 2 root root  4096 oct 17  2015 jail.d
+</span></span><span style="display:flex;"><span>drwxr-xr-x. 2 root root  4096 oct 17  2015 fail2ban.d
+</span></span><span style="display:flex;"><span>drwxr-xr-x. 3 root root  4096 sep  5 15:13 filter.d
+</span></span><span style="display:flex;"><span>drwxr-xr-x. 2 root root  4096 sep  5 15:13 action.d
+</span></span></code></pre></div><p>Ahora ha llegado el momento de configurar una prisión (jail en <a href="http://www.fail2ban.org">Fail2Ban</a>) que básicamente consiste en definir un servicio a monitorizar y unas acciones a realizar. Como he dicho nos interesa controlar el SSH, para esto crearemos el fichero jail.local en la misma ruta:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>touch /etc/fail2ban/jail.local
+</span></span></code></pre></div><p>Y pondremos el siguiente contenido:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>[DEFAULT]
+</span></span><span style="display:flex;"><span><span style="color:#008000"># Tiempo que bloqueramos la IP: 3600 segundos (1 hora)</span>
+</span></span><span style="display:flex;"><span>bantime = 3600
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#008000"># La acción que de bloqueo será a traves del firewall interno (iptables)</span>
+</span></span><span style="display:flex;"><span>banaction = iptables-multiport
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[sshd] <span style="color:#008000">#activamos el jail para el demonio de ssh</span>
+</span></span><span style="display:flex;"><span>enabled = true
+</span></span></code></pre></div><p>Arrancamos el demonio:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>[root@localhost /]<span style="color:#008000"># /etc/init.d/fail2ban start</span>
+</span></span><span style="display:flex;"><span>Iniciando fail2ban:                                        [  OK  ]
+</span></span></code></pre></div><p>Consultamos, a través del cliente, que jails tenemos activos:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>[root@localhost /]<span style="color:#008000"># fail2ban-client status</span>
+</span></span><span style="display:flex;"><span>Status
+</span></span><span style="display:flex;"><span>|- Number of jail:      1
+</span></span><span style="display:flex;"><span><span style="color:#a31515">`</span>- Jail list:   sshd
+</span></span></code></pre></div><p>Y podemos consultar en detalle el estado de ese jail:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>[root@localhost /]<span style="color:#008000"># fail2ban-client status sshd</span>
+</span></span><span style="display:flex;"><span>Status <span style="color:#00f">for</span> the jail: sshd
+</span></span><span style="display:flex;"><span>|- Filter
+</span></span><span style="display:flex;"><span>|  |- Currently failed: 0
+</span></span><span style="display:flex;"><span>|  |- Total failed:     0
+</span></span><span style="display:flex;"><span>|  <span style="color:#a31515">`</span>- File list:        /var/log/secure
+</span></span><span style="display:flex;"><span><span style="color:#a31515">`</span>- Actions
+</span></span><span style="display:flex;"><span>   |- Currently banned: 0
+</span></span><span style="display:flex;"><span>   |- Total banned:     0
+</span></span><span style="display:flex;"><span>   <span style="color:#a31515">`</span>- Banned IP list:
+</span></span></code></pre></div><p>En este caso nos indica que no ha localizado ningún fallo de autentificación, que monitoriza el fichero /var/log/secure (donde deja las trazas por defecto el demonio sshd) y que no ha realizado ninguna acción.</p>
 <p>A continuación os voy a dejar la salida del mismo comando pero de mi servidor público que lleva unos 15 días funcionando para que comparéis los resultados:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">Status <span style="color:#00f">for</span> the jail: sshd
-|- Filter
-|  |- Currently failed: 0
-|  |- Total failed:     6445
-|  <span style="color:#a31515">`</span>- File list:        /var/log/secure
-<span style="color:#a31515">`</span>- Actions
-   |- Currently banned: 0
-   |- Total banned:     562
-   <span style="color:#a31515">`</span>- Banned IP list:
-</code></pre></div><p>Podéis ver que ha localizado 6445 fallos y ha bloqueado un total de 562 IPs. Actualmente no tiene ninguna IP bloqueada (se estarán cansado ;-) ).</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>Status <span style="color:#00f">for</span> the jail: sshd
+</span></span><span style="display:flex;"><span>|- Filter
+</span></span><span style="display:flex;"><span>|  |- Currently failed: 0
+</span></span><span style="display:flex;"><span>|  |- Total failed:     6445
+</span></span><span style="display:flex;"><span>|  <span style="color:#a31515">`</span>- File list:        /var/log/secure
+</span></span><span style="display:flex;"><span><span style="color:#a31515">`</span>- Actions
+</span></span><span style="display:flex;"><span>   |- Currently banned: 0
+</span></span><span style="display:flex;"><span>   |- Total banned:     562
+</span></span><span style="display:flex;"><span>   <span style="color:#a31515">`</span>- Banned IP list:
+</span></span></code></pre></div><p>Podéis ver que ha localizado 6445 fallos y ha bloqueado un total de 562 IPs. Actualmente no tiene ninguna IP bloqueada (se estarán cansado ;-) ).</p>
 <p>#A tener en cuenta</p>
 <ul>
 <li>Para evitar posibles bloqueos no deseados (por ejemplo el de nuestra IP de acceso) podemos definir un rango de exclusión para que se ignoren los orígenes de dichas IPs con el parámetro <em>ignoreip</em></li>
@@ -423,14 +423,14 @@ Status <span style="color:#00f">for</span> the jail: sshd
 <li>Recordad tener activado los servicios de <em>iptables</em> y <em>fail2ban</em>.</li>
 <li>Os dejo un ejemplo de configuración para el servidor web <a href="https://www.nginx.com/resources/wiki/">nginx</a> dando servicio a diferentes dominios y con diferentes ficheros de log:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">[nginx-botsearch]
-
-enabled = true
-port     = http,https
-logpath = /var/log/nginx/error.log
-        /var/log/nginx/*/error.log
-maxretry = 2
-</code></pre></div><p>Espero que os sea útil y espero vuestro feedback.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>[nginx-botsearch]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>enabled = true
+</span></span><span style="display:flex;"><span>port     = http,https
+</span></span><span style="display:flex;"><span>logpath = /var/log/nginx/error.log
+</span></span><span style="display:flex;"><span>        /var/log/nginx/*/error.log
+</span></span><span style="display:flex;"><span>maxretry = 2
+</span></span></code></pre></div><p>Espero que os sea útil y espero vuestro feedback.</p>
               </section>
 
               <footer class="post-footer">
@@ -449,7 +449,7 @@ maxretry = 2
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2ffail2ban-ssh.html&title=Usando%20Fail2Ban%20para%20securizar%20SSH&summary=Hace%20poco%20realizando%20tareas%20de%20mantenimiento%20en%20mi%20servidor%20personal%20vi%20varios%20mensajes%20en%20los%20logs%20que%20no%20me%20gustaron%20nada%3a%20Failed%20password%20for%20root%20from%20121.18.238.22%20port%2040618%20ssh2.%0aClaramente%20mi%20servidor%20estaba%20bajo%20un%20ataque%20para%20conseguir%20acceso%20SSH.%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2ffail2ban-ssh.html&title=Usando%20Fail2Ban%20para%20securizar%20SSH&summary=%20Hace%20poco%20realizando%20tareas%20de%20mantenimiento%20en%20mi%20servidor%20personal%20vi%20varios%20mensajes%20en%20los%20logs%20que%20no%20me%20gustaron%20nada%3a%20Failed%20password%20for%20root%20from%20121.18.238.22%20port%2040618%20ssh2.%0aClaramente%20mi%20servidor%20estaba%20bajo%20un%20ataque%20para%20conseguir%20acceso%20SSH.%0a"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

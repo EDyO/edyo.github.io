@@ -27,7 +27,8 @@
 
 <img alt="OpenFlow" class="align-right" src="/images/OpenFlow-Logo-Small.jpg" />
 <p>Más vale tarde que nunca: si hace ya un tiempo nos arrancamos con una <a class="reference external" href="http://www.entredevyops.es/posts/sdn-nfv-wtf.html">introducción teórica</a> a las diferentes filosofías de virtualización de red, hoy retomamos el tema para ahondar en conceptos más específicos.</p>
-<p>Hablemos de OpenFlow, probablemente la tecnología SDN más popular hoy en día.</p></div>
+<p>Hablemos de OpenFlow, probablemente la tecnología SDN más popular hoy en día.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -49,7 +50,8 @@
 <p>Hecho el obligatorio homenaje a la <a class="reference external" href="https://www.youtube.com/watch?v=MPzWtI6uaJk&amp;t=2m16s">Santa Granada de Antioquía</a> de los Monty Python, pongámonos serios y veamos por qué dedicamos un artículo a este número.</p>
 <p>¿Os iba mal Internet ayer? No estabais solos. En algún momento de la mañana empezaron a haber problemas graves en la mayoría de los ISPs de todo el mundo, que afectaron tanto a empresas como a particulares.</p>
 <p>El mundo de la tecnología está lleno de ejemplos de diseños que, o bien por limitaciones del momento, o bien por no imaginar crecimientos exponenciales, provocan problemas de escalabilidad en el futuro; algunos de los más conocidos son el <strong>efecto 2000</strong> o el <strong>agotamiento de direcciones IPv4</strong>. A esta lista de umbrales superados ya podemos añadir uno nuevo: ayer, por primera vez en la historia, se superaron las <strong>512000 entradas en la tabla de rutas de Internet</strong>.</p>
-<p>No obstante, antes de seguir hablando de dicha tabla necesitamos hablar de cómo está organizado Internet.</p></div>
+<p>No obstante, antes de seguir hablando de dicha tabla necesitamos hablar de cómo está organizado Internet.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -67,7 +69,8 @@
         <div class="document">
 
 
-<p>¿WTF? Esas serán probablemente las tres consonantes con las que alguien nos responderá si le empezamos a hablar de NFV. O puede que nos contesten “no tomo drogas, gracias“ si nos acercamos a contarle las bondades del SDN. En realidad, ambos grupos de consonantes son siglas relacionadas con una serie de conceptos en auge en el mundo del networking y muy cercanos a la filosofía DevOps, conceptos sobre los cuales queremos arrojar algo de luz con una serie de artículos que empezamos hoy.</p></div>
+<p>¿WTF? Esas serán probablemente las tres consonantes con las que alguien nos responderá si le empezamos a hablar de NFV. O puede que nos contesten “no tomo drogas, gracias“ si nos acercamos a contarle las bondades del SDN. En realidad, ambos grupos de consonantes son siglas relacionadas con una serie de conceptos en auge en el mundo del networking y muy cercanos a la filosofía DevOps, conceptos sobre los cuales queremos arrojar algo de luz con una serie de artículos que empezamos hoy.</p>
+</div>
         ]]>
        </description>
     </item>

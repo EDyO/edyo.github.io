@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Podcasts on Entre Dev y Ops</title>
-    <link>https://www.entredevyops.es/podcasts.html</link>
+    <link>https://www.entredevyops.es/podcasts/index.html</link>
     <description>Recent content in Podcasts on Entre Dev y Ops</description>
     <image>
       <url>/images/edyo-logo.png</url>
       <title>Entre Dev y Ops</title>
-      <link>https://www.entredevyops.es/podcasts.html</link>
+      <link>https://www.entredevyops.es/podcasts/index.html</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
@@ -390,7 +390,8 @@ trabajo del cloud a on-premise.</p>
             </p>
         
 
-        En el episodio 81 del podcast de Entre Dev y Ops hablaremos sobre nuestras trayectorias profesionales y cuáles han sido las motivaciones que nos han hecho cambiar de trabajo.
+        <p>En el episodio 81 del podcast de Entre Dev y Ops hablaremos sobre nuestras trayectorias profesionales y
+cuáles han sido las motivaciones que nos han hecho cambiar de trabajo.</p>
         ]]>
        </description>
     </item>
@@ -2035,7 +2036,8 @@ y buenas prácticas, GUIs e integraciones con editores&hellip;</p>
         <div class="document">
 
 
-<p>Nuevo episodio listo para escuhar de nuestro podcast en el que hemos debatido sobre ChatOps.</p></div>
+<p>Nuevo episodio listo para escuhar de nuestro podcast en el que hemos debatido sobre ChatOps.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -2058,7 +2060,8 @@ y buenas prácticas, GUIs e integraciones con editores&hellip;</p>
 
 
 <p>Ya está disponible para escuchar en vuestro reproductor favorito un nuevo episodio de nuestro <a class="reference external" href="http://www.entredevyops.es/podcast.html">podcast</a>.</p>
-<p>En esta ocasión, hablamos sobre novedades en Spotify y Microsoft, y sobre el cloud de IBM, Bluemix, además de otros temas.</p></div>
+<p>En esta ocasión, hablamos sobre novedades en Spotify y Microsoft, y sobre el cloud de IBM, Bluemix, además de otros temas.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -2082,7 +2085,8 @@ y buenas prácticas, GUIs e integraciones con editores&hellip;</p>
 
 <p>En este podcast repasaremos próximos eventos y hablaremos con Alexandre Savio co-organizador de la <a class="reference external" href="http://europython.eu">EuroPython 2015</a> y <a class="reference external" href="http://pyss15.pyss.org/en/">Python San Sebastian 2015</a>.</p>
 <p>Como siempre podréis encontrar este, y el resto de episodios, en nuestra sección de <a class="reference external" href="http://feedpress.me/edyo">podcast</a>.</p>
-<p>Esperamos que os guste.</p></div>
+<p>Esperamos que os guste.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -2105,7 +2109,8 @@ y buenas prácticas, GUIs e integraciones con editores&hellip;</p>
 
 
 <p>En este podcast repasaremos próximos eventos, las noticias relevantes de los últimos dos meses y discutiremos sobre temas diversos: grupo de <a class="reference external" href="http://www.meetup.com/es/devops-bcn-group/">DevOps BCN</a>, <a class="reference external" href="http://europython.eu">EuroPython 2015</a> y &quot;Se busca DevOps&quot;.</p>
-<p>Esperamos que os guste.</p></div>
+<p>Esperamos que os guste.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -2124,8 +2129,12 @@ y buenas prácticas, GUIs e integraciones con editores&hellip;</p>
             </p>
         
 
-        En este podcast entrevistamos a los organizadores de la EuroPython 2015. Ésta entrevista fue gravada el día 15 de Marzo, pero por razones técnicas no hemos podido publicarla hasta ahora. En la entrevista también se habla de la enseñanza a investigadores, concretamente de la Software Carpentry.
-Esperamos que os guste.
+        <div class="document">
+
+
+<p>En este podcast entrevistamos a los organizadores de la <a class="reference external" href="http://europython.eu">EuroPython 2015</a>. Ésta entrevista fue gravada el día 15 de Marzo, pero por razones técnicas no hemos podido publicarla hasta ahora. En la entrevista también se habla de la enseñanza a investigadores, concretamente de la <a class="reference external" href="http://software-carpentry.org">Software Carpentry</a>.</p>
+<p>Esperamos que os guste.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -2144,8 +2153,12 @@ Esperamos que os guste.
             </p>
         
 
-        En este podcast hablamos del Curso Scrum, DevOps y Lean IT en la UPC 17 Marzo y del Curso oficial Scrum.org en itnove 26 Marzo, pero también de la nueva vulnerabilidad GHOST, y de cómo fue la FOSDEM.
-Esperamos que os guste.
+        <div class="document">
+
+
+<p>En este podcast hablamos del <a class="reference external" href="http://www.talent.upc.edu/cat/professionals/presentacio/codi/527700/agile-management-scrum-devops-lean">Curso Scrum, DevOps y Lean IT en la UPC 17 Marzo</a> y del <a class="reference external" href="http://itnove.com/es/servicios/formacion-scrum">Curso oficial Scrum.org en itnove 26 Marzo</a>, pero también de la nueva vulnerabilidad <a class="reference external" href="http://www.symantec.com/connect/blogs/linux-ghost-vulnerability-cve-2015-0235-not-scary-it-looks">GHOST</a>, y de cómo fue la <a class="reference external" href="https://fosdem.org/2015/schedule/track/open_source_search/">FOSDEM</a>.</p>
+<p>Esperamos que os guste.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -2168,7 +2181,8 @@ Esperamos que os guste.
 
 
 <p>En este podcast tratamos sobre eventos. Explicamos los Conding Dojos que organiza pyBCN de manera regular en Barcelona, la EuroPython 2015 que será en Bilbao el próximo Julio y el Fosdem 2015 que se celebrará el día 30/01 y 01/02 en Bruselas.</p>
-<p>Sobre este último aprovechamos para daros unos consejos que, si estáis pensado en acudir, os pueden ser útiles.</p></div>
+<p>Sobre este último aprovechamos para daros unos consejos que, si estáis pensado en acudir, os pueden ser útiles.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -2187,8 +2201,12 @@ Esperamos que os guste.
             </p>
         
 
-        Acabamos de publicar el noveno episodio de nuestro podcast, el último del año, por los pelos!!!!
-En él, encontraréis algunos comentarios sobre las conferencias que tuvieron lugar durante Noviembre, en Barcelona, como la VelocityConf, y hablaremos un poco sobre los microservicios.
+        <div class="document">
+
+
+<p>Acabamos de publicar el noveno episodio de nuestro <a class="reference external" href="http://www.entredevyops.es/podcast.html">podcast</a>, el último del año, por los pelos!!!!</p>
+<p>En él, encontraréis algunos comentarios sobre las conferencias que tuvieron lugar durante Noviembre, en Barcelona, como la VelocityConf, y hablaremos un poco sobre los microservicios.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -2207,8 +2225,12 @@ En él, encontraréis algunos comentarios sobre las conferencias que tuvieron lu
             </p>
         
 
-        Aunque con algo de retraso, os anunciamos la disponibilidad del octavo episodio de nuestro podcast, que publicamos hace unos días.
-Tras la publicación de las vulnerabilidades Shellshock y Poodle, grabamos un debate sobre las vulnerabilidades y la reacción a ellas, que os ofrecemos en este episodio.
+        <div class="document">
+
+
+<p>Aunque con algo de retraso, os anunciamos la disponibilidad del octavo episodio de nuestro <a class="reference external" href="http://www.entredevyops.es/podcast.html">podcast</a>, que publicamos hace unos días.</p>
+<p>Tras la publicación de las vulnerabilidades <em>Shellshock</em> y <em>Poodle</em>, grabamos un debate sobre las vulnerabilidades y la reacción a ellas, que os ofrecemos en este episodio.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -2231,7 +2253,8 @@ Tras la publicación de las vulnerabilidades Shellshock y Poodle, grabamos un de
 
 
 <p>Hoy hemos publicado el episodio número 7 de nuestro podcast. Esta vez nos hemos pasado un poco y el episodio es un poco largo, prometemos no repetirlo en el futuro, o partirlo en dos.</p>
-<p>En esta ocasión hemos entrevistado a Josep Pla, administrador de sistemas en <a class="reference external" href="http://www.upptalk.com/">Upptalk</a>, sobre algunas herramientas que usan, entre otros temas.</p></div>
+<p>En esta ocasión hemos entrevistado a Josep Pla, administrador de sistemas en <a class="reference external" href="http://www.upptalk.com/">Upptalk</a>, sobre algunas herramientas que usan, entre otros temas.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -2254,7 +2277,8 @@ Tras la publicación de las vulnerabilidades Shellshock y Poodle, grabamos un de
 
 
 <p>El pasado 25 de Agosto publicamos el episodio número 6 de nuestro podcast.</p>
-<p>En esta última entrada tenemos el placer de realizar una entrevista a <a class="reference external" href="https://davidpoblador.com/">David Poblador</a>, jefe de SRE de <a class="reference external" href="https://www.spotify.com">Spotify</a>.</p></div>
+<p>En esta última entrada tenemos el placer de realizar una entrevista a <a class="reference external" href="https://davidpoblador.com/">David Poblador</a>, jefe de SRE de <a class="reference external" href="https://www.spotify.com">Spotify</a>.</p>
+</div>
         ]]>
        </description>
     </item>

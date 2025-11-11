@@ -22,7 +22,7 @@
         <![CDATA[
         
 
-        <p>&lt;img src='/images/30765928-56c56350-9ff2-11e7-85a8-cc8fad0d7947.jpg' alt=&lsquo;yes-no&rsquo; class=&lsquo;align-left height=&lsquo;200&rsquo; width=&lsquo;200&rsquo;/&gt;</p>
+        <p>&lt;img src=&rsquo;/images/30765928-56c56350-9ff2-11e7-85a8-cc8fad0d7947.jpg&rsquo; alt=&lsquo;yes-no&rsquo; class=&lsquo;align-left height=&lsquo;200&rsquo; width=&lsquo;200&rsquo;/&gt;</p>
 <p>No, no nos hemos vuelto locos, en Edyo seguimos hablando de tecnología. Sabemos también que últimamente no publicamos más que podcasts; a pesar de ello, mantenemos el blog para cosas que se cuentan mejor escritas que narradas. Hoy os traemos un análisis técnico que no puede ser más de actualidad: la web de consulta del censo para el referendum del 1-O. Os prometo que vale la pena.</p>
         ]]>
        </description>
@@ -43,7 +43,8 @@
 
 <img alt="BcnDevCon13" class="border align-right" src="/images/bcndevcon13.jpeg" style="width: 125px; height: 125px;" />
 <p>Ayer, día 8 de noviembre, ha tenido su inicio el <a class="reference external" href="http://bcndevcon.org">BcnDevCon13</a>. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en <em>cloud</em>, móvil, robótica y <em>open source</em>.</p>
-<p>En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.</p></div>
+<p>En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.</p>
+</div>
         ]]>
        </description>
     </item>

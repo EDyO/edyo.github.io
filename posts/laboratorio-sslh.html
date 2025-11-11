@@ -249,46 +249,46 @@ Github</a>.</p>
 de esta herramienta. En el ejemplo hemos utilizado una
 <a href="https://www.centos.org">CentOS</a> 6.5.</p>
 <p>Primero instalaremos las dependencias de librerías y el compilador gcc:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">yum install -y libconfig libconfig-devel gcc git
-</code></pre></div><p>Bajamos la última versión del código fuente de github (p.e. en la carpeta opt):</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mkdir /opt/sslh
-cd /opt/sslh
-git init
-git pull https://github.com/yrutschle/sslh
-</code></pre></div><p>Y realizamos la compilación:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">make install
-</code></pre></div><p>Ahora copiaremos el script de arranque al init.d para poder realizar un arranque automático del servicio en runlevel 3:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cp scripts/etc.rc.d.init.d.sslh.centos /etc/rc.d/init.d/sslh
-ln -s /usr/local/sbin/sslh /usr/sbin/sslh-select
-chkconfig --add sslh
-chkconfig --level 3 sslh on
-</code></pre></div><p>Y por último pondremos el fichero de configuración:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cp basic.cfg /etc/sslh.cfg
-</code></pre></div><p>Dentro de dicho fichero modificaremos los parámetros que necesitemos, en este caso los siguientes:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>yum install -y libconfig libconfig-devel gcc git
+</span></span></code></pre></div><p>Bajamos la última versión del código fuente de github (p.e. en la carpeta opt):</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir /opt/sslh
+</span></span><span style="display:flex;"><span>cd /opt/sslh
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git pull https://github.com/yrutschle/sslh
+</span></span></code></pre></div><p>Y realizamos la compilación:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make install
+</span></span></code></pre></div><p>Ahora copiaremos el script de arranque al init.d para poder realizar un arranque automático del servicio en runlevel 3:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp scripts/etc.rc.d.init.d.sslh.centos /etc/rc.d/init.d/sslh
+</span></span><span style="display:flex;"><span>ln -s /usr/local/sbin/sslh /usr/sbin/sslh-select
+</span></span><span style="display:flex;"><span>chkconfig --add sslh
+</span></span><span style="display:flex;"><span>chkconfig --level 3 sslh on
+</span></span></code></pre></div><p>Y por último pondremos el fichero de configuración:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp basic.cfg /etc/sslh.cfg
+</span></span></code></pre></div><p>Dentro de dicho fichero modificaremos los parámetros que necesitemos, en este caso los siguientes:</p>
 <ul>
 <li>Sección listen: indicaremos una sola línea con la IP/HOST de nuestro interfaz de red y el puerto al cual queremos que el servicio esté escuchando:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">listen:
-(
-    { host: <span style="color:#a31515">&#34;192.168.10.224&#34;</span>; port: <span style="color:#a31515">&#34;8081&#34;</span>; }
-);
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>listen:
+</span></span><span style="display:flex;"><span>(
+</span></span><span style="display:flex;"><span>    { host: <span style="color:#a31515">&#34;192.168.10.224&#34;</span>; port: <span style="color:#a31515">&#34;8081&#34;</span>; }
+</span></span><span style="display:flex;"><span>);
+</span></span></code></pre></div><ul>
 <li>Sección protocols: indicaremos una línea por cada servicio que queramos ofrecer y actualizaremos los campos host y port para cada uno de ellos, poniendo localhost si es un servicio local o la ip/hostname del servidor destino si es un servicio externo. En el caso que nos ocupa lo ofrecerá nuestro servidor, por tanto lo dejaremos tal cual lo muestra el ejemplo:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">protocols:
-(
-    { name: <span style="color:#a31515">&#34;ssh&#34;</span>; service: <span style="color:#a31515">&#34;ssh&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;22&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; },
-    { name: <span style="color:#a31515">&#34;openvpn&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;1194&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; },
-    { name: <span style="color:#a31515">&#34;xmpp&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;5222&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; },
-    { name: <span style="color:#a31515">&#34;http&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;80&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; },
-    { name: <span style="color:#a31515">&#34;ssl&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;443&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; },
-    { name: <span style="color:#a31515">&#34;anyprot&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;443&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; }
-);
-</code></pre></div><p>Tan solo queda arrancar el servicio:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/etc/init.d/sslh start
-</code></pre></div><p>Para probar si el servicio funciona podemos realizar una conexión desde otra máquina a cualquiera de los servicios definidos al puerto 8081 (tal como hemos configurado). En nuestro ejemplo realizaremos una conexión ssh de prueba desde otra máquina:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ssh -p 8081 root@192.168.10.224
-</code></pre></div><p>Y si habéis seguido todos los pasos correctamente os habréis podido conectar sin problemas.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>protocols:
+</span></span><span style="display:flex;"><span>(
+</span></span><span style="display:flex;"><span>    { name: <span style="color:#a31515">&#34;ssh&#34;</span>; service: <span style="color:#a31515">&#34;ssh&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;22&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; },
+</span></span><span style="display:flex;"><span>    { name: <span style="color:#a31515">&#34;openvpn&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;1194&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; },
+</span></span><span style="display:flex;"><span>    { name: <span style="color:#a31515">&#34;xmpp&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;5222&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; },
+</span></span><span style="display:flex;"><span>    { name: <span style="color:#a31515">&#34;http&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;80&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; },
+</span></span><span style="display:flex;"><span>    { name: <span style="color:#a31515">&#34;ssl&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;443&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; },
+</span></span><span style="display:flex;"><span>    { name: <span style="color:#a31515">&#34;anyprot&#34;</span>; host: <span style="color:#a31515">&#34;localhost&#34;</span>; port: <span style="color:#a31515">&#34;443&#34;</span>; probe: <span style="color:#a31515">&#34;builtin&#34;</span>; }
+</span></span><span style="display:flex;"><span>);
+</span></span></code></pre></div><p>Tan solo queda arrancar el servicio:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/etc/init.d/sslh start
+</span></span></code></pre></div><p>Para probar si el servicio funciona podemos realizar una conexión desde otra máquina a cualquiera de los servicios definidos al puerto 8081 (tal como hemos configurado). En nuestro ejemplo realizaremos una conexión ssh de prueba desde otra máquina:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh -p 8081 root@192.168.10.224
+</span></span></code></pre></div><p>Y si habéis seguido todos los pasos correctamente os habréis podido conectar sin problemas.</p>
 <p><strong>NOTA:</strong> Verificad que no existe ningún servicio (p.e. iptables, etc&hellip;) que esté bloqueando el acceso.</p>
               </section>
 

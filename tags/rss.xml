@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Entre Dev y Ops</title>
-    <link>https://www.entredevyops.es/tags.html</link>
+    <link>https://www.entredevyops.es/tags/index.html</link>
     <description>Recent content in Tags on Entre Dev y Ops</description>
     <image>
       <url>/images/edyo-logo.png</url>
       <title>Entre Dev y Ops</title>
-      <link>https://www.entredevyops.es/tags.html</link>
+      <link>https://www.entredevyops.es/tags/index.html</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
@@ -298,7 +298,7 @@
     </item>
     
     <item>
-      <title>Shell script</title>
+      <title>Shell Script</title>
       <link>https://www.entredevyops.es/tags/shell-script.html</link>
       <pubDate>Mon, 20 Feb 2017 23:25:00 +0000</pubDate>
       
@@ -943,7 +943,7 @@
     </item>
     
     <item>
-      <title>sslh</title>
+      <title>Sslh</title>
       <link>https://www.entredevyops.es/tags/sslh.html</link>
       <pubDate>Wed, 27 Aug 2014 19:55:00 +0000</pubDate>
       
@@ -1363,7 +1363,7 @@
     </item>
     
     <item>
-      <title>devopsdays</title>
+      <title>Devopsdays</title>
       <link>https://www.entredevyops.es/tags/devopsdays.html</link>
       <pubDate>Sat, 12 Oct 2013 20:13:00 +0000</pubDate>
       

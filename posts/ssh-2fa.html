@@ -240,59 +240,59 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
 <p>Tal como comenté en mi <a href="http://www.entredevyops.es/posts/fail2ban-ssh.html">pasado artículo en este mismo blog</a> hace poco detecté que alguna mala persona estaba intentando acceder a mi servidor privado mediante fuerza bruta por SSH. En el artículo de hoy vamos a explicar cómo activar el 2FA (doble factor de autenticación) para acceso SSH con <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2">Google Authenticator</a>.</p>
 <p>La demostración la vamos a realizar sobre una máquina virtual en mi PC basada en Ubuntu Server 16.04.01.</p>
 <p>Lo primero que vamos a necesitar es la instalación del paquete que habilite en el PAM (el sistema que gestiona la autentificación de la máquina) el módulo de Google Authenticator:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">root@ubuntu:~# sudo apt-get install -y libpam-google-authenticator
-</code></pre></div><p>Y posteriormente añadir la siguiente línea en el fichero /etc/pam.d/sshd para que se habilite dicho módulo en el servicio SSH:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">auth required pam_google_authenticator.so
-</code></pre></div><p>Y el fichero /etc/ssh/sshd_config modificar el siguiente parámetro de &lsquo;no&rsquo; a &lsquo;yes&rsquo;</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ChallengeResponseAuthentication yes
-</code></pre></div><p>Y realizar un reinicio del servicio de SSH:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">root@ubuntu:~# sudo service sshd restart
-</code></pre></div><p>A partir de ahora cualquier acceso SSH requerirá de código de verificación.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>root@ubuntu:~# sudo apt-get install -y libpam-google-authenticator
+</span></span></code></pre></div><p>Y posteriormente añadir la siguiente línea en el fichero /etc/pam.d/sshd para que se habilite dicho módulo en el servicio SSH:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>auth required pam_google_authenticator.so
+</span></span></code></pre></div><p>Y el fichero /etc/ssh/sshd_config modificar el siguiente parámetro de &rsquo;no&rsquo; a &lsquo;yes&rsquo;</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ChallengeResponseAuthentication yes
+</span></span></code></pre></div><p>Y realizar un reinicio del servicio de SSH:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>root@ubuntu:~# sudo service sshd restart
+</span></span></code></pre></div><p>A partir de ahora cualquier acceso SSH requerirá de código de verificación.</p>
 <p>Perfecto, ahora que ya tenemos nuestro sistema para que el SSH solicite la doble autentificación, el siguiente paso es configurar los usuarios que van a necesitar acceder. Para configurarlo necesitamos tener a mano el dispositivo el cual tengamos instalado el Google Authenticator, mi caso mi teléfono móvil Android.</p>
 <p>Cambiamos al usuario en el que queremos activar la doble autenticación (en este caso mitch) y ejecutamos el siguiente comando:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mitch@ubuntu:~$ google-authenticator
-
-Do you want authentication tokens to be time-based (y/n) y
-https://www.google.com/chart?chs=200x200&amp;chld=M|0&amp;cht=qr&amp;chl=otpauth://totp/mitch@ubuntu%3Fsecret%3D3HXRVMUFOOTJP3OL
-</code></pre></div><img src='/images/1c056f0e-9458-11e6-83d3-4092efbe9dfc.jpg' class='align-center' height='400' width='400'/>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Your new secret key is: 3HXRVMUFOOTJP3OL
-Your verification code is 561744
-Your emergency scratch codes are:
-  54523107
-  83743686
-  46350483
-  10209811
-  51273874
-
-Do you want me to update your <span style="color:#a31515">&#34;/home/mitch/.google_authenticator&#34;</span> file (y/n) y
-
-Do you want to disallow multiple uses of the same authentication
-token? This restricts you to one login about every 30s, but it increases
-your chances to notice or even prevent man-in-the-middle attacks (y/n) y
-
-By default, tokens are good <span style="color:#00f">for</span> 30 seconds and in order to compensate <span style="color:#00f">for</span>
-possible time-skew between the client and the server, we allow an extra
-token before and after the current time. If you experience problems with poor
-time synchronization, you can increase the window from its default
-size of 1:30min to about 4min. Do you want to <span style="color:#00f">do</span> so (y/n) y
-
-If the computer that you are logging into isn<span style="">&#39;</span>t hardened against brute-force
-login attempts, you can enable rate-limiting <span style="color:#00f">for</span> the authentication module.
-By default, this limits attackers to no more than 3 login attempts every 30s.
-Do you want to enable rate-limiting (y/n) y
-</code></pre></div><p>En este punto tenemos que escanear el código de barras (o introducir los códigos facilitados) y nos aparecerá una nueva entrada en nuestra aplicación móvil:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mitch@ubuntu:~$ google-authenticator
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Do you want authentication tokens to be time-based (y/n) y
+</span></span><span style="display:flex;"><span>https://www.google.com/chart?chs=200x200&amp;chld=M|0&amp;cht=qr&amp;chl=otpauth://totp/mitch@ubuntu%3Fsecret%3D3HXRVMUFOOTJP3OL
+</span></span></code></pre></div><img src='/images/1c056f0e-9458-11e6-83d3-4092efbe9dfc.jpg' class='align-center' height='400' width='400'/>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>Your new secret key is: 3HXRVMUFOOTJP3OL
+</span></span><span style="display:flex;"><span>Your verification code is 561744
+</span></span><span style="display:flex;"><span>Your emergency scratch codes are:
+</span></span><span style="display:flex;"><span>  54523107
+</span></span><span style="display:flex;"><span>  83743686
+</span></span><span style="display:flex;"><span>  46350483
+</span></span><span style="display:flex;"><span>  10209811
+</span></span><span style="display:flex;"><span>  51273874
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Do you want me to update your <span style="color:#a31515">&#34;/home/mitch/.google_authenticator&#34;</span> file (y/n) y
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Do you want to disallow multiple uses of the same authentication
+</span></span><span style="display:flex;"><span>token? This restricts you to one login about every 30s, but it increases
+</span></span><span style="display:flex;"><span>your chances to notice or even prevent man-in-the-middle attacks (y/n) y
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>By default, tokens are good <span style="color:#00f">for</span> 30 seconds and in order to compensate <span style="color:#00f">for</span>
+</span></span><span style="display:flex;"><span>possible time-skew between the client and the server, we allow an extra
+</span></span><span style="display:flex;"><span>token before and after the current time. If you experience problems with poor
+</span></span><span style="display:flex;"><span>time synchronization, you can increase the window from its default
+</span></span><span style="display:flex;"><span>size of 1:30min to about 4min. Do you want to <span style="color:#00f">do</span> so (y/n) y
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>If the computer that you are logging into isn<span style="">&#39;</span>t hardened against brute-force
+</span></span><span style="display:flex;"><span>login attempts, you can enable rate-limiting <span style="color:#00f">for</span> the authentication module.
+</span></span><span style="display:flex;"><span>By default, this limits attackers to no more than 3 login attempts every 30s.
+</span></span><span style="display:flex;"><span>Do you want to enable rate-limiting (y/n) y
+</span></span></code></pre></div><p>En este punto tenemos que escanear el código de barras (o introducir los códigos facilitados) y nos aparecerá una nueva entrada en nuestra aplicación móvil:</p>
 <img src='/images/cdccac0a-a9fe-11e6-9cd4-09cdf981ec34.png' class='align-center' height='300' width='200'/>
 <p>Como podéis observar aparece una entrada para mitch@ubuntu, que es la correspondiente a mi máquina. La otra entrada que aparece es la relativa a mi servicio de Dropbox.</p>
 <p>Llegados a este punto ya estamos en disposición de probar si funciona. Abrimos un nuevo terminal y ejecutamos SSH contra nuestro servidor e introducimos usuario y password:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">login as: mitch
-Using keyboard-interactive authentication.
-Password:
-Using keyboard-interactive authentication.
-Verification code:
-</code></pre></div><p>Después de solicitarme el password me aparece una nueva línea que me solicita el código de verificación, que es el que tendremos que consultar en nuestra aplicación. Una vez introducido podremos acceder al sistema sin problema.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>login as: mitch
+</span></span><span style="display:flex;"><span>Using keyboard-interactive authentication.
+</span></span><span style="display:flex;"><span>Password:
+</span></span><span style="display:flex;"><span>Using keyboard-interactive authentication.
+</span></span><span style="display:flex;"><span>Verification code:
+</span></span></code></pre></div><p>Después de solicitarme el password me aparece una nueva línea que me solicita el código de verificación, que es el que tendremos que consultar en nuestra aplicación. Una vez introducido podremos acceder al sistema sin problema.</p>
 <p>Por último un pequeño consejo: si queréis activar el 2FA de manera gradual en el sistema podéis añadir la opción nullok cuando configuréis el PAM en el fichero /etc/pam.d/sshd (recordad reiniciar el sshd al realizar la modificación).</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">auth required pam_google_authenticator.so nullok
-</code></pre></div><p>De esta manera solo activará la configuración a aquellos usuarios que hayan ejecutado el proceso de configuración.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>auth required pam_google_authenticator.so nullok
+</span></span></code></pre></div><p>De esta manera solo activará la configuración a aquellos usuarios que hayan ejecutado el proceso de configuración.</p>
 <p>Espero que os sea útil y podéis hacerme llegar vuestras dudas/opiniones a través los comentarios del post.</p>
               </section>
 
@@ -314,7 +314,7 @@ Verification code:
                            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                             <i class="fab fa-twitter"/></i><span>Twitter</span>
                         </a>
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fssh-2fa.html&title=Habilitar%20la%20autenticaci%c3%b3n%20en%20dos%20pasos%20para%20SSH%20con%20Google%20Authenticator&summary=Tal%20como%20coment%c3%a9%20en%20mi%20pasado%20art%c3%adculo%20en%20este%20mismo%20blog%20hace%20poco%20detect%c3%a9%20que%20alguna%20mala%20persona%20estaba%20intentando%20acceder%20a%20mi%20servidor%20privado%20mediante%20fuerza%20bruta%20por%20SSH.%20En%20el%20art%c3%adculo%20de%20hoy%20vamos%20a%20explicar%20c%c3%b3mo%20activar%20el%202FA%20%28doble%20factor%20de%20autenticaci%c3%b3n%29%20para%20acceso%20SSH%20con%20Google%20Authenticator.%0a"
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.entredevyops.es%2fposts%2fssh-2fa.html&title=Habilitar%20la%20autenticaci%c3%b3n%20en%20dos%20pasos%20para%20SSH%20con%20Google%20Authenticator&summary=%20Tal%20como%20coment%c3%a9%20en%20mi%20pasado%20art%c3%adculo%20en%20este%20mismo%20blog%20hace%20poco%20detect%c3%a9%20que%20alguna%20mala%20persona%20estaba%20intentando%20acceder%20a%20mi%20servidor%20privado%20mediante%20fuerza%20bruta%20por%20SSH.%20En%20el%20art%c3%adculo%20de%20hoy%20vamos%20a%20explicar%20c%c3%b3mo%20activar%20el%202FA%20%28doble%20factor%20de%20autenticaci%c3%b3n%29%20para%20acceso%20SSH%20con%20Google%20Authenticator.%0a"
                            onclick="window.open(this.href, 'linkedin-share', 'width=550,height=550');return false;">
                             <i class="fab fa-linkedin-in"/></i><span>LinkedIn</span>
                         </a>

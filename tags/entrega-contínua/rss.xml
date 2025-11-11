@@ -26,7 +26,8 @@
 
 
 <img alt="Bucle de retroalimentación" class="border align-left" src="/images/estandarizacion.jpg" />
-<p>Para finalizar esta serie de <a class="reference external" href="http://itrevolution.com/authors/gene-kim">Gene Kim</a>, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio.</p></div>
+<p>Para finalizar esta serie de <a class="reference external" href="http://itrevolution.com/authors/gene-kim">Gene Kim</a>, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -45,7 +46,8 @@
 
 
 <img alt="Bucle de retroalimentación" class="align-right" src="/images/Feedback_Loop.png" />
-<p>La penúltima entrega de <a class="reference external" href="http://itrevolution.com/authors/gene-kim">Gene Kim</a>, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes.</p></div>
+<p>La penúltima entrega de <a class="reference external" href="http://itrevolution.com/authors/gene-kim">Gene Kim</a>, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -64,7 +66,8 @@
 
 
 <img alt="Automatización" class="align-right" src="/images/automation.jpeg" />
-<p>En el noveno punto, <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto.</p></div>
+<p>En el noveno punto, <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -83,7 +86,8 @@
 
 
 <img alt="Chaos Monkey" class="align-right" src="/images/chaos-monkey.png" />
-<p>El octavo punto de <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> sobre DevOps trata sobre cómo se integran las áreas de Seguridad informática y calidad en los flujos de trabajo de DevOps. Aunque parezca algo muy complejo de hacer, es también algo que conviene comprender correctamente para poder realizar de la forma más adecuada. Es decir, sin perder el sentido de tener procesos de calidad y seguridad, ni afectar al esfuerzo realizado para disponer de las funcionalidades en el tiempo requerido para mantener la competitividad de la organización.</p></div>
+<p>El octavo punto de <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> sobre DevOps trata sobre cómo se integran las áreas de Seguridad informática y calidad en los flujos de trabajo de DevOps. Aunque parezca algo muy complejo de hacer, es también algo que conviene comprender correctamente para poder realizar de la forma más adecuada. Es decir, sin perder el sentido de tener procesos de calidad y seguridad, ni afectar al esfuerzo realizado para disponer de las funcionalidades en el tiempo requerido para mantener la competitividad de la organización.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -103,7 +107,8 @@
 
 <img alt="Valor" class="align-right" src="/images/hands.png" />
 <p>En el séptimo punto, <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> explica el valor intrínseco de DevOps para la organización, expuesto a partir de los beneficios que la adopción de DevOps aporta, recopilados a partir de estudios, experiencias, conversaciones y sus propios libros.</p>
-<p>A partir de los puntos en los que DevOps aporta valor, establece, para acabar, una relación primordial, básica y primaria por la que aplicar los principios de DevOps.</p></div>
+<p>A partir de los puntos en los que DevOps aporta valor, establece, para acabar, una relación primordial, básica y primaria por la que aplicar los principios de DevOps.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -122,7 +127,8 @@
 
 
 <img alt="Cambio en adelante" class="align-left" src="/images/change-ahead.png" />
-<p>El siguiente apartado que <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> trata, destaca las áreas en las que los patrones DevOps operan. Éstas áreas fueron descritas en el libro <a class="reference external" href="http://www.realgenekim.me/devops-cookbook/">DevOps Cookbook</a>. Éstas áreas unen, de formas diferente, tres conceptos altamente importantes de todo equipo de IT: Producción, Desarrollo y Operaciones.</p></div>
+<p>El siguiente apartado que <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> trata, destaca las áreas en las que los patrones DevOps operan. Éstas áreas fueron descritas en el libro <a class="reference external" href="http://www.realgenekim.me/devops-cookbook/">DevOps Cookbook</a>. Éstas áreas unen, de formas diferente, tres conceptos altamente importantes de todo equipo de IT: Producción, Desarrollo y Operaciones.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -141,7 +147,8 @@
 
 
 <img alt="Visible Ops Handbook" class="align-left" src="/images/visible-ops.jpg" />
-<p>Aunque con retraso, aquí está el cuarto punto que es necesario conocer, según <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a>, sobre DevOps. En esta ocasión, compara DevOps con lo que describió en el libro que coescribió, titulado <a class="reference external" href="http://www.amazon.com/The-Visible-Ops-Handbook-Implementing/dp/0975568612">Visible Ops Handbook</a>. Como en las anteriores ocasiones, para comentar podéis utilizar el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p></div>
+<p>Aunque con retraso, aquí está el cuarto punto que es necesario conocer, según <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a>, sobre DevOps. En esta ocasión, compara DevOps con lo que describió en el libro que coescribió, titulado <a class="reference external" href="http://www.amazon.com/The-Visible-Ops-Handbook-Implementing/dp/0975568612">Visible Ops Handbook</a>. Como en las anteriores ocasiones, para comentar podéis utilizar el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -161,7 +168,8 @@
 
 <img alt="Change vs Trouble" class="align-left" src="/images/bridge-building.png" />
 <p>El tercer punto sobre DevOps que propone <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> es la relación con <a class="reference external" href="http://es.wikipedia.org/wiki/Information_Technology_Infrastructure_Library">ITIL</a> y <a class="reference external" href="http://es.wikipedia.org/wiki/Gesti%C3%B3n_de_servicios_de_tecnolog%C3%ADas_de_la_informaci%C3%B3n">ITSM</a>, dos conjuntos de prácticas y disciplinas para la gestión de operaciones IT, muy extendidas, especialmente en las grandes empresas.
-Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitter, con el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p></div>
+Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitter, con el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -181,7 +189,8 @@ Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitte
 
 <img alt="Change vs Trouble" class="align-right" src="/images/change-trouble.jpg" />
 <p>Ya está aquí la segunda entrega de las 11 cosas que necesitas saber sobre DevOps, por <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a>. En esta ocasión, se comenta sobre la relación con las metodologías ágiles, y sus efectos en los ciclos de desarrollo de aplicaciones. En este apartado, explica cómo la aplicación de las metodologías ágiles ayudan a la aparición de gran parte del movimiento DevOps, explicando cómo se relacionan y qué aportan al negocio.
-Como ya se indicó la semana pasada, creemos que es una buena excusa para iniciar un debate en Twitter con el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p></div>
+Como ya se indicó la semana pasada, creemos que es una buena excusa para iniciar un debate en Twitter con el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -200,7 +209,8 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
 
 
 <img alt="DevOps Gears" class="align-left" src="/images/gears1.jpg" style="width: 130px; height: 120px;" />
-<p><a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a>, autor de <a class="reference external" href="http://itrevolution.com/books/phoenix-project-devops-book/">The Phoenix Project</a>, <a class="reference external" href="http://itrevolution.com/books/devops-cookbook/">The DevOps Cookbook</a> junto con otros, de quien ya hemos hablado en este blog, tiene publicado un documento llamado <a class="reference external" href="http://itrevolution.com/11devops/">The Top 11 Things You Need To Know About DevOps</a>. Dado que los puntos que detalla son bastante interesantes, vamos a iniciar una serie de artículos semanales, en los que traduciremos uno a uno cada punto de la lista. A continuación, encontraréis el primero, que consiste en una visión histórica del concepto de DevOps. Esperamos vuestras reacciones en Twitter con el <em>hashtag</em> #11cosasdevops.</p></div>
+<p><a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a>, autor de <a class="reference external" href="http://itrevolution.com/books/phoenix-project-devops-book/">The Phoenix Project</a>, <a class="reference external" href="http://itrevolution.com/books/devops-cookbook/">The DevOps Cookbook</a> junto con otros, de quien ya hemos hablado en este blog, tiene publicado un documento llamado <a class="reference external" href="http://itrevolution.com/11devops/">The Top 11 Things You Need To Know About DevOps</a>. Dado que los puntos que detalla son bastante interesantes, vamos a iniciar una serie de artículos semanales, en los que traduciremos uno a uno cada punto de la lista. A continuación, encontraréis el primero, que consiste en una visión histórica del concepto de DevOps. Esperamos vuestras reacciones en Twitter con el <em>hashtag</em> #11cosasdevops.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -219,7 +229,8 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
 
 
 <img alt="La información semanal sobre lo que te interesa" class="border align-right" src="/images/Weekly-Newspaper.jpg" style="width: 213px; height: 141px;" />
-<p>En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, los encuentros familiares y los regalos, aquí están las primeras noticias de 2014. Podréis encontrar herramientas, como una especie de <a class="reference external" href="http://vagrantup.com">Vagrant</a> para <a class="reference external" href="https://docker.io">Docker</a>, un servicio complementario para vuestro <a class="reference external" href="http://www.nagios.org/">Nagios</a> y vuestra cuenta de <a class="reference external" href="http://www.pagerduty.com/">Pagerduty</a>, o un nuevo panel para <a class="reference external" href="http://graphite.wikidot.com/">Graphite</a>, así como explicaciones sobre cobertura de testeo de código para <a class="reference external" href="http://www.getchef.com/chef/">Chef</a> o un interesante blog sobre lo último de <a class="reference external" href="http://puppetlabs.com/">Puppet</a>, junto con artículos sobre <a class="reference external" href="http://en.wikipedia.org/wiki/Software-defined_networking">SDN</a>, el despliegue contínuo agresivo o la importancia de la infraestructura como código para la automatización. Disfrutad del commienzo de año.</p></div>
+<p>En primer lugar, ¡Feliz Año Nuevo a todos! Tras las fiestas, las comilonas, los encuentros familiares y los regalos, aquí están las primeras noticias de 2014. Podréis encontrar herramientas, como una especie de <a class="reference external" href="http://vagrantup.com">Vagrant</a> para <a class="reference external" href="https://docker.io">Docker</a>, un servicio complementario para vuestro <a class="reference external" href="http://www.nagios.org/">Nagios</a> y vuestra cuenta de <a class="reference external" href="http://www.pagerduty.com/">Pagerduty</a>, o un nuevo panel para <a class="reference external" href="http://graphite.wikidot.com/">Graphite</a>, así como explicaciones sobre cobertura de testeo de código para <a class="reference external" href="http://www.getchef.com/chef/">Chef</a> o un interesante blog sobre lo último de <a class="reference external" href="http://puppetlabs.com/">Puppet</a>, junto con artículos sobre <a class="reference external" href="http://en.wikipedia.org/wiki/Software-defined_networking">SDN</a>, el despliegue contínuo agresivo o la importancia de la infraestructura como código para la automatización. Disfrutad del commienzo de año.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -239,7 +250,8 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
 
 <img alt="Ebook de Puppet Labs sobre entrega contínua" class="border align-left" src="/images/cdebook-puppet.png" style="width: 93px; height: 125px;" />
 <p>El concepto de entrega de software contínua no es nuevo. Ofrece al negocio la capacidad de añadir nuevas funcionalidades y capacidades al producto permitiendo alcanzar el mercado rápido y con confianza. Pero quedan algunas dudas pendientes de resolver como: ¿De qué se trata exactamente? ¿Qué es necesario para empezar?</p>
-<p><a class="reference external" href="http://puppetlabs.com">Puppet Labs</a> ha publicado un <a class="reference external" href="http://info.puppetlabs.com/download-free-continuous-delivery-ebook.html">libro</a> gratuito sobre ello. No dudéis en descargarlo. Próximamente, haremos una reseña sobre este documento.</p></div>
+<p><a class="reference external" href="http://puppetlabs.com">Puppet Labs</a> ha publicado un <a class="reference external" href="http://info.puppetlabs.com/download-free-continuous-delivery-ebook.html">libro</a> gratuito sobre ello. No dudéis en descargarlo. Próximamente, haremos una reseña sobre este documento.</p>
+</div>
         ]]>
        </description>
     </item>

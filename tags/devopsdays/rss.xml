@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>devopsdays on Entre Dev y Ops</title>
+    <title>Devopsdays on Entre Dev y Ops</title>
     <link>https://www.entredevyops.es/tags/devopsdays.html</link>
-    <description>Recent content in devopsdays on Entre Dev y Ops</description>
+    <description>Recent content in Devopsdays on Entre Dev y Ops</description>
     <image>
       <url>/images/edyo-logo.png</url>
       <title>Entre Dev y Ops</title>
@@ -28,7 +28,8 @@
 <div class="section" id="devops-days-barcelona-2013">
 <h2><a class="reference external" href="http://devopsdays.org/events/2013-barcelona/">devops days Barcelona 2013</a></h2>
 <p>Como decíamos en nuestro último post, éstos dos últimos días, jueves y viernes, se ha celebrado en la <a class="reference external" href="https://plus.google.com/100068709387237553942/about?gl=ES&amp;hl=en-ES">Fábrica de la Moritz</a> de Barcelona, el evento <a class="reference external" href="http://devopsdays.org">devops days</a> en su edición de 2013. El evento en sí ha estado muy bien y bastante interesante. Con muchos asistentes, se podría decir que cerca de 100 personas, la posibilidad de hacer networking era muy interesante. Podréis encontrar todos los vídeos en <a class="reference external" href="http://vimeo.com/album/2565361">la página de vimeo</a>.
-El evento lo ha organizado <a class="reference external" href="http://rhommell.com/">Rhommel Lamas</a>, y ha contado con el patrocinio de <a class="reference external" href="http://www.moritz.com/">Moritz</a>, <a class="reference external" href="http://www.strsistemas.com/">STR Sistemas</a>, <a class="reference external" href="http://www.rakuten.co.jp/">Rakuten</a>, <a class="reference external" href="http://www.ca.com/es/lpg/appvelocity/home.aspx">CA</a>, <a class="reference external" href="http://www.tid.es/">Telefónica I+D</a>, <a class="reference external" href="http://www.3scale.net/">3Scale</a>, y <a class="reference external" href="http://github.com/">GitHub</a>. Realmente, conviene que este evento se repita y crezca, tanto en cantidad de asistentes, como de ponentes.</p></div>
+El evento lo ha organizado <a class="reference external" href="http://rhommell.com/">Rhommel Lamas</a>, y ha contado con el patrocinio de <a class="reference external" href="http://www.moritz.com/">Moritz</a>, <a class="reference external" href="http://www.strsistemas.com/">STR Sistemas</a>, <a class="reference external" href="http://www.rakuten.co.jp/">Rakuten</a>, <a class="reference external" href="http://www.ca.com/es/lpg/appvelocity/home.aspx">CA</a>, <a class="reference external" href="http://www.tid.es/">Telefónica I+D</a>, <a class="reference external" href="http://www.3scale.net/">3Scale</a>, y <a class="reference external" href="http://github.com/">GitHub</a>. Realmente, conviene que este evento se repita y crezca, tanto en cantidad de asistentes, como de ponentes.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -43,7 +44,11 @@ El evento lo ha organizado <a class="reference external" href="http://rhommell.c
         <![CDATA[
         
 
-        devops days Barcelona 2013 Hoy y mañana, en la Fábrica de la Moritz, en Barcelona, tiene lugar la edición de devops days correspondiente a 2013. En los próximos días podréis encontrar artículos sobre las charlas más interesantes que se han hecho.
+        <div class="document" id="devops-days-barcelona-2013">
+<h1 class="title"><a class="reference internal" href="#devops-days-barcelona-2013">devops days Barcelona 2013</a></h1>
+
+<p>Hoy y mañana, en la Fábrica de la Moritz, en Barcelona, tiene lugar la edición de <a class="reference external" href="http://devopsdays.org">devops days</a> correspondiente a 2013. En los próximos días podréis encontrar artículos sobre las charlas más interesantes que se han hecho.</p>
+</div>
         ]]>
        </description>
     </item>

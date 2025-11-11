@@ -22,7 +22,11 @@
         <![CDATA[
         
 
-        Apache CloudStack: Funcionalidades y herramientas Sebastien Goasguen habló sobre Apache CloudStack. Cloudstack se podría definir como un sistema de gestión de entornos de virtualización y de computación en nube. Este software, que hace uso de la librería deltaCloud, permite gestionar los servicios de computación, almacenamiento y red,
+        <div class="document" id="apache-cloudstack-funcionalidades-y-herramientas">
+<h1 class="title">Apache CloudStack: Funcionalidades y herramientas</h1>
+
+<p>Sebastien Goasguen <a class="reference external" href="https://fosdem.org/2013/schedule/event/cloudstack/">habló</a> sobre <a class="reference external" href="http://cloudstack.apache.org/">Apache CloudStack</a>. Cloudstack se podría definir como un sistema de gestión de entornos de virtualización y de computación en nube. Este software, que hace uso de la librería <a class="reference external" href="http://deltacloud.apache.org/">deltaCloud</a>, permite gestionar los servicios de computación, almacenamiento y red,</p>
+</div>
         ]]>
        </description>
     </item>

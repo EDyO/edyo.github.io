@@ -41,7 +41,8 @@
         <div class="document">
 
 
-<p>El <em>cloud</em>, es la denominación de un conjunto de servicios, productos e infraestructuras que se ofrecen habitualmente en internet. ¿Pero qué sabemos de ello? ¿cómo podemos demostrar que tenemos conocimiento sobre la materia?. Podemos realizar muchos cursos o tener muchas horas de uso en determinadas tecnologías. Una de las formas para poder acreditar un conocimiento es superar unas pruebas estándar. En este punto es donde intervienen las certificaciones.</p></div>
+<p>El <em>cloud</em>, es la denominación de un conjunto de servicios, productos e infraestructuras que se ofrecen habitualmente en internet. ¿Pero qué sabemos de ello? ¿cómo podemos demostrar que tenemos conocimiento sobre la materia?. Podemos realizar muchos cursos o tener muchas horas de uso en determinadas tecnologías. Una de las formas para poder acreditar un conocimiento es superar unas pruebas estándar. En este punto es donde intervienen las certificaciones.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -112,7 +113,8 @@ listado muy extenso de este tipo de software.</p>
 <img alt="AWS" class="align-right" src="/images/AmazonWebservices.png" style="width: 200px; height: 80px;" />
 <p><a class="reference external" href="http://www.hp.com/es/es">AWS</a> está poniéndose las pilas en cuanto a formación se refiere.
 Este mes de septiembre propone una serie de webinarios sobre diferentes servicios, entre ellos, algunos de los más nuevos.
-Muy recomendables si os interesa trabajar con los servicios que <a class="reference external" href="http://www.hp.com/es/es">AWS</a> ofrece como <a class="reference external" href="https://aws.amazon.com/es/redshift/">Redshift</a>, <a class="reference external" href="https://aws.amazon.com/es/lambda/">Lambda</a>, <a class="reference external" href="https://aws.amazon.com/es/dynamodb/">DynamoDB</a>, <a class="reference external" href="https://aws.amazon.com/es/glacier/">Glacier</a>, <a class="reference external" href="https://aws.amazon.com/es/ecs/details/">EC2 Container Service</a> y otros.</p></div>
+Muy recomendables si os interesa trabajar con los servicios que <a class="reference external" href="http://www.hp.com/es/es">AWS</a> ofrece como <a class="reference external" href="https://aws.amazon.com/es/redshift/">Redshift</a>, <a class="reference external" href="https://aws.amazon.com/es/lambda/">Lambda</a>, <a class="reference external" href="https://aws.amazon.com/es/dynamodb/">DynamoDB</a>, <a class="reference external" href="https://aws.amazon.com/es/glacier/">Glacier</a>, <a class="reference external" href="https://aws.amazon.com/es/ecs/details/">EC2 Container Service</a> y otros.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -131,7 +133,8 @@ Muy recomendables si os interesa trabajar con los servicios que <a class="refere
 
 
 <img alt="AWS" class="align-left" src="/images/AmazonWebservices.png" style="width: 200px; height: 80px;" />
-<p>Recientemente, <a class="reference external" href="https://aws.amazon.com/">Amazon WebServices</a> ha publicado tres noticias bastante relevantes. En este artículo las comentamos un poco.</p></div>
+<p>Recientemente, <a class="reference external" href="https://aws.amazon.com/">Amazon WebServices</a> ha publicado tres noticias bastante relevantes. En este artículo las comentamos un poco.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -150,7 +153,8 @@ Muy recomendables si os interesa trabajar con los servicios que <a class="refere
 
 
 <img alt="La información semanal sobre lo que te interesa" class="border align-left" src="/images/Weekly-Newspaper.jpg" style="width: 213px; height: 141px;" />
-<p>Como la semana pasada no se publicaron noticias, las hemos unido, por lo que en esta entrega, tenemos bastantes noticias: La publicación del manual del administrador de <a class="reference external" href="http://debian.org">Debian</a>, una nueva librería para gestionar recursos en <a class="reference external" href="http://aws.amazon.com/es/ec2/">EC2</a> desde Python, una presentación sobre <a class="reference external" href="http://flapjack.io/">Flapjack</a>, otra para hacer pruebas sobre navegadores con JavaScript, otra plataforma de monitorización que se integra con <a class="reference external" href="http://graphite.wikidot.com/">Graphite</a> y <a class="reference external" href="http://jenkins-ci.org">Jenkins</a>, otra más que permite exponer un directorio con guiones de <em>bash</em> como API REST, y la adición de nuevas localizaciones a los servicios de <a class="reference external" href="http://aws.amazon.com/es/cloudfront/">CloudFront</a> y <a class="reference external" href="http://aws.amazon.com/es/route53/">Route 53</a>.</p></div>
+<p>Como la semana pasada no se publicaron noticias, las hemos unido, por lo que en esta entrega, tenemos bastantes noticias: La publicación del manual del administrador de <a class="reference external" href="http://debian.org">Debian</a>, una nueva librería para gestionar recursos en <a class="reference external" href="http://aws.amazon.com/es/ec2/">EC2</a> desde Python, una presentación sobre <a class="reference external" href="http://flapjack.io/">Flapjack</a>, otra para hacer pruebas sobre navegadores con JavaScript, otra plataforma de monitorización que se integra con <a class="reference external" href="http://graphite.wikidot.com/">Graphite</a> y <a class="reference external" href="http://jenkins-ci.org">Jenkins</a>, otra más que permite exponer un directorio con guiones de <em>bash</em> como API REST, y la adición de nuevas localizaciones a los servicios de <a class="reference external" href="http://aws.amazon.com/es/cloudfront/">CloudFront</a> y <a class="reference external" href="http://aws.amazon.com/es/route53/">Route 53</a>.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -169,7 +173,8 @@ Muy recomendables si os interesa trabajar con los servicios que <a class="refere
 
 
 <img alt="La información semanal sobre lo que te interesa" class="border align-right" src="/images/Weekly-Newspaper.jpg" style="width: 213px; height: 141px;" />
-<p>Debido a que el ritmo de publicación de noticias se había incrementado hasta el punto de casi no tener tiempo para escribir nada más, en Entre Dev Y Ops vamos a probar publicar un sólo post semanal con las noticias más interesantes de cada semana.</p></div>
+<p>Debido a que el ritmo de publicación de noticias se había incrementado hasta el punto de casi no tener tiempo para escribir nada más, en Entre Dev Y Ops vamos a probar publicar un sólo post semanal con las noticias más interesantes de cada semana.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -187,7 +192,8 @@ Muy recomendables si os interesa trabajar con los servicios que <a class="refere
         <div class="document">
 
 
-<p>Últimamente, <a class="reference external" href="http://aws.amazon.com/es/">AWS</a> está en una escalada de anuncios relacionados con nuevas funcionalidades de <a class="reference external" href="http://aws.amazon.com/es/iam/">IAM</a>. Esta vez anuncia el soporte de federación de identidades basada en <a class="reference external" href="https://www.oasis-open.org/committees/download.php/13525/?sc_ichannel=EM&amp;sc_icountry=Global&amp;sc_icampaign_type=Launch&amp;sc_icampaign=EM_67989430&amp;ref_=7">SAML</a>.</p></div>
+<p>Últimamente, <a class="reference external" href="http://aws.amazon.com/es/">AWS</a> está en una escalada de anuncios relacionados con nuevas funcionalidades de <a class="reference external" href="http://aws.amazon.com/es/iam/">IAM</a>. Esta vez anuncia el soporte de federación de identidades basada en <a class="reference external" href="https://www.oasis-open.org/committees/download.php/13525/?sc_ichannel=EM&amp;sc_icountry=Global&amp;sc_icampaign_type=Launch&amp;sc_icampaign=EM_67989430&amp;ref_=7">SAML</a>.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -206,7 +212,8 @@ Muy recomendables si os interesa trabajar con los servicios que <a class="refere
 
 
 <img alt="AWS" class="align-right" src="/images/AmazonWebservices.png" />
-<p>Del día 12 al 15 de noviembre, tuvo lugar, en Las Vegas, el <a class="reference external" href="http://reinvent.awsevents.com/index.html">re:Invent</a>, de <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a>. Siendo el mayor evento sobre el <em>cloud</em> de <a class="reference external" href="http://aws.amazon.com/es/">AWS</a>, esta edición contempló sesiones técnicas, sesiones formativas de entrenamiento, laboratorios de práctica y consultas técnicas con ingenieros y clientes expertos. Aunque nuestra asistencia fue imposible, este artículo contiene un resumen de las novedades que anunciaron.</p></div>
+<p>Del día 12 al 15 de noviembre, tuvo lugar, en Las Vegas, el <a class="reference external" href="http://reinvent.awsevents.com/index.html">re:Invent</a>, de <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a>. Siendo el mayor evento sobre el <em>cloud</em> de <a class="reference external" href="http://aws.amazon.com/es/">AWS</a>, esta edición contempló sesiones técnicas, sesiones formativas de entrenamiento, laboratorios de práctica y consultas técnicas con ingenieros y clientes expertos. Aunque nuestra asistencia fue imposible, este artículo contiene un resumen de las novedades que anunciaron.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -224,7 +231,8 @@ Muy recomendables si os interesa trabajar con los servicios que <a class="refere
         <div class="document">
 
 
-<p><a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a> ha anunciado que ha añadido, a la <em>API</em> <a class="reference external" href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-RunInstances.html">RunInstances</a> de <a class="reference external" href="http://aws.amazon.com/es/ec2/">EC2</a>, la posibilidad de gestionar permisos a nivel de recursos. <a class="reference external" href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-RunInstances.html">RunInstances</a> es la <em>API</em> principal y más común para crear nuevas instancias en <a class="reference external" href="http://aws.amazon.com/es/ec2/">EC2</a>, y ahora permite limitar ciertos aspectos de la creación por usuario.</p></div>
+<p><a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a> ha anunciado que ha añadido, a la <em>API</em> <a class="reference external" href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-RunInstances.html">RunInstances</a> de <a class="reference external" href="http://aws.amazon.com/es/ec2/">EC2</a>, la posibilidad de gestionar permisos a nivel de recursos. <a class="reference external" href="http://docs.aws.amazon.com/AWSEC2/latest/APIReference/ApiReference-query-RunInstances.html">RunInstances</a> es la <em>API</em> principal y más común para crear nuevas instancias en <a class="reference external" href="http://aws.amazon.com/es/ec2/">EC2</a>, y ahora permite limitar ciertos aspectos de la creación por usuario.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -243,7 +251,8 @@ Muy recomendables si os interesa trabajar con los servicios que <a class="refere
 
 
 <img alt="AWS" class="align-left" src="/images/AmazonWebservices.png" />
-<p>El pasado jueves, día 7 de noviembre, <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a> anunció que su servicio <a class="reference external" href="http://aws.amazon.com/es/elb/">ELB</a> pasaría a permitir balancear entre instancias que se encontraran en zonas de disponibilidad distintas, mejorando el mantenimiento y rendimiento de las aplicaciones, que ya no requerirán esfuerzos adicionales por parte de los clientes. También hará el despliegue de las aplicaciones más sencillo.</p></div>
+<p>El pasado jueves, día 7 de noviembre, <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a> anunció que su servicio <a class="reference external" href="http://aws.amazon.com/es/elb/">ELB</a> pasaría a permitir balancear entre instancias que se encontraran en zonas de disponibilidad distintas, mejorando el mantenimiento y rendimiento de las aplicaciones, que ya no requerirán esfuerzos adicionales por parte de los clientes. También hará el despliegue de las aplicaciones más sencillo.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -262,7 +271,8 @@ Muy recomendables si os interesa trabajar con los servicios que <a class="refere
 
 
 <img alt="Seguridad mejorada en Amazon WS IAM" class="border align-left" src="/images/iam.jpg" style="width: 183px; height: 123px;" />
-<p>Esta semana <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a> ha publicado una nueva funcionalidad para su servicio <a class="reference external" href="http://aws.amazon.com/es/iam/">IAM</a>, con el que intenta mejorar el despliegue de configuraciones de seguridad algo más complejas, asegurando que no afecten al funcionamiento de la infraestructura. El servicio <a class="reference external" href="http://aws.amazon.com/es/iam/">IAM</a> es el que permite administrar el modo en que los usuarios se autentican y acceden a los servicios que se hayan contratado con <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a>. La aplicación de políticas complejas pueden poner en peligro el funcionamiento del sistema desplegado.</p></div>
+<p>Esta semana <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a> ha publicado una nueva funcionalidad para su servicio <a class="reference external" href="http://aws.amazon.com/es/iam/">IAM</a>, con el que intenta mejorar el despliegue de configuraciones de seguridad algo más complejas, asegurando que no afecten al funcionamiento de la infraestructura. El servicio <a class="reference external" href="http://aws.amazon.com/es/iam/">IAM</a> es el que permite administrar el modo en que los usuarios se autentican y acceden a los servicios que se hayan contratado con <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a>. La aplicación de políticas complejas pueden poner en peligro el funcionamiento del sistema desplegado.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -281,7 +291,8 @@ Muy recomendables si os interesa trabajar con los servicios que <a class="refere
 
 
 <img alt="AWS" class="align-right" src="/images/AmazonWebservices.png" />
-<p>Entre el jueves de la semana pasada y este lunes, <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a> publicó algunas noticias sobre nuevas funcionalidades en sus productos <a class="reference external" href="http://aws.amazon.com/es/rds/">RDS</a>, <a class="reference external" href="http://aws.amazon.com/es/cloudfront/">Cloudfront</a>, y <a class="reference external" href="http://aws.amazon.com/es/cloudwatch/">CloudWatch</a>. También reconocieron ciertos problemas en su actualización de versión menor de <a class="reference external" href="http://mysql.com/">MySQL</a> en <a class="reference external" href="http://aws.amazon.com/es/rds/">RDS</a>, por lo que han detenido su calendario de aplicación de dicha actualización, aunque ofrecen a los usuarios que lo deseen, poderse actualizar.</p></div>
+<p>Entre el jueves de la semana pasada y este lunes, <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a> publicó algunas noticias sobre nuevas funcionalidades en sus productos <a class="reference external" href="http://aws.amazon.com/es/rds/">RDS</a>, <a class="reference external" href="http://aws.amazon.com/es/cloudfront/">Cloudfront</a>, y <a class="reference external" href="http://aws.amazon.com/es/cloudwatch/">CloudWatch</a>. También reconocieron ciertos problemas en su actualización de versión menor de <a class="reference external" href="http://mysql.com/">MySQL</a> en <a class="reference external" href="http://aws.amazon.com/es/rds/">RDS</a>, por lo que han detenido su calendario de aplicación de dicha actualización, aunque ofrecen a los usuarios que lo deseen, poderse actualizar.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -300,7 +311,8 @@ Muy recomendables si os interesa trabajar con los servicios que <a class="refere
 
 
 <img alt="AWS" class="align-right" src="/images/AmazonWebservices.png" />
-<p>Este pasado jueves <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a> celebró en Barcelona un <a class="reference external" href="https://aws.amazon.com/es/aws-summit-2013/barcelona/">Summit</a> para ofrecer una visión de sus tecnologías <em>cloud</em>, casos prácticos de empresas, su aplicación para escenarios de <em>Big Data</em>, copias de seguridad y <em>Disaster Recovery</em>, así como aspectos de seguridad. El evento pudo seguirse en Twitter con el hashtag <a class="reference external" href="https://twitter.com/search?q=%23awssummit">#awssummit</a>.</p></div>
+<p>Este pasado jueves <a class="reference external" href="http://aws.amazon.com/es/">Amazon WS</a> celebró en Barcelona un <a class="reference external" href="https://aws.amazon.com/es/aws-summit-2013/barcelona/">Summit</a> para ofrecer una visión de sus tecnologías <em>cloud</em>, casos prácticos de empresas, su aplicación para escenarios de <em>Big Data</em>, copias de seguridad y <em>Disaster Recovery</em>, así como aspectos de seguridad. El evento pudo seguirse en Twitter con el hashtag <a class="reference external" href="https://twitter.com/search?q=%23awssummit">#awssummit</a>.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -319,7 +331,8 @@ Muy recomendables si os interesa trabajar con los servicios que <a class="refere
 
 
 <img alt="Algo que el usuario posea, en el móvil, por ejemplo." class="border align-left" src="/images/Simple-Mobile-based.jpg" style="width: 206px; height: 97px;" />
-<p><a class="reference external" href="http://aws.amazon.com">Amazon Web Services</a> anunció ayer, viernes día 18, el <a class="reference external" href="http://aws.amazon.com/mfa">soporte</a> para la autenticación multifactor, o <a class="reference external" href="http://en.wikipedia.org/wiki/Multi-factor_authentication">MFA</a>, de sus siglas en inglés.</p></div>
+<p><a class="reference external" href="http://aws.amazon.com">Amazon Web Services</a> anunció ayer, viernes día 18, el <a class="reference external" href="http://aws.amazon.com/mfa">soporte</a> para la autenticación multifactor, o <a class="reference external" href="http://en.wikipedia.org/wiki/Multi-factor_authentication">MFA</a>, de sus siglas en inglés.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -337,7 +350,8 @@ Muy recomendables si os interesa trabajar con los servicios que <a class="refere
         <div class="document">
 
 
-<p><a class="reference external" href="https://twitter.com/alfonsnic">Alfons Nonell</a>, Dr. en Química Computacional y CEO de <a class="reference external" href="https://www.mindthebyte.com/">Mind the Byte</a>, nos brindó ayer en un evento organizado por el <a class="reference external" href="http://www.barcelonajug.org/">Barcelona JUG</a> con una <a class="reference external" href="http://www.barcelonajug.org/2013/10/introduccion-amazon-aws.html">presentación sobre Amazon WS</a>.</p></div>
+<p><a class="reference external" href="https://twitter.com/alfonsnic">Alfons Nonell</a>, Dr. en Química Computacional y CEO de <a class="reference external" href="https://www.mindthebyte.com/">Mind the Byte</a>, nos brindó ayer en un evento organizado por el <a class="reference external" href="http://www.barcelonajug.org/">Barcelona JUG</a> con una <a class="reference external" href="http://www.barcelonajug.org/2013/10/introduccion-amazon-aws.html">presentación sobre Amazon WS</a>.</p>
+</div>
         ]]>
        </description>
     </item>

@@ -26,7 +26,8 @@
 
 
 <img alt="sudo make me a sandwich" class="align-left" src="/images/SudoersBCN.png" style="width: 180px; height: 150px;" />
-<p>En la charla de este mes, <a class="reference external" href="https://twitter.com/codehead">Javier Arturo Rodríguez</a> habló sobre <a class="reference external" href="http://www.ansibleworks.com/">Ansible</a>, otra herramienta para la gestión de configuración. Aunque bien podría compararse en funcionalidad con <a class="reference external" href="http://puppetlabs.com/">Puppet</a> o <a class="reference external" href="http://www.opscode.com/chef/">Chef</a>, su diseño y las técnicas utilizadas la convierten en una herramienta muy sencilla, completa e interesante, incluso para sustituir a otras herramientas como <a class="reference external" href="http://docs.fabfile.org/en/1.8/">Fabric</a> o <a class="reference external" href="http://www.capistranorb.com/">Capistrano</a>.</p></div>
+<p>En la charla de este mes, <a class="reference external" href="https://twitter.com/codehead">Javier Arturo Rodríguez</a> habló sobre <a class="reference external" href="http://www.ansibleworks.com/">Ansible</a>, otra herramienta para la gestión de configuración. Aunque bien podría compararse en funcionalidad con <a class="reference external" href="http://puppetlabs.com/">Puppet</a> o <a class="reference external" href="http://www.opscode.com/chef/">Chef</a>, su diseño y las técnicas utilizadas la convierten en una herramienta muy sencilla, completa e interesante, incluso para sustituir a otras herramientas como <a class="reference external" href="http://docs.fabfile.org/en/1.8/">Fabric</a> o <a class="reference external" href="http://www.capistranorb.com/">Capistrano</a>.</p>
+</div>
         ]]>
        </description>
     </item>

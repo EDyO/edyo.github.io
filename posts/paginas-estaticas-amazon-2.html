@@ -245,102 +245,102 @@ estático. En la siguiente <a href="https://staticsitegenerators.net">página</a
 listado muy extenso de este tipo de software.</p>
 <p>Para ello usaremos un sistema de generación de páginas  que se llama Nikola. El sistema no es importante, se puede hacer con muchos, para instalar  el que vamos a usar en este caso se ha de visitar su <a href="https://www.getnikola.com/">página web</a> es un programa realizado en python por lo que los ejemplos que pongo en este artículo han sido probados en Mac y en Linux, y funcionan correctamente en los dos sistemas. Aunque este no intenta ser un manual de nikola, ya que la parte interesante es entender como funcionan los usuarios y los permisos en Amazon.</p>
 <p>Siguiendo el manual creamos un proyecto nuevo:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#008000"># nikola init --demo nikola</span>
-Creating Nikola Site
-====================
-
-This is Nikola v7.3.0.  We will now ask you a few easy questions about your new site.
-If you <span style="color:#00f">do</span> not want to answer and want to go with the defaults instead, simply restart with the <span style="color:#a31515">`</span>-q<span style="color:#a31515">`</span> parameter.
---- Questions about the site ---
-Site title [My Nikola Site]:
-Site author [Nikola Tesla]:
-Site author<span style="color:#a31515">`</span>s e-mail [n.tesla@example.com]:
-Site description [This is a demo site <span style="color:#00f">for</span> Nikola.]:
-Site URL [http://getnikola.com/]: http://blog.dondever.es
---- Questions about languages and locales ---
-We will now ask you to provide the list of languages you want to use.
-Please list all the desired languages, comma-separated, using ISO 639-1 codes.  The first language will be used as the default.
-Type <span style="color:#a31515">&#39;?&#39;</span> (a question mark, sans quotes) to list available languages.
-Language(s) to use [en]: es
-
-Please choose the correct time zone <span style="color:#00f">for</span> your blog. Nikola uses the tz database.
-You can find your time zone here:
-http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-Time zone [Europe/Madrid]:
-    Current time in Europe/Madrid: 19:14:21
-Use this time zone? [Y/n] y
---- Questions about comments ---
-You can configure comments now.  Type <span style="color:#a31515">&#39;?&#39;</span> (a question mark, sans quotes) to list available comment systems.  If you <span style="color:#00f">do</span> not want any comments, just leave the field blank.
-Comment system:
-
-That<span style="color:#a31515">`</span>s it, Nikola is now configured.  Make sure to edit conf.py to your liking.
-If you are looking <span style="color:#00f">for</span> themes and addons, check out http://themes.getnikola.com/ and http://plugins.getnikola.com/.
-Have fun!
-[2016-09-04T17:14:23Z] INFO: init: A new site with example data has been created at nikola.
-[2016-09-04T17:14:23Z] INFO: init: See README.txt in that folder <span style="color:#00f">for</span> more information.
-</code></pre></div><p>entramos en el directorio y ejecutamos el comando de generar contenido que genera todos los ficheros en el subdirectorio output</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#008000"># nikola build</span>
-Scanning posts....done!
-.  render_archive:output/2012/index.html
-.  render_archive:output/archive.html
-.  copy_assets:output/assets/css/bootstrap-theme.css
-.  copy_assets:output/assets/css/bootstrap-theme.css.map
-[...]
-.  create_bundles:output/assets/js/all.js
-.  sitemap:output/sitemap.xml
-.  sitemap:output/sitemapindex.xml
-.  robots_file:output/robots.txt
-</code></pre></div><p>Si lo queremos ver en local podemos ejecutar :</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#008000"># nikola serve</span>
-[2016-09-04T17:18:02Z] INFO: serve: Serving HTTP on 0.0.0.0 port 8000...
-</code></pre></div><p>Podremos ver una página de muestra en un navegador apuntando a la dirección: http://127.0.0.1:8000</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#008000"># nikola init --demo nikola</span>
+</span></span><span style="display:flex;"><span>Creating Nikola Site
+</span></span><span style="display:flex;"><span>====================
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>This is Nikola v7.3.0.  We will now ask you a few easy questions about your new site.
+</span></span><span style="display:flex;"><span>If you <span style="color:#00f">do</span> not want to answer and want to go with the defaults instead, simply restart with the <span style="color:#a31515">`</span>-q<span style="color:#a31515">`</span> parameter.
+</span></span><span style="display:flex;"><span>--- Questions about the site ---
+</span></span><span style="display:flex;"><span>Site title [My Nikola Site]:
+</span></span><span style="display:flex;"><span>Site author [Nikola Tesla]:
+</span></span><span style="display:flex;"><span>Site author<span style="color:#a31515">`</span>s e-mail [n.tesla@example.com]:
+</span></span><span style="display:flex;"><span>Site description [This is a demo site <span style="color:#00f">for</span> Nikola.]:
+</span></span><span style="display:flex;"><span>Site URL [http://getnikola.com/]: http://blog.dondever.es
+</span></span><span style="display:flex;"><span>--- Questions about languages and locales ---
+</span></span><span style="display:flex;"><span>We will now ask you to provide the list of languages you want to use.
+</span></span><span style="display:flex;"><span>Please list all the desired languages, comma-separated, using ISO 639-1 codes.  The first language will be used as the default.
+</span></span><span style="display:flex;"><span>Type <span style="color:#a31515">&#39;?&#39;</span> (a question mark, sans quotes) to list available languages.
+</span></span><span style="display:flex;"><span>Language(s) to use [en]: es
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Please choose the correct time zone <span style="color:#00f">for</span> your blog. Nikola uses the tz database.
+</span></span><span style="display:flex;"><span>You can find your time zone here:
+</span></span><span style="display:flex;"><span>http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Time zone [Europe/Madrid]:
+</span></span><span style="display:flex;"><span>    Current time in Europe/Madrid: 19:14:21
+</span></span><span style="display:flex;"><span>Use this time zone? [Y/n] y
+</span></span><span style="display:flex;"><span>--- Questions about comments ---
+</span></span><span style="display:flex;"><span>You can configure comments now.  Type <span style="color:#a31515">&#39;?&#39;</span> (a question mark, sans quotes) to list available comment systems.  If you <span style="color:#00f">do</span> not want any comments, just leave the field blank.
+</span></span><span style="display:flex;"><span>Comment system:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>That<span style="color:#a31515">`</span>s it, Nikola is now configured.  Make sure to edit conf.py to your liking.
+</span></span><span style="display:flex;"><span>If you are looking <span style="color:#00f">for</span> themes and addons, check out http://themes.getnikola.com/ and http://plugins.getnikola.com/.
+</span></span><span style="display:flex;"><span>Have fun!
+</span></span><span style="display:flex;"><span>[2016-09-04T17:14:23Z] INFO: init: A new site with example data has been created at nikola.
+</span></span><span style="display:flex;"><span>[2016-09-04T17:14:23Z] INFO: init: See README.txt in that folder <span style="color:#00f">for</span> more information.
+</span></span></code></pre></div><p>entramos en el directorio y ejecutamos el comando de generar contenido que genera todos los ficheros en el subdirectorio output</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#008000"># nikola build</span>
+</span></span><span style="display:flex;"><span>Scanning posts....done!
+</span></span><span style="display:flex;"><span>.  render_archive:output/2012/index.html
+</span></span><span style="display:flex;"><span>.  render_archive:output/archive.html
+</span></span><span style="display:flex;"><span>.  copy_assets:output/assets/css/bootstrap-theme.css
+</span></span><span style="display:flex;"><span>.  copy_assets:output/assets/css/bootstrap-theme.css.map
+</span></span><span style="display:flex;"><span>[...]
+</span></span><span style="display:flex;"><span>.  create_bundles:output/assets/js/all.js
+</span></span><span style="display:flex;"><span>.  sitemap:output/sitemap.xml
+</span></span><span style="display:flex;"><span>.  sitemap:output/sitemapindex.xml
+</span></span><span style="display:flex;"><span>.  robots_file:output/robots.txt
+</span></span></code></pre></div><p>Si lo queremos ver en local podemos ejecutar :</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#008000"># nikola serve</span>
+</span></span><span style="display:flex;"><span>[2016-09-04T17:18:02Z] INFO: serve: Serving HTTP on 0.0.0.0 port 8000...
+</span></span></code></pre></div><p>Podremos ver una página de muestra en un navegador apuntando a la dirección: http://127.0.0.1:8000</p>
 <p>Esta pagina generada es una página de ejemplo que la podemos usar tal como está para nuestro propósito</p>
 <p>Ahora crearemos un <em>bucket</em> que alojará de este proyecto, se llamará blog.dondever.es  y lo crearemos tal como se comentó en <a href="http://www.entredevyops.es/posts/paginas-estaticas-amazon-1.html">la anterior parte de este artículo</a>, recordad que se ha de permitir que sea un <em>Static website hosting</em> , los permisos, el registro en route53, etc.</p>
 <p>Ahora crearemos el usuario para copiar los ficheros en AWS en la sección IAM apartado <em>Users</em> y botón <em>Create user</em>.</p>
 <p>Crearemos un usuario llamado &ldquo;deploy&rdquo;, una vez creado nos muestra por pantalla  el <em>Access Key ID</em> y el <em>Secret Access Key</em>  es muy importante guardar los datos por que no hay forma de volver a  recuperarlos, por lo que se tendría que volver a recrear en el caso de perdida.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Access Key ID: AKIAJBFNFTW2YXEYZWBA
-Secret Access Key: gu7TAatrFc18TqxUfEu+f61TStm1yvtHQRUCdJt
-</code></pre></div><p>Por defecto los usuarios no tienen password, sino que se usa la pareja de claves como identificador y autenticador. Una vez se crea el password el usuario podrá acceder a la consola si tiene los permisos adecuados. un usuario recién creado no tiene permisos, sino que necesita que explícitamente le añadamos los permisos para cada uno de los servicios que queramos que el usuario pueda gestionar.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>Access Key ID: AKIAJBFNFTW2YXEYZWBA
+</span></span><span style="display:flex;"><span>Secret Access Key: gu7TAatrFc18TqxUfEu+f61TStm1yvtHQRUCdJt
+</span></span></code></pre></div><p>Por defecto los usuarios no tienen password, sino que se usa la pareja de claves como identificador y autenticador. Una vez se crea el password el usuario podrá acceder a la consola si tiene los permisos adecuados. un usuario recién creado no tiene permisos, sino que necesita que explícitamente le añadamos los permisos para cada uno de los servicios que queramos que el usuario pueda gestionar.</p>
 <p>Ahora que tenemos las credenciales del usuario falta añadirle permisos para que pueda subir ficheros al <em>bucket</em>, esto lo hacemos en las propiedades del usuario, pestaña <em>permissions</em>, <em>inline policies</em> y como no hay ninguna vamos a &ldquo;click here&rdquo; en la siguiente pantalla elegimos <em>custom policies</em> en <em>policy name</em> ponemos algun nombre descriptivo, por ejemplo &ldquo;politica_deploy_blog&rdquo; y en el cuerpo copiamos el texto:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">{
-    <span style="color:#a31515">&#34;Version&#34;</span>: <span style="color:#a31515">&#34;2012-10-17&#34;</span>,
-    <span style="color:#a31515">&#34;Statement&#34;</span>: [
-        {
-            <span style="color:#a31515">&#34;Effect&#34;</span>: <span style="color:#a31515">&#34;Allow&#34;</span>,
-            <span style="color:#a31515">&#34;Action&#34;</span>: [
-                <span style="color:#a31515">&#34;s3:PutObject&#34;</span>,
-                <span style="color:#a31515">&#34;s3:ListObjects&#34;</span>
-            ],
-            <span style="color:#a31515">&#34;Resource&#34;</span>: <span style="color:#a31515">&#34;arn:aws:s3:::blog.dondever.es/*&#34;</span>
-        },
-        {
-            <span style="color:#a31515">&#34;Effect&#34;</span>: <span style="color:#a31515">&#34;Allow&#34;</span>,
-            <span style="color:#a31515">&#34;Action&#34;</span>: [
-                <span style="color:#a31515">&#34;s3:ListBucket&#34;</span>
-            ],
-            <span style="color:#a31515">&#34;Resource&#34;</span>: <span style="color:#a31515">&#34;arn:aws:s3:::blog.dondever.es&#34;</span>
-        }
-    ]
-}
-</code></pre></div><p>Teniendo en cuenta que se ha de cambiar el <em>bucket</em> por el que estéis usando.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#a31515">&#34;Version&#34;</span>: <span style="color:#a31515">&#34;2012-10-17&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a31515">&#34;Statement&#34;</span>: [
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#a31515">&#34;Effect&#34;</span>: <span style="color:#a31515">&#34;Allow&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#a31515">&#34;Action&#34;</span>: [
+</span></span><span style="display:flex;"><span>                <span style="color:#a31515">&#34;s3:PutObject&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#a31515">&#34;s3:ListObjects&#34;</span>
+</span></span><span style="display:flex;"><span>            ],
+</span></span><span style="display:flex;"><span>            <span style="color:#a31515">&#34;Resource&#34;</span>: <span style="color:#a31515">&#34;arn:aws:s3:::blog.dondever.es/*&#34;</span>
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#a31515">&#34;Effect&#34;</span>: <span style="color:#a31515">&#34;Allow&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#a31515">&#34;Action&#34;</span>: [
+</span></span><span style="display:flex;"><span>                <span style="color:#a31515">&#34;s3:ListBucket&#34;</span>
+</span></span><span style="display:flex;"><span>            ],
+</span></span><span style="display:flex;"><span>            <span style="color:#a31515">&#34;Resource&#34;</span>: <span style="color:#a31515">&#34;arn:aws:s3:::blog.dondever.es&#34;</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Teniendo en cuenta que se ha de cambiar el <em>bucket</em> por el que estéis usando.</p>
 <p>Ahora lo único que falta es copiar los ficheros desde nuestro directorio al <em>bucket</em>, para ello tenemos que instalar el <a href="https://aws.amazon.com/es/cli/">CLI de amazon</a>, ejecutando:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo pip install awscli
-</code></pre></div><p>una vez instalado podemos ejecutar:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ export AWS_ACCESS_KEY_ID=AKIAJBFNFTW2YXEYZWBA
-$ export AWS_SECRET_ACCESS_KEY=gu7TAatrFc18TqxUfEu+f61TStm1yvtHQRUCdJt
-$ export AWS_DEFAULT_REGION=eu-west-1
-</code></pre></div><p>De esta forma ya tiene la información de las credenciales de usuario y la región donde actuar, y podemos ejecutar la subida de los datos:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ aws s3 sync output/  s3://blog.dondever.es
-upload: output/2012/index.html to s3://blog.dondever.es/2012/index.html
-upload: output/archive.html to s3://blog.dondever.es/archive.html
-upload: output/assets/css/bootstrap-theme.css.map to s3://blog.dondever.es/assets/css/bootstrap-theme.css.map
-upload: output/assets/css/code.css to s3://blog.dondever.es/assets/css/code.css
-[...]
-upload: output/favicon.ico to s3://blog.dondever.es/favicon.ico
-upload: output/stories/a-study-in-scarlet.txt to s3://blog.dondever.es/stories/a-study-in-scarlet.txt
-upload: output/stories/a-study-in-scarlet.html to s3://blog.dondever.es/stories/a-study-in-scarlet.html
-</code></pre></div><p>Y ya tenemos el blog funcionando correctamente en Amazon. Próximamente añadiremos un poco más de automatización a poder subir páginas a AWS.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pip install awscli
+</span></span></code></pre></div><p>una vez instalado podemos ejecutar:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ export AWS_ACCESS_KEY_ID=AKIAJBFNFTW2YXEYZWBA
+</span></span><span style="display:flex;"><span>$ export AWS_SECRET_ACCESS_KEY=gu7TAatrFc18TqxUfEu+f61TStm1yvtHQRUCdJt
+</span></span><span style="display:flex;"><span>$ export AWS_DEFAULT_REGION=eu-west-1
+</span></span></code></pre></div><p>De esta forma ya tiene la información de las credenciales de usuario y la región donde actuar, y podemos ejecutar la subida de los datos:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ aws s3 sync output/  s3://blog.dondever.es
+</span></span><span style="display:flex;"><span>upload: output/2012/index.html to s3://blog.dondever.es/2012/index.html
+</span></span><span style="display:flex;"><span>upload: output/archive.html to s3://blog.dondever.es/archive.html
+</span></span><span style="display:flex;"><span>upload: output/assets/css/bootstrap-theme.css.map to s3://blog.dondever.es/assets/css/bootstrap-theme.css.map
+</span></span><span style="display:flex;"><span>upload: output/assets/css/code.css to s3://blog.dondever.es/assets/css/code.css
+</span></span><span style="display:flex;"><span>[...]
+</span></span><span style="display:flex;"><span>upload: output/favicon.ico to s3://blog.dondever.es/favicon.ico
+</span></span><span style="display:flex;"><span>upload: output/stories/a-study-in-scarlet.txt to s3://blog.dondever.es/stories/a-study-in-scarlet.txt
+</span></span><span style="display:flex;"><span>upload: output/stories/a-study-in-scarlet.html to s3://blog.dondever.es/stories/a-study-in-scarlet.html
+</span></span></code></pre></div><p>Y ya tenemos el blog funcionando correctamente en Amazon. Próximamente añadiremos un poco más de automatización a poder subir páginas a AWS.</p>
               </section>
 
               <footer class="post-footer">

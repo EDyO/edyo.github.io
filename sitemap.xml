@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.entredevyops.es/</loc>
+    <loc>https://www.entredevyops.es/index.html</loc>
     <lastmod>2025-07-31T20:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.entredevyops.es/podcasts/podcast-100.html</loc>
     <lastmod>2025-07-31T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.entredevyops.es/podcasts.html</loc>
+    <loc>https://www.entredevyops.es/podcasts/index.html</loc>
     <lastmod>2025-07-31T20:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.entredevyops.es/podcasts/podcast-99.html</loc>
@@ -242,7 +242,7 @@
     <loc>https://www.entredevyops.es/posts/inteligencia-artificial.html</loc>
     <lastmod>2018-06-13T22:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.entredevyops.es/posts.html</loc>
+    <loc>https://www.entredevyops.es/posts/index.html</loc>
     <lastmod>2018-06-13T22:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.entredevyops.es/podcasts/podcast-pildora-4.html</loc>
@@ -305,7 +305,7 @@
     <loc>https://www.entredevyops.es/tags/seguridad.html</loc>
     <lastmod>2017-09-22T22:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.entredevyops.es/tags.html</loc>
+    <loc>https://www.entredevyops.es/tags/index.html</loc>
     <lastmod>2017-09-22T22:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.entredevyops.es/podcasts/podcast-episodio-29.html</loc>
@@ -383,6 +383,9 @@
     <loc>https://www.entredevyops.es/tags/servesless.html</loc>
     <lastmod>2017-03-16T03:14:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.entredevyops.es/posts/eres-suficientemente-bueno.html</loc>
+    <lastmod>2017-03-01T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.entredevyops.es/tags/filosof%C3%ADa.html</loc>
     <lastmod>2017-03-01T12:00:00+00:00</lastmod>
   </url><url>
@@ -390,9 +393,6 @@
     <lastmod>2017-03-01T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.entredevyops.es/tags/opini%C3%B3n.html</loc>
-    <lastmod>2017-03-01T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.entredevyops.es/posts/eres-suficientemente-bueno.html</loc>
     <lastmod>2017-03-01T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.entredevyops.es/podcasts/podcast-episodio-21.html</loc>
@@ -422,13 +422,13 @@
     <loc>https://www.entredevyops.es/tags/empresa.html</loc>
     <lastmod>2017-02-17T10:35:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.entredevyops.es/posts/seguridad-alexa.html</loc>
+    <lastmod>2017-01-10T23:25:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.entredevyops.es/tags/alexa.html</loc>
     <lastmod>2017-01-10T23:25:00+00:00</lastmod>
   </url><url>
     <loc>https://www.entredevyops.es/tags/iot.html</loc>
-    <lastmod>2017-01-10T23:25:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.entredevyops.es/posts/seguridad-alexa.html</loc>
     <lastmod>2017-01-10T23:25:00+00:00</lastmod>
   </url><url>
     <loc>https://www.entredevyops.es/podcasts/podcast-episodio-20.html</loc>
@@ -488,10 +488,10 @@
     <loc>https://www.entredevyops.es/tags/sistemas-operativos.html</loc>
     <lastmod>2016-08-23T19:55:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.entredevyops.es/tags/algoritmos.html</loc>
+    <loc>https://www.entredevyops.es/posts/hay-consenso-consenso.html</loc>
     <lastmod>2016-08-11T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.entredevyops.es/posts/hay-consenso-consenso.html</loc>
+    <loc>https://www.entredevyops.es/tags/algoritmos.html</loc>
     <lastmod>2016-08-11T09:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.entredevyops.es/posts/estamos-aqui-por-dinero.html</loc>
@@ -1028,6 +1028,8 @@
     <loc>https://www.entredevyops.es/posts/empaquetado-continuo.html</loc>
     <lastmod>2013-02-02T16:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.entredevyops.es/ayudanos.html</loc>
+  </url><url>
     <loc>https://www.entredevyops.es/codigo-conducta.html</loc>
   </url><url>
     <loc>https://www.entredevyops.es/equipo.html</loc>
@@ -1035,7 +1037,5 @@
     <loc>https://www.entredevyops.es/politica-cookies.html</loc>
   </url><url>
     <loc>https://www.entredevyops.es/suscribete.html</loc>
-  </url><url>
-    <loc>https://www.entredevyops.es/ayudanos.html</loc>
   </url>
 </urlset>

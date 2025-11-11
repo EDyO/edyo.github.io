@@ -73,7 +73,8 @@
         <div class="document">
 
 
-<p>Vamos a empezar una serie de artículos que en los que vamos a realizar instalaciones y pruebas, para poder empezar necesitaremos crear nuestro laboratorio, en este caso vamos a utilizar un ordenador físico, un pequeño servidor al cual le vamos a instalar un <a class="reference external" href="https://www.openstack.org">OpenStack</a> siguiendo el sistema de <a class="reference external" href="http://openstack.redhat.com">Packstack</a> de Redhat que permite instalar todos los componentes de OpenStack en una única máquina prácticamente sin dolor.</p></div>
+<p>Vamos a empezar una serie de artículos que en los que vamos a realizar instalaciones y pruebas, para poder empezar necesitaremos crear nuestro laboratorio, en este caso vamos a utilizar un ordenador físico, un pequeño servidor al cual le vamos a instalar un <a class="reference external" href="https://www.openstack.org">OpenStack</a> siguiendo el sistema de <a class="reference external" href="http://openstack.redhat.com">Packstack</a> de Redhat que permite instalar todos los componentes de OpenStack en una única máquina prácticamente sin dolor.</p>
+</div>
         ]]>
        </description>
     </item>

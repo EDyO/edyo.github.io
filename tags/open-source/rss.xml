@@ -29,7 +29,8 @@
 <p>Muchos ya conoceréis el lenguaje <a class="reference external" href="http://golang.org/">Go</a>, incluso algunos conocerán la <a class="reference external" href="http://dotgo.eu/">dotGo</a>, la primera conferencia europea sobre <a class="reference external" href="http://golang.org/">Golang</a>.
 Este año <a class="reference external" href="https://twitter.com/intent/user?original_referer=http%3A%2F%2Fwww.dotconferences.eu%2F&amp;region=following&amp;screen_name=dotConferences&amp;tw_p=followbutton&amp;variant=2.0">&#64;dotConferences</a> celebra la segunda edición de este evento, con una expectación de asistencia aún mayor.
 Como ya es costumbre de <a class="reference external" href="http://dotconferences.eu/">dotConferences</a>, la <a class="reference external" href="http://dotgo.eu/">dotGo</a> se celebrará en un teatro parisino, marco digno del evento.
-El evento, además, seguirá las costumbres de los eventos de <a class="reference external" href="http://dotconferences.eu/">dotConferences</a>, es decir,</p></div>
+El evento, además, seguirá las costumbres de los eventos de <a class="reference external" href="http://dotconferences.eu/">dotConferences</a>, es decir,</p>
+</div>
         ]]>
        </description>
     </item>
@@ -48,7 +49,8 @@ El evento, además, seguirá las costumbres de los eventos de <a class="referenc
 
 
 <img alt="dotGo" class="align-left" src="/images/dotGo-logo.png" />
-<p>Basado en la filosofía de Python y una sintaxis derivada de C, el lenguaje Go ya conocido por muchos, es una herramienta que se tercia bastante útil en este mundo de escala cada vez mayor. Siendo lo que más destacan sus adeptos su facilidad en la implementación de concurrencia y su portabilidad, cada vez más se va acercando al paisaje de lenguajes mayoritarios. Tanto es así que la gente de <a class="reference external" href="http://dotconferences.eu/">dotConferences</a> ha decidido este año organizar una de sus conferencias sobre Go... y, como son así de majos, os pasamos un descuento del 20%. <a class="reference external" href="https://twitter.com/intent/user?original_referer=http%3A%2F%2Fwww.dotconferences.eu%2F&amp;region=following&amp;screen_name=dotConferences&amp;tw_p=followbutton&amp;variant=2.0">&#64;dotConferences</a>, gracias!</p></div>
+<p>Basado en la filosofía de Python y una sintaxis derivada de C, el lenguaje Go ya conocido por muchos, es una herramienta que se tercia bastante útil en este mundo de escala cada vez mayor. Siendo lo que más destacan sus adeptos su facilidad en la implementación de concurrencia y su portabilidad, cada vez más se va acercando al paisaje de lenguajes mayoritarios. Tanto es así que la gente de <a class="reference external" href="http://dotconferences.eu/">dotConferences</a> ha decidido este año organizar una de sus conferencias sobre Go... y, como son así de majos, os pasamos un descuento del 20%. <a class="reference external" href="https://twitter.com/intent/user?original_referer=http%3A%2F%2Fwww.dotconferences.eu%2F&amp;region=following&amp;screen_name=dotConferences&amp;tw_p=followbutton&amp;variant=2.0">&#64;dotConferences</a>, gracias!</p>
+</div>
         ]]>
        </description>
     </item>
@@ -67,7 +69,8 @@ El evento, además, seguirá las costumbres de los eventos de <a class="referenc
 
 
 <img alt="Dot Scale" class="align-right" src="/images/dotscale.png" style="width: 300px; height: 115px;" />
-<p>El 19 de mayo se celebrarán en el Théâtre de Paris las conferencias <a class="reference external" href="http://dotscale.eu">dotScale</a>, que forman parte de las <a class="reference external" href="http://dotconferences.eu">dotConferences</a>. Dentro del mismo evento, el día 17, se impartirán unos talleres, que se concretarán entre seis y ocho semanas antes de la fecha. Las <a class="reference external" href="http://dotconferences.eu">dotConferences</a> son charlas técnicas impartidas por desarrolladores para desarrolladores sobre diferentes lenguajes. Las <a class="reference external" href="http://dotscale.eu">dotScale</a>, no obstante, se centran en la escalabilidad de aplicaciones, sin centrarse en un lenguaje específico. Además, aunque la lista no está completa, ya se ha confirmado un interesante grupo de ponentes.</p></div>
+<p>El 19 de mayo se celebrarán en el Théâtre de Paris las conferencias <a class="reference external" href="http://dotscale.eu">dotScale</a>, que forman parte de las <a class="reference external" href="http://dotconferences.eu">dotConferences</a>. Dentro del mismo evento, el día 17, se impartirán unos talleres, que se concretarán entre seis y ocho semanas antes de la fecha. Las <a class="reference external" href="http://dotconferences.eu">dotConferences</a> son charlas técnicas impartidas por desarrolladores para desarrolladores sobre diferentes lenguajes. Las <a class="reference external" href="http://dotscale.eu">dotScale</a>, no obstante, se centran en la escalabilidad de aplicaciones, sin centrarse en un lenguaje específico. Además, aunque la lista no está completa, ya se ha confirmado un interesante grupo de ponentes.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -86,7 +89,8 @@ El evento, además, seguirá las costumbres de los eventos de <a class="referenc
 
 
 <img alt="Debian Women Project" class="align-left" src="/images/dw.png" style="width: 82px; height: 140px;" />
-<p>Este fin de semana se celebra en Barcelona la <a class="reference external" href="http://bcn2014.mini.debconf.org/">MiniDebConf 2014</a>, una conferencia sobre Debian organizada por <a class="reference external" href="http://debian-es.org/">Debian-Es</a> y <a class="reference external" href="https://www.debian.org/women/">The Debian Women Project</a>.</p></div>
+<p>Este fin de semana se celebra en Barcelona la <a class="reference external" href="http://bcn2014.mini.debconf.org/">MiniDebConf 2014</a>, una conferencia sobre Debian organizada por <a class="reference external" href="http://debian-es.org/">Debian-Es</a> y <a class="reference external" href="https://www.debian.org/women/">The Debian Women Project</a>.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -104,7 +108,8 @@ El evento, además, seguirá las costumbres de los eventos de <a class="referenc
         <div class="document">
 
 
-<p><a class="reference external" href="http://editorconfig.org">EditorConfig</a> es un proyecto que parte de una idea muy simple, pero que resulta ser de gran utilidad. Básicamente se trata de un fichero con una serie de reglas que definen las normas de estilo que deben ser aplicadas al código. Este fichero es interpretado en el editor con un <em>plugin</em> que se encargará de ajustar la configuración para el código en cuestión.</p></div>
+<p><a class="reference external" href="http://editorconfig.org">EditorConfig</a> es un proyecto que parte de una idea muy simple, pero que resulta ser de gran utilidad. Básicamente se trata de un fichero con una serie de reglas que definen las normas de estilo que deben ser aplicadas al código. Este fichero es interpretado en el editor con un <em>plugin</em> que se encargará de ajustar la configuración para el código en cuestión.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -122,7 +127,8 @@ El evento, además, seguirá las costumbres de los eventos de <a class="referenc
         <div class="document">
 
 
-<p>Normalmente, los administradores de sistemas UNIX/Linux suelen recurrir a la consola de comandos para la mayoría de la tareas de gestión, sobretodo cuando se realizan de forma remota por SSH, por poner un ejemplo. También son muchos los desarrolladores que dejan de lado las herramientas gráficas (normalmente IDE's) y utilizan la consola para determinadas tareas que en cierta manera pueden ser ejecutadas con mayor eficacia de esta forma, un ejemplo sería el uso de sistemas de control de versiones como pueden ser Git o Mercurial.</p></div>
+<p>Normalmente, los administradores de sistemas UNIX/Linux suelen recurrir a la consola de comandos para la mayoría de la tareas de gestión, sobretodo cuando se realizan de forma remota por SSH, por poner un ejemplo. También son muchos los desarrolladores que dejan de lado las herramientas gráficas (normalmente IDE's) y utilizan la consola para determinadas tareas que en cierta manera pueden ser ejecutadas con mayor eficacia de esta forma, un ejemplo sería el uso de sistemas de control de versiones como pueden ser Git o Mercurial.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -142,7 +148,8 @@ El evento, además, seguirá las costumbres de los eventos de <a class="referenc
 
 <img alt="BcnDevCon13" class="border align-right" src="/images/bcndevcon13.jpeg" style="width: 125px; height: 125px;" />
 <p>Ayer, día 8 de noviembre, ha tenido su inicio el <a class="reference external" href="http://bcndevcon.org">BcnDevCon13</a>. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en <em>cloud</em>, móvil, robótica y <em>open source</em>.</p>
-<p>En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.</p></div>
+<p>En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -160,7 +167,8 @@ El evento, además, seguirá las costumbres de los eventos de <a class="referenc
         <div class="document">
 
 
-<p>El primer día de la FOSDEM hubo una devroom con charlas de testing y automatización. De esta sala asistimos a las siguientes charlas de las que podemos hacer un resumenO</p></div>
+<p>El primer día de la FOSDEM hubo una devroom con charlas de testing y automatización. De esta sala asistimos a las siguientes charlas de las que podemos hacer un resumenO</p>
+</div>
         ]]>
        </description>
     </item>

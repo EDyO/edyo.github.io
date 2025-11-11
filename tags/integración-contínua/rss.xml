@@ -44,7 +44,8 @@ De la mano de <a href="https://blended.io">blended.io</a>, el evento trató prin
 
 
 <img alt="Bucle de retroalimentación" class="border align-left" src="/images/estandarizacion.jpg" />
-<p>Para finalizar esta serie de <a class="reference external" href="http://itrevolution.com/authors/gene-kim">Gene Kim</a>, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio.</p></div>
+<p>Para finalizar esta serie de <a class="reference external" href="http://itrevolution.com/authors/gene-kim">Gene Kim</a>, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -63,7 +64,8 @@ De la mano de <a href="https://blended.io">blended.io</a>, el evento trató prin
 
 
 <img alt="Bucle de retroalimentación" class="align-right" src="/images/Feedback_Loop.png" />
-<p>La penúltima entrega de <a class="reference external" href="http://itrevolution.com/authors/gene-kim">Gene Kim</a>, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes.</p></div>
+<p>La penúltima entrega de <a class="reference external" href="http://itrevolution.com/authors/gene-kim">Gene Kim</a>, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -82,7 +84,8 @@ De la mano de <a href="https://blended.io">blended.io</a>, el evento trató prin
 
 
 <img alt="Automatización" class="align-right" src="/images/automation.jpeg" />
-<p>En el noveno punto, <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto.</p></div>
+<p>En el noveno punto, <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -101,7 +104,8 @@ De la mano de <a href="https://blended.io">blended.io</a>, el evento trató prin
 
 
 <img alt="Chaos Monkey" class="align-right" src="/images/chaos-monkey.png" />
-<p>El octavo punto de <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> sobre DevOps trata sobre cómo se integran las áreas de Seguridad informática y calidad en los flujos de trabajo de DevOps. Aunque parezca algo muy complejo de hacer, es también algo que conviene comprender correctamente para poder realizar de la forma más adecuada. Es decir, sin perder el sentido de tener procesos de calidad y seguridad, ni afectar al esfuerzo realizado para disponer de las funcionalidades en el tiempo requerido para mantener la competitividad de la organización.</p></div>
+<p>El octavo punto de <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> sobre DevOps trata sobre cómo se integran las áreas de Seguridad informática y calidad en los flujos de trabajo de DevOps. Aunque parezca algo muy complejo de hacer, es también algo que conviene comprender correctamente para poder realizar de la forma más adecuada. Es decir, sin perder el sentido de tener procesos de calidad y seguridad, ni afectar al esfuerzo realizado para disponer de las funcionalidades en el tiempo requerido para mantener la competitividad de la organización.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -121,7 +125,8 @@ De la mano de <a href="https://blended.io">blended.io</a>, el evento trató prin
 
 <img alt="Valor" class="align-right" src="/images/hands.png" />
 <p>En el séptimo punto, <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> explica el valor intrínseco de DevOps para la organización, expuesto a partir de los beneficios que la adopción de DevOps aporta, recopilados a partir de estudios, experiencias, conversaciones y sus propios libros.</p>
-<p>A partir de los puntos en los que DevOps aporta valor, establece, para acabar, una relación primordial, básica y primaria por la que aplicar los principios de DevOps.</p></div>
+<p>A partir de los puntos en los que DevOps aporta valor, establece, para acabar, una relación primordial, básica y primaria por la que aplicar los principios de DevOps.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -140,7 +145,8 @@ De la mano de <a href="https://blended.io">blended.io</a>, el evento trató prin
 
 
 <img alt="Cambio en adelante" class="align-left" src="/images/change-ahead.png" />
-<p>El siguiente apartado que <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> trata, destaca las áreas en las que los patrones DevOps operan. Éstas áreas fueron descritas en el libro <a class="reference external" href="http://www.realgenekim.me/devops-cookbook/">DevOps Cookbook</a>. Éstas áreas unen, de formas diferente, tres conceptos altamente importantes de todo equipo de IT: Producción, Desarrollo y Operaciones.</p></div>
+<p>El siguiente apartado que <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> trata, destaca las áreas en las que los patrones DevOps operan. Éstas áreas fueron descritas en el libro <a class="reference external" href="http://www.realgenekim.me/devops-cookbook/">DevOps Cookbook</a>. Éstas áreas unen, de formas diferente, tres conceptos altamente importantes de todo equipo de IT: Producción, Desarrollo y Operaciones.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -159,7 +165,8 @@ De la mano de <a href="https://blended.io">blended.io</a>, el evento trató prin
 
 
 <img alt="Visible Ops Handbook" class="align-left" src="/images/visible-ops.jpg" />
-<p>Aunque con retraso, aquí está el cuarto punto que es necesario conocer, según <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a>, sobre DevOps. En esta ocasión, compara DevOps con lo que describió en el libro que coescribió, titulado <a class="reference external" href="http://www.amazon.com/The-Visible-Ops-Handbook-Implementing/dp/0975568612">Visible Ops Handbook</a>. Como en las anteriores ocasiones, para comentar podéis utilizar el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p></div>
+<p>Aunque con retraso, aquí está el cuarto punto que es necesario conocer, según <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a>, sobre DevOps. En esta ocasión, compara DevOps con lo que describió en el libro que coescribió, titulado <a class="reference external" href="http://www.amazon.com/The-Visible-Ops-Handbook-Implementing/dp/0975568612">Visible Ops Handbook</a>. Como en las anteriores ocasiones, para comentar podéis utilizar el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -179,7 +186,8 @@ De la mano de <a href="https://blended.io">blended.io</a>, el evento trató prin
 
 <img alt="Change vs Trouble" class="align-left" src="/images/bridge-building.png" />
 <p>El tercer punto sobre DevOps que propone <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> es la relación con <a class="reference external" href="http://es.wikipedia.org/wiki/Information_Technology_Infrastructure_Library">ITIL</a> y <a class="reference external" href="http://es.wikipedia.org/wiki/Gesti%C3%B3n_de_servicios_de_tecnolog%C3%ADas_de_la_informaci%C3%B3n">ITSM</a>, dos conjuntos de prácticas y disciplinas para la gestión de operaciones IT, muy extendidas, especialmente en las grandes empresas.
-Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitter, con el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p></div>
+Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitter, con el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -199,7 +207,8 @@ Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitte
 
 <img alt="Change vs Trouble" class="align-right" src="/images/change-trouble.jpg" />
 <p>Ya está aquí la segunda entrega de las 11 cosas que necesitas saber sobre DevOps, por <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a>. En esta ocasión, se comenta sobre la relación con las metodologías ágiles, y sus efectos en los ciclos de desarrollo de aplicaciones. En este apartado, explica cómo la aplicación de las metodologías ágiles ayudan a la aparición de gran parte del movimiento DevOps, explicando cómo se relacionan y qué aportan al negocio.
-Como ya se indicó la semana pasada, creemos que es una buena excusa para iniciar un debate en Twitter con el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p></div>
+Como ya se indicó la semana pasada, creemos que es una buena excusa para iniciar un debate en Twitter con el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -219,7 +228,8 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
 
 <img alt="BcnDevCon13" class="border align-right" src="/images/bcndevcon13.jpeg" style="width: 125px; height: 125px;" />
 <p>Ayer, día 8 de noviembre, ha tenido su inicio el <a class="reference external" href="http://bcndevcon.org">BcnDevCon13</a>. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en <em>cloud</em>, móvil, robótica y <em>open source</em>.</p>
-<p>En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.</p></div>
+<p>En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -237,7 +247,7 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
         <div class="document" id="empaquetado-continuo">
 <h1 class="title">Empaquetado contínuo</h1>
 
-<p>Maciej Pasternacki <a class="reference external" href="https://fosdem.org/2013/schedule/event/continuous_packaging_pipeline/">contó</a> cómo, con componentes ya existentes y otros que ha creado él, se puede construir una cadena de empaquetamiento contínuo.</p></div>
+<p>Maciej Pasternacki <a class="reference external" href="https://fosdem.org/2013/schedule/event/continuous_packaging_pipeline/">contó</a> cómo, con componentes ya existentes y otros que ha creado él, se puede construir una cadena de empaquetamiento contínuo.</p>
         ]]>
        </description>
     </item>

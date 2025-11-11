@@ -58,7 +58,8 @@
         <div class="document">
 
 
-<p>Este artículo es el primero de una serie dedicada al protocolo <a class="reference external" href="https://es.wikipedia.org/wiki/Secure_Shell">SSH o Secure Shell</a>, un protocolo de acceso remoto a servidores altamente extendido en sistemas UN*X como GNU/Linux o FreeBSD. En los artículos trataremos de explicar el uso básico de este protocolo e iremos profundizando más en las capacidades avanzadas disponibles.</p></div>
+<p>Este artículo es el primero de una serie dedicada al protocolo <a class="reference external" href="https://es.wikipedia.org/wiki/Secure_Shell">SSH o Secure Shell</a>, un protocolo de acceso remoto a servidores altamente extendido en sistemas UN*X como GNU/Linux o FreeBSD. En los artículos trataremos de explicar el uso básico de este protocolo e iremos profundizando más en las capacidades avanzadas disponibles.</p>
+</div>
         ]]>
        </description>
     </item>

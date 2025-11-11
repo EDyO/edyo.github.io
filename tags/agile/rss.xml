@@ -22,8 +22,13 @@
         <![CDATA[
         
 
-        ¿Qué puede haber mejor para empezar el año nuevo que apuntarse a un curso? Bueno, posiblemente, bastantes otras cosas, pero por si estáis planteándoos un cambio o sentís la necesidad de aprender, en este post os damos la referencia de dos cursos.
-Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Management, Scrum, DevOps y Lean IT, como el impartido el curso pasado, y que comenzará el próximo 17 de Marzo.
+        <div class="document">
+
+
+<img alt="Curso" class="align-left" src="/images/clase.jpg" style="width: 200px; height: 150px;" />
+<p>¿Qué puede haber mejor para empezar el año nuevo que apuntarse a un curso? Bueno, posiblemente, bastantes otras cosas, pero por si estáis planteándoos un cambio o sentís la necesidad de aprender, en este post os damos la referencia de dos cursos.</p>
+<p>Por un lado, en la UPC, se vuelve a impartir éste año el curso de <a class="reference external" href="http://www.talent.upc.edu/cat/professionals/presentacio/codi/527700/agile-management-scrum-devops-lean">Agile IT Management, Scrum, DevOps y Lean IT</a>, como el <a class="reference external" href="http://www.entredevyops.es/posts/curso-scrum-devops-lean-it-barcelona-bcn.html">impartido el curso pasado</a>, y que comenzará el próximo 17 de Marzo.
+Por otro lado, <a class="reference external" href="http://itnove.com/">itnove</a> ha organizado algunos cursos para conseguir la certificación de <a class="reference external" href="http://scrum.org/">Scrum.org</a>. Por un lado está la preparación para la <a class="reference external" href="http://itnove.com/es/servicios/formacion-scrum">certificación</a> para <em>Product Owner</em> y para desarrollador en Java.</p></div>
         ]]>
        </description>
     </item>
@@ -42,7 +47,8 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Man
 
 
 <img alt="Bucle de retroalimentación" class="border align-left" src="/images/estandarizacion.jpg" />
-<p>Para finalizar esta serie de <a class="reference external" href="http://itrevolution.com/authors/gene-kim">Gene Kim</a>, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio.</p></div>
+<p>Para finalizar esta serie de <a class="reference external" href="http://itrevolution.com/authors/gene-kim">Gene Kim</a>, presentamos la traducción de su tercer patrón DevOps favorito. En este patrón, presenta el problema de la estandarización en los entornos donde los proyectos son desplegados, y cómo lidiar con ellos, aplicando una técnica ágil, tratando de no olvidar las necesidades de negocio.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -61,7 +67,8 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Man
 
 
 <img alt="CAS 2014" class="align-left" src="/images/logo-cas.png" />
-<p>Los días 4 y 5 de Diciembre, la asociación <a class="reference external" href="http://agile-spain.org/en">Agile-Spain</a> organiza las <a class="reference external" href="http://cas2014.agile-spain.org/">Conferencias Agile Spain 2014</a>, que tendrán lugar en el CCCB (Centre de Cultura Contemporània de Barcelona), y para las que ya han iniciado el período de aceptación de charlas y la venta de las primeras entradas. Una cita que más vale no perderse.</p></div>
+<p>Los días 4 y 5 de Diciembre, la asociación <a class="reference external" href="http://agile-spain.org/en">Agile-Spain</a> organiza las <a class="reference external" href="http://cas2014.agile-spain.org/">Conferencias Agile Spain 2014</a>, que tendrán lugar en el CCCB (Centre de Cultura Contemporània de Barcelona), y para las que ya han iniciado el período de aceptación de charlas y la venta de las primeras entradas. Una cita que más vale no perderse.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -80,7 +87,8 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Man
 
 
 <img alt="Bucle de retroalimentación" class="align-right" src="/images/Feedback_Loop.png" />
-<p>La penúltima entrega de <a class="reference external" href="http://itrevolution.com/authors/gene-kim">Gene Kim</a>, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes.</p></div>
+<p>La penúltima entrega de <a class="reference external" href="http://itrevolution.com/authors/gene-kim">Gene Kim</a>, consistente en su segundo patrón favorito, refleja la importancia de la Segunda Vía. El inicio del bucle de retroalimentación, su importancia y algunas veladas sugerencias de cómo conseguirlo, son el contenido principal. Basándose en otro caso real, muestra cómo, implicando a Desarrollo en la atención y resolución de los problemas causados por la introducción de nuevas funcionalidades, se puede reducir la duración de las interrupciones o degradaciones de servicio, mejorando la experiencia de los usuarios finales y de los clientes.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -99,7 +107,8 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Man
 
 
 <img alt="Automatización" class="align-right" src="/images/automation.jpeg" />
-<p>En el noveno punto, <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto.</p></div>
+<p>En el noveno punto, <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> inicia el tramo final de los once puntos, en el que presentará los patrones de DevOps que más le gustan. En este caso, destaca la importancia de la automatización y de su implantación en las primeras etapas del proyecto.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -120,7 +129,8 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Man
 <img alt="The Dream Team Nightmare" class="border align-left" src="/images/dream_team.jpg" />
 <p>En el viaje al <a class="reference external" href="http://fosdem.org">FOSDEM</a> que realizamos el pasado mes de Febrero (podéis encontrar la crónica del viaje <a class="reference external" href="http://www.entredevyops.es/posts/fosdem-2014-cronica-viaje.html">aquí</a>) siempre es visita obligatoria el stand de <a class="reference external" href="http://www.oreilly.com/">O'Reilly</a> para aprovechar el descuento que se aplica por comprar en el Fosdem y hacerme con alguna pequeña joya.</p>
 <p>La vista siempre se me va hacia libros de temática relacionada con mi bien amado Linux, pero últimamente también estoy cayendo en libros relacionados con  Agile, DevOps, Metodologías de gestión de proyectos y equipos, etc... De entre todos los libros que me llamaron la atención encontré uno que destacó, primero por su temática (Agile)  y luego por su formato.</p>
-<p>El libro del que os estoy hablando es <a class="reference external" href="http://pragprog.com/book/ptdream/the-dream-team-nightmare">The Dream Team Nightmare</a></p></div>
+<p>El libro del que os estoy hablando es <a class="reference external" href="http://pragprog.com/book/ptdream/the-dream-team-nightmare">The Dream Team Nightmare</a></p>
+</div>
         ]]>
        </description>
     </item>
@@ -139,7 +149,8 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Man
 
 
 <img alt="Chaos Monkey" class="align-right" src="/images/chaos-monkey.png" />
-<p>El octavo punto de <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> sobre DevOps trata sobre cómo se integran las áreas de Seguridad informática y calidad en los flujos de trabajo de DevOps. Aunque parezca algo muy complejo de hacer, es también algo que conviene comprender correctamente para poder realizar de la forma más adecuada. Es decir, sin perder el sentido de tener procesos de calidad y seguridad, ni afectar al esfuerzo realizado para disponer de las funcionalidades en el tiempo requerido para mantener la competitividad de la organización.</p></div>
+<p>El octavo punto de <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> sobre DevOps trata sobre cómo se integran las áreas de Seguridad informática y calidad en los flujos de trabajo de DevOps. Aunque parezca algo muy complejo de hacer, es también algo que conviene comprender correctamente para poder realizar de la forma más adecuada. Es decir, sin perder el sentido de tener procesos de calidad y seguridad, ni afectar al esfuerzo realizado para disponer de las funcionalidades en el tiempo requerido para mantener la competitividad de la organización.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -158,7 +169,8 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Man
 
 
 <img alt="Agile Open Space 2014" class="align-left" src="/images/aoslogo2014.jpg" style="width: 128px; height: 128px;" />
-<p>El próximo mes de Junio, durante los días 6 y 7, se celebrará en Valladolid el <a class="reference external" href="http://aos2014.agile-spain.org/">Agile Open Spain 2014</a>.</p></div>
+<p>El próximo mes de Junio, durante los días 6 y 7, se celebrará en Valladolid el <a class="reference external" href="http://aos2014.agile-spain.org/">Agile Open Spain 2014</a>.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -178,7 +190,8 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Man
 
 <img alt="Valor" class="align-right" src="/images/hands.png" />
 <p>En el séptimo punto, <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> explica el valor intrínseco de DevOps para la organización, expuesto a partir de los beneficios que la adopción de DevOps aporta, recopilados a partir de estudios, experiencias, conversaciones y sus propios libros.</p>
-<p>A partir de los puntos en los que DevOps aporta valor, establece, para acabar, una relación primordial, básica y primaria por la que aplicar los principios de DevOps.</p></div>
+<p>A partir de los puntos en los que DevOps aporta valor, establece, para acabar, una relación primordial, básica y primaria por la que aplicar los principios de DevOps.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -197,7 +210,8 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Man
 
 
 <img alt="Cambio en adelante" class="align-left" src="/images/change-ahead.png" />
-<p>El siguiente apartado que <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> trata, destaca las áreas en las que los patrones DevOps operan. Éstas áreas fueron descritas en el libro <a class="reference external" href="http://www.realgenekim.me/devops-cookbook/">DevOps Cookbook</a>. Éstas áreas unen, de formas diferente, tres conceptos altamente importantes de todo equipo de IT: Producción, Desarrollo y Operaciones.</p></div>
+<p>El siguiente apartado que <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> trata, destaca las áreas en las que los patrones DevOps operan. Éstas áreas fueron descritas en el libro <a class="reference external" href="http://www.realgenekim.me/devops-cookbook/">DevOps Cookbook</a>. Éstas áreas unen, de formas diferente, tres conceptos altamente importantes de todo equipo de IT: Producción, Desarrollo y Operaciones.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -216,7 +230,8 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Man
 
 
 <img alt="Diferentes caminos" class="align-right" src="/images/sign-ways.png" />
-<p>El quinto punto que <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> recomienda conocer sobre DevOps, describe los principios fundamentales, que no dejan de ser las <em>Tres vías</em> que menciona en sus libros <a class="reference external" href="http://www.realgenekim.me/devops-cookbook/">DevOps Cookbook</a> y <a class="reference external" href="http://www.amazon.com/The-Phoenix-Project-Helping-Business/dp/0988262592">The Phoenix Project</a>. Como en los anteriores artículos, podéis enviar vuestros comentarios al <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p></div>
+<p>El quinto punto que <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> recomienda conocer sobre DevOps, describe los principios fundamentales, que no dejan de ser las <em>Tres vías</em> que menciona en sus libros <a class="reference external" href="http://www.realgenekim.me/devops-cookbook/">DevOps Cookbook</a> y <a class="reference external" href="http://www.amazon.com/The-Phoenix-Project-Helping-Business/dp/0988262592">The Phoenix Project</a>. Como en los anteriores artículos, podéis enviar vuestros comentarios al <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -235,7 +250,8 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Man
 
 
 <img alt="Visible Ops Handbook" class="align-left" src="/images/visible-ops.jpg" />
-<p>Aunque con retraso, aquí está el cuarto punto que es necesario conocer, según <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a>, sobre DevOps. En esta ocasión, compara DevOps con lo que describió en el libro que coescribió, titulado <a class="reference external" href="http://www.amazon.com/The-Visible-Ops-Handbook-Implementing/dp/0975568612">Visible Ops Handbook</a>. Como en las anteriores ocasiones, para comentar podéis utilizar el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p></div>
+<p>Aunque con retraso, aquí está el cuarto punto que es necesario conocer, según <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a>, sobre DevOps. En esta ocasión, compara DevOps con lo que describió en el libro que coescribió, titulado <a class="reference external" href="http://www.amazon.com/The-Visible-Ops-Handbook-Implementing/dp/0975568612">Visible Ops Handbook</a>. Como en las anteriores ocasiones, para comentar podéis utilizar el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -255,7 +271,8 @@ Por un lado, en la UPC, se vuelve a impartir éste año el curso de Agile IT Man
 
 <img alt="Change vs Trouble" class="align-left" src="/images/bridge-building.png" />
 <p>El tercer punto sobre DevOps que propone <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a> es la relación con <a class="reference external" href="http://es.wikipedia.org/wiki/Information_Technology_Infrastructure_Library">ITIL</a> y <a class="reference external" href="http://es.wikipedia.org/wiki/Gesti%C3%B3n_de_servicios_de_tecnolog%C3%ADas_de_la_informaci%C3%B3n">ITSM</a>, dos conjuntos de prácticas y disciplinas para la gestión de operaciones IT, muy extendidas, especialmente en las grandes empresas.
-Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitter, con el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p></div>
+Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitter, con el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -275,7 +292,8 @@ Como en las dos anteriores entregas, esperamos que os unáis al debate en Twitte
 
 <img alt="Change vs Trouble" class="align-right" src="/images/change-trouble.jpg" />
 <p>Ya está aquí la segunda entrega de las 11 cosas que necesitas saber sobre DevOps, por <a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a>. En esta ocasión, se comenta sobre la relación con las metodologías ágiles, y sus efectos en los ciclos de desarrollo de aplicaciones. En este apartado, explica cómo la aplicación de las metodologías ágiles ayudan a la aparición de gran parte del movimiento DevOps, explicando cómo se relacionan y qué aportan al negocio.
-Como ya se indicó la semana pasada, creemos que es una buena excusa para iniciar un debate en Twitter con el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p></div>
+Como ya se indicó la semana pasada, creemos que es una buena excusa para iniciar un debate en Twitter con el <em>hashtag</em> <a class="reference external" href="https://twitter.com/search?q=%2311cosasdevops">#11cosasdevops</a>.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -294,7 +312,8 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
 
 
 <img alt="DevOps Gears" class="align-left" src="/images/gears1.jpg" style="width: 130px; height: 120px;" />
-<p><a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a>, autor de <a class="reference external" href="http://itrevolution.com/books/phoenix-project-devops-book/">The Phoenix Project</a>, <a class="reference external" href="http://itrevolution.com/books/devops-cookbook/">The DevOps Cookbook</a> junto con otros, de quien ya hemos hablado en este blog, tiene publicado un documento llamado <a class="reference external" href="http://itrevolution.com/11devops/">The Top 11 Things You Need To Know About DevOps</a>. Dado que los puntos que detalla son bastante interesantes, vamos a iniciar una serie de artículos semanales, en los que traduciremos uno a uno cada punto de la lista. A continuación, encontraréis el primero, que consiste en una visión histórica del concepto de DevOps. Esperamos vuestras reacciones en Twitter con el <em>hashtag</em> #11cosasdevops.</p></div>
+<p><a class="reference external" href="http://itrevolution.com/authors/gene-kim/">Gene Kim</a>, autor de <a class="reference external" href="http://itrevolution.com/books/phoenix-project-devops-book/">The Phoenix Project</a>, <a class="reference external" href="http://itrevolution.com/books/devops-cookbook/">The DevOps Cookbook</a> junto con otros, de quien ya hemos hablado en este blog, tiene publicado un documento llamado <a class="reference external" href="http://itrevolution.com/11devops/">The Top 11 Things You Need To Know About DevOps</a>. Dado que los puntos que detalla son bastante interesantes, vamos a iniciar una serie de artículos semanales, en los que traduciremos uno a uno cada punto de la lista. A continuación, encontraréis el primero, que consiste en una visión histórica del concepto de DevOps. Esperamos vuestras reacciones en Twitter con el <em>hashtag</em> #11cosasdevops.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -314,7 +333,8 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
 
 <img alt="UPC" class="align-right" src="/images/upc.jpeg" style="width: 125px; height: 125px;" />
 <p>Era de esperar que en algún momento apareciera, desde el mundo universitario, formación sobre el tema DevOps, o que la incluya. Así pues, llega el curso de formación contínua <a class="reference external" href="http://www.talent.upc.edu/professionals/informacio/codi/527700/agile/management/scrum/devops/lean">Agile IT Management: Scrum, DevOps, Lean IT</a>, ofrecido por <a class="reference external" href="http://www.talent.upc.edu/">BarcelonaTech</a>.</p>
-<p>Este curso incluye la práctica con ciertas herramientas relacionas, entre ellas <a class="reference external" href="http://jenkins-ci.org">Jenkins</a>, <a class="reference external" href="http://puppetlabs.com">Puppet</a>, o <a class="reference external" href="http://aws.amazon.com/">Amazon WS</a>. De todos modos, no olvida la interacción con las metodología ágiles y los conceptos de <em>lean</em> aplicados a entornos de las TIC.</p></div>
+<p>Este curso incluye la práctica con ciertas herramientas relacionas, entre ellas <a class="reference external" href="http://jenkins-ci.org">Jenkins</a>, <a class="reference external" href="http://puppetlabs.com">Puppet</a>, o <a class="reference external" href="http://aws.amazon.com/">Amazon WS</a>. De todos modos, no olvida la interacción con las metodología ágiles y los conceptos de <em>lean</em> aplicados a entornos de las TIC.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -333,7 +353,8 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
 
 
 <img alt="BcnDevCon13" class="border align-left" src="/images/bcndevcon13.jpeg" style="width: 125px; height: 125px;" />
-<p>El tercer día de la <a class="reference external" href="http://bcndevcon.org">BcnDevCon13</a> fue bastante más relajado que los otros dos. No en vano fue domingo. Las visitas al salón de <a class="reference external" href="http://bcndevcon.org/retrobarcelona/">RetroBarcelona</a> se mantuvieron bastante activas. Las actividades sobre robótica, como el <a class="reference external" href="http://bcndevcon.org/aess-challenge/">AESS Challenge</a> también tuvieron bastante afluencia. La <a class="reference external" href="http://bcndevcon.org/activities/agile-station/">Agile Station</a> tuvo actividad, pero tuvieron que cancelar alguna actividad debido a la baja afluencia. No obstante, su taller de robótica infantil pareció tener cierto éxito.</p></div>
+<p>El tercer día de la <a class="reference external" href="http://bcndevcon.org">BcnDevCon13</a> fue bastante más relajado que los otros dos. No en vano fue domingo. Las visitas al salón de <a class="reference external" href="http://bcndevcon.org/retrobarcelona/">RetroBarcelona</a> se mantuvieron bastante activas. Las actividades sobre robótica, como el <a class="reference external" href="http://bcndevcon.org/aess-challenge/">AESS Challenge</a> también tuvieron bastante afluencia. La <a class="reference external" href="http://bcndevcon.org/activities/agile-station/">Agile Station</a> tuvo actividad, pero tuvieron que cancelar alguna actividad debido a la baja afluencia. No obstante, su taller de robótica infantil pareció tener cierto éxito.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -353,7 +374,8 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
 
 <img alt="BcnDevCon13" class="border align-right" src="/images/bcndevcon13.jpeg" style="width: 125px; height: 125px;" />
 <p>Ayer, día 8 de noviembre, ha tenido su inicio el <a class="reference external" href="http://bcndevcon.org">BcnDevCon13</a>. Ésta es la tercera edición de este evento que reúne a 1000 entusiastas de la tecnología, desarrolladores y muchos otros perfiles similares. En esta ocasión se centra en <em>cloud</em>, móvil, robótica y <em>open source</em>.</p>
-<p>En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.</p></div>
+<p>En este artículo se explican algunas de las charlas que ha habido en este primer día. Durante el fin de semana habrá más sesiones que podréis leer en posteriores artículos.</p>
+</div>
         ]]>
        </description>
     </item>
@@ -371,7 +393,8 @@ Como ya se indicó la semana pasada, creemos que es una buena excusa para inicia
         <div class="document">
 
 
-<p>El grupo de <a class="reference external" href="http://www.meetup.com/python-185/">Python Barcelona</a> de <a class="reference external" href="http://www.meetup.com">Meetup</a> organiza reuniones monográficas sobre temas relacionados con <a class="reference external" href="http://www.python.org/">Python</a>. En esta ocasión, se hicieron presentaciones sobre metodologías de desarrollo.</p></div>
+<p>El grupo de <a class="reference external" href="http://www.meetup.com/python-185/">Python Barcelona</a> de <a class="reference external" href="http://www.meetup.com">Meetup</a> organiza reuniones monográficas sobre temas relacionados con <a class="reference external" href="http://www.python.org/">Python</a>. En esta ocasión, se hicieron presentaciones sobre metodologías de desarrollo.</p>
+</div>
         ]]>
        </description>
     </item>
