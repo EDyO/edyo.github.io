@@ -11,7 +11,27 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 31 Jul 2025 20:00:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Nov 2025 21:45:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast 101: Entre IAs anda el ~~juego~~ DevOps</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-101.html</link>
+      <pubDate>Tue, 11 Nov 2025 21:45:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-101.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/ai-programmers-collaborating.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 101 del podcast de Entre Dev y Ops hablaremos sobre nuestros
+experimentos con los últimos modelos de IA.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 100: Especial episodio 100</title>
       <link>https://www.entredevyops.es/podcasts/podcast-100.html</link>
