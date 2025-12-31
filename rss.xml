@@ -11,7 +11,27 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 11 Nov 2025 21:45:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Dec 2025 14:35:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast 102: Imma Valls Developer Advocate en Grafana</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-102.html</link>
+      <pubDate>Wed, 31 Dec 2025 14:35:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-102.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/developer-advocate.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 102 del podcast de Entre Dev y Ops hablaremos con Imma Valls,
+Developer Advocate en Grafana.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 101: Entre IAs anda el ~~juego~~ DevOps</title>
       <link>https://www.entredevyops.es/podcasts/podcast-101.html</link>
