@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 31 Dec 2025 14:35:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Mar 2026 22:50:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast 103 - Robótica y software libre con Esteve Fernández</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-103.html</link>
+      <pubDate>Tue, 31 Mar 2026 22:50:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-103.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/robot.jpg"/>
+            </p>
+        
+
+        <p>En el episodio 103 del podcast de Entre Dev y Ops hablaremos con Esteve Fernández de robótica y software libre.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 102: Imma Valls Developer Advocate en Grafana</title>
       <link>https://www.entredevyops.es/podcasts/podcast-102.html</link>
