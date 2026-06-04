@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 05 May 2026 21:30:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jun 2026 21:10:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast 105 - K8s e IA con Rael Garcia</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-105.html</link>
+      <pubDate>Thu, 04 Jun 2026 21:10:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-105.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/kubernetes.png"/>
+            </p>
+        
+
+        <p>En el episodio 105 del podcast de Entre Dev y Ops hablaremos de kubernetes e IA con Rael Garcia.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 104 - IA en 2026 con Roger Oriol</title>
       <link>https://www.entredevyops.es/podcasts/podcast-104.html</link>
