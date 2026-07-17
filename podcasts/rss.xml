@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 04 Jun 2026 21:10:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jul 2026 15:50:00 +0000</lastBuildDate><atom:link href="https://www.entredevyops.es/podcasts/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcat 106 - DevopsDays Barcelona</title>
+      <link>https://www.entredevyops.es/podcasts/podcast-106.html</link>
+      <pubDate>Fri, 17 Jul 2026 15:50:00 +0000</pubDate>
+      
+      <guid>https://www.entredevyops.es/podcasts/podcast-106.html</guid>
+      <description>
+        <![CDATA[
+        
+            <p>
+            <img hspace="5" src="https://www.entredevyops.es/images/devopsdaysbarcelona2026.png"/>
+            </p>
+        
+
+        <p>En el episodio 106 del podcast de Entre Dev y Ops hablaremos sobre la conferencia DevopsDays Barcelona.</p>
+        ]]>
+       </description>
+    </item>
+    
     <item>
       <title>Podcast 105 - K8s e IA con Rael Garcia</title>
       <link>https://www.entredevyops.es/podcasts/podcast-105.html</link>
